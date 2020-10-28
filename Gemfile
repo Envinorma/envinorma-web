@@ -48,7 +48,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   # BetterErrors provides a better error page
   gem 'better_errors', '~> 2.1', '>= 2.1.1'
-  gem 'binding_of_caller', '~> 0.7.2'
+  gem 'binding_of_caller', '~> 0.8.0'
 end
 
 group :test do
