@@ -1,0 +1,6 @@
+= link_to "< retour à la liste d'installations", root_path
+h1 = @installation.name
+p
+  b Date du site :
+  =< @installation.date.strftime("%d/%m/%Y")
+  =< link_to "modifier la date", edit_installation_path(@installation)

@@ -1,3 +1,6 @@
 h1 Index d'installation
+ul
 - @installations.each do |installation|
-  = installation.name
+  li
+    => installation.name
+    = link_to "Voir l'installation", installation_path(installation)
