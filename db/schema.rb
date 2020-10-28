@@ -10,10 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_28_112557) do
+ActiveRecord::Schema.define(version: 2020_10_28_152953) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "classements", force: :cascade do |t|
+    t.integer "rubrique"
+    t.string "regime"
+    t.string "alinea"
+    t.bigint "installation_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["installation_id"], name: "index_classements_on_installation_id"
+  end
 
   create_table "installations", force: :cascade do |t|
     t.string "name"
@@ -22,4 +32,5 @@ ActiveRecord::Schema.define(version: 2020_10_28_112557) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "classements", "installations"
 end

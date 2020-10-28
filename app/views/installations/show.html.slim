@@ -4,3 +4,10 @@ p
   b Date du site :
   =< @installation.date.strftime("%d/%m/%Y")
   =< link_to "modifier la date", edit_installation_path(@installation)
+
+h2 Classements
+- @installation.classements.each do |classement|
+  li
+    = classement.rubrique
+    = " - #{classement.alinea}"
+    =< classement.regime
