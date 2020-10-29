@@ -1,5 +1,6 @@
 = link_to "< retour à la liste d'installations", root_path
 h1 = @installation.name
+= link_to "Voir les prescriptions", arretes_path(@installation)
 p
   b Date du site :
   =< @installation.date.strftime("%d/%m/%Y")
@@ -11,3 +12,8 @@ h2 Classements
     = classement.rubrique
     = " - #{classement.alinea}"
     =< classement.regime
+
+h2 Arrêtés
+- @installation.arretes.each do |arrete|
+  li
+    = arrete.name

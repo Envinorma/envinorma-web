@@ -10,10 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_28_152953) do
+ActiveRecord::Schema.define(version: 2020_10_28_164743) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "arretes", force: :cascade do |t|
+    t.string "name"
+    t.jsonb "data"
+    t.bigint "installation_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["installation_id"], name: "index_arretes_on_installation_id"
+  end
 
   create_table "classements", force: :cascade do |t|
     t.integer "rubrique"
@@ -32,5 +41,6 @@ ActiveRecord::Schema.define(version: 2020_10_28_152953) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "arretes", "installations"
   add_foreign_key "classements", "installations"
 end
