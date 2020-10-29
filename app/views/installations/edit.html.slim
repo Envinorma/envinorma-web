@@ -1,9 +1,9 @@
-h1
-  | Modifier
-  =< @installation.name
+.container
+  .row
+    .col
+      h1.display-4.mt-5.mb-4 = "Modifier #{@installation.name}"
 
-= simple_form_for @installation do |f|
-  = f.input :date, as: :date, html5: true
-  = f.button :submit, "mettre à jour la date"
-
-= link_to "annuler la modification", installation_path(@installation)
+      = simple_form_for @installation do |f|
+        = f.input :date, as: :date, html5: true
+        = f.button :submit, "mettre à jour la date", class: "btn btn-primary"
+        = link_to "annuler la modification", installation_path(@installation), class: "btn btn-link"

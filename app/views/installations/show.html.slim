@@ -1,19 +1,26 @@
-= link_to "< retour à la liste d'installations", root_path
-h1 = @installation.name
-= link_to "Voir les prescriptions", arretes_path(@installation)
-p
-  b Date du site :
-  =< @installation.date.strftime("%d/%m/%Y")
-  =< link_to "modifier la date", edit_installation_path(@installation)
+.container
+  .row
+    .col
+      = link_to "< retour à la liste d'installations", root_path
+      .content
+        .d-flex.align-items-start.mt-5
+          h1.display-4.mb-4 = @installation.name
+          = link_to "Voir les prescriptions", arretes_path(@installation), class: "btn btn-primary ml-auto"
+        p
+          b Date du site :
+          =< @installation.date.strftime("%d/%m/%Y")
+          =< link_to "modifier la date", edit_installation_path(@installation)
 
-h2 Classements
-- @installation.classements.each do |classement|
-  li
-    = classement.rubrique
-    = " - #{classement.alinea}"
-    =< classement.regime
+        h2.mt-5 Classements
+        ul.list-group.list-group-flush
+          - @installation.classements.each do |classement|
+            li.list-group-item
+              = classement.rubrique
+              = " - #{classement.alinea}"
+              =< classement.regime
 
-h2 Arrêtés
-- @installation.arretes.each do |arrete|
-  li
-    = arrete.name
+        h2.mt-5 Arrêtés ministériels
+        ul.list-unstyled
+          - @installation.arretes.each do |arrete|
+            li
+              = "Arrêté du #{arrete.name}"
