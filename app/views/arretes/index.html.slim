@@ -1,5 +1,21 @@
-= link_to "< Retour à l’installation", installation_path(@installation)
-h1 les arretes
-- @arretes.each do |arrete|
-  h2 = arrete.name
-  code = arrete.data
+.container
+  .row
+    .col
+      = link_to "< Retour à l’installation", installation_path(@installation)
+
+      h1.display-4.mt-5.mb-4 les arretes
+      - @arretes.each do |arrete|
+        h2 = arrete.name
+
+        - arrete.data["sections"].each do |section|
+          - extract_sections = lambda do |subsection, level = 3|
+            *{tag: "h#{level}"} = subsection["title"]["text"]
+
+            - subsection["sections"].each do |item|
+              - extract_sections.call(item, level + 1)
+
+            - if subsection["outer_alineas"].count != 0
+              - subsection["outer_alineas"].each do |outer_alinea|
+                p = outer_alinea["text"]
+
+          - extract_sections.call(section)
