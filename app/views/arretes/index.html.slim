@@ -3,9 +3,18 @@
     .col
       = link_to "< Retour à l’installation", installation_path(@installation)
 
-      h1.display-4.mt-5.mb-4 les arretes
+  .row.mt-5
+    .col-2
+      dl.am_nav
+        - @arretes.each do |arrete|
+          dd.mb-4
+            = link_to arrete.data["short_title"], anchor: "#{arrete.data["short_title"].delete ' '}"
+
+    .col-10
+      h1.display-4.mb-4 Les prescriptions
+      hr.mb-5.mt-5
       - @arretes.each do |arrete|
-        h2 = arrete.data["short_title"]
+        h2 id="#{arrete.data["short_title"].delete ' '}" = arrete.data["short_title"]
 
         - arrete.data["sections"].each do |section|
           - extract_sections = lambda do |subsection, level = 3|
@@ -19,3 +28,4 @@
                 p = outer_alinea["text"]
 
           - extract_sections.call(section)
+        hr.mb-5.mt-5
