@@ -5,7 +5,7 @@
 
       h1.display-4.mt-5.mb-4 les arretes
       - @arretes.each do |arrete|
-        h2 = arrete.name
+        h2 = arrete.data["short_title"]
 
         - arrete.data["sections"].each do |section|
           - extract_sections = lambda do |subsection, level = 3|

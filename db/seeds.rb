@@ -15,7 +15,7 @@ path = File.join(File.dirname(__FILE__), "./seeds/TREP1900331A-2521.json")
 arrete_2521 = JSON.parse(File.read(path))
 Arrete.create(name: "04/04/19 - 2521", data: arrete_2521, installation_id: 1)
 
-path = File.join(File.dirname(__FILE__), "./seeds/DEVP1329353A-2517.json")
+path = File.join(File.dirname(__FILE__), "./seeds/ATEP9760292A-2517.json")
 arrete_2517 = JSON.parse(File.read(path))
 Arrete.create(name: "30/06/97 - 2517", data: arrete_2517, installation_id: 1)
 
