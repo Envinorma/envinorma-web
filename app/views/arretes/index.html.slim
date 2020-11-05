@@ -27,7 +27,15 @@
 
               .collapse.show id="collapse_#{secure_id}"
                 - subsection["outer_alineas"].each do |outer_alinea|
-                  p = outer_alinea["text"]
+                  - secure_id = SecureRandom.hex(10)
+                  .form-group.row
+                      .col-sm-12
+                        .form-check
+                          input class="form-check-input" type="checkbox" id="checkbox_#{secure_id}"
+                          label class="form-check-label" for="checkbox_#{secure_id}"
+                            Example = outer_alinea["text"]
+
+
 
             - subsection["sections"].each do |item|
               - extract_sections.call(item, level + 1)
