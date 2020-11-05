@@ -18,14 +18,19 @@
 
         - arrete.data["sections"].each do |section|
           - extract_sections = lambda do |subsection, level = 3|
-            *{tag: "h#{level}"} = subsection["title"]["text"]
+            - if subsection["outer_alineas"].empty?
+              *{tag: "h#{level}"} = subsection["title"]["text"]
+            - else
+              - secure_id = SecureRandom.hex(10)
+              *{tag: "h#{level}"} class="icon" data-toggle="collapse" data-target=="#collapse_#{secure_id}" = subsection["title"]["text"]
+
+
+              .collapse.show id="collapse_#{secure_id}"
+                - subsection["outer_alineas"].each do |outer_alinea|
+                  p = outer_alinea["text"]
 
             - subsection["sections"].each do |item|
               - extract_sections.call(item, level + 1)
-
-            - if subsection["outer_alineas"].count != 0
-              - subsection["outer_alineas"].each do |outer_alinea|
-                p = outer_alinea["text"]
 
           - extract_sections.call(section)
         hr.mb-5.mt-5
