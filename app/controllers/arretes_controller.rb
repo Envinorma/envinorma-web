@@ -11,13 +11,30 @@ class ArretesController < ApplicationController
     prescriptions.each do |id, text|
       prescriptions_text << text
     end
-    #to do generate .odt with prescriptions
+    generate_doc prescriptions_text
   end
 
   private
 
   def set_installation
     @installation = Installation.find(params[:id])
+  end
+
+  def generate_doc prescriptions_text
+    template_path = File.join(File.dirname(__FILE__), "../../db/templates/template.odt")
+
+    i = 0
+    fiche_inspection = ODFReport::Report.new(template_path) do |r|
+      r.add_table("Tableau", prescriptions_text, :header=>true) do |t|
+        t.add_column(:id) { |item| "#{i += 1}" }
+        t.add_column(:prescription) { |item| "#{item}" }
+      end
+    end
+
+    send_data fiche_inspection.generate,
+      type: 'application/vnd.oasis.opendocument.text',
+      disposition: 'inline',
+      filename: 'fiche_inspection.odt'
   end
 
   def prescriptions_params
