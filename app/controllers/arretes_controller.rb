@@ -6,12 +6,21 @@ class ArretesController < ApplicationController
   end
 
   def generate_doc_with_prescriptions
-    prescriptions = prescriptions_params.to_h
-    prescriptions_text = []
-    prescriptions.each do |id, text|
-      prescriptions_text << text
+    prescriptions = {}
+    prescriptions_params.to_h.each do |key, value|
+      value_splitted = value.split('SPLIT')
+      prescriptions[key] = {ref: eval(value_splitted.first).join(' - '), value: value_splitted.last}
     end
-    generate_doc prescriptions_text
+
+    #key = "prescription_c7c06a3682298c4b93d3"
+    #value = "[\"Chapitre Ier : Dispositions générales\", \"Article 1\"]--Le présent arrêté fixe les prescriptions…"
+
+    # prescriptions: {
+    #   prescription_random_id : { ref: ["article 1er", "1.2"], value: "Le présent arrêté fixe"},
+    #   prescription_random_id : { ref: ["article 1er", "1.4"], value: "Le présent arrêté fixe"}
+    # }
+
+    generate_doc prescriptions
   end
 
   private
@@ -20,14 +29,17 @@ class ArretesController < ApplicationController
     @installation = Installation.find(params[:id])
   end
 
-  def generate_doc prescriptions_text
+  def prescriptions_params
+    params["prescriptions"].permit!
+  end
+
+  def generate_doc prescriptions
     template_path = File.join(File.dirname(__FILE__), "../../db/templates/template.odt")
 
-    i = 0
     fiche_inspection = ODFReport::Report.new(template_path) do |r|
-      r.add_table("Tableau", prescriptions_text, :header=>true) do |t|
-        t.add_column(:id) { |item| "#{i += 1}" }
-        t.add_column(:prescription) { |item| "#{item}" }
+      r.add_table("Tableau", prescriptions.values, :header=>true) do |t|
+        t.add_column(:id) { |prescription| prescription[:ref] }
+        t.add_column(:prescription) { |prescription| prescription[:value] }
       end
     end
 
@@ -35,9 +47,5 @@ class ArretesController < ApplicationController
       type: 'application/vnd.oasis.opendocument.text',
       disposition: 'inline',
       filename: 'fiche_inspection.odt'
-  end
-
-  def prescriptions_params
-    params["prescriptions"].permit!
   end
 end

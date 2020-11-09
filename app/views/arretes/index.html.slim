@@ -19,27 +19,31 @@
             h2 id="#{arrete.data["short_title"].delete ' '}" = arrete.data["short_title"]
 
             - arrete.data["sections"].each do |section|
-              - extract_sections = lambda do |subsection, level = 3|
+              - titles = {}
+
+              - extract_sections = lambda do |subsection, level = 3, titles|
+                - titles["#{level}"] = subsection["title"]["text"]
                 - if subsection["outer_alineas"].empty?
                   *{tag: "h#{level}"} = subsection["title"]["text"]
+
                 - else
                   - secure_id = SecureRandom.hex(10)
                   *{tag: "h#{level}"} class="icon" data-toggle="collapse" data-target=="#collapse_#{secure_id}" = subsection["title"]["text"]
-
 
                   .collapse.show id="collapse_#{secure_id}"
                     - subsection["outer_alineas"].each do |outer_alinea|
                       - secure_id = SecureRandom.hex(10)
                       .form-group.row
                           .col-sm-12
-                            .form-check id="checkbox_#{secure_id}"
-                              = check_box_tag "prescriptions[prescription_#{secure_id}]", outer_alinea["text"], false, class: "form-check-input"
+                            .form-check
+                              = check_box_tag "prescriptions[prescription_#{secure_id}]", "#{titles.values} SPLIT #{outer_alinea["text"]}", false, class: "form-check-input"
                               = label_tag("prescriptions[prescription_#{secure_id}]", outer_alinea["text"])
 
-                - subsection["sections"].each do |item|
-                  - extract_sections.call(item, level + 1)
 
-              - extract_sections.call(section)
+                - subsection["sections"].each do |item|
+                  - extract_sections.call(item, level + 1, titles)
+
+              - extract_sections.call(section, titles)
 
           hr.mb-5.mt-5
 
