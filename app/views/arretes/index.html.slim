@@ -20,6 +20,7 @@
 
             - arrete.data["sections"].each do |section|
               - titles = {}
+              - titles["am"] = arrete.data["short_title"]
 
               - extract_sections = lambda do |subsection, level = 3, titles|
                 - titles["#{level}"] = subsection["title"]["text"]
