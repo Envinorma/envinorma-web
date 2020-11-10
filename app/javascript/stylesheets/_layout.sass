@@ -8,13 +8,19 @@ li
   position: sticky
   top: 20px
   border-left: 2px solid $primary
-  padding-left: 10px
 
   a
     color: inherit
+    display: block
+    padding-left: 10px
 
     &:hover
       text-decoration: none
+
+
+  a.current
+    font-weight: bold
+    border-left: 3px solid $primary
 
 .icon
   display: flex

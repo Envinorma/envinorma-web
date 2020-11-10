@@ -9,42 +9,43 @@
         dl.am_nav
           - @arretes.each do |arrete|
             dd.mb-4
-              = link_to arrete.data["short_title"], anchor: "#{arrete.data["short_title"].delete ' '}"
+              a href="##{transform_for_id(arrete.data["short_title"])}" = arrete.data["short_title"]
 
       .col-10
         h1.display-4.mb-4 Les prescriptions
         hr.mb-5.mt-5
 
           - @arretes.each do |arrete|
-            h2 id="#{arrete.data["short_title"].delete ' '}" = arrete.data["short_title"]
+            section id="#{transform_for_id(arrete.data["short_title"])}"
+              h2 = arrete.data["short_title"]
 
-            - arrete.data["sections"].each do |section|
-              - titles = {}
-              - titles["am"] = arrete.data["short_title"]
+              - arrete.data["sections"].each do |section|
+                - titles = {}
+                - titles["am"] = arrete.data["short_title"]
 
-              - extract_sections = lambda do |subsection, level = 3, titles|
-                - titles["#{level}"] = subsection["title"]["text"]
-                - if subsection["outer_alineas"].empty?
-                  *{tag: "h#{level}"} = subsection["title"]["text"]
+                - extract_sections = lambda do |subsection, level = 3, titles|
+                  - titles["#{level}"] = subsection["title"]["text"]
+                  - if subsection["outer_alineas"].empty?
+                    *{tag: "h#{level}"} = subsection["title"]["text"]
 
-                - else
-                  - secure_id = SecureRandom.hex(10)
-                  *{tag: "h#{level}"} class="icon" data-toggle="collapse" data-target=="#collapse_#{secure_id}" = subsection["title"]["text"]
+                  - else
+                    - secure_id = SecureRandom.hex(10)
+                    *{tag: "h#{level}"} class="icon" data-toggle="collapse" data-target=="#collapse_#{secure_id}" = subsection["title"]["text"]
 
-                  .collapse.show id="collapse_#{secure_id}"
-                    - subsection["outer_alineas"].each do |outer_alinea|
-                      - secure_id = SecureRandom.hex(10)
-                      .form-group.row
-                          .col-sm-12
-                            .form-check
-                              = check_box_tag "prescriptions[prescription_#{secure_id}]", "#{titles.values} SPLIT #{outer_alinea["text"]}", false, class: "form-check-input"
-                              = label_tag("prescriptions[prescription_#{secure_id}]", outer_alinea["text"])
+                    .collapse.show id="collapse_#{secure_id}"
+                      - subsection["outer_alineas"].each do |outer_alinea|
+                        - secure_id = SecureRandom.hex(10)
+                        .form-group.row
+                            .col-sm-12
+                              .form-check
+                                = check_box_tag "prescriptions[prescription_#{secure_id}]", "#{titles.values} SPLIT #{outer_alinea["text"]}", false, class: "form-check-input"
+                                = label_tag("prescriptions[prescription_#{secure_id}]", outer_alinea["text"])
 
 
-                - subsection["sections"].each do |item|
-                  - extract_sections.call(item, level + 1, titles)
+                  - subsection["sections"].each do |item|
+                    - extract_sections.call(item, level + 1, titles)
 
-              - extract_sections.call(section, titles)
+                - extract_sections.call(section, titles)
 
           hr.mb-5.mt-5
 

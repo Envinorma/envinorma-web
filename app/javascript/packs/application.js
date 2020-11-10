@@ -19,4 +19,6 @@ import 'jquery'
 import 'popper.js'
 import 'bootstrap'
 
+
+require('../components');
 import 'stylesheets/application'
