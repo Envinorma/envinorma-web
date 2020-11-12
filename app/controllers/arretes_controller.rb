@@ -38,7 +38,7 @@ class ArretesController < ApplicationController
 
     fiche_inspection = ODFReport::Report.new(template_path) do |r|
       r.add_table("Tableau", prescriptions.values, :header=>true) do |t|
-        t.add_column(:id) { |prescription| prescription[:ref] }
+        t.add_column(:ref) { |prescription| prescription[:ref] }
         t.add_column(:prescription) { |prescription| prescription[:value] }
       end
     end
