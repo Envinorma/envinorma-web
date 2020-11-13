@@ -21,6 +21,6 @@
 
       h2.mt-5 Arrêtés ministériels
       ul.list-unstyled
-        - @installation.arretes.each do |arrete|
+        - @arretes_uniq.each do |arrete|
           li
             = "Arrêté du #{arrete.name}"
