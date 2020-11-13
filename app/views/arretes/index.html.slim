@@ -7,7 +7,7 @@
     .row.mt-5
       .col-2
         dl.am_nav
-          - @arretes.each do |arrete|
+          - @arretes_filtered.each do |arrete|
             dd.mb-4
               a href="##{transform_for_id(arrete.data["short_title"])}" = arrete.data["short_title"]
 
@@ -15,7 +15,7 @@
         h1.display-4.mb-4 Les prescriptions
         hr.mb-5.mt-5
 
-          - @arretes.each do |arrete|
+          - @arretes_filtered.each do |arrete|
             section id="#{transform_for_id(arrete.data["short_title"])}"
               h2 = arrete.data["short_title"]
 
