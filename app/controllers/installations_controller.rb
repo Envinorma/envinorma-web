@@ -6,7 +6,7 @@ class InstallationsController < ApplicationController
   end
 
   def show
-    @arretes_uniq = @installation.arretes.select(:name).distinct
+    @arretes_uniq = @installation.arretes.uniq { |arrete| arrete.name }
   end
 
   def edit
