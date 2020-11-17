@@ -7,7 +7,7 @@
     .row.mt-5
       .col-2
         dl.am_nav
-          - @arretes.each do |arrete|
+          - @arretes_filtered.each do |arrete|
             dd.mb-4
               a href="##{transform_for_id(arrete.data["short_title"])}" = arrete.data["short_title"]
 
@@ -15,7 +15,7 @@
         h1.display-4.mb-4 Les prescriptions
         hr.mb-5.mt-5
 
-          - @arretes.each do |arrete|
+          - @arretes_filtered.each do |arrete|
             section id="#{transform_for_id(arrete.data["short_title"])}"
               h2 = arrete.data["short_title"]
 
@@ -25,22 +25,19 @@
 
                 - extract_sections = lambda do |subsection, level = 3, titles|
                   - titles["#{level}"] = subsection["title"]["text"]
-                  - if subsection["outer_alineas"].empty?
-                    *{tag: "h#{level}"} = subsection["title"]["text"]
 
+                  - if subsection["applicability"]["active"] == false
+                    .alert.alert-danger
+                      p = subsection["applicability"]["reason_inactive"]
+                    .inactive
+                      = render partial: "outer_alineas", locals: {subsection: subsection, level: level, titles: titles}
                   - else
-                    - secure_id = SecureRandom.hex(10)
-                    *{tag: "h#{level}"} class="icon" data-toggle="collapse" data-target=="#collapse_#{secure_id}" = subsection["title"]["text"]
 
-                    .collapse.show id="collapse_#{secure_id}"
-                      - subsection["outer_alineas"].each do |outer_alinea|
-                        - secure_id = SecureRandom.hex(10)
-                        .form-group.row
-                            .col-sm-12
-                              .form-check
-                                = check_box_tag "prescriptions[prescription_#{secure_id}]", "#{titles.values} SPLIT #{outer_alinea["text"]}", false, class: "form-check-input"
-                                = label_tag("prescriptions[prescription_#{secure_id}]", outer_alinea["text"])
+                    - if subsection["applicability"]["modified"]
+                      .alert.alert-success
+                        p = subsection["applicability"]["reason_modified"]
 
+                    = render partial: "outer_alineas", locals: {subsection: subsection, level: level, titles: titles}
 
                   - subsection["sections"].each do |item|
                     - extract_sections.call(item, level + 1, titles)
