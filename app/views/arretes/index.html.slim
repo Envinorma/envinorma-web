@@ -27,8 +27,9 @@
                   - titles["#{level}"] = subsection["title"]["text"]
 
                   - if subsection["applicability"]["active"] == false
-                    .alert.alert-danger
-                      p = subsection["applicability"]["reason_inactive"]
+                    - if subsection["applicability"]["reason_inactive"]
+                      .alert.alert-danger
+                        p = subsection["applicability"]["reason_inactive"]
                     .inactive
                       = render partial: "outer_alineas", locals: {subsection: subsection, level: level, titles: titles}
                   - else
