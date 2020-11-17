@@ -12,12 +12,22 @@
         =< link_to "modifier la date", edit_installation_path(@installation)
 
       h2.mt-5 Classements
-      ul.list-group.list-group-flush
-        - @installation.classements.each do |classement|
-          li.list-group-item
-            = classement.rubrique
-            = " - #{classement.alinea}"
-            =< classement.regime
+      table.table
+        thead
+          tr
+            th Rubrique
+            th Alinéa
+            th État d'activité
+            th Activité
+
+        tbody
+          - @installation.classements.each do |classement|
+            tr
+              td = classement.rubrique
+              td = classement.alinea
+              td = classement.regime
+              td = classement.activite
+
 
       h2.mt-5 Arrêtés ministériels
       ul.list-unstyled
