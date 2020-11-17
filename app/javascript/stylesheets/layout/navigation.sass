@@ -1,0 +1,35 @@
+html
+  scroll-behavior: smooth
+
+.main_nav
+  padding: 0.5em
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+  position: sticky
+  top: 0
+  background-color: #ffffff
+  z-index: 1
+  margin-bottom: 20px
+
+.logo
+  display: block
+  img
+    width: 50px
+
+.am_nav
+  position: sticky
+  top: 90px
+  border-left: 2px solid $primary
+
+  a
+    color: inherit
+    display: block
+    padding-left: 10px
+
+    &:hover
+      text-decoration: none
+
+
+  a.current
+    font-weight: bold
+    border-left: 3px solid $primary
+

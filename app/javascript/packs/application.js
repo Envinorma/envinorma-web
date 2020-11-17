@@ -20,5 +20,6 @@ import 'popper.js'
 import 'bootstrap'
 
 
+require.context('../images', true)
 require('../components');
 import 'stylesheets/application'
