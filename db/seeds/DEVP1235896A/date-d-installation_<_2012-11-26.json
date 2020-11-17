@@ -1,15 +1,17 @@
 {
+    "aida_url": "https://aida.ineris.fr/consultation_document/22367",
     "applicability": {
         "active": true,
         "modified": false,
-        "reason_inactive": "",
+        "reason_inactive": null,
         "reason_modified": null,
         "warnings": []
     },
     "installation_date_criterion": {
-        "left_date": "2012-11-26",
-        "right_date": null
+        "left_date": null,
+        "right_date": "2012-11-26"
     },
+    "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000026694913",
     "sections": [
         {
             "annotations": {
@@ -270,9 +272,9 @@
                 {
                     "annotations": null,
                     "applicability": {
-                        "active": true,
+                        "active": false,
                         "modified": false,
-                        "reason_inactive": "",
+                        "reason_inactive": "Pour les sites dont la date d'installation est postérieure au 26/11/2012, seuls les alineas concernant le dossier d'exploitation s'appliquent",
                         "reason_modified": null,
                         "warnings": []
                     },
@@ -481,9 +483,9 @@
                 {
                     "annotations": null,
                     "applicability": {
-                        "active": true,
+                        "active": false,
                         "modified": false,
-                        "reason_inactive": "",
+                        "reason_inactive": "Le paragraphe ne s'applique qu'aux sites dont la date d'installation est postérieure au 26/11/2012.",
                         "reason_modified": null,
                         "warnings": []
                     },
@@ -990,9 +992,9 @@
                         {
                             "annotations": null,
                             "applicability": {
-                                "active": true,
+                                "active": false,
                                 "modified": false,
-                                "reason_inactive": "",
+                                "reason_inactive": "Le paragraphe ne s'applique qu'aux sites dont la date d'installation est postérieure au 26/11/2012.",
                                 "reason_modified": null,
                                 "warnings": []
                             },
@@ -1959,9 +1961,9 @@
                                 "topic": "EAU"
                             },
                             "applicability": {
-                                "active": true,
+                                "active": false,
                                 "modified": false,
-                                "reason_inactive": "",
+                                "reason_inactive": "Le paragraphe ne s'applique qu'aux sites dont la date d'installation est postérieure au 26/11/2012.",
                                 "reason_modified": null,
                                 "warnings": []
                             },
@@ -2389,9 +2391,9 @@
                                 "topic": "EAU"
                             },
                             "applicability": {
-                                "active": true,
+                                "active": false,
                                 "modified": false,
-                                "reason_inactive": "",
+                                "reason_inactive": "Le paragraphe ne s'applique qu'aux sites dont la date d'installation est postérieure au 26/11/2012.",
                                 "reason_modified": null,
                                 "warnings": []
                             },

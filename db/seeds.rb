@@ -17,11 +17,11 @@ puts "Classements are seeded"
 
 # create arretes
 # first installation
-path = File.join(File.dirname(__FILE__), "./seeds/TREP1900331A/date-d-installation_<_2019-04-09_00:00:00.json")
+path = File.join(File.dirname(__FILE__), "./seeds/TREP1900331A/date-d-installation_<_2019-04-09.json")
 arrete_2521 = JSON.parse(File.read(path))
 Arrete.create(name: "AM - 2521", data: arrete_2521, installation_id: 1)
 
-path = File.join(File.dirname(__FILE__), "./seeds/TREP1900331A/date-d-installation_>=_2019-04-09_00:00:00.json")
+path = File.join(File.dirname(__FILE__), "./seeds/TREP1900331A/date-d-installation_>=_2019-04-09.json")
 arrete_2521 = JSON.parse(File.read(path))
 Arrete.create(name: "AM - 2521", data: arrete_2521, installation_id: 1)
 
@@ -29,11 +29,11 @@ path = File.join(File.dirname(__FILE__), "./seeds/ATEP9760292A/unique_version.js
 arrete_2517 = JSON.parse(File.read(path))
 Arrete.create(name: "AM - 2517", data: arrete_2517, installation_id: 1)
 
-path = File.join(File.dirname(__FILE__), "./seeds/DEVP1235896A/date-d-installation_<_2012-11-26_00:00:00.json")
+path = File.join(File.dirname(__FILE__), "./seeds/DEVP1235896A/date-d-installation_<_2012-11-26.json")
 arrete_2515 = JSON.parse(File.read(path))
 Arrete.create(name: "AM - 2515", data: arrete_2515, installation_id: 1)
 
-path = File.join(File.dirname(__FILE__), "./seeds/DEVP1235896A/date-d-installation_>=_2012-11-26_00:00:00.json")
+path = File.join(File.dirname(__FILE__), "./seeds/DEVP1235896A/date-d-installation_>=_2012-11-26.json")
 arrete_2515 = JSON.parse(File.read(path))
 Arrete.create(name: "AM - 2515", data: arrete_2515, installation_id: 1)
 
