@@ -19,8 +19,8 @@
             section id="#{transform_for_id(arrete.data["short_title"])}" class="anchor"
               h2.display.h1 = arrete.data["short_title"]
               p.mb-5
-                = link_to 'Consulter sur Aida', arrete.data["aida_url"]
-                = link_to 'Consulter sur Légifrance', arrete.data["legifrance_url"], class: "ml-3"
+                = link_to 'Consulter sur Aida', arrete.data["aida_url"], target: "_blank"
+                = link_to 'Consulter sur Légifrance', arrete.data["legifrance_url"], target: "_blank", class: "ml-3"
 
               - arrete.data["sections"].each do |section|
                 - titles = {}
