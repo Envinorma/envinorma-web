@@ -17,7 +17,10 @@
 
           - @arretes_filtered.each do |arrete|
             section id="#{transform_for_id(arrete.data["short_title"])}"
-              h2 = arrete.data["short_title"]
+              h2.display.h1 = arrete.data["short_title"]
+              p.mb-5
+                = link_to 'Consulter sur Aida', arrete.data["aida_url"]
+                = link_to 'Consulter sur Légifrance', arrete.data["legifrance_url"], class: "ml-3"
 
               - arrete.data["sections"].each do |section|
                 - titles = {}
