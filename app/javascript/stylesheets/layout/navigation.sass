@@ -28,8 +28,14 @@ html
     &:hover
       text-decoration: none
 
-
   a.current
     font-weight: bold
     border-left: 3px solid $primary
 
+section.anchor::before
+  display: block
+  content: " "
+  margin-top: -80px
+  height: 80px
+  visibility: hidden
+  pointer-events: none

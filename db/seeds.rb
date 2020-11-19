@@ -1,6 +1,6 @@
 # create installations
-Installation.create(name: "Eva Industries", date: Date.today)
-Installation.create(name: "AURILIS GROUP", date: Date.today)
+Installation.create(name: "Eva Industries", date: "07/05/1974".to_date)
+Installation.create(name: "AURILIS GROUP", date: "02/05/2007".to_date)
 puts "Installations are seeded"
 
 # create classements
@@ -8,7 +8,6 @@ puts "Installations are seeded"
 Classement.create(rubrique: 2521, regime: "enregistrement", activite: "Enrobage au bitume de matériaux routiers", alinea: "1", installation_id: 1)
 Classement.create(rubrique: 2517, regime: "déclaration", activite: "Produits minéraux ou déchets non dangereux inertes (transit)", alinea: "3", installation_id: 1)
 Classement.create(rubrique: 2515, regime: "déclaration", activite: "Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes", alinea: "1c", installation_id: 1)
-Classement.create(rubrique: 4801, regime: "déclaration", activite: "Houille, coke, lignite, charbon de bois, goudron, asphalte, brais et matières bitumineuses", alinea: "2", installation_id: 1)
 
 # second installation
 Classement.create(rubrique: 1510, regime: "enregistrement", activite: "Entrepôts couverts autres que 1511", alinea: "2", installation_id: 2)

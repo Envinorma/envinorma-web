@@ -16,11 +16,11 @@
         hr.mb-5.mt-5
 
           - @arretes_filtered.each do |arrete|
-            section id="#{transform_for_id(arrete.data["short_title"])}"
+            section id="#{transform_for_id(arrete.data["short_title"])}" class="anchor"
               h2.display.h1 = arrete.data["short_title"]
               p.mb-5
-                = link_to 'Consulter sur Aida', arrete.data["aida_url"]
-                = link_to 'Consulter sur Légifrance', arrete.data["legifrance_url"], class: "ml-3"
+                = link_to 'Consulter sur Aida', arrete.data["aida_url"], target: "_blank"
+                = link_to 'Consulter sur Légifrance', arrete.data["legifrance_url"], target: "_blank", class: "ml-3"
 
               - arrete.data["sections"].each do |section|
                 - titles = {}
@@ -48,7 +48,7 @@
 
                 - extract_sections.call(section, titles)
 
-          hr.mb-5.mt-5
+            hr.mb-5.mt-5
 
   .wrapper-btn-fixed
     = submit_tag("Exporter les prescriptions sélectionnées", class: "btn btn-primary btn-prescription")
