@@ -1,6 +1,6 @@
 # create installations
-Installation.create(name: "Eva Industries", date: Date.today)
-Installation.create(name: "AURILIS GROUP", date: Date.today)
+Installation.create(name: "Eva Industries", date: "07/05/1974".to_date)
+Installation.create(name: "AURILIS GROUP", date: "02/05/2007".to_date)
 puts "Installations are seeded"
 
 # create classements
