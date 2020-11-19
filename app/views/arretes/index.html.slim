@@ -9,41 +9,41 @@
         dl.am_nav
           - @arretes_filtered.each do |arrete|
             dd.mb-4
-              a href="##{transform_for_id(arrete.data["short_title"])}" = arrete.data["short_title"]
+              a href="##{transform_for_id(arrete.data.short_title)}" = arrete.data.short_title
 
       .col-10
         h1.display-4.mb-4 Les prescriptions
         hr.mb-5.mt-5
 
           - @arretes_filtered.each do |arrete|
-            section id="#{transform_for_id(arrete.data["short_title"])}" class="anchor"
-              h2.display.h1 = arrete.data["short_title"]
+            section id="#{transform_for_id(arrete.data.short_title)}" class="anchor"
+              h2.display.h1 = arrete.data.short_title
               p.mb-5
-                = link_to 'Consulter sur Aida', arrete.data["aida_url"], target: "_blank"
-                = link_to 'Consulter sur Légifrance', arrete.data["legifrance_url"], target: "_blank", class: "ml-3"
+                = link_to 'Consulter sur Aida', arrete.data.aida_url, target: "_blank"
+                = link_to 'Consulter sur Légifrance', arrete.data.legifrance_url, target: "_blank", class: "ml-3"
 
-              - arrete.data["sections"].each do |section|
+              - arrete.data.sections.each do |section|
                 - titles = {}
-                - titles["am"] = arrete.data["short_title"]
+                - titles["am"] = arrete.data.short_title
 
                 - extract_sections = lambda do |subsection, level = 3, titles|
-                  - titles["#{level}"] = subsection["title"]["text"]
+                  - titles["#{level}"] = subsection.title.text
 
-                  - if subsection["applicability"]["active"] == false
-                    - if subsection["applicability"]["reason_inactive"]
+                  - if subsection.applicability.active == false
+                    - if subsection.applicability.reason_inactive
                       .alert.alert-danger
-                        p = subsection["applicability"]["reason_inactive"]
+                        p = subsection.applicability.reason_inactive
                     .inactive
                       = render partial: "outer_alineas", locals: {subsection: subsection, level: level, titles: titles}
                   - else
 
-                    - if subsection["applicability"]["modified"]
+                    - if subsection.applicability.modified
                       .alert.alert-success
-                        p = subsection["applicability"]["reason_modified"]
+                        p = subsection.applicability.reason_modified
 
                     = render partial: "outer_alineas", locals: {subsection: subsection, level: level, titles: titles}
 
-                  - subsection["sections"].each do |item|
+                  - subsection.sections.each do |item|
                     - extract_sections.call(item, level + 1, titles)
 
                 - extract_sections.call(section, titles)

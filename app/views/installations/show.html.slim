@@ -30,6 +30,6 @@
       ul.list-unstyled
         - @arretes_uniq.each do |arrete|
           li
-            = arrete.data["short_title"]
+            = arrete.data.short_title
 
       = link_to "Voir les prescriptions pour générer une fiche d'inspection", arretes_path(@installation), class: "btn btn-primary mb-4 "

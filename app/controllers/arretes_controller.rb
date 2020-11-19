@@ -37,15 +37,15 @@ class ArretesController < ApplicationController
 
   def filter_arretes arretes
     arretes.each do |arrete|
-      installation_date_criterion = arrete.data["installation_date_criterion"]
+      installation_date_criterion = arrete.data.installation_date_criterion
       if installation_date_criterion.nil?
         @arretes_filtered << arrete
-      elsif installation_date_criterion.values.all?
-        @arretes_filtered << arrete if installation_date_criterion["left_date"].to_date <= @installation.date && installation_date_criterion["right_date"].to_date > @installation.date
-      elsif installation_date_criterion["left_date"].present?
-        @arretes_filtered << arrete if installation_date_criterion["left_date"].to_date < @installation.date
+      elsif installation_date_criterion.left_date.present? && installation_date_criterion.right_date.present?
+        @arretes_filtered << arrete if installation_date_criterion.left_date.to_date <= @installation.date && installation_date_criterion.right_date.to_date > @installation.date
+      elsif installation_date_criterion.left_date.present?
+        @arretes_filtered << arrete if installation_date_criterion.left_date.to_date < @installation.date
       else
-        @arretes_filtered << arrete if installation_date_criterion["right_date"].to_date >= @installation.date
+        @arretes_filtered << arrete if installation_date_criterion.right_date.to_date >= @installation.date
       end
     end
   end
