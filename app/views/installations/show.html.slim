@@ -1,11 +1,8 @@
 .container
   .row
     .col
-      = link_to "< retour à la liste d'installations", root_path
+      h1.display-4.mb-4= @installation.name
 
-      .d-flex.align-items-start.mt-5
-        h1.display-4.mb-4 = @installation.name
-        = link_to "Voir les prescriptions", arretes_path(@installation), class: "btn btn-primary ml-auto"
       p
         b Date d'autorisation de l'installation :
         =< @installation.date.strftime("%d/%m/%Y")
@@ -29,8 +26,10 @@
               td = classement.activite
 
 
-      h2.mt-5 Arrêtés ministériels
+      h2.mt-5 Arrêtés ministériels associés
       ul.list-unstyled
         - @arretes_uniq.each do |arrete|
           li
             = arrete.data["short_title"]
+
+      = link_to "Voir les prescriptions pour générer une fiche d'inspection", arretes_path(@installation), class: "btn btn-primary mb-4 "
