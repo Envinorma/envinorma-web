@@ -17,9 +17,16 @@
 
       - if outer_alinea.table
         table.table.table-bordered
-          tbody
-            - outer_alinea.table.rows.each do |row|
-              tr
-              - row.cells.each do |cell|
-                td collspan="#{cell.colspan}"
-                  = cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe
+          - outer_alinea.table.rows.each do |row|
+            - if row.is_header
+              thead
+                tr
+                  - row.cells.each do |cell|
+                    th collspan="#{cell.colspan}"
+                      = cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe
+            - else
+              tbody
+                tr
+                  - row.cells.each do |cell|
+                    td collspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
+                      = cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe
