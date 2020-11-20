@@ -5,12 +5,12 @@ puts "Installations are seeded"
 
 # create classements
 # first installation
-Classement.create(rubrique: 2521, regime: "enregistrement", activite: "Enrobage au bitume de matériaux routiers", alinea: "1", installation_id: 1)
-Classement.create(rubrique: 2517, regime: "déclaration", activite: "Produits minéraux ou déchets non dangereux inertes (transit)", alinea: "3", installation_id: 1)
-Classement.create(rubrique: 2515, regime: "déclaration", activite: "Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes", alinea: "1c", installation_id: 1)
+Classement.create(rubrique: "2521", regime: "E", activite: "Enrobage au bitume de matériaux routiers", alinea: "1", installation_id: 1)
+Classement.create(rubrique: "2517", regime: "D", activite: "Produits minéraux ou déchets non dangereux inertes (transit)", alinea: "3", installation_id: 1)
+Classement.create(rubrique: "2515", regime: "D", activite: "Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes", alinea: "1c", installation_id: 1)
 
 # second installation
-Classement.create(rubrique: 1510, regime: "enregistrement", activite: "Entrepôts couverts autres que 1511", alinea: "2", installation_id: 2)
+Classement.create(rubrique: "1510", regime: "E", activite: "Entrepôts couverts autres que 1511", alinea: "2", installation_id: 2)
 
 puts "Classements are seeded"
 

@@ -1,4 +1,5 @@
 class InstallationsController < ApplicationController
+  include FilterArretes
   before_action :set_installation, except: :index
 
   def index
@@ -6,7 +7,7 @@ class InstallationsController < ApplicationController
   end
 
   def show
-    @arretes_uniq = @installation.arretes.uniq { |arrete| arrete.name }
+    @arretes = filter_arretes
   end
 
   def edit

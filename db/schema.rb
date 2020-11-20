@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_17_154546) do
+ActiveRecord::Schema.define(version: 2020_11_19_164015) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2020_11_17_154546) do
   end
 
   create_table "classements", force: :cascade do |t|
-    t.integer "rubrique"
+    t.string "rubrique"
     t.string "regime"
     t.string "alinea"
     t.bigint "installation_id", null: false

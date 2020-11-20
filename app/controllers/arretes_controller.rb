@@ -1,10 +1,9 @@
 class ArretesController < ApplicationController
+  include FilterArretes
   before_action :set_installation
 
   def index
-    arretes = @installation.arretes
-    @arretes_filtered = []
-    filter_arretes arretes
+    @arretes = filter_arretes
   end
 
   def generate_doc_with_prescriptions
@@ -33,21 +32,6 @@ class ArretesController < ApplicationController
 
   def prescriptions_params
     params["prescriptions"].permit!
-  end
-
-  def filter_arretes arretes
-    arretes.each do |arrete|
-      installation_date_criterion = arrete.data.installation_date_criterion
-      if installation_date_criterion.nil?
-        @arretes_filtered << arrete
-      elsif installation_date_criterion.left_date.present? && installation_date_criterion.right_date.present?
-        @arretes_filtered << arrete if installation_date_criterion.left_date.to_date <= @installation.date && installation_date_criterion.right_date.to_date > @installation.date
-      elsif installation_date_criterion.left_date.present?
-        @arretes_filtered << arrete if installation_date_criterion.left_date.to_date < @installation.date
-      else
-        @arretes_filtered << arrete if installation_date_criterion.right_date.to_date >= @installation.date
-      end
-    end
   end
 
   def generate_doc prescriptions
