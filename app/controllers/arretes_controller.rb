@@ -10,7 +10,7 @@ class ArretesController < ApplicationController
     prescriptions = {}
     prescriptions_params.to_h.each do |key, value|
       value_splitted = value.split('SPLIT')
-      prescriptions[key] = {ref: eval(value_splitted.first).join(' - '), value: value_splitted.last}
+      prescriptions[key] = {ref: value_splitted.first, value: value_splitted.last}
     end
 
     #key = "prescription_c7c06a3682298c4b93d3"
