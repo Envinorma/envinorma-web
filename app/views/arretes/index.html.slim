@@ -24,6 +24,9 @@
                 = arrete.data.short_title
                 span.text-secondary
                   = classement_infos(arrete, @installation)
+              p
+                strong = arrete.data.title.text
+
               p.mb-5
                 = link_to 'Consulter sur Aida', arrete.data.aida_url, target: "_blank"
                 = link_to 'Consulter sur Légifrance', arrete.data.legifrance_url, target: "_blank", class: "ml-3"
