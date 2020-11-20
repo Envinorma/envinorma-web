@@ -27,10 +27,7 @@
             "state": "ACTIVE"
         }
     ],
-    "installation_date_criterion": {
-        "left_date": "2003-07-01",
-        "right_date": "2009-04-30"
-    },
+    "installation_date_criterion": null,
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000034429274",
     "sections": [
         {
@@ -1693,7 +1690,9 @@
                                 "modified": false,
                                 "reason_inactive": null,
                                 "reason_modified": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Le paragraphe n'est pas applicable pour les sites installés avant le 30-04-2009"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [],
@@ -1703,10 +1702,12 @@
                                     "annotations": null,
                                     "applicability": {
                                         "active": true,
-                                        "modified": true,
+                                        "modified": false,
                                         "reason_inactive": null,
-                                        "reason_modified": "Le paragraphe est modifié pour les sites installés entre le 01-07-2003 et le 16-04-2010",
-                                        "warnings": []
+                                        "reason_modified": null,
+                                        "warnings": [
+                                            "Le paragraphe est modifié pour les sites installés entre le 01-07-2003 et le 16-04-2010"
+                                        ]
                                     },
                                     "legifrance_article": null,
                                     "outer_alineas": [
@@ -1718,12 +1719,12 @@
                                         {
                                             "links": [],
                                             "table": null,
-                                            "text": "- des immeubles de grande hauteur, des établissements recevant du public (ERP) autres que les guichets de dépôt et de retrait des marchandises conformes aux dispositions du point 4. de la présente annexe sans préjudice du respect de la réglementation en matière d'ERP, des voies ferrées ouvertes au trafic de voyageurs, des voies d'eau ou bassins exceptés les bassins de rétention ou d'infiltration d'eaux pluviales et de réserve d'eau incendie, et des voies routières à grande circulation autres que celles nécessaires à la desserte ou à l'exploitation de l'entrepôt, d'une distance correspondant aux effets irréversibles en cas d'incendie (seuil des effets thermiques de 3 kW/m2)"
+                                            "text": "- des immeubles de grande hauteur, des établissements recevant du public (ERP) autres que les guichets de dépôt et de retrait des marchandises conformes aux dispositions du point 4. de la présente annexe sans préjudice du respect de la réglementation en matière d'ERP, des voies ferrées ouvertes au trafic de voyageurs, des voies d'eau ou bassins exceptés les bassins de rétention ou d'infiltration d'eaux pluviales et de réserve d'eau incendie, et des voies routières à grande circulation autres que celles nécessaires à la desserte ou à l'exploitation de l'entrepôt, d'une distance correspondant aux effets irréversibles en cas d'incendie (seuil des effets thermiques de 3 kW/m2),"
                                         },
                                         {
                                             "links": [],
                                             "table": null,
-                                            "text": "Ces distances résultent de l'instruction de la demande d'autorisation et de l'examen de l'étude des dangers. Les parois extérieures de l'entrepôt ou les éléments de structure dans le cas d'un entrepôt ouvert, sont implantées à une distance au moins égale à 20 mètres de l'enceinte de l'établissement, à moins que l'exploitant justifie que les effets létaux (seuil des effets thermiques de 5 kW/m2) restent à l'intérieur du site au moyen, si nécessaire, de la mise en place d'un dispositif séparatif E120."
+                                            "text": "Les distances sont au minimum soit celles calculées pour chaque cellule en feu prise individuellement par la méthode FLUMILOG (référencée dans le document de l'INERIS Description de la méthode de calcul des effets thermiques produits par un feu d'entrepôt , partie A, réf. DRA-09-90 977-14553A) si les dimensions du bâtiment sont dans son domaine de validité, soit celles calculées par des études spécifiques dans le cas contraire. Les parois extérieures de l'entrepôt ou les éléments de structure dans le cas d'un entrepôt ouvert, sont implantées à une distance au moins égale à 20 mètres de l'enceinte de l'établissement, à moins que l'exploitant justifie que les effets létaux (seuil des effets thermiques de 5 kW/m2) restent à l'intérieur du site au moyen, si nécessaire, de la mise en place d'un dispositif séparatif E120."
                                         }
                                     ],
                                     "reference_str": "Annexe II 2. I.",
@@ -1792,7 +1793,9 @@
                                 "modified": false,
                                 "reason_inactive": null,
                                 "reason_modified": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Le paragraphe n'est pas applicable pour les sites installés avant le 01-07-2003"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [],
@@ -1837,32 +1840,90 @@
                                     "annotations": null,
                                     "applicability": {
                                         "active": true,
-                                        "modified": true,
+                                        "modified": false,
                                         "reason_inactive": null,
-                                        "reason_modified": "Le paragraphe est modifié pour les sites installés entre le 01-07-2003 et le 16-04-2010",
-                                        "warnings": []
+                                        "reason_modified": null,
+                                        "warnings": [
+                                            "Le paragraphe n'est pas applicable pour les sites installés avant le 30-04-2009",
+                                            "Le paragraphe est modifié pour les sites installés entre le 30-04-2009 et le 01-07-2017"
+                                        ]
                                     },
                                     "legifrance_article": null,
                                     "outer_alineas": [
                                         {
                                             "links": [],
                                             "table": null,
-                                            "text": "L'entrepôt est en permanence accessible pour permettre l'intervention des services d'incendie et de secours. Une voie au moins est maintenue dégagée pour la circulation sur le périmètre de l'entrepôt. Cette voie permet l'accès des engins de secours des sapeurs-pompiers et les croisements de ces engins."
+                                            "text": "Une voie engins au moins est maintenue dégagée pour :"
                                         },
                                         {
                                             "links": [],
                                             "table": null,
-                                            "text": "A partir de cette voie, les sapeurs-pompiers peuvent accéder à toutes les issues de l'entrepôt par un chemin stabilisé de 1,40 mètres de large au minimum."
+                                            "text": "- la circulation sur la périphérie complète du bâtiment ;"
                                         },
                                         {
                                             "links": [],
                                             "table": null,
-                                            "text": "Pour tout bâtiment de hauteur supérieure à 15 mètres, des aires de mise en station des moyens aériens sont prévus pour chaque façade. Cette disposition est également applicable aux entrepôts de plusieurs niveaux possédant au moins un plancher situé à une hauteur supérieure à 8 mètres par rapport au niveau d'accès des secours."
+                                            "text": "- l'accès au bâtiment ;"
                                         },
                                         {
                                             "links": [],
                                             "table": null,
-                                            "text": "Les véhicules dont la présence est liée à l'exploitation de l'entrepôt peuvent stationner sans occasionner de gêne sur les voies de circulation externe à l'entrepôt tout en laissant dégagés les accès nécessaires aux secours, même en dehors des heures d'exploitation et d'ouverture de l'entrepôt."
+                                            "text": "- l'accès aux aires de mise en station des moyens aériens ;"
+                                        },
+                                        {
+                                            "links": [],
+                                            "table": null,
+                                            "text": "- l'accès aux aires de stationnement des engins."
+                                        },
+                                        {
+                                            "links": [],
+                                            "table": null,
+                                            "text": "Elle est positionnée de façon à ne pouvoir être obstruée par l'effondrement de tout ou partie de ce bâtiment ou occupée par les eaux d'extinction."
+                                        },
+                                        {
+                                            "links": [],
+                                            "table": null,
+                                            "text": "Cette voie engins respecte les caractéristiques suivantes :"
+                                        },
+                                        {
+                                            "links": [],
+                                            "table": null,
+                                            "text": "- la largeur utile est au minimum de 6 mètres, la hauteur libre au minimum de 4,5 mètres et la pente"
+                                        },
+                                        {
+                                            "links": [],
+                                            "table": null,
+                                            "text": "- inférieure à 15 % ;"
+                                        },
+                                        {
+                                            "links": [],
+                                            "table": null,
+                                            "text": "- dans les virages, le rayon intérieur R minimal est de 13 mètres. Une surlargeur de S = 15/R mètres est ajoutée dans les virages de rayon intérieur R compris entre 13 et 50 mètres ;"
+                                        },
+                                        {
+                                            "links": [],
+                                            "table": null,
+                                            "text": "- la voie résiste à la force portante calculée pour un véhicule de 320 kN avec un maximum de 130 kN par essieu, ceux-ci étant distants de 3,6 mètres au minimum ;"
+                                        },
+                                        {
+                                            "links": [],
+                                            "table": null,
+                                            "text": "- chaque point du périmètre du bâtiment est à une distance maximale de 60 mètres de cette voie ;"
+                                        },
+                                        {
+                                            "links": [],
+                                            "table": null,
+                                            "text": "- aucun obstacle n'est disposé entre la voie engins et les accès au bâtiment, les aires de mise en station des moyens aériens et les aires de stationnement des engins."
+                                        },
+                                        {
+                                            "links": [],
+                                            "table": null,
+                                            "text": "En cas d'impossibilité de mise en place d'une voie engins permettant la circulation sur l'intégralité de la périphérie du bâtiment et si tout ou partie de la voie est en impasse, les 40 derniers mètres de la partie de la voie en impasse sont d'une largeur utile minimale de 7 mètres et une aire de retournement comprise dans un cercle de 20 mètres de diamètre est prévue à son extrémité."
+                                        },
+                                        {
+                                            "links": [],
+                                            "table": null,
+                                            "text": "Pour les installations soumises à autorisation ou à enregistrement, le positionnement de la voie engins est proposé par le pétitionnaire dans son dossier de demande."
                                         }
                                     ],
                                     "reference_str": "Annexe II 3.2.",
@@ -1870,7 +1931,7 @@
                                     "title": {
                                         "links": [],
                                         "table": null,
-                                        "text": "3.2. "
+                                        "text": "3.2. Voie engins"
                                     }
                                 },
                                 {
@@ -1880,7 +1941,10 @@
                                         "modified": false,
                                         "reason_inactive": null,
                                         "reason_modified": null,
-                                        "warnings": []
+                                        "warnings": [
+                                            "Le paragraphe n'est pas applicable pour les sites installés avant le 30-04-2009",
+                                            "Le paragraphe est modifié pour les sites installés entre le 30-04-2009 et le 01-07-2017"
+                                        ]
                                     },
                                     "legifrance_article": null,
                                     "outer_alineas": [],
@@ -2080,7 +2144,10 @@
                                         "modified": false,
                                         "reason_inactive": null,
                                         "reason_modified": null,
-                                        "warnings": []
+                                        "warnings": [
+                                            "Le paragraphe n'est pas applicable pour les sites installés avant le 01-07-2003",
+                                            "Le paragraphe est modifié pour les sites installés entre le 30-04-2009 et le 01-07-2017"
+                                        ]
                                     },
                                     "legifrance_article": null,
                                     "outer_alineas": [
@@ -2174,10 +2241,13 @@
                             "annotations": null,
                             "applicability": {
                                 "active": true,
-                                "modified": true,
+                                "modified": false,
                                 "reason_inactive": null,
-                                "reason_modified": "Le paragraphe est modifié pour les sites installés entre le 01-07-2003 et le 16-04-2010",
-                                "warnings": []
+                                "reason_modified": null,
+                                "warnings": [
+                                    "Le paragraphe n'est pas applicable pour les sites installés avant le 30-04-2009",
+                                    "Le paragraphe est modifié pour les sites installés entre le 30-04-2009 et le 01-07-2017"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [
@@ -2185,6 +2255,11 @@
                                     "links": [],
                                     "table": null,
                                     "text": "Les dispositions constructives visent à ce que la cinétique d'incendie soit compatible avec l'évacuation des personnes, l'intervention des services de secours et la protection de l'environnement. Elles visent notamment à ce que la ruine d'un élément de structure (murs, toiture, poteaux, poutres par exemple) suite à un sinistre n'entraîne pas la ruine en chaîne de la structure du bâtiment, notamment les cellules de stockage avoisinantes, ni de leurs dispositifs de recoupement, et ne conduit pas à l'effondrement de la structure vers l'extérieur de la cellule en feu."
+                                },
+                                {
+                                    "links": [],
+                                    "table": null,
+                                    "text": "L'ensemble de la structure est a minima R 15."
                                 },
                                 {
                                     "links": [],
@@ -2199,7 +2274,22 @@
                                 {
                                     "links": [],
                                     "table": null,
-                                    "text": "En ce qui concerne la toiture, ses éléments de support sont réalisés en matériaux A2 s1 d0 et l'isolant thermique (s'il existe) est réalisé en matériaux A2 s1 d0 ou B s1 d0 de pouvoir calorifique supérieur (pcs) inférieur ou égal à 8,4 mj/kg. cette disposition n'est pas applicable si la structure porteuse est en lamellé-collé, en bois massif ou en matériaux reconnus équivalents par rapport au risque incendie, par la direction générale de la sécurité civile et de la gestion des crises du ministère chargé de l'intérieur."
+                                    "text": "Le ou les isolants thermiques utilisés en couverture sont de classe A2 s1 d0. Cette prescription n'est pas exigible lorsque, d'une part, le système support + isolants est de classe B s1 d0, et d'autre part :"
+                                },
+                                {
+                                    "links": [],
+                                    "table": null,
+                                    "text": "- ou bien l'isolant, unique, a un pouvoir calorifique supérieur (PCS) inférieur ou égal à 8,4 MJ/kg ;"
+                                },
+                                {
+                                    "links": [],
+                                    "table": null,
+                                    "text": "- ou bien l'isolation thermique est composée de plusieurs couches, dont la première (en contact avec le support de couverture), d'une épaisseur d'au moins 30 millimètres, de masse volumique supérieure à 110 kg/m3 et fixée mécaniquement, a un PCS inférieur ou égal à 8,4 MJ/kg et les couches supérieures sont constituées d'isolants justifiant en épaisseur de 60 millimètres d'une classe D s3 d2. Ces couches supérieures sont recoupées au droit de chaque écran de cantonnement par un isolant de PCS inférieur ou égal à 8,4 MJ/kg ;"
+                                },
+                                {
+                                    "links": [],
+                                    "table": null,
+                                    "text": "- ou bien il est protégé par un écran thermique disposé sur la ou les faces susceptibles d'être exposées à un feu intérieur au bâtiment. Cet écran doit jouer un rôle protecteur vis-à-vis de l'action du programme thermique normalisé durant au moins une demi-heure."
                                 },
                                 {
                                     "links": [],
@@ -2249,17 +2339,20 @@
                             "annotations": null,
                             "applicability": {
                                 "active": true,
-                                "modified": true,
+                                "modified": false,
                                 "reason_inactive": null,
-                                "reason_modified": "Le paragraphe est modifié pour les sites installés entre le 01-07-2003 et le 16-04-2010",
-                                "warnings": []
+                                "reason_modified": null,
+                                "warnings": [
+                                    "Le paragraphe n'est pas applicable pour les sites installés avant le 30-04-2009",
+                                    "Le paragraphe est modifié pour les sites installés entre le 30-04-2009 et le 01-07-2017"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [
                                 {
                                     "links": [],
                                     "table": null,
-                                    "text": "Les cellules de stockage sont divisées en cantons de désenfumage d'une superficie maximale de 1 650 mètres carrés et d'une longueur maximale de 60 mètres. Les cantons sont délimités par des écrans de cantonnement, réalisés en matériaux A2 s1 d0 (y compris leurs fixations) et stables au feu de degré un quart d'heure, ou par la configuration de la toiture et des structures du bâtiment."
+                                    "text": "Les cellules de stockage sont divisées en cantons de désenfumage d'une superficie maximale de 1 650 mètres carrés et d'une longueur maximale de 60 mètres. Chaque écran de cantonnement est stable au feu de degré un quart d'heure, et a une hauteur minimale de 1 mètre. La distance entre le point bas de l'écran et le point le plus près du stockage est supérieure ou égale à 0,5 mètre. Elle peut toutefois être réduite pour les zones de stockages automatisés."
                                 },
                                 {
                                     "links": [],
@@ -2317,7 +2410,9 @@
                                 "modified": false,
                                 "reason_inactive": null,
                                 "reason_modified": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Le paragraphe n'est pas applicable pour les sites installés entre le 30-04-2009 et le 01-07-2017"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [
@@ -2379,27 +2474,60 @@
                             "annotations": null,
                             "applicability": {
                                 "active": true,
-                                "modified": true,
+                                "modified": false,
                                 "reason_inactive": null,
-                                "reason_modified": "Le paragraphe est modifié pour les sites installés entre le 01-07-2003 et le 16-04-2010",
-                                "warnings": []
+                                "reason_modified": null,
+                                "warnings": [
+                                    "Le paragraphe n'est pas applicable pour les sites installés avant le 30-04-2009",
+                                    "Le paragraphe est modifié pour les sites installés entre le 30-04-2009 et le 01-07-2017"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [
                                 {
                                     "links": [],
                                     "table": null,
-                                    "text": "La surface maximale des cellules est égale à 3 000 mètres carrés en l'absence de système d'extinction automatique d'incendie et à 6 000 mètres carrés en présence d'un système d'extinction automatique d'incendie adapté à la nature des produits stockés."
+                                    "text": "La surface maximale des cellules est égale à 3 000 mètres carrés en l'absence de système d'extinction automatique d'incendie ou 12 000 mètres carrés en présence de système d'extinction automatique d'incendie. La hauteur maximale des cellules est limitée à 23 mètres."
                                 },
                                 {
                                     "links": [],
                                     "table": null,
-                                    "text": "La surface d'une mezzanine occupe au maximum 50 % de la surface du niveau inférieur de la cellule. Dans le cas où, dans une cellule, un niveau comporte plusieurs mezzanines, l'exploitant démontre, par une étude, que ces mezzanines n'engendrent pas de risque supplémentaire, et notamment qu'elles ne gênent pas le désenfumage en cas d'incendie."
+                                    "text": "Toutefois, sous réserve que l'exploitant s'engage, dans son dossier de demande, à maintenir un niveau de sécurité équivalent, le préfet peut également autoriser ou enregistrer l'exploitation de l'entrepôt dans les cas de figure ci-dessous :"
                                 },
                                 {
                                     "links": [],
                                     "table": null,
-                                    "text": "Pour les entrepôts textile, la surface peut être portée à 85 % sous réserve que l'exploitant démontre, par une étude, que cette mezzanine n'engendre pas de risque supplémentaire, et notamment qu'elle ne gêne pas le désenfumage en cas d'incendie."
+                                    "text": "1. La surface des cellules peut dépasser 12 000 m2 si leurs hauteurs respectives ne dépassent pas 13,70 m et si le système d'extinction automatique d'incendie permet à lui seul l'extinction de l'incendie, est conçu à cet effet, et est muni d'un pompage redondant ;"
+                                },
+                                {
+                                    "links": [],
+                                    "table": null,
+                                    "text": "2. La hauteur des cellules peut dépasser 23 m si leurs surfaces respectives sont inférieures ou égales à 6 000 m2 et si le système d'extinction automatique d'incendie permet à lui seul l'extinction de l'incendie, est conçu à cet effet, et est muni d'un pompage redondant."
+                                },
+                                {
+                                    "links": [],
+                                    "table": null,
+                                    "text": "A l'appui de cet engagement, l'exploitant fournit une étude spécifique d'ingénierie incendie qui démontre que la cinétique d'incendie est compatible avec la mise en sécurité et l'évacuation des personnes présentes dans l'installation et l'intervention des services de secours aux fins de sauvetage de ces personnes."
+                                },
+                                {
+                                    "links": [],
+                                    "table": null,
+                                    "text": "Il atteste que des dispositions constructives adéquates seront prises pour éviter que la ruine d'un élément suite à un sinistre n'entraîne une ruine en chaîne ou un effondrement de la structure vers l'extérieur."
+                                },
+                                {
+                                    "links": [],
+                                    "table": null,
+                                    "text": "Avant la mise en service de l'installation, l'exploitant intègre au dossier prévu au point 1.2 de la présente annexe, la démonstration que la construction réalisée permet effectivement d'assurer que la ruine d'un élément (murs, toiture, poteaux, poutres, mezzanines) suite à un sinistre n'entraîne pas la ruine en chaîne de la structure du bâtiment, notamment les cellules de stockage avoisinantes, ni de leurs dispositifs de compartimentage, ni l'effondrement de la structure vers l'extérieur de la cellule en feu."
+                                },
+                                {
+                                    "links": [],
+                                    "table": null,
+                                    "text": "Dans ce cas, l'installation doit disposer d'un plan de défense incendie prévu au point 23."
+                                },
+                                {
+                                    "links": [],
+                                    "table": null,
+                                    "text": "Les dispositions du présent 7 s'appliquent sans préjudice de l'application éventuelle des articles 3 à 5 de l'arrêté."
                                 }
                             ],
                             "reference_str": "Annexe II 7.",
@@ -2417,7 +2545,9 @@
                                 "modified": false,
                                 "reason_inactive": null,
                                 "reason_modified": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Le paragraphe n'est pas applicable pour les sites installés avant le 01-07-2003"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [
@@ -2452,7 +2582,9 @@
                                 "modified": false,
                                 "reason_inactive": null,
                                 "reason_modified": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Le paragraphe n'est pas applicable pour les sites installés avant le 30-04-2009"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [
@@ -2527,7 +2659,10 @@
                                 "modified": false,
                                 "reason_inactive": null,
                                 "reason_modified": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Le paragraphe n'est pas applicable pour les sites installés avant le 01-07-2003",
+                                    "Le paragraphe est modifié pour les sites installés avant le 30-04-2009"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [
@@ -2574,10 +2709,13 @@
                             "annotations": null,
                             "applicability": {
                                 "active": true,
-                                "modified": true,
+                                "modified": false,
                                 "reason_inactive": null,
-                                "reason_modified": "Le paragraphe est modifié pour les sites installés entre le 01-07-2003 et le 16-04-2010",
-                                "warnings": []
+                                "reason_modified": null,
+                                "warnings": [
+                                    "Le paragraphe n'est pas applicable pour les sites installés avant le 30-04-2009",
+                                    "Le paragraphe est modifié pour les sites installés entre le 30-04-2009 et le 01-07-2017"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [
@@ -2604,7 +2742,32 @@
                                 {
                                     "links": [],
                                     "table": null,
-                                    "text": "Le volume nécessaire à ce confinement est déterminé notamment au vu de l'étude de dangers en fonction de la rapidité d'intervention et des moyens d'intervention ainsi que de la nature des matières stockées, et mentionné dans l'arrêté préfectoral."
+                                    "text": "Le volume nécessaire à ce confinement est déterminé en calculant pour chaque cellule la somme :"
+                                },
+                                {
+                                    "links": [],
+                                    "table": null,
+                                    "text": "- du volume d'eau d'extinction nécessaire à la lutte contre l'incendie déterminé selon les dispositions du point 13 ci-dessous, d'une part ;"
+                                },
+                                {
+                                    "links": [],
+                                    "table": null,
+                                    "text": "- du volume de liquide libéré par cet incendie, d'autre part ;"
+                                },
+                                {
+                                    "links": [],
+                                    "table": null,
+                                    "text": "- du volume d'eau lié aux intempéries, à raison de 10 litres par mètre carré de surface de drainage vers l'ouvrage de confinement lorsque le confinement est externe."
+                                },
+                                {
+                                    "links": [],
+                                    "table": null,
+                                    "text": "Cette somme est minorée du volume d'eau évaporé."
+                                },
+                                {
+                                    "links": [],
+                                    "table": null,
+                                    "text": "Le volume nécessaire au confinement peut également être déterminé conformément au document technique D9a (guide pratique pour le dimensionnement des rétentions des eaux d'extinction de l'Institut national d'études de la sécurité civile, la Fédération française des sociétés d'assurances et le Centre national de prévention et de protection, édition août 2004)."
                                 },
                                 {
                                     "links": [],
@@ -2624,17 +2787,19 @@
                             "annotations": null,
                             "applicability": {
                                 "active": true,
-                                "modified": true,
+                                "modified": false,
                                 "reason_inactive": null,
-                                "reason_modified": "Le paragraphe est modifié pour les sites installés entre le 01-07-2003 et le 16-04-2010",
-                                "warnings": []
+                                "reason_modified": null,
+                                "warnings": [
+                                    "Le paragraphe est modifié pour les sites installés entre le 30-04-2009 et le 01-07-2017"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [
                                 {
                                     "links": [],
                                     "table": null,
-                                    "text": "La détection automatique d'incendie avec transmission, en tout temps, de l'alarme à l'exploitant est obligatoire pour les cellules, les locaux techniques et pour les bureaux à proximité des stockages. Cette détection actionne une alarme perceptible en tout point du bâtiment permettant d'assurer l'alerte précoce des personnes présentes sur le site."
+                                    "text": "La détection automatique d'incendie avec transmission, en tout temps, de l'alarme à l'exploitant est obligatoire pour les cellules, les locaux techniques et pour les bureaux à proximité des stockages. Cette détection actionne une alarme perceptible en tout point du bâtiment permettant d'assurer l'alerte précoce des personnes présentes sur le site, et déclenche le compartimentage de la ou des cellules sinistrées."
                                 },
                                 {
                                     "links": [],
@@ -2664,10 +2829,12 @@
                             "annotations": null,
                             "applicability": {
                                 "active": true,
-                                "modified": true,
+                                "modified": false,
                                 "reason_inactive": null,
-                                "reason_modified": "Le paragraphe est modifié pour les sites installés entre le 01-07-2003 et le 16-04-2010",
-                                "warnings": []
+                                "reason_modified": null,
+                                "warnings": [
+                                    "Le paragraphe est modifié pour les sites installés entre le 30-04-2009 et le 01-07-2017"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [
@@ -2699,7 +2866,7 @@
                                 {
                                     "links": [],
                                     "table": null,
-                                    "text": "L'accès extérieur de chaque cellule est à moins de 100 mètres d'un point d'eau incendie:"
+                                    "text": "L'accès extérieur de chaque cellule est à moins de 100 mètres d'un point d'eau incendie. Les points d'eau incendie sont distants entre eux de 150 mètres maximum (les distances sont mesurées par les voies praticables aux engins des services d'incendie et de secours) :"
                                 },
                                 {
                                     "links": [],
@@ -2767,7 +2934,9 @@
                                 "modified": false,
                                 "reason_inactive": null,
                                 "reason_modified": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Le paragraphe n'est pas applicable pour les sites installés entre le 30-04-2009 et le 01-07-2017"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [
@@ -2807,7 +2976,9 @@
                                 "modified": false,
                                 "reason_inactive": null,
                                 "reason_modified": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Le paragraphe n'est pas applicable pour les sites installés entre le 30-04-2009 et le 01-07-2017"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [
@@ -2898,7 +3069,9 @@
                                 "modified": false,
                                 "reason_inactive": null,
                                 "reason_modified": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Le paragraphe n'est pas applicable pour les sites installés entre le 30-04-2009 et le 01-07-2017"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [
@@ -2943,7 +3116,9 @@
                                 "modified": false,
                                 "reason_inactive": null,
                                 "reason_modified": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Le paragraphe n'est pas applicable pour les sites installés avant le 30-04-2009"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [],
@@ -3334,7 +3509,9 @@
                                 "modified": false,
                                 "reason_inactive": null,
                                 "reason_modified": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Le paragraphe n'est pas applicable pour les sites installés avant le 30-04-2009"
+                                ]
                             },
                             "legifrance_article": null,
                             "outer_alineas": [

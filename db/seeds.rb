@@ -24,11 +24,15 @@ path = File.join(File.dirname(__FILE__), "./seeds/TREP1900331A/date-d-installati
 arrete_2521 = JSON.parse(File.read(path))
 Arrete.create(name: "AM - 2521", data: arrete_2521, installation_id: 1)
 
-path = File.join(File.dirname(__FILE__), "./seeds/ATEP9760292A/unique_version.json")
+path = File.join(File.dirname(__FILE__), "./seeds/TREP1900331A/no_date_version.json")
+arrete_2521 = JSON.parse(File.read(path))
+Arrete.create(name: "AM - 2521", data: arrete_2521, installation_id: 1)
+
+path = File.join(File.dirname(__FILE__), "./seeds/ATEP9760292A/no_date_version.json")
 arrete_2517 = JSON.parse(File.read(path))
 Arrete.create(name: "AM - 2517", data: arrete_2517, installation_id: 1)
 
-path = File.join(File.dirname(__FILE__), "./seeds/ATEP9760290A/unique_version.json")
+path = File.join(File.dirname(__FILE__), "./seeds/ATEP9760290A/no_date_version.json")
 arrete_2515 = JSON.parse(File.read(path))
 Arrete.create(name: "AM - 2515", data: arrete_2515, installation_id: 1)
 
@@ -46,6 +50,10 @@ arrete_1510 = JSON.parse(File.read(path))
 Arrete.create(name: "AM - 1510", data: arrete_1510, installation_id: 2)
 
 path = File.join(File.dirname(__FILE__), "./seeds/DEVP1706393A/reg_E_AND_date_between_2010_and_2017.json")
+arrete_1510 = JSON.parse(File.read(path))
+Arrete.create(name: "AM - 1510", data: arrete_1510, installation_id: 2)
+
+path = File.join(File.dirname(__FILE__), "./seeds/DEVP1706393A/reg_E_no_date.json")
 arrete_1510 = JSON.parse(File.read(path))
 Arrete.create(name: "AM - 1510", data: arrete_1510, installation_id: 2)
 
