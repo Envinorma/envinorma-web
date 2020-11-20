@@ -8,22 +8,25 @@
       .col-2
         dl.am_nav
           - @arretes.each do |arrete|
+            - am_classement_infos = classement_infos(arrete, @installation)
             dd.mb-4
-              a href="##{transform_for_id(arrete.data.short_title + classement_infos(arrete, @installation))}"
+              a href="##{transform_for_id(arrete.data.short_title + am_classement_infos)}"
                 => arrete.data.short_title
                 span.text-secondary
-                  = classement_infos(arrete, @installation)
+                  = am_classement_infos
 
       .col-10
         h1.display-4.mb-4 Les prescriptions
         hr.mb-5.mt-5
 
           - @arretes.each do |arrete|
-            section id="#{transform_for_id(arrete.data.short_title + classement_infos(arrete, @installation))}" class="anchor"
+            - am_short_title = arrete.data.short_title
+            - am_classement_infos = classement_infos(arrete, @installation)
+            section id="#{transform_for_id(arrete.data.short_title + am_classement_infos)}" class="anchor"
               h2.display.h1
                 = arrete.data.short_title
                 span.text-secondary
-                  = classement_infos(arrete, @installation)
+                  = am_classement_infos
               p
                 strong = arrete.data.title.text
 
@@ -32,30 +35,26 @@
                 = link_to 'Consulter sur Légifrance', arrete.data.legifrance_url, target: "_blank", class: "ml-3"
 
               - arrete.data.sections.each do |section|
-                - titles = {}
-                - titles["am"] = arrete.data.short_title
-
-                - extract_sections = lambda do |subsection, level = 3, titles|
-                  - titles["#{level}"] = subsection.title.text
+                - extract_sections = lambda do |subsection, level = 3|
 
                   - if subsection.applicability.active == false
                     - if subsection.applicability.reason_inactive
                       .alert.alert-danger
                         p = subsection.applicability.reason_inactive
                     .inactive
-                      = render partial: "outer_alineas", locals: {subsection: subsection, level: level, titles: titles}
+                      = render partial: "outer_alineas", locals: {subsection: subsection, level: level, ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}"}
                   - else
 
                     - if subsection.applicability.modified
                       .alert.alert-success
                         p = subsection.applicability.reason_modified
 
-                    = render partial: "outer_alineas", locals: {subsection: subsection, level: level, titles: titles}
+                    = render partial: "outer_alineas", locals: {subsection: subsection, level: level, ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}"}
 
                   - subsection.sections.each do |item|
-                    - extract_sections.call(item, level + 1, titles)
+                    - extract_sections.call(item, level + 1)
 
-                - extract_sections.call(section, titles)
+                - extract_sections.call(section)
 
             hr.mb-5.mt-5
 

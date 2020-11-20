@@ -12,7 +12,7 @@
         .form-group.row
             .col-sm-12
               .form-check
-                = check_box_tag "prescriptions[prescription_#{secure_id}]", "#{titles.values} SPLIT #{outer_alinea.text}", false, class: "form-check-input"
+                = check_box_tag "prescriptions[prescription_#{secure_id}]", "#{ref} SPLIT #{outer_alinea.text}", false, class: "form-check-input"
                 = label_tag("prescriptions[prescription_#{secure_id}]", outer_alinea.text)
 
       - if outer_alinea.table
