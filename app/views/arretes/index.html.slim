@@ -9,15 +9,21 @@
         dl.am_nav
           - @arretes.each do |arrete|
             dd.mb-4
-              a href="##{transform_for_id(arrete.data.short_title)}" = arrete.data.short_title
+              a href="##{transform_for_id(arrete.data.short_title + classement_infos(arrete, @installation))}"
+                => arrete.data.short_title
+                span.text-secondary
+                  = classement_infos(arrete, @installation)
 
       .col-10
         h1.display-4.mb-4 Les prescriptions
         hr.mb-5.mt-5
 
           - @arretes.each do |arrete|
-            section id="#{transform_for_id(arrete.data.short_title)}" class="anchor"
-              h2.display.h1 = arrete.data.short_title
+            section id="#{transform_for_id(arrete.data.short_title + classement_infos(arrete, @installation))}" class="anchor"
+              h2.display.h1
+                = arrete.data.short_title
+                span.text-secondary
+                  = classement_infos(arrete, @installation)
               p.mb-5
                 = link_to 'Consulter sur Aida', arrete.data.aida_url, target: "_blank"
                 = link_to 'Consulter sur Légifrance', arrete.data.legifrance_url, target: "_blank", class: "ml-3"
