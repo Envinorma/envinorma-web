@@ -22,7 +22,7 @@
               thead
                 tr
                   - row.cells.each do |cell|
-                    th collspan="#{cell.colspan}"
+                    th collspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
                       = cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe
             - else
               tbody
