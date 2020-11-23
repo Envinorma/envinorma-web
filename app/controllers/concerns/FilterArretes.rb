@@ -24,14 +24,23 @@ module FilterArretes
     arretes_filtered = []
     arretes.each do |arrete|
       installation_date_criterion = arrete.data.installation_date_criterion
-      if installation_date_criterion.nil?
-        arretes_filtered << arrete
-      elsif installation_date_criterion.left_date.present? && installation_date_criterion.right_date.present?
-        arretes_filtered << arrete if installation_date_criterion.left_date.to_date <= @installation.date && installation_date_criterion.right_date.to_date > @installation.date
-      elsif installation_date_criterion.left_date.present?
-        arretes_filtered << arrete if installation_date_criterion.left_date.to_date < @installation.date
+      if @installation.date.nil?
+        if arrete.data.unique_version
+          arretes_filtered << arrete
+        elsif installation_date_criterion.nil?
+          arretes_filtered << arrete
+        end
       else
-        arretes_filtered << arrete if installation_date_criterion.right_date.to_date >= @installation.date
+        next if !arrete.data.unique_version && installation_date_criterion.nil?
+        if arrete.data.unique_version
+          arretes_filtered << arrete
+        elsif installation_date_criterion.left_date.present? && installation_date_criterion.right_date.present?
+          arretes_filtered << arrete if installation_date_criterion.left_date.to_date <= @installation.date && installation_date_criterion.right_date.to_date > @installation.date
+        elsif installation_date_criterion.left_date.present?
+          arretes_filtered << arrete if installation_date_criterion.left_date.to_date < @installation.date
+        else
+          arretes_filtered << arrete if installation_date_criterion.right_date.to_date >= @installation.date
+        end
       end
     end
     arretes_filtered
