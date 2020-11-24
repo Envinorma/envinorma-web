@@ -11,13 +11,11 @@ module FilterArretes
   end
 
   def filter_arretes_by_rubrique
-    arretes_filtered = []
-    Arrete.all.each do |arrete|
-      if compare_array(arrete, :rubrique) && compare_array(arrete, :regime)
-        arretes_filtered << arrete
-      end
+    arretes = Arrete.all.select do |arrete|
+      # à garder pour comparer également le régime
+      # compare_array(arrete, :rubrique) && compare_array(arrete, :regime)
+      (arrete.data.classements.pluck(:rubrique) & @installation.classements.pluck(:rubrique)).any?
     end
-    arretes_filtered
   end
 
   def filter_arretes_by_date arretes
