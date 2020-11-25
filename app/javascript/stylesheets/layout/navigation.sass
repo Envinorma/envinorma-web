@@ -34,6 +34,7 @@ html
 
     &:hover,
     &.current
+      color: #000000
       text-decoration: none
       border-bottom: 3px solid $primary
       padding-bottom: calc(0.5em - 3px)
@@ -42,9 +43,9 @@ html
   position: fixed
   top: 110px
   font-size: 0.8em
+  z-index: 3
 
-
-.sommaire
+.summary
   position: sticky
   top: 150px
   border-left: 2px solid $primary
@@ -58,23 +59,27 @@ html
     display: block
     padding-left: 10px
 
-    &:hover
+    &:hover,
+    &.current
       text-decoration: none
+      color: #000000
+      border-left: 3px solid $primary
+      padding-left: 7px
 
-  a.current
+  .level_0
+    text-transform: uppercase
     font-weight: bold
-    border-left: 3px solid $primary
 
-.display-sommaire.current
+.display-summary.current
   display: block
 
-.display-sommaire
+.display-summary
   display: none
 
-section.anchor::before
+section.anchor::before, div.anchor::before
   display: block
   content: " "
-  margin-top: -80px
-  height: 80px
+  margin-top: -140px
+  height: 140px
   visibility: hidden
   pointer-events: none
