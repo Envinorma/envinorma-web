@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', () => {
     mainNavLinks.forEach(link => {
       // let section = document.querySelector(link.hash);
       let section = document.querySelector(`section${link.hash}`);
-      let summary = document.querySelector(`div${link.hash}-summary`);
+      let summary = document.querySelector(`div${link.hash}_summary`);
 
       if (
         section.offsetTop <= fromTop &&
