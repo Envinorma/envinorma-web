@@ -8,7 +8,6 @@ html
   top: 0
   background-color: #ffffff
   z-index: 1
-  margin-bottom: 20px
 
 .logo
   display: block
@@ -16,8 +15,38 @@ html
     width: 30px
 
 .am_nav
+  display: flex
+  justify-content: center
+  background-color: #eee
   position: sticky
-  top: 90px
+  top: 47px
+  z-index: 2
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+
+  li
+    text-align: center
+    line-height: 1.2
+    font-size: 0.9em
+  a
+    color: inherit
+    display: block
+    padding: 0.5em 2em
+
+    &:hover,
+    &.current
+      text-decoration: none
+      border-bottom: 3px solid $primary
+      padding-bottom: calc(0.5em - 3px)
+
+.back_link
+  position: fixed
+  top: 110px
+  font-size: 0.8em
+
+
+.sommaire
+  position: sticky
+  top: 150px
   border-left: 2px solid $primary
 
   a

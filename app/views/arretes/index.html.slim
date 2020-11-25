@@ -1,62 +1,60 @@
+ul.am_nav.list-inline
+  - @arretes.each do |arrete|
+    - am_classement_infos = classement_infos(arrete, @installation)
+    li.list-inline-item
+      a href="##{transform_for_id(arrete.data.short_title + am_classement_infos)}"
+        => arrete.data.short_title
+        br
+          = am_classement_infos
+
 = form_tag({controller: "arretes", action: "generate_doc_with_prescriptions"}, method: "post") do
   .container
-    .row
-      .col
-        = link_to "< Retour à l’installation", installation_path(@installation)
-
+    = link_to "< Retour à l’installation", installation_path(@installation), class: "back_link"
     .row.mt-5
       .col-2
-        dl.am_nav
-          - @arretes.each do |arrete|
-            - am_classement_infos = classement_infos(arrete, @installation)
-            dd.mb-4
-              a href="##{transform_for_id(arrete.data.short_title + am_classement_infos)}"
-                => arrete.data.short_title
-                span.text-secondary
-                  = am_classement_infos
+        dl.sommaire
+          dd.mb-4
+            a href="#" Sommaire
 
       .col-10
-        h1.display-4.mb-4 Les prescriptions
-        hr.mb-5.mt-5
+        - @arretes.each do |arrete|
+          - am_short_title = arrete.data.short_title
+          - am_classement_infos = classement_infos(arrete, @installation)
+          section id="#{transform_for_id(arrete.data.short_title + am_classement_infos)}" class="anchor"
+            h2.display.h1
+              = arrete.data.short_title
+              span.text-secondary
+                = am_classement_infos
+            p
+              strong = arrete.data.title.text
 
-          - @arretes.each do |arrete|
-            - am_short_title = arrete.data.short_title
-            - am_classement_infos = classement_infos(arrete, @installation)
-            section id="#{transform_for_id(arrete.data.short_title + am_classement_infos)}" class="anchor"
-              h2.display.h1
-                = arrete.data.short_title
-                span.text-secondary
-                  = am_classement_infos
-              p
-                strong = arrete.data.title.text
+            p.mb-5
+              = link_to 'Consulter sur Aida', arrete.data.aida_url, target: "_blank"
+              = link_to 'Consulter sur Légifrance', arrete.data.legifrance_url, target: "_blank", class: "ml-3"
 
-              p.mb-5
-                = link_to 'Consulter sur Aida', arrete.data.aida_url, target: "_blank"
-                = link_to 'Consulter sur Légifrance', arrete.data.legifrance_url, target: "_blank", class: "ml-3"
+            - arrete.data.sections.each do |section|
+              - extract_sections = lambda do |subsection, level = 3|
 
-              - arrete.data.sections.each do |section|
-                - extract_sections = lambda do |subsection, level = 3|
-
-                  - if subsection.applicability.active == false
-                    - if subsection.applicability.reason_inactive
-                      .alert.alert-danger
-                        p = subsection.applicability.reason_inactive
-                    .inactive
-                      = render partial: "outer_alineas", locals: {subsection: subsection, level: level, ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}"}
-                  - else
-
-                    - if subsection.applicability.modified
-                      .alert.alert-success
-                        p = subsection.applicability.reason_modified
-
+                - if subsection.applicability.active == false
+                  - if subsection.applicability.reason_inactive
+                    .alert.alert-danger
+                      p = subsection.applicability.reason_inactive
+                  .inactive
                     = render partial: "outer_alineas", locals: {subsection: subsection, level: level, ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}"}
+                - else
 
-                  - subsection.sections.each do |item|
-                    - extract_sections.call(item, level + 1)
+                  - if subsection.applicability.modified
+                    .alert.alert-success
+                      p = subsection.applicability.reason_modified
 
-                - extract_sections.call(section)
+                  = render partial: "outer_alineas", locals: {subsection: subsection, level: level, ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}"}
 
-            hr.mb-5.mt-5
+                - subsection.sections.each do |item|
+                  - extract_sections.call(item, level + 1)
+
+              - extract_sections.call(section)
+
+          hr.mb-5.mt-5
 
   .wrapper-btn-fixed
     = submit_tag("Générer une fiche d'inspection", class: "btn btn-primary btn-prescription")
