@@ -11,12 +11,24 @@ ul.am_nav.list-inline
   .container
     = link_to "< Retour à l’installation", installation_path(@installation), class: "back_link"
     .row.mt-5
-      .col-2
+      .col-3
         dl.sommaire
-          dd.mb-4
-            a href="#" Sommaire
+          - @arretes.each do |arrete|
+            - am_short_title = arrete.data.short_title
+            - am_classement_infos = classement_infos(arrete, @installation)
+            .display-sommaire id="#{transform_for_id(arrete.data.short_title + am_classement_infos)}-sommaire"
+              - arrete.data.sections.each do |section|
+                - extract_sections = lambda do |subsection, level = 3|
 
-      .col-10
+                  dd
+                    a href="#" = subsection.title.text
+
+                  - subsection.sections.each do |item|
+                    - extract_sections.call(item, level + 1)
+
+                - extract_sections.call(section)
+
+      .col-9
         - @arretes.each do |arrete|
           - am_short_title = arrete.data.short_title
           - am_classement_infos = classement_infos(arrete, @installation)

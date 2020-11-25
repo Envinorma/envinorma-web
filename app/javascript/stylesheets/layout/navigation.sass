@@ -48,6 +48,10 @@ html
   position: sticky
   top: 150px
   border-left: 2px solid $primary
+  font-size: 0.8em
+  bottom: 0
+  height: 75vh
+  overflow-y: auto
 
   a
     color: inherit
@@ -60,6 +64,12 @@ html
   a.current
     font-weight: bold
     border-left: 3px solid $primary
+
+.display-sommaire.current
+  display: block
+
+.display-sommaire
+  display: none
 
 section.anchor::before
   display: block
