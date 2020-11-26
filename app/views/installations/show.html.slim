@@ -34,4 +34,4 @@
             span.text-secondary
               = classement_infos(arrete, @installation)
 
-      = link_to "Voir les prescriptions pour générer une fiche d'inspection", arretes_path(@installation), class: "btn btn-primary mb-4 "
+      = link_to "Voir les prescriptions pour générer une fiche d'inspection", arretes_path(@installation, AM: @arretes.pluck(:id)), class: "btn btn-primary mb-4 "

@@ -3,7 +3,8 @@ class ArretesController < ApplicationController
   before_action :set_installation
 
   def index
-    @arretes = filter_arretes
+    # @arretes = filter_arretes
+    @arretes = Arrete.find(params[:AM])
   end
 
   def generate_doc_with_prescriptions
