@@ -1,32 +1,34 @@
 - if subsection.outer_alineas.empty?
-  *{tag: "h#{level}"} = subsection.title.text
+  div id="anchor_#{subsection.id}" class="anchor anchor-summary"
+    *{tag: "h#{level}"} = subsection.title.text
 
 - else
   - secure_id = SecureRandom.hex(10)
-  *{tag: "h#{level}"} class="icon" data-toggle="collapse" data-target=="#collapse_#{secure_id}" = subsection.title.text
+  div id="anchor_#{subsection.id}" class="anchor anchor-summary"
+    *{tag: "h#{level}"} class="icon" data-toggle="collapse" data-target=="#collapse_#{secure_id}" = subsection.title.text
 
-  .collapse.show id="collapse_#{secure_id}"
-    - subsection.outer_alineas.each do |outer_alinea|
-      - if outer_alinea.text != ""
-        - secure_id = SecureRandom.hex(10)
-        .form-group.row
-            .col-sm-12
-              .form-check
-                = check_box_tag "prescriptions[prescription_#{secure_id}]", "#{ref} SPLIT #{outer_alinea.text}", false, class: "form-check-input"
-                = label_tag("prescriptions[prescription_#{secure_id}]", outer_alinea.text)
+    .collapse.show id="collapse_#{secure_id}"
+      - subsection.outer_alineas.each do |outer_alinea|
+        - if outer_alinea.text != ""
+          - secure_id = SecureRandom.hex(10)
+          .form-group.row
+              .col-sm-12
+                .form-check
+                  = check_box_tag "prescriptions[prescription_#{secure_id}]", "#{ref} SPLIT #{outer_alinea.text}", false, class: "form-check-input"
+                  = label_tag("prescriptions[prescription_#{secure_id}]", outer_alinea.text)
 
-      - if outer_alinea.table
-        table.table.table-bordered
-          - outer_alinea.table.rows.each do |row|
-            - if row.is_header
-              thead
-                tr
-                  - row.cells.each do |cell|
-                    th collspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
-                      = cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe
-            - else
-              tbody
-                tr
-                  - row.cells.each do |cell|
-                    td collspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
-                      = cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe
+        - if outer_alinea.table
+          table.table.table-bordered
+            - outer_alinea.table.rows.each do |row|
+              - if row.is_header
+                thead
+                  tr
+                    - row.cells.each do |cell|
+                      th collspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
+                        = cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe
+              - else
+                tbody
+                  tr
+                    - row.cells.each do |cell|
+                      td collspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
+                        = cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe
