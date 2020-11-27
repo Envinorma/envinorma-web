@@ -21,19 +21,19 @@ ul.am_nav.list-inline
 
       .col-10
         - @arretes.each do |arrete|
-          - am_short_title = arrete.data.short_title
+          - am_short_title = arrete.short_title
           - am_classement_infos = classement_infos(arrete, @installation)
           section id="anchor_#{arrete.id}" class="anchor"
             h2.display.h1
-              = arrete.data.short_title
+              = arrete.short_title
               span.text-secondary
                 = am_classement_infos
             p
-              strong = arrete.data.title.text
+              strong = arrete.title
 
             p.mb-5
-              = link_to 'Consulter sur Aida', arrete.data.aida_url, target: "_blank"
-              = link_to 'Consulter sur Légifrance', arrete.data.legifrance_url, target: "_blank", class: "ml-3"
+              = link_to 'Consulter sur Aida', arrete.aida_url, target: "_blank"
+              = link_to 'Consulter sur Légifrance', arrete.legifrance_url, target: "_blank", class: "ml-3"
 
             - arrete.data.sections.each do |section|
               - extract_sections = lambda do |subsection, level = 3|
