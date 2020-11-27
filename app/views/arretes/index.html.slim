@@ -3,7 +3,7 @@ ul.am_nav.list-inline
     - am_classement_infos = classement_infos(arrete, @installation)
     li.list-inline-item
       a href="#anchor_#{arrete.id}"
-        => arrete.data.short_title
+        => arrete.short_title
         br
           = am_classement_infos
 
@@ -15,9 +15,9 @@ ul.am_nav.list-inline
         dl.summary
           - @arretes.each do |arrete|
             .display-summary id="anchor_#{arrete.id}_summary" class="anchor"
-              - arrete.data.summary.elements.each do |summary_item|
+              - arrete.summary["elements"].each do |summary_item|
                 dd
-                  a class="level_#{summary_item.depth}" href="#anchor_#{summary_item.section_id}" = summary_item.section_title
+                  a class="level_#{summary_item["depth"]}" href="#anchor_#{summary_item["section_id"]}" = summary_item["section_title"]
 
       .col-10
         - @arretes.each do |arrete|

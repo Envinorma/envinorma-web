@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_27_110819) do
+ActiveRecord::Schema.define(version: 2020_11_27_142859) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 2020_11_27_110819) do
     t.string "installation_date_criterion_right"
     t.string "aida_url"
     t.string "legifrance_url"
+    t.jsonb "summary"
     t.index ["installation_id"], name: "index_arretes_on_installation_id"
   end
 

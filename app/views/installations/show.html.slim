@@ -31,7 +31,7 @@
       ul.list-unstyled
         - @arretes.each do |arrete|
           li
-            => arrete.data.short_title
+            => arrete.short_title
             span.text-secondary
               = classement_infos(arrete, @installation)
 
