@@ -20,29 +20,29 @@ module FilterArretes
   end
 
   def filter_arretes_by_date arretes
-    arretes_filtered = []
-    arretes.each do |arrete|
-      installation_date_criterion = arrete.data.installation_date_criterion
+    arretes = arretes.reverse.select do |arrete|
+      date_left = arrete.installation_date_criterion_left
+      date_right = arrete.installation_date_criterion_right
+
       if @installation.date.nil?
-        if arrete.data.unique_version
-          arretes_filtered << arrete
-        elsif installation_date_criterion.nil?
-          arretes_filtered << arrete
+        if arrete.unique_version
+          arrete
+        elsif date_left.nil? && date_right.nil?
+          arrete
         end
       else
-        next if !arrete.data.unique_version && installation_date_criterion.nil?
-        if arrete.data.unique_version
-          arretes_filtered << arrete
-        elsif installation_date_criterion.left_date.present? && installation_date_criterion.right_date.present?
-          arretes_filtered << arrete if installation_date_criterion.left_date.to_date <= @installation.date && installation_date_criterion.right_date.to_date > @installation.date
-        elsif installation_date_criterion.left_date.present?
-          arretes_filtered << arrete if installation_date_criterion.left_date.to_date < @installation.date
+        next if !arrete.unique_version && date_left.nil? && date_right.nil?
+        if arrete.unique_version
+          arrete
+        elsif date_left.present? && date_right.present?
+          arrete if date_left.to_date <= @installation.date && date_right.to_date > @installation.date
+        elsif date_left.present?
+          arrete if date_left.to_date < @installation.date
         else
-          arretes_filtered << arrete if installation_date_criterion.right_date.to_date >= @installation.date
+          arrete if date_right.to_date >= @installation.date
         end
       end
     end
-    arretes_filtered
   end
 
   def compare_array arrete, element

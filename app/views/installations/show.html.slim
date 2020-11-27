@@ -5,7 +5,7 @@
 
       p
         b Date d'autorisation de l'installation :
-        =< @installation.date.strftime("%d/%m/%Y")
+        =< @installation.date&.strftime("%d/%m/%Y")
         =< link_to "modifier la date", edit_installation_path(@installation)
 
       h2.mt-5 Classements
