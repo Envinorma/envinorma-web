@@ -9,7 +9,7 @@ ul.am_nav.list-inline
 
 = form_tag({controller: "arretes", action: "generate_doc_with_prescriptions"}, method: "post") do
   .container
-    = link_to "< Retour à l’installation", installation_path(@installation), class: "back_link"
+    = link_to "< Retour à l’installation", installation_path(@installation), class: "back_link js_loader__link"
     .row.mt-5
       .col-2
         dl.summary

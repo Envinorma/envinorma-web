@@ -5,7 +5,7 @@
 - else
   - secure_id = SecureRandom.hex(10)
   div id="anchor_#{subsection.id}" class="anchor anchor-summary"
-    *{tag: "h#{level}"} class="icon" data-toggle="collapse" data-target=="#collapse_#{secure_id}" = subsection.title.text
+    *{tag: "h#{level}"} class="icon-collapse" data-toggle="collapse" data-target=="#collapse_#{secure_id}" = subsection.title.text
 
     .collapse.show id="collapse_#{secure_id}"
       - subsection.outer_alineas.each do |outer_alinea|

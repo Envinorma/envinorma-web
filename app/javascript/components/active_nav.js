@@ -1,7 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
   let mainNavLinks = document.querySelectorAll(".am_nav a");
   let mainSections = document.querySelectorAll(".container section");
-
   let mainSummary = document.querySelectorAll(".summary .display-summary");
   let mainSummaryLinks = document.querySelectorAll(".summary a");
   let mainSummaryAnchors = document.querySelectorAll(".anchor-summary");
@@ -11,6 +10,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   mainNavLinks[0].classList.add("current");
   mainSummary[0].classList.add("current");
+
   // This should probably be throttled.
   // Especially because it triggers during smooth scrolling.
   // https://lodash.com/docs/4.17.10#throttle
