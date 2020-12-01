@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_27_142859) do
+ActiveRecord::Schema.define(version: 2020_12_01_094421) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -18,7 +18,6 @@ ActiveRecord::Schema.define(version: 2020_11_27_142859) do
   create_table "arretes", force: :cascade do |t|
     t.string "name"
     t.jsonb "data"
-    t.bigint "installation_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "short_title"
@@ -29,7 +28,6 @@ ActiveRecord::Schema.define(version: 2020_11_27_142859) do
     t.string "aida_url"
     t.string "legifrance_url"
     t.jsonb "summary"
-    t.index ["installation_id"], name: "index_arretes_on_installation_id"
   end
 
   create_table "classements", force: :cascade do |t|
@@ -40,6 +38,8 @@ ActiveRecord::Schema.define(version: 2020_11_27_142859) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "activite"
+    t.bigint "arrete_id"
+    t.index ["arrete_id"], name: "index_classements_on_arrete_id"
     t.index ["installation_id"], name: "index_classements_on_installation_id"
   end
 
@@ -50,6 +50,6 @@ ActiveRecord::Schema.define(version: 2020_11_27_142859) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  add_foreign_key "arretes", "installations"
+  add_foreign_key "classements", "arretes"
   add_foreign_key "classements", "installations"
 end
