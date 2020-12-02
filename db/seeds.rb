@@ -1,26 +1,9 @@
-# create installations
-Installation.create(name: "Eva Industries", date: "07/05/1974".to_date)
-Installation.create(name: "AURILIS GROUP", date: "02/05/2007".to_date)
-puts "Installations are seeded"
-
-# create classements
-# first installation
-Classement.create(rubrique: "2521", regime: "E", activite: "Enrobage au bitume de matériaux routiers", alinea: "1", installation_id: 1)
-Classement.create(rubrique: "2517", regime: "D", activite: "Produits minéraux ou déchets non dangereux inertes (transit)", alinea: "3", installation_id: 1)
-Classement.create(rubrique: "2515", regime: "D", activite: "Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes", alinea: "1c", installation_id: 1)
-
-# second installation
-Classement.create(rubrique: "1510", regime: "E", activite: "Entrepôts couverts autres que 1511", alinea: "2", installation_id: 2)
-
-puts "Classements are seeded"
-
 # create arretes
 path = File.join(File.dirname(__FILE__), "./seeds/TREP1900331A/date-d-installation_<_2019-04-09.json")
 arrete_2521 = JSON.parse(File.read(path))
 Arrete.create(
     name: "AM - 2521",
     data: arrete_2521,
-    installation_id: 1,
     short_title: "Arrêté du 9 avril 2019",
     title: "Arrêté du 9 avril 2019 relatif aux prescriptions générales applicables aux installations relevant du régime de l'enregistrement au titre de la rubrique n° 2521 de la nomenclature des installations classées pour la protection de l'environnement - Enrobage au bitume de matériaux routiers (Centrale d')",
     unique_version: false,
@@ -37,7 +20,6 @@ arrete_2521 = JSON.parse(File.read(path))
 Arrete.create(
     name: "AM - 2521",
     data: arrete_2521,
-    installation_id: 1,
     short_title: "Arrêté du 9 avril 2019",
     title: "Arrêté du 9 avril 2019 relatif aux prescriptions générales applicables aux installations relevant du régime de l'enregistrement au titre de la rubrique n° 2521 de la nomenclature des installations classées pour la protection de l'environnement - Enrobage au bitume de matériaux routiers (Centrale d')",
     unique_version: false,
@@ -54,7 +36,6 @@ arrete_2521 = JSON.parse(File.read(path))
 Arrete.create(
     name: "AM - 2521",
     data: arrete_2521,
-    installation_id: 1,
     short_title: "Arrêté du 9 avril 2019",
     title: "Arrêté du 9 avril 2019 relatif aux prescriptions générales applicables aux installations relevant du régime de l'enregistrement au titre de la rubrique n° 2521 de la nomenclature des installations classées pour la protection de l'environnement - Enrobage au bitume de matériaux routiers (Centrale d')",
     unique_version: false,
@@ -71,7 +52,6 @@ arrete_2517 = JSON.parse(File.read(path))
 Arrete.create(
     name: "AM - 2517",
     data: arrete_2517,
-    installation_id: 1,
     short_title: "Arrêté du 30 juin 1997",
     title: "Arrêté du 30 juin 1997 relatif aux prescriptions générales applicables aux installations classées pour la protection de l'environnement soumises à déclaration sous la rubrique n° 2517 (Station de transit de produits minéraux solides, à l'exclusion de ceux visés par d'autres rubriques)",
     unique_version: true,
@@ -88,7 +68,6 @@ arrete_2515 = JSON.parse(File.read(path))
 Arrete.create(
     name: "AM - 2515",
     data: arrete_2515,
-    installation_id: 1,
     short_title: "Arrêté du 30 juin 1997",
     title: "Arrêté du 30 juin 1997 relatif aux prescriptions générales applicables aux installations classées pour la protection de l'environnement soumises à déclaration sous la rubrique n° 2515 (Broyage, concassage, criblage, ensachage, pulvérisation, nettoyage, tamisage, mélange de pierres, cailloux, minerais et autres produits minéraux naturels ou artificiels)",
     unique_version: true,
@@ -105,7 +84,6 @@ arrete_1510 = JSON.parse(File.read(path))
 Arrete.create(
     name: "AM - 1510",
     data: arrete_1510,
-    installation_id: 2,
     short_title: "Arrêté du 11 avril 2017",
     title: "Arrêté du 11 avril 2017 relatif aux prescriptions générales applicables aux entrepôts couverts soumis à la rubrique 1510, y compris lorsqu'ils relèvent également de l'une ou plusieurs des rubriques 1530, 1532, 2662 ou 2663 de la nomenclature des installations classées pour la protection de l'environnement",
     unique_version: false,
@@ -122,7 +100,6 @@ arrete_1510 = JSON.parse(File.read(path))
 Arrete.create(
     name: "AM - 1510",
     data: arrete_1510,
-    installation_id: 2,
     short_title: "Arrêté du 11 avril 2017",
     title: "Arrêté du 11 avril 2017 relatif aux prescriptions générales applicables aux entrepôts couverts soumis à la rubrique 1510, y compris lorsqu'ils relèvent également de l'une ou plusieurs des rubriques 1530, 1532, 2662 ou 2663 de la nomenclature des installations classées pour la protection de l'environnement",
     unique_version: false,
@@ -139,7 +116,6 @@ arrete_1510 = JSON.parse(File.read(path))
 Arrete.create(
     name: "AM - 1510",
     data: arrete_1510,
-    installation_id: 2,
     short_title: "Arrêté du 11 avril 2017",
     title: "Arrêté du 11 avril 2017 relatif aux prescriptions générales applicables aux entrepôts couverts soumis à la rubrique 1510, y compris lorsqu'ils relèvent également de l'une ou plusieurs des rubriques 1530, 1532, 2662 ou 2663 de la nomenclature des installations classées pour la protection de l'environnement",
     unique_version: false,
@@ -156,7 +132,6 @@ arrete_1510 = JSON.parse(File.read(path))
 Arrete.create(
     name: "AM - 1510",
     data: arrete_1510,
-    installation_id: 2,
     short_title: "Arrêté du 11 avril 2017",
     title: "Arrêté du 11 avril 2017 relatif aux prescriptions générales applicables aux entrepôts couverts soumis à la rubrique 1510, y compris lorsqu'ils relèvent également de l'une ou plusieurs des rubriques 1530, 1532, 2662 ou 2663 de la nomenclature des installations classées pour la protection de l'environnement",
     unique_version: false,
@@ -173,7 +148,6 @@ arrete_1510 = JSON.parse(File.read(path))
 Arrete.create(
     name: "AM - 1510",
     data: arrete_1510,
-    installation_id: 2,
     short_title: "Arrêté du 11 avril 2017",
     title: "Arrêté du 11 avril 2017 relatif aux prescriptions générales applicables aux entrepôts couverts soumis à la rubrique 1510, y compris lorsqu'ils relèvent également de l'une ou plusieurs des rubriques 1530, 1532, 2662 ou 2663 de la nomenclature des installations classées pour la protection de l'environnement",
     unique_version: false,
@@ -185,3 +159,34 @@ Arrete.create(
 )
 
 puts "Arretes are seeded"
+
+
+InstallationStore.create(name: "0065.06351",
+                          data: { "etablissement":
+                                  {"idInst": "0065.06351","nomInst": "EVA INDUSTRIES","codeSiret":nil,"regionInst": "ILE-DE-FRANCE","departementInst": "SEINE-SAINT-DENIS","communeInst": "AULNAY SOUS BOIS","adresse1": "Z.I DES MARDELLES","adresse2":nil,"codePostal": "93600","codeInsee": "93005","x": "662193","y": "6872309","systProj": "2154","codeActiviteInst":nil,"activiteInst":nil,"etatActiviteInst": "En fonctionnement","nomServiceInspection": "DREAL","numInspection": "0065.06351","derInspection": "2020-10-23","regimeInst": "Enregistrement","prioNational": "0","pied": "0","statutInst": "Non Seveso"},
+                                  "classements": [{"seveso": "NS","codeNomenclature": "1721","alinea": "1b","dateAutorisation": "2003-04-25","etatActivite": "0","regime":nil,"idRegime":nil,"activiteNomenclatureInst": "RADIOACTIVES (EQUIPEMENTS MOBILES) SOURCES SCELLEES CONFORMES","familleNomenclature": "xxx","volumeInst": "0.000","unite": "bq"},{"seveso": "NS","codeNomenclature": "2515","alinea": "1c","dateAutorisation": "2004-07-30","etatActivite": "1","regime":nil,"idRegime": "D","activiteNomenclatureInst": "Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes","familleNomenclature": "xxx","volumeInst": "150.000","unite": "kW"},{"seveso": "NS","codeNomenclature": "2515","alinea": "2","dateAutorisation": "1974-05-07","etatActivite": "0","regime":nil,"idRegime": "D","activiteNomenclatureInst": "Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes","familleNomenclature": "xxx","volumeInst": "125.000","unite": "kW"},{"seveso": "NS","codeNomenclature": "2517","alinea": "3","dateAutorisation":nil,"etatActivite": "1","regime":nil,"idRegime": "D","activiteNomenclatureInst": "Produits minéraux ou déchets non dangereux inertes (transit)","familleNomenclature": "xxx","volumeInst": "6000.000","unite": "m2"},{"seveso": "NS","codeNomenclature": "2521","alinea": "1","dateAutorisation": "1974-05-07","etatActivite": "1","regime": "Enregistrement","idRegime": "E","activiteNomenclatureInst": "Enrobage au bitume de matériaux routiers (centrale d')","familleNomenclature": "xxx","volumeInst": "150000.000","unite": "t/an"},{"seveso": "NS","codeNomenclature": "2564","alinea": "3","dateAutorisation": "2003-04-25","etatActivite": "0","regime":nil,"idRegime":nil,"activiteNomenclatureInst": "Nettoyage,dégraissage,décapage avec organohalogénés ou solvants organiques","familleNomenclature": "xxx","volumeInst": "46.000","unite": "L"},{"seveso": "NS","codeNomenclature": "2915","alinea": "2","dateAutorisation": "1814-11-23","etatActivite": "0","regime":nil,"idRegime":nil,"activiteNomenclatureInst": "Chauffage (procédé de) fluide caloporteur organique combustible","familleNomenclature": "xxx","volumeInst": "4000.000","unite": "L"},{"seveso": "NS","codeNomenclature": "2920","alinea": "2b","dateAutorisation": "1814-11-23","etatActivite": "0","regime":nil,"idRegime":nil,"activiteNomenclatureInst": "Réfrigération ou compression (installation de) pression >10E5 Pa","familleNomenclature": "xxx","volumeInst": "75.000","unite": "kW"},{"seveso": "NS","codeNomenclature": "4801","alinea": "2","dateAutorisation":nil,"etatActivite": "1","regime":nil,"idRegime": "D","activiteNomenclatureInst": "Houille, coke, lignite, charbon de bois, goudron, asphalte, brais et matières bitumineuses","familleNomenclature": "4xxx","volumeInst": "460.000","unite": "t"}]
+                                })
+
+InstallationStore.create(name: "0164.00375",
+                          data: { "etablissement": {"idInst": "0164.00375","nomInst": "AURILIS GROUP","codeSiret": "39026226900108","regionInst": "AUVERGNE-RHONE-ALPES","departementInst": "PUY-DE-DOME","communeInst": "CLERMONT FERRAND","adresse1": "14-16 rue Pierre Boulanger","adresse2": "ZI du Brézet","codePostal": "63000","codeInsee": "63113","x": "710917","y": "6520295","systProj": "2154","codeActiviteInst":nil,"activiteInst":nil,"etatActiviteInst": "En fonctionnement","nomServiceInspection": "DREAL","numInspection": "0164.00375","derInspection": "2019-10-10","regimeInst": "Enregistrement","prioNational": "0","pied": "0","statutInst": "Non Seveso"},
+                                  "classements": [{"seveso": "NS","codeNomenclature": "1412","alinea": "2b","dateAutorisation":nil,"etatActivite": "1","regime":nil,"idRegime":nil,"activiteNomenclatureInst": "Gaz inflammables liquéfiés (stockage)","familleNomenclature": "xxx","volumeInst": "11.100","unite": "t"},{"seveso": "NS","codeNomenclature": "1432","alinea": "2b","dateAutorisation":nil,"etatActivite": "1","regime":nil,"idRegime":nil,"activiteNomenclatureInst": "Liquides inflammables (stockage)","familleNomenclature": "xxx","volumeInst": "99.000","unite": "m3"},{"seveso": "NS","codeNomenclature": "1510","alinea": "2","dateAutorisation": "2007-05-02","etatActivite": "1","regime": "Enregistrement","idRegime": "E","activiteNomenclatureInst": "Entrepôts couverts autres que 1511","familleNomenclature": "1xxx","volumeInst": "152700.000","unite": "m3"},{"seveso": "NS","codeNomenclature": "2663","alinea": "2c","dateAutorisation":nil,"etatActivite": "1","regime":nil,"idRegime":nil,"activiteNomenclatureInst": "Pneumatiques,produits avec polymères>50%(stockage)","familleNomenclature": "2xxx","volumeInst": "1100.000","unite": "m3"},{"seveso": "NS","codeNomenclature": "2925","alinea":nil,"dateAutorisation": "2007-05-02","etatActivite": "1","regime":nil,"idRegime":nil,"activiteNomenclatureInst": "ACCUMULATEURS (ATELIERS DE CHARGE D')","familleNomenclature": "xxx","volumeInst": "120.000","unite": "kW"}] })
+
+puts "InstallationStore are seeded"
+
+
+InstallationStore.all.each do |installation_store|
+  installation = Installation.create(name: installation_store.data["etablissement"]["nomInst"])
+
+  installation_store.data["classements"].each do |classement|
+    if classement["etatActivite"] == "1"
+
+      Arrete.all.each do |arrete|
+        if arrete.data.classements.pluck(:rubrique, :regime).first == [classement["codeNomenclature"], classement["idRegime"]]
+          Classement.create(rubrique: classement["codeNomenclature"] , regime: classement["idRegime"], alinea: classement["alinea"] , activite: classement["activiteNomenclatureInst"], date_autorisation: classement["dateAutorisation"]&.to_date, volume: classement['volumeInst'], installation_id: installation.id, arrete_id: arrete.id )
+        end
+      end
+    end
+  end
+end
+
+puts "Installation and classement are seeded"
