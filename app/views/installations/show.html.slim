@@ -16,6 +16,8 @@
             th Alinéa
             th Régime
             th Activité
+            th Date d'autorisation
+            th Volume
 
         tbody
           - @classements.each do |classement|
@@ -24,6 +26,8 @@
               td = classement.alinea
               td = classement.regime
               td = classement.activite
+              td = classement.date_autorisation&.strftime("%d/%m/%Y")
+              td = classement.volume
 
   .row
     .col
