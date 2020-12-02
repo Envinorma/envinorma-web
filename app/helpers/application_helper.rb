@@ -1,9 +1,6 @@
 module ApplicationHelper
   def classement_infos arrete, installation
-    # rubrique = (arrete.data.classements.pluck(:rubrique) & installation.classements.pluck(:rubrique)).join
-    rubrique = arrete.data.classements.last.rubrique
-    regime = (arrete.data.classements.pluck(:regime) & installation.classements.pluck(:regime)).join
-
-    " - #{rubrique} #{regime}"
+    classement = arrete.classements.find_by(installation_id = @installation_id)
+    " - #{classement.rubrique} #{classement.regime}"
   end
 end
