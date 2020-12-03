@@ -1,4 +1,10 @@
 class InstallationsController < ApplicationController
+  RUBRIQUES = {
+    "A": 0,
+    "E": 1,
+    "D": 2,
+  }
+
   include FilterArretes
   before_action :set_installation, except: :index
 
@@ -7,8 +13,8 @@ class InstallationsController < ApplicationController
   end
 
   def show
-    @arretes = filter_arretes
-    @classements = @installation.classements.uniq { |classement| classement.rubrique }
+    @arretes = filter_arretes.sort_by {|arrete| RUBRIQUES[arrete.classements.first.regime.to_sym]}
+    @classements = @installation.classements.uniq { |classement| classement.rubrique }.sort_by {|classement| RUBRIQUES[classement.regime.to_sym]}
   end
 
   def edit
