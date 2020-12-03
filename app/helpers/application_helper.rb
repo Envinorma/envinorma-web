@@ -1,6 +1,6 @@
 module ApplicationHelper
   def classement_infos arrete, installation
-    classement = arrete.classements.find_by(installation_id = @installation_id)
+    classement = Classement.where(arrete_id: arrete.id, installation_id: installation.id).first
     " - #{classement.rubrique} #{classement.regime}"
   end
 end
