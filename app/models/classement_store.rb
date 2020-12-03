@@ -1,0 +1,2 @@
+class ClassementStore < ApplicationRecord
+end

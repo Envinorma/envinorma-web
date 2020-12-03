@@ -1,5 +1,6 @@
 class Classement < ApplicationRecord
   belongs_to :installation
+  belongs_to :arrete
 
-  validates :rubrique, :regime, :alinea, :installation_id, presence: true
+  validates :rubrique, :regime, presence: true
 end

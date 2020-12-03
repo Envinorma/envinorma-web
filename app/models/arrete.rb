@@ -1,7 +1,8 @@
 class Arrete < ApplicationRecord
-  belongs_to :installation
+  has_many :classements
+  has_many :installations, through: :classements
 
-  validates :name, :installation_id, presence: true
+  validates :name, presence: true
 
   def data
     JSON.parse(super.to_json, object_class: OpenStruct)

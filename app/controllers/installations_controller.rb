@@ -8,6 +8,7 @@ class InstallationsController < ApplicationController
 
   def show
     @arretes = filter_arretes
+    @classements = @installation.classements.uniq { |classement| classement.rubrique }
   end
 
   def edit

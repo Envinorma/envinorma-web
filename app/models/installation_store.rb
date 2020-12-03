@@ -1,0 +1,2 @@
+class InstallationStore < ApplicationRecord
+end
