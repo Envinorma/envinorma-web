@@ -17,14 +17,6 @@ class InstallationsController < ApplicationController
     @classements = @installation.classements.uniq { |classement| classement.rubrique }.sort_by {|classement| RUBRIQUES[classement.regime.to_sym]}
   end
 
-  def edit
-  end
-
-  def update
-    @installation.update(date: params[:installation][:date])
-    redirect_to installation_path(@installation)
-  end
-
   private
 
   def set_installation

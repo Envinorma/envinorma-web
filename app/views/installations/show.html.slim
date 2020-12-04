@@ -3,11 +3,6 @@
     .col
       h1.display-4.mb-4.mt-5 = @installation.name
 
-      p
-        b Date d'autorisation de l'installation :
-        =< @installation.date&.strftime("%d/%m/%Y")
-        =< link_to "modifier la date", edit_installation_path(@installation)
-
       h2.mt-5 Classements
       table.table
         thead
