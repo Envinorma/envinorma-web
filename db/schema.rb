@@ -30,16 +30,6 @@ ActiveRecord::Schema.define(version: 2020_12_01_114327) do
     t.jsonb "summary"
   end
 
-  create_table "classement_stores", force: :cascade do |t|
-    t.string "rubrique"
-    t.string "regime"
-    t.string "alinea"
-    t.string "activite"
-    t.string "seuil"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "classements", force: :cascade do |t|
     t.string "rubrique"
     t.string "regime"
