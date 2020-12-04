@@ -181,7 +181,7 @@ InstallationStore.all.each do |installation_store|
     if classement["etatActivite"] == "1"
 
       Arrete.all.each do |arrete|
-        if arrete.data.classements.pluck(:rubrique, :regime).first == [classement["codeNomenclature"], classement["idRegime"]]
+        if arrete.data.classements.pluck(:rubrique, :regime).include?([classement["codeNomenclature"], classement["idRegime"]])
           Classement.create(rubrique: classement["codeNomenclature"] , regime: classement["idRegime"], alinea: classement["alinea"] , activite: classement["activiteNomenclatureInst"], date_autorisation: classement["dateAutorisation"]&.to_date, volume: classement['volumeInst'] + ' ' + classement['unite'], installation_id: installation.id, arrete_id: arrete.id )
         end
       end
