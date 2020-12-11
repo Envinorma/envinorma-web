@@ -14,8 +14,11 @@
           .form-group.row
               .col-sm-12
                 .form-check
-                  = check_box_tag "prescriptions[prescription_#{secure_id}]", "#{ref} SPLIT #{outer_alinea.text}", false, class: "form-check-input"
-                  = label_tag("prescriptions[prescription_#{secure_id}]", outer_alinea.text)
+                  = check_box_tag "prescriptions[#{secure_id}][checkbox]", "1", false, class: "form-check-input"
+                  = label_tag "prescriptions[#{secure_id}][checkbox]", outer_alinea.text
+
+                  = hidden_field_tag "prescriptions[#{secure_id}][reference]", ref
+                  = hidden_field_tag "prescriptions[#{secure_id}][content]", outer_alinea.text
 
         - if outer_alinea.table
           table.table.table-bordered
@@ -30,8 +33,12 @@
               - else
                 tr
                   td
-                      = check_box_tag "prescriptions[prescription_#{secure_id}]", "#{ref} SPLIT #{row.text_in_inspection_sheet}", false, class: "form-check-input"
+                      = check_box_tag "prescriptions[#{secure_id}][checkbox]", "1", false, class: "form-check-input"
+
+                      = hidden_field_tag "prescriptions[#{secure_id}][reference]", ref
+                      = hidden_field_tag "prescriptions[#{secure_id}][content]", row.text_in_inspection_sheet
+
 
                   - row.cells.each do |cell|
                     td collspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
-                      = label_tag("prescriptions[prescription_#{secure_id}]", cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe)
+                      = label_tag("prescriptions[#{secure_id}][checkbox]", cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe)

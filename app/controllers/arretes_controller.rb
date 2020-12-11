@@ -3,27 +3,27 @@ class ArretesController < ApplicationController
   before_action :set_installation
 
   def index
-    # @arretes = filter_arretes
     @arretes = Arrete.find(params[:AM])
   end
 
   def generate_doc_with_prescriptions
     prescriptions = {}
     prescriptions_params.to_h.each do |key, value|
-      value_splitted = value.split('SPLIT')
-      prescriptions[key] = {ref: value_splitted.first, value: value_splitted.last}
+      if value["checkbox"] == "1"
+        prescriptions[key] = {ref: value["reference"], value: value["content"]}
+      end
     end
 
-    #key = "prescription_c7c06a3682298c4b93d3"
-    #value = "[\"Chapitre Ier : Dispositions générales\", \"Article 1\"]--Le présent arrêté fixe les prescriptions…"
+    prescriptions_join_by_ref = {}
+    prescriptions.group_by{|k,v| v[:ref]}.each do |key, value|
+      prescriptions_join_by_ref[key] = value.map! { |val| val.last[:value]}.join('<text:line-break/><text:line-break/>')
+    end
 
-    # prescriptions: {
-    #   prescription_random_id : { ref: ["article 1er", "1.2"], value: "Le présent arrêté fixe"},
-    #   prescription_random_id : { ref: ["article 1er", "1.4"], value: "Le présent arrêté fixe"}
-    # }
-
-    generate_doc prescriptions
+    generate_doc prescriptions_join_by_ref
   end
+
+
+
 
   private
 
@@ -39,9 +39,9 @@ class ArretesController < ApplicationController
     template_path = File.join(File.dirname(__FILE__), "../../db/templates/template.odt")
 
     fiche_inspection = ODFReport::Report.new(template_path) do |r|
-      r.add_table("Tableau", prescriptions.values, :header=>true) do |t|
-        t.add_column(:ref) { |prescription| prescription[:ref] }
-        t.add_column(:prescription) { |prescription| prescription[:value] }
+      r.add_table("Tableau", prescriptions, :header=>true) do |t|
+        t.add_column(:ref) { |prescription| prescription.first }
+        t.add_column(:prescription) { |prescription| prescription.last }
       end
     end
 
