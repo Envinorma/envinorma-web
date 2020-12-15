@@ -1,28 +1,43 @@
 .container
+  h1.display-4.mb-4.mt-5 = @installation.name
   .row
     .col
-      h1.display-4.mb-4.mt-5 = @installation.name
+      h2.h5 Localisation
+      p = "#{@installation.zipcode} #{@installation.city}"
+      p = "#{@installation.department} - #{@installation.region}"
 
-      h2.mt-5 Classements
-      table.table
-        thead
-          tr
-            th Rubrique
-            th Alinéa
-            th Régime
-            th Activité
-            th Date d'autorisation
-            th Volume
+    .col
+      h2.h5 Activités
+      p = "N° inspection: #{@installation.s3ic_id}"
+      p = "Dernière inspection : #{@installation.last_inspection&.strftime("%d/%m/%Y")}"
+      p = "État d'activité : #{@installation.state}"
 
-        tbody
-          - @classements.each do |classement|
-            tr
-              td = classement.rubrique
-              td = classement.alinea
-              td = classement.regime
-              td = classement.activite
-              td = classement.date_autorisation&.strftime("%d/%m/%Y")
-              td = classement.volume
+
+    .col
+      h2.h5 Informations complémentaires
+      p = "Régime en vigueur de l'établissemen: #{@installation.regime}"
+      p = "Statut SEVESO : #{@installation.seveso}"
+
+  h2.mt-5 Classements
+  table.table
+    thead
+      tr
+        th Rubrique
+        th Alinéa
+        th Régime
+        th Activité
+        th Date d'autorisation
+        th Volume
+
+    tbody
+      - @classements.each do |classement|
+        tr
+          td = classement.rubrique
+          td = classement.alinea
+          td = classement.regime
+          td = classement.activite
+          td = classement.date_autorisation&.strftime("%d/%m/%Y")
+          td = classement.volume
 
   .row
     .col

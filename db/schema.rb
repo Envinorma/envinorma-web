@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_01_114327) do
+ActiveRecord::Schema.define(version: 2020_12_15_135735) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -55,9 +55,17 @@ ActiveRecord::Schema.define(version: 2020_12_01_114327) do
 
   create_table "installations", force: :cascade do |t|
     t.string "name"
-    t.datetime "date"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "s3ic_id"
+    t.string "region"
+    t.string "department"
+    t.string "zipcode"
+    t.string "city"
+    t.date "last_inspection"
+    t.string "regime"
+    t.string "seveso"
+    t.string "state"
   end
 
   add_foreign_key "classements", "arretes"

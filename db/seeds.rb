@@ -190,3 +190,23 @@ InstallationStore.all.each do |installation_store|
 end
 
 puts "Installation and classement are seeded"
+
+
+require 'csv'
+
+path = File.join(File.dirname(__FILE__), "./seeds/installations.csv")
+icpe_list = CSV.parse(File.read(path), headers: true)
+icpe_list.each do |icpe|
+  Installation.create(
+    name: icpe["name"],
+    s3ic_id: icpe["s3ic_id"],
+    region: icpe["region"],
+    department: icpe["department"],
+    zipcode: icpe["code_postal"],
+    city: icpe["city"],
+    last_inspection: icpe["last_inspection"]&.to_date,
+    regime: icpe["regime"],
+    seveso: icpe["seveso"],
+    state: icpe["active"])
+end
+puts "Installation from icpe list are seeded"
