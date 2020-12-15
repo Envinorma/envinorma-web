@@ -1,8 +1,6 @@
 .container
   .row
     .col
-      h1.display-4.mt-5.mb-4 Les installations
-      .list-group.list-group-flush
-        - @installations.each do |installation|
-          = link_to installation_path(installation), class: "list-group-item list-group-item-action js_loader__link" do
-            h2.lead = installation.name
+      h1.display-4.mt-5.mb-4 Rechercher votre installation
+      .form-group
+        input type="search" placeholder="Entrer le nom de l'installation" data-behavior="autocomplete" class="form-control"
