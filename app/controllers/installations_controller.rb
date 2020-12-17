@@ -21,8 +21,7 @@ class InstallationsController < ApplicationController
 
   def search
     q = params[:q].downcase
-    # @installations = Installation.where("name ILIKE ? or id ILIKE ?", "%#{q}%", "%#{q}%").limit(5)
-    @installations = Installation.where("name ILIKE ?", "%#{q}%").limit(5)
+    @installations = Installation.where("name ILIKE ? or s3ic_id ILIKE ?", "%#{q}%", "%#{q}%").limit(10)
   end
 
 
