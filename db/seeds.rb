@@ -208,6 +208,7 @@ am_list.each do |am|
 end
 puts "Arretes are seeded"
 
+
 require 'csv'
 
 path = File.join(File.dirname(__FILE__), "./seeds/installations.csv")
@@ -226,3 +227,31 @@ installations_list.each do |installation|
     state: installation["active"])
 end
 puts "Installations are seeded"
+
+
+path = File.join(File.dirname(__FILE__), "./seeds/classements.csv")
+classements_list = CSV.parse(File.read(path), headers: true)
+
+classements_list.each do |classement|
+  if classement["etat_activite"] == "1"
+    Classement.create(
+      rubrique: classement["code_nomenclature"],
+      regime: classement["id_regime"],
+      alinea: classement["alinea"],
+      activite: classement["activite_nomenclature_inst"],
+      date_autorisation: classement["date_autorisation"]&.to_date,
+      volume: "#{classement['volume_inst']} #{classement['unite']}",
+      installation_id: Installation.find_by(s3ic_id: classement["installation_id"])&.id)
+  end
+end
+puts "Classements are seeded"
+
+Arrete.all.each do |arrete|
+  arrete.data.classements.each do |arrete_classement|
+    classements = Classement.where(rubrique: arrete_classement.rubrique, regime: arrete_classement.regime)
+    classements.each do |classement|
+      ArretesClassement.create(arrete_id: arrete.id, classement_id: classement.id)
+    end
+  end
+end
+puts "ArreteClassement are seeded"
