@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_16_153656) do
+ActiveRecord::Schema.define(version: 2020_12_17_165731) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -49,6 +49,20 @@ ActiveRecord::Schema.define(version: 2020_12_16_153656) do
     t.index ["installation_id"], name: "index_classements_on_installation_id"
   end
 
+  create_table "enriched_arretes", force: :cascade do |t|
+    t.jsonb "data"
+    t.string "short_title"
+    t.string "title"
+    t.boolean "unique_version"
+    t.string "installation_date_criterion_left"
+    t.string "installation_date_criterion_right"
+    t.string "aida_url"
+    t.string "legifrance_url"
+    t.jsonb "summary"
+    t.bigint "arrete_id", null: false
+    t.index ["arrete_id"], name: "index_enriched_arretes_on_arrete_id"
+  end
+
   create_table "installation_stores", force: :cascade do |t|
     t.string "name"
     t.jsonb "data"
@@ -72,4 +86,5 @@ ActiveRecord::Schema.define(version: 2020_12_16_153656) do
   end
 
   add_foreign_key "classements", "installations"
+  add_foreign_key "enriched_arretes", "arretes"
 end
