@@ -42,14 +42,18 @@
   .row
     .col
       h2.mt-5 Arrêtés ministériels associés
-      ul.list-unstyled
-        - @arretes.each do |arrete|
-          li
-            => arrete.short_title
-            span.text-secondary
-              = classement_infos(arrete, @installation)
+      - if @arretes.empty?
+        p.text-secondary Il n’y a pas d’arrêté ministériel disponible pour cette installation.
 
-      = link_to "Voir les prescriptions pour générer une fiche d'inspection", arretes_path(@installation, AM: @arretes.pluck(:id)), class: "btn btn-primary mb-4 js_loader__link"
+      - else
+        ul.list-unstyled
+          - @arretes.each do |arrete|
+            li
+              => arrete.short_title
+              span.text-secondary
+                = classement_infos(arrete, @installation)
+
+        = link_to "Voir les prescriptions pour générer une fiche d'inspection", arretes_path(@installation, AM: @arretes.pluck(:id)), class: "btn btn-primary mb-4 js_loader__link"
 
     .col
       h2.mt-5 Arrêtés préfectoraux associés
