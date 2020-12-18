@@ -3,7 +3,10 @@ class ArretesController < ApplicationController
   before_action :set_installation
 
   def index
-    @arretes = Arrete.find(params[:AM])
+    @arretes = []
+    params["arrete_types"].each_with_index do |type, index|
+      @arretes << type.constantize.find(params["arrete_ids"][index])
+    end
   end
 
   def generate_doc_with_prescriptions
@@ -21,9 +24,6 @@ class ArretesController < ApplicationController
 
     generate_doc prescriptions_join_by_ref
   end
-
-
-
 
   private
 

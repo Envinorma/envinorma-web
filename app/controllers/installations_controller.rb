@@ -3,7 +3,8 @@ class InstallationsController < ApplicationController
     "A": 0,
     "E": 1,
     "D": 2,
-    "empty": 3
+    "NC": 3,
+    "empty": 4
   }
 
   include FilterArretes
@@ -16,7 +17,17 @@ class InstallationsController < ApplicationController
 
   def show
     @classements = @installation.classements.sort_by { |classement| classement.regime ? RUBRIQUES[classement.regime.to_sym] : RUBRIQUES[:empty]}
-    @arretes = @installation.classements.map { |classement| classement.arretes }.flatten
+    @arretes_list = @installation.classements.map { |classement| classement.arretes }.flatten
+    @arretes = []
+    @arretes_list.each do |arrete|
+      if arrete.enriched_arretes.any?
+        @arretes << filter_arretes(arrete, arrete.enriched_arretes).first
+      else
+        @arretes << arrete
+      end
+    @arretes
+    end
+
   end
 
   def search

@@ -5,9 +5,9 @@ module FilterArretes
     helper_method :filter_arretes
   end
 
-  def filter_arretes
-    @installation.arretes.select do |arrete|
-      classement = Classement.where(arrete_id: arrete.id, installation_id: @installation.id).first
+  def filter_arretes arrete_reference, arretes_list
+    arretes_list.select do |arrete|
+      classement = Classement.find (@installation.classements.pluck(:id) & arrete_reference.classements.pluck(:id)).first
       date_left = arrete.installation_date_criterion_left
       date_right = arrete.installation_date_criterion_right
 
