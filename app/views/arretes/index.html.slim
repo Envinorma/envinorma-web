@@ -5,7 +5,10 @@ ul.am_nav.list-inline
       a href="#anchor_#{arrete.id}"
         => arrete.short_title
         br
-          = am_classement_infos
+          => am_classement_infos
+          - if arrete.is_a? EnrichedArrete
+            span class="badge badge-success" enrichi
+
 
 = form_tag({controller: "arretes", action: "generate_doc_with_prescriptions"}, method: "post") do
   .container
@@ -24,6 +27,8 @@ ul.am_nav.list-inline
           - am_short_title = arrete.short_title
           - am_classement_infos = classement_infos(arrete, @installation)
           section id="anchor_#{arrete.id}" class="anchor"
+            - if arrete.is_a? EnrichedArrete
+              span class="badge badge-success float-right" enrichi
             h2.display.h1
               = arrete.short_title
               span.text-secondary
