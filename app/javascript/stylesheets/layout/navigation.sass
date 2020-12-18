@@ -1,13 +1,22 @@
 html
   scroll-behavior: smooth
 
-.main_nav
+.header
   padding: 0.5em
   border-bottom: 1px solid rgba(0, 0, 0, 0.1)
   position: sticky
   top: 0
   background-color: #ffffff
   z-index: 1
+
+.main_nav
+  display: flex
+
+.nav-link
+ padding: 0 1rem
+ color: grey
+ &:hover
+  color: #000000
 
 .logo
   display: block

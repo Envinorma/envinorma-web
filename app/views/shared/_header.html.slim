@@ -1,4 +1,9 @@
-.header.main_nav
+.header
   .container
-    = link_to root_path(), class: 'logo' do
-      = image_pack_tag('logo-envinorma.png')
+    .main_nav
+      = link_to root_path(), class: 'logo' do
+        = image_pack_tag('logo-envinorma.png')
+
+      ul.nav
+        li.nav-item
+          = link_to "Rechercher une installation", root_path(), class: "nav-link"
