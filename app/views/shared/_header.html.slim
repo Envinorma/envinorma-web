@@ -7,3 +7,7 @@
       ul.nav
         li.nav-item
           = link_to "Rechercher une installation", root_path(), class: "nav-link"
+
+        - if @user && @user.installations.present?
+          li.nav-item
+            = link_to "Mes installations modifiées", user_path(), class: "nav-link"
