@@ -1,0 +1,9 @@
+.container.mt-5
+  - if flash[:notice]
+    - flash.each do |type, msg|
+      .alert.alert-info
+        = msg
+  - else
+    - flash.each do |type, msg|
+      .alert.alert-danger
+        = msg

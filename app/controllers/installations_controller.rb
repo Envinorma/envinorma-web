@@ -11,6 +11,7 @@ class InstallationsController < ApplicationController
   before_action :set_installation, except: [:index, :search]
   before_action :force_json, only: :search
   before_action :create_guest_if_needed, only: :duplicate_before_edit
+  before_action :check_if_authorized_user, only: [:show, :edit]
 
   def index
     @installations = Installation.not_attached_to_user
@@ -46,6 +47,7 @@ class InstallationsController < ApplicationController
       end
     end
 
+    flash[:notice] = "L'installation a bien été mise à jour"
     redirect_to installation_path(@installation)
   end
 
@@ -103,6 +105,13 @@ class InstallationsController < ApplicationController
     return if session[:user_id]
     @user = User.create
     session[:user_id] = @user.id
+  end
+
+  def check_if_authorized_user
+    return if @installation.user_id.nil?
+    return if @user.present? && @installation.user_id == @user.id
+    flash[:alert] = "Désolé, vous n’êtes pas autorisé à accéder à cette page"
+    redirect_to root_path
   end
 
   def set_installation

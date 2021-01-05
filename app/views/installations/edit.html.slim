@@ -10,3 +10,4 @@
         .col-6
           = c.input :date_autorisation, as: :date, html5: true
     = f.button :submit, "Sauvegarder les modifications", class: "btn btn-primary"
+    = link_to "Retourner sur l'installation", installation_path(@installation), class: "btn btn-link"
