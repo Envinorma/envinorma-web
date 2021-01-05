@@ -6,4 +6,6 @@ class Installation < ApplicationRecord
   belongs_to :user, optional: true
 
   validates :name, presence: true
+
+  scope :not_attached_to_user, -> { where(user: nil) }
 end
