@@ -123,6 +123,6 @@ class InstallationsController < ApplicationController
   end
 
   def classement_params
-    params.require(:installation).permit(classements_attributes: [:id, :regime, :date_autorisation])
+    params.require(:installation).permit(classements_attributes: [:id, :regime, :rubrique, :date_autorisation, :_destroy])
   end
 end

@@ -42,7 +42,7 @@ classements_list.each do |classement|
   if classement["etat_activite"] == "1"
     Classement.create(
       rubrique: classement["code_nomenclature"],
-      regime: classement["id_regime"],
+      regime: classement["id_regime"] || "D",
       alinea: classement["alinea"],
       activite: classement["activite_nomenclature_inst"],
       date_autorisation: classement["date_autorisation"]&.to_date,
