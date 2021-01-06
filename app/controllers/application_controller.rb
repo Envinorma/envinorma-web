@@ -4,6 +4,8 @@ class ApplicationController < ActionController::Base
   private
 
   def set_user_if_needed
-    @user = User.find(session[:user_id]) if session[:user_id]
+    if session[:user_id] && User.exists?(session[:user_id])
+      @user = User.find(session[:user_id])
+    end
   end
 end
