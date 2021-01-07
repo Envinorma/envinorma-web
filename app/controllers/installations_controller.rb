@@ -35,20 +35,23 @@ class InstallationsController < ApplicationController
   end
 
   def update
-    @installation.update(classement_params)
+    if @installation.update(classement_params)
+      @installation.classements.each do |classement|
+        arretes = []
+        ArretesClassement.where(classement_id: classement.id).delete_all
+        arretes << Arrete.where("data -> 'classements' @> ?", [{ rubrique: "#{classement.rubrique}", regime: "#{classement.regime}" }].to_json)
 
-    @installation.classements.each do |classement|
-      arretes = []
-      ArretesClassement.where(classement_id: classement.id).delete_all
-      arretes << Arrete.where("data -> 'classements' @> ?", [{ rubrique: "#{classement.rubrique}", regime: "#{classement.regime}" }].to_json)
-
-      arretes.flatten.each do |arrete|
-        ArretesClassement.create(arrete_id: arrete.id, classement_id: classement.id)
+        arretes.flatten.each do |arrete|
+          ArretesClassement.create(arrete_id: arrete.id, classement_id: classement.id)
+        end
       end
-    end
 
-    flash[:notice] = "L'installation a bien été mise à jour"
-    redirect_to installation_path(@installation)
+      flash[:notice] = "L'installation a bien été mise à jour"
+      redirect_to installation_path(@installation)
+    else
+      flash[:alert] = "L'installation n'a pas été mise à jour"
+      render :edit
+    end
   end
 
   def duplicate_before_edit
