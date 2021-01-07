@@ -1,5 +1,6 @@
 class ClassementsController < ApplicationController
   before_action :set_installation
+  before_action :check_if_authorized_user, only: [:new, :create]
 
   def new
     @classement = Classement.new
