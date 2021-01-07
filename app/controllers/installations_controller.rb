@@ -19,7 +19,7 @@ class InstallationsController < ApplicationController
 
   def show
     @classements = @installation.classements.sort_by { |classement| classement.regime.present? ? RUBRIQUES[classement.regime.to_sym] : RUBRIQUES[:empty]}
-    @arretes_list = @installation.classements.map { |classement| classement.arretes }.flatten
+    @arretes_list = @classements.map { |classement| classement.arretes }.flatten
     @arretes = []
     @arretes_list.each do |arrete|
       if arrete.enriched_arretes.any?
