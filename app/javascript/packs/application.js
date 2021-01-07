@@ -19,6 +19,7 @@ require("easy-autocomplete")
 
 import 'popper.js'
 import 'bootstrap'
+import "@fortawesome/fontawesome-free/js/all"
 
 
 require.context('../images', true)

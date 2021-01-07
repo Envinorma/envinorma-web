@@ -13,7 +13,7 @@
           - secure_id = SecureRandom.hex(10)
           .form-group.row
               .col-sm-12
-                .form-check
+                .form-check.checkbox-arrete
                   = check_box_tag "prescriptions[#{secure_id}][checkbox]", "1", false, class: "form-check-input"
                   = label_tag "prescriptions[#{secure_id}][checkbox]", outer_alinea.text
 

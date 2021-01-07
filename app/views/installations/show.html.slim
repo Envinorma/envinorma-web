@@ -19,7 +19,8 @@
       p = "Statut SEVESO : #{@installation.seveso}"
 
   h2.mt-5 Classements
-  = link_to "modifier cette installation", duplicate_before_edit_path(@installation)
+  p.text-right
+    = link_to "Modifier cette installation", duplicate_before_edit_path(@installation)
   table.table
     thead
       tr
