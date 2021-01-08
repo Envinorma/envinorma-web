@@ -10,7 +10,7 @@ class InstallationsController < ApplicationController
   include FilterArretes
   before_action :set_installation, except: [:index, :search]
   before_action :force_json, only: :search
-  before_action :create_guest_if_needed, only: :duplicate_before_edit
+  before_action :create_guest_if_needed, only: :edit
   before_action :check_if_authorized_user, only: [:show, :edit, :update]
 
   def index
@@ -32,6 +32,8 @@ class InstallationsController < ApplicationController
   end
 
   def edit
+    return if @installation.user_id == session[:user_id]
+    duplicate_before_edit
   end
 
   def update
@@ -55,44 +57,41 @@ class InstallationsController < ApplicationController
   end
 
   def duplicate_before_edit
-    if @installation.user_id == session[:user_id]
-      redirect_to edit_installation_path(@installation)
-    else
-      installation_duplicated = Installation.create(
-        name: @installation.name,
-        s3ic_id: @installation.s3ic_id,
-        region: @installation.region,
-        department: @installation.department,
-        zipcode: @installation.zipcode,
-        city: @installation.city,
-        last_inspection: @installation.last_inspection,
-        regime: @installation.regime,
-        seveso: @installation.seveso,
-        state: @installation.state,
-        user_id: session[:user_id]
+    installation_duplicated = Installation.create(
+      name: @installation.name,
+      s3ic_id: @installation.s3ic_id,
+      region: @installation.region,
+      department: @installation.department,
+      zipcode: @installation.zipcode,
+      city: @installation.city,
+      last_inspection: @installation.last_inspection,
+      regime: @installation.regime,
+      seveso: @installation.seveso,
+      state: @installation.state,
+      user_id: session[:user_id],
+      duplicated_from_id: @installation.id
+    )
+
+    @installation.classements.each do |classement|
+      Classement.create(
+        rubrique: classement.rubrique,
+        regime: classement.regime,
+        alinea: classement.alinea,
+        activite: classement.activite,
+        date_autorisation: classement.date_autorisation,
+        volume: classement.volume,
+        installation_id: installation_duplicated.id
       )
-
-      @installation.classements.each do |classement|
-        Classement.create(
-          rubrique: classement.rubrique,
-          regime: classement.regime,
-          alinea: classement.alinea,
-          activite: classement.activite,
-          date_autorisation: classement.date_autorisation,
-          volume: classement.volume,
-          installation_id: installation_duplicated.id
-        )
-      end
-
-      installation_duplicated.classements.each do |classement|
-        arretes = Classement.find_by(rubrique: classement.rubrique, regime: classement.regime).arretes
-        arretes.each do |arrete|
-          ArretesClassement.create(arrete_id: arrete.id, classement_id: classement.id)
-        end
-      end
-
-      redirect_to edit_installation_path(installation_duplicated)
     end
+
+    installation_duplicated.classements.each do |classement|
+      arretes = Classement.find_by(rubrique: classement.rubrique, regime: classement.regime).arretes
+      arretes.each do |arrete|
+        ArretesClassement.create(arrete_id: arrete.id, classement_id: classement.id)
+      end
+    end
+
+    redirect_to edit_installation_path(installation_duplicated)
     # backup if save failed
   end
 

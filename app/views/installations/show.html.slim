@@ -1,5 +1,9 @@
 .container
-  h1.display-4.mb-4.mt-5 = @installation.name
+  h1.display-4.mb-4.mt-5
+    => @installation.name
+    - if @installation.user_id == session[:user_id]
+      sup
+        span.badge.badge-secondary.badge-mini version modifiée
   .row
     .col
       h2.h5 Localisation
@@ -19,8 +23,13 @@
       p = "Statut SEVESO : #{@installation.seveso}"
 
   h2.mt-5 Classements
+
   p.text-right
-    = link_to "Modifier cette installation", duplicate_before_edit_path(@installation)
+    - if @user.present? && @user.installations.pluck(:duplicated_from_id).include?(@installation.id)
+      = link_to "Consulter votre version modifiée", installation_path(@user.installations.where(duplicated_from_id: @installation.id).first)
+    - else
+      = link_to "Modifier cette installation", edit_installation_path(@installation)
+
   table.table
     thead
       tr
