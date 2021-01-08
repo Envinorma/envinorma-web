@@ -1,5 +1,5 @@
 class Arrete < ApplicationRecord
-  has_many :arretes_classements, dependent: :destroy
+  has_many :arretes_classements, dependent: :delete_all
   has_many :classements, through: :arretes_classements
   has_many :enriched_arretes, dependent: :destroy
 

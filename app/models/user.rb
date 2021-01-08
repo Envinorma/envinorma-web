@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-  has_many :installations
+  has_many :installations, dependent: :destroy
 end
