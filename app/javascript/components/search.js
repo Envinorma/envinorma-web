@@ -12,6 +12,9 @@ window.addEventListener('DOMContentLoaded', () => {
           link: "link"
       }
     },
+    list: {
+        maxNumberOfElements: 10,
+      }
   };
 
   $input.easyAutocomplete(options);
