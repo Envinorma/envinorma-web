@@ -30,7 +30,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'odf-report'
 
 # SimpleForm made forms easy!
-gem 'simple_form', '~> 4.0'
+gem 'simple_form', '~> 5.0', '>= 5.0.3'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
