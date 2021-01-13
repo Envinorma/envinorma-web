@@ -1,38 +1,40 @@
-path = File.join(File.dirname(__FILE__), "./seeds/am_list.json")
-am_list = JSON.parse(File.read(path))
-am_list.each do |am|
-  Arrete.create(
-    data: am,
-    short_title: am["short_title"],
-    title: am.dig("title", "text"),
-    unique_version: am["unique_version"],
-    installation_date_criterion_left: am.dig("installation_date_criterion", "left_date"),
-    installation_date_criterion_right: am.dig("installation_date_criterion", "right_date"),
-    aida_url: am["aida_url"],
-    legifrance_url: am["legifrance_url"],
-    summary: am["summary"]
-  )
-end
-puts "Arretes are seeded"
-
-
 require 'csv'
-path = File.join(File.dirname(__FILE__), "./seeds/installations.csv")
-installations_list = CSV.parse(File.read(path), headers: true)
-installations_list.each do |installation|
-  Installation.create(
-    name: installation["name"],
-    s3ic_id: installation["s3ic_id"],
-    region: installation["region"],
-    department: installation["department"],
-    zipcode: installation["code_postal"],
-    city: installation["city"],
-    last_inspection: installation["last_inspection"]&.to_date,
-    regime: installation["regime"],
-    seveso: installation["seveso"],
-    state: installation["active"])
-end
-puts "Installations are seeded"
+
+# path = File.join(File.dirname(__FILE__), "./seeds/am_list.json")
+# am_list = JSON.parse(File.read(path))
+# am_list.each do |am|
+#   Arrete.create(
+#     data: am,
+#     short_title: am["short_title"],
+#     title: am.dig("title", "text"),
+#     unique_version: am["unique_version"],
+#     installation_date_criterion_left: am.dig("installation_date_criterion", "left_date"),
+#     installation_date_criterion_right: am.dig("installation_date_criterion", "right_date"),
+#     aida_url: am["aida_url"],
+#     legifrance_url: am["legifrance_url"],
+#     summary: am["summary"]
+#   )
+# end
+# puts "Arretes are seeded"
+
+
+
+# path = File.join(File.dirname(__FILE__), "./seeds/installations.csv")
+# installations_list = CSV.parse(File.read(path), headers: true)
+# installations_list.each do |installation|
+#   Installation.create(
+#     name: installation["name"],
+#     s3ic_id: installation["s3ic_id"],
+#     region: installation["region"],
+#     department: installation["department"],
+#     zipcode: installation["code_postal"],
+#     city: installation["city"],
+#     last_inspection: installation["last_inspection"]&.to_date,
+#     regime: installation["regime"],
+#     seveso: installation["seveso"],
+#     state: installation["active"])
+# end
+# puts "Installations are seeded"
 
 
 path = File.join(File.dirname(__FILE__), "./seeds/classements.csv")
