@@ -1,62 +1,59 @@
 require 'csv'
 
-# path = File.join(File.dirname(__FILE__), "./seeds/am_list.json")
-# am_list = JSON.parse(File.read(path))
-# am_list.each do |am|
-#   Arrete.create(
-#     data: am,
-#     short_title: am["short_title"],
-#     title: am.dig("title", "text"),
-#     unique_version: am["unique_version"],
-#     installation_date_criterion_left: am.dig("installation_date_criterion", "left_date"),
-#     installation_date_criterion_right: am.dig("installation_date_criterion", "right_date"),
-#     aida_url: am["aida_url"],
-#     legifrance_url: am["legifrance_url"],
-#     summary: am["summary"]
-#   )
-# end
-# puts "Arretes are seeded"
+path = File.join(File.dirname(__FILE__), "./seeds/am_list.json")
+am_list = JSON.parse(File.read(path))
+am_list.each do |am|
+  Arrete.create(
+    data: am,
+    short_title: am["short_title"],
+    title: am.dig("title", "text"),
+    unique_version: am["unique_version"],
+    installation_date_criterion_left: am.dig("installation_date_criterion", "left_date"),
+    installation_date_criterion_right: am.dig("installation_date_criterion", "right_date"),
+    aida_url: am["aida_url"],
+    legifrance_url: am["legifrance_url"],
+    summary: am["summary"]
+  )
+end
+puts "Arretes are seeded"
 
 
 
-# path = File.join(File.dirname(__FILE__), "./seeds/installations.csv")
-# installations_list = CSV.parse(File.read(path), headers: true)
-# installations_list.each do |installation|
-#   Installation.create(
-#     name: installation["name"],
-#     s3ic_id: installation["s3ic_id"],
-#     region: installation["region"],
-#     department: installation["department"],
-#     zipcode: installation["code_postal"],
-#     city: installation["city"],
-#     last_inspection: installation["last_inspection"]&.to_date,
-#     regime: installation["regime"],
-#     seveso: installation["seveso"],
-#     state: installation["active"])
-# end
-# puts "Installations are seeded"
+path = File.join(File.dirname(__FILE__), "./seeds/installations_idf.csv")
+installations_list = CSV.parse(File.read(path), headers: true)
+installations_list.each do |installation|
+  Installation.create(
+    name: installation["name"],
+    s3ic_id: installation["s3ic_id"],
+    region: installation["region"],
+    department: installation["department"],
+    zipcode: installation["code_postal"],
+    city: installation["city"],
+    last_inspection: installation["last_inspection"]&.to_date,
+    regime: installation["regime"],
+    seveso: installation["seveso"],
+    state: installation["active"])
+end
+puts "Installations are seeded"
 
 
-path = File.join(File.dirname(__FILE__), "./seeds/classements.csv")
+path = File.join(File.dirname(__FILE__), "./seeds/classements_idf.csv")
 classements_list = CSV.parse(File.read(path), headers: true)
 
 classements_list.each do |classement|
-  if classement["etat_activite"] == "1"
-    Classement.create(
-      rubrique: classement["code_nomenclature"],
-      regime: classement["id_regime"] || "D",
-      alinea: classement["alinea"],
-      activite: classement["activite_nomenclature_inst"],
-      date_autorisation: classement["date_autorisation"]&.to_date,
-      volume: "#{classement['volume_inst']} #{classement['unite']}",
-      installation_id: Installation.find_by(s3ic_id: classement["installation_id"])&.id)
-  end
+  Classement.create(
+    rubrique: classement["code_nomenclature"],
+    regime: classement["id_regime"] || "D",
+    alinea: classement["alinea"],
+    activite: classement["activite_nomenclature_inst"],
+    date_autorisation: classement["date_autorisation"]&.to_date,
+    volume: "#{classement['volume_inst']} #{classement['unite']}",
+    installation_id: Installation.find_by(s3ic_id: classement["installation_id"])&.id)
 end
 puts "Classements are seeded"
 
-
 Arrete.all.each do |arrete|
-  arrete.data.classements.each do |arrete_classement|
+  arrete.data.classements_with_alineas.each do |arrete_classement|
     classements = Classement.where(rubrique: arrete_classement.rubrique, regime: arrete_classement.regime)
     classements.each do |classement|
       ArretesClassement.create(arrete_id: arrete.id, classement_id: classement.id)
