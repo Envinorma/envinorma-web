@@ -17,7 +17,7 @@ puts "Arretes are seeded"
 
 
 require 'csv'
-path = File.join(File.dirname(__FILE__), "./seeds/installations_sample.csv")
+path = File.join(File.dirname(__FILE__), "./seeds/installations.csv")
 installations_list = CSV.parse(File.read(path), headers: true)
 installations_list.each do |installation|
   Installation.create(
@@ -35,7 +35,7 @@ end
 puts "Installations are seeded"
 
 
-path = File.join(File.dirname(__FILE__), "./seeds/classements_sample.csv")
+path = File.join(File.dirname(__FILE__), "./seeds/classements.csv")
 classements_list = CSV.parse(File.read(path), headers: true)
 
 classements_list.each do |classement|
