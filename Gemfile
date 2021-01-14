@@ -43,6 +43,8 @@ group :development, :test do
   gem 'pry-byebug', require: false
   # RSpec for Rails 5+
   gem 'rspec-rails', '~> 4.0.2'
+  gem 'factory_bot_rails'
+  gem 'database_cleaner'
 end
 
 group :development do
