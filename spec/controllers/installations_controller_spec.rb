@@ -19,7 +19,7 @@ RSpec.describe InstallationsController, type: :controller do
       expect(response).to redirect_to(edit_installation_path(Installation.last))
     end
 
-    it "works as a regular edit action if user created the installation" do
+    it "works as a regular edit action if user want to edit an installation he created" do
       installation = Installation.create(name: "Installation test")
       get :edit, params: {id: installation.id }
 
@@ -29,6 +29,17 @@ RSpec.describe InstallationsController, type: :controller do
        .and change{Installation.count}.by(0)
 
       expect(response).to have_http_status(:ok)
+    end
+
+    it "redirects to duplicated installation edit if user has already a copy and try to edit the original from direct url access" do
+      installation = Installation.create(name: "Installation test")
+      get :edit, params: {id: installation.id }
+
+      expect {
+        get :edit, params: {id: installation.id }
+      }.to change{Installation.count}.by(0)
+
+      expect(response).to redirect_to(edit_installation_path(Installation.last))
     end
   end
 end

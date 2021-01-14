@@ -32,8 +32,12 @@ class InstallationsController < ApplicationController
   end
 
   def edit
-    return if @installation.user_id == session[:user_id]
-    duplicate_before_edit
+    return if @installation.user_id == @user.id
+    if helpers.user_already_duplicated_installation?(@user, @installation)
+      redirect_to edit_installation_path(helpers.retrieve_duplicated_installation(@user, @installation))
+    else
+      duplicate_before_edit
+    end
   end
 
   def update

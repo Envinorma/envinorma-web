@@ -25,8 +25,8 @@
   h2.mt-5 Classements
 
   p.text-right
-    - if @user.present? && @user.installations.pluck(:duplicated_from_id).include?(@installation.id)
-      = link_to "Consulter votre version modifiée", installation_path(@user.installations.where(duplicated_from_id: @installation.id).first)
+    - if user_already_duplicated_installation?(@user, @installation)
+      = link_to "Consulter votre version modifiée", installation_path(retrieve_duplicated_installation(@user, @installation))
     - else
       = link_to "Modifier cette installation", edit_installation_path(@installation)
 
