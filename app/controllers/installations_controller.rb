@@ -21,7 +21,7 @@ class InstallationsController < ApplicationController
     @classements = @installation.classements.sort_by { |classement| classement.regime.present? ? RUBRIQUES[classement.regime.to_sym] : RUBRIQUES[:empty]}
     @arretes_list = @classements.map { |classement| classement.arretes }.flatten
     @arretes = []
-    @arretes_list.each do |arrete|
+    @arretes_list.uniq.each do |arrete|
       if arrete.enriched_arretes.any?
         @arretes << filter_arretes(arrete, arrete.enriched_arretes).first
       else

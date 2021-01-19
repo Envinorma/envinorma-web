@@ -3,13 +3,18 @@ module ApplicationHelper
     if arrete.is_a? EnrichedArrete
       arrete = Arrete.find(arrete.arrete_id)
     end
-    classement_ref = Classement.find (installation.classements.pluck(:id) & arrete.classements.pluck(:id)).first
-    classement_from_arrete_data = arrete.data.classements_with_alineas.select {|classement| classement.rubrique.include? classement_ref.rubrique}.first
-    if classement_from_arrete_data.alineas.present?
-      " - #{classement_from_arrete_data.rubrique} #{classement_from_arrete_data.regime} al. #{classement_from_arrete_data.alineas.join(', ')}"
-    else
-      " - #{classement_from_arrete_data.rubrique} #{classement_from_arrete_data.regime}"
+
+    classements = arrete.data.classements_with_alineas.select do |classement|
+      installation.classements.pluck(:rubrique).include?(classement.rubrique)
     end
+
+    classements.map! do |classement|
+      if classement.alineas.present?
+        " - #{classement.rubrique} #{classement.regime} al. #{classement.alineas.join(', ')}"
+      else
+        " - #{classement.rubrique} #{classement.regime}"
+      end
+    end.join('')
   end
 
   def user_already_duplicated_installation? user, installation
