@@ -14,7 +14,12 @@ window.addEventListener('DOMContentLoaded', () => {
     },
     list: {
         maxNumberOfElements: 10,
+        onChooseEvent: function(e){
+          var link_value =  $input.getSelectedItemData().link;
+          location.replace(link_value);
+          document.querySelector(".spinner").classList.add("active");
       }
+    }
   };
 
   $input.easyAutocomplete(options);
