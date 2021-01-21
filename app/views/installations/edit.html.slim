@@ -1,6 +1,6 @@
 .container.mt-5
   h1 = @installation.name
-  h2 Mofidier les classements
+  h2 Modifier les classements
 
   p.text-right
     = link_to "Ajouter un nouveau classement", new_installation_classement_path(@installation), class: "btn btn-link"
@@ -18,5 +18,6 @@
           = c.label :_destroy, ('&nbsp;').html_safe
           = c.input :_destroy, as: :boolean, label: ('<i class="fas fa-trash"></i>').html_safe
 
-    = f.button :submit, "Sauvegarder les modifications", class: "btn btn-primary"
-    = link_to "Retourner sur l'installation", installation_path(@installation), class: "btn btn-link"
+    .mb-4
+      = f.button :submit, "Sauvegarder les modifications", class: "btn btn-primary"
+      = link_to "Retourner sur l'installation", installation_path(@installation), class: "btn btn-link"
