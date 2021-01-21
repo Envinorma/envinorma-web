@@ -42,13 +42,16 @@ classements_list = CSV.parse(File.read(path), headers: true)
 
 classements_list.each do |classement|
   Classement.create(
-    rubrique: classement["code_nomenclature"],
-    regime: classement["id_regime"] || "D",
+    rubrique: classement["rubrique"],
+    regime: classement["regime"] || "D",
     alinea: classement["alinea"],
-    activite: classement["activite_nomenclature_inst"],
+    rubrique_acte: classement["rubrique_acte"],
+    regime_acte: classement["regime_acte"] || "D",
+    alinea_acte: classement["alinea_acte"],
+    activite: classement["activite"],
     date_autorisation: classement["date_autorisation"]&.to_date,
-    volume: "#{classement['volume_inst']} #{classement['unite']}",
-    installation_id: Installation.find_by(s3ic_id: classement["installation_id"])&.id)
+    volume: "#{classement['volume']} #{classement['unit']}",
+    installation_id: Installation.find_by(s3ic_id: classement["s3ic_id"])&.id)
 end
 puts "Classements are seeded"
 

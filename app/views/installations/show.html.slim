@@ -43,12 +43,29 @@
     tbody
       - @classements.each do |classement|
         tr
-          td = classement.rubrique
-          td = classement.alinea
-          td = classement.regime
+          td
+            => classement.rubrique
+            br
+            small.text-secondary = classement.rubrique_acte
+          td
+            => classement.alinea
+            br
+            small.text-secondary = classement.alinea_acte
+
+          td
+            => classement.regime
+            br
+            small.text-secondary = classement.regime_acte
+            - if classement.regime_acte.present?
+              sup.text-secondary *
+
           td = classement.activite
           td = classement.date_autorisation&.strftime("%d/%m/%Y")
           td = classement.volume
+
+  .small.text-secondary
+    sup*
+    | classements actés
 
   .row
     .col

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_01_07_145122) do
+ActiveRecord::Schema.define(version: 2021_01_20_155345) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -46,6 +46,9 @@ ActiveRecord::Schema.define(version: 2021_01_07_145122) do
     t.date "date_autorisation"
     t.string "volume"
     t.string "seuil"
+    t.string "rubrique_acte"
+    t.string "regime_acte"
+    t.string "alinea_acte"
     t.index ["installation_id"], name: "index_classements_on_installation_id"
   end
 
