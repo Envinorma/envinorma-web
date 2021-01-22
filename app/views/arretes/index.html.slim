@@ -1,13 +1,23 @@
-ul.am_nav.list-inline
-  - @arretes.each do |arrete|
-    - am_classement_infos = classement_infos(arrete, @installation)
-    li.list-inline-item
-      a href="#anchor_#{arrete.id}"
-        => arrete.short_title
-        br
-          => am_classement_infos
-          - if arrete.is_a? EnrichedArrete
-            span class="badge badge-success" enrichi
+.am_nav
+  .container
+    .glide
+      div class="glide__track" data-glide-el="track"
+        ul.glide__slides
+          - @arretes.each do |arrete|
+            - am_classement_infos = classement_infos(arrete, @installation)
+            li.glide__slide
+              a href="#anchor_#{arrete.id}"
+                => arrete.short_title
+                br
+                  small
+                    => am_classement_infos
+                    - if arrete.is_a? EnrichedArrete
+                      span class="badge badge-success" enrichi
+
+      div class="glide__arrows" data-glide-el="controls"
+        button class="glide__arrow glide__arrow--left" data-glide-dir="<"<
+        button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+
 
 
 = form_tag({controller: "arretes", action: "generate_doc_with_prescriptions"}, method: "post") do
