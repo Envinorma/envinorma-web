@@ -15,8 +15,11 @@
               .col-sm-12
                 .form-check.checkbox-arrete
                   = check_box_tag "prescriptions[#{secure_id}][checkbox]", "1", false, class: "form-check-input"
-                  = label_tag "prescriptions[#{secure_id}][checkbox]", outer_alinea.text
-
+                  - if outer_alinea.active
+                    = label_tag "prescriptions[#{secure_id}][checkbox]", outer_alinea.text
+                  - else
+                    .inactive 
+                      = label_tag "prescriptions[#{secure_id}][checkbox]", outer_alinea.text                   
                   = hidden_field_tag "prescriptions[#{secure_id}][reference]", ref
                   = hidden_field_tag "prescriptions[#{secure_id}][content]", outer_alinea.text
 

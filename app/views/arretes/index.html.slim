@@ -53,26 +53,23 @@
             - arrete.data.sections.each do |section|
               - extract_sections = lambda do |subsection, level = 3|
 
-                - if subsection.applicability.active == false
-                  - if subsection.applicability.reason_inactive
-                    .alert.alert-danger
-                      p = subsection.applicability.reason_inactive
-                  .inactive
-                    = render partial: "outer_alineas", locals: {subsection: subsection, level: level, ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}"}
-                - else
-
-                  - if subsection.applicability.modified
-                    .alert.alert-success
-                      p = subsection.applicability.reason_modified
-
-                  = render partial: "outer_alineas", locals: {subsection: subsection, level: level, ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}"}
-
+                - subsection.applicability.warnings.each do |warning|
+                  .alert.alert-secondary
+                    p = warning
+                
+                = render partial: "outer_alineas", locals: {subsection: subsection, level: level, ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}"}
                 - subsection.sections.each do |item|
                   - extract_sections.call(item, level + 1)
+
+                - if subsection.applicability.modified
+                  = 'Version précédente'
+                  .inactive
+                    = render partial: "outer_alineas", locals: {subsection: subsection.applicability.previous_version, level: level, ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}"}
+                    - subsection.applicability.previous_version.sections.each do |item|
+                      - extract_sections.call(item, level + 1)
 
               - extract_sections.call(section)
 
           hr.mb-5.mt-5
-
 
   = submit_tag("Générer une fiche d'inspection", class: "btn btn-primary btn-prescription")
