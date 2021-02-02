@@ -60,6 +60,7 @@ namespace :after_party do
         arrete_id: Arrete.find_by(cid: am["id"]).id
       )
     end
+
     puts "Enriched arretes are created"
 
     # Update task as completed.  If you remove the line below, the task will
