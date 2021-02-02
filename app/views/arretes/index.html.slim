@@ -18,8 +18,6 @@
         button class="glide__arrow glide__arrow--left" data-glide-dir="<"<
         button class="glide__arrow glide__arrow--right" data-glide-dir=">">
 
-
-
 = form_tag({controller: "arretes", action: "generate_doc_with_prescriptions"}, method: "post") do
   .container
     = link_to "< Retour à l’installation", installation_path(@installation), class: "back_link js_loader__link"
@@ -53,26 +51,52 @@
             - arrete.data.sections.each do |section|
               - extract_sections = lambda do |subsection, level = 3|
 
-                - if subsection.applicability.active == false
-                  - if subsection.applicability.reason_inactive
-                    .alert.alert-danger
-                      p = subsection.applicability.reason_inactive
-                  .inactive
-                    = render partial: "outer_alineas", locals: {subsection: subsection, level: level, ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}"}
-                - else
+                div id="anchor_#{subsection.id}" class="anchor anchor-summary"
 
-                  - if subsection.applicability.modified
-                    .alert.alert-success
-                      p = subsection.applicability.reason_modified
+                  / display title
+                  - if subsection.applicability.active
+                    - if subsection.outer_alineas.present?
+                      - secure_id = SecureRandom.hex(10)
+                      *{tag: "h#{level}"} class="icon-collapse" data-toggle="collapse" data-target=="#collapse_#{secure_id}" = subsection.title.text
+                    - else
+                      *{tag: "h#{level}"} = subsection.title.text
 
-                  = render partial: "outer_alineas", locals: {subsection: subsection, level: level, ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}"}
+                  / display inactive title
+                  - else
+                    .inactive
+                      - if subsection.outer_alineas.present?
+                        - secure_id = SecureRandom.hex(10)
+                        *{tag: "h#{level}"} class="icon-collapse" data-toggle="collapse" data-target=="#collapse_#{secure_id}" = subsection.title.text
+                      - else
+                        *{tag: "h#{level}"} = subsection.title.text
 
+                  / display warning
+                  - subsection.applicability.warnings.each do |warning|
+                    .alert.alert-secondary
+                      p = warning
+
+                  / display outeralineas
+                  - if subsection.outer_alineas.present?
+                    .collapse.show id="collapse_#{secure_id}"
+
+                      / display button and collapse original text version if modified
+                      - if subsection.applicability.modified
+                        small
+                          .border-bottom.mb-3.pb-3
+                            a href="#" class="icon-collapse icon-collapse-mini" data-toggle="collapse" data-target=="#modified_collapse_#{secure_id}"
+                              | voir le texte d'origine
+                            .inactive
+                              .collapse id="modified_collapse_#{secure_id}"
+                                = render partial: "outer_alineas", locals: {subsection: subsection.applicability.previous_version, level: level, secure_id: secure_id, ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}"}
+
+                      = render partial: "outer_alineas", locals: {subsection: subsection, level: level, secure_id: secure_id, ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}"}
+
+                / iterate on sections and increment level
                 - subsection.sections.each do |item|
                   - extract_sections.call(item, level + 1)
 
               - extract_sections.call(section)
 
           hr.mb-5.mt-5
-
 
   = submit_tag("Générer une fiche d'inspection", class: "btn btn-primary btn-prescription")

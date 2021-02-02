@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_01_20_155345) do
+ActiveRecord::Schema.define(version: 2021_02_02_105529) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 2021_01_20_155345) do
     t.string "aida_url"
     t.string "legifrance_url"
     t.jsonb "summary"
+    t.string "cid"
   end
 
   create_table "arretes_classements", id: false, force: :cascade do |t|
@@ -89,6 +90,10 @@ ActiveRecord::Schema.define(version: 2021_01_20_155345) do
     t.bigint "user_id"
     t.bigint "duplicated_from_id"
     t.index ["user_id"], name: "index_installations_on_user_id"
+  end
+
+  create_table "task_records", id: false, force: :cascade do |t|
+    t.string "version", null: false
   end
 
   create_table "users", force: :cascade do |t|
