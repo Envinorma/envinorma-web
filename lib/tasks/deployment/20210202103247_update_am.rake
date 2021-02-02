@@ -12,7 +12,7 @@ namespace :after_party do
 
     # update AM with new json list
     ids = []
-    path = File.join(File.dirname(__FILE__), "./seeds/am_list.json")
+    path = File.join(Rails.root, 'db', 'seeds', 'am_list.json')
     am_list = JSON.parse(File.read(path))
     am_list.each do |am|
       arrete = Arrete.find_or_create_by(cid: am["id"])
