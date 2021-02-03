@@ -15,18 +15,41 @@ namespace :after_party do
     path = File.join(Rails.root, 'db', 'seeds', 'am_list.json')
     am_list = JSON.parse(File.read(path))
     am_list.each do |am|
-      arrete = Arrete.find_or_create_by(cid: am["id"])
-      arrete.update!(
-        data: am,
-        short_title: am["short_title"],
-        title: am.dig("title", "text"),
-        unique_version: am["unique_version"],
-        installation_date_criterion_left: am.dig("installation_date_criterion", "left_date"),
-        installation_date_criterion_right: am.dig("installation_date_criterion", "right_date"),
-        aida_url: am["aida_url"],
-        legifrance_url: am["legifrance_url"],
-        summary: am["summary"]
-      )
+      arrete = Arrete.find_by(cid: am["id"])
+
+      if arrete.present?
+        arrete.update!(
+          data: am,
+          short_title: am["short_title"],
+          title: am.dig("title", "text"),
+          unique_version: am["unique_version"],
+          installation_date_criterion_left: am.dig("installation_date_criterion", "left_date"),
+          installation_date_criterion_right: am.dig("installation_date_criterion", "right_date"),
+          aida_url: am["aida_url"],
+          legifrance_url: am["legifrance_url"],
+          summary: am["summary"]
+        )
+      else
+        arrete = Arrete.create!(
+          data: am,
+          cid: am["id"],
+          short_title: am["short_title"],
+          title: am.dig("title", "text"),
+          unique_version: am["unique_version"],
+          installation_date_criterion_left: am.dig("installation_date_criterion", "left_date"),
+          installation_date_criterion_right: am.dig("installation_date_criterion", "right_date"),
+          aida_url: am["aida_url"],
+          legifrance_url: am["legifrance_url"],
+          summary: am["summary"]
+        )
+
+        arrete.data.classements_with_alineas.each do |arrete_classement|
+          classements = Classement.where(rubrique: arrete_classement.rubrique, regime: arrete_classement.regime)
+          classements.each do |classement|
+            ArretesClassement.create(arrete_id: arrete.id, classement_id: classement.id)
+          end
+        end
+      end
 
       ids << am["id"]
     end
