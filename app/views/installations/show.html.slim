@@ -85,4 +85,9 @@
 
     .col
       h2.mt-5 Arrêtés préfectoraux associés
-      p.text-secondary Cette fonctionnalité n'est pas encore développée.
+      - if @APs.empty?
+        p.text-secondary Il n’y a pas d’arrêté préfectoral disponible pour cette installation.
+      - else
+        ul.list-unstyled
+          - @APs.each do |ap|
+            li = link_to "#{ap.description} - #{ap.date}", ap.url, target: "_blank"

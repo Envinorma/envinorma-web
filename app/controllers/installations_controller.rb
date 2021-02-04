@@ -18,6 +18,12 @@ class InstallationsController < ApplicationController
   end
 
   def show
+    @APs = if @installation.duplicated_from_id?
+      Installation.find(@installation.duplicated_from_id).APs
+    else
+      @installation.APs
+    end
+
     @classements = @installation.classements.sort_by { |classement| classement.regime.present? ? RUBRIQUES[classement.regime.to_sym] : RUBRIQUES[:empty]}
     @arretes_list = @classements.map { |classement| classement.arretes }.flatten
     @arretes = []
