@@ -3,6 +3,7 @@ class Installation < ApplicationRecord
   accepts_nested_attributes_for :classements, allow_destroy: true
 
   has_many :arretes, through: :classements
+  has_many :APs
   belongs_to :user, optional: true
 
   validates :name, presence: true
