@@ -10,10 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_02_105529) do
+ActiveRecord::Schema.define(version: 2021_02_04_095030) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "aps", force: :cascade do |t|
+    t.string "installation_s3ic_id"
+    t.string "description"
+    t.date "date"
+    t.string "url"
+    t.bigint "installation_id", null: false
+    t.index ["installation_id"], name: "index_aps_on_installation_id"
+  end
 
   create_table "arretes", force: :cascade do |t|
     t.string "name"
@@ -101,6 +110,7 @@ ActiveRecord::Schema.define(version: 2021_02_02_105529) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "aps", "installations"
   add_foreign_key "classements", "installations"
   add_foreign_key "enriched_arretes", "arretes"
   add_foreign_key "installations", "users"
