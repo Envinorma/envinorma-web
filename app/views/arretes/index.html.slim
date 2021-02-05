@@ -18,7 +18,7 @@
         button class="glide__arrow glide__arrow--left" data-glide-dir="<"<
         button class="glide__arrow glide__arrow--right" data-glide-dir=">">
 
-= form_tag({controller: "arretes", action: "generate_doc_with_prescriptions"}, method: "post") do
+= form_tag({controller: "arretes", action: "generate_doc_with_prescriptions"}, method: "post", target: "_blank", id: "generate_doc_with_prescriptions_form") do
   .container
     = link_to "< Retour à l’installation", installation_path(@installation), class: "back_link js_loader__link"
     .row.mt-5
