@@ -12,14 +12,14 @@
 
     .col
       h2.h5 Activités
-      p = "N° inspection: #{@installation.s3ic_id}"
+      p = "N° inspection : #{@installation.s3ic_id}"
       p = "Dernière inspection : #{@installation.last_inspection&.strftime("%d/%m/%Y")}"
       p = "État d'activité : #{@installation.state}"
 
 
     .col
       h2.h5 Informations complémentaires
-      p = "Régime en vigueur de l'établissemen: #{@installation.regime}"
+      p = "Régime en vigueur de l'établissement : #{@installation.regime}"
       p = "Statut SEVESO : #{@installation.seveso}"
 
   h2.mt-5 Classements
