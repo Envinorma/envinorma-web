@@ -89,6 +89,14 @@
                               .collapse id="modified_collapse_#{secure_id}"
                                 = render partial: "outer_alineas", locals: {subsection: subsection.applicability.previous_version, level: level, secure_id: secure_id, ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}"}
 
+                      / display select_all checkbox
+                      - if subsection.applicability.active && subsection.outer_alineas.count > 1
+                        .border-bottom.mb-3.pb-3
+                          .form-group.row
+                              .col-sm-12
+                                .form-check
+                                  = check_box_tag "select_all_#{secure_id}", "1", false, class: "form-check-input select_all"
+
                       = render partial: "outer_alineas", locals: {subsection: subsection, level: level, secure_id: secure_id, ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}"}
 
                 / iterate on sections and increment level
