@@ -1,0 +1,8 @@
+exclude:
+  - 'app/views/layouts/application.html.slim'
+linters:
+  LineLength:
+    max: 125
+
+  RedundantDiv:
+    enabled: false

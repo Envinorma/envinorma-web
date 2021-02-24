@@ -3,7 +3,7 @@
   h2 Modifier les classements
 
   p.text-right
-    = link_to "Ajouter un nouveau classement", new_installation_classement_path(@installation), class: "btn btn-link"
+    = link_to 'Ajouter un nouveau classement', new_installation_classement_path(@installation), class: 'btn btn-link'
   hr
   = simple_form_for @installation do |f|
     = f.simple_fields_for :classements do |c|
@@ -11,13 +11,13 @@
         .col-3
           = c.input :rubrique, disabled: true, hint: 'La rubrique ne peut pas être modifiée.'
         .col-3
-          = c.input :regime, collection: ["A", "E", "D", "NC"]
+          = c.input :regime, collection: %w[A E D NC]
         .col-5
           = c.input :date_autorisation, as: :date, html5: true
         .col-1
-          = c.label :_destroy, ('&nbsp;').html_safe
-          = c.input :_destroy, as: :boolean, label: ('<i class="fas fa-trash"></i>').html_safe
+          = c.label :_destroy, '&nbsp;'.html_safe
+          = c.input :_destroy, as: :boolean, label: '<i class="fas fa-trash"></i>'.html_safe
 
     .mb-4
-      = f.button :submit, "Sauvegarder les modifications", class: "btn btn-primary"
-      = link_to "Retourner sur l'installation", installation_path(@installation), class: "btn btn-link"
+      = f.button :submit, 'Sauvegarder les modifications', class: 'btn btn-primary'
+      = link_to "Retourner sur l'installation", installation_path(@installation), class: 'btn btn-link'
