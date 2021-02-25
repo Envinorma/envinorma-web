@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 class ClassementsController < ApplicationController
   before_action :set_installation
-  before_action :check_if_authorized_user, only: [:new, :create]
+  before_action :check_if_authorized_user, only: %i[new create]
 
   def new
     @classement = Classement.new
@@ -11,12 +13,13 @@ class ClassementsController < ApplicationController
 
     if @classement.save
       arretes = []
-      arretes << Arrete.where("data -> 'classements' @> ?", [{ rubrique: "#{@classement.rubrique}", regime: "#{@classement.regime}" }].to_json)
+      arretes << Arrete.where("data -> 'classements' @> ?",
+                              [{ rubrique: @classement.rubrique.to_s, regime: @classement.regime.to_s }].to_json)
       arretes.flatten.each do |arrete|
         ArretesClassement.create!(arrete_id: arrete.id, classement_id: @classement.id)
       end
 
-      flash[:notice] = "Le classement a été ajouté"
+      flash[:notice] = 'Le classement a été ajouté'
       redirect_to installation_path(@installation)
     else
       flash[:alert] = "Le classement n'a pas été ajouté"
@@ -24,8 +27,7 @@ class ClassementsController < ApplicationController
     end
   end
 
-  def destroy
-  end
+  def destroy; end
 
   private
 

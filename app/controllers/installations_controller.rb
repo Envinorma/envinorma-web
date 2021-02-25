@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class InstallationsController < ApplicationController
   RUBRIQUES = {
     "A": 0,
@@ -5,13 +7,13 @@ class InstallationsController < ApplicationController
     "D": 2,
     "NC": 3,
     "empty": 4
-  }
+  }.freeze
 
   include FilterArretes
-  before_action :set_installation, except: [:index, :search]
+  before_action :set_installation, except: %i[index search]
   before_action :force_json, only: :search
   before_action :create_guest_if_needed, only: :edit
-  before_action :check_if_authorized_user, only: [:show, :edit, :update]
+  before_action :check_if_authorized_user, only: %i[show edit update]
 
   def index
     @installations = Installation.not_attached_to_user
@@ -19,26 +21,29 @@ class InstallationsController < ApplicationController
 
   def show
     @APs = if @installation.duplicated_from_id?
-      Installation.find(@installation.duplicated_from_id).APs
-    else
-      @installation.APs
-    end
+             Installation.find(@installation.duplicated_from_id).APs
+           else
+             @installation.APs
+           end
 
-    @classements = @installation.classements.sort_by { |classement| classement.regime.present? ? RUBRIQUES[classement.regime.to_sym] : RUBRIQUES[:empty]}
-    @arretes_list = @classements.map { |classement| classement.arretes }.flatten
+    @classements = @installation.classements.sort_by do |classement|
+      classement.regime.present? ? RUBRIQUES[classement.regime.to_sym] : RUBRIQUES[:empty]
+    end
+    @arretes_list = @classements.map(&:arretes).flatten
     @arretes = []
     @arretes_list.uniq.each do |arrete|
-      if arrete.enriched_arretes.any?
-        @arretes << filter_arretes(arrete, arrete.enriched_arretes).first
-      else
-        @arretes << arrete
-      end
-    @arretes
+      @arretes << if arrete.enriched_arretes.any?
+                    filter_arretes(arrete, arrete.enriched_arretes).first
+                  else
+                    arrete
+                  end
+      @arretes
     end
   end
 
   def edit
     return if @installation.user_id == @user.id
+
     if helpers.user_already_duplicated_installation?(@user, @installation)
       redirect_to edit_installation_path(helpers.retrieve_duplicated_installation(@user, @installation))
     else
@@ -51,7 +56,8 @@ class InstallationsController < ApplicationController
       @installation.classements.each do |classement|
         arretes = []
         ArretesClassement.where(classement_id: classement.id).delete_all
-        arretes << Arrete.where("data -> 'classements' @> ?", [{ rubrique: "#{classement.rubrique}", regime: "#{classement.regime}" }].to_json)
+        arretes << Arrete.where("data -> 'classements' @> ?",
+                                [{ rubrique: classement.rubrique.to_s, regime: classement.regime.to_s }].to_json)
 
         arretes.flatten.each do |arrete|
           ArretesClassement.create(arrete_id: arrete.id, classement_id: classement.id)
@@ -110,9 +116,9 @@ class InstallationsController < ApplicationController
 
   def search
     q = params[:q].downcase
-    @installations = Installation.where("name ILIKE ? or s3ic_id ILIKE ?", "%#{q}%", "%#{q}%").not_attached_to_user.limit(10)
+    @installations = Installation.where('name ILIKE ? or s3ic_id ILIKE ?', "%#{q}%",
+                                        "%#{q}%").not_attached_to_user.limit(10)
   end
-
 
   private
 
@@ -125,6 +131,7 @@ class InstallationsController < ApplicationController
   end
 
   def classement_params
-    params.require(:installation).permit(classements_attributes: [:id, :regime, :rubrique, :date_autorisation, :_destroy])
+    params.require(:installation).permit(classements_attributes: %i[id regime rubrique date_autorisation
+                                                                    _destroy])
   end
 end

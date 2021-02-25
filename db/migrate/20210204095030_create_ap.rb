@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateAP < ActiveRecord::Migration[6.0]
   def change
     create_table :aps do |t|

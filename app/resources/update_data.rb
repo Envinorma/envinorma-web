@@ -1,36 +1,37 @@
-class UpdateData
+# frozen_string_literal: true
 
+class UpdateData
   def self.update_am
     ids = []
     path = File.join(Rails.root, 'db', 'seeds', 'am_list.json')
     am_list = JSON.parse(File.read(path))
     am_list.each do |am|
-      arrete = Arrete.find_by(cid: am["id"])
+      arrete = Arrete.find_by(cid: am['id'])
 
       if arrete.present?
         arrete.update!(
           data: am,
-          short_title: am["short_title"],
-          title: am.dig("title", "text"),
-          unique_version: am["unique_version"],
-          installation_date_criterion_left: am.dig("installation_date_criterion", "left_date"),
-          installation_date_criterion_right: am.dig("installation_date_criterion", "right_date"),
-          aida_url: am["aida_url"],
-          legifrance_url: am["legifrance_url"],
-          summary: am["summary"]
+          short_title: am['short_title'],
+          title: am.dig('title', 'text'),
+          unique_version: am['unique_version'],
+          installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),
+          installation_date_criterion_right: am.dig('installation_date_criterion', 'right_date'),
+          aida_url: am['aida_url'],
+          legifrance_url: am['legifrance_url'],
+          summary: am['summary']
         )
       else
         arrete = Arrete.create!(
           data: am,
-          cid: am["id"],
-          short_title: am["short_title"],
-          title: am.dig("title", "text"),
-          unique_version: am["unique_version"],
-          installation_date_criterion_left: am.dig("installation_date_criterion", "left_date"),
-          installation_date_criterion_right: am.dig("installation_date_criterion", "right_date"),
-          aida_url: am["aida_url"],
-          legifrance_url: am["legifrance_url"],
-          summary: am["summary"]
+          cid: am['id'],
+          short_title: am['short_title'],
+          title: am.dig('title', 'text'),
+          unique_version: am['unique_version'],
+          installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),
+          installation_date_criterion_right: am.dig('installation_date_criterion', 'right_date'),
+          aida_url: am['aida_url'],
+          legifrance_url: am['legifrance_url'],
+          summary: am['summary']
         )
 
         arrete.data.classements_with_alineas.each do |arrete_classement|
@@ -41,7 +42,7 @@ class UpdateData
         end
       end
 
-      ids << am["id"]
+      ids << am['id']
     end
 
     # delete AM in BDD if not present in json list
@@ -53,8 +54,7 @@ class UpdateData
       end
     end
 
-    puts "Arretes updated with new json list"
-
+    puts 'Arretes updated with new json list'
   end
 
   def self.recreate_enriched_am
@@ -64,18 +64,18 @@ class UpdateData
       am = JSON.parse(File.read(json_file))
       EnrichedArrete.create(
         data: am,
-        short_title: am["short_title"],
-        title: am.dig("title", "text"),
-        unique_version: am["unique_version"],
-        installation_date_criterion_left: am.dig("installation_date_criterion", "left_date"),
-        installation_date_criterion_right: am.dig("installation_date_criterion", "right_date"),
-        aida_url: am["aida_url"],
-        legifrance_url: am["legifrance_url"],
-        summary: am["summary"],
-        arrete_id: Arrete.find_by(cid: am["id"]).id
+        short_title: am['short_title'],
+        title: am.dig('title', 'text'),
+        unique_version: am['unique_version'],
+        installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),
+        installation_date_criterion_right: am.dig('installation_date_criterion', 'right_date'),
+        aida_url: am['aida_url'],
+        legifrance_url: am['legifrance_url'],
+        summary: am['summary'],
+        arrete_id: Arrete.find_by(cid: am['id']).id
       )
     end
 
-    puts "Enriched arretes are created"
+    puts 'Enriched arretes are created'
   end
 end

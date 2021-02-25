@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module FilterArretes
   extend ActiveSupport::Concern
 
@@ -5,7 +7,7 @@ module FilterArretes
     helper_method :filter_arretes
   end
 
-  def filter_arretes arrete_reference, arretes_list
+  def filter_arretes(arrete_reference, arretes_list)
     arretes_list.select do |arrete|
       classement = Classement.find (@installation.classements.pluck(:id) & arrete_reference.classements.pluck(:id)).first
       date_left = arrete.installation_date_criterion_left
@@ -23,11 +25,13 @@ module FilterArretes
         if arrete.unique_version
           arrete
         elsif date_left.present? && date_right.present?
-          arrete if date_left.to_date <= classement.date_autorisation && date_right.to_date > classement.date_autorisation
+          if date_left.to_date <= classement.date_autorisation && date_right.to_date > classement.date_autorisation
+            arrete
+          end
         elsif date_left.present?
           arrete if date_left.to_date < classement.date_autorisation
-        else
-          arrete if date_right.to_date >= classement.date_autorisation
+        elsif date_right.to_date >= classement.date_autorisation
+          arrete
         end
       end
     end

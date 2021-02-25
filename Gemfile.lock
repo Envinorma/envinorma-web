@@ -297,6 +297,7 @@ DEPENDENCIES
   rails (~> 6.0.3, >= 6.0.3.4)
   redis (~> 4.0)
   rspec-rails (~> 4.0.2)
+  rubocop (~> 1.10)
   sass-rails (>= 6)
   selenium-webdriver
   simple_form (~> 5.0, >= 5.0.3)

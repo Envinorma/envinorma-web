@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateEnrichedArretes < ActiveRecord::Migration[6.0]
   def change
     create_table :enriched_arretes do |t|

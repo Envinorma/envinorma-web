@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Classement < ApplicationRecord
   belongs_to :installation
   has_many :arretes_classements, dependent: :delete_all

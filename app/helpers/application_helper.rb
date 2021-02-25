@@ -1,8 +1,8 @@
+# frozen_string_literal: true
+
 module ApplicationHelper
-  def classement_infos arrete, installation
-    if arrete.is_a? EnrichedArrete
-      arrete = Arrete.find(arrete.arrete_id)
-    end
+  def classement_infos(arrete, installation)
+    arrete = Arrete.find(arrete.arrete_id) if arrete.is_a? EnrichedArrete
 
     classements = arrete.data.classements_with_alineas.select do |classement|
       installation.classements.pluck(:rubrique).include?(classement.rubrique)
@@ -17,11 +17,11 @@ module ApplicationHelper
     end.join('')
   end
 
-  def user_already_duplicated_installation? user, installation
+  def user_already_duplicated_installation?(user, installation)
     user.present? && user.installations.pluck(:duplicated_from_id).include?(installation.id)
   end
 
-  def retrieve_duplicated_installation user, installation
+  def retrieve_duplicated_installation(user, installation)
     user.installations.where(duplicated_from_id: installation.id).first
   end
 end
