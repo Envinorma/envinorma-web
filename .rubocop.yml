@@ -5,6 +5,7 @@ AllCops:
     - bin/*
     - config/initializers/*
     - db/schema.rb
+    - lib/tasks/deployment/*
     - node_modules/**/*
     - vendor/**/*
     - app/controllers/concerns/filter_arretes.rb
