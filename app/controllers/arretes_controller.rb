@@ -17,14 +17,9 @@ class ArretesController < ApplicationController
       prescriptions[key] = { ref: value['reference'], value: value['content'] } if value['checkbox'] == '1'
     end
 
-    prescriptions_join_by_ref = {}
-    prescriptions.group_by { |_k, v| v[:ref] }.each do |key, value|
-      prescriptions_join_by_ref[key] = value.map! do |val|
-        val.last[:value]
-      end.join('<text:line-break/><text:line-break/>')
-    end
+    prescriptions_joined_by_ref = merge_prescriptions_with_same_ref(prescriptions)
 
-    generate_doc prescriptions_join_by_ref
+    generate_doc(prescriptions_joined_by_ref)
   end
 
   private
@@ -35,6 +30,16 @@ class ArretesController < ApplicationController
 
   def prescriptions_params
     params['prescriptions'].permit!
+  end
+
+  def merge_prescriptions_with_same_ref(prescriptions)
+    prescriptions_joined_by_ref = {}
+    prescriptions.group_by { |_k, v| v[:ref] }.each do |key, value|
+      prescriptions_joined_by_ref[key] = value.map! do |val|
+        val.last[:value]
+      end.join('<text:line-break/><text:line-break/>')
+    end
+    prescriptions_joined_by_ref
   end
 
   def generate_doc(prescriptions)

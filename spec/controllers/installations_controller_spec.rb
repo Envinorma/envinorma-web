@@ -32,7 +32,8 @@ RSpec.describe InstallationsController, type: :controller do
       expect(response).to have_http_status(:ok)
     end
 
-    it 'redirects to duplicated installation edit if user has already a copy and try to edit the original from direct url access' do
+    it 'redirects to duplicated installation edit if user has already a copy
+        and try to edit the original from direct url access' do
       installation = Installation.create(name: 'Installation test')
       get :edit, params: { id: installation.id }
 

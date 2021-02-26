@@ -14,7 +14,7 @@ module ApplicationHelper
       else
         " - #{classement.rubrique} #{classement.regime}"
       end
-    end.join('')
+    end.join
   end
 
   def user_already_duplicated_installation?(user, installation)

@@ -2,11 +2,11 @@
 
 class InstallationsController < ApplicationController
   RUBRIQUES = {
-    "A": 0,
-    "E": 1,
-    "D": 2,
-    "NC": 3,
-    "empty": 4
+    A: 0,
+    E: 1,
+    D: 2,
+    NC: 3,
+    empty: 4
   }.freeze
 
   include FilterArretes
@@ -20,11 +20,7 @@ class InstallationsController < ApplicationController
   end
 
   def show
-    @APs = if @installation.duplicated_from_id?
-             Installation.find(@installation.duplicated_from_id).APs
-           else
-             @installation.APs
-           end
+    set_aps
 
     @classements = @installation.classements.sort_by do |classement|
       classement.regime.present? ? RUBRIQUES[classement.regime.to_sym] : RUBRIQUES[:empty]
@@ -37,7 +33,6 @@ class InstallationsController < ApplicationController
                   else
                     arrete
                   end
-      @arretes
     end
   end
 
@@ -54,14 +49,7 @@ class InstallationsController < ApplicationController
   def update
     if @installation.update(classement_params)
       @installation.classements.each do |classement|
-        arretes = []
-        ArretesClassement.where(classement_id: classement.id).delete_all
-        arretes << Arrete.where("data -> 'classements' @> ?",
-                                [{ rubrique: classement.rubrique.to_s, regime: classement.regime.to_s }].to_json)
-
-        arretes.flatten.each do |arrete|
-          ArretesClassement.create(arrete_id: arrete.id, classement_id: classement.id)
-        end
+        ArretesClassement.update_for(classement)
       end
 
       flash[:notice] = "L'installation a bien été mise à jour"
@@ -124,6 +112,14 @@ class InstallationsController < ApplicationController
 
   def set_installation
     @installation = Installation.find(params[:id])
+  end
+
+  def set_aps
+    @aps = if @installation.duplicated_from_id?
+             Installation.find(@installation.duplicated_from_id).APs
+           else
+             @installation.APs
+           end
   end
 
   def force_json

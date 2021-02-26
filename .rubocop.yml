@@ -1,0 +1,25 @@
+AllCops:
+  NewCops: enable
+
+  Exclude:
+    - bin/*
+    - config/initializers/*
+    - db/schema.rb
+    - node_modules/**/*
+    - vendor/**/*
+    - app/controllers/concerns/filter_arretes.rb
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
