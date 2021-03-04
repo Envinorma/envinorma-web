@@ -25,9 +25,11 @@ class InstallationsController < ApplicationController
     @classements = @installation.classements.sort_by do |classement|
       classement.regime.present? ? RUBRIQUES[classement.regime.to_sym] : RUBRIQUES[:empty]
     end
-    @arretes_list = @classements.map(&:arretes).flatten
+
+    arretes_list = get_unique_classements_from(@classements).map(&:arretes).flatten
+
     @arretes = []
-    @arretes_list.uniq.each do |arrete|
+    arretes_list.uniq.each do |arrete|
       @arretes << if arrete.enriched_arretes.any?
                     filter_arretes(arrete, arrete.enriched_arretes).first
                   else
@@ -48,10 +50,6 @@ class InstallationsController < ApplicationController
 
   def update
     if @installation.update(classement_params)
-      @installation.classements.each do |classement|
-        ArretesClassement.update_for(classement)
-      end
-
       flash[:notice] = "L'installation a bien été mise à jour"
       redirect_to installation_path(@installation)
     else
@@ -91,13 +89,6 @@ class InstallationsController < ApplicationController
       )
     end
 
-    installation_duplicated.classements.each do |classement|
-      arretes = Classement.find_by(rubrique: classement.rubrique, regime: classement.regime).arretes
-      arretes.each do |arrete|
-        ArretesClassement.create(arrete_id: arrete.id, classement_id: classement.id)
-      end
-    end
-
     redirect_to edit_installation_path(installation_duplicated)
     # backup if save failed
   end
@@ -120,6 +111,14 @@ class InstallationsController < ApplicationController
            else
              @installation.APs
            end
+  end
+
+  def get_unique_classements_from(classements)
+    unique_classements = []
+    classements.each do |classement|
+      unique_classements << UniqueClassement.where(rubrique: classement.rubrique, regime: classement.regime).to_a
+    end
+    unique_classements.flatten
   end
 
   def force_json

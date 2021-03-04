@@ -12,13 +12,6 @@ class ClassementsController < ApplicationController
     @classement = Classement.create(classement_params)
 
     if @classement.save
-      arretes = []
-      arretes << Arrete.where("data -> 'classements' @> ?",
-                              [{ rubrique: @classement.rubrique.to_s, regime: @classement.regime.to_s }].to_json)
-      arretes.flatten.each do |arrete|
-        ArretesClassement.create!(arrete_id: arrete.id, classement_id: @classement.id)
-      end
-
       flash[:notice] = 'Le classement a été ajouté'
       redirect_to installation_path(@installation)
     else

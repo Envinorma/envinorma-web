@@ -4,6 +4,7 @@ AllCops:
   Exclude:
     - bin/*
     - config/initializers/*
+    - db/migrate/*
     - db/schema.rb
     - lib/tasks/deployment/*
     - node_modules/**/*

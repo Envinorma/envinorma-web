@@ -20,6 +20,8 @@ class UpdateData
           legifrance_url: am['legifrance_url'],
           summary: am['summary']
         )
+
+        arrete.arretes_unique_classements.delete_all
       else
         arrete = Arrete.create!(
           data: am,
@@ -33,12 +35,12 @@ class UpdateData
           legifrance_url: am['legifrance_url'],
           summary: am['summary']
         )
+      end
 
-        arrete.data.classements_with_alineas.each do |arrete_classement|
-          classements = Classement.where(rubrique: arrete_classement.rubrique, regime: arrete_classement.regime)
-          classements.each do |classement|
-            ArretesClassement.create(arrete_id: arrete.id, classement_id: classement.id)
-          end
+      arrete.data.classements_with_alineas.each do |arrete_classement|
+        classements = UniqueClassement.where(rubrique: arrete_classement.rubrique, regime: arrete_classement.regime)
+        classements.each do |classement|
+          ArretesUniqueClassement.create(arrete_id: arrete.id, unique_classement_id: classement.id)
         end
       end
 
