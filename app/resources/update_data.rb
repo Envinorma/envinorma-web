@@ -1,6 +1,17 @@
 # frozen_string_literal: true
 
 class UpdateData
+  def self.seed_installations_and_associations
+    installations_list = parse_seed_csv('installations_idf.csv')
+    Installation.recreate!(installations_list)
+
+    classements_list = parse_seed_csv('classements_idf.csv')
+    Classement.recreate!(classements_list)
+
+    aps_list = parse_seed_csv('aps_idf.csv')
+    AP.recreate!(aps_list)
+  end
+
   def self.update_am
     ids = []
     path = File.join(Rails.root, 'db', 'seeds', 'am_list.json')
@@ -79,5 +90,10 @@ class UpdateData
     end
 
     puts 'Enriched arretes are created'
+  end
+
+  def self.parse_seed_csv(doc_name)
+    path = File.join(Rails.root, 'db', 'seeds', doc_name)
+    CSV.parse(File.read(path), headers: true)
   end
 end
