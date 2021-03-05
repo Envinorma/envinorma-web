@@ -1,12 +1,13 @@
 # frozen_string_literal: true
 
 class InstallationsController < ApplicationController
-  RUBRIQUES = {
+  REGIMES = {
     A: 0,
     E: 1,
     D: 2,
     NC: 3,
-    empty: 4
+    unknown: 4,
+    empty: 5
   }.freeze
 
   include FilterArretes
@@ -23,7 +24,7 @@ class InstallationsController < ApplicationController
     set_aps
 
     @classements = @installation.classements.sort_by do |classement|
-      classement.regime.present? ? RUBRIQUES[classement.regime.to_sym] : RUBRIQUES[:empty]
+      classement.regime.present? ? REGIMES[classement.regime.to_sym] : REGIMES[:empty]
     end
 
     arretes_list = get_unique_classements_from(@classements).map(&:arretes).flatten
