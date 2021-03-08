@@ -12,6 +12,14 @@ class UpdateData
     AP.recreate!(aps_list)
   end
 
+  def self.seed_arretes_and_associations
+    arretes_list = parse_seed_json('am_list.json')
+    Arrete.recreate!(arretes_list)
+
+    enriched_arretes_files = Dir.glob("#{Rails.root}/db/seeds/enriched_arretes/*.json")
+    EnrichedArrete.recreate!(enriched_arretes_files)
+  end
+
   def self.update_am
     ids = []
     path = File.join(Rails.root, 'db', 'seeds', 'am_list.json')
@@ -70,30 +78,13 @@ class UpdateData
     puts 'Arretes updated with new json list'
   end
 
-  def self.recreate_enriched_am
-    EnrichedArrete.destroy_all
-
-    Dir.glob("#{Rails.root}/db/seeds/enriched_arretes/*.json").each do |json_file|
-      am = JSON.parse(File.read(json_file))
-      EnrichedArrete.create(
-        data: am,
-        short_title: am['short_title'],
-        title: am.dig('title', 'text'),
-        unique_version: am['unique_version'],
-        installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),
-        installation_date_criterion_right: am.dig('installation_date_criterion', 'right_date'),
-        aida_url: am['aida_url'],
-        legifrance_url: am['legifrance_url'],
-        summary: am['summary'],
-        arrete_id: Arrete.find_by(cid: am['id']).id
-      )
-    end
-
-    puts 'Enriched arretes are created'
-  end
-
   def self.parse_seed_csv(doc_name)
     path = File.join(Rails.root, 'db', 'seeds', doc_name)
     CSV.parse(File.read(path), headers: true)
+  end
+
+  def self.parse_seed_json(doc_name)
+    path = File.join(Rails.root, 'db', 'seeds', doc_name)
+    JSON.parse(File.read(path))
   end
 end
