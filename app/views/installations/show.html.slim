@@ -54,9 +54,9 @@
             small.text-secondary = classement.alinea_acte
 
           td
-            => classement.regime
+            => t("regime.#{classement.regime}")
             br
-            small.text-secondary = classement.regime_acte
+            small.text-secondary = t("regime.#{classement.regime_acte}")
             - if classement.regime_acte.present?
               sup.text-secondary *
 
