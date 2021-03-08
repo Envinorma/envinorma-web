@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class UpdateData
+class Data
   def self.seed_installations_and_associations
     installations_list = parse_seed_csv('installations_idf.csv')
     Installation.recreate!(installations_list)
