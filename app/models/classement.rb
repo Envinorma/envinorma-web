@@ -15,7 +15,7 @@ class Classement < ApplicationRecord
         regime: classement['regime'],
         alinea: classement['alinea'],
         rubrique_acte: classement['rubrique_acte'],
-        regime_acte: classement['regime_acte'] || 'D',
+        regime_acte: classement['regime_acte'],
         alinea_acte: classement['alinea_acte'],
         activite: classement['activite'],
         date_autorisation: classement['date_autorisation']&.to_date,
