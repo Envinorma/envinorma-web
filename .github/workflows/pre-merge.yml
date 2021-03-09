@@ -61,9 +61,8 @@ jobs:
       postgres:
         image: postgres:11
         env:
-          POSTGRES_USER: myapp
-          POSTGRES_DB: myapp_test
-          POSTGRES_PASSWORD: ""
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
         ports: ["5432:5432"]
 
     steps:
@@ -107,13 +106,14 @@ jobs:
         run: |
           yarn install --pure-lockfile
 
-      - name: Setup test database
+      - name: Setup Database
+        run: |
+          cp config/database-githubactions.yml config/database.yml
+          bundle exec rails db:setup
         env:
           RAILS_ENV: test
-          PGHOST: localhost
-          PGUSER: myapp
-        run: |
-          bundle exec rails db:setup
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
 
       - name: Run tests
         run: bundle exec rspec
