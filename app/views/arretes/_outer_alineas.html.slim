@@ -21,7 +21,7 @@
           tr
             th
             - row.cells.each do |cell|
-              th collspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
+              th colspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
                 = cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe
         - else
           tr
@@ -33,6 +33,6 @@
                 = hidden_field_tag "prescriptions[#{secure_id_checkbox}][content]", row.text_in_inspection_sheet
 
             - row.cells.each do |cell|
-              td collspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
+              td colspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
                 = label_tag("prescriptions[#{secure_id_checkbox}][checkbox]",
                   cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe)

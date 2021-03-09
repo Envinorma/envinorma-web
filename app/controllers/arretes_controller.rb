@@ -13,8 +13,8 @@ class ArretesController < ApplicationController
 
   def generate_doc_with_prescriptions
     prescriptions = {}
-    prescriptions_params.to_h.each do |key, value|
-      prescriptions[key] = { ref: value['reference'], value: value['content'] } if value['checkbox'] == '1'
+    prescriptions_params.to_h.each do |key, val|
+      prescriptions[key] = { ref: val['reference'], value: helpers.sanitize(val['content']) } if val['checkbox'] == '1'
     end
 
     prescriptions_joined_by_ref = merge_prescriptions_with_same_ref(prescriptions)
