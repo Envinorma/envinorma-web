@@ -113,7 +113,7 @@ jobs:
           PGHOST: localhost
           PGUSER: myapp
         run: |
-          rails db:setup
+          bundle exec rails db:setup
 
       - name: Run tests
         run: bundle exec rspec
