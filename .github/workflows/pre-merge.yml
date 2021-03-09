@@ -117,3 +117,7 @@ jobs:
 
       - name: Run tests
         run: bundle exec rspec
+        env:
+          RAILS_ENV: test
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
