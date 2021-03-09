@@ -11,3 +11,11 @@
         - if @user && @user.installations.present?
           li.nav-item
             = link_to 'Mes installations modifiées', user_path, class: 'nav-link'
+
+        li.nav-item.item-right
+
+          = link_to 'https://www.notion.so/Foire-aux-questions-34a3e5a5b8e94c72b63a67614dc7b122',
+            class: 'nav-link' do
+              i.far.fa-question-circle
+              '
+              | FAQ

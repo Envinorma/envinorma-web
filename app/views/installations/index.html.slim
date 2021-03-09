@@ -1,5 +1,14 @@
 .container
-  .row
-    .col
-      h1.display-4.mt-5.mb-4 Rechercher votre installation
-      input type="search" placeholder="Entrer le nom de l'installation" data-behavior="autocomplete"
+  .row.justify-content-center.home
+    .col-8.align-self-center
+      = image_pack_tag('factory-illu.svg', class: 'illu-factory')
+
+      input type="search" placeholder="Entrer le nom d'une installation" data-behavior="autocomplete"
+
+footer
+  p
+    | Envie d'en savoir plus sur le projet ?
+    br
+    = link_to 'Consulter la page FAQ',
+      'https://www.notion.so/Foire-aux-questions-34a3e5a5b8e94c72b63a67614dc7b122',
+      class: 'btn-link'
