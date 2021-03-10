@@ -10,4 +10,6 @@ Rails.application.routes.draw do
   get '/installations/:id/arretes', to: 'arretes#index', as: 'arretes'
   post '/installations/:id/arretes', to: 'arretes#generate_doc_with_prescriptions', as: 'generate_doc'
   get '/user', to: 'users#show'
+
+  get '/pages/:page' => 'pages#show', as: 'page'
 end

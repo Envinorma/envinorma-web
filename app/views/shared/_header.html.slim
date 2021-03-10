@@ -12,10 +12,18 @@
           li.nav-item
             = link_to 'Mes installations modifiées', user_path, class: 'nav-link'
 
-        li.nav-item.item-right
+        .item-right
+          li.nav-item
+            = link_to page_path('about'),
+              class: 'nav-link' do
+                i.fas.fa-info-circle
+                '
+                | À propos
 
-          = link_to 'https://www.notion.so/Foire-aux-questions-34a3e5a5b8e94c72b63a67614dc7b122',
-            class: 'nav-link' do
-              i.far.fa-question-circle
-              '
-              | FAQ
+          li.nav-item
+            = link_to 'https://www.notion.so/Foire-aux-questions-34a3e5a5b8e94c72b63a67614dc7b122',
+              class: 'nav-link',
+              target: '_blank' do
+                i.far.fa-question-circle
+                '
+                | FAQ
