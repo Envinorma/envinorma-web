@@ -311,7 +311,9 @@
                         "active": true,
                         "modified": false,
                         "previous_version": null,
-                        "warnings": []
+                        "warnings": [
+                            "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                        ]
                     },
                     "id": "96edc7Cd382E",
                     "lf_id": null,
@@ -464,7 +466,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                ]
                             },
                             "id": "BBade926d60e",
                             "lf_id": null,
@@ -531,7 +535,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                ]
                             },
                             "id": "69FAF84043fA",
                             "lf_id": null,
@@ -1682,7 +1688,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "1 - Matières en suspension totales (MEST), demandes chimique et biochimique en oxygène (DCO et DBO5)\nMatières en suspension totales (Code SANDRE : 1305)"
+                                                "text_in_inspection_sheet": "1 - Matières en suspension totales (MEST), demandes chimique et biochimique en oxygène (DCO et DBO5)\nMatières en suspension totales (Code SANDRE : 1305)\n1 - Matières en suspension totales (MEST), demandes chimique et biochimique en oxygène (DCO et DBO5)\nMatières en suspension totales (Code SANDRE : 1305)"
                                             },
                                             {
                                                 "cells": [
@@ -1750,7 +1756,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "1 - Matières en suspension totales (MEST), demandes chimique et biochimique en oxygène (DCO et DBO5)\nDCO (sur effluent non décanté) (Code SANDRE : 1314)"
+                                                "text_in_inspection_sheet": "1 - Matières en suspension totales (MEST), demandes chimique et biochimique en oxygène (DCO et DBO5)\nDCO (sur effluent non décanté) (Code SANDRE : 1314)\n1 - Matières en suspension totales (MEST), demandes chimique et biochimique en oxygène (DCO et DBO5)\nDCO (sur effluent non décanté) (Code SANDRE : 1314)"
                                             },
                                             {
                                                 "cells": [
@@ -2461,7 +2467,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\nBenzo(a)pyrène*\n2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n50-32-8\n2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n1115"
+                                                "text_in_inspection_sheet": "2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\nBenzo(a)pyrène*\n2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n50-32-8\n2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n1115\n2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n25 µg/l (somme des 5 composés visés)"
                                             },
                                             {
                                                 "cells": [
@@ -2497,7 +2503,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\nSomme Benzo(b)fluoranthène* + Benzo(k)fluoranthène*\n2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n205-99-2 / 207-08-9\n2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n-"
+                                                "text_in_inspection_sheet": "2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\nSomme Benzo(b)fluoranthène* + Benzo(k)fluoranthène*\n2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n205-99-2 / 207-08-9\n2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n-\n2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n25 µg/l (somme des 5 composés visés)"
                                             },
                                             {
                                                 "cells": [
@@ -2533,7 +2539,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\nSomme Benzo(g, h,i)perylène* + Indeno(1,2,3-cd)pyrène*\n2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n191-24-2 / 193-39-5\n2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n-"
+                                                "text_in_inspection_sheet": "2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\nSomme Benzo(g, h,i)perylène* + Indeno(1,2,3-cd)pyrène*\n2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n191-24-2 / 193-39-5\n2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n-\n2 - Substances spécifiques du secteur d'activité (uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n25 µg/l (somme des 5 composés visés)"
                                             },
                                             {
                                                 "cells": [

@@ -471,7 +471,9 @@
                         "active": true,
                         "modified": false,
                         "previous_version": null,
-                        "warnings": []
+                        "warnings": [
+                            "L'alinéa n°2 de ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la date d'autorisation est postérieure au 01/07/2005 et antérieure au 01/07/2014."
+                        ]
                     },
                     "id": "9B2bE846a5ca",
                     "lf_id": null,
@@ -532,7 +534,9 @@
                         "active": true,
                         "modified": false,
                         "previous_version": null,
-                        "warnings": []
+                        "warnings": [
+                            "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la date d'autorisation est antérieure au 01/07/2005."
+                        ]
                     },
                     "id": "AB85EbFEf5Aa",
                     "lf_id": null,
@@ -795,7 +799,9 @@
                                         "active": true,
                                         "modified": false,
                                         "previous_version": null,
-                                        "warnings": []
+                                        "warnings": [
+                                            "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la date d'autorisation est antérieure au 01/07/2005."
+                                        ]
                                     },
                                     "id": "84AfDFCb64Cf",
                                     "lf_id": null,
@@ -838,7 +844,9 @@
                                         "active": true,
                                         "modified": false,
                                         "previous_version": null,
-                                        "warnings": []
+                                        "warnings": [
+                                            "Les alinéas n°1, 2, 3, 4 et 7 de ce paragraphe pourraient ne pas être applicables. C'est le cas pour les installations dont la date d'autorisation est antérieure au 01/07/2005."
+                                        ]
                                     },
                                     "id": "fc4ebDaFaC1F",
                                     "lf_id": null,
@@ -987,7 +995,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la date d'autorisation est postérieure au 01/07/2005 et antérieure au 01/07/2014."
+                                ]
                             },
                             "id": "56F21fdF602C",
                             "lf_id": null,
@@ -1260,7 +1270,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la date d'autorisation est postérieure au 01/07/2005 et antérieure au 01/07/2014."
+                                ]
                             },
                             "id": "eAba1bF3AA19",
                             "lf_id": null,
@@ -3942,7 +3954,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "L'alinéa n°3 de ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la date d'autorisation est postérieure au 01/07/2005 et antérieure au 01/07/2014."
+                                ]
                             },
                             "id": "EaCf92013c81",
                             "lf_id": null,
@@ -4052,7 +4066,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "L'alinéa n°3 de ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la date d'autorisation est postérieure au 01/07/2005 et antérieure au 01/07/2014."
+                                ]
                             },
                             "id": "BB8cFB635fbF",
                             "lf_id": null,
@@ -4370,7 +4386,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t1. Matières en suspension totales (MEST), demandes chimique en oxygène (DCO)"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t1. Matières en suspension totales (MEST), demandes chimique en oxygène (DCO)\n \t\t\t\t\t\t\t\t\t\t1. Matières en suspension totales (MEST), demandes chimique en oxygène (DCO)\n \t\t\t\t\t\t\t\t\t\t1. Matières en suspension totales (MEST), demandes chimique en oxygène (DCO)"
                                             },
                                             {
                                                 "cells": [
@@ -4386,7 +4402,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t   Matières en suspension totales :"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t   Matières en suspension totales :\n \t\t\t\t\t\t\t\t\t\t   Matières en suspension totales :\n \t\t\t\t\t\t\t\t\t\t   Matières en suspension totales :"
                                             },
                                             {
                                                 "cells": [
@@ -4412,7 +4428,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\tFlux journalier maximal inférieur ou égal à 15 kg/j\n \t\t\t\t\t\t\t\t\t\t100 mg/l"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\tFlux journalier maximal inférieur ou égal à 15 kg/j\n \t\t\t\t\t\t\t\t\t\t100 mg/l\n \t\t\t\t\t\t\t\t\t\t100 mg/l"
                                             },
                                             {
                                                 "cells": [
@@ -4438,7 +4454,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\tFlux journalier maximal supérieur à 15 kg/j\n \t\t\t\t\t\t\t\t\t\t35 mg/l"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\tFlux journalier maximal supérieur à 15 kg/j\n \t\t\t\t\t\t\t\t\t\t35 mg/l\n \t\t\t\t\t\t\t\t\t\t35 mg/l"
                                             },
                                             {
                                                 "cells": [
@@ -4454,7 +4470,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t   DCO (sur effluent non décanté) :"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t   DCO (sur effluent non décanté) :\n \t\t\t\t\t\t\t\t\t\t   DCO (sur effluent non décanté) :\n \t\t\t\t\t\t\t\t\t\t   DCO (sur effluent non décanté) :"
                                             },
                                             {
                                                 "cells": [
@@ -4480,7 +4496,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\tFlux journalier maximal inférieur ou égal à 50 kg/j\n \t\t\t\t\t\t\t\t\t\t300 mg/l"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\tFlux journalier maximal inférieur ou égal à 50 kg/j\n \t\t\t\t\t\t\t\t\t\t300 mg/l\n \t\t\t\t\t\t\t\t\t\t300 mg/l"
                                             },
                                             {
                                                 "cells": [
@@ -4506,7 +4522,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\tFlux journalier maximal supérieur à 50 kg/j\n \t\t\t\t\t\t\t\t\t\t125 mg/l"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\tFlux journalier maximal supérieur à 50 kg/j\n \t\t\t\t\t\t\t\t\t\t125 mg/l\n \t\t\t\t\t\t\t\t\t\t125 mg/l"
                                             },
                                             {
                                                 "cells": [
@@ -4522,7 +4538,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t   Phosphore (phosphore total) :"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t   Phosphore (phosphore total) :\n \t\t\t\t\t\t\t\t\t\t   Phosphore (phosphore total) :\n \t\t\t\t\t\t\t\t\t\t   Phosphore (phosphore total) :"
                                             },
                                             {
                                                 "cells": [
@@ -4548,7 +4564,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\tFlux journalier maximal supérieur ou égal à 15 kg/jour\n \t\t\t\t\t\t\t\t\t\t10 mg/l en concentration moyenne mensuelle"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\tFlux journalier maximal supérieur ou égal à 15 kg/jour\n \t\t\t\t\t\t\t\t\t\t10 mg/l en concentration moyenne mensuelle\n \t\t\t\t\t\t\t\t\t\t10 mg/l en concentration moyenne mensuelle"
                                             },
                                             {
                                                 "cells": [
@@ -4574,7 +4590,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\tFlux journalier maximal supérieur ou égal à 40 kg/jour\n \t\t\t\t\t\t\t\t\t\t2 mg/l en concentration moyenne mensuelle"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\tFlux journalier maximal supérieur ou égal à 40 kg/jour\n \t\t\t\t\t\t\t\t\t\t2 mg/l en concentration moyenne mensuelle\n \t\t\t\t\t\t\t\t\t\t2 mg/l en concentration moyenne mensuelle"
                                             },
                                             {
                                                 "cells": [
@@ -4600,7 +4616,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\tFlux journalier maximal supérieur à 80 kg/jour\n \t\t\t\t\t\t\t\t\t\t1 mg/l en concentration moyenne mensuelle"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\tFlux journalier maximal supérieur à 80 kg/jour\n \t\t\t\t\t\t\t\t\t\t1 mg/l en concentration moyenne mensuelle\n \t\t\t\t\t\t\t\t\t\t1 mg/l en concentration moyenne mensuelle"
                                             },
                                             {
                                                 "cells": [
@@ -4616,7 +4632,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t3. Substances réglementées"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t3. Substances réglementées\n \t\t\t\t\t\t\t\t\t\t3. Substances réglementées\n \t\t\t\t\t\t\t\t\t\t3. Substances réglementées"
                                             },
                                             {
                                                 "cells": [
@@ -4740,7 +4756,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t4. Substances dangereuses entrant dans la qualification de l'état des masses d'eau"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t4. Substances dangereuses entrant dans la qualification de l'état des masses d'eau\n \t\t\t\t\t\t\t\t\t\t4. Substances dangereuses entrant dans la qualification de l'état des masses d'eau\n \t\t\t\t\t\t\t\t\t\t4. Substances dangereuses entrant dans la qualification de l'état des masses d'eau"
                                             },
                                             {
                                                 "cells": [
@@ -4756,7 +4772,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t   Substances de l'état chimique :"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t   Substances de l'état chimique :\n \t\t\t\t\t\t\t\t\t\t   Substances de l'état chimique :\n \t\t\t\t\t\t\t\t\t\t   Substances de l'état chimique :"
                                             },
                                             {
                                                 "cells": [
@@ -4844,7 +4860,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t   Substances de l'état écologique :"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t   Substances de l'état écologique :\n \t\t\t\t\t\t\t\t\t\t   Substances de l'état écologique :\n \t\t\t\t\t\t\t\t\t\t   Substances de l'état écologique :"
                                             },
                                             {
                                                 "cells": [
@@ -4968,7 +4984,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t5. Autres substances"
+                                                "text_in_inspection_sheet": " \t\t\t\t\t\t\t\t\t\t5. Autres substances\n \t\t\t\t\t\t\t\t\t\t5. Autres substances\n \t\t\t\t\t\t\t\t\t\t5. Autres substances"
                                             },
                                             {
                                                 "cells": [

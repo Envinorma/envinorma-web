@@ -5,6 +5,33 @@ class Arrete < ApplicationRecord
   has_many :unique_classements, through: :arretes_unique_classements
   has_many :enriched_arretes, dependent: :destroy
 
+  validates :title, length: { minimum: 10 }
+  validates :unique_version, inclusion: { in: [true, false], message: 'must be true or false' }
+  validates :short_title, format: { with: /\AArrêté du .* [0-9]{4}\z/,
+                                    message: 'has wrong format.' }
+  validates :cid, format: { with: /\A(JORF|LEGI)TEXT[0-9]{12}.*\z/ }
+  validates :installation_date_criterion_left,
+            format: { with: /\A[0-9]{4}-[0-9]{2}-[0-9]{2}\z/ },
+            unless: lambda {
+                      installation_date_criterion_left.blank?
+                    }
+  validates :installation_date_criterion_right,
+            format: { with: /\A[0-9]{4}-[0-9]{2}-[0-9]{2}\z/ },
+            unless: lambda {
+                      installation_date_criterion_right.blank?
+                    }
+  validates :aida_url,
+            format: { with: %r{\Ahttps://aida\.ineris\.fr/consultation_document/[0-9]{3,}\z} },
+            unless: lambda {
+                      installation_date_criterion_right.blank?
+                    }
+  validates :legifrance_url,
+            format: { with: %r{\Ahttps://www\.legifrance\.gouv\.fr/loda/id/.*\z} },
+            unless: lambda {
+                      installation_date_criterion_right.blank?
+                    }
+  validates :summary, presence: true
+
   def data
     JSON.parse(super.to_json, object_class: OpenStruct)
   end

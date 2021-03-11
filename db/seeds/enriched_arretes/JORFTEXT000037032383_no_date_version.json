@@ -368,7 +368,9 @@
                         "active": true,
                         "modified": false,
                         "previous_version": null,
-                        "warnings": []
+                        "warnings": [
+                            "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                        ]
                     },
                     "id": "BAfafFcCC89a",
                     "lf_id": null,
@@ -471,7 +473,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                ]
                             },
                             "id": "feeaa79af201",
                             "lf_id": null,
@@ -574,7 +578,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                ]
                             },
                             "id": "a88d8DFA3262",
                             "lf_id": null,
@@ -952,7 +958,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                ]
                             },
                             "id": "dFBeF9bEbb02",
                             "lf_id": null,
@@ -1025,7 +1033,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Les alinéas n°6 à 11 de ce paragraphe pourraient ne pas être applicables. C'est le cas pour les installations dont ."
+                                ]
                             },
                             "id": "0EECF5AD4036",
                             "lf_id": null,
@@ -1215,7 +1225,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                ]
                             },
                             "id": "D0EB7dDe954B",
                             "lf_id": null,
@@ -2089,7 +2101,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                ]
                             },
                             "id": "648e2E73Ff60",
                             "lf_id": null,
@@ -2144,7 +2158,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Les alinéas n°2 et 3 de ce paragraphe pourraient ne pas être applicables. C'est le cas pour les installations dont ."
+                                ]
                             },
                             "id": "f7CA42D02a3A",
                             "lf_id": null,
@@ -2273,7 +2289,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "1 - Matières en suspension totales (MEST), demandes chimique en oxygène (DCO)"
+                                                "text_in_inspection_sheet": "1 - Matières en suspension totales (MEST), demandes chimique en oxygène (DCO)\n1 - Matières en suspension totales (MEST), demandes chimique en oxygène (DCO)"
                                             },
                                             {
                                                 "cells": [
@@ -2289,7 +2305,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Matières en suspension totales (Code SANDRE : 1305)"
+                                                "text_in_inspection_sheet": "Matières en suspension totales (Code SANDRE : 1305)\nMatières en suspension totales (Code SANDRE : 1305)"
                                             },
                                             {
                                                 "cells": [
@@ -2357,7 +2373,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "DCO (sur effluent non décanté) (Code SANDRE : 1314)"
+                                                "text_in_inspection_sheet": "DCO (sur effluent non décanté) (Code SANDRE : 1314)\nDCO (sur effluent non décanté) (Code SANDRE : 1314)"
                                             },
                                             {
                                                 "cells": [
@@ -2434,7 +2450,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "2 - Substances spécifiques du secteur d'activité\n(uniquement dans le cas où l'information préalable mentionne le risque de leur présence)"
+                                                "text_in_inspection_sheet": "2 - Substances spécifiques du secteur d'activité\n(uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n2 - Substances spécifiques du secteur d'activité\n(uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n2 - Substances spécifiques du secteur d'activité\n(uniquement dans le cas où l'information préalable mentionne le risque de leur présence)\n2 - Substances spécifiques du secteur d'activité\n(uniquement dans le cas où l'information préalable mentionne le risque de leur présence)"
                                             },
                                             {
                                                 "cells": [
@@ -3114,7 +3130,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Benzo(a)pyrène\n50-32-8\n1115"
+                                                "text_in_inspection_sheet": "Benzo(a)pyrène\n50-32-8\n1115\n25 µg/l (somme des 5 composés visés)"
                                             },
                                             {
                                                 "cells": [
@@ -3150,7 +3166,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Somme Benzo(b)fluoranthène + Benzo(k)fluoranthène\n205-99-2 / 207-08-9\n-"
+                                                "text_in_inspection_sheet": "Somme Benzo(b)fluoranthène + Benzo(k)fluoranthène\n205-99-2 / 207-08-9\n-\n25 µg/l (somme des 5 composés visés)"
                                             },
                                             {
                                                 "cells": [
@@ -3186,7 +3202,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Somme Benzo(g, h,i)perylène + Indeno(1,2,3-cd)pyrène\n191-24-2 / 193-39-5\n-"
+                                                "text_in_inspection_sheet": "Somme Benzo(g, h,i)perylène + Indeno(1,2,3-cd)pyrène\n191-24-2 / 193-39-5\n-\n25 µg/l (somme des 5 composés visés)"
                                             },
                                             {
                                                 "cells": [
@@ -3481,7 +3497,9 @@
                         "active": true,
                         "modified": false,
                         "previous_version": null,
-                        "warnings": []
+                        "warnings": [
+                            "L'alinéa n°2 de ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                        ]
                     },
                     "id": "D1Ba2fdD41aD",
                     "lf_id": null,
@@ -3536,7 +3554,9 @@
                         "active": true,
                         "modified": false,
                         "previous_version": null,
-                        "warnings": []
+                        "warnings": [
+                            "L'alinéa n°2 de ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                        ]
                     },
                     "id": "F3E271EbDa8B",
                     "lf_id": null,
@@ -4678,7 +4698,7 @@
                                                             }
                                                         ],
                                                         "is_header": false,
-                                                        "text_in_inspection_sheet": "Nature des activités à protéger\n1. Déchets non fermentescibles enfouis immédiatement après épandage\nDomaine d'application\n5 mètres des berges"
+                                                        "text_in_inspection_sheet": "Nature des activités à protéger\nCours d'eau et plan d'eau\nDomaine d'application\n1. Déchets non fermentescibles enfouis immédiatement après épandage\nDistance minimale\n5 mètres des berges"
                                                     },
                                                     {
                                                         "cells": [
@@ -4704,7 +4724,7 @@
                                                             }
                                                         ],
                                                         "is_header": false,
-                                                        "text_in_inspection_sheet": "Nature des activités à protéger\n2. Autres cas\nDomaine d'application\n35 mètres des berges"
+                                                        "text_in_inspection_sheet": "Nature des activités à protéger\nCours d'eau et plan d'eau\nDomaine d'application\n2. Autres cas\nDistance minimale\n35 mètres des berges"
                                                     },
                                                     {
                                                         "cells": [
@@ -4730,7 +4750,7 @@
                                                             }
                                                         ],
                                                         "is_header": false,
-                                                        "text_in_inspection_sheet": "Nature des activités à protéger\nPente du terrain supérieure à 7 %\nDomaine d'application"
+                                                        "text_in_inspection_sheet": "Nature des activités à protéger\nCours d'eau et plan d'eau\nDomaine d'application\nPente du terrain supérieure à 7 %\nDistance minimale"
                                                     },
                                                     {
                                                         "cells": [
@@ -4756,7 +4776,7 @@
                                                             }
                                                         ],
                                                         "is_header": false,
-                                                        "text_in_inspection_sheet": "Nature des activités à protéger\n1. Déchets solides et stabilisés\nDomaine d'application\n100 mètres des berges"
+                                                        "text_in_inspection_sheet": "Nature des activités à protéger\nCours d'eau et plan d'eau\nDomaine d'application\n1. Déchets solides et stabilisés\nDistance minimale\n100 mètres des berges"
                                                     },
                                                     {
                                                         "cells": [
@@ -4782,7 +4802,7 @@
                                                             }
                                                         ],
                                                         "is_header": false,
-                                                        "text_in_inspection_sheet": "Nature des activités à protéger\n2. Déchets non solides et non stabilisés\nDomaine d'application\n200 mètres des berges"
+                                                        "text_in_inspection_sheet": "Nature des activités à protéger\nCours d'eau et plan d'eau\nDomaine d'application\n2. Déchets non solides et non stabilisés\nDistance minimale\n200 mètres des berges"
                                                     },
                                                     {
                                                         "cells": [
@@ -4916,7 +4936,7 @@
                                                             }
                                                         ],
                                                         "is_header": false,
-                                                        "text_in_inspection_sheet": "Nature des activités à protéger\nEn cas de déchets ou d'effluents odorants\nDomaine d'application\n100 mètres"
+                                                        "text_in_inspection_sheet": "Nature des activités à protéger\nHabitations ou local occupé par des tiers, zones de loisirs et établissement recevant du public\nDomaine d'application\nEn cas de déchets ou d'effluents odorants\nDistance minimale\n100 mètres"
                                                     },
                                                     {
                                                         "cells": [
@@ -5014,7 +5034,7 @@
                                                             }
                                                         ],
                                                         "is_header": false,
-                                                        "text_in_inspection_sheet": "Nature des activités à protéger\nAutres cas\nDomaine d'application\nSix semaines avant la remise à l'herbe des animaux ou de la récolte des cultures fourragères"
+                                                        "text_in_inspection_sheet": "Nature des activités à protéger\nHerbages ou culture fourragères\nDomaine d'application\nAutres cas\nDistance minimale\nSix semaines avant la remise à l'herbe des animaux ou de la récolte des cultures fourragères"
                                                     },
                                                     {
                                                         "cells": [
@@ -5112,7 +5132,7 @@
                                                             }
                                                         ],
                                                         "is_header": false,
-                                                        "text_in_inspection_sheet": "Nature des activités à protéger\nAutres cas\nDomaine d'application\nDix-huit mois avant la récolte et pendant la récolte elle-même"
+                                                        "text_in_inspection_sheet": "Nature des activités à protéger\nTerrains destinés ou affectés à des cultures maraîchères ou fruitières, en contact avec les sols, ou susceptibles d'être consommés à l'état cru\nDomaine d'application\nAutres cas\nDistance minimale\nDix-huit mois avant la récolte et pendant la récolte elle-même"
                                                     }
                                                 ]
                                             },
