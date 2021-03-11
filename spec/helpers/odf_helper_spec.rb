@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 require 'rails_helper'
-require './app/helpers/application_helper'
+require './app/helpers/odf_helper'
 
 RSpec.configure do |c|
-  c.include ApplicationHelper
+  c.include OdfHelper
 end
 
 RSpec.describe '#sanitize' do
