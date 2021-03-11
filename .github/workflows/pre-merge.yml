@@ -5,8 +5,8 @@ on:
     branches: [master]
 
 jobs:
-  linter:
-    name: Linter
+  linters:
+    name: Linters
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -49,10 +49,14 @@ jobs:
         run: |
           yarn install --pure-lockfile
 
-      - name: Run linters
+      - name: Run rubocop
         run: |
           bundle exec rubocop
+
+      - name: Run slim-lint
+        run: |
           bundle exec slim-lint app/views/
+
 
   tests:
     name: Tests
