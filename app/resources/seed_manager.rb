@@ -14,10 +14,10 @@ class SeedManager
 
   def self.seed_arretes_and_associations
     arretes_list = parse_seed_json('am_list.json')
-    Arrete.recreate!(arretes_list)
+    Arrete.validate_then_recreate(arretes_list)
 
     enriched_arretes_files = Dir.glob("#{Rails.root}/db/seeds/enriched_arretes/*.json")
-    EnrichedArrete.recreate!(enriched_arretes_files)
+    EnrichedArrete.validate_then_recreate(enriched_arretes_files)
   end
 
   def self.update_am

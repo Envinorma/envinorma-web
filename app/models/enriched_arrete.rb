@@ -3,11 +3,13 @@
 class EnrichedArrete < ApplicationRecord
   belongs_to :arrete
 
-  validates :data, :summary, :unique_version, :short_title, :title, :cid, :aida_url, :legifrance_url, presence: true
+  validates :data, :summary, :short_title, :title, :aida_url, :legifrance_url, presence: true
   validates :title, length: { minimum: 10 }
   validates :short_title, format: { with: /\AArrêté du .* [0-9]{4}\z/,
                                     message: 'has wrong format.' }
-  validates :cid, format: { with: /\A(JORF|LEGI)TEXT[0-9]{12}.*\z/ }
+
+  validates :unique_version, inclusion: { in: [true, false] }
+
   validates :installation_date_criterion_left,
             format: { with: /\A[0-9]{4}-[0-9]{2}-[0-9]{2}\z/ },
             unless: lambda {
@@ -28,13 +30,11 @@ class EnrichedArrete < ApplicationRecord
     JSON.parse(super.to_json, object_class: OpenStruct)
   end
 
-  def self.recreate!(enriched_arretes_files)
-    EnrichedArrete.destroy_all
-    ActiveRecord::Base.connection.reset_pk_sequence!(EnrichedArrete.table_name)
-
+  def self.validate_then_recreate(enriched_arretes_files)
+    arretes = []
     enriched_arretes_files.each do |json_file|
       am = JSON.parse(File.read(json_file))
-      EnrichedArrete.create(
+      arrete = EnrichedArrete.new(
         data: am,
         short_title: am['short_title'],
         title: am.dig('title', 'text'),
@@ -46,8 +46,20 @@ class EnrichedArrete < ApplicationRecord
         summary: am['summary'],
         arrete_id: Arrete.find_by(cid: am['id']).id
       )
-    end
 
-    puts 'Enriched arretes are created'
+      arretes << arrete
+      raise "error validations #{arrete.short_title} #{arrete.errors.full_messages}" unless arrete.validate
+    end
+    recreate(arretes)
+  end
+
+  def self.recreate(arretes)
+    EnrichedArrete.destroy_all
+    ActiveRecord::Base.connection.reset_pk_sequence!(EnrichedArrete.table_name)
+
+    arretes.each do |arrete|
+      arrete.save
+      puts 'Enriched arretes are created'
+    end
   end
 end

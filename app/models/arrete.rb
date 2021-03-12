@@ -5,10 +5,12 @@ class Arrete < ApplicationRecord
   has_many :unique_classements, through: :arretes_unique_classements
   has_many :enriched_arretes, dependent: :destroy
 
-  validates :data, :summary, :unique_version, :short_title, :title, :cid, :aida_url, :legifrance_url, presence: true
+  validates :data, :summary, :short_title, :title, :cid, :aida_url, :legifrance_url, presence: true
   validates :title, length: { minimum: 10 }
   validates :short_title, format: { with: /\AArrêté du .* [0-9]{4}\z/,
                                     message: 'has wrong format.' }
+
+  validates :unique_version, inclusion: { in: [true, false] }
   validates :cid, format: { with: /\A(JORF|LEGI)TEXT[0-9]{12}.*\z/ }
   validates :installation_date_criterion_left,
             format: { with: /\A[0-9]{4}-[0-9]{2}-[0-9]{2}\z/ },
@@ -30,12 +32,10 @@ class Arrete < ApplicationRecord
     JSON.parse(super.to_json, object_class: OpenStruct)
   end
 
-  def self.recreate!(arretes_list)
-    Arrete.destroy_all
-    ActiveRecord::Base.connection.reset_pk_sequence!(Arrete.table_name)
-
+  def self.validate_then_recreate(arretes_list)
+    arretes = []
     arretes_list.each do |am|
-      arrete = Arrete.create!(
+      arrete = Arrete.new(
         data: am,
         cid: am['id'],
         short_title: am['short_title'],
@@ -47,6 +47,19 @@ class Arrete < ApplicationRecord
         legifrance_url: am['legifrance_url'],
         summary: am['summary']
       )
+
+      arretes << arrete
+      raise "error validations #{arrete.cid} #{arrete.errors.full_messages}" unless arrete.validate
+    end
+    recreate(arretes)
+  end
+
+  def self.recreate(arretes)
+    Arrete.destroy_all
+    ActiveRecord::Base.connection.reset_pk_sequence!(Arrete.table_name)
+
+    arretes.each do |arrete|
+      arrete.save
 
       arrete.data.classements_with_alineas.each do |arrete_classement|
         classements = UniqueClassement.where(rubrique: arrete_classement.rubrique, regime: arrete_classement.regime)
