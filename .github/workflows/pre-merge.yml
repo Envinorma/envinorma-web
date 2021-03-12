@@ -57,7 +57,6 @@ jobs:
         run: |
           bundle exec slim-lint app/views/
 
-
   tests:
     name: Tests
     runs-on: ubuntu-latest
@@ -113,7 +112,7 @@ jobs:
       - name: Setup Database
         run: |
           cp config/database-githubactions.yml config/database.yml
-          bundle exec rails db:setup
+          bundle exec rails db:create db:migrate
         env:
           RAILS_ENV: test
           POSTGRES_USER: postgres
