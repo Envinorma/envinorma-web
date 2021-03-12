@@ -3,7 +3,7 @@
 class Classement < ApplicationRecord
   belongs_to :installation
 
-  validates :regime, :rubrique, presence: true
+  validates :regime, :rubrique, :installation_id, presence: true
   validates :regime, inclusion: { in: %w[A E D NC unknown], message: 'is not valid' }
   validates :regime_acte, inclusion: { in: %w[A E D NC unknown], message: 'is not valid', allow_blank: true }
 

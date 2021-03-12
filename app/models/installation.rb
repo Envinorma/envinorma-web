@@ -7,8 +7,7 @@ class Installation < ApplicationRecord
   has_many :APs, dependent: :destroy
   belongs_to :user, optional: true
 
-  validates :name, presence: true
-  validates :regime, inclusion: { in: %w[A E], message: 'not a valid installation regime' }
+  validates :name, :s3ic_id, presence: true
   validates :s3ic_id, format: { with: /\A([0-9]{4}\.[0-9]{5})\z/,
                                 message: 'check s3ic_id format' }
 

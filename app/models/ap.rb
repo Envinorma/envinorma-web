@@ -3,7 +3,7 @@
 class AP < ApplicationRecord
   belongs_to :installation
 
-  validates :url, :installation_id, presence: true
+  validates :url, :installation_id, :installation_s3ic_id, presence: true
   validates :url, length: { is: 116 }
   validates :installation_s3ic_id, format: { with: /\A([0-9]{4}\.[0-9]{5})\z/,
                                              message: 'check s3ic_id format' }
