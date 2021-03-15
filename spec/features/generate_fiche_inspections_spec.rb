@@ -22,7 +22,7 @@ RSpec.describe 'Feature tests end to end', js: true do
     find('.select_all', match: :first).click
     click_button("Générer une fiche d'inspection")
 
-    expect(page).to have_content("Arrêté du 9 avril 2019")
-    expect(DownloadHelpers.download_content).to have_content "les dispositions du présent arrêté s'appliquent à l'extension"
+    expect(page).to have_content('Arrêté du 9 avril 2019')
+    expect(DownloadHelpers.download_content).to have_content "les dispositions du présent arrêté s'appliquent"
   end
 end
