@@ -1,15 +1,17 @@
 # frozen_string_literal: true
 
+ActiveRecord::Base.logger.level = 1
+
 class SeedManager
   def self.seed_installations_and_associations
     installations_list = parse_seed_csv('installations_idf.csv')
-    Installation.recreate!(installations_list)
+    Installation.validate_then_recreate(installations_list)
 
     classements_list = parse_seed_csv('classements_idf.csv')
-    Classement.recreate!(classements_list)
+    Classement.validate_then_recreate(classements_list)
 
     aps_list = parse_seed_csv('aps_idf.csv')
-    AP.recreate!(aps_list)
+    AP.validate_then_recreate(aps_list)
   end
 
   def self.seed_arretes_and_associations

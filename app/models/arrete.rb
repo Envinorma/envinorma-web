@@ -33,6 +33,8 @@ class Arrete < ApplicationRecord
   end
 
   def self.validate_then_recreate(arretes_list)
+    puts 'Seeding arretes...'
+    puts '...validating'
     arretes = []
     arretes_list.each do |am|
       arrete = Arrete.new(
@@ -55,9 +57,11 @@ class Arrete < ApplicationRecord
   end
 
   def self.recreate(arretes)
+    puts '...destroying'
     Arrete.destroy_all
     ActiveRecord::Base.connection.reset_pk_sequence!(Arrete.table_name)
 
+    puts '...creating'
     arretes.each do |arrete|
       arrete.save
 
@@ -68,5 +72,6 @@ class Arrete < ApplicationRecord
         end
       end
     end
+    puts "...done. Inserted #{arretes.length} arretes."
   end
 end

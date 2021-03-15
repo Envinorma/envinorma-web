@@ -31,6 +31,8 @@ class EnrichedArrete < ApplicationRecord
   end
 
   def self.validate_then_recreate(enriched_arretes_files)
+    puts 'Seeding arretes...'
+    puts '...validating'
     arretes = []
     enriched_arretes_files.each do |json_file|
       am = JSON.parse(File.read(json_file))
@@ -54,12 +56,12 @@ class EnrichedArrete < ApplicationRecord
   end
 
   def self.recreate(arretes)
+    puts '...destroying'
     EnrichedArrete.destroy_all
     ActiveRecord::Base.connection.reset_pk_sequence!(EnrichedArrete.table_name)
 
-    arretes.each do |arrete|
-      arrete.save
-      puts 'Enriched arretes are created'
-    end
+    puts '...creating'
+    arretes.each(&:save)
+    puts "...done. Inserted #{arretes.length} enriched arretes."
   end
 end

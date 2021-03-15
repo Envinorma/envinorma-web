@@ -13,24 +13,36 @@ class Installation < ApplicationRecord
 
   scope :not_attached_to_user, -> { where(user: nil) }
 
-  def self.recreate!(installations_list)
+  def self.validate_then_recreate(installations_list)
+    puts 'Seeding installations...'
+    puts '...validating'
+    installations = []
+    installations_list.each do |installation_raw|
+      installation = Installation.new(
+        name: installation_raw['name'],
+        s3ic_id: installation_raw['s3ic_id'],
+        region: installation_raw['region'],
+        department: installation_raw['department'],
+        zipcode: installation_raw['code_postal'],
+        city: installation_raw['city'],
+        last_inspection: installation_raw['last_inspection']&.to_date,
+        regime: installation_raw['regime'],
+        seveso: installation_raw['seveso'],
+        state: installation_raw['active']
+      )
+      installations << installation
+      raise "error validations #{installation.name} #{installation.errors.full_messages}" unless installation.validate
+    end
+
+    recreate(installations)
+  end
+
+  def self.recreate(installations)
+    puts '...destroying'
     Installation.destroy_all
     ActiveRecord::Base.connection.reset_pk_sequence!(Installation.table_name)
-
-    installations_list.each do |installation|
-      Installation.create(
-        name: installation['name'],
-        s3ic_id: installation['s3ic_id'],
-        region: installation['region'],
-        department: installation['department'],
-        zipcode: installation['code_postal'],
-        city: installation['city'],
-        last_inspection: installation['last_inspection']&.to_date,
-        regime: installation['regime'],
-        seveso: installation['seveso'],
-        state: installation['active']
-      )
-    end
-    puts 'Installations are seeded'
+    puts '...creating'
+    installations.each(&:save)
+    puts "...done. Inserted #{installations.length} installations."
   end
 end
