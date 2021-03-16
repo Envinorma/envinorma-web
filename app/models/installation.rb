@@ -12,37 +12,41 @@ class Installation < ApplicationRecord
                                 message: 'check s3ic_id format' }
 
   scope :not_attached_to_user, -> { where(user: nil) }
+  class << self
+    def validate_then_recreate(installations_list)
+      puts 'Seeding installations...'
+      puts '...validating'
+      installations = []
+      installations_list.each do |installation_raw|
+        installation = Installation.new(
+          name: installation_raw['name'],
+          s3ic_id: installation_raw['s3ic_id'],
+          region: installation_raw['region'],
+          department: installation_raw['department'],
+          zipcode: installation_raw['code_postal'],
+          city: installation_raw['city'],
+          last_inspection: installation_raw['last_inspection']&.to_date,
+          regime: installation_raw['regime'],
+          seveso: installation_raw['seveso'],
+          state: installation_raw['active']
+        )
+        raise "error validations #{installation.name} #{installation.errors.full_messages}" unless installation.validate
 
-  def self.validate_then_recreate(installations_list)
-    puts 'Seeding installations...'
-    puts '...validating'
-    installations = []
-    installations_list.each do |installation_raw|
-      installation = Installation.new(
-        name: installation_raw['name'],
-        s3ic_id: installation_raw['s3ic_id'],
-        region: installation_raw['region'],
-        department: installation_raw['department'],
-        zipcode: installation_raw['code_postal'],
-        city: installation_raw['city'],
-        last_inspection: installation_raw['last_inspection']&.to_date,
-        regime: installation_raw['regime'],
-        seveso: installation_raw['seveso'],
-        state: installation_raw['active']
-      )
-      installations << installation
-      raise "error validations #{installation.name} #{installation.errors.full_messages}" unless installation.validate
+        installations << installation
+      end
+
+      recreate(installations)
     end
 
-    recreate(installations)
-  end
+    private
 
-  def self.recreate(installations)
-    puts '...destroying'
-    Installation.destroy_all
-    ActiveRecord::Base.connection.reset_pk_sequence!(Installation.table_name)
-    puts '...creating'
-    installations.each(&:save)
-    puts "...done. Inserted #{installations.length} installations."
+    def recreate(installations)
+      puts '...destroying'
+      Installation.destroy_all
+      ActiveRecord::Base.connection.reset_pk_sequence!(Installation.table_name)
+      puts '...creating'
+      installations.each(&:save)
+      puts "...done. Inserted #{installations.length} installations."
+    end
   end
 end

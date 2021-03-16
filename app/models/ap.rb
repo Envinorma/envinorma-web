@@ -8,33 +8,38 @@ class AP < ApplicationRecord
   validates :installation_s3ic_id, format: { with: /\A([0-9]{4}\.[0-9]{5})\z/,
                                              message: 'check s3ic_id format' }
 
-  def self.validate_then_recreate(aps_list)
-    puts 'Seeding AP...'
-    puts '...validating'
-    aps = []
-    aps_list.each do |ap|
-      installation_id = Installation.find_by(s3ic_id: ap['installation_s3ic_id'])&.id
-      next unless installation_id
+  class << self
+    def validate_then_recreate(aps_list)
+      puts 'Seeding AP...'
+      puts '...validating'
+      aps = []
+      aps_list.each do |ap|
+        installation_id = Installation.find_by(s3ic_id: ap['installation_s3ic_id'])&.id
+        next unless installation_id
 
-      ap = AP.create(
-        installation_s3ic_id: ap['installation_s3ic_id'],
-        description: ap['description'],
-        date: ap['date'],
-        url: ap['url'],
-        installation_id: installation_id
-      )
-      aps << ap
-      raise "error validations #{ap} #{ap.errors.full_messages}" unless ap.validate
+        ap = AP.create(
+          installation_s3ic_id: ap['installation_s3ic_id'],
+          description: ap['description'],
+          date: ap['date'],
+          url: ap['url'],
+          installation_id: installation_id
+        )
+        raise "error validations #{ap} #{ap.errors.full_messages}" unless ap.validate
+
+        aps << ap
+      end
+      recreate(aps)
     end
-    recreate(aps)
-  end
 
-  def self.recreate(aps)
-    puts '...destroying'
-    AP.destroy_all
-    ActiveRecord::Base.connection.reset_pk_sequence!(AP.table_name)
-    puts '...creating'
-    aps.each(&:save)
-    puts "...done. Inserted #{aps.length} AP."
+    private
+
+    def recreate(aps)
+      puts '...destroying'
+      AP.destroy_all
+      ActiveRecord::Base.connection.reset_pk_sequence!(AP.table_name)
+      puts '...creating'
+      aps.each(&:save)
+      puts "...done. Inserted #{aps.length} AP."
+    end
   end
 end
