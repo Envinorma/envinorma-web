@@ -75,7 +75,7 @@ class Arrete < ApplicationRecord
           end
         end
       end
-      puts "...done. Inserted #{arretes.length} arretes."
+      puts "...done. Inserted #{Arrete.count}/#{arretes.length} arretes."
     end
   end
 end

@@ -66,7 +66,7 @@ class EnrichedArrete < ApplicationRecord
 
       puts '...creating'
       arretes.each(&:save)
-      puts "...done. Inserted #{arretes.length} enriched arretes."
+      puts "...done. Inserted #{EnrichedArrete.count}/#{arretes.length} enriched arretes."
     end
   end
 end

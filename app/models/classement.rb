@@ -28,7 +28,7 @@ class Classement < ApplicationRecord
           volume: "#{classement_raw['volume']} #{classement_raw['unit']}",
           installation_id: installation_id
         )
-        raise "error validations #{classement} #{classement.errors.full_messages}" unless classement.validate
+        raise "error validations #{classement.inspect} #{classement.errors.full_messages}" unless classement.validate
 
         classements << classement
       end
@@ -43,7 +43,7 @@ class Classement < ApplicationRecord
       ActiveRecord::Base.connection.reset_pk_sequence!(Classement.table_name)
       puts '...creating'
       classements.each(&:save)
-      puts "...done. Inserted #{classements.length} classements."
+      puts "...done. Inserted #{Classement.count}/#{classements.length} classements."
     end
   end
 end

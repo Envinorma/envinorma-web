@@ -17,14 +17,14 @@ class AP < ApplicationRecord
         installation_id = Installation.find_by(s3ic_id: ap['installation_s3ic_id'])&.id
         next unless installation_id
 
-        ap = AP.create(
+        ap = AP.new(
           installation_s3ic_id: ap['installation_s3ic_id'],
           description: ap['description'],
           date: ap['date'],
           url: ap['url'],
           installation_id: installation_id
         )
-        raise "error validations #{ap} #{ap.errors.full_messages}" unless ap.validate
+        raise "error validations #{ap.inspect} #{ap.errors.full_messages}" unless ap.validate
 
         aps << ap
       end
@@ -39,7 +39,7 @@ class AP < ApplicationRecord
       ActiveRecord::Base.connection.reset_pk_sequence!(AP.table_name)
       puts '...creating'
       aps.each(&:save)
-      puts "...done. Inserted #{aps.length} AP."
+      puts "...done. Inserted #{AP.count}/#{aps.length} AP."
     end
   end
 end

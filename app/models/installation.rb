@@ -30,7 +30,9 @@ class Installation < ApplicationRecord
           seveso: installation_raw['seveso'],
           state: installation_raw['active']
         )
-        raise "error validations #{installation.name} #{installation.errors.full_messages}" unless installation.validate
+        unless installation.validate
+          raise "error validations #{installation.inspect} #{installation.errors.full_messages}"
+        end
 
         installations << installation
       end
@@ -46,7 +48,7 @@ class Installation < ApplicationRecord
       ActiveRecord::Base.connection.reset_pk_sequence!(Installation.table_name)
       puts '...creating'
       installations.each(&:save)
-      puts "...done. Inserted #{installations.length} installations."
+      puts "...done. Inserted #{Installation.count}/#{installations.length} installations."
     end
   end
 end
