@@ -56,8 +56,8 @@
           td
             => t("regime.#{classement.regime}")
             br
-            small.text-secondary = t("regime.#{classement.regime_acte}")
             - if classement.regime_acte.present?
+              small.text-secondary = t("regime.#{classement.regime_acte}")
               sup.text-secondary *
 
           td = classement.activite

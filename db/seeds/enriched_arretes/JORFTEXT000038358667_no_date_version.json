@@ -353,7 +353,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                ]
                             },
                             "id": "c60cA96b3fe0",
                             "lf_id": null,
@@ -390,7 +392,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                ]
                             },
                             "id": "629066d558F0",
                             "lf_id": null,
@@ -590,7 +594,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                ]
                             },
                             "id": "18b5Ec59E4B1",
                             "lf_id": null,
@@ -921,7 +927,9 @@
                                         "active": true,
                                         "modified": false,
                                         "previous_version": null,
-                                        "warnings": []
+                                        "warnings": [
+                                            "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                        ]
                                     },
                                     "id": "8fb79A44b2Ca",
                                     "lf_id": null,
@@ -1018,7 +1026,9 @@
                                         "active": true,
                                         "modified": false,
                                         "previous_version": null,
-                                        "warnings": []
+                                        "warnings": [
+                                            "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                        ]
                                     },
                                     "id": "b0F7eFBECdAd",
                                     "lf_id": null,
@@ -1451,7 +1461,9 @@
                                         "active": true,
                                         "modified": false,
                                         "previous_version": null,
-                                        "warnings": []
+                                        "warnings": [
+                                            "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                        ]
                                     },
                                     "id": "cedEd729f6fC",
                                     "lf_id": null,
@@ -1536,7 +1548,9 @@
                                         "active": true,
                                         "modified": false,
                                         "previous_version": null,
-                                        "warnings": []
+                                        "warnings": [
+                                            "Les alinéas n°4 à 15 de ce paragraphe pourraient ne pas être applicables. C'est le cas pour les installations dont ."
+                                        ]
                                     },
                                     "id": "0440aFC81C8c",
                                     "lf_id": null,
@@ -2627,7 +2641,9 @@
                                         "active": true,
                                         "modified": false,
                                         "previous_version": null,
-                                        "warnings": []
+                                        "warnings": [
+                                            "L'alinéa n°4 de ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                        ]
                                     },
                                     "id": "cFE9c2ABCADd",
                                     "lf_id": null,
@@ -2701,7 +2717,9 @@
                                         "active": true,
                                         "modified": false,
                                         "previous_version": null,
-                                        "warnings": []
+                                        "warnings": [
+                                            "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                        ]
                                     },
                                     "id": "0B4dDDcFdc0A",
                                     "lf_id": null,
@@ -2812,7 +2830,9 @@
                                         "active": true,
                                         "modified": false,
                                         "previous_version": null,
-                                        "warnings": []
+                                        "warnings": [
+                                            "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                        ]
                                     },
                                     "id": "A7C9bBD122b7",
                                     "lf_id": null,
@@ -2904,7 +2924,9 @@
                                         "active": true,
                                         "modified": false,
                                         "previous_version": null,
-                                        "warnings": []
+                                        "warnings": [
+                                            "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                        ]
                                     },
                                     "id": "d23B6c4d18aA",
                                     "lf_id": null,
@@ -4221,7 +4243,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "Substances de l'état chimique"
+                                                                        "text_in_inspection_sheet": "Substances de l'état chimique\nSubstances de l'état chimique\nSubstances de l'état chimique\nSubstances de l'état chimique"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -5157,7 +5179,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "Autres substances de l'état chimique"
+                                                                        "text_in_inspection_sheet": "Autres substances de l'état chimique\nAutres substances de l'état chimique\nAutres substances de l'état chimique\nAutres substances de l'état chimique"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -5633,7 +5655,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "Polluants spécifiques de l'état écologique"
+                                                                        "text_in_inspection_sheet": "Polluants spécifiques de l'état écologique\nPolluants spécifiques de l'état écologique\nPolluants spécifiques de l'état écologique\nPolluants spécifiques de l'état écologique"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -6043,7 +6065,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "Polluant\n/\nRejet direct (en mg/l)\n50\nRejet raccordé (en mg/l)\nSi le flux est supérieur à 100 g/j (raccordé)"
+                                                                        "text_in_inspection_sheet": "Polluant\nP\nRejet direct (en mg/l)\n/\nRejet raccordé (en mg/l)\n50\nCondition sur le flux\nSi le flux est supérieur à 100 g/j (raccordé)"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -6586,7 +6608,9 @@
                                         "active": true,
                                         "modified": false,
                                         "previous_version": null,
-                                        "warnings": []
+                                        "warnings": [
+                                            "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont ."
+                                        ]
                                     },
                                     "id": "3C1C916C4baC",
                                     "lf_id": null,
@@ -7769,7 +7793,9 @@
                 "active": true,
                 "modified": false,
                 "previous_version": null,
-                "warnings": []
+                "warnings": [
+                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la rubrique est 2565."
+                ]
             },
             "id": "BDE43df4ebbe",
             "lf_id": null,
@@ -7871,7 +7897,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Polluants\nComposés organiques volatils"
+                                                "text_in_inspection_sheet": "Polluants\nComposés organiques volatils\nValeur limite d'émission\nComposés organiques volatils"
                                             },
                                             {
                                                 "cells": [
@@ -7887,7 +7913,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Polluants\na) Cas général :"
+                                                "text_in_inspection_sheet": "Polluants\na) Cas général :\nValeur limite d'émission\na) Cas général :"
                                             },
                                             {
                                                 "cells": [
@@ -7955,7 +7981,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Polluants\nLe flux annuel des émissions diffuses de solvant ne dépasse pas 20 % de la quantité de solvant utilisée ; ce taux est ramené à 15 % si la consommation de solvant est supérieure à 10 tonnes par an.\nCes valeurs d'émissions diffuses ne s'appliquent pas aux installations dont la teneur moyenne en solvant organique de tous les produits de nettoyage utilisés ne dépasse pas 30 % en poids."
+                                                "text_in_inspection_sheet": "Polluants\nLe flux annuel des émissions diffuses de solvant ne dépasse pas 20 % de la quantité de solvant utilisée ; ce taux est ramené à 15 % si la consommation de solvant est supérieure à 10 tonnes par an.\nCes valeurs d'émissions diffuses ne s'appliquent pas aux installations dont la teneur moyenne en solvant organique de tous les produits de nettoyage utilisés ne dépasse pas 30 % en poids.\nValeur limite d'émission\nLe flux annuel des émissions diffuses de solvant ne dépasse pas 20 % de la quantité de solvant utilisée ; ce taux est ramené à 15 % si la consommation de solvant est supérieure à 10 tonnes par an.\nCes valeurs d'émissions diffuses ne s'appliquent pas aux installations dont la teneur moyenne en solvant organique de tous les produits de nettoyage utilisés ne dépasse pas 30 % en poids."
                                             },
                                             {
                                                 "cells": [
@@ -7971,7 +7997,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Polluants\nb) Consommation de solvants de mentions de danger H340, H350, H350i, H360D ou H360F (substances dites CMR) ou halogénés de mentions de danger H341 ou H351 :"
+                                                "text_in_inspection_sheet": "Polluants\nb) Consommation de solvants de mentions de danger H340, H350, H350i, H360D ou H360F (substances dites CMR) ou halogénés de mentions de danger H341 ou H351 :\nValeur limite d'émission\nb) Consommation de solvants de mentions de danger H340, H350, H350i, H360D ou H360F (substances dites CMR) ou halogénés de mentions de danger H341 ou H351 :"
                                             },
                                             {
                                                 "cells": [
@@ -8039,7 +8065,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Polluants\nLe flux annuel des émissions diffuses de solvant ne dépasse pas 15 % de la quantité de solvant utilisée ; ce taux est ramené à 10 % si la consommation de solvants est supérieure à 5 tonnes par an.\nEn cas de mélange de composés à la fois visés et non visés au point b, la valeur limite de 20 mg/m3 ne s'impose qu'aux composés visés au point b et une valeur de 110 mg/m3, exprimée en carbone total, s'impose à l'ensemble des composés."
+                                                "text_in_inspection_sheet": "Polluants\nLe flux annuel des émissions diffuses de solvant ne dépasse pas 15 % de la quantité de solvant utilisée ; ce taux est ramené à 10 % si la consommation de solvants est supérieure à 5 tonnes par an.\nEn cas de mélange de composés à la fois visés et non visés au point b, la valeur limite de 20 mg/m3 ne s'impose qu'aux composés visés au point b et une valeur de 110 mg/m3, exprimée en carbone total, s'impose à l'ensemble des composés.\nValeur limite d'émission\nLe flux annuel des émissions diffuses de solvant ne dépasse pas 15 % de la quantité de solvant utilisée ; ce taux est ramené à 10 % si la consommation de solvants est supérieure à 5 tonnes par an.\nEn cas de mélange de composés à la fois visés et non visés au point b, la valeur limite de 20 mg/m3 ne s'impose qu'aux composés visés au point b et une valeur de 110 mg/m3, exprimée en carbone total, s'impose à l'ensemble des composés."
                                             },
                                             {
                                                 "cells": [
@@ -8055,7 +8081,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Polluants\nc) Cas d'utilisation d'une technique d'oxydation pour éliminer les COV :"
+                                                "text_in_inspection_sheet": "Polluants\nc) Cas d'utilisation d'une technique d'oxydation pour éliminer les COV :\nValeur limite d'émission\nc) Cas d'utilisation d'une technique d'oxydation pour éliminer les COV :"
                                             },
                                             {
                                                 "cells": [
@@ -8071,7 +8097,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Polluants\nLes valeurs limites d'émissions (COV, NOx, CH4, CO) sont celles mentionnées au 7 de l'article 27 de l'arrêté du 2 février 1998."
+                                                "text_in_inspection_sheet": "Polluants\nLes valeurs limites d'émissions (COV, NOx, CH4, CO) sont celles mentionnées au 7 de l'article 27 de l'arrêté du 2 février 1998.\nValeur limite d'émission\nLes valeurs limites d'émissions (COV, NOx, CH4, CO) sont celles mentionnées au 7 de l'article 27 de l'arrêté du 2 février 1998."
                                             }
                                         ]
                                     },
@@ -8317,7 +8343,7 @@
                                             }
                                         ],
                                         "is_header": false,
-                                        "text_in_inspection_sheet": "Composés organiques volatils :\na) Cas général :"
+                                        "text_in_inspection_sheet": "Composés organiques volatils :\na) Cas général :\nComposés organiques volatils :\na) Cas général :"
                                     },
                                     {
                                         "cells": [
@@ -8359,7 +8385,7 @@
                                             }
                                         ],
                                         "is_header": false,
-                                        "text_in_inspection_sheet": "Composés organiques volatils :\nb) Cas d'un équipement d'épuration des gaz chargés en COV pour respecter les valeurs limites d'émission canalisées :"
+                                        "text_in_inspection_sheet": "Composés organiques volatils :\nb) Cas d'un équipement d'épuration des gaz chargés en COV pour respecter les valeurs limites d'émission canalisées :\nComposés organiques volatils :\nb) Cas d'un équipement d'épuration des gaz chargés en COV pour respecter les valeurs limites d'émission canalisées :"
                                     },
                                     {
                                         "cells": [
@@ -8401,7 +8427,7 @@
                                             }
                                         ],
                                         "is_header": false,
-                                        "text_in_inspection_sheet": "Composés organiques volatils :\nc) Cas des COV présentant les mentions de danger H340, H350, H350i, H360D ou H360F (substances dites CMR), ou les composés halogénés présentant les mentions de danger H341 ou H351 :"
+                                        "text_in_inspection_sheet": "Composés organiques volatils :\nc) Cas des COV présentant les mentions de danger H340, H350, H350i, H360D ou H360F (substances dites CMR), ou les composés halogénés présentant les mentions de danger H341 ou H351 :\nComposés organiques volatils :\nc) Cas des COV présentant les mentions de danger H340, H350, H350i, H360D ou H360F (substances dites CMR), ou les composés halogénés présentant les mentions de danger H341 ou H351 :"
                                     },
                                     {
                                         "cells": [
@@ -8443,7 +8469,7 @@
                                             }
                                         ],
                                         "is_header": false,
-                                        "text_in_inspection_sheet": "Composés organiques volatils :\nd) Dans tous les autres cas :"
+                                        "text_in_inspection_sheet": "Composés organiques volatils :\nd) Dans tous les autres cas :\nComposés organiques volatils :\nd) Dans tous les autres cas :"
                                     },
                                     {
                                         "cells": [
@@ -8459,7 +8485,7 @@
                                             }
                                         ],
                                         "is_header": false,
-                                        "text_in_inspection_sheet": "Composés organiques volatils :\nUne analyse annuelle"
+                                        "text_in_inspection_sheet": "Composés organiques volatils :\nUne analyse annuelle\nComposés organiques volatils :\nUne analyse annuelle"
                                     },
                                     {
                                         "cells": [
@@ -8475,7 +8501,7 @@
                                             }
                                         ],
                                         "is_header": false,
-                                        "text_in_inspection_sheet": "Composés organiques volatils :\ne) Cas d'équipement d'un oxydateur :"
+                                        "text_in_inspection_sheet": "Composés organiques volatils :\ne) Cas d'équipement d'un oxydateur :\nComposés organiques volatils :\ne) Cas d'équipement d'un oxydateur :"
                                     },
                                     {
                                         "cells": [
@@ -8491,7 +8517,7 @@
                                             }
                                         ],
                                         "is_header": false,
-                                        "text_in_inspection_sheet": "Composés organiques volatils :\nConformité aux valeurs limites d'émissions du point 7 de l'article 27 de l'arrêté du 2 février 1998 vérifiée une fois par an, en marche continue et stable"
+                                        "text_in_inspection_sheet": "Composés organiques volatils :\nConformité aux valeurs limites d'émissions du point 7 de l'article 27 de l'arrêté du 2 février 1998 vérifiée une fois par an, en marche continue et stable\nComposés organiques volatils :\nConformité aux valeurs limites d'émissions du point 7 de l'article 27 de l'arrêté du 2 février 1998 vérifiée une fois par an, en marche continue et stable"
                                     }
                                 ]
                             },
@@ -8883,7 +8909,9 @@
                 "active": true,
                 "modified": false,
                 "previous_version": null,
-                "warnings": []
+                "warnings": [
+                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la rubrique est 2564."
+                ]
             },
             "id": "EDdf30EceF8B",
             "lf_id": null,

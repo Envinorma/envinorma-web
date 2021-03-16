@@ -536,7 +536,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la date de déclaration est antérieure au 01/01/2018."
+                                ]
                             },
                             "id": "c866c4A54efC",
                             "lf_id": null,
@@ -585,7 +587,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la date de déclaration est antérieure au 10/03/2011 et la rubrique est 2716."
+                                ]
                             },
                             "id": "60C2CEA27A40",
                             "lf_id": null,
@@ -616,7 +620,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la date de déclaration est antérieure au 10/03/2011 et la rubrique est 2716."
+                                ]
                             },
                             "id": "bFdBb4ADe6E2",
                             "lf_id": null,
@@ -830,7 +836,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la date de déclaration est antérieure au 01/01/2018."
+                                ]
                             },
                             "id": "C42C9bc1fAF7",
                             "lf_id": null,
@@ -1044,7 +1052,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la date de déclaration est antérieure au 10/03/2011 et la rubrique est 2716."
+                                ]
                             },
                             "id": "137D104BAeb6",
                             "lf_id": null,
@@ -2129,7 +2139,9 @@
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
-                                "warnings": []
+                                "warnings": [
+                                    "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la date de déclaration est antérieure au 10/03/2011 et la rubrique est 2716."
+                                ]
                             },
                             "id": "6b5bBe1BF05b",
                             "lf_id": null,
@@ -3525,7 +3537,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER"
+                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\nPuits, forage, sources, aqueduc transitant des eaux destinés à la consommation humaine en écoulement libre, installations souterraines ou semi-enterrées utilisées pour le stockage des eaux, que ces dernières soient utilisées pour l'alimentation en eau potable ou pour l'arrosage des cultures maraîchères\nDOMAINE D'APPLICATION\nPente du terrain inférieure à 7 %\nPente du terrain supérieure à 7 %\nDISTANCE MINIMALE\n35 mètres\n100 mètres"
                                             },
                                             {
                                                 "cells": [
@@ -3541,7 +3553,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER"
+                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\nPuits, forage, sources, aqueduc transitant des eaux destinés à la consommation humaine en écoulement libre, installations souterraines ou semi-enterrées utilisées pour le stockage des eaux, que ces dernières soient utilisées pour l'alimentation en eau potable ou pour l'arrosage des cultures maraîchères\nDOMAINE D'APPLICATION\nPente du terrain inférieure à 7 %\nPente du terrain supérieure à 7 %\nDISTANCE MINIMALE\n35 mètres\n100 mètres"
                                             },
                                             {
                                                 "cells": [
@@ -3603,7 +3615,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\n1. Déchets non fermentescibles enfouis immédiatement après épandage\nDOMAINE D'APPLICATION\n5 mètres des berges"
+                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\nCours d'eau et plan d'eau\nDOMAINE D'APPLICATION\n1. Déchets non fermentescibles enfouis immédiatement après épandage\nDISTANCE MINIMALE\n5 mètres des berges"
                                             },
                                             {
                                                 "cells": [
@@ -3629,7 +3641,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\n2. Autres cas\nDOMAINE D'APPLICATION\n35 mètres des berges"
+                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\nCours d'eau et plan d'eau\nDOMAINE D'APPLICATION\n2. Autres cas\nDISTANCE MINIMALE\n35 mètres des berges"
                                             },
                                             {
                                                 "cells": [
@@ -3655,7 +3667,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\nPente du terrain supérieure à 7 %\nDOMAINE D'APPLICATION"
+                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\nCours d'eau et plan d'eau\nDOMAINE D'APPLICATION\nPente du terrain supérieure à 7 %\nDISTANCE MINIMALE"
                                             },
                                             {
                                                 "cells": [
@@ -3681,7 +3693,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\n1. Déchets solides et stabilisés\nDOMAINE D'APPLICATION\n100 mètres des berges"
+                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\nCours d'eau et plan d'eau\nDOMAINE D'APPLICATION\n1. Déchets solides et stabilisés\nDISTANCE MINIMALE\n100 mètres des berges"
                                             },
                                             {
                                                 "cells": [
@@ -3707,7 +3719,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\n2. Déchets non solides et non stabilisés\nDOMAINE D'APPLICATION\n200 mètres des berges"
+                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\nCours d'eau et plan d'eau\nDOMAINE D'APPLICATION\n2. Déchets non solides et non stabilisés\nDISTANCE MINIMALE\n200 mètres des berges"
                                             },
                                             {
                                                 "cells": [
@@ -3841,7 +3853,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\nEn cas de déchets ou d'effluents odorants\nDOMAINE D'APPLICATION\n100 mètres"
+                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\nHabitations ou local occupé par des tiers, zones de loisirs et établissement recevant du public\nDOMAINE D'APPLICATION\nEn cas de déchets ou d'effluents odorants\nDISTANCE MINIMALE\n100 mètres"
                                             },
                                             {
                                                 "cells": [
@@ -3939,7 +3951,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\nAutres cas\nDOMAINE D'APPLICATION\nSix semaines avant la remise à l'herbe des animaux ou de la récolte des cultures fourragères"
+                                                "text_in_inspection_sheet": "NATURE DES ACTIVITÉS À PROTÉGER\nHerbages ou culture fourragères\nDOMAINE D'APPLICATION\nAutres cas\nDISTANCE MINIMALE\nSix semaines avant la remise à l'herbe des animaux ou de la récolte des cultures fourragères"
                                             },
                                             {
                                                 "cells": [

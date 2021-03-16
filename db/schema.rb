@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_02_134026) do
+ActiveRecord::Schema.define(version: 2021_03_10_133534) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -38,11 +38,6 @@ ActiveRecord::Schema.define(version: 2021_03_02_134026) do
     t.string "legifrance_url"
     t.jsonb "summary"
     t.string "cid"
-  end
-
-  create_table "arretes_classements", id: false, force: :cascade do |t|
-    t.bigint "arrete_id", null: false
-    t.bigint "classement_id", null: false
   end
 
   create_table "arretes_unique_classements", id: false, force: :cascade do |t|
@@ -79,13 +74,6 @@ ActiveRecord::Schema.define(version: 2021_03_02_134026) do
     t.jsonb "summary"
     t.bigint "arrete_id", null: false
     t.index ["arrete_id"], name: "index_enriched_arretes_on_arrete_id"
-  end
-
-  create_table "installation_stores", force: :cascade do |t|
-    t.string "name"
-    t.jsonb "data"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "installations", force: :cascade do |t|

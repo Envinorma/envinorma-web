@@ -3,24 +3,43 @@
 class AP < ApplicationRecord
   belongs_to :installation
 
-  validates :url, :installation_id, presence: true
+  validates :url, :installation_id, :installation_s3ic_id, presence: true
+  validates :url, length: { is: 116 }
+  validates :installation_s3ic_id, format: { with: /\A([0-9]{4}\.[0-9]{5})\z/,
+                                             message: 'check s3ic_id format' }
 
-  def self.recreate!(aps_list)
-    AP.destroy_all
-    ActiveRecord::Base.connection.reset_pk_sequence!(AP.table_name)
+  class << self
+    def validate_then_recreate(aps_list)
+      puts 'Seeding AP...'
+      puts '...validating'
+      aps = []
+      aps_list.each do |ap|
+        installation_id = Installation.find_by(s3ic_id: ap['installation_s3ic_id'])&.id
+        next unless installation_id
 
-    aps_list.each do |ap|
-      ap = AP.create(
-        installation_s3ic_id: ap['installation_s3ic_id'],
-        description: ap['description'],
-        date: ap['date'],
-        url: ap['url'],
-        installation_id: Installation.find_by(s3ic_id: ap['installation_s3ic_id'])&.id
-      )
+        ap = AP.new(
+          installation_s3ic_id: ap['installation_s3ic_id'],
+          description: ap['description'],
+          date: ap['date'],
+          url: ap['url'],
+          installation_id: installation_id
+        )
+        raise "error validations #{ap.inspect} #{ap.errors.full_messages}" unless ap.validate
 
-      puts "AP not created for installation #{ap['installation_s3ic_id']}" unless ap.save
+        aps << ap
+      end
+      recreate(aps)
     end
 
-    puts 'Arretes prefectoraux are seeded'
+    private
+
+    def recreate(aps)
+      puts '...destroying'
+      AP.destroy_all
+      ActiveRecord::Base.connection.reset_pk_sequence!(AP.table_name)
+      puts '...creating'
+      aps.each(&:save)
+      puts "...done. Inserted #{AP.count}/#{aps.length} AP."
+    end
   end
 end

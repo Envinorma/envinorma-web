@@ -5809,7 +5809,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "Type de combustible\nFioul domestique\n1 MW et < 2 MW\n5 m\n(7 m)\n2 MW et < 4 MW\n6 m\n(9 m)\n4 MW et < 6 MW\n8 m\n(12 m)\n6 MW et\n< 10 MW\n10 m\n(12 m)\n10 MW et\n< 15 MW\n10 m\n(15 m)"
+                                                                        "text_in_inspection_sheet": "Type de combustible\nFioul domestique\n1 MW et < 2 MW\n5 m\n(7 m)\n2 MW et < 4 MW\n6 m\n(9 m)\n4 MW et < 6 MW\n8 m\n(12 m)\n6 MW et\n< 10 MW\n10 m\n(12 m)\n10 MW et\n< 15 MW\n10 m\n(15 m)\n15 MW et < 20 MW\n10 m\n(15 m)"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -5941,7 +5941,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "Type de combustible\nGaz naturel, Biométhane\n1 MW et < 2 MW\n4 m\n(6 m)\n2 MW et < 4 MW\n5 m\n(7 m)\n4 MW et < 6 MW\n6 m\n(10 m)\n6 MW et\n< 10 MW\n8 m\n(12 m)"
+                                                                        "text_in_inspection_sheet": "Type de combustible\nGaz naturel, Biométhane\n1 MW et < 2 MW\n4 m\n(6 m)\n2 MW et < 4 MW\n5 m\n(7 m)\n4 MW et < 6 MW\n6 m\n(10 m)\n6 MW et\n< 10 MW\n6 m\n(10 m)\n10 MW et\n< 15 MW\n8 m\n(12 m)\n15 MW et < 20 MW\n8 m\n(12 m)"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -5997,7 +5997,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "Type de combustible\nGPL\n1 MW et < 2 MW\n5 m\n(7 m)\n2 MW et < 4 MW\n6 m\n(9 m)\n4 MW et < 6 MW\n8 m\n(12 m)\n6 MW et\n< 10 MW\n10 m\n(15 m)"
+                                                                        "text_in_inspection_sheet": "Type de combustible\nGPL\n1 MW et < 2 MW\n5 m\n(7 m)\n2 MW et < 4 MW\n6 m\n(9 m)\n4 MW et < 6 MW\n8 m\n(12 m)\n6 MW et\n< 10 MW\n8 m\n(12 m)\n10 MW et\n< 15 MW\n10 m\n(15 m)\n15 MW et < 20 MW\n10 m\n(15 m)"
                                                                     }
                                                                 ]
                                                             },
@@ -6400,7 +6400,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "Combustibles\nBiomasse\nPolluants\n225\nPolluants\n525 (5)\nPolluants\n50"
+                                                                "text_in_inspection_sheet": "Combustibles\nBiomasse\nPolluants\n225\nPolluants\n525 (5)\nPolluants\n525 (5)\nPolluants\n50"
                                                             },
                                                             {
                                                                 "cells": [
@@ -6446,7 +6446,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "Combustibles\nAutres combustibles solides\nPolluants\n1 100\nPolluants\n550 (10)\nPolluants\n50"
+                                                                "text_in_inspection_sheet": "Combustibles\nAutres combustibles solides\nPolluants\n1 100\nPolluants\n550 (10)\nPolluants\n550 (10)\nPolluants\n50"
                                                             },
                                                             {
                                                                 "cells": [
@@ -6492,7 +6492,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "Combustibles\nFioul domestique\nPolluants\n-\nPolluants\n150 (8) (12)\nPolluants\n-"
+                                                                "text_in_inspection_sheet": "Combustibles\nFioul domestique\nPolluants\n-\nPolluants\n150 (8) (12)\nPolluants\n150 (8) (12)\nPolluants\n-"
                                                             },
                                                             {
                                                                 "cells": [
@@ -6650,7 +6650,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "Combustibles\nGaz de pétrole liquéfiés\nPolluants\n5\nPolluants\n150 (8)\nPolluants\n-"
+                                                                "text_in_inspection_sheet": "Combustibles\nGaz de pétrole liquéfiés\nPolluants\n5\nPolluants\n150 (8)\nPolluants\n150 (8)\nPolluants\n-"
                                                             }
                                                         ]
                                                     },
@@ -7364,7 +7364,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "5 ≤ P < 10\nPuissance P (MW)\n300 (7)\nSO2 (mg/Nm3)\n30 (2)"
+                                                                "text_in_inspection_sheet": "Biomasse\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n200\nNOx (mg/Nm3)\n300 (7)\nPoussières (mg/Nm3)\n30 (2)\nCO (mg/Nm3)\n250"
                                                             },
                                                             {
                                                                 "cells": [
@@ -7380,7 +7380,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "10 ≤ P"
+                                                                "text_in_inspection_sheet": "Biomasse\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n200\nNOx (mg/Nm3)\n300 (7)\nPoussières (mg/Nm3)\n30 (2)\nCO (mg/Nm3)\n250"
                                                             },
                                                             {
                                                                 "cells": [
@@ -7482,7 +7482,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "5 ≤ P < 10\nPuissance P (MW)\n300 (4)\nSO2 (mg/Nm3)\n30 (2)"
+                                                                "text_in_inspection_sheet": "Autres combustibles solides\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n400 (3)\nNOx (mg/Nm3)\n300 (4)\nPoussières (mg/Nm3)\n30 (2)\nCO (mg/Nm3)\n200"
                                                             },
                                                             {
                                                                 "cells": [
@@ -7498,7 +7498,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "10 ≤ P"
+                                                                "text_in_inspection_sheet": "Autres combustibles solides\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n400 (3)\nNOx (mg/Nm3)\n300 (4)\nPoussières (mg/Nm3)\n30 (2)\nCO (mg/Nm3)\n200"
                                                             },
                                                             {
                                                                 "cells": [
@@ -7580,7 +7580,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "5 ≤ P < 10"
+                                                                "text_in_inspection_sheet": "Fioul domestique\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n150\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                             },
                                                             {
                                                                 "cells": [
@@ -7596,7 +7596,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "10 ≤ P"
+                                                                "text_in_inspection_sheet": "Fioul domestique\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n150\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                             },
                                                             {
                                                                 "cells": [
@@ -7688,7 +7688,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "5 ≤ P < 10\nPuissance P (MW)\n20 (1)"
+                                                                "text_in_inspection_sheet": "Fioul Lourd\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n350\nNOx (mg/Nm3)\n300 (4)\nPoussières (mg/Nm3)\n20 (1)\nCO (mg/Nm3)\n100"
                                                             },
                                                             {
                                                                 "cells": [
@@ -7714,7 +7714,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "10 ≤ P\nPuissance P (MW)\n300 (5) (6)"
+                                                                "text_in_inspection_sheet": "Fioul Lourd\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n350\nNOx (mg/Nm3)\n300 (5) (6)\nPoussières (mg/Nm3)\n20 (1)\nCO (mg/Nm3)\n100"
                                                             },
                                                             {
                                                                 "cells": [
@@ -7796,7 +7796,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "5 ≤ P < 10"
+                                                                "text_in_inspection_sheet": "Gaz naturel, Biométhane\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n100\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                             },
                                                             {
                                                                 "cells": [
@@ -7812,7 +7812,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "10 ≤ P"
+                                                                "text_in_inspection_sheet": "Gaz naturel, Biométhane\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n100\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                             },
                                                             {
                                                                 "cells": [
@@ -7894,7 +7894,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "5 ≤ P < 10"
+                                                                "text_in_inspection_sheet": "Gaz de pétrole liquéfiés\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n5\nNOx (mg/Nm3)\n150\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                             },
                                                             {
                                                                 "cells": [
@@ -7910,7 +7910,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "10 ≤ P"
+                                                                "text_in_inspection_sheet": "Gaz de pétrole liquéfiés\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n5\nNOx (mg/Nm3)\n150\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                             }
                                                         ]
                                                     },
@@ -8388,7 +8388,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "5 ≤ P < 10"
+                                                                "text_in_inspection_sheet": "Biomasse\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n200\nNOx (mg/Nm3)\n650\nPoussières (mg/Nm3)\n50\nCO (mg/Nm3)\n250"
                                                             },
                                                             {
                                                                 "cells": [
@@ -8404,7 +8404,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "10 ≤ P"
+                                                                "text_in_inspection_sheet": "Biomasse\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n200\nNOx (mg/Nm3)\n650\nPoussières (mg/Nm3)\n50\nCO (mg/Nm3)\n250"
                                                             },
                                                             {
                                                                 "cells": [
@@ -8486,7 +8486,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "5 ≤ P < 10"
+                                                                "text_in_inspection_sheet": "Autres combustibles solides\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n1 100\nNOx (mg/Nm3)\n550\nPoussières (mg/Nm3)\n50\nCO (mg/Nm3)\n200"
                                                             },
                                                             {
                                                                 "cells": [
@@ -8502,7 +8502,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "10 ≤ P"
+                                                                "text_in_inspection_sheet": "Autres combustibles solides\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n1 100\nNOx (mg/Nm3)\n550\nPoussières (mg/Nm3)\n50\nCO (mg/Nm3)\n200"
                                                             },
                                                             {
                                                                 "cells": [
@@ -8584,7 +8584,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "5 ≤ P < 10"
+                                                                "text_in_inspection_sheet": "Fioul domestique\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n150 (3)\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                             },
                                                             {
                                                                 "cells": [
@@ -8600,7 +8600,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "10 ≤ P"
+                                                                "text_in_inspection_sheet": "Fioul domestique\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n150 (3)\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                             },
                                                             {
                                                                 "cells": [
@@ -8692,7 +8692,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "5 ≤ P < 10\nPuissance P (MW)\n30"
+                                                                "text_in_inspection_sheet": "Fioul Lourd\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n350\nNOx (mg/Nm3)\n550\nPoussières (mg/Nm3)\n30\nCO (mg/Nm3)\n100"
                                                             },
                                                             {
                                                                 "cells": [
@@ -8718,7 +8718,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "10 ≤ P\nPuissance P (MW)\n500 (1)"
+                                                                "text_in_inspection_sheet": "Fioul Lourd\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n350\nNOx (mg/Nm3)\n500 (1)\nPoussières (mg/Nm3)\n30\nCO (mg/Nm3)\n100"
                                                             },
                                                             {
                                                                 "cells": [
@@ -8800,7 +8800,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "5 ≤ P < 10"
+                                                                "text_in_inspection_sheet": "Gaz naturel, Biométhane\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n150\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                             },
                                                             {
                                                                 "cells": [
@@ -8826,7 +8826,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "10 ≤ P\nPuissance P (MW)\n120 (2)"
+                                                                "text_in_inspection_sheet": "Gaz naturel, Biométhane\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n120 (2)\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                             },
                                                             {
                                                                 "cells": [
@@ -8908,7 +8908,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "5 ≤ P < 10"
+                                                                "text_in_inspection_sheet": "Gaz de pétrole liquéfiés\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n5\nNOx (mg/Nm3)\n150\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                             },
                                                             {
                                                                 "cells": [
@@ -8924,7 +8924,7 @@
                                                                     }
                                                                 ],
                                                                 "is_header": false,
-                                                                "text_in_inspection_sheet": "10 ≤ P"
+                                                                "text_in_inspection_sheet": "Gaz de pétrole liquéfiés\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n5\nNOx (mg/Nm3)\n150\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                             }
                                                         ]
                                                     },
@@ -9773,7 +9773,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "5 ≤ P < 10"
+                                                                        "text_in_inspection_sheet": "Fioul domestique\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n75 (1) (2)\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -9789,7 +9789,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "10 ≤ P"
+                                                                        "text_in_inspection_sheet": "Fioul domestique\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n75 (1) (2)\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -9881,7 +9881,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "5 ≤ P < 10\nPuissance P (MW)\n10 (3)"
+                                                                        "text_in_inspection_sheet": "Fioul Lourd\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n120\nNOx (mg/Nm3)\n75 (1) (2)\nPoussières (mg/Nm3)\n10 (3)\nCO (mg/Nm3)\n100"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -9897,7 +9897,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "10 ≤ P"
+                                                                        "text_in_inspection_sheet": "Fioul Lourd\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n120\nNOx (mg/Nm3)\n75 (1) (2)\nPoussières (mg/Nm3)\n10 (3)\nCO (mg/Nm3)\n100"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -9979,7 +9979,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "5 ≤ P < 10"
+                                                                        "text_in_inspection_sheet": "Gaz naturel, Biométhane\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n50 (4)\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -9995,7 +9995,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "10 ≤ P"
+                                                                        "text_in_inspection_sheet": "Gaz naturel, Biométhane\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n50 (4)\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -10077,7 +10077,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "5 ≤ P < 10"
+                                                                        "text_in_inspection_sheet": "Gaz de pétrole liquéfié\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n15\nNOx (mg/Nm3)\n75 (4)\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -10093,7 +10093,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "10 ≤ P"
+                                                                        "text_in_inspection_sheet": "Gaz de pétrole liquéfié\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n15\nNOx (mg/Nm3)\n75 (4)\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                                     }
                                                                 ]
                                                             },
@@ -11030,7 +11030,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "5 ≤ P < 10\nPuissance P (MW)\n190 (1) (2) (3) (6)"
+                                                                        "text_in_inspection_sheet": "Fioul domestique\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n190 (1) (2) (3) (6)\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n250"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -11046,7 +11046,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "10 ≤ P"
+                                                                        "text_in_inspection_sheet": "Fioul domestique\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n190 (1) (2) (3) (6)\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n250"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -11148,7 +11148,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "5 ≤ P < 10\nPuissance P (MW)\n190 (1) (2) (3) (6) (7)\nSO2 (mg/Nm3)\n10 (8)"
+                                                                        "text_in_inspection_sheet": "Fioul Lourd\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n120\nNOx (mg/Nm3)\n190 (1) (2) (3) (6) (7)\nPoussières (mg/Nm3)\n10 (8)\nCO (mg/Nm3)\n250"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -11164,7 +11164,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "10 ≤ P"
+                                                                        "text_in_inspection_sheet": "Fioul Lourd\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n120\nNOx (mg/Nm3)\n190 (1) (2) (3) (6) (7)\nPoussières (mg/Nm3)\n10 (8)\nCO (mg/Nm3)\n250"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -11246,7 +11246,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "5 ≤ P < 10"
+                                                                        "text_in_inspection_sheet": "Gaz naturel, Biométhane\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n95 (9) (10)\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -11262,7 +11262,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "10 ≤ P"
+                                                                        "text_in_inspection_sheet": "Gaz naturel, Biométhane\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n-\nNOx (mg/Nm3)\n95 (9) (10)\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n100"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -11344,7 +11344,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "5 ≤ P < 10"
+                                                                        "text_in_inspection_sheet": "Gaz de pétrole liquéfiés\nPuissance P (MW)\n5 ≤ P < 10\nSO2 (mg/Nm3)\n15\nNOx (mg/Nm3)\n190\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n250"
                                                                     },
                                                                     {
                                                                         "cells": [
@@ -11360,7 +11360,7 @@
                                                                             }
                                                                         ],
                                                                         "is_header": false,
-                                                                        "text_in_inspection_sheet": "10 ≤ P"
+                                                                        "text_in_inspection_sheet": "Gaz de pétrole liquéfiés\nPuissance P (MW)\n10 ≤ P\nSO2 (mg/Nm3)\n15\nNOx (mg/Nm3)\n190\nPoussières (mg/Nm3)\n-\nCO (mg/Nm3)\n250"
                                                                     }
                                                                 ]
                                                             },
@@ -14469,7 +14469,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Nature des activités à protéger\n100 mètres\nDistance minimale\nPente du terrain supérieure à 7 %"
+                                                "text_in_inspection_sheet": "Nature des activités à protéger\nPuits, forages, sources, aqueducs transitant des eaux destinées à la consommation humaine en écoulement libre, installations souterraines ou semi-enterrées utilisées pour le stockage des eaux, que ces dernières soient utilisées pour l'alimentation en eau potable ou pour l'arrosage des cultures maraîchères\nDistance minimale\n100 mètres\nDomaine d'application\nPente du terrain supérieure à 7 %"
                                             },
                                             {
                                                 "cells": [
@@ -14495,7 +14495,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Nature des activités à protéger\nou, si cette distance est inférieure, dans les conditions définies par l'acte fixant les règles de protection du prélèvement\nDistance minimale"
+                                                "text_in_inspection_sheet": "Nature des activités à protéger\nPuits, forages, sources, aqueducs transitant des eaux destinées à la consommation humaine en écoulement libre, installations souterraines ou semi-enterrées utilisées pour le stockage des eaux, que ces dernières soient utilisées pour l'alimentation en eau potable ou pour l'arrosage des cultures maraîchères\nDistance minimale\nou, si cette distance est inférieure, dans les conditions définies par l'acte fixant les règles de protection du prélèvement\nDomaine d'application"
                                             },
                                             {
                                                 "cells": [
@@ -14557,7 +14557,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Nature des activités à protéger\n100 mètres des berges\nDistance minimale\nPente du terrain supérieure à 7 %"
+                                                "text_in_inspection_sheet": "Nature des activités à protéger\nCours d'eau et plans d'eau\nDistance minimale\n100 mètres des berges\nDomaine d'application\nPente du terrain supérieure à 7 %"
                                             },
                                             {
                                                 "cells": [
@@ -14583,7 +14583,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Nature des activités à protéger\nDans tous les cas, l'épandage est effectué avec un système ou selon une pratique qui ne favorise pas le lessivage immédiat vers les berges\nDistance minimale"
+                                                "text_in_inspection_sheet": "Nature des activités à protéger\nCours d'eau et plans d'eau\nDistance minimale\nDans tous les cas, l'épandage est effectué avec un système ou selon une pratique qui ne favorise pas le lessivage immédiat vers les berges\nDomaine d'application"
                                             },
                                             {
                                                 "cells": [
@@ -14707,7 +14707,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Nature des activités à protéger\n100 mètres"
+                                                "text_in_inspection_sheet": "Nature des activités à protéger\nHabitations ou locaux occupés par des tiers, zones de loisirs et établissements recevant du public\nDistance minimale\n100 mètres\nDomaine d'application\nEn cas de cendres odorantes"
                                             }
                                         ]
                                     },
@@ -15953,7 +15953,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Composés-traces\norganiques\n(*) PCB 28, 52, 101, 118, 138, 153, 180."
+                                                "text_in_inspection_sheet": "Composés-traces\norganiques\n(*) PCB 28, 52, 101, 118, 138, 153, 180.\nValeur limite dans les cendres (mg/kg matière sèche)\n(*) PCB 28, 52, 101, 118, 138, 153, 180.\nValeur limite dans les cendres (mg/kg matière sèche)\n(*) PCB 28, 52, 101, 118, 138, 153, 180.\nFlux cumulé maximum apporté par les cendres en dix ans (mg/m2)\n(*) PCB 28, 52, 101, 118, 138, 153, 180.\nFlux cumulé maximum apporté par les cendres en dix ans (mg/m2)\n(*) PCB 28, 52, 101, 118, 138, 153, 180."
                                             }
                                         ]
                                     },
@@ -16467,7 +16467,7 @@
                                                     }
                                                 ],
                                                 "is_header": false,
-                                                "text_in_inspection_sheet": "Éléments-traces métalliques\n(*) Pour les pâturages uniquement."
+                                                "text_in_inspection_sheet": "Éléments-traces métalliques\n(*) Pour les pâturages uniquement.\nFlux cumulé maximum apporté par les cendres en dix ans (g/m2)\n(*) Pour les pâturages uniquement."
                                             }
                                         ]
                                     },
