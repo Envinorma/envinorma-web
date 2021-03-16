@@ -2,7 +2,7 @@
 
 ActiveRecord::Base.logger.level = 1
 
-class SeedManager
+class DataManager
   def self.seed_installations_and_associations
     installations_list = parse_seed_csv('installations_idf.csv')
     Installation.validate_then_recreate(installations_list)
