@@ -1,0 +1,18 @@
+.container
+  .row.border-bottom.pt-3.pb-3
+    .col
+      = link_to '< Retour à l’installation', installation_path(@installation), class: 'js_loader__link'
+
+    .col
+      select#ap_select.custom-select onchange="location = this.options[this.selectedIndex].value;"
+        - @aps.each do |ap|
+          option value="#{ap.id}" = "#{ap.description} - #{ap.date}"
+.container
+  .row
+    .col
+      p ici les prescriptions
+
+    .col.border-left
+      h3 = "#{@ap.description} - #{@ap.date}"
+      = link_to "voir l'original", @ap.url, target: '_blank', class: 'btn btn-link'
+      img src="http://via.placeholder.com/500x640" class="d-block"

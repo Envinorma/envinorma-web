@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'installations/search', to: 'installations#search', format: 'json'
   get '/installations/:id/duplicate_before_edit', to: 'installations#duplicate_before_edit', as: 'duplicate_before_edit'
   resources :installations do
+    resources :aps, only: [:show]
     resources :classements
   end
   get '/installations/:id/arretes', to: 'arretes#index', as: 'arretes'
