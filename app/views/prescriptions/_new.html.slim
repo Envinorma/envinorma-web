@@ -1,0 +1,11 @@
+= simple_form_for [@installation, @ap, @prescription] do |f|
+  .row
+    .col-12
+      = f.input :reference
+    .col-12
+      = f.input :content, as: :text
+
+    = f.hidden_field :ap_id, value: @ap.id
+    = f.hidden_field :user_id, value: @user.id
+
+  = f.button :submit, 'ajouter une prescription', class: 'btn btn-primary'

@@ -2,6 +2,8 @@
 
 class AP < ApplicationRecord
   belongs_to :installation
+  has_many :prescriptions, dependent: :destroy
+  accepts_nested_attributes_for :prescriptions, allow_destroy: true
 
   validates :url, :installation_id, :installation_s3ic_id, presence: true
   validates :url, length: { is: 116 }

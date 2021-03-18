@@ -93,4 +93,8 @@
       - else
         ul.list-unstyled
           - @aps.each do |ap|
-            li = link_to "#{ap.description} - #{ap.date}", installation_ap_path(installation_id: @installation.id, id: ap.id)
+            li
+              = link_to "#{ap.description} - #{ap.date}", installation_ap_path(installation_id: @installation.id, id: ap.id)
+              - if ap.prescriptions.any?
+                br
+                small = "- #{ap.prescriptions.count} prescription(s)"

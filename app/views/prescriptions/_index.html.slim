@@ -1,0 +1,13 @@
+h3.mt-3 Les prescriptions
+- if @prescriptions.any?
+  ul.list-unstyled
+    - @prescriptions.each do |prescription|
+      li
+        b = prescription.reference
+      li = prescription.content
+      p = link_to 'supprimer',
+          installation_ap_prescription_path(installation_id: @installation.id, ap_id: @ap.id, id: prescription.id),
+          method: :delete
+      hr
+- else
+  p.small Vous pouvez ajouter des prescriptions en les copiant-collant depuis l'AP.

@@ -10,9 +10,12 @@
 .container
   .row
     .col
-      p ici les prescriptions
+      .prescriptions
+        .prescription-content
+          = render 'prescriptions/index.html.slim'
+        .prescription-form
+          = render 'prescriptions/new.html.slim'
 
-    .col.border-left
-      h3 = "#{@ap.description} - #{@ap.date}"
+    .col.border-left.text-center
       = link_to "voir l'original", @ap.url, target: '_blank', class: 'btn btn-link'
-      img src="http://via.placeholder.com/500x640" class="d-block"
+      img src="http://via.placeholder.com/500x600" class="d-block.text-center"
