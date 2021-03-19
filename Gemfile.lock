@@ -80,6 +80,9 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (~> 1.5)
       xpath (~> 3.2)
+    capybara-selenium (0.0.6)
+      capybara
+      selenium-webdriver
     childprocess (3.0.0)
     coderay (1.1.3)
     concurrent-ruby (1.1.7)
@@ -105,6 +108,8 @@ GEM
       concurrent-ruby (~> 1.0)
     jbuilder (2.10.1)
       activesupport (>= 5.0.0)
+    launchy (2.5.0)
+      addressable (~> 2.7)
     listen (3.4.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -153,6 +158,9 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
+    rack_session_access (0.2.0)
+      builder (>= 2.0.0)
+      rack (>= 1.0.0)
     rails (6.0.3.4)
       actioncable (= 6.0.3.4)
       actionmailbox (= 6.0.3.4)
@@ -302,15 +310,18 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
+  capybara-selenium
   database_cleaner
   factory_bot_rails
   jbuilder (~> 2.7)
+  launchy
   listen (~> 3.2)
   normalize-rails (~> 4.1, >= 4.1.1)
   odf-report
   pg (>= 0.18, < 2.0)
   pry-byebug
   puma (~> 4.1)
+  rack_session_access
   rails (~> 6.0.3, >= 6.0.3.4)
   redis (~> 4.0)
   rspec-rails (~> 4.0.2)
