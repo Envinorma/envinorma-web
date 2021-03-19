@@ -16,12 +16,4 @@ module ApplicationHelper
       end
     end.join
   end
-
-  def user_already_duplicated_installation?(user, installation)
-    user.present? && user.installations.pluck(:duplicated_from_id).include?(installation.id)
-  end
-
-  def retrieve_duplicated_installation(user, installation)
-    user.installations.where(duplicated_from_id: installation.id).first
-  end
 end

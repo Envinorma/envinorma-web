@@ -6,13 +6,19 @@
           - @arretes.each do |arrete|
             - am_classement_infos = classement_infos(arrete, @installation)
             li.glide__slide
-              a href="#anchor_#{arrete.id}"
+              a href="#anchor_am_#{arrete.id}"
                 => arrete.short_title
                 br
                   small
                     => am_classement_infos
                     - if arrete.is_a? EnrichedArrete
                       span class="badge badge-success" enrichi
+
+          - if @aps.any?
+            - @aps.each do |ap|
+              li.glide__slide
+                a href="#anchor_ap_#{ap.id}"
+                  => ap.description
 
       div class="glide__arrows" data-glide-el="controls"
         button class="glide__arrow glide__arrow--left" data-glide-dir="<"<
@@ -26,17 +32,25 @@
       .col-2
         dl.summary
           - @arretes.each do |arrete|
-            .display-summary id="anchor_#{arrete.id}_summary" class='anchor'
+            .display-summary id="anchor_am_#{arrete.id}_summary" class='anchor'
               - arrete.summary['elements'].each do |summary_item|
                 dd
                   a class="level_#{summary_item['depth']}" href="#anchor_#{summary_item['section_id']}"
                     = summary_item['section_title']
 
+          - if @aps.any?
+            - @aps.each do |ap|
+              .display-summary id="anchor_ap_#{ap.id}_summary" class='anchor'
+                - ap.prescriptions.each do |prescription|
+                  dd
+                    a href="#anchor_ap_#{prescription.id}"
+                      = prescription.reference
+
       .col-10
         - @arretes.each do |arrete|
           - am_short_title = arrete.short_title
           - am_classement_infos = classement_infos(arrete, @installation)
-          section id="anchor_#{arrete.id}" class='anchor'
+          section id="anchor_am_#{arrete.id}" class='anchor'
             - if arrete.is_a? EnrichedArrete
               span class='badge badge-success float-right' enrichi
             h2.display.h1
@@ -126,6 +140,26 @@
 
               - extract_sections.call(section)
 
+          hr.mb-5.mt-5
+
+        - @aps.each do |ap|
+          section id="anchor_ap_#{ap.id}" class='anchor'
+            h3 = ap.description
+            - ap.prescriptions.each do |prescription|
+              div id="anchor_ap_#{prescription.id}" class='anchor anchor-summary'
+              h4 = prescription.reference
+
+              - secure_id_checkbox = SecureRandom.hex(10)
+              .form-group.row
+                  .col-sm-12
+                    .form-check.checkbox-arrete
+
+                      = check_box_tag "prescriptions[#{secure_id_checkbox}][checkbox]",
+                        '1', false, class: 'form-check-input'
+                      = label_tag "prescriptions[#{secure_id_checkbox}][checkbox]", prescription.content
+                      = hidden_field_tag "prescriptions[#{secure_id_checkbox}][reference]",
+                      "#{ap.description} - #{ap.date} - #{prescription.reference}"
+                      = hidden_field_tag "prescriptions[#{secure_id_checkbox}][content]", prescription.content
           hr.mb-5.mt-5
 
   = submit_tag("Générer une fiche d'inspection", class: 'btn btn-primary btn-prescription')

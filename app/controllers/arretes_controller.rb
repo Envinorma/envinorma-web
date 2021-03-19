@@ -9,6 +9,9 @@ class ArretesController < ApplicationController
     params['arrete_types'].each_with_index do |type, index|
       @arretes << type.constantize.find(params['arrete_ids'][index])
     end
+
+    all_aps = set_aps
+    @aps = all_aps.select { |ap| ap.prescriptions.any? }
   end
 
   def generate_doc_with_prescriptions
@@ -30,6 +33,14 @@ class ArretesController < ApplicationController
 
   def prescriptions_params
     params['prescriptions'].permit!
+  end
+
+  def set_aps
+    @aps = if @installation.duplicated_from_id?
+             Installation.find(@installation.duplicated_from_id).APs
+           else
+             @installation.APs
+           end
   end
 
   def merge_prescriptions_with_same_ref(prescriptions)
