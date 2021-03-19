@@ -2,7 +2,9 @@
 
 FactoryBot.define do
   factory :unique_classement do
-    rubrique { '2521' }
-    regime { 'E' }
+    trait :classement_2521_E do
+      rubrique { '2521' }
+      regime { 'E' }
+    end
   end
 end

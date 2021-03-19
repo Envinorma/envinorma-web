@@ -2,7 +2,7 @@
 
 FactoryBot.define do
   factory :classement do
-    trait :rubrique2521 do
+    trait :classement_2521_E do
       rubrique { '2521' }
       regime { 'E' }
       alinea { '1' }
@@ -15,7 +15,7 @@ FactoryBot.define do
       alinea_acte { '1' }
     end
 
-    trait :rubrique4801 do
+    trait :classement_4801_D do
       rubrique { '4801' }
       regime { 'D' }
       alinea { '2' }
@@ -28,7 +28,7 @@ FactoryBot.define do
       alinea_acte { '2' }
     end
 
-    trait :rubrique2515 do
+    trait :classement_2515_D do
       rubrique { '2515' }
       regime { 'D' }
       alinea { 'b' }

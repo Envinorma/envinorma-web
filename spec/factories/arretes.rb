@@ -2,7 +2,7 @@
 
 FactoryBot.define do
   factory :arrete do
-    trait :arrete_2521_E do
+    trait :classement_2521_E do
       path = File.join(Rails.root, 'spec', 'fixtures', 'arretes', 'JORFTEXT000038358856.json')
       am = JSON.parse(File.read(path))
       data { am }
