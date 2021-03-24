@@ -11,7 +11,7 @@ class ArretesController < ApplicationController
     end
 
     all_aps = set_aps
-    @aps = all_aps.select { |ap| ap.prescriptions.any? }
+    @aps = all_aps.select { |ap| @user.prescriptions_for(ap).any? }
   end
 
   def generate_doc_with_prescriptions

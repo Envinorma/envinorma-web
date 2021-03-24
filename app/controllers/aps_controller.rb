@@ -6,7 +6,7 @@ class APsController < ApplicationController
 
   def show
     @aps = @installation.APs
-    @prescriptions = @ap.prescriptions
+    @prescriptions = @user.prescriptions_for(@ap)
     @prescription = Prescription.new
   end
 

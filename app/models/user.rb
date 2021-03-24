@@ -11,4 +11,12 @@ class User < ApplicationRecord
   def retrieve_duplicated_installation(installation)
     installations.where(duplicated_from_id: installation.id).first
   end
+
+  def has_prescriptions?(ap)
+    ap.prescriptions.any? && ap.prescriptions.pluck(:user_id).include?(id)
+  end
+
+  def prescriptions_for(ap)
+    ap.prescriptions.where(user_id: id)
+  end
 end
