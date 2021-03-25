@@ -44,7 +44,8 @@ class InstallationsController < ApplicationController
     if @user.already_duplicated_installation?(@installation)
       redirect_to edit_installation_path(@user.retrieve_duplicated_installation(@installation))
     else
-      duplicate_before_edit
+      installation_duplicated = @installation.duplicate!(@user)
+      redirect_to edit_installation_path(installation_duplicated)
     end
   end
 
@@ -56,41 +57,6 @@ class InstallationsController < ApplicationController
       flash[:alert] = "L'installation n'a pas été mise à jour"
       render :edit
     end
-  end
-
-  def duplicate_before_edit
-    installation_duplicated = Installation.create(
-      name: @installation.name,
-      s3ic_id: @installation.s3ic_id,
-      region: @installation.region,
-      department: @installation.department,
-      zipcode: @installation.zipcode,
-      city: @installation.city,
-      last_inspection: @installation.last_inspection,
-      regime: @installation.regime,
-      seveso: @installation.seveso,
-      state: @installation.state,
-      user_id: session[:user_id],
-      duplicated_from_id: @installation.id
-    )
-
-    @installation.classements.each do |classement|
-      Classement.create(
-        rubrique: classement.rubrique,
-        regime: classement.regime,
-        alinea: classement.alinea,
-        rubrique_acte: classement.rubrique_acte,
-        regime_acte: classement.regime_acte,
-        alinea_acte: classement.alinea_acte,
-        activite: classement.activite,
-        date_autorisation: classement.date_autorisation,
-        volume: classement.volume,
-        installation_id: installation_duplicated.id
-      )
-    end
-
-    redirect_to edit_installation_path(installation_duplicated)
-    # backup if save failed
   end
 
   def search

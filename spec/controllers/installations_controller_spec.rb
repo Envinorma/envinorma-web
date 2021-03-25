@@ -8,7 +8,7 @@ RSpec.describe InstallationsController, type: :controller do
   let(:installation) { Installation.create(name: 'Installation test', s3ic_id: '0000.00000') }
 
   context 'on #index' do
-    it "creates a user and a session id on first visit" do
+    it 'creates a user and a session id on first visit' do
       expect do
         get :index
       end.to change { User.count }.from(0).to(1)
@@ -16,7 +16,7 @@ RSpec.describe InstallationsController, type: :controller do
       expect(session[:user_id]).to eq User.last.id
     end
 
-    it "creates a user and recreate a session id if there is an isolate session id" do
+    it 'creates a user and recreate a session id if there is an isolate session id' do
       session[:user_id] = 1
       expect do
         get :index
@@ -24,14 +24,14 @@ RSpec.describe InstallationsController, type: :controller do
       expect(session[:user_id]).to eq User.last.id
     end
 
-    it "retrieve session and user" do
-      user_1 = User.create
-      user_2 = User.create
-      session[:user_id] = user_1.id
+    it 'retrieve session and user' do
+      user1 = User.create
+      User.create
+      session[:user_id] = user1.id
       expect do
         get :index
       end.to change { User.count }.by(0)
-      expect(session[:user_id]).to eq user_1.id
+      expect(session[:user_id]).to eq user1.id
     end
   end
 
@@ -73,23 +73,34 @@ RSpec.describe InstallationsController, type: :controller do
   end
 
   context 'on #show' do
-    it 'displays content show' do
-      ap = AP.create(installation_s3ic_id: '0000.00000', description: "test", url: 'http://documents.installationsclassees.developpement-durable.gouv.fr/commun/P/7/8acb340164a854b40164a870a77a0047.pdf',
-          installation_id: installation.id)
+    it 'displays prescriptions count only if the user owns the prescriptions' do
+      user = User.create
+
+      ap = AP.create(installation_s3ic_id: '0000.00000', description: 'test', url: 'http://documents.installationsclassees.developpement-durable.gouv.fr/commun/P/7/8acb340164a854b40164a870a77a0047.pdf',
+                     installation_id: installation.id)
+      Prescription.create(reference: 'Article 1', content: "Contenu de l'article 1", ap_id: ap.id, user_id: user.id)
 
       get :show, params: { id: installation.id }
 
-      assert_select "a[href=?]", "/installations/#{installation.id}/aps/#{ap.id}", { :count => 1, :text => 'test -' }
+      assert_select 'a[href=?]', "/installations/#{installation.id}/aps/#{ap.id}", { count: 1, text: 'test -' }
+      assert_select 'small', { count: 0, text: '- 1 prescription(s)' }
+
+      session[:user_id] = user.id
+      get :show, params: { id: installation.id }
+
+      assert_select 'a[href=?]', "/installations/#{installation.id}/aps/#{ap.id}", { count: 1, text: 'test -' }
+      assert_select 'small', { count: 1, text: '- 1 prescription(s)' }
     end
 
     it 'displays ap from original installation if installation is duplicated' do
-      ap = AP.create(installation_s3ic_id: '0000.00000', description: "test", url: 'http://documents.installationsclassees.developpement-durable.gouv.fr/commun/P/7/8acb340164a854b40164a870a77a0047.pdf',
-          installation_id: installation.id)
-      get :edit, params: { id: installation.id }
+      user = User.create
+      ap = AP.create(installation_s3ic_id: '0000.00000', description: 'test', url: 'http://documents.installationsclassees.developpement-durable.gouv.fr/commun/P/7/8acb340164a854b40164a870a77a0047.pdf',
+                     installation_id: installation.id)
+      installation.duplicate!(user)
 
       get :show, params: { id: installation.id }
 
-      assert_select "a[href=?]", "/installations/#{installation.id}/aps/#{ap.id}", { :count => 1, :text => 'test -' }
+      assert_select 'a[href=?]', "/installations/#{installation.id}/aps/#{ap.id}", { count: 1, text: 'test -' }
     end
   end
 end

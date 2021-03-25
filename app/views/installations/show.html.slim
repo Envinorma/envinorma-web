@@ -96,6 +96,6 @@
             li
               = link_to "#{ap.description} - #{ap.date}", installation_ap_path(installation_id: @installation.id, id: ap.id)
 
-              - if @user.has_prescriptions?(ap)
+              - if @user.created_prescriptions_for?(ap)
                 br
                 small = "- #{@user.prescriptions_for(ap).count} prescription(s)"
