@@ -4,13 +4,13 @@ ActiveRecord::Base.logger.level = 1
 
 class DataManager
   def self.seed_installations_and_associations
-    installations_list = parse_seed_csv('installations_idf.csv')
+    installations_list = parse_seed_csv('installations_all.csv')
     Installation.validate_then_recreate(installations_list)
 
-    classements_list = parse_seed_csv('classements_idf.csv')
+    classements_list = parse_seed_csv('classements_all.csv')
     Classement.validate_then_recreate(classements_list)
 
-    aps_list = parse_seed_csv('aps_idf.csv')
+    aps_list = parse_seed_csv('aps_all.csv')
     AP.validate_then_recreate(aps_list)
   end
 
