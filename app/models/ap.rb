@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
 class AP < ApplicationRecord
-  has_one_attached :image
-
   belongs_to :installation
   has_many :prescriptions, dependent: :destroy
   accepts_nested_attributes_for :prescriptions, allow_destroy: true

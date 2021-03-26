@@ -19,7 +19,7 @@
     .col.border-left.text-center
       = link_to "voir l'original", @ap.url, target: '_blank', class: 'btn btn-link'
       .svg-box
-        - if @ap.image.attached?
-          object data="#{cl_image_path @ap.image.key, flags: :sanitize}" type="image/svg+xml" class="svg-box-content"
+        - if @ap.svg_url?
+          object data="#{@ap.svg_url}" type="image/svg+xml" class="svg-box-content"
         - else
           p Il y a eu un problème lors du scan de l'image, veuillez-vous baser sur le PDF original ci-dessus.
