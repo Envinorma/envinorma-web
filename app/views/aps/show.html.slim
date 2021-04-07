@@ -1,5 +1,5 @@
 .container
-  .row.border-bottom.pt-3.pb-3
+  .row.border-bottom.pt-3.pb-3.align-items-center
     .col
       = link_to '< Retour à l’installation', installation_path(@installation), class: 'js_loader__link'
 
@@ -9,17 +9,21 @@
           option value="#{ap.id}" = "#{ap.description} - #{ap.date}"
 .container
   .row
-    .col-4
+    .col.col-4
       .prescriptions
         .prescription-content
           = render 'prescriptions/index.html.slim'
         .prescription-form
           = render 'prescriptions/new.html.slim'
 
-    .col.border-left.text-center
-      = link_to "voir l'original", @ap.url, target: '_blank', class: 'btn btn-link'
+    .col.border-left
+      = link_to "voir l'original", @ap.url, target: '_blank', class: 'btn btn-light link_absolute_top_left'
       .svg-box
         - if @ap.svg_url?
           object data="#{@ap.svg_url}" type="image/svg+xml" class="svg-box-content"
         - else
-          p Il y a eu un problème lors du scan de l'image, veuillez-vous baser sur le PDF original ci-dessus.
+          .text-center
+            i.fas.fa-exclamation-circle.fa-2x
+            p.small
+              | Il y a eu un problème lors du scan de l'image,
+              br veuillez-vous baser sur le PDF original ci-dessus.
