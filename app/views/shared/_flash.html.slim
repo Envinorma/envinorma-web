@@ -1,9 +1,15 @@
 .container
   - if flash[:notice]
     - flash.each do |_type, msg|
-      .alert.alert-info.mt-5
+      .alert.alert-info.mt-5.alert-dismissible role="alert"
+        button type="button" class="close" data-dismiss="alert" aria-label="Close"
+          span aria-hidden="true"
+            | &times;
         = msg
   - else
     - flash.each do |_type, msg|
-      .alert.alert-danger.mt-5
+      .alert.alert-danger.alert-dismissible.mt-5
+        button type="button" class="close" data-dismiss="alert" aria-label="Close"
+          span aria-hidden="true"
+            | &times;
         = msg

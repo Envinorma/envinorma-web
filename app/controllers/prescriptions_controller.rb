@@ -10,7 +10,7 @@ class PrescriptionsController < ApplicationController
     if @prescription.save
       flash[:notice] = 'La prescription a été ajoutée'
     else
-      flash[:alert] = "La prescription n'a pas été ajoutée"
+      flash[:alert] = "La prescription n'a pas été ajoutée - #{@prescription.errors.full_messages.join(', ')}"
     end
     redirect_to installation_ap_path(@installation, @ap)
   end
@@ -19,9 +19,9 @@ class PrescriptionsController < ApplicationController
     @prescription = Prescription.find(params[:id])
 
     if @prescription.destroy
-      flash[:success] = 'La prescription a bien été supprimée'
+      flash[:notice] = 'La prescription a bien été supprimée'
     else
-      flash[:error] = "La prescription n'a pas été supprimée."
+      flash[:alert] = "La prescription n'a pas été supprimée."
     end
     redirect_to installation_ap_path(@installation, @ap)
   end
