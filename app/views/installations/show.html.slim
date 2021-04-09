@@ -82,10 +82,6 @@
               span.text-secondary
                 = classement_infos(arrete, @installation)
 
-        = link_to "Voir les prescriptions pour générer une fiche d'inspection",
-          arretes_path(@installation, arrete_ids: @arretes.pluck(:id), arrete_types: @arretes.map(&:class)),
-          class: 'btn btn-primary mb-4 js_loader__link'
-
     .col
       h2.mt-5 Arrêtés préfectoraux associés
       - if @aps.empty?
@@ -99,3 +95,10 @@
               - if @user.created_prescriptions_for?(ap)
                 br
                 small = "- #{@user.prescriptions_for(ap).count} prescription(s)"
+
+  hr.mb-5.mt-5
+
+  - if @arretes.any? || @user.aps_with_prescriptions(@aps).any?
+    = link_to "Voir les prescriptions pour générer une fiche d'inspection",
+          arretes_path(@installation, arrete_ids: @arretes.pluck(:id), arrete_types: @arretes.map(&:class)),
+          class: 'btn btn-primary mb-4 js_loader__link btn-fixed-bottom'

@@ -19,4 +19,8 @@ class User < ApplicationRecord
   def prescriptions_for(arrete_prefectoral)
     arrete_prefectoral.prescriptions.where(user_id: id)
   end
+
+  def aps_with_prescriptions(aps)
+    aps.select { |ap| prescriptions_for(ap).any? }
+  end
 end

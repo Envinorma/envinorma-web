@@ -6,12 +6,12 @@ class ArretesController < ApplicationController
 
   def index
     @arretes = []
-    params['arrete_types'].each_with_index do |type, index|
+    params['arrete_types']&.each_with_index do |type, index|
       @arretes << type.constantize.find(params['arrete_ids'][index])
     end
 
     all_aps = set_aps
-    @aps = all_aps.select { |ap| @user.prescriptions_for(ap).any? }
+    @aps = @user.aps_with_prescriptions(all_aps)
   end
 
   def generate_doc_with_prescriptions
