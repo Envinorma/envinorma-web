@@ -43,7 +43,7 @@
           - if @aps.any?
             - @aps.each do |ap|
               .display-summary id="anchor_ap_#{ap.id}_summary" class='anchor'
-                - ap.prescriptions.each do |prescription|
+                - @user.prescriptions_for(ap).each do |prescription|
                   dd
                     a href="#anchor_ap_#{prescription.id}"
                       = prescription.reference
@@ -148,7 +148,7 @@
         - @aps.each do |ap|
           section id="anchor_ap_#{ap.id}" class='anchor'
             h3 = ap.description
-            - ap.prescriptions.each do |prescription|
+            - @user.prescriptions_for(ap).each do |prescription|
               div id="anchor_ap_#{prescription.id}" class='anchor anchor-summary'
               h4 = prescription.reference
 
