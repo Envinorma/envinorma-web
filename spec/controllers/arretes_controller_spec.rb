@@ -10,7 +10,7 @@ RSpec.describe ArretesController, type: :controller do
   let(:ap) do
     AP.create(installation_s3ic_id: '0000.00000',
               description: 'test',
-              url: 'http://documents.installationsclassees.developpement-durable.gouv.fr/commun/P/7/8acb340164a854b40164a870a77a0047.pdf',
+              georisques_id: 'P/7/8acb340164a854b40164a870a77a0047',
               installation_id: installation.id)
   end
   let!(:prescription) do

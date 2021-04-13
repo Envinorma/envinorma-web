@@ -16,14 +16,5 @@
         .prescription-form
           = render 'prescriptions/new.html.slim'
 
-    .col.border-left
-      = link_to "voir l'original", @ap.url, target: '_blank', class: 'btn btn-light link_absolute_top_left'
-      .svg-box
-        - if @ap.svg_url?
-          object data="#{@ap.svg_url}" type="image/svg+xml" class="svg-box-content"
-        - else
-          .text-center
-            i.fas.fa-exclamation-circle.fa-2x
-            p.small
-              | Il y a eu un problème lors du scan de l'image,
-              br veuillez-vous baser sur le PDF original ci-dessus.
+    .col.col-8
+      object data="https://storage.sbg.cloud.ovh.net/v1/AUTH_3287ea227a904f04ad4e8bceb0776108/ap/#{@ap.georisques_id.gsub('/', '_')}.pdf" type="image/svg+xml" class="pdf_viewer"

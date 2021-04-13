@@ -5,8 +5,11 @@ class AP < ApplicationRecord
   has_many :prescriptions, dependent: :destroy
   accepts_nested_attributes_for :prescriptions, allow_destroy: true
 
-  validates :url, :installation_id, :installation_s3ic_id, presence: true
-  validates :url, length: { is: 116 }
+  validates :georisques_id, :installation_id, :installation_s3ic_id, presence: true
+  validates :georisques_id, length: { is: 36 }
+  validates :georisques_id, format: { with: %r{\A([A-Z]{1}/[a-f0-9]{1}/[a-f0-9]{32})\z},
+                                      message: 'check georisques_id format' }
+
   validates :installation_s3ic_id, format: { with: /\A([0-9]{4}\.[0-9]{5})\z/,
                                              message: 'check s3ic_id format' }
 
@@ -23,7 +26,7 @@ class AP < ApplicationRecord
           installation_s3ic_id: ap['installation_s3ic_id'],
           description: ap['description'],
           date: ap['date'],
-          url: ap['url'],
+          georisques_id: ap['georisques_id'],
           installation_id: installation_id
         )
         raise "error validations #{ap.inspect} #{ap.errors.full_messages}" unless ap.validate

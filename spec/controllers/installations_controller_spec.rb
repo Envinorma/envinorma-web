@@ -76,7 +76,7 @@ RSpec.describe InstallationsController, type: :controller do
     it 'displays prescriptions count only if the user owns the prescriptions' do
       user = User.create
 
-      ap = AP.create(installation_s3ic_id: '0000.00000', description: 'test', url: 'http://documents.installationsclassees.developpement-durable.gouv.fr/commun/P/7/8acb340164a854b40164a870a77a0047.pdf',
+      ap = AP.create(installation_s3ic_id: '0000.00000', description: 'test', georisques_id: 'P/7/8acb340164a854b40164a870a77a0047',
                      installation_id: installation.id)
       Prescription.create(reference: 'Article 1', content: "Contenu de l'article 1", ap_id: ap.id, user_id: user.id)
 
@@ -94,7 +94,7 @@ RSpec.describe InstallationsController, type: :controller do
 
     it 'displays ap from original installation if installation is duplicated' do
       user = User.create
-      ap = AP.create(installation_s3ic_id: '0000.00000', description: 'test', url: 'http://documents.installationsclassees.developpement-durable.gouv.fr/commun/P/7/8acb340164a854b40164a870a77a0047.pdf',
+      ap = AP.create(installation_s3ic_id: '0000.00000', description: 'test', georisques_id: 'P/7/8acb340164a854b40164a870a77a0047',
                      installation_id: installation.id)
       installation.duplicate!(user)
 
