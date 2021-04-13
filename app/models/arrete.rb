@@ -4,6 +4,7 @@ class Arrete < ApplicationRecord
   has_many :arretes_unique_classements, dependent: :delete_all
   has_many :unique_classements, through: :arretes_unique_classements
   has_many :enriched_arretes, dependent: :destroy
+  has_many :sections, dependent: :destroy
 
   validates :data, :summary, :short_title, :title, :cid, :aida_url, :legifrance_url, presence: true
   validates :title, length: { minimum: 10 }

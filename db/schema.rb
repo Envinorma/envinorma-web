@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_10_133534) do
+ActiveRecord::Schema.define(version: 2021_04_13_140648) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -94,6 +94,19 @@ ActiveRecord::Schema.define(version: 2021_03_10_133534) do
     t.index ["user_id"], name: "index_installations_on_user_id"
   end
 
+  create_table "sections", force: :cascade do |t|
+    t.integer "rank"
+    t.string "title"
+    t.integer "level"
+    t.boolean "active"
+    t.boolean "modified"
+    t.string "warnings"
+    t.string "reference_str"
+    t.string "previous_version"
+    t.bigint "arrete_id", null: false
+    t.index ["arrete_id"], name: "index_sections_on_arrete_id"
+  end
+
   create_table "task_records", id: false, force: :cascade do |t|
     t.string "version", null: false
   end
@@ -113,4 +126,5 @@ ActiveRecord::Schema.define(version: 2021_03_10_133534) do
   add_foreign_key "classements", "installations"
   add_foreign_key "enriched_arretes", "arretes"
   add_foreign_key "installations", "users"
+  add_foreign_key "sections", "arretes"
 end
