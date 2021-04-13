@@ -10,10 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_13_140648) do
+ActiveRecord::Schema.define(version: 2021_04_13_142419) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "alineas", force: :cascade do |t|
+    t.integer "rank"
+    t.boolean "active"
+    t.string "text"
+    t.jsonb "table"
+    t.bigint "section_id", null: false
+    t.index ["section_id"], name: "index_alineas_on_section_id"
+  end
 
   create_table "aps", force: :cascade do |t|
     t.string "installation_s3ic_id"
@@ -122,6 +131,7 @@ ActiveRecord::Schema.define(version: 2021_04_13_140648) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "alineas", "sections"
   add_foreign_key "aps", "installations"
   add_foreign_key "classements", "installations"
   add_foreign_key "enriched_arretes", "arretes"
