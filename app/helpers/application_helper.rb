@@ -2,7 +2,7 @@
 
 module ApplicationHelper
   def classement_infos(arrete, installation)
-    arrete = Arrete.find(arrete.arrete_id) if arrete.is_a? EnrichedArrete
+    arrete = Arrete.find(arrete.enriched_from_id) unless arrete.enriched_from_id.nil?
 
     classements = arrete.unique_classements.select do |classement|
       installation.classements.pluck(:rubrique, :regime).include?([classement.rubrique, classement.regime])

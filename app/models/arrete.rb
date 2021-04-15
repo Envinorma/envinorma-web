@@ -3,7 +3,6 @@
 class Arrete < ApplicationRecord
   has_many :arretes_unique_classements, dependent: :delete_all
   has_many :unique_classements, through: :arretes_unique_classements
-  has_many :enriched_arretes, dependent: :destroy
 
   validates :data, :summary, :short_title, :title, :cid, :aida_url, :legifrance_url, presence: true
   validates :title, length: { minimum: 10 }
@@ -33,28 +32,16 @@ class Arrete < ApplicationRecord
   end
 
   class << self
-    def validate_then_recreate(arretes_list)
+    def validate_then_recreate(arretes_list, enriched_arretes_files)
       puts 'Seeding arretes...'
       puts '...validating'
       arretes = []
       arretes_list.each do |am|
-        arrete = Arrete.new(
-          data: am,
-          cid: am['id'],
-          short_title: am['short_title'],
-          title: am.dig('title', 'text'),
-          unique_version: am['unique_version'],
-          installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),
-          installation_date_criterion_right: am.dig('installation_date_criterion', 'right_date'),
-          aida_url: am['aida_url'],
-          legifrance_url: am['legifrance_url'],
-          summary: am['summary']
-        )
-        raise "error validations #{arrete.cid} #{arrete.errors.full_messages}" unless arrete.validate
-
-        arretes << arrete
+        arretes << new_arrete(am, nil)
       end
       recreate(arretes)
+
+      create_enriched_arretes(enriched_arretes_files)
     end
 
     private
@@ -76,6 +63,42 @@ class Arrete < ApplicationRecord
         end
       end
       puts "...done. Inserted #{Arrete.count}/#{arretes.length} arretes."
+    end
+
+    def new_arrete(arrete_json, cid_to_arrete_id)
+      arrete = Arrete.new(
+        data: arrete_json,
+        cid: arrete_json['id'],
+        short_title: arrete_json['short_title'],
+        title: arrete_json.dig('title', 'text'),
+        unique_version: arrete_json['unique_version'],
+        installation_date_criterion_left: arrete_json.dig('installation_date_criterion', 'left_date'),
+        installation_date_criterion_right: arrete_json.dig('installation_date_criterion', 'right_date'),
+        aida_url: arrete_json['aida_url'],
+        legifrance_url: arrete_json['legifrance_url'],
+        summary: arrete_json['summary'],
+        enriched_from_id: cid_to_arrete_id.nil? ? nil : cid_to_arrete_id.fetch(arrete_json['id'])
+      )
+      raise "error validations #{arrete.cid} #{arrete.errors.full_messages}" unless arrete.validate
+
+      arrete
+    end
+
+    def create_enriched_arretes(enriched_arretes_files)
+      puts 'Seeding enriched arretes...'
+      cid_to_arrete_id = {}
+      Arrete.all.each do |arrete|
+        cid_to_arrete_id[arrete.cid] = arrete.id
+      end
+      arretes = []
+      enriched_arretes_files.each do |json_file|
+        am = JSON.parse(File.read(json_file))
+        arrete = new_arrete(am, cid_to_arrete_id)
+        arretes << arrete
+      end
+      puts "Found #{enriched_arretes_files.length} enriched arretes."
+      arretes.each(&:save)
+      puts "Inserted #{Arrete.count} arretes in total."
     end
   end
 end

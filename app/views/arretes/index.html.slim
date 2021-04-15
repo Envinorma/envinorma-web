@@ -11,7 +11,7 @@
                 br
                   small
                     => am_classement_infos
-                    - if arrete.is_a? EnrichedArrete
+                    - unless arrete.enriched_from_id.nil?
                       span class="badge badge-success" enrichi
 
       div class="glide__arrows" data-glide-el="controls"
@@ -37,7 +37,7 @@
           - am_short_title = arrete.short_title
           - am_classement_infos = classement_infos(arrete, @installation)
           section id="anchor_#{arrete.id}" class='anchor'
-            - if arrete.is_a? EnrichedArrete
+            - unless arrete.enriched_from_id.nil?
               span class='badge badge-success float-right' enrichi
             h2.display.h1
               = arrete.short_title
