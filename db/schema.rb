@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_13_142419) do
+ActiveRecord::Schema.define(version: 2021_04_13_143103) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -35,7 +35,6 @@ ActiveRecord::Schema.define(version: 2021_04_13_142419) do
 
   create_table "arretes", force: :cascade do |t|
     t.string "name"
-    t.jsonb "data"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "short_title"
@@ -45,8 +44,9 @@ ActiveRecord::Schema.define(version: 2021_04_13_142419) do
     t.string "installation_date_criterion_right"
     t.string "aida_url"
     t.string "legifrance_url"
-    t.jsonb "summary"
     t.string "cid"
+    t.jsonb "classements_with_alineas"
+    t.bigint "enriched_from_id"
   end
 
   create_table "arretes_unique_classements", id: false, force: :cascade do |t|

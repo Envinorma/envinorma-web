@@ -83,7 +83,7 @@
                 = classement_infos(arrete, @installation)
 
         = link_to "Voir les prescriptions pour générer une fiche d'inspection",
-          arretes_path(@installation, arrete_ids: @arretes.pluck(:id), arrete_types: @arretes.map(&:class)),
+          arretes_path(@installation, arrete_ids: @arretes.pluck(:id)),
           class: 'btn btn-primary mb-4 js_loader__link'
 
     .col

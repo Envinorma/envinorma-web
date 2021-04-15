@@ -31,11 +31,9 @@ class InstallationsController < ApplicationController
 
     @arretes = []
     arretes_list.uniq.each do |arrete|
-      @arretes << if arrete.enriched_arretes.any?
-                    filter_arretes(arrete, arrete.enriched_arretes).first
-                  else
-                    arrete
-                  end
+      enriched_arretes = Arrete.where(enriched_from_id: arrete.id)
+      filtered_arretes = filter_arretes(arrete, enriched_arretes, @installation)
+      @arretes << (filtered_arretes.empty? ? arrete : filtered_arretes.first)
     end
   end
 

@@ -3,15 +3,15 @@
     .glide
       div class="glide__track" data-glide-el="track"
         ul.glide__slides
-          - @arretes.each do |arrete|
-            - am_classement_infos = classement_infos(arrete, @installation)
+          - @arretes.each_with_index do |arrete, index|
+            - am_classement_infos = @all_classement_infos[index]
             li.glide__slide
               a href="#anchor_#{arrete.id}"
                 => arrete.short_title
                 br
                   small
                     => am_classement_infos
-                    - if arrete.is_a? EnrichedArrete
+                    - if !arrete.enriched_from_id.nil?
                       span class="badge badge-success" enrichi
 
       div class="glide__arrows" data-glide-el="controls"
@@ -27,15 +27,15 @@
         dl.summary
           - @arretes.each do |arrete|
             .display-summary id="anchor_#{arrete.id}_summary" class='anchor'
-              - arrete.summary['elements'].each do |summary_item|
+              - arrete.sections.each do |section|
                 dd
-                  a class="level_#{summary_item['depth']}" href="#anchor_#{summary_item['section_id']}"
-                    = summary_item['section_title']
+                  a class="level_#{section.level}" href="#anchor_#{section.id}"
+                    = truncate(section.title, length: 80, omission: '[...]')
 
       .col-10
-        - @arretes.each do |arrete|
+        - @arretes.each_with_index do |arrete, arrete_index|
           - am_short_title = arrete.short_title
-          - am_classement_infos = classement_infos(arrete, @installation)
+          - am_classement_infos = @all_classement_infos[arrete_index]
           section id="anchor_#{arrete.id}" class='anchor'
             - if arrete.is_a? EnrichedArrete
               span class='badge badge-success float-right' enrichi
@@ -50,81 +50,55 @@
               = link_to 'Consulter sur Aida', arrete.aida_url, target: '_blank'
               = link_to 'Consulter sur Légifrance', arrete.legifrance_url, target: '_blank', class: 'ml-3'
 
-            - arrete.data.sections.each do |section|
-              - extract_sections = lambda do |subsection, level = 3|
-
-                div id="anchor_#{subsection.id}" class='anchor anchor-summary'
-
-                  / display title
-                  - if subsection.applicability.active
-                    - if subsection.outer_alineas.present?
-                      - secure_id = SecureRandom.hex(10)
-                      *{ tag: "h#{level}",
-                        class: 'icon-collapse',
-                        data: { toggle: 'collapse', target: "#collapse_#{secure_id}" } }
-                        = subsection.title.text
-
-                    - else
-                      *{ tag: "h#{level}" } = subsection.title.text
-
-                  / display inactive title
+            - arrete.sections.each do |section|
+              - alineas = section.alineas
+              div id="anchor_#{section.id}" class='anchor anchor-summary'
+                / display title
+                div class=('inactive' if !section.active)
+                  - if alineas.present?
+                    *{ tag: "h#{section.level + 2}",
+                      class: 'icon-collapse',
+                      data: { toggle: 'collapse', target: "#collapse_#{section.id}" } }
+                      = section.title
                   - else
-                    .inactive
-                      - if subsection.outer_alineas.present?
-                        - secure_id = SecureRandom.hex(10)
-                        *{ tag: "h#{level}",
-                          class: 'icon-collapse',
-                          data: { toggle: 'collapse', target: "#collapse_#{secure_id}" } }
-                          = subsection.title.text
-                      - else
-                        *{ tag: "h#{level}" } = subsection.title.text
+                    *{ tag: "h#{section.level + 2}" } = section.title
 
-                  / display warning
-                  - subsection.applicability.warnings.each do |warning|
-                    .alert.alert-secondary
-                      p = warning
+                / display warning
+                - if section.warnings?
+                    p.alert.alert-secondary
+                      = section.warnings.gsub(/\n/, '<br/>').html_safe 
 
-                  / display outeralineas
-                  - if subsection.outer_alineas.present?
-                    .collapse.show id="collapse_#{secure_id}"
+                / display outeralineas
+                - if alineas.present?
+                  .collapse.show id="collapse_#{section.id}"
 
-                      / display button and collapse original text version if modified
-                      - if subsection.applicability.modified
-                        small
-                          .border-bottom.mb-3.pb-3
-                            *{ tag: "a href='#'",
-                              class: 'icon-collapse icon-collapse-mini',
-                              data: { toggle: 'collapse', target: "#modified_collapse_#{secure_id}" } }
-                              | voir le texte d'origine
-
-                            .inactive
-                              .collapse id="modified_collapse_#{secure_id}"
-                                = render partial: 'outer_alineas',
-                                  locals: { subsection: subsection.applicability.previous_version,
-                                            level: level,
-                                            secure_id: secure_id,
-                                            ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}" }
-
-                      / display select_all checkbox
-                      - if subsection.applicability.active && subsection.outer_alineas.count > 1
+                    / display button and collapse original text version if modified
+                    - if section.modified
+                      small
                         .border-bottom.mb-3.pb-3
-                          .form-group.row
-                              .col-sm-12
-                                .form-check
-                                  = check_box_tag "select_all_#{secure_id}",
-                                    '1', false, class: 'form-check-input select_all'
+                          *{ tag: "a href='#'",
+                            class: 'icon-collapse icon-collapse-mini',
+                            data: { toggle: 'collapse', target: "#modified_collapse_#{section.id}" } }
+                            | voir le texte d'origine
 
-                      = render partial: 'outer_alineas',
-                        locals: { subsection: subsection,
-                                  level: level,
-                                  secure_id: secure_id,
-                                  ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}" }
+                          .inactive
+                            .collapse id="modified_collapse_#{section.id}"
+                              p
+                                = section.previous_version.gsub(/\n/, '<br/>').html_safe
 
-                / iterate on sections and increment level
-                - subsection.sections.each do |item|
-                  - extract_sections.call(item, level + 1)
+                    / display select_all checkbox
+                    - if section.active && alineas.length > 1
+                      .border-bottom.mb-3.pb-3
+                        .form-group.row
+                            .col-sm-12
+                              .form-check
+                                = check_box_tag "select_all_#{section.id}",
+                                  '1', false, class: 'form-check-input select_all'
 
-              - extract_sections.call(section)
+                    = render partial: 'outer_alineas',
+                      locals: { alineas: alineas,
+                                section_id: section.id,
+                                ref: "#{am_short_title} #{am_classement_infos} - #{section.reference_str}" }
 
           hr.mb-5.mt-5
 

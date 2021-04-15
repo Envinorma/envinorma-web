@@ -3,10 +3,9 @@
 class Arrete < ApplicationRecord
   has_many :arretes_unique_classements, dependent: :delete_all
   has_many :unique_classements, through: :arretes_unique_classements
-  has_many :enriched_arretes, dependent: :destroy
   has_many :sections, dependent: :destroy
 
-  validates :data, :summary, :short_title, :title, :cid, :aida_url, :legifrance_url, presence: true
+  validates :short_title, :title, :cid, :aida_url, :legifrance_url, :classements_with_alineas, presence: true
   validates :title, length: { minimum: 10 }
   validates :short_title, format: { with: /\AArrêté du .* [0-9]{4}\z/,
                                     message: 'has wrong format.' }
@@ -29,7 +28,7 @@ class Arrete < ApplicationRecord
   validates :legifrance_url,
             format: { with: %r{\Ahttps://www\.legifrance\.gouv\.fr/loda/id/.*\z} }
 
-  def data
+  def classements_with_alineas
     JSON.parse(super.to_json, object_class: OpenStruct)
   end
 
@@ -38,18 +37,19 @@ class Arrete < ApplicationRecord
       puts 'Seeding arretes...'
       puts '...validating'
       arretes = []
-      arretes_list.each do |am|
+      arretes_list.each do |arrete_raw|
         arrete = Arrete.new(
-          data: am,
-          cid: am['id'],
-          short_title: am['short_title'],
-          title: am.dig('title', 'text'),
-          unique_version: am['unique_version'],
-          installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),
-          installation_date_criterion_right: am.dig('installation_date_criterion', 'right_date'),
-          aida_url: am['aida_url'],
-          legifrance_url: am['legifrance_url'],
-          summary: am['summary']
+          id: arrete_raw['id'],
+          cid: arrete_raw['cid'],
+          short_title: arrete_raw['short_title'],
+          title: arrete_raw['title'],
+          unique_version: arrete_raw['unique_version'] == 'True',
+          installation_date_criterion_left: arrete_raw['installation_date_criterion_left'],
+          installation_date_criterion_right: arrete_raw['installation_date_criterion_right'],
+          classements_with_alineas: JSON.parse(arrete_raw['classements_with_alineas']),
+          aida_url: arrete_raw['aida_url'],
+          legifrance_url: arrete_raw['legifrance_url'],
+          enriched_from_id: arrete_raw['enriched_from_id']
         )
         raise "error validations #{arrete.cid} #{arrete.errors.full_messages}" unless arrete.validate
 
@@ -69,14 +69,17 @@ class Arrete < ApplicationRecord
       arretes.each do |arrete|
         arrete.save
 
-        arrete.data.classements_with_alineas.each do |arrete_classement|
+        next unless arrete.enriched_from_id.nil?
+
+        arrete.classements_with_alineas.each do |arrete_classement|
           classements = UniqueClassement.where(rubrique: arrete_classement.rubrique, regime: arrete_classement.regime)
           classements.each do |classement|
             ArretesUniqueClassement.create(arrete_id: arrete.id, unique_classement_id: classement.id)
           end
         end
       end
-      puts "...done. Inserted #{Arrete.count}/#{arretes.length} arretes."
+      puts "...done. Inserted #{Arrete.count}/#{arretes.length} arretes and #{ArretesUniqueClassement.count} "\
+           'unique classements.'
     end
   end
 end

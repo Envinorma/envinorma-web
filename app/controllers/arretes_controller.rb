@@ -6,8 +6,11 @@ class ArretesController < ApplicationController
 
   def index
     @arretes = []
-    params['arrete_types'].each_with_index do |type, index|
-      @arretes << type.constantize.find(params['arrete_ids'][index])
+    @all_classement_infos = []
+    params['arrete_ids'].each do |arrete_id|
+      arrete = Arrete.includes(sections: :alineas).find(arrete_id)
+      @arretes << arrete
+      @all_classement_infos << helpers.classement_infos(arrete, @installation)
     end
   end
 
