@@ -12,6 +12,10 @@ module DownloadHelpers
     Dir[PATH.join('*')]
   end
 
+  def output
+    Dir[PATH.join('*')]
+  end
+
   def download
     downloads.first
   end
@@ -37,6 +41,7 @@ module DownloadHelpers
 
   def clear_downloads
     FileUtils.rm_f(downloads)
+    FileUtils.rm_r(output)
   end
 
   INPUT_FILE = Rails.root.join('tmp/downloads/fiche_inspection.odt')

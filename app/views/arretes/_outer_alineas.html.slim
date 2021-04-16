@@ -15,7 +15,7 @@
 
   - if outer_alinea.table
     table.table.table-bordered
-      - outer_alinea.table.rows.each do |row|
+      - outer_alinea.table.rows.each_with_index do |row, index|
         - alinea_id = outer_alinea.id
         - if row.is_header
           tr
@@ -26,13 +26,13 @@
         - else
           tr
             td
-                = check_box_tag "prescriptions[#{alinea_id}][checkbox]",
+                = check_box_tag "prescriptions[#{alinea_id}_#{index}][checkbox]",
                   '1', false, class: "form-check-input select_all_#{subsection_id}"
 
-                = hidden_field_tag "prescriptions[#{alinea_id}][reference]", ref
-                = hidden_field_tag "prescriptions[#{alinea_id}][content]", row.text_in_inspection_sheet
+                = hidden_field_tag "prescriptions[#{alinea_id}_#{index}][reference]", ref
+                = hidden_field_tag "prescriptions[#{alinea_id}_#{index}][content]", row.text_in_inspection_sheet
 
             - row.cells.each do |cell|
               td colspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
-                = label_tag("prescriptions[#{alinea_id}][checkbox]",
+                = label_tag("prescriptions[#{alinea_id}_#{index}][checkbox]",
                   cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe)
