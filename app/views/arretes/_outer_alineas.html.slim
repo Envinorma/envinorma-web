@@ -1,22 +1,22 @@
 - subsection.outer_alineas.each do |outer_alinea|
   - if outer_alinea.text != ''
-    - secure_id_checkbox = SecureRandom.hex(10)
+    - alinea_id = outer_alinea.id
     .form-group.row
         .col-sm-12
           .form-check.checkbox-arrete
-            = check_box_tag "prescriptions[#{secure_id_checkbox}][checkbox]",
-              '1', false, class: "form-check-input select_all_#{secure_id}"
+            = check_box_tag "prescriptions[#{alinea_id}][checkbox]",
+              '1', false, class: "form-check-input select_all_#{subsection_id}"
             - if outer_alinea.active
-              = label_tag "prescriptions[#{secure_id_checkbox}][checkbox]", outer_alinea.text
+              = label_tag "prescriptions[#{alinea_id}][checkbox]", outer_alinea.text
             - else
-              = label_tag "prescriptions[#{secure_id_checkbox}][checkbox]", outer_alinea.text, class: 'inactive'
-            = hidden_field_tag "prescriptions[#{secure_id_checkbox}][reference]", ref
-            = hidden_field_tag "prescriptions[#{secure_id_checkbox}][content]", outer_alinea.text
+              = label_tag "prescriptions[#{alinea_id}][checkbox]", outer_alinea.text, class: 'inactive'
+            = hidden_field_tag "prescriptions[#{alinea_id}][reference]", ref
+            = hidden_field_tag "prescriptions[#{alinea_id}][content]", outer_alinea.text
 
   - if outer_alinea.table
     table.table.table-bordered
       - outer_alinea.table.rows.each do |row|
-        - secure_id_checkbox = SecureRandom.hex(10)
+        - alinea_id = outer_alinea.id
         - if row.is_header
           tr
             th
@@ -26,13 +26,13 @@
         - else
           tr
             td
-                = check_box_tag "prescriptions[#{secure_id_checkbox}][checkbox]",
-                  '1', false, class: "form-check-input select_all_#{secure_id}"
+                = check_box_tag "prescriptions[#{alinea_id}][checkbox]",
+                  '1', false, class: "form-check-input select_all_#{subsection_id}"
 
-                = hidden_field_tag "prescriptions[#{secure_id_checkbox}][reference]", ref
-                = hidden_field_tag "prescriptions[#{secure_id_checkbox}][content]", row.text_in_inspection_sheet
+                = hidden_field_tag "prescriptions[#{alinea_id}][reference]", ref
+                = hidden_field_tag "prescriptions[#{alinea_id}][content]", row.text_in_inspection_sheet
 
             - row.cells.each do |cell|
               td colspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
-                = label_tag("prescriptions[#{secure_id_checkbox}][checkbox]",
+                = label_tag("prescriptions[#{alinea_id}][checkbox]",
                   cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe)
