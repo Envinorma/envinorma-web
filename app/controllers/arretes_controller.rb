@@ -6,8 +6,8 @@ class ArretesController < ApplicationController
 
   def index
     @arretes = []
-    params['arrete_types'].each_with_index do |type, index|
-      @arretes << type.constantize.find(params['arrete_ids'][index])
+    params['arrete_ids'].each do |arrete_id|
+      @arretes << Arrete.find(arrete_id)
     end
   end
 
