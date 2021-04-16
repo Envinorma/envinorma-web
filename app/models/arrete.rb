@@ -31,6 +31,14 @@ class Arrete < ApplicationRecord
     JSON.parse(super.to_json, object_class: OpenStruct)
   end
 
+  def classements_with_alineas
+    JSON.parse(super.to_json, object_class: OpenStruct)
+  end
+
+  def enriched?
+    !enriched_from_id.nil?
+  end
+
   class << self
     def validate_then_recreate(arretes_list, enriched_arretes_files)
       puts 'Seeding arretes...'
@@ -55,7 +63,7 @@ class Arrete < ApplicationRecord
       arretes.each do |arrete|
         arrete.save
 
-        arrete.data.classements_with_alineas.each do |arrete_classement|
+        arrete.classements_with_alineas.each do |arrete_classement|
           classements = UniqueClassement.where(rubrique: arrete_classement.rubrique, regime: arrete_classement.regime)
           classements.each do |classement|
             ArretesUniqueClassement.create(arrete_id: arrete.id, unique_classement_id: classement.id)
@@ -71,6 +79,7 @@ class Arrete < ApplicationRecord
         cid: arrete_json['id'],
         short_title: arrete_json['short_title'],
         title: arrete_json.dig('title', 'text'),
+        classements_with_alineas: arrete_json['classements_with_alineas'],
         unique_version: arrete_json['unique_version'],
         installation_date_criterion_left: arrete_json.dig('installation_date_criterion', 'left_date'),
         installation_date_criterion_right: arrete_json.dig('installation_date_criterion', 'right_date'),
