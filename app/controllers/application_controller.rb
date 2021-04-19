@@ -2,6 +2,7 @@
 
 class ApplicationController < ActionController::Base
   before_action :set_user_if_needed
+  before_action :create_guest_if_needed
 
   private
 
