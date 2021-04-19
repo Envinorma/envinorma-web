@@ -8,7 +8,11 @@ Rails.application.routes.draw do
     resources :classements
   end
   get '/installations/:id/arretes', to: 'arretes#index', as: 'arretes'
-  post '/installations/:id/arretes', to: 'arretes#generate_doc_with_prescriptions', as: 'generate_doc'
+  # post '/installations/:id/arretes', to: 'arretes#generate_doc_with_prescriptions', as: 'generate_doc'
+
+  post '/prescriptions', to: 'prescriptions#add_prescription', format: :json
+  delete '/prescriptions', to: 'prescriptions#remove_prescription', format: :json
+
   get '/user', to: 'users#show'
 
   get '/pages/:page' => 'pages#show', as: 'page'
