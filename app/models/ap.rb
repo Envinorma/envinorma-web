@@ -8,6 +8,10 @@ class AP < ApplicationRecord
   validates :installation_s3ic_id, format: { with: /\A([0-9]{4}\.[0-9]{5})\z/,
                                              message: 'check s3ic_id format' }
 
+  def title
+    "#{description} - #{date}"
+  end
+
   class << self
     def validate_then_recreate(aps_list)
       puts 'Seeding AP...'

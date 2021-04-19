@@ -82,10 +82,6 @@
               span.text-secondary
                 = classement_infos(arrete, @installation)
 
-        = link_to "Voir les prescriptions pour générer une fiche d'inspection",
-          arretes_path(@installation, arrete_ids: @arretes.pluck(:id)),
-          class: 'btn btn-primary mb-4 js_loader__link'
-
     .col
       h2.mt-5 Arrêtés préfectoraux associés
       - if @aps.empty?
@@ -93,4 +89,10 @@
       - else
         ul.list-unstyled
           - @aps.each do |ap|
-            li = link_to "#{ap.description} - #{ap.date}", ap.url, target: '_blank'
+            li = ap.title
+
+  hr.mb-5.mt-5
+  - if @arretes.any? || @aps.any?
+      = link_to "Voir les prescriptions pour générer une fiche d'inspection",
+            arretes_path(@installation, arrete_ids: @arretes.pluck(:id)),
+            class: 'btn btn-primary mb-4 js_loader__link btn-fixed-bottom'
