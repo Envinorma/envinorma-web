@@ -6,9 +6,12 @@ class ArretesController < ApplicationController
 
   def index
     @arretes = []
-    params['arrete_ids'].each do |arrete_id|
+    params['arrete_ids']&.each do |arrete_id|
       @arretes << Arrete.find(arrete_id)
     end
+
+    @prescription = Prescription.new
+    @aps = @installation.retrieve_aps
   end
 
   def generate_doc_with_prescriptions

@@ -20,7 +20,7 @@ class InstallationsController < ApplicationController
   end
 
   def show
-    set_aps
+    @aps = @installation.retrieve_aps
 
     @classements = @installation.classements.sort_by do |classement|
       classement.regime.present? ? REGIMES[classement.regime.to_sym] : REGIMES[:empty]
@@ -100,14 +100,6 @@ class InstallationsController < ApplicationController
 
   def set_installation
     @installation = Installation.find(params[:id])
-  end
-
-  def set_aps
-    @aps = if @installation.duplicated_from_id?
-             Installation.find(@installation.duplicated_from_id).APs
-           else
-             @installation.APs
-           end
   end
 
   def get_unique_classements_from(classements)

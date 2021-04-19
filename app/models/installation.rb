@@ -11,6 +11,14 @@ class Installation < ApplicationRecord
   validates :s3ic_id, format: { with: /\A([0-9]{4}\.[0-9]{5})\z/,
                                 message: 'check s3ic_id format' }
 
+  def retrieve_aps
+    if duplicated_from_id?
+      Installation.find(duplicated_from_id).APs
+    else
+      self.APs
+    end
+  end
+
   scope :not_attached_to_user, -> { where(user: nil) }
   class << self
     def validate_then_recreate(installations_list)
