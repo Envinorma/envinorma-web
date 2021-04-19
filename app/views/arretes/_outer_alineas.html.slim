@@ -5,7 +5,8 @@
         .col-sm-12
           .form-check.checkbox-arrete
             = check_box_tag "prescriptions[#{alinea_id}][checkbox]",
-              '1', false, class: "form-check-input select_all_#{subsection_id}"
+              '1', @user.prescription_checked?(alinea_id),
+              class: "form-check-input select_all_#{subsection_id}"
             - if outer_alinea.active
               = label_tag "prescriptions[#{alinea_id}][checkbox]", outer_alinea.text
             - else
@@ -27,7 +28,8 @@
           tr
             td
                 = check_box_tag "prescriptions[#{alinea_id}_#{index}][checkbox]",
-                  '1', false, class: "form-check-input select_all_#{subsection_id}"
+                  '1', @user.prescription_checked?("#{alinea_id}_#{index}"),
+                  class: "form-check-input select_all_#{subsection_id}"
 
                 = hidden_field_tag "prescriptions[#{alinea_id}_#{index}][reference]", ref
                 = hidden_field_tag "prescriptions[#{alinea_id}_#{index}][content]", row.text_in_inspection_sheet
