@@ -1,12 +1,40 @@
 const _ = require("underscore");
 
-const renderPrescription = ({ content }) => {
-  return "<p>" + content + "</p>";
+const uncheckCheckbox = (prescriptionId) => {
+  const event = new Event("change");
+  const checkbox = document.querySelector(
+    `#prescriptions_${prescriptionId}_checkbox`
+  );
+  checkbox.checked = false;
+  checkbox.dispatchEvent(event);
+};
+
+const buildElement = (tag, ...children) => {
+  var element = document.createElement(tag);
+  element.append(...children);
+  return element;
+};
+
+const deleteButton = (prescriptionId) => {
+  var button = buildElement("button", "supprimer");
+  button.className = "btn btn-link";
+  button.addEventListener("click", () => {
+    uncheckCheckbox(prescriptionId);
+  });
+  return button;
+};
+
+const renderPrescription = ({ content, id }) => {
+  return buildElement("div", content, deleteButton(id));
 };
 
 const renderSectionsPrescription = (prescriptions, reference) => {
-  const prescriptionGroup = _.map(prescriptions, renderPrescription).join("");
-  return "<h5>" + reference + "</h5>" + prescriptionGroup;
+  const prescription_nodes = _.map(prescriptions, renderPrescription);
+  return buildElement(
+    "div",
+    buildElement("h5", reference),
+    ...prescription_nodes
+  );
 };
 
 const renderAMPrescriptions = (prescriptions) => {
@@ -16,21 +44,21 @@ const renderAMPrescriptions = (prescriptions) => {
   });
   const prescriptionGroups = _.map(groups, (group, reference) => {
     return renderSectionsPrescription(group, reference);
-  }).join("");
-  return "<h4>" + amRef + "</h4>" + prescriptionGroups;
+  });
+  return buildElement("div", buildElement("h4", amRef), ...prescriptionGroups);
 };
 
 const renderRecap = (prescriptions) => {
   groups = _.groupBy(prescriptions, (prescription) => {
     return prescription.amId;
   });
-  return _.map(groups, renderAMPrescriptions).join("");
+  return buildElement("div", ..._.map(groups, renderAMPrescriptions));
 };
 
 const writeRecap = (newPrescriptions) => {
-  document.querySelector("#prescriptions_recap").innerHTML = renderRecap(
-    newPrescriptions
-  );
+  var recap = document.querySelector("#prescriptions_recap");
+  recap.innerHTML = "";
+  recap.append(renderRecap(newPrescriptions));
 };
 
 const updatePrescriptionRecap = () => {
@@ -62,6 +90,7 @@ const persistSelectAllCheckboxChanges = (selectAllCheckbox) => {
 
 window.addEventListener("load", () => {
   updatePrescriptionRecap();
+
   const checkboxes = document.querySelectorAll(".alineas_checkbox");
   _.map(checkboxes, (checkbox) => {
     checkbox.addEventListener("change", updatePrescriptionRecap);
