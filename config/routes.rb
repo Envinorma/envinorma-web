@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get '/installations/:id/arretes', to: 'arretes#index', as: 'arretes'
   # post '/installations/:id/arretes', to: 'arretes#generate_doc_with_prescriptions', as: 'generate_doc'
 
+  resources :prescriptions
   post '/prescriptions', to: 'prescriptions#add_prescription', format: :json
   delete '/prescriptions', to: 'prescriptions#remove_prescription', format: :json
 

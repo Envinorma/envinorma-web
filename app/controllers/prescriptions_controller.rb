@@ -1,6 +1,18 @@
 # frozen_string_literal: true
 
 class PrescriptionsController < ApplicationController
+
+  def create
+    @prescription = Prescription.create(prescription_params)
+
+    if @prescription.save
+      respond_to do |format|
+        format.js
+        format.json { render json: @prescription, status: :created}
+      end
+    end
+  end
+
   def add_prescription
     puts ''
     puts 'ADD'
@@ -36,5 +48,10 @@ class PrescriptionsController < ApplicationController
     respond_to do |format|
       format.json { render json: @params }
     end
+  end
+
+  private
+  def prescription_params
+    params.require(:prescription).permit(:reference, :content, :alinea_id, :from_am_id, :user_id)
   end
 end

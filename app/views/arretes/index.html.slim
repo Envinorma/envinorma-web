@@ -142,7 +142,7 @@
         section id="anchor_ap_#{ap.id}" class='anchor'
           .row
             .col-3
-              = simple_form_for @prescription do |f|
+              = simple_form_for @prescription, remote: true do |f|
                 .row
                   .col-12
                     = f.input :reference
@@ -161,3 +161,6 @@
   .col-3.offset-9.summary
     h4 Prescriptions à exporter
     div#prescriptions_recap Aucune prescription sélectionnée
+    hr
+    div#prescriptions_ap
+      = render partial: './prescriptions/prescription', collection: @prescriptions
