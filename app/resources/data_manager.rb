@@ -10,6 +10,10 @@ class DataManager
     classements_list = parse_seed_csv('classements_all.csv')
     Classement.validate_then_recreate(classements_list)
 
+    seed_aps
+  end
+
+  def self.seed_aps
     aps_list = parse_seed_csv('aps_all.csv')
     AP.validate_then_recreate(aps_list)
   end

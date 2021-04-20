@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var peekBefore = 0
     var peekAfter = 100
 
-    if (numberOfArretes < 5) {
+    if (numberOfArretes <= 5) {
       slidesPerView = numberOfArretes;
       rightArrowClasses.add('invisible');
 

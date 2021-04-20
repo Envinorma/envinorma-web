@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_15_151820) do
+ActiveRecord::Schema.define(version: 2021_04_20_145441) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2021_04_15_151820) do
     t.string "installation_s3ic_id"
     t.string "description"
     t.date "date"
-    t.string "url"
+    t.string "georisques_id"
     t.bigint "installation_id", null: false
     t.index ["installation_id"], name: "index_aps_on_installation_id"
   end

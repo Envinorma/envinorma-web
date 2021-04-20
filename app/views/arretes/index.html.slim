@@ -142,6 +142,7 @@
         section id="anchor_ap_#{ap.id}" class='anchor'
           .row
             .col-3
+              h5 = ap.title
               = simple_form_for @prescription, remote: true do |f|
                 .row
                   .col-12
@@ -153,10 +154,9 @@
 
                 = f.button :submit, 'ajouter une prescription', class: 'btn btn-primary'
             .col-6
-              h2.display.h1
-                = ap.title
+              object data="https://storage.sbg.cloud.ovh.net/v1/AUTH_3287ea227a904f04ad4e8bceb0776108/ap/#{ap.georisques_id.gsub('/', '_')}.pdf" type="image/svg+xml" class="pdf_viewer"
 
-              p = ap.description
+        hr.mb-5.mt-5
 
   .col-3.offset-9.summary
     h4 Prescriptions à exporter
