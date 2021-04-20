@@ -1,2 +1,13 @@
 var prescriptions = document.querySelector("#prescriptions_ap");
+var reference_inputs = document.querySelectorAll(".prescription_reference input");
+var content_inputs = document.querySelectorAll(".prescription_content textarea");
+
 prescriptions.insertAdjacentHTML("beforeend", "<%= j render(@prescription) %>");
+
+for (const reference_input of reference_inputs) {
+  reference_input.value = ""
+}
+
+for (const content_input of content_inputs) {
+  content_input.value = ""
+}

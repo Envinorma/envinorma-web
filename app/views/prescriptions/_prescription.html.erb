@@ -1,1 +1,4 @@
-<p><%= prescription.content %></p>
+<div class='<%= "prescription_#{prescription.id}" %>' >
+  <p><%= prescription.content %></p>
+  <%= link_to "Supprimer", prescription, remote: true, method: :delete %>
+</div>

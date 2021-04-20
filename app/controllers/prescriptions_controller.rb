@@ -13,6 +13,16 @@ class PrescriptionsController < ApplicationController
     end
   end
 
+  def destroy
+    @prescription = Prescription.find(params[:id])
+    if @prescription.destroy
+      respond_to do |format|
+        format.js
+        format.json { render json: @prescription, status: :deleted}
+      end
+    end
+  end
+
   def add_prescription
     puts ''
     puts 'ADD'
