@@ -92,9 +92,8 @@ class InstallationsController < ApplicationController
   end
 
   def search
-    q = params[:q].downcase
-    @installations = Installation.where('name ILIKE ? or s3ic_id ILIKE ?', "%#{q}%",
-                                        "%#{q}%").not_attached_to_user.limit(10)
+    args = helpers.build_query(params[:q])
+    @installations = Installation.where(args).not_attached_to_user.limit(10)
   end
 
   private
