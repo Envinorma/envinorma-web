@@ -164,3 +164,6 @@
     hr
     div#prescriptions_ap
       = render partial: './prescriptions/prescription', collection: @prescriptions
+
+
+= link_to "Générer une fiche d'inspection", generate_doc_path, :method => :post, class: 'btn btn-primary btn-fixed-bottom'

@@ -16,14 +16,23 @@ class ArretesController < ApplicationController
   end
 
   def generate_doc_with_prescriptions
-    prescriptions = {}
-    prescriptions_params.to_h.each do |key, val|
-      prescriptions[key] = { ref: val['reference'], value: helpers.sanitize(val['content']) } if val['checkbox'] == '1'
+    prescriptions_array_of_hashes = []
+
+    @user.prescriptions.each do |prescription|
+      prescriptions_array_of_hashes << { prescription.reference => prescription.content }
     end
 
-    prescriptions_joined_by_ref = merge_prescriptions_with_same_ref(prescriptions)
+    prescriptions_joined_by_key = {}
 
-    generate_doc(prescriptions_joined_by_ref)
+    prescriptions_array_of_hashes.each do |prescription|
+      if prescriptions_joined_by_key.key?(prescription.keys.first)
+        prescriptions_joined_by_key[prescription.keys.first] += '<text:line-break/><text:line-break/>' + prescription.values.first
+      else
+        prescriptions_joined_by_key.merge!({ prescription.keys.first => prescription.values.first })
+      end
+    end
+
+    generate_doc(prescriptions_joined_by_key)
   end
 
   private

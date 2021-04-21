@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 class PrescriptionsController < ApplicationController
-
   def create
     if params[:amId]
       prescription = Prescription.where(alinea_id: params['id'], user_id: params['userId']).first

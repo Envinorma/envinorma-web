@@ -23,7 +23,7 @@ RSpec.describe 'Feature tests end to end', js: true do
     expect(page).to have_content('Arrêté du 9 avril 2019')
     find('.select_all', match: :first).click
     find('label', text: '500 mg/m3').click
-    click_button("Générer une fiche d'inspection")
+    click_link("Générer une fiche d'inspection")
 
     expect(page).to have_content('Arrêté du 9 avril 2019')
     expect(DownloadHelpers.download_content).to have_content "les dispositions du présent arrêté s'appliquent"
