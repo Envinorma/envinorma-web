@@ -10,9 +10,11 @@ class PrescriptionsController < ApplicationController
           content: params['content'],
           alinea_id: params['id'],
           from_am_id: params['amId'],
+          text_reference: params['amRef'],
+          rank: params['rank'],
           user_id: params['userId']
         )
-        saved = prescription.save
+        prescription.save
       end
 
       respond_to do |format|
@@ -25,7 +27,7 @@ class PrescriptionsController < ApplicationController
       if @prescription.save
         respond_to do |format|
           format.js
-          format.json { render json: @prescription, status: :created}
+          format.json { render json: @prescription, status: :created }
         end
       end
     end
@@ -36,7 +38,7 @@ class PrescriptionsController < ApplicationController
     if @prescription.destroy
       respond_to do |format|
         format.js
-        format.json { render json: @prescription, status: :deleted}
+        format.json { render json: @prescription, status: :deleted }
       end
     end
   end
@@ -50,7 +52,8 @@ class PrescriptionsController < ApplicationController
   end
 
   private
+
   def prescription_params
-    params.require(:prescription).permit(:reference, :content, :alinea_id, :from_am_id, :user_id)
+    params.require(:prescription).permit(:reference, :content, :alinea_id, :from_am_id, :user_id, :text_reference)
   end
 end

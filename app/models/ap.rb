@@ -6,13 +6,17 @@ class AP < ApplicationRecord
   validates :georisques_id, :installation_id, :installation_s3ic_id, presence: true
   validates :georisques_id, length: { is: 36 }
   validates :georisques_id, format: { with: %r{\A([A-Z]{1}/[a-f0-9]{1}/[a-f0-9]{32})\z},
-                                        message: 'check georisques_id format' }
+                                      message: 'check georisques_id format' }
 
   validates :installation_s3ic_id, format: { with: /\A([0-9]{4}\.[0-9]{5})\z/,
                                              message: 'check s3ic_id format' }
 
   def title
     "#{description} - #{date}"
+  end
+
+  def reference
+    "AP - #{date}"
   end
 
   class << self

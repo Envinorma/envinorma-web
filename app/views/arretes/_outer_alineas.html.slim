@@ -1,7 +1,7 @@
-- subsection.outer_alineas.each do |outer_alinea|
+- subsection.outer_alineas.each_with_index do |outer_alinea, alinea_index|
   - alinea_id = outer_alinea.id
   - alinea_data = { content: outer_alinea.text,
-    reference: ref, id: alinea_id, am_id: am_id, user_id: @user.id, am_ref: am_ref }
+    reference: ref, id: alinea_id, am_id: am_id, user_id: @user.id, am_ref: am_ref, rank: "#{alinea_index}" }
   - if outer_alinea.text != ''
     .form-group.row
         .col-sm-12
@@ -27,6 +27,7 @@
         - else
           - alinea_data[:id] = "#{alinea_id}_#{index}"
           - alinea_data[:content] = row.text_in_inspection_sheet
+          - alinea_data[:rank] = "#{alinea_index}.#{index}" 
           tr
             td
                 = check_box_tag "prescriptions[#{alinea_id}_#{index}][checkbox]",

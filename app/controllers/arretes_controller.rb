@@ -16,23 +16,8 @@ class ArretesController < ApplicationController
   end
 
   def generate_doc_with_prescriptions
-    prescriptions_array_of_hashes = []
-
-    @user.prescriptions.each do |prescription|
-      prescriptions_array_of_hashes << { prescription.reference => prescription.content }
-    end
-
-    prescriptions_joined_by_key = {}
-
-    prescriptions_array_of_hashes.each do |prescription|
-      if prescriptions_joined_by_key.key?(prescription.keys.first)
-        prescriptions_joined_by_key[prescription.keys.first] += '<text:line-break/><text:line-break/>' + prescription.values.first
-      else
-        prescriptions_joined_by_key.merge!({ prescription.keys.first => prescription.values.first })
-      end
-    end
-
-    generate_doc(prescriptions_joined_by_key)
+    groups = helpers.merge_prescriptions_with_same_ref(@user.prescriptions)
+    generate_doc(groups)
   end
 
   private
@@ -43,16 +28,6 @@ class ArretesController < ApplicationController
 
   def prescriptions_params
     params['prescriptions'].permit!
-  end
-
-  def merge_prescriptions_with_same_ref(prescriptions)
-    prescriptions_joined_by_ref = {}
-    prescriptions.group_by { |_k, v| v[:ref] }.each do |key, value|
-      prescriptions_joined_by_ref[key] = value.map! do |val|
-        val.last[:value]
-      end.join('<text:line-break/><text:line-break/>')
-    end
-    prescriptions_joined_by_ref
   end
 
   def generate_doc(prescriptions)

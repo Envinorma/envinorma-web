@@ -151,6 +151,7 @@
                     = f.input :content, as: :text
 
                   = f.hidden_field :user_id, value: @user.id
+                  = f.hidden_field :text_reference, value: ap.reference
 
                 = f.button :submit, 'ajouter une prescription', class: 'btn btn-primary'
             .col-6
