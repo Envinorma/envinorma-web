@@ -24,8 +24,23 @@ const deleteButton = (prescriptionId) => {
   return button;
 };
 
+var buildContent = (raw_content) => {
+  const content = _.reduce(
+    raw_content.split("\n"),
+    (memo, string) => {
+      return memo.concat(memo.length ? [buildElement("br"), string] : [string]);
+    },
+    []
+  );
+  return buildElement("p", ...content);
+};
+
 const renderPrescription = ({ content, id }) => {
-  return buildElement("div", buildElement("p", content), buildElement("p", deleteButton(id)));
+  return buildElement(
+    "div",
+    buildContent(content),
+    buildElement("p", deleteButton(id))
+  );
 };
 
 const renderSectionsPrescription = (prescriptions, reference) => {
