@@ -17,8 +17,8 @@
                       br
                         small
                           => am_classement_infos
-                          - if arrete.enriched?
-                            span class="badge badge-success" enrichi
+                          span class="badge badge-secondary"
+                            = arrete.enriched? ? 'AM enrichi' : 'AM'
 
               - if @aps.any?
                 - @aps.each do |ap|
@@ -28,6 +28,7 @@
                       br
                         small
                           => ap.date
+                          span class="badge badge-secondary" AP
 
           div class="glide__arrows" data-glide-el="controls"
             button class="glide__arrow glide__arrow--left" data-glide-dir="<"<
@@ -49,8 +50,8 @@
                         = summary_item['section_title']
 
             .col-7
-              - if arrete.enriched?
-                span class='badge badge-success float-right' enrichi
+              span class='badge badge-success float-right'
+                = arrete.enriched? ? 'AM enrichi' : 'AM'
               h2.display.h1
                 = arrete.short_title
                 span.text-secondary
