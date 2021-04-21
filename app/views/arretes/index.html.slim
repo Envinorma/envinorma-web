@@ -1,33 +1,39 @@
 .am_nav
   .container
-    .glide
-      div class="glide__track" data-glide-el="track"
-        ul.glide__slides
-          - if @arretes.any?
-            - @arretes.each do |arrete|
-              - am_classement_infos = classement_infos(arrete, @installation)
-              li.glide__slide
-                a href="#anchor_am_#{arrete.id}"
-                  => arrete.short_title
-                  br
-                    small
-                      => am_classement_infos
-                      - if arrete.enriched?
-                        span class="badge badge-success" enrichi
+    .row
+      .col-1.align-self-center
+        = link_to '< Retour à l’installation', installation_path(@installation), class: 'js_loader__link small'
+      .col-11
+        .glide
 
-          - if @aps.any?
-            - @aps.each do |ap|
-              li.glide__slide
-                a href="#anchor_ap_#{ap.id}"
-                  => ap.date
+          div class="glide__track" data-glide-el="track"
+            ul.glide__slides
+              - if @arretes.any?
+                - @arretes.each do |arrete|
+                  - am_classement_infos = classement_infos(arrete, @installation)
+                  li.glide__slide
+                    a href="#anchor_am_#{arrete.id}"
+                      => arrete.short_title
+                      br
+                        small
+                          => am_classement_infos
+                          - if arrete.enriched?
+                            span class="badge badge-success" enrichi
 
-      div class="glide__arrows" data-glide-el="controls"
-        button class="glide__arrow glide__arrow--left" data-glide-dir="<"<
-        button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              - if @aps.any?
+                - @aps.each do |ap|
+                  li.glide__slide
+                    a href="#anchor_ap_#{ap.id}"
+                      => ap.description
+                      br
+                        small
+                          => ap.date
+
+          div class="glide__arrows" data-glide-el="controls"
+            button class="glide__arrow glide__arrow--left" data-glide-dir="<"<
+            button class="glide__arrow glide__arrow--right" data-glide-dir=">">
 
 .container
-  = link_to '< Retour à l’installation', installation_path(@installation), class: 'back_link js_loader__link'
-
   - if @arretes.any?
       - @arretes.each do |arrete|
         - am_short_title = arrete.short_title
@@ -158,12 +164,15 @@
 
         hr.mb-5.mt-5
 
-  .col-3.offset-9.summary
-    h4 Prescriptions à exporter
-    div#prescriptions_recap Aucune prescription sélectionnée
-    hr
-    div#prescriptions_ap
-      = render partial: './prescriptions/prescription', collection: @prescriptions
+  .col-3.offset-9
+    .sidebar
+      .sidebar-content
+        h4.mb-4 Prescriptions à exporter
+        div#prescriptions_recap Aucune prescription sélectionnée
+        hr
+        div#prescriptions_ap
+          = render partial: './prescriptions/prescription', collection: @prescriptions
 
 
-= link_to "Générer une fiche d'inspection", generate_doc_path, :method => :post, class: 'btn btn-primary btn-fixed-bottom'
+= link_to generate_doc_path, :method => :post, class: 'btn btn-primary circle-fixed-button' do
+  i.fas.fa-file-download.fa-fw
