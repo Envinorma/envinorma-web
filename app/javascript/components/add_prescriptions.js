@@ -16,8 +16,8 @@ const buildElement = (tag, ...children) => {
 };
 
 const deleteButton = (prescriptionId) => {
-  var button = buildElement("button", "supprimer");
-  button.className = "btn btn-link";
+  var button = buildElement("a", "supprimer");
+  button.href = "javascript:void(0)";
   button.addEventListener("click", () => {
     uncheckCheckbox(prescriptionId);
   });
@@ -25,14 +25,14 @@ const deleteButton = (prescriptionId) => {
 };
 
 const renderPrescription = ({ content, id }) => {
-  return buildElement("div", content, deleteButton(id));
+  return buildElement("div", buildElement("p", content), buildElement("p", deleteButton(id)));
 };
 
 const renderSectionsPrescription = (prescriptions, reference) => {
   const prescription_nodes = _.map(prescriptions, renderPrescription);
   return buildElement(
     "div",
-    buildElement("h5", reference),
+    buildElement("strong", reference),
     ...prescription_nodes
   );
 };
@@ -45,7 +45,7 @@ const renderAMPrescriptions = (prescriptions) => {
   const prescriptionGroups = _.map(groups, (group, reference) => {
     return renderSectionsPrescription(group, reference);
   });
-  return buildElement("div", buildElement("h4", amRef), ...prescriptionGroups);
+  return buildElement("div", buildElement("h6", amRef), ...prescriptionGroups);
 };
 
 const renderRecap = (prescriptions) => {
