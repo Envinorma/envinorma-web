@@ -142,7 +142,7 @@
 
                 - extract_sections.call(section)
 
-          hr.mb-5.mt-5
+        .splitter
 
   - if @aps.any?
       - @aps.each do |ap|
@@ -168,7 +168,7 @@
             .col-6
               object data="https://storage.sbg.cloud.ovh.net/v1/AUTH_3287ea227a904f04ad4e8bceb0776108/ap/#{ap.georisques_id.gsub('/', '_')}.pdf" type="image/svg+xml" class="pdf_viewer"
 
-        hr.mb-5.mt-5
+        .splitter
 
   .col-3.offset-9
     .sidebar

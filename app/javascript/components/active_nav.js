@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   if (document.querySelector(".am_nav") != null) {
 
-    let mainNavLinks = document.querySelectorAll(".am_nav a");
+    let mainNavLinks = document.querySelectorAll(".am_nav .glide a");
     let mainSections = document.querySelectorAll(".container section");
     let mainSummary = document.querySelectorAll(".summary .display-summary");
     let mainSummaryLinks = document.querySelectorAll(".summary a");
@@ -24,7 +24,8 @@ window.addEventListener('DOMContentLoaded', () => {
     // Only not doing it here to keep this Pen dependency-free.
 
     window.addEventListener("scroll", event => {
-      let fromTop = window.scrollY;
+      var navHeight = 150;
+      let fromTop = window.scrollY + navHeight;
 
       mainNavLinks.forEach(link => {
         // let section = document.querySelector(link.hash);
