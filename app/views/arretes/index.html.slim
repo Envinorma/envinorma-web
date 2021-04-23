@@ -174,10 +174,8 @@
     .sidebar
       .sidebar-content
         h4.mb-4 Prescriptions à exporter
-        div#prescriptions_recap Aucune prescription sélectionnée
-        hr
-        div#prescriptions_ap
-          = render partial: './prescriptions/prescription', collection: @prescriptions
+        div#prescriptions_recap
+          = render partial: './prescriptions/prescription'
 
 
 = link_to generate_doc_path, :method => :post, class: 'btn btn-primary circle-fixed-button' do

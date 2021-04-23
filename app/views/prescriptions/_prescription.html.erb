@@ -1,19 +1,34 @@
-<div class='<%= "prescription_#{prescription.id}" %>' >
-    <h6>
-      <%= prescription.text_reference %>
-    </h6>
-    <p>
-      <strong>
-        <%= prescription.reference %>
-      </strong>
-    <br>
-      <% prescription.content.split("\n").each do |line| %>
-        <%= line %>
-        <br>
-      <% end %>
-    </p>
-    <p>
+<div>
+    <% @prescription_groups.each do |text_reference, group| %>
+    <div>
+        <h6>
+            <%= text_reference %>
+        </h6>
+        <% group.each do |section_reference, prescriptions| %>
+        <div>
+            <strong>
+                <%= section_reference %>
+            </strong>
+            <% prescriptions.each do |prescription| %>
+            <div class='<%= "prescription_#{prescription.id}" %>'>
+                <% is_am_prescription = !prescription.from_am_id.nil? %>
+                <p>
+                    <% prescription.content.split("\n").each do |line| %>
+                    <%= line %>
+                    <br>
+                    <% end %>
+                </p>
+                <p>
+                    <%= link_to "Supprimer", prescription, remote: true, method: :delete, id: "delete_prescription_#{prescription.alinea_id}",
+                class: 'delete_prescription',
+                onclick: is_am_prescription ? "document.getElementById('prescription_checkbox_#{prescription.alinea_id}').checked = false;" : "",
+                data: {id: prescription.alinea_id} %>
+                </p>
+            </div>
 
-      <%= link_to "Supprimer", prescription, remote: true, method: :delete %>
-    </p>
+            <% end %>
+        </div>
+        <% end %>
+    </div>
+    <% end %>
 </div>
