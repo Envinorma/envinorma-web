@@ -2,7 +2,11 @@
 
 class PrescriptionsController < ApplicationController
   def delete_prescriptions(params)
-    prescriptions = Prescription.from_user_and_installation(@user).where(alinea_id: params[:alinea_ids])
+    prescriptions = if params.key?('alinea_ids')
+                      Prescription.from_user_and_installation(@user).where(alinea_id: params[:alinea_ids])
+                    else
+                      Prescription.from_user_and_installation(@user)
+                    end
     prescriptions.destroy_all
   end
 
@@ -15,6 +19,7 @@ class PrescriptionsController < ApplicationController
     end
 
     @prescription_groups = Prescription.grouped_prescriptions(@user)
+    @prescription = Prescription.new
 
     respond_to do |format|
       format.js
@@ -23,13 +28,14 @@ class PrescriptionsController < ApplicationController
   end
 
   def destroy
-    @prescription = Prescription.find(params[:id])
-    @prescription.destroy
+    prescription = Prescription.find(params[:id])
+    prescription.destroy
 
     @prescription_groups = Prescription.grouped_prescriptions(@user)
+    @prescription = Prescription.new
     respond_to do |format|
       format.js
-      format.json { render json: @prescription, status: :deleted }
+      format.json { render json: { success: true }, status: :deleted }
     end
   end
 
