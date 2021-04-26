@@ -1,2 +1,2 @@
-let delete<%= @prescription.id %> = document.querySelector(".prescription_" + <%= @prescription.id %>);
-delete<%= @prescription.id %>.remove();
+var prescriptions = document.querySelector("#prescriptions_recap");
+prescriptions.innerHTML = "<%= j render(@prescription) %>";

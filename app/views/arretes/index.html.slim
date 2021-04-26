@@ -62,9 +62,8 @@
               p.mb-5
                 = link_to 'Consulter sur Aida', arrete.aida_url, target: '_blank'
                 = link_to 'Consulter sur Légifrance', arrete.legifrance_url, target: '_blank', class: 'ml-3'
-
-              - arrete.data.sections.each do |section|
-                - extract_sections = lambda do |subsection, level = 3|
+              - arrete.data.sections.each_with_index do |section, section_index|
+                - extract_sections = lambda do |subsection, subsection_rank, level = 3|
 
                   div id="anchor_#{subsection.id}" class='anchor anchor-summary'
 
@@ -117,30 +116,30 @@
                                               level: level,
                                               subsection_id: subsection_id,
                                               ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}",
-                                              am_id: arrete.id }
+                                              am_id: arrete.id,
+                                              subsection_rank: subsection_rank }
 
-                        / display select_all checkbox
-                        - if subsection.applicability.active && subsection.outer_alineas.count > 1
-                          .border-bottom.mb-3.pb-3
-                            .form-group.row
-                                .col-sm-12
-                                  .form-check
-                                    = check_box_tag "select_all_#{subsection_id}",
-                                      '1', false, class: 'form-check-input select_all'
+                        - am_ref = "#{am_short_title} #{am_classement_infos}"
+                        = render partial: 'select_all_checkbox',
+                          locals: { subsection: subsection,
+                                    am_ref: am_ref,
+                                    am_id: arrete.id,
+                                    subsection_rank: subsection_rank }
 
                         = render partial: 'outer_alineas',
                           locals: { subsection: subsection,
                                     level: level,
                                     subsection_id: subsection_id,
                                     ref: subsection.reference_str,
-                                    am_ref: "#{am_short_title} #{am_classement_infos}",
-                                    am_id: arrete.id }
+                                    am_ref: am_ref,
+                                    am_id: arrete.id,
+                                    subsection_rank: subsection_rank }
 
                   / iterate on sections and increment level
-                  - subsection.sections.each do |item|
-                    - extract_sections.call(item, level + 1)
+                  - subsection.sections.each_with_index do |item, item_index|
+                    - extract_sections.call(item, "#{subsection_rank}.#{item_index}", level + 1)
 
-                - extract_sections.call(section)
+                - extract_sections.call(section, section_index.to_s)
 
         .splitter
 
@@ -174,10 +173,8 @@
     .sidebar
       .sidebar-content
         h4.mb-4 Prescriptions à exporter
-        div#prescriptions_recap Aucune prescription sélectionnée
-        hr
-        div#prescriptions_ap
-          = render partial: './prescriptions/prescription', collection: @prescriptions
+        div#prescriptions_recap
+          = render partial: './prescriptions/prescription'
 
 
 = link_to generate_doc_path, :method => :post, class: 'btn btn-primary circle-fixed-button' do
