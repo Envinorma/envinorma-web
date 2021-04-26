@@ -1,22 +1,9 @@
 # frozen_string_literal: true
 
 class PrescriptionsController < ApplicationController
-  def delete_prescriptions(params)
-    prescriptions = if params.key?('alinea_ids')
-                      Prescription.from_user_and_installation(@user).where(alinea_id: params[:alinea_ids])
-                    else
-                      Prescription.from_user_and_installation(@user)
-                    end
-    prescriptions.destroy_all
-  end
-
   def create
-    if params[:delete]
-      delete_prescriptions(params)
-    else
-      all_params = prescription_params(params)
-      build_and_save_prescription(all_params)
-    end
+    all_params = prescription_params(params)
+    build_and_save_prescription(all_params)
 
     @prescription_groups = Prescription.grouped_prescriptions(@user)
     @prescription = Prescription.new
@@ -31,12 +18,27 @@ class PrescriptionsController < ApplicationController
     prescription = Prescription.find(params[:id])
     prescription.destroy
 
+    render_destroy
+  end
+
+  def render_destroy
     @prescription_groups = Prescription.grouped_prescriptions(@user)
     @prescription = Prescription.new
     respond_to do |format|
-      format.js
+      format.js { render 'destroy.js.erb' }
       format.json { render json: { success: true }, status: :deleted }
     end
+  end
+
+  def delete_many
+    prescriptions = if params.key?('alinea_ids')
+                      Prescription.from_user_and_installation(@user).where(alinea_id: params[:alinea_ids])
+                    else
+                      Prescription.from_user_and_installation(@user)
+                    end
+    prescriptions.destroy_all
+
+    render_destroy
   end
 
   private
@@ -68,8 +70,12 @@ class PrescriptionsController < ApplicationController
   def build_and_save_prescription(prescription_hashes)
     prescription_hashes.each do |prescription_hash|
       prescription = Prescription.new(prescription_hash)
-      existing_prescription = Prescription.from_user_and_installation(@user).where(alinea_id: prescription.alinea_id)
-      prescription.save if existing_prescription.count.zero?
+      if prescription.type == 'AM'
+        existing_prescription = Prescription.from_user_and_installation(@user).where(alinea_id: prescription.alinea_id)
+        prescription.save if existing_prescription.count.zero?
+      else
+        prescription.save
+      end
     end
   end
 end

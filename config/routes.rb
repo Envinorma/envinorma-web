@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   post '/installations/:id/arretes', to: 'arretes#generate_doc_with_prescriptions', as: 'generate_doc'
 
   resources :prescriptions
+  delete '/prescriptions', to: 'prescriptions#delete_many', as: 'delete_many'
 
   get '/user', to: 'users#show'
 

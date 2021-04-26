@@ -19,7 +19,7 @@ class Prescription < ApplicationRecord
   end
 
   def rank_array
-    rank.split('.').map(&:to_i)
+    rank.nil? ? [] : rank.split('.').map(&:to_i)
   end
 
   def self.group_prescriptions(prescriptions)
