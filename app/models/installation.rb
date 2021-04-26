@@ -5,6 +5,7 @@ class Installation < ApplicationRecord
   accepts_nested_attributes_for :classements, allow_destroy: true
 
   has_many :APs, dependent: :destroy
+  has_many :prescriptions, dependent: :destroy
   belongs_to :user, optional: true
 
   validates :name, :s3ic_id, presence: true

@@ -151,7 +151,7 @@
             .col-3
               h5 = ap.title
 
-              = simple_form_for @prescription, remote: true do |f|
+              = simple_form_for [@installation, @prescription], remote: true do |f|
                 .row
                   .col-12
                     = f.input :reference, placeholder: "ex: Art. 2"
@@ -161,7 +161,6 @@
                               placeholder: "ex: Les quantités maximales qui seront stockées sont estimées à environ : 1 500.000m3",
                               hint: "Le copier-coller est possible depuis le PDF"
 
-                  = f.hidden_field :user_id, value: @user.id
                   = f.hidden_field :text_reference, value: ap.reference
 
                 = f.button :submit, 'ajouter une prescription', class: 'btn btn-primary'

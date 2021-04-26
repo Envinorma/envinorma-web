@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class PrescriptionsController < ApplicationController
+  before_action :set_installation
+
   def create
     if params[:amId]
       prescription = Prescription.where(alinea_id: params['id'], user_id: params['userId']).first
@@ -22,7 +24,7 @@ class PrescriptionsController < ApplicationController
       end
 
     else
-      @prescription = Prescription.create(prescription_params)
+      @prescription = Prescription.create(prescription_params.merge(installation_id: @installation.id, user_id: @user.id))
 
       if @prescription.save
         respond_to do |format|
@@ -53,7 +55,11 @@ class PrescriptionsController < ApplicationController
 
   private
 
+  def set_installation
+    @installation = Installation.find(params[:installation_id])
+  end
+
   def prescription_params
-    params.require(:prescription).permit(:reference, :content, :alinea_id, :from_am_id, :user_id, :text_reference)
+    params.require(:prescription).permit(:reference, :content, :alinea_id, :from_am_id, :text_reference)
   end
 end

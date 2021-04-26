@@ -6,12 +6,10 @@ Rails.application.routes.draw do
   get '/installations/:id/duplicate_before_edit', to: 'installations#duplicate_before_edit', as: 'duplicate_before_edit'
   resources :installations do
     resources :classements
+    resources :prescriptions
   end
   get '/installations/:id/arretes', to: 'arretes#index', as: 'arretes'
   post '/installations/:id/arretes', to: 'arretes#generate_doc_with_prescriptions', as: 'generate_doc'
-
-  resources :prescriptions
-  delete '/prescriptions', to: 'prescriptions#remove_prescription', format: :json
 
   get '/user', to: 'users#show'
 

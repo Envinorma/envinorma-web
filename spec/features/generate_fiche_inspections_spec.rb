@@ -11,6 +11,7 @@ RSpec.describe 'Feature tests end to end', js: true do
     arrete = FactoryBot.create(:arrete, :classement_2521_E)
     unique_classement = FactoryBot.create(:unique_classement, :classement_2521_E)
     ArretesUniqueClassement.create(arrete: arrete, unique_classement: unique_classement)
+    FactoryBot.create(:ap, installation: installation)
 
     visit root_path
     fill_in('autocomplete', with: 'EVA INDUST')
@@ -21,12 +22,22 @@ RSpec.describe 'Feature tests end to end', js: true do
     click_link("Voir les prescriptions pour générer une fiche d'inspection")
 
     expect(page).to have_content('Arrêté du 9 avril 2019')
-    find('.select_all', match: :first).click
-    find('label', text: '500 mg/m3').click
-    click_link("Générer une fiche d'inspection")
+    fill_in 'Référence', with: 'Art. 3'
+    fill_in 'Contenu', with: "Prescriptions copier - coller de l'AP"
+
+    click_button("ajouter une prescription")
+    expect(page).to have_content("Prescriptions copier - coller de l'AP")
+
+    # save_and_open_page
+    # find('.select_all', match: :first).click
+    # find('label', text: '500 mg/m3').click
+
+    click_on(class: 'circle-fixed-button')
+
 
     expect(page).to have_content('Arrêté du 9 avril 2019')
-    expect(DownloadHelpers.download_content).to have_content "les dispositions du présent arrêté s'appliquent"
-    expect(DownloadHelpers.download_content).to have_content '500 mg/m3'
+    # expect(DownloadHelpers.download_content).to have_content "les dispositions du présent arrêté s'appliquent"
+    # expect(DownloadHelpers.download_content).to have_content '500 mg/m3'
+    expect(DownloadHelpers.download_content).to have_content "Prescriptions copier - coller de l'AP"
   end
 end

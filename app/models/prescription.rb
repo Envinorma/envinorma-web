@@ -2,8 +2,9 @@
 
 class Prescription < ApplicationRecord
   belongs_to :user
+  belongs_to :installation
 
-  def self.from_aps(user)
-    where(user_id: user.id).where(alinea_id: nil)
+  def self.from(user, installation)
+    where(user_id: user.id, installation_id: installation.id)
   end
 end

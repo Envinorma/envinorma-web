@@ -11,7 +11,7 @@ class ArretesController < ApplicationController
     end
 
     @prescription = Prescription.new
-    @prescriptions = Prescription.from_aps(@user)
+    @prescriptions = Prescription.from(@user, @installation)
     @aps = @installation.retrieve_aps
   end
 
