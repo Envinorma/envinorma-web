@@ -8,8 +8,12 @@ class Classement < ApplicationRecord
   validates :regime_acte, inclusion: { in: %w[A E D NC unknown], message: 'is not valid', allow_blank: true }
 
   def human_readable_volume
-    volume_part, *unit_pieces = (volume || '').split
-    ([simplify_volume(volume_part)] + unit_pieces).join(' ')
+    words = (volume || '').split
+    return volume if words.length > 2 || words.length.zero?
+
+    volume_number = simplify_volume(words.first || '')
+    volume_unit = words.length == 1 ? '' : words.last
+    volume_unit.empty? ? volume_number.to_s : "#{volume_number} #{volume_unit}"
   end
 
   def float?(string)
