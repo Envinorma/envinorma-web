@@ -6,7 +6,9 @@ class PrescriptionsController < ApplicationController
   def create
     all_params = prescription_params(params)
     build_and_save_prescription(all_params)
-      # @prescription = Prescription.create(prescription_params.merge(installation_id: @installation.id, user_id: @user.id))
+    # @prescription = Prescription.create(
+    #   prescription_params.merge!(installation_id: @installation.id, user_id: @user.id)
+    # )
 
     @prescription_groups = Prescription.grouped_prescriptions(@user, @installation)
     @prescription = Prescription.new
@@ -56,7 +58,8 @@ class PrescriptionsController < ApplicationController
 
   def single_prescription_params(params)
     params.require(:prescription).permit(:reference, :content, :alinea_id, :from_am_id, :user_id, :text_reference,
-                                         :rank).merge!(installation_id: @installation.id, user_id: @user.id)
+                                         :rank)
+          .merge!(installation_id: @installation.id, user_id: @user.id)
   end
 
   def multiple_prescriptions_params(params)
@@ -68,7 +71,8 @@ class PrescriptionsController < ApplicationController
     result = []
     data[:contents].zip(data[:ranks], data[:alinea_ids]).each do |content, rank, alinea_id|
       result << { reference: reference, from_am_id: from_am_id, user_id: user_id,
-                  text_reference: text_reference, content: content, rank: rank, alinea_id: alinea_id }.merge!(installation_id: @installation.id)
+                  text_reference: text_reference, content: content, rank: rank, alinea_id: alinea_id }
+                .merge!(installation_id: @installation.id)
     end
     result
   end
