@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resources :installations do
     resources :classements
     resources :prescriptions
+    delete '/prescriptions', to: 'prescriptions#delete_many', as: 'delete_many'
   end
   get '/installations/:id/arretes', to: 'arretes#index', as: 'arretes'
   post '/installations/:id/arretes', to: 'arretes#generate_doc_with_prescriptions', as: 'generate_doc'

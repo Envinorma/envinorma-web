@@ -1,19 +1,39 @@
-<div class='<%= "prescription_#{prescription.id}" %>' >
-    <h6>
-      <%= prescription.text_reference %>
-    </h6>
-    <p>
-      <strong>
-        <%= prescription.reference %>
-      </strong>
-    <br>
-      <% prescription.content.split("\n").each do |line| %>
-        <%= line %>
-        <br>
+<div>
+  <p>
+    <%= form_with(url: installation_delete_many_path(@installation), id: "delete_all_prescriptions", remote: true, method: :delete) do |form| %>
+      <%= form.hidden_field :user_id, value: @user.id %>
+      <%= form.button('Tout supprimer', class: 'btn btn-link btn-sm', onclick: "document.querySelectorAll('.alineas_checkbox').forEach((x)=>{x.checked = false;});") %>
+    <% end %>
+  </p>
+  <% @prescription_groups.each do |text_reference, group| %>
+    <div>
+      <h6>
+          <%= text_reference %>
+      </h6>
+      <% group.each do |section_reference, prescriptions| %>
+        <div>
+          <strong>
+              <%= section_reference %>
+          </strong>
+          <% prescriptions.each do |prescription| %>
+            <div class='<%= "prescription_#{prescription.id}" %>'>
+                <% is_am_prescription = !prescription.from_am_id.nil? %>
+                <p>
+                    <% prescription.content.split("\n").each do |line| %>
+                    <%= line %>
+                    <br>
+                    <% end %>
+                </p>
+                <p>
+                    <%= link_to "Supprimer", installation_prescription_path(installation_id: @installation.id, id: prescription.id), remote: true, method: :delete, id: "delete_prescription_#{prescription.alinea_id}",
+                class: 'delete_prescription',
+                onclick: is_am_prescription ? "document.getElementById('prescription_checkbox_#{prescription.alinea_id}').checked = false;" : "",
+                data: {id: prescription.alinea_id} %>
+                </p>
+            </div>
+          <% end %>
+        </div>
       <% end %>
-    </p>
-    <p>
-
-      <%= link_to "Supprimer", installation_prescription_path(installation_id: @installation.id, id: prescription.id), remote: true, method: :delete %>
-    </p>
+    </div>
+  <% end %>
 </div>
