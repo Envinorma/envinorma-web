@@ -1,7 +1,6 @@
 <div>
   <p>
     <%= form_with(url: installation_delete_many_path(@installation), id: "delete_all_prescriptions", remote: true, method: :delete) do |form| %>
-      <%= form.hidden_field :user_id, value: @user.id %>
       <%= form.button('Tout supprimer', class: 'btn btn-link btn-sm', onclick: "document.querySelectorAll('.alineas_checkbox').forEach((x)=>{x.checked = false;});") %>
     <% end %>
   </p>

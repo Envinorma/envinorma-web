@@ -66,13 +66,12 @@ class PrescriptionsController < ApplicationController
     data = params[:prescription]
     reference = data[:reference]
     from_am_id = data[:from_am_id]
-    user_id = data[:user_id]
     text_reference = data[:text_reference]
     result = []
     data[:contents].zip(data[:ranks], data[:alinea_ids]).each do |content, rank, alinea_id|
-      result << { reference: reference, from_am_id: from_am_id, user_id: user_id,
+      result << { reference: reference, from_am_id: from_am_id,
                   text_reference: text_reference, content: content, rank: rank, alinea_id: alinea_id }
-                .merge!(installation_id: @installation.id)
+                .merge!(installation_id: @installation.id, user_id: @user.id)
     end
     result
   end

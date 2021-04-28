@@ -7,7 +7,6 @@
           = check_box_tag "select_all_#{subsection.id}",
             '1', false, class: 'form-check-input select_all', data: {section_id: subsection.id}
           = form.hidden_field :reference, value: subsection.reference_str, namespace: subsection.id
-          = form.hidden_field :user_id, value: @user.id, namespace: subsection.id
           = form.hidden_field :text_reference, value: am_ref, namespace: subsection.id
           = form.hidden_field :from_am_id, value: am_id, namespace: subsection.id
           - subsection.outer_alineas.each_with_index do |alinea, alinea_index|
@@ -22,7 +21,6 @@
                   = form.hidden_field :alinea_ids, value: "#{alinea.id}_#{index}", namespace: subsection.id, multiple: true
                   = form.hidden_field :ranks, value: "#{subsection_rank}.#{alinea_index}.#{index}", namespace: subsection.id, multiple: true
   = form_with(url: installation_delete_many_path(@installation), id: "select_all_checkbox_delete_#{subsection.id}", remote: true, method: :delete) do |form|
-    = form.hidden_field :user_id, value: @user.id, namespace: subsection.id
     - subsection.outer_alineas.each_with_index do |alinea, alinea_index|
       - if alinea.text != ''
         = form.hidden_field :alinea_ids, value: alinea.id, namespace: subsection.id, multiple: true

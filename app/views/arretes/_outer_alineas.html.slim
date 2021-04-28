@@ -16,7 +16,6 @@
               = form.hidden_field :content, value: outer_alinea.text, namespace: alinea_id
               = form.hidden_field :reference, value: ref, namespace: alinea_id
               = form.hidden_field :alinea_id, value: alinea_id, namespace: alinea_id
-              = form.hidden_field :user_id, value: @user.id, namespace: alinea_id
               = form.hidden_field :text_reference, value: am_ref, namespace: alinea_id
               = form.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}", namespace: alinea_id
               = form.hidden_field :from_am_id, value: am_id, namespace: alinea_id
@@ -42,7 +41,6 @@
                 = form.hidden_field :content, value: row.text_in_inspection_sheet, namespace: row_id
                 = form.hidden_field :reference, value: ref, namespace: row_id
                 = form.hidden_field :alinea_id, value: "#{row_id}", namespace: row_id
-                = form.hidden_field :user_id, value: @user.id, namespace: row_id
                 = form.hidden_field :text_reference, value: am_ref, namespace: row_id
                 = form.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}.#{index}" , namespace: row_id
                 = form.hidden_field :from_am_id, value: am_id, namespace: row_id
