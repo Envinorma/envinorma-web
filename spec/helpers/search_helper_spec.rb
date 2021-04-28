@@ -38,16 +38,16 @@ RSpec.describe SearchHelper, type: :helper do
                 '%foo%',
                 '%foo%',
                 '%foo%']
-      expect(build_query('Foo')).to eq result
+      expect(build_query('foo')).to eq result
     end
 
-    it 'should build simple query when one word' do
+    it 'should build simple query when one word, using lowercase version of query' do
       result = ['name ILIKE ? or s3ic_id ILIKE ? or city ILIKE ? or zipcode ILIKE ?',
                 '%foobar%',
                 '%foobar%',
                 '%foobar%',
                 '%foobar%']
-      expect(build_query('foobar')).to eq result
+      expect(build_query('Foobar')).to eq result
     end
     it 'should build complex query when several words' do
       query = 'name ILIKE ? or s3ic_id ILIKE ? or city ILIKE ? or zipcode ILIKE ?'
