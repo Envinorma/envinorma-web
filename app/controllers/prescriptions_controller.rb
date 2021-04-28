@@ -10,7 +10,7 @@ class PrescriptionsController < ApplicationController
     #   prescription_params.merge!(installation_id: @installation.id, user_id: @user.id)
     # )
 
-    @prescription_groups = Prescription.grouped_prescriptions(@user, @installation)
+    @prescription_groups = @user.prescriptions_grouped_for(@installation)
     @prescription = Prescription.new
 
     respond_to do |format|
@@ -27,7 +27,7 @@ class PrescriptionsController < ApplicationController
   end
 
   def render_destroy
-    @prescription_groups = Prescription.grouped_prescriptions(@user, @installation)
+    @prescription_groups = @user.prescriptions_grouped_for(@installation)
     @prescription = Prescription.new
     respond_to do |format|
       format.js { render 'destroy.js.erb' }
@@ -37,9 +37,9 @@ class PrescriptionsController < ApplicationController
 
   def delete_many
     prescriptions = if params.key?('alinea_ids')
-                      Prescription.from(@user, @installation).where(alinea_id: params[:alinea_ids])
+                      @user.prescriptions_for(@installation).where(alinea_id: params[:alinea_ids])
                     else
-                      Prescription.from(@user, @installation)
+                      @user.prescriptions_for(@installation)
                     end
     prescriptions.destroy_all
 
@@ -85,8 +85,7 @@ class PrescriptionsController < ApplicationController
     prescription_hashes.each do |prescription_hash|
       prescription = Prescription.new(prescription_hash)
       if prescription.type == 'AM'
-        existing_prescription = Prescription.from(@user, @installation).where(alinea_id: prescription.alinea_id)
-        prescription.save if existing_prescription.count.zero?
+        prescription.save unless @user.prescription_exist?(@installation, prescription.alinea_id)
       else
         prescription.save
       end

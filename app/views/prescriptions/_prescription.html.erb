@@ -15,7 +15,6 @@
     </strong>
     <% prescriptions.each do |prescription| %>
       <div class='<%= "prescription_#{prescription.id} prescription" %>'>
-        <% is_am_prescription = !prescription.from_am_id.nil? %>
         <p>
           <% prescription.content.split("\n").each do |line| %>
           <%= line %>
@@ -25,7 +24,7 @@
         <p>
           <%= link_to "Supprimer", installation_prescription_path(installation_id: @installation.id, id: prescription.id), remote: true, method: :delete, id: "delete_prescription_#{prescription.alinea_id}",
             class: 'delete_prescription',
-            onclick: is_am_prescription ? "document.getElementById('prescription_checkbox_#{prescription.alinea_id}').checked = false;" : "",
+            onclick: prescription.type == 'AM' ? "document.getElementById('prescription_checkbox_#{prescription.alinea_id}').checked = false;" : "",
             data: {id: prescription.alinea_id} %>
         </p>
       </div>

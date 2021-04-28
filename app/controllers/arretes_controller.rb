@@ -11,7 +11,7 @@ class ArretesController < ApplicationController
     end
 
     @prescription = Prescription.new
-    @prescription_groups = Prescription.grouped_prescriptions(@user, @installation)
+    @prescription_groups = @user.prescriptions_grouped_for(@installation)
     @aps = @installation.retrieve_aps
   end
 
