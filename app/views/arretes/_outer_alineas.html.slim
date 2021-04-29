@@ -6,7 +6,7 @@
           = form_with(model: [@installation, @prescription], id: "alinea_checkbox_form_#{alinea_id}", remote: true) do |f|
             .form-check.checkbox-arrete
               = check_box_tag "prescription_checkbox_#{alinea_id}",
-                '1', @user.prescription_exist?(@installation, alinea_id),
+                '1', @user.prescription_checked?(@installation, alinea_id),
                 class: "form-check-input select_all_#{subsection_id} alineas_checkbox",
                 data: { alinea_id: alinea_id }
               - if outer_alinea.active
@@ -35,7 +35,7 @@
             td
               = form_with(model: [@installation, @prescription], id: "alinea_checkbox_form_#{row_id}", remote: true) do |f|
                 = check_box_tag "prescription_checkbox_#{row_id}",
-                  '1', @user.prescription_exist?(@installation, row_id),
+                  '1', @user.prescription_checked?(@installation, row_id),
                   class: "form-check-input select_all_#{subsection_id} alineas_checkbox",
                   data: { alinea_id: row_id }
                 = f.hidden_field :content, value: row.text_in_inspection_sheet, namespace: row_id
