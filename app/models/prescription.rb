@@ -4,6 +4,8 @@ class Prescription < ApplicationRecord
   belongs_to :user
   belongs_to :installation
 
+  validates :alinea_id, uniqueness: { scope: %i[installation_id user_id] }
+
   def type
     from_am_id.nil? ? 'AP' : 'AM'
   end
