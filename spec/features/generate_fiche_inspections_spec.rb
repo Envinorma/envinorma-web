@@ -100,7 +100,7 @@ RSpec.describe 'Feature tests end to end', js: true do
     expect(page).to have_selector '.sidebar-content div.prescription', count: '6'
     expect(Prescription.count).to eq 6
 
-    click_button('Tout supprimer')
+    click_link('Tout supprimer')
     expect(page).to have_selector '.sidebar-content div.prescription', count: '0'
     expect(Prescription.count).to eq 0
   end
