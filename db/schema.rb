@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_26_101012) do
+ActiveRecord::Schema.define(version: 2021_04_29_130832) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,7 +28,6 @@ ActiveRecord::Schema.define(version: 2021_04_26_101012) do
     t.jsonb "data"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.string "short_title"
     t.string "title"
     t.boolean "unique_version"
     t.string "installation_date_criterion_left"
@@ -39,6 +38,7 @@ ActiveRecord::Schema.define(version: 2021_04_26_101012) do
     t.string "cid"
     t.jsonb "classements_with_alineas"
     t.bigint "enriched_from_id"
+    t.date "publication_date"
   end
 
   create_table "arretes_unique_classements", id: false, force: :cascade do |t|

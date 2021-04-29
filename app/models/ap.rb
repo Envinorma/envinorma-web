@@ -12,11 +12,11 @@ class AP < ApplicationRecord
                                              message: 'check s3ic_id format' }
 
   def title
-    "#{description} - #{date}"
+    "#{description} - #{date.strftime('%d/%m/%y')}"
   end
 
   def reference
-    "AP - #{date}"
+    "AP - #{date.strftime('%d/%m/%y')}"
   end
 
   class << self

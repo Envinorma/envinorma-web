@@ -26,24 +26,24 @@ RSpec.describe 'Feature tests end to end', js: true do
     expect(page).to have_content('Houille, coke, lignite')
     click_link("Voir les prescriptions pour générer une fiche d'inspection")
 
-    expect(page).to have_content('Arrêté du 9 avril 2019')
+    expect(page).to have_content('AM - 09/04/19')
 
     # Create prescriptions using checkbox select_all
     find('.select_all', match: :first).click
-    expect(page).to have_field('prescription_checkbox_wMERsNojBkon', checked: true)
-    expect(page).to have_selector '.sidebar-content h6', text: 'Arrêté du 9 avril 2019 - 2521 E', count: 1
+    expect(page).to have_field('prescription_checkbox_MRPoxuTZSSuM', checked: true)
+    expect(page).to have_selector '.sidebar-content h6', text: 'AM - 09/04/19 - 2521 E', count: 1
     expect(page).to have_selector '.sidebar-content div.prescription', count: '5'
     expect(Prescription.count).to eq 5
 
     # Delete prescriptions using checkbox select_all
     find('.select_all', match: :first).click
-    expect(page).to have_field('prescription_checkbox_wMERsNojBkon', checked: false)
-    expect(page).not_to have_selector '.sidebar-content h6', text: 'Arrêté du 9 avril 2019 - 2521 E', count: 1
+    expect(page).to have_field('prescription_checkbox_MRPoxuTZSSuM', checked: false)
+    expect(page).not_to have_selector '.sidebar-content h6', text: 'AM - 09/04/19 - 2521 E', count: 1
     expect(page).to have_selector '.sidebar-content div.prescription', count: '0'
     expect(Prescription.count).to eq 0
 
     find('.select_all', match: :first).click
-    expect(page).to have_field('prescription_checkbox_wMERsNojBkon', checked: true)
+    expect(page).to have_field('prescription_checkbox_MRPoxuTZSSuM', checked: true)
     expect(page).to have_selector '.sidebar-content div.prescription', count: '5'
     expect(Prescription.count).to eq 5
 
@@ -56,20 +56,20 @@ RSpec.describe 'Feature tests end to end', js: true do
     fill_in 'Référence', with: 'Art. 3'
     fill_in 'Contenu', with: "Prescriptions copier - coller de l'AP"
     click_button('ajouter une prescription')
-    expect(page).to have_selector '.sidebar-content h6', text: 'AP - 2021-04-27', count: 1
+    expect(page).to have_selector '.sidebar-content h6', text: 'AP - 27/04/21', count: 1
     expect(page).to have_selector '.sidebar-content div.prescription', count: '7'
     expect(Prescription.count).to eq 7
 
     # Generate Fiche d'inspection
     click_on(class: 'circle-fixed-button')
 
-    expect(page).to have_content('Arrêté du 9 avril 2019')
+    expect(page).to have_content('AM - 09/04/19')
     expect(DownloadHelpers.download_content).to have_content "les dispositions du présent arrêté s'appliquent"
     expect(DownloadHelpers.download_content).to have_content '500 mg/m3'
     expect(DownloadHelpers.download_content).to have_content "Prescriptions copier - coller de l'AP"
 
     # After download prescriptions are still present
-    expect(page).to have_content('Arrêté du 9 avril 2019')
+    expect(page).to have_content('AM - 09/04/19')
     expect(page).to have_selector '.sidebar-content div.prescription', count: '7'
     expect(Prescription.count).to eq 7
 
@@ -81,8 +81,8 @@ RSpec.describe 'Feature tests end to end', js: true do
     expect(page).to have_content('SEPANOR')
     click_link("Voir les prescriptions pour générer une fiche d'inspection")
 
-    expect(page).not_to have_selector '.sidebar-content h6', text: 'Arrêté du 9 avril 2019 - 2521 E', count: 1
-    expect(page).to have_field('prescription_checkbox_wMERsNojBkon', checked: false)
+    expect(page).not_to have_selector '.sidebar-content h6', text: 'AM - 09/04/19 - 2521 E', count: 1
+    expect(page).to have_field('prescription_checkbox_MRPoxuTZSSuM', checked: false)
     expect(page).to have_selector '.sidebar-content div.prescription', count: '0'
 
     # Return to installation - prescriptions are still displayed
@@ -91,12 +91,12 @@ RSpec.describe 'Feature tests end to end', js: true do
     click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
     click_link("Voir les prescriptions pour générer une fiche d'inspection")
 
-    expect(page).to have_field('prescription_checkbox_wMERsNojBkon', checked: true)
-    expect(page).to have_selector '.sidebar-content h6', text: 'Arrêté du 9 avril 2019 - 2521 E', count: 1
+    expect(page).to have_field('prescription_checkbox_MRPoxuTZSSuM', checked: true)
+    expect(page).to have_selector '.sidebar-content h6', text: 'AM - 09/04/19 - 2521 E', count: 1
     expect(page).to have_selector '.sidebar-content div.prescription', count: '7'
 
     find('.delete_prescription', match: :first).click
-    expect(page).to have_field('prescription_checkbox_wMERsNojBkon', checked: false)
+    expect(page).to have_field('prescription_checkbox_MRPoxuTZSSuM', checked: false)
     expect(page).to have_selector '.sidebar-content div.prescription', count: '6'
     expect(Prescription.count).to eq 6
 
