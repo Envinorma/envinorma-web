@@ -10,13 +10,13 @@
             ul.glide__slides
               - if @arretes.any?
                 - @arretes.each do |arrete|
-                  - am_classement_infos = classement_infos(arrete, @installation)
+                  - classement_infos = classement_infos(arrete, @installation)
                   li.glide__slide
                     a href="#anchor_am_#{arrete.id}"
                       => arrete.short_title
                       br
                         small
-                          => am_classement_infos
+                          => classement_infos
 
               - if @aps.any?
                 - @aps.each do |ap|
@@ -35,7 +35,7 @@
   - if @arretes.any?
       - @arretes.each do |arrete|
         - am_short_title = arrete.short_title
-        - am_classement_infos = classement_infos(arrete, @installation)
+        - classement_infos = classement_infos(arrete, @installation)
         section id="anchor_am_#{arrete.id}" class='anchor'
           .row
             .col-2
@@ -50,7 +50,7 @@
               h2.display.h1
                 = arrete.short_title
                 span.text-secondary
-                  =  "- #{am_classement_infos}"
+                  =  "- #{classement_infos}"
               p
                 strong = arrete.title
 
@@ -110,11 +110,11 @@
                                     locals: { subsection: subsection.applicability.previous_version,
                                               level: level,
                                               subsection_id: subsection_id,
-                                              ref: "#{am_short_title} - #{am_classement_infos} - #{subsection.reference_str}",
+                                              ref: "#{am_short_title} - #{classement_infos} - #{subsection.reference_str}",
                                               am_id: arrete.id,
                                               subsection_rank: subsection_rank }
 
-                        - am_ref = "#{am_short_title} - #{am_classement_infos}"
+                        - am_ref = "#{am_short_title} - #{classement_infos}"
                         = render partial: 'select_all_checkbox',
                           locals: { subsection: subsection,
                                     am_ref: am_ref,

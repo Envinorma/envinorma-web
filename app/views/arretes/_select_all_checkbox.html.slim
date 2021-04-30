@@ -15,7 +15,8 @@
               - if alinea.text != ''
                 = f.hidden_field :contents, value: alinea.text, namespace: subsection.id, multiple: true
                 = f.hidden_field :alinea_ids, value: alinea.id, namespace: subsection.id, multiple: true
-                = f.hidden_field :ranks, value: "#{subsection_rank}.#{alinea_index}", namespace: subsection.id, multiple: true
+                = f.hidden_field :ranks, value: "#{subsection_rank}.#{alinea_index}",
+                                  namespace: subsection.id, multiple: true
 
               - alinea.table&.rows&.each_with_index do |row, index|
                 - unless row.is_header
