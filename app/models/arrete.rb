@@ -4,10 +4,8 @@ class Arrete < ApplicationRecord
   has_many :arretes_unique_classements, dependent: :delete_all
   has_many :unique_classements, through: :arretes_unique_classements
 
-  validates :data, :summary, :short_title, :title, :cid, :aida_url, :legifrance_url, presence: true
+  validates :data, :summary, :title, :cid, :aida_url, :legifrance_url, :publication_date, presence: true
   validates :title, length: { minimum: 10 }
-  validates :short_title, format: { with: /\AArrêté du .* [0-9]{4}\z/,
-                                    message: 'has wrong format.' }
 
   validates :unique_version, inclusion: { in: [true, false] }
   validates :cid, format: { with: /\A(JORF|LEGI)TEXT[0-9]{12}.*\z/ }
@@ -37,6 +35,10 @@ class Arrete < ApplicationRecord
 
   def enriched?
     !enriched_from_id.nil?
+  end
+
+  def short_title
+    "AM - #{publication_date.strftime('%d/%m/%y')}"
   end
 
   class << self
@@ -77,7 +79,7 @@ class Arrete < ApplicationRecord
       arrete = Arrete.new(
         data: arrete_json,
         cid: arrete_json['id'],
-        short_title: arrete_json['short_title'],
+        publication_date: arrete_json['publication_date'].to_date,
         title: arrete_json.dig('title', 'text'),
         classements_with_alineas: arrete_json['classements_with_alineas'],
         unique_version: arrete_json['unique_version'],

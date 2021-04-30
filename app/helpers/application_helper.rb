@@ -10,9 +10,9 @@ module ApplicationHelper
 
     classements.map! do |classement|
       if classement.alinea.present?
-        " - #{classement.rubrique} #{classement.regime} al. #{classement.alinea}"
+        "#{classement.rubrique} #{classement.regime} al. #{classement.alinea}"
       else
-        " - #{classement.rubrique} #{classement.regime}"
+        "#{classement.rubrique} #{classement.regime}"
       end
     end.join
   end

@@ -17,18 +17,15 @@
                       br
                         small
                           => am_classement_infos
-                          span class="badge badge-secondary"
-                            = arrete.enriched? ? 'AM enrichi' : 'AM'
 
               - if @aps.any?
                 - @aps.each do |ap|
                   li.glide__slide
                     a href="#anchor_ap_#{ap.id}"
-                      => ap.description
+                      => ap.short_title
                       br
                         small
-                          => ap.date
-                          span class="badge badge-secondary" AP
+                          => ap.description
 
           div class="glide__arrows" data-glide-el="controls"
             button class="glide__arrow glide__arrow--left" data-glide-dir="<"<
@@ -50,12 +47,10 @@
                         = summary_item['section_title']
 
             .col-7
-              span class='badge badge-success float-right'
-                = arrete.enriched? ? 'AM enrichi' : 'AM'
               h2.display.h1
                 = arrete.short_title
                 span.text-secondary
-                  = am_classement_infos
+                  =  "- #{am_classement_infos}"
               p
                 strong = arrete.title
 
@@ -115,11 +110,11 @@
                                     locals: { subsection: subsection.applicability.previous_version,
                                               level: level,
                                               subsection_id: subsection_id,
-                                              ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}",
+                                              ref: "#{am_short_title} - #{am_classement_infos} - #{subsection.reference_str}",
                                               am_id: arrete.id,
                                               subsection_rank: subsection_rank }
 
-                        - am_ref = "#{am_short_title} #{am_classement_infos}"
+                        - am_ref = "#{am_short_title} - #{am_classement_infos}"
                         = render partial: 'select_all_checkbox',
                           locals: { subsection: subsection,
                                     am_ref: am_ref,
@@ -161,7 +156,7 @@
                               placeholder: placeholder,
                               hint: 'Le copier-coller est possible depuis le PDF'
 
-                  = f.hidden_field :text_reference, value: ap.reference
+                  = f.hidden_field :text_reference, value: ap.short_title
 
                 = f.button :submit, 'ajouter une prescription', class: 'btn btn-primary'
             .col-6
