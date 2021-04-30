@@ -13,6 +13,7 @@ class ArretesController < ApplicationController
     @prescription = Prescription.new
     @prescriptions = @user.prescriptions_grouped_for(@installation)
     @aps = @installation.retrieve_aps
+    @alinea_ids = @user.prescription_alinea_ids(@installation)
   end
 
   def generate_doc_with_prescriptions

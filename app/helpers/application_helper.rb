@@ -24,4 +24,8 @@ module ApplicationHelper
   def retrieve_duplicated_installation(user, installation)
     user.installations.where(duplicated_from_id: installation.id).first
   end
+
+  def prescription_checked?(alinea_ids, alinea_id)
+    alinea_ids.include?(alinea_id)
+  end
 end
