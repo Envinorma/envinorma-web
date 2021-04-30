@@ -60,6 +60,13 @@ RSpec.describe 'Feature tests end to end', js: true do
     expect(page).to have_selector '.sidebar-content div.prescription', count: '7'
     expect(Prescription.count).to eq 7
 
+    fill_in 'Référence', with: 'Art. 4'
+    fill_in 'Contenu', with: "Prescriptions 2 copier - coller de l'AP"
+    click_button('ajouter une prescription')
+    expect(page).to have_selector '.sidebar-content h6', text: 'AP - 27/04/21', count: 1
+    expect(page).to have_selector '.sidebar-content div.prescription', count: '8'
+    expect(Prescription.count).to eq 8
+
     # Generate Fiche d'inspection
     click_on(class: 'circle-fixed-button')
 
@@ -70,8 +77,8 @@ RSpec.describe 'Feature tests end to end', js: true do
 
     # After download prescriptions are still present
     expect(page).to have_content('AM - 09/04/19')
-    expect(page).to have_selector '.sidebar-content div.prescription', count: '7'
-    expect(Prescription.count).to eq 7
+    expect(page).to have_selector '.sidebar-content div.prescription', count: '8'
+    expect(Prescription.count).to eq 8
 
     # Visit a new installation - Prescriptions are not displayed
     visit root_path
@@ -93,12 +100,12 @@ RSpec.describe 'Feature tests end to end', js: true do
 
     expect(page).to have_field('prescription_checkbox_MRPoxuTZSSuM', checked: true)
     expect(page).to have_selector '.sidebar-content h6', text: 'AM - 09/04/19 - 2521 E', count: 1
-    expect(page).to have_selector '.sidebar-content div.prescription', count: '7'
+    expect(page).to have_selector '.sidebar-content div.prescription', count: '8'
 
     find('.delete_prescription', match: :first).click
     expect(page).to have_field('prescription_checkbox_MRPoxuTZSSuM', checked: false)
-    expect(page).to have_selector '.sidebar-content div.prescription', count: '6'
-    expect(Prescription.count).to eq 6
+    expect(page).to have_selector '.sidebar-content div.prescription', count: '7'
+    expect(Prescription.count).to eq 7
 
     click_link('Tout supprimer')
     expect(page).to have_selector '.sidebar-content div.prescription', count: '0'
