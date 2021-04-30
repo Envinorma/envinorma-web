@@ -55,7 +55,7 @@ RSpec.describe Classement.new do
     expect(classement.human_readable_volume).to eq '10.03 t'
   end
 
-  it 'should remove useless trailing zeros' do
+  it 'should do nothing when no trailing zeros' do
     classement = Classement.new(volume: '10.035 h')
     expect(classement.human_readable_volume).to eq '10.035 h'
   end
