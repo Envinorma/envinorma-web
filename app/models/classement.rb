@@ -7,6 +7,33 @@ class Classement < ApplicationRecord
   validates :regime, inclusion: { in: %w[A E D NC unknown], message: 'is not valid' }
   validates :regime_acte, inclusion: { in: %w[A E D NC unknown], message: 'is not valid', allow_blank: true }
 
+  def human_readable_volume
+    words = (volume || '').split
+    return volume if words.length > 2 || words.length.zero?
+
+    volume_number = simplify_volume(words.first || '')
+    volume_unit = words.length == 1 ? '' : words.last
+    volume_unit.empty? ? volume_number.to_s : "#{volume_number} #{volume_unit}"
+  end
+
+  def float?(string)
+    true if Float(string)
+  rescue StandardError
+    false
+  end
+
+  def int?(string)
+    !(string =~ /\A[0-9]*\.000\z/).nil?
+  end
+
+  def simplify_volume(volume)
+    return if volume.nil?
+    return volume.to_i if int?(volume)
+    return volume.to_f if float?(volume)
+
+    volume
+  end
+
   class << self
     def validate_then_recreate(classements_list)
       puts 'Seeding classements...'
