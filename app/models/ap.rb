@@ -15,7 +15,7 @@ class AP < ApplicationRecord
     "#{description} - #{date.strftime('%d/%m/%y')}"
   end
 
-  def reference
+  def short_title
     "AP - #{date.strftime('%d/%m/%y')}"
   end
 
