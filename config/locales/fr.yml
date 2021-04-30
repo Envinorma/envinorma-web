@@ -1,5 +1,12 @@
 fr:
   activerecord:
+    attributes:
+      prescription:
+        reference: 'Référence'
+        content: 'Contenu'
+      classement:
+        regime: 'Régime'
+        date_autorisation: "Date d'autorisation"
     errors:
       messages:
         record_invalid: "La validation a échoué : %{errors}"

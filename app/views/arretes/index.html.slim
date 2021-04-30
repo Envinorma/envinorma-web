@@ -1,131 +1,175 @@
 .am_nav
   .container
-    .glide
-      div class="glide__track" data-glide-el="track"
-        ul.glide__slides
-          - @arretes.each do |arrete|
-            - am_classement_infos = classement_infos(arrete, @installation)
-            li.glide__slide
-              a href="#anchor_#{arrete.id}"
-                => arrete.short_title
-                br
-                  small
-                    => am_classement_infos
-                    - if arrete.enriched?
-                      span class="badge badge-success" enrichi
+    .row
+      .col-1.align-self-center
+        = link_to '< Retour à l’installation', installation_path(@installation), class: 'js_loader__link small'
+      .col-11
+        .glide
 
-      div class="glide__arrows" data-glide-el="controls"
-        button class="glide__arrow glide__arrow--left" data-glide-dir="<"<
-        button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+          div class="glide__track" data-glide-el="track"
+            ul.glide__slides
+              - if @arretes.any?
+                - @arretes.each do |arrete|
+                  - classement_infos = classement_infos(arrete, @installation)
+                  li.glide__slide
+                    a href="#anchor_am_#{arrete.id}"
+                      => arrete.short_title
+                      br
+                        small
+                          => classement_infos
 
-= form_tag({ controller: 'arretes', action: 'generate_doc_with_prescriptions' },
-  method: 'post', target: '_blank', id: 'generate_doc_with_prescriptions_form') do
-  .container
-    = link_to '< Retour à l’installation', installation_path(@installation), class: 'back_link js_loader__link'
-    .row.mt-5
-      .col-2
-        dl.summary
-          - @arretes.each do |arrete|
-            .display-summary id="anchor_#{arrete.id}_summary" class='anchor'
-              - arrete.summary['elements'].each do |summary_item|
-                dd
-                  a class="level_#{summary_item['depth']}" href="#anchor_#{summary_item['section_id']}"
-                    = summary_item['section_title']
+              - if @aps.any?
+                - @aps.each do |ap|
+                  li.glide__slide
+                    a href="#anchor_ap_#{ap.id}"
+                      => ap.short_title
+                      br
+                        small
+                          => ap.description
 
-      .col-10
-        - @arretes.each do |arrete|
-          - am_short_title = arrete.short_title
-          - am_classement_infos = classement_infos(arrete, @installation)
-          section id="anchor_#{arrete.id}" class='anchor'
-            - if arrete.enriched?
-              span class='badge badge-success float-right' enrichi
-            h2.display.h1
-              = arrete.short_title
-              span.text-secondary
-                = am_classement_infos
-            p
-              strong = arrete.title
+          div class="glide__arrows" data-glide-el="controls"
+            button class="glide__arrow glide__arrow--left" data-glide-dir="<"<
+            button class="glide__arrow glide__arrow--right" data-glide-dir=">">
 
-            p.mb-5
-              = link_to 'Consulter sur Aida', arrete.aida_url, target: '_blank'
-              = link_to 'Consulter sur Légifrance', arrete.legifrance_url, target: '_blank', class: 'ml-3'
+.container
+  - if @arretes.any?
+      - @arretes.each do |arrete|
+        - am_short_title = arrete.short_title
+        - classement_infos = classement_infos(arrete, @installation)
+        section id="anchor_am_#{arrete.id}" class='anchor'
+          .row
+            .col-2
+              dl.summary
+                .display-summary id="anchor_#{arrete.id}_summary" class='anchor'
+                  - arrete.summary['elements'].each do |summary_item|
+                    dd
+                      a class="level_#{summary_item['depth']}" href="#anchor_#{summary_item['section_id']}"
+                        = summary_item['section_title']
 
-            - arrete.data.sections.each do |section|
-              - extract_sections = lambda do |subsection, level = 3|
+            .col-7
+              h2.display.h1
+                = arrete.short_title
+                span.text-secondary
+                  =  "- #{classement_infos}"
+              p
+                strong = arrete.title
 
-                div id="anchor_#{subsection.id}" class='anchor anchor-summary'
+              p.mb-5
+                = link_to 'Consulter sur Aida', arrete.aida_url, target: '_blank'
+                = link_to 'Consulter sur Légifrance', arrete.legifrance_url, target: '_blank', class: 'ml-3'
+              - arrete.data.sections.each_with_index do |section, section_index|
+                - extract_sections = lambda do |subsection, subsection_rank, level = 3|
 
-                  / display title
-                  - if subsection.applicability.active
-                    - if subsection.outer_alineas.present?
-                      - secure_id = SecureRandom.hex(10)
-                      *{ tag: "h#{level}",
-                        class: 'icon-collapse',
-                        data: { toggle: 'collapse', target: "#collapse_#{secure_id}" } }
-                        = subsection.title.text
+                  div id="anchor_#{subsection.id}" class='anchor anchor-summary'
 
-                    - else
-                      *{ tag: "h#{level}" } = subsection.title.text
-
-                  / display inactive title
-                  - else
-                    .inactive
+                    / display title
+                    - if subsection.applicability.active
                       - if subsection.outer_alineas.present?
-                        - secure_id = SecureRandom.hex(10)
+                        - subsection_id = subsection.id
                         *{ tag: "h#{level}",
                           class: 'icon-collapse',
-                          data: { toggle: 'collapse', target: "#collapse_#{secure_id}" } }
+                          data: { toggle: 'collapse', target: "#collapse_#{subsection_id}" } }
                           = subsection.title.text
+
                       - else
                         *{ tag: "h#{level}" } = subsection.title.text
 
-                  / display warning
-                  - subsection.applicability.warnings.each do |warning|
-                    .alert.alert-secondary
-                      p = warning
+                    / display inactive title
+                    - else
+                      .inactive
+                        - if subsection.outer_alineas.present?
+                          - subsection_id = subsection.id
+                          *{ tag: "h#{level}",
+                            class: 'icon-collapse',
+                            data: { toggle: 'collapse', target: "#collapse_#{subsection_id}" } }
+                            = subsection.title.text
+                        - else
+                          *{ tag: "h#{level}" } = subsection.title.text
 
-                  / display outeralineas
-                  - if subsection.outer_alineas.present?
-                    .collapse.show id="collapse_#{secure_id}"
+                    / display warning
+                    - subsection.applicability.warnings.each do |warning|
+                      .alert.alert-secondary
+                        p = warning
 
-                      / display button and collapse original text version if modified
-                      - if subsection.applicability.modified
-                        small
-                          .border-bottom.mb-3.pb-3
-                            *{ tag: "a href='#'",
-                              class: 'icon-collapse icon-collapse-mini',
-                              data: { toggle: 'collapse', target: "#modified_collapse_#{secure_id}" } }
-                              | voir le texte d'origine
+                    / display outeralineas
+                    - if subsection.outer_alineas.present?
+                      .collapse.show id="collapse_#{subsection_id}"
 
-                            .inactive
-                              .collapse id="modified_collapse_#{secure_id}"
-                                = render partial: 'outer_alineas',
-                                  locals: { subsection: subsection.applicability.previous_version,
-                                            level: level,
-                                            secure_id: secure_id,
-                                            ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}" }
+                        / display button and collapse original text version if modified
+                        - if subsection.applicability.modified
+                          small
+                            .border-bottom.mb-3.pb-3
+                              *{ tag: "a href='#'",
+                                class: 'icon-collapse icon-collapse-mini',
+                                data: { toggle: 'collapse', target: "#modified_collapse_#{subsection_id}" } }
+                                | voir le texte d'origine
 
-                      / display select_all checkbox
-                      - if subsection.applicability.active && subsection.outer_alineas.count > 1
-                        .border-bottom.mb-3.pb-3
-                          .form-group.row
-                              .col-sm-12
-                                .form-check
-                                  = check_box_tag "select_all_#{secure_id}",
-                                    '1', false, class: 'form-check-input select_all'
+                              .inactive
+                                .collapse id="modified_collapse_#{subsection_id}"
+                                  = render partial: 'outer_alineas',
+                                    locals: { subsection: subsection.applicability.previous_version,
+                                              level: level,
+                                              subsection_id: subsection_id,
+                                              ref: "#{am_short_title} - #{classement_infos} - #{subsection.reference_str}",
+                                              am_id: arrete.id,
+                                              subsection_rank: subsection_rank }
 
-                      = render partial: 'outer_alineas',
-                        locals: { subsection: subsection,
-                                  level: level,
-                                  secure_id: secure_id,
-                                  ref: "#{am_short_title} #{am_classement_infos} - #{subsection.reference_str}" }
+                        - am_ref = "#{am_short_title} - #{classement_infos}"
+                        = render partial: 'select_all_checkbox',
+                          locals: { subsection: subsection,
+                                    am_ref: am_ref,
+                                    am_id: arrete.id,
+                                    subsection_rank: subsection_rank }
 
-                / iterate on sections and increment level
-                - subsection.sections.each do |item|
-                  - extract_sections.call(item, level + 1)
+                        = render partial: 'outer_alineas',
+                          locals: { subsection: subsection,
+                                    level: level,
+                                    subsection_id: subsection_id,
+                                    ref: subsection.reference_str,
+                                    am_ref: am_ref,
+                                    am_id: arrete.id,
+                                    subsection_rank: subsection_rank }
 
-              - extract_sections.call(section)
+                  / iterate on sections and increment level
+                  - subsection.sections.each_with_index do |item, item_index|
+                    - extract_sections.call(item, "#{subsection_rank}.#{item_index}", level + 1)
 
-          hr.mb-5.mt-5
+                - extract_sections.call(section, section_index.to_s)
 
-  = submit_tag("Générer une fiche d'inspection", class: 'btn btn-primary btn-prescription')
+        .splitter
+
+  - if @aps.any?
+      - @aps.each do |ap|
+        section id="anchor_ap_#{ap.id}" class='anchor'
+          .row
+            .col-3
+              h5 = ap.title
+
+              = simple_form_for [@installation, @prescription], remote: true do |f|
+                .row
+                  .col-12
+                    = f.input :reference, placeholder: 'ex: Art. 2'
+                  .col-12
+                    - placeholder = 'ex: Les quantités maximales qui seront stockées sont estimées à environ : 1 500.000m3'
+                    = f.input :content,
+                              as: :text,
+                              placeholder: placeholder,
+                              hint: 'Le copier-coller est possible depuis le PDF'
+
+                  = f.hidden_field :text_reference, value: ap.short_title
+
+                = f.button :submit, 'ajouter une prescription', class: 'btn btn-primary'
+            .col-6
+              - url_ovh = 'https://storage.sbg.cloud.ovh.net/v1/AUTH_3287ea227a904f04ad4e8bceb0776108/ap/'
+              object data="#{url_ovh}#{ap.georisques_id}.pdf" type="image/svg+xml" class="pdf_viewer"
+        .splitter
+
+  .col-3.offset-9
+    .sidebar
+      .sidebar-content
+        h4.mb-4 Prescriptions à exporter
+        div#prescriptions_recap
+          = render partial: './prescriptions/prescription'
+
+= link_to generate_doc_path, method: :post, class: 'btn btn-primary circle-fixed-button' do
+  i.fas.fa-file-download.fa-fw

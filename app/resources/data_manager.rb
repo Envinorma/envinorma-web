@@ -10,6 +10,10 @@ class DataManager
     classements_list = parse_seed_csv('classements_all.csv')
     Classement.validate_then_recreate(classements_list)
 
+    seed_aps
+  end
+
+  def self.seed_aps
     aps_list = parse_seed_csv('aps_all.csv')
     AP.validate_then_recreate(aps_list)
   end
@@ -30,7 +34,7 @@ class DataManager
       if arrete.present?
         arrete.update!(
           data: am,
-          short_title: am['short_title'],
+          publication_date: am['publication_date'].to_date,
           title: am.dig('title', 'text'),
           unique_version: am['unique_version'],
           installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),
@@ -45,7 +49,7 @@ class DataManager
         arrete = Arrete.create!(
           data: am,
           cid: am['id'],
-          short_title: am['short_title'],
+          publication_date: am['publication_date'].to_date,
           title: am.dig('title', 'text'),
           unique_version: am['unique_version'],
           installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),

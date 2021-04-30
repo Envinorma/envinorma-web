@@ -10,11 +10,11 @@ module ApplicationHelper
 
     classements.map! do |classement|
       if classement.alinea.present?
-        " - #{classement.rubrique} #{classement.regime} al. #{classement.alinea}"
+        "#{classement.rubrique} #{classement.regime} al. #{classement.alinea}"
       else
-        " - #{classement.rubrique} #{classement.regime}"
+        "#{classement.rubrique} #{classement.regime}"
       end
-    end.join
+    end.join(' - ')
   end
 
   def user_already_duplicated_installation?(user, installation)
@@ -23,5 +23,9 @@ module ApplicationHelper
 
   def retrieve_duplicated_installation(user, installation)
     user.installations.where(duplicated_from_id: installation.id).first
+  end
+
+  def prescription_checked?(alinea_ids, alinea_id)
+    alinea_ids.include?(alinea_id)
   end
 end

@@ -1,22 +1,29 @@
-- subsection.outer_alineas.each do |outer_alinea|
+- subsection.outer_alineas.each_with_index do |outer_alinea, alinea_index|
+  - alinea_id = outer_alinea.id
   - if outer_alinea.text != ''
-    - secure_id_checkbox = SecureRandom.hex(10)
     .form-group.row
         .col-sm-12
-          .form-check.checkbox-arrete
-            = check_box_tag "prescriptions[#{secure_id_checkbox}][checkbox]",
-              '1', false, class: "form-check-input select_all_#{secure_id}"
-            - if outer_alinea.active
-              = label_tag "prescriptions[#{secure_id_checkbox}][checkbox]", outer_alinea.text
-            - else
-              = label_tag "prescriptions[#{secure_id_checkbox}][checkbox]", outer_alinea.text, class: 'inactive'
-            = hidden_field_tag "prescriptions[#{secure_id_checkbox}][reference]", ref
-            = hidden_field_tag "prescriptions[#{secure_id_checkbox}][content]", outer_alinea.text
+          = form_with(model: [@installation, @prescription], id: "alinea_checkbox_form_#{alinea_id}", remote: true) do |f|
+            .form-check.checkbox-arrete
+              = check_box_tag "prescription_checkbox_#{alinea_id}",
+                '1', prescription_checked?(@alinea_ids, alinea_id),
+                class: "form-check-input select_all_#{subsection_id} alineas_checkbox",
+                data: { alinea_id: alinea_id }
+              - if outer_alinea.active
+                = label_tag "prescription_checkbox_#{alinea_id}", outer_alinea.text
+              - else
+                = label_tag "prescription_checkbox_#{alinea_id}", outer_alinea.text, class: 'inactive'
+              = f.hidden_field :content, value: outer_alinea.text, namespace: alinea_id
+              = f.hidden_field :reference, value: ref, namespace: alinea_id
+              = f.hidden_field :alinea_id, value: alinea_id, namespace: alinea_id
+              = f.hidden_field :text_reference, value: am_ref, namespace: alinea_id
+              = f.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}", namespace: alinea_id
+              = f.hidden_field :from_am_id, value: am_id, namespace: alinea_id
 
   - if outer_alinea.table
     table.table.table-bordered
-      - outer_alinea.table.rows.each do |row|
-        - secure_id_checkbox = SecureRandom.hex(10)
+      - outer_alinea.table.rows.each_with_index do |row, index|
+        - row_id = "#{alinea_id}_#{index}"
         - if row.is_header
           tr
             th
@@ -26,13 +33,19 @@
         - else
           tr
             td
-                = check_box_tag "prescriptions[#{secure_id_checkbox}][checkbox]",
-                  '1', false, class: "form-check-input select_all_#{secure_id}"
-
-                = hidden_field_tag "prescriptions[#{secure_id_checkbox}][reference]", ref
-                = hidden_field_tag "prescriptions[#{secure_id_checkbox}][content]", row.text_in_inspection_sheet
+              = form_with(model: [@installation, @prescription], id: "alinea_checkbox_form_#{row_id}", remote: true) do |f|
+                = check_box_tag "prescription_checkbox_#{row_id}",
+                  '1', prescription_checked?(@alinea_ids, row_id),
+                  class: "form-check-input select_all_#{subsection_id} alineas_checkbox",
+                  data: { alinea_id: row_id }
+                = f.hidden_field :content, value: row.text_in_inspection_sheet, namespace: row_id
+                = f.hidden_field :reference, value: ref, namespace: row_id
+                = f.hidden_field :alinea_id, value: row_id.to_s, namespace: row_id
+                = f.hidden_field :text_reference, value: am_ref, namespace: row_id
+                = f.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}.#{index}", namespace: row_id
+                = f.hidden_field :from_am_id, value: am_id, namespace: row_id
 
             - row.cells.each do |cell|
               td colspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
-                = label_tag("prescriptions[#{secure_id_checkbox}][checkbox]",
+                = label_tag("prescription_checkbox_#{row_id}",
                   cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe)

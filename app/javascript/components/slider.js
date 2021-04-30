@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const rightArrowClasses = document.querySelector('.glide__arrow--right').classList;
 
     var numberOfArretes = document.querySelectorAll('.glide__slide').length
-    var slidesPerView =  5
+    var slidesPerView =  4
     var peekBefore = 0
     var peekAfter = 100
 
-    if (numberOfArretes < 5) {
+    if (numberOfArretes <= 4) {
       slidesPerView = numberOfArretes;
       rightArrowClasses.add('invisible');
 

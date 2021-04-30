@@ -58,15 +58,17 @@
             br
             - if classement.regime_acte.present?
               small.text-secondary = t("regime.#{classement.regime_acte}")
-              sup.text-secondary *
 
           td = classement.activite
           td = classement.date_autorisation&.strftime('%d/%m/%Y')
           td = classement.volume
 
   .small.text-secondary
-    sup*
-    | classements actés
+    | Sur chaque ligne
+    br
+    | - Classements en vigueur en vigueur estimés à partir des évolutions de la nomenclature
+    br
+    | - Classements publiés dans un acte administratif
 
   .row
     .col
@@ -80,11 +82,7 @@
             li
               => arrete.short_title
               span.text-secondary
-                = classement_infos(arrete, @installation)
-
-        = link_to "Voir les prescriptions pour générer une fiche d'inspection",
-          arretes_path(@installation, arrete_ids: @arretes.pluck(:id)),
-          class: 'btn btn-primary mb-4 js_loader__link'
+                = "- #{classement_infos(arrete, @installation)}"
 
     .col
       h2.mt-5 Arrêtés préfectoraux associés
@@ -93,4 +91,10 @@
       - else
         ul.list-unstyled
           - @aps.each do |ap|
-            li = link_to "#{ap.description} - #{ap.date}", ap.url, target: '_blank'
+            li = ap.title
+
+  hr.mb-5.mt-5
+  - if @arretes.any? || @aps.any?
+      = link_to "Voir les prescriptions pour générer une fiche d'inspection",
+            arretes_path(@installation, arrete_ids: @arretes.pluck(:id)),
+            class: 'btn btn-primary mb-4 js_loader__link btn-fixed-bottom'

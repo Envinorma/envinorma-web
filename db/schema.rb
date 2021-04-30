@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_15_151820) do
+ActiveRecord::Schema.define(version: 2021_04_29_130832) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2021_04_15_151820) do
     t.string "installation_s3ic_id"
     t.string "description"
     t.date "date"
-    t.string "url"
+    t.string "georisques_id"
     t.bigint "installation_id", null: false
     t.index ["installation_id"], name: "index_aps_on_installation_id"
   end
@@ -28,7 +28,6 @@ ActiveRecord::Schema.define(version: 2021_04_15_151820) do
     t.jsonb "data"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.string "short_title"
     t.string "title"
     t.boolean "unique_version"
     t.string "installation_date_criterion_left"
@@ -39,6 +38,7 @@ ActiveRecord::Schema.define(version: 2021_04_15_151820) do
     t.string "cid"
     t.jsonb "classements_with_alineas"
     t.bigint "enriched_from_id"
+    t.date "publication_date"
   end
 
   create_table "arretes_unique_classements", id: false, force: :cascade do |t|
@@ -95,6 +95,21 @@ ActiveRecord::Schema.define(version: 2021_04_15_151820) do
     t.index ["user_id"], name: "index_installations_on_user_id"
   end
 
+  create_table "prescriptions", force: :cascade do |t|
+    t.string "reference"
+    t.string "content"
+    t.string "alinea_id"
+    t.bigint "from_am_id"
+    t.bigint "user_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "text_reference"
+    t.string "rank"
+    t.bigint "installation_id"
+    t.index ["installation_id"], name: "index_prescriptions_on_installation_id"
+    t.index ["user_id"], name: "index_prescriptions_on_user_id"
+  end
+
   create_table "task_records", id: false, force: :cascade do |t|
     t.string "version", null: false
   end
@@ -114,4 +129,6 @@ ActiveRecord::Schema.define(version: 2021_04_15_151820) do
   add_foreign_key "classements", "installations"
   add_foreign_key "enriched_arretes", "arretes"
   add_foreign_key "installations", "users"
+  add_foreign_key "prescriptions", "installations"
+  add_foreign_key "prescriptions", "users"
 end

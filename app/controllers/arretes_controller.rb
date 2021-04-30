@@ -6,20 +6,19 @@ class ArretesController < ApplicationController
 
   def index
     @arretes = []
-    params['arrete_ids'].each do |arrete_id|
+    params['arrete_ids']&.each do |arrete_id|
       @arretes << Arrete.find(arrete_id)
     end
+
+    @prescription = Prescription.new
+    @prescriptions = @user.prescriptions_grouped_for(@installation)
+    @aps = @installation.retrieve_aps
+    @alinea_ids = @user.prescription_alinea_ids(@installation)
   end
 
   def generate_doc_with_prescriptions
-    prescriptions = {}
-    prescriptions_params.to_h.each do |key, val|
-      prescriptions[key] = { ref: val['reference'], value: helpers.sanitize(val['content']) } if val['checkbox'] == '1'
-    end
-
-    prescriptions_joined_by_ref = merge_prescriptions_with_same_ref(prescriptions)
-
-    generate_doc(prescriptions_joined_by_ref)
+    groups = helpers.merge_prescriptions_with_same_ref(@user.prescriptions)
+    generate_doc(groups)
   end
 
   private
@@ -30,16 +29,6 @@ class ArretesController < ApplicationController
 
   def prescriptions_params
     params['prescriptions'].permit!
-  end
-
-  def merge_prescriptions_with_same_ref(prescriptions)
-    prescriptions_joined_by_ref = {}
-    prescriptions.group_by { |_k, v| v[:ref] }.each do |key, value|
-      prescriptions_joined_by_ref[key] = value.map! do |val|
-        val.last[:value]
-      end.join('<text:line-break/><text:line-break/>')
-    end
-    prescriptions_joined_by_ref
   end
 
   def generate_doc(prescriptions)
