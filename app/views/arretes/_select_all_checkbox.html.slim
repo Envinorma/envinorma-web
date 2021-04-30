@@ -2,32 +2,37 @@
   .border-bottom.mb-3.pb-3
     .form-group.row
       .col-sm-12
-        = form_with(model: [@installation, @prescription], id: "select_all_checkbox_form_#{subsection.id}", remote: true) do |form|
+        = form_with(model: [@installation, @prescription],
+                    id: "select_all_checkbox_form_#{subsection.id}",
+                    remote: true) do |f|
           .form-check
-          = check_box_tag "select_all_#{subsection.id}",
-            '1', false, class: 'form-check-input select_all', data: {section_id: subsection.id}
-          = form.hidden_field :reference, value: subsection.reference_str, namespace: subsection.id
-          = form.hidden_field :user_id, value: @user.id, namespace: subsection.id
-          = form.hidden_field :text_reference, value: am_ref, namespace: subsection.id
-          = form.hidden_field :from_am_id, value: am_id, namespace: subsection.id
-          - subsection.outer_alineas.each_with_index do |alinea, alinea_index|
-            - if alinea.text != ''
-              = form.hidden_field :contents, value: alinea.text, namespace: subsection.id, multiple: true
-              = form.hidden_field :alinea_ids, value: alinea.id, namespace: subsection.id, multiple: true
-              = form.hidden_field :ranks, value: "#{subsection_rank}.#{alinea_index}", namespace: subsection.id, multiple: true
-            - if alinea.table
-              - alinea.table.rows.each_with_index do |row, index|
-                - if !row.is_header
-                  = form.hidden_field :contents, value: row.text_in_inspection_sheet, namespace: subsection.id, multiple: true
-                  = form.hidden_field :alinea_ids, value: "#{alinea.id}_#{index}", namespace: subsection.id, multiple: true
-                  = form.hidden_field :ranks, value: "#{subsection_rank}.#{alinea_index}.#{index}", namespace: subsection.id, multiple: true
-  = form_with(url: installation_delete_many_path(@installation), id: "select_all_checkbox_delete_#{subsection.id}", remote: true, method: :delete) do |form|
-    = form.hidden_field :user_id, value: @user.id, namespace: subsection.id
-    - subsection.outer_alineas.each_with_index do |alinea, alinea_index|
-      - if alinea.text != ''
-        = form.hidden_field :alinea_ids, value: alinea.id, namespace: subsection.id, multiple: true
-      - if alinea.table
-        - alinea.table.rows.each_with_index do |row, index|
-          - if !row.is_header
-            = form.hidden_field :alinea_ids, value: "#{alinea.id}_#{index}", namespace: subsection.id, multiple: true
+            = check_box_tag "select_all_#{subsection.id}",
+              '1', false, class: 'form-check-input select_all', data: { section_id: subsection.id }
+            = f.hidden_field :reference, value: subsection.reference_str, namespace: subsection.id
+            = f.hidden_field :text_reference, value: am_ref, namespace: subsection.id
+            = f.hidden_field :from_am_id, value: am_id, namespace: subsection.id
+            - subsection.outer_alineas.each_with_index do |alinea, alinea_index|
+              - if alinea.text != ''
+                = f.hidden_field :contents, value: alinea.text, namespace: subsection.id, multiple: true
+                = f.hidden_field :alinea_ids, value: alinea.id, namespace: subsection.id, multiple: true
+                = f.hidden_field :ranks, value: "#{subsection_rank}.#{alinea_index}", namespace: subsection.id, multiple: true
 
+              - alinea.table&.rows&.each_with_index do |row, index|
+                - unless row.is_header
+                  = f.hidden_field :contents, value: row.text_in_inspection_sheet, namespace: subsection.id, multiple: true
+                  = f.hidden_field :alinea_ids, value: "#{alinea.id}_#{index}", namespace: subsection.id, multiple: true
+                  = f.hidden_field :ranks,
+                                    value: "#{subsection_rank}.#{alinea_index}.#{index}",
+                                    namespace: subsection.id,
+                                    multiple: true
+  = form_with(url: installation_delete_many_path(@installation),
+              id: "select_all_checkbox_delete_#{subsection.id}",
+              remote: true,
+              method: :delete) do |f|
+    - subsection.outer_alineas.each do |alinea|
+      - if alinea.text != ''
+        = f.hidden_field :alinea_ids, value: alinea.id, namespace: subsection.id, multiple: true
+
+      - alinea.table&.rows&.each_with_index do |row, index|
+        - unless row.is_header
+          = f.hidden_field :alinea_ids, value: "#{alinea.id}_#{index}", namespace: subsection.id, multiple: true

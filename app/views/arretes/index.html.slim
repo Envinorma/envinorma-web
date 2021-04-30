@@ -153,19 +153,20 @@
               = simple_form_for [@installation, @prescription], remote: true do |f|
                 .row
                   .col-12
-                    = f.input :reference, placeholder: "ex: Art. 2"
+                    = f.input :reference, placeholder: 'ex: Art. 2'
                   .col-12
+                    - placeholder = 'ex: Les quantités maximales qui seront stockées sont estimées à environ : 1 500.000m3'
                     = f.input :content,
                               as: :text,
-                              placeholder: "ex: Les quantités maximales qui seront stockées sont estimées à environ : 1 500.000m3",
-                              hint: "Le copier-coller est possible depuis le PDF"
+                              placeholder: placeholder,
+                              hint: 'Le copier-coller est possible depuis le PDF'
 
                   = f.hidden_field :text_reference, value: ap.reference
 
                 = f.button :submit, 'ajouter une prescription', class: 'btn btn-primary'
             .col-6
-              object data="https://storage.sbg.cloud.ovh.net/v1/AUTH_3287ea227a904f04ad4e8bceb0776108/ap/#{ap.georisques_id}.pdf" type="image/svg+xml" class="pdf_viewer"
-
+              - url_ovh = 'https://storage.sbg.cloud.ovh.net/v1/AUTH_3287ea227a904f04ad4e8bceb0776108/ap/'
+              object data="#{url_ovh}#{ap.georisques_id}.pdf" type="image/svg+xml" class="pdf_viewer"
         .splitter
 
   .col-3.offset-9
@@ -175,6 +176,5 @@
         div#prescriptions_recap
           = render partial: './prescriptions/prescription'
 
-
-= link_to generate_doc_path, :method => :post, class: 'btn btn-primary circle-fixed-button' do
+= link_to generate_doc_path, method: :post, class: 'btn btn-primary circle-fixed-button' do
   i.fas.fa-file-download.fa-fw

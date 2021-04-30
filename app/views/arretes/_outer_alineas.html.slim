@@ -3,23 +3,22 @@
   - if outer_alinea.text != ''
     .form-group.row
         .col-sm-12
-          = form_with(model: [@installation, @prescription], id: "alinea_checkbox_form_#{alinea_id}", remote: true) do |form|
+          = form_with(model: [@installation, @prescription], id: "alinea_checkbox_form_#{alinea_id}", remote: true) do |f|
             .form-check.checkbox-arrete
               = check_box_tag "prescription_checkbox_#{alinea_id}",
-                '1', @user.prescription_checked?(alinea_id),
+                '1', @user.prescription_checked?(@installation, alinea_id),
                 class: "form-check-input select_all_#{subsection_id} alineas_checkbox",
-                data: {alinea_id: alinea_id}
+                data: { alinea_id: alinea_id }
               - if outer_alinea.active
                 = label_tag "prescription_checkbox_#{alinea_id}", outer_alinea.text
               - else
                 = label_tag "prescription_checkbox_#{alinea_id}", outer_alinea.text, class: 'inactive'
-              = form.hidden_field :content, value: outer_alinea.text, namespace: alinea_id
-              = form.hidden_field :reference, value: ref, namespace: alinea_id
-              = form.hidden_field :alinea_id, value: alinea_id, namespace: alinea_id
-              = form.hidden_field :user_id, value: @user.id, namespace: alinea_id
-              = form.hidden_field :text_reference, value: am_ref, namespace: alinea_id
-              = form.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}", namespace: alinea_id
-              = form.hidden_field :from_am_id, value: am_id, namespace: alinea_id
+              = f.hidden_field :content, value: outer_alinea.text, namespace: alinea_id
+              = f.hidden_field :reference, value: ref, namespace: alinea_id
+              = f.hidden_field :alinea_id, value: alinea_id, namespace: alinea_id
+              = f.hidden_field :text_reference, value: am_ref, namespace: alinea_id
+              = f.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}", namespace: alinea_id
+              = f.hidden_field :from_am_id, value: am_id, namespace: alinea_id
 
   - if outer_alinea.table
     table.table.table-bordered
@@ -34,18 +33,17 @@
         - else
           tr
             td
-              = form_with(model: [@installation, @prescription], id: "alinea_checkbox_form_#{row_id}", remote: true) do |form|
+              = form_with(model: [@installation, @prescription], id: "alinea_checkbox_form_#{row_id}", remote: true) do |f|
                 = check_box_tag "prescription_checkbox_#{row_id}",
-                  '1', @user.prescription_checked?(row_id),
+                  '1', @user.prescription_checked?(@installation, row_id),
                   class: "form-check-input select_all_#{subsection_id} alineas_checkbox",
-                  data: {alinea_id: row_id}
-                = form.hidden_field :content, value: row.text_in_inspection_sheet, namespace: row_id
-                = form.hidden_field :reference, value: ref, namespace: row_id
-                = form.hidden_field :alinea_id, value: "#{row_id}", namespace: row_id
-                = form.hidden_field :user_id, value: @user.id, namespace: row_id
-                = form.hidden_field :text_reference, value: am_ref, namespace: row_id
-                = form.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}.#{index}" , namespace: row_id
-                = form.hidden_field :from_am_id, value: am_id, namespace: row_id
+                  data: { alinea_id: row_id }
+                = f.hidden_field :content, value: row.text_in_inspection_sheet, namespace: row_id
+                = f.hidden_field :reference, value: ref, namespace: row_id
+                = f.hidden_field :alinea_id, value: row_id.to_s, namespace: row_id
+                = f.hidden_field :text_reference, value: am_ref, namespace: row_id
+                = f.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}.#{index}", namespace: row_id
+                = f.hidden_field :from_am_id, value: am_id, namespace: row_id
 
             - row.cells.each do |cell|
               td colspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
