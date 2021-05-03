@@ -95,6 +95,8 @@
                     - if subsection.outer_alineas.present?
                       .collapse.show id="collapse_#{subsection_id}"
 
+                        - am_ref = "#{am_short_title} - #{classement_infos}"
+
                         / display button and collapse original text version if modified
                         - if subsection.applicability.modified
                           small
@@ -110,11 +112,11 @@
                                     locals: { subsection: subsection.applicability.previous_version,
                                               level: level,
                                               subsection_id: subsection_id,
-                                              ref: "#{am_short_title} - #{classement_infos} - #{subsection.reference_str}",
+                                              ref: subsection.reference_str,
+                                              am_ref: am_ref,
                                               am_id: arrete.id,
                                               subsection_rank: subsection_rank }
 
-                        - am_ref = "#{am_short_title} - #{classement_infos}"
                         = render partial: 'select_all_checkbox',
                           locals: { subsection: subsection,
                                     am_ref: am_ref,
