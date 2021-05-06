@@ -38,8 +38,8 @@ class InstallationsController < ApplicationController
   def edit
     return if @installation.user_id == @user.id
 
-    if helpers.user_already_duplicated_installation?(@user, @installation)
-      redirect_to edit_installation_path(helpers.retrieve_duplicated_installation(@user, @installation))
+    if @user.already_duplicated_installation?(@installation)
+      redirect_to edit_installation_path(@user.retrieve_duplicated_installation(@installation))
     else
       duplicate_before_edit
     end

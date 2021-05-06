@@ -24,9 +24,9 @@
   h2.mt-5 Classements
 
   p.text-right
-    - if user_already_duplicated_installation?(@user, @installation)
+    - if @user.already_duplicated_installation?(@installation)
       = link_to 'Consulter votre version modifiée',
-        installation_path(retrieve_duplicated_installation(@user, @installation))
+        installation_path(@user.retrieve_duplicated_installation(@installation))
     - else
       = link_to 'Modifier cette installation',
         edit_installation_path(@installation)
