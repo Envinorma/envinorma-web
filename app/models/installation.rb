@@ -22,6 +22,40 @@ class Installation < ApplicationRecord
     end
   end
 
+  def duplicate!(user)
+    installation_duplicated = Installation.create(
+      name: name,
+      s3ic_id: s3ic_id,
+      region: region,
+      department: department,
+      zipcode: zipcode,
+      city: city,
+      last_inspection: last_inspection,
+      regime: regime,
+      seveso: seveso,
+      state: state,
+      user_id: user.id,
+      duplicated_from_id: id
+    )
+
+    classements.each do |classement|
+      Classement.create(
+        rubrique: classement.rubrique,
+        regime: classement.regime,
+        alinea: classement.alinea,
+        rubrique_acte: classement.rubrique_acte,
+        regime_acte: classement.regime_acte,
+        alinea_acte: classement.alinea_acte,
+        activite: classement.activite,
+        date_autorisation: classement.date_autorisation,
+        volume: classement.volume,
+        installation_id: installation_duplicated.id
+      )
+    end
+
+    installation_duplicated
+  end
+
   class << self
     def validate_then_recreate(installations_list)
       puts 'Seeding installations...'
