@@ -38,7 +38,7 @@ const pasteText = (textarea, toPaste) => {
 
 const removeLineBreaksWhenTooMany = (event) => {
   toPaste = getTextToPaste(event);
-  pasteText(event.srcElement, toPaste);
+  pasteText(event.target, toPaste);
   event.preventDefault();
 };
 

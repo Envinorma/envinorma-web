@@ -1,6 +1,6 @@
 const submitForm = (event) => {
-  const checked = event.srcElement.checked;
-  const alineaId = event.srcElement.dataset.alineaId;
+  const checked = event.target.checked;
+  const alineaId = event.target.dataset.alineaId;
   const formIdPrefix = checked
     ? "#alinea_checkbox_form_"
     : "#delete_prescription_";

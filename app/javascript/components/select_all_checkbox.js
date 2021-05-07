@@ -1,6 +1,6 @@
 const submitForm = (event) => {
-  const checked = event.srcElement.checked;
-  const sectionId = event.srcElement.dataset.sectionId;
+  const checked = event.target.checked;
+  const sectionId = event.target.dataset.sectionId;
   const formIdPrefix = checked
     ? "#select_all_checkbox_form_"
     : "#select_all_checkbox_delete_";
@@ -9,7 +9,7 @@ const submitForm = (event) => {
 };
 
 const updateCheckboxes = (event) => {
-  const checkbox_select_all = event.srcElement;
+  const checkbox_select_all = event.target;
   const checkboxes = document.querySelectorAll("." + checkbox_select_all.id);
 
   checkboxes.forEach((checkbox) => {
