@@ -30,20 +30,20 @@ RSpec.describe 'Feature tests end to end', js: true do
 
     # Create prescriptions using checkbox select_all
     find('.select_all', match: :first).click
-    expect(page).to have_field('prescription_checkbox_MRPoxuTZSSuM', checked: true)
+    expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
     expect(page).to have_selector '.sidebar-content h6', text: 'AM - 09/04/19 - 2521 E', count: 1
     expect(page).to have_selector '.sidebar-content div.prescription', count: '5'
     expect(Prescription.count).to eq 5
 
     # Delete prescriptions using checkbox select_all
     find('.select_all', match: :first).click
-    expect(page).to have_field('prescription_checkbox_MRPoxuTZSSuM', checked: false)
+    expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: false)
     expect(page).not_to have_selector '.sidebar-content h6', text: 'AM - 09/04/19 - 2521 E', count: 1
     expect(page).to have_selector '.sidebar-content div.prescription', count: '0'
     expect(Prescription.count).to eq 0
 
     find('.select_all', match: :first).click
-    expect(page).to have_field('prescription_checkbox_MRPoxuTZSSuM', checked: true)
+    expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
     expect(page).to have_selector '.sidebar-content div.prescription', count: '5'
     expect(Prescription.count).to eq 5
 
@@ -89,7 +89,7 @@ RSpec.describe 'Feature tests end to end', js: true do
     click_link("Voir les prescriptions pour générer une fiche d'inspection")
 
     expect(page).not_to have_selector '.sidebar-content h6', text: 'AM - 09/04/19 - 2521 E', count: 1
-    expect(page).to have_field('prescription_checkbox_MRPoxuTZSSuM', checked: false)
+    expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: false)
     expect(page).to have_selector '.sidebar-content div.prescription', count: '0'
 
     # Return to installation - prescriptions are still displayed
@@ -98,12 +98,12 @@ RSpec.describe 'Feature tests end to end', js: true do
     click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
     click_link("Voir les prescriptions pour générer une fiche d'inspection")
 
-    expect(page).to have_field('prescription_checkbox_MRPoxuTZSSuM', checked: true)
+    expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
     expect(page).to have_selector '.sidebar-content h6', text: 'AM - 09/04/19 - 2521 E', count: 1
     expect(page).to have_selector '.sidebar-content div.prescription', count: '8'
 
     find('.delete_prescription', match: :first).click
-    expect(page).to have_field('prescription_checkbox_MRPoxuTZSSuM', checked: false)
+    expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: false)
     expect(page).to have_selector '.sidebar-content div.prescription', count: '7'
     expect(Prescription.count).to eq 7
 
