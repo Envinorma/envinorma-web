@@ -11,6 +11,7 @@ class Installation < ApplicationRecord
   validates :name, :s3ic_id, presence: true
   validates :s3ic_id, format: { with: /\A([0-9]{4}\.[0-9]{5})\z/,
                                 message: 'check s3ic_id format' }
+  validates_uniqueness_of :user_id, scope: :duplicated_from_id, if: -> { duplicated_from_id.present? }
 
   scope :not_attached_to_user, -> { where(user: nil) }
 
