@@ -12,16 +12,17 @@
             = f.hidden_field :text_reference, value: am_ref, namespace: subsection.id
             = f.hidden_field :from_am_id, value: am_id, namespace: subsection.id
             - subsection.outer_alineas.each_with_index do |alinea, alinea_index|
+              - alinea_id = "#{subsection.id}_#{alinea_index}"
               - if alinea.text != ''
                 = f.hidden_field :contents, value: alinea.text, namespace: subsection.id, multiple: true
-                = f.hidden_field :alinea_ids, value: alinea.id, namespace: subsection.id, multiple: true
+                = f.hidden_field :alinea_ids, value: alinea_id, namespace: subsection.id, multiple: true
                 = f.hidden_field :ranks, value: "#{subsection_rank}.#{alinea_index}",
                                   namespace: subsection.id, multiple: true
 
               - alinea.table&.rows&.each_with_index do |row, index|
                 - unless row.is_header
                   = f.hidden_field :contents, value: row.text_in_inspection_sheet, namespace: subsection.id, multiple: true
-                  = f.hidden_field :alinea_ids, value: "#{alinea.id}_#{index}", namespace: subsection.id, multiple: true
+                  = f.hidden_field :alinea_ids, value: "#{alinea_id}_#{index}", namespace: subsection.id, multiple: true
                   = f.hidden_field :ranks,
                                     value: "#{subsection_rank}.#{alinea_index}.#{index}",
                                     namespace: subsection.id,
@@ -30,10 +31,11 @@
               id: "select_all_checkbox_delete_#{subsection.id}",
               remote: true,
               method: :delete) do |f|
-    - subsection.outer_alineas.each do |alinea|
+    - subsection.outer_alineas.each_with_index do |alinea, alinea_index|
+      - alinea_id = "#{subsection.id}_#{alinea_index}"
       - if alinea.text != ''
-        = f.hidden_field :alinea_ids, value: alinea.id, namespace: subsection.id, multiple: true
+        = f.hidden_field :alinea_ids, value: alinea_id, namespace: subsection.id, multiple: true
 
       - alinea.table&.rows&.each_with_index do |row, index|
         - unless row.is_header
-          = f.hidden_field :alinea_ids, value: "#{alinea.id}_#{index}", namespace: subsection.id, multiple: true
+          = f.hidden_field :alinea_ids, value: "#{alinea_id}_#{index}", namespace: subsection.id, multiple: true

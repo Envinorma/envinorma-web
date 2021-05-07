@@ -1,5 +1,5 @@
 - subsection.outer_alineas.each_with_index do |outer_alinea, alinea_index|
-  - alinea_id = outer_alinea.id
+  - alinea_id = "#{subsection_id}_#{alinea_index}"
   - if outer_alinea.text != ''
     .form-group.row
         .col-sm-12
