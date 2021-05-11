@@ -10,7 +10,5 @@
       .col-6
         = f.input :date_autorisation, as: :date, html5: true
 
-      = f.hidden_field :installation_id, value: @installation.id
-
     = f.button :submit, 'Sauvegarder les modifications', class: 'btn btn-primary'
     = link_to "Retourner sur l'installation", installation_path(@installation), class: 'btn btn-link'

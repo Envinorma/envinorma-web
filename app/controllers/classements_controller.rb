@@ -29,6 +29,6 @@ class ClassementsController < ApplicationController
   end
 
   def classement_params
-    params.require(:classement).permit(:rubrique, :regime, :date_autorisation, :installation_id)
+    params.require(:classement).permit(:rubrique, :regime, :date_autorisation).merge!(installation_id: @installation.id)
   end
 end
