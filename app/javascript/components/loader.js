@@ -6,12 +6,3 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
-
-document.onreadystatechange = function() {
-  if (document.readyState !== "complete") {
-    document.querySelector(".spinner").classList.add("active");
-
-  } else {
-    document.querySelector(".spinner").classList.remove("active");
-  }
-};
