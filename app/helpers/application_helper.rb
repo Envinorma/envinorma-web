@@ -17,14 +17,6 @@ module ApplicationHelper
     end.join(' - ')
   end
 
-  def user_already_duplicated_installation?(user, installation)
-    user.present? && user.installations.pluck(:duplicated_from_id).include?(installation.id)
-  end
-
-  def retrieve_duplicated_installation(user, installation)
-    user.installations.where(duplicated_from_id: installation.id).first
-  end
-
   def prescription_checked?(alinea_ids, alinea_id)
     alinea_ids.include?(alinea_id)
   end

@@ -3,7 +3,6 @@
 Rails.application.routes.draw do
   root 'installations#index'
   get 'installations/search', to: 'installations#search', format: 'json'
-  get '/installations/:id/duplicate_before_edit', to: 'installations#duplicate_before_edit', as: 'duplicate_before_edit'
   resources :installations do
     resources :classements
     resources :prescriptions

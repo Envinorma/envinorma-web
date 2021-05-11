@@ -4,7 +4,7 @@ require 'rails_helper'
 
 RSpec.describe 'Feature tests end to end', js: true do
   before(:all) do
-    installation_eva_industries = FactoryBot.create(:installation, :eva_industries)
+    installation_eva_industries = FactoryBot.create(:installation)
     FactoryBot.create(:classement, :classement_2521_E, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_4801_D, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_2515_D, installation: installation_eva_industries)
@@ -13,7 +13,9 @@ RSpec.describe 'Feature tests end to end', js: true do
     ArretesUniqueClassement.create(arrete: arrete, unique_classement: unique_classement)
     FactoryBot.create(:ap, installation: installation_eva_industries)
 
-    installation_sepanor = FactoryBot.create(:installation, :sepanor)
+    installation_sepanor = FactoryBot.create(:installation, name: 'SEPANOR', s3ic_id: '0065.06067', zipcode: '95066',
+                                                            city: "ST OUEN L'AUMONE")
+
     FactoryBot.create(:classement, :classement_2521_E, installation: installation_sepanor)
   end
 

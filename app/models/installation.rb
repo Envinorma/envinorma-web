@@ -11,6 +11,7 @@ class Installation < ApplicationRecord
   validates :name, :s3ic_id, presence: true
   validates :s3ic_id, format: { with: /\A([0-9]{4}\.[0-9]{5})\z/,
                                 message: 'check s3ic_id format' }
+  validates_uniqueness_of :user_id, scope: :duplicated_from_id, if: -> { duplicated_from_id.present? }
 
   scope :not_attached_to_user, -> { where(user: nil) }
 
@@ -20,6 +21,40 @@ class Installation < ApplicationRecord
     else
       self.APs
     end
+  end
+
+  def duplicate!(user)
+    installation_duplicated = Installation.create(
+      name: name,
+      s3ic_id: s3ic_id,
+      region: region,
+      department: department,
+      zipcode: zipcode,
+      city: city,
+      last_inspection: last_inspection,
+      regime: regime,
+      seveso: seveso,
+      state: state,
+      user_id: user.id,
+      duplicated_from_id: id
+    )
+
+    classements.each do |classement|
+      Classement.create(
+        rubrique: classement.rubrique,
+        regime: classement.regime,
+        alinea: classement.alinea,
+        rubrique_acte: classement.rubrique_acte,
+        regime_acte: classement.regime_acte,
+        alinea_acte: classement.alinea_acte,
+        activite: classement.activite,
+        date_autorisation: classement.date_autorisation,
+        volume: classement.volume,
+        installation_id: installation_duplicated.id
+      )
+    end
+
+    installation_duplicated
   end
 
   class << self
