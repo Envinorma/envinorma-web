@@ -4,7 +4,7 @@ require 'rails_helper'
 
 RSpec.describe 'installations test features', js: true do
   before(:all) do
-    installation_eva_industries = FactoryBot.create(:installation, :eva_industries)
+    installation_eva_industries = FactoryBot.create(:installation)
     FactoryBot.create(:classement, :classement_2521_E, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_4801_D, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_2515_D, installation: installation_eva_industries)
