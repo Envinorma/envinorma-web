@@ -48,26 +48,6 @@ class PrescriptionsController < ApplicationController
   end
 
   def prescription_params
-    params[:prescription].key?('contents') ? multiple_prescriptions_params : single_prescription_params
-  end
-
-  def multiple_prescriptions_params
-    prescription = params[:prescription]
-
-    all_prescriptions_params = []
-    prescription[:contents].zip(prescription[:ranks], prescription[:alinea_ids]).each do |content, rank, alinea_id|
-      all_prescriptions_params << { reference: prescription[:reference],
-                                    from_am_id: prescription[:from_am_id],
-                                    text_reference: prescription[:text_reference],
-                                    content: content,
-                                    rank: rank,
-                                    alinea_id: alinea_id }
-                                  .merge!(installation_id: @installation.id, user_id: @user.id)
-    end
-    all_prescriptions_params
-  end
-
-  def single_prescription_params
     params.require(:prescription).permit(:reference, :content, :alinea_id, :from_am_id, :user_id, :text_reference,
                                          :rank)
           .merge!(installation_id: @installation.id, user_id: @user.id)
