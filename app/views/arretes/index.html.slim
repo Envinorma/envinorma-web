@@ -117,11 +117,13 @@
                                               am_id: arrete.id,
                                               subsection_rank: subsection_rank }
 
-                        = render partial: 'select_all_checkbox',
-                          locals: { subsection: subsection,
-                                    am_ref: am_ref,
-                                    am_id: arrete.id,
-                                    subsection_rank: subsection_rank }
+                        - if subsection.applicability.active && subsection.outer_alineas.count > 1
+                          .border-bottom.mb-3.pb-3
+                            .form-group.row
+                              .col-sm-12
+                                .form-check
+                                  = check_box_tag "select_all_#{subsection.id}",
+                                    '1', false, class: 'form-check-input select_all', data: { section_id: subsection.id }
 
                         = render partial: 'outer_alineas',
                           locals: { subsection: subsection,

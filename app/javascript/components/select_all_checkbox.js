@@ -1,13 +1,3 @@
-const submitForm = (event) => {
-  const checked = event.target.checked;
-  const sectionId = event.target.dataset.sectionId;
-  const formIdPrefix = checked
-    ? "#select_all_checkbox_form_"
-    : "#select_all_checkbox_delete_";
-  const form = $(formIdPrefix + sectionId)[0];
-  Rails.fire(form, "submit");
-};
-
 const updateCheckboxes = (event) => {
   const checkbox_select_all = event.target;
   const checkboxes = document.querySelectorAll("." + checkbox_select_all.id);
@@ -15,6 +5,7 @@ const updateCheckboxes = (event) => {
   checkboxes.forEach((checkbox) => {
     if (checkbox.checked !== checkbox_select_all.checked) {
       checkbox.checked = checkbox_select_all.checked;
+      checkbox.dispatchEvent(new Event("change"));
     }
   });
 };
@@ -22,6 +13,5 @@ const updateCheckboxes = (event) => {
 window.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".select_all").forEach((checkbox_select_all) => {
     checkbox_select_all.addEventListener("change", updateCheckboxes);
-    checkbox_select_all.addEventListener("change", submitForm);
   });
 });
