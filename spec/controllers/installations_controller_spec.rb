@@ -12,7 +12,7 @@ RSpec.describe InstallationsController, type: :controller do
       end.to change { User.count }.from(0).to(1)
                                   .and change { Installation.count }.from(1).to(2)
 
-      expect(session[:user_id]).to eq User.last.id
+      expect(cookies[:user_id]).to eq User.last.id.to_s
 
       expect(Installation.last.duplicated_from_id).to eq installation.id
       expect(Installation.last.name).to eq installation.name

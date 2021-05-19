@@ -1,7 +1,8 @@
 .container
   h1.display-4.mb-4.mt-5
     => @installation.name
-    - if @installation.user_id && @installation.user_id == session[:user_id]
+
+    - if @installation.duplicated_by_user?(cookies[:user_id])
       sup
         span.badge.badge-secondary.badge-mini version modifiée
   .row
