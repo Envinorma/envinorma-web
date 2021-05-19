@@ -7,18 +7,18 @@ class ApplicationController < ActionController::Base
   private
 
   def set_user_if_needed
-    if session[:user_id] && User.exists?(session[:user_id])
-      @user = User.find(session[:user_id])
+    if cookies[:user_id] && User.exists?(cookies[:user_id])
+      @user = User.find(cookies[:user_id])
     else
-      session.delete(:user_id)
+      cookies.delete(:user_id)
     end
   end
 
   def create_guest_if_needed
-    return if session[:user_id]
+    return if cookies[:user_id]
 
     @user = User.create
-    session[:user_id] = @user.id
+    cookies[:user_id] = { value: @user.id, expires: 5.years.from_now }
   end
 
   def check_if_authorized_user

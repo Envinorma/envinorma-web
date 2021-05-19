@@ -23,6 +23,10 @@ class Installation < ApplicationRecord
     end
   end
 
+  def duplicated_by_user?(user_id_cookies)
+    user_id && user_id == user_id_cookies.to_i
+  end
+
   def duplicate!(user)
     installation_duplicated = Installation.create(
       name: name,
