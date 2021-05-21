@@ -14,6 +14,7 @@ class PrescriptionsController < ApplicationController
 
   def create
     Prescription.create(prescription_params)
+    @prescriptions = @user.prescriptions_grouped_for(@installation)
 
     respond_to do |format|
       format.js
@@ -28,15 +29,6 @@ class PrescriptionsController < ApplicationController
     render_destroy
   end
 
-  def render_destroy
-    @prescriptions = @user.prescriptions_grouped_for(@installation)
-
-    respond_to do |format|
-      format.js { render 'destroy.js.erb' }
-      format.json { render json: { success: true }, status: :deleted }
-    end
-  end
-
   def delete_many
     prescriptions = if params.key?('alinea_ids')
                       @user.prescriptions_for(@installation).where(alinea_id: params[:alinea_ids])
@@ -46,6 +38,15 @@ class PrescriptionsController < ApplicationController
     prescriptions.destroy_all
 
     render_destroy
+  end
+
+  def render_destroy
+    @prescriptions = @user.prescriptions_grouped_for(@installation)
+
+    respond_to do |format|
+      format.js { render 'destroy.js.erb' }
+      format.json { render json: { success: true }, status: :deleted }
+    end
   end
 
   private
