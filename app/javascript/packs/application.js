@@ -18,7 +18,7 @@ require("easy-autocomplete")
 // const imagePath = (name) => images(name, true)
 
 import 'popper.js'
-import 'bootstrap'
+import './bootstrap_custom.js'
 import "@fortawesome/fontawesome-free/js/all"
 
 

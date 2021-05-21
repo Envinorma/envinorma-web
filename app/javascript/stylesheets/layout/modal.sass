@@ -1,0 +1,43 @@
+.modal
+  position: fixed
+  width: 100vw
+  height: 100vh
+  opacity: 0
+  visibility: hidden
+  transition: all 0.3s ease
+  top: 0
+  left: 0
+  display: flex
+  align-items: center
+  justify-content: center
+  z-index: 3
+
+  &.open
+    visibility: visible
+    opacity: 1
+    transition-delay: 0s
+
+  &-bg
+    position: absolute
+    background: teal
+    width: 100%
+    height: 100%
+
+  &-container
+    background: #fff
+    position: relative
+    padding: 30px
+    max-width: 60%
+    min-width: 60%
+
+  &-close
+    position: absolute
+    right: 15px
+    top: 15px
+    outline: none
+    appearance: none
+    color: red
+    background: none
+    border: 0px
+    font-weight: bold
+    cursor: pointer

@@ -1,5 +1,6 @@
 require("./active_nav");
 require("./loader");
+require("./modal");
 require("./reload_after_submit");
 require("./search");
 require("./select_all_checkbox");

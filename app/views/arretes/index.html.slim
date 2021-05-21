@@ -168,22 +168,17 @@
               object data="#{url_ovh}#{ap.georisques_id}.pdf" type="image/svg+xml" class="pdf_viewer"
         .splitter
 
-button type="button" class="btn btn-primary circle-fixed-button" data-toggle="modal" data-target="#modalPrescriptions"
+= link_to installation_prescriptions_path(@installation), class: "btn btn-primary circle-fixed-button", remote: true do
   i.fas.fa-file-download.fa-fw
 
-#modalPrescriptions.modal.fade[tabindex="-1" role="dialog" aria-labelledby="modalPrescriptionsTitle" aria-hidden="true"]
-  .modal-dialog.modal-dialog-centered[role="document"]
-    .modal-content
-      .modal-header
-        h4#exampleModalLongTitle.modal-title
-          | Prescriptions à exporter
-        button.close[type="button" data-dismiss="modal" aria-label="Close"]
-          span[aria-hidden="true"]
-            | ×
-      .modal-body
-        #prescriptions_recap
-          = render partial: './prescriptions/prescription'
-      .modal-footer
-        button.btn.btn-secondary[type="button" data-dismiss="modal"]
-          | Fermer
-        = link_to 'Télécharger la fiche', generate_doc_path, method: :post, class: 'btn btn-primary', id: 'js_download_fiche'
+#modalPrescriptions.modal
+  .modal-bg.modal-exit
+  .modal-container
+    h4 Prescriptions à exporter
+    #prescriptions_recap
+        = render partial: './prescriptions/prescription'
+
+    button.modal-close.modal-exit
+      | X
+
+    = link_to 'Télécharger la fiche', generate_doc_path, method: :post, class: 'btn btn-primary', id: 'js_download_fiche'

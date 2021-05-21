@@ -3,10 +3,17 @@
 class PrescriptionsController < ApplicationController
   before_action :set_installation
 
+  def index
+    @prescriptions = @user.prescriptions_grouped_for(@installation)
+
+    respond_to do |format|
+      format.js
+      format.json { render json: { success: true }, status: :created }
+    end
+  end
+
   def create
     Prescription.create(prescription_params)
-
-    @prescriptions = @user.prescriptions_grouped_for(@installation)
 
     respond_to do |format|
       format.js

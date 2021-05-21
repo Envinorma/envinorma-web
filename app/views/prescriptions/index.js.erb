@@ -1,0 +1,15 @@
+var prescriptions = document.querySelector("#prescriptions_recap");
+prescriptions.innerHTML = "<%= j render partial: 'prescription' %>";
+
+// ouvrir la modale
+console.log("open_up !")
+
+var modal = document.getElementById('modalPrescriptions');
+modal.classList.add("open");
+var exits = modal.querySelectorAll(".modal-exit");
+exits.forEach(function (exit) {
+  exit.addEventListener("click", function (event) {
+    event.preventDefault();
+    modal.classList.remove("open");
+  });
+});
