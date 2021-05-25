@@ -5,30 +5,32 @@
     onclick: "document.querySelectorAll('.alineas_checkbox').forEach((x)=>{x.checked = false;});" %>
 </p>
 
-<% @prescriptions.each do |text_reference, group| %>
-  <h6>
-      <%= text_reference %>
-  </h6>
-  <% group.each do |section_reference, prescriptions| %>
-    <strong>
-        <%= section_reference %>
-    </strong>
-    <% prescriptions.each do |prescription| %>
-      <div class='<%= "prescription_#{prescription.id} prescription" %>'>
-        <p>
-          <% prescription.content.split("\n").each do |line| %>
-          <%= line %>
-          <br>
-          <% end %>
-        </p>
-        <p>
-          <%= link_to "Supprimer", installation_prescription_path(installation_id: @installation.id, id: prescription.id), remote: true, method: :delete,
-            id: "delete_prescription_#{prescription.alinea_id}",
-            class: 'delete_prescription',
-            onclick: prescription.from_am? ? "document.getElementById('prescription_checkbox_#{prescription.alinea_id}').checked = false;" : "",
-            data: {id: prescription.alinea_id} %>
-        </p>
-      </div>
+<% if @prescriptions%>
+  <% @prescriptions.each do |text_reference, group| %>
+    <h6>
+        <%= text_reference %>
+    </h6>
+    <% group.each do |section_reference, prescriptions| %>
+      <strong>
+          <%= section_reference %>
+      </strong>
+      <% prescriptions.each do |prescription| %>
+        <div class='<%= "prescription_#{prescription.id} prescription" %>'>
+          <p>
+            <% prescription.content.split("\n").each do |line| %>
+            <%= line %>
+            <br>
+            <% end %>
+          </p>
+          <p>
+            <%= link_to "Supprimer", installation_prescription_path(installation_id: @installation.id, id: prescription.id), remote: true, method: :delete,
+              id: "delete_prescription_#{prescription.alinea_id}",
+              class: 'delete_prescription',
+              onclick: prescription.from_am? ? "document.getElementById('prescription_checkbox_#{prescription.alinea_id}').checked = false;" : "",
+              data: {id: prescription.alinea_id} %>
+          </p>
+        </div>
+      <% end %>
     <% end %>
   <% end %>
 <% end %>

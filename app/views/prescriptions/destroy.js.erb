@@ -1,2 +1,5 @@
 var prescriptions = document.querySelector("#prescriptions_recap");
 prescriptions.innerHTML = "<%= j render partial: 'prescription' %>";
+
+var counter = document.querySelector(".counter");
+counter.innerHTML = "<%= @counter %>"

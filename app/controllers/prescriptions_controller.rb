@@ -13,8 +13,17 @@ class PrescriptionsController < ApplicationController
   end
 
   def create
-    Prescription.create(prescription_params)
-    @prescriptions = @user.prescriptions_grouped_for(@installation)
+    checkbox_key = "prescription_checkbox_#{params[:prescription][:alinea_id]}"
+    prescription_from_ap = params[:prescription][:from_am_id].nil?
+
+    if params[checkbox_key] || prescription_from_ap
+      Prescription.create(prescription_params)
+    else
+      @user.prescriptions_for(@installation).find_by(alinea_id:
+      params[:prescription][:alinea_id]).destroy
+    end
+
+    @counter = @user.prescriptions_for(@installation).count
 
     respond_to do |format|
       format.js
@@ -42,6 +51,7 @@ class PrescriptionsController < ApplicationController
 
   def render_destroy
     @prescriptions = @user.prescriptions_grouped_for(@installation)
+    @counter = @user.prescriptions_for(@installation).count
 
     respond_to do |format|
       format.js { render 'destroy.js.erb' }

@@ -1,11 +1,8 @@
 const submitForm = (event) => {
-  const checked = event.target.checked;
   const alineaId = event.target.dataset.alineaId;
-  const formIdPrefix = checked
-    ? "#alinea_checkbox_form_"
-    : "#delete_prescription_";
+  const formIdPrefix = "#alinea_checkbox_form_"
   const form = $(formIdPrefix + alineaId)[0];
-  Rails.fire(form, checked ? "submit" : "click");
+  Rails.fire(form, "submit");
 };
 
 window.addEventListener("load", () => {
