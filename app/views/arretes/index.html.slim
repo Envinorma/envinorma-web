@@ -168,18 +168,29 @@
               object data="#{url_ovh}#{ap.georisques_id}.pdf" type="image/svg+xml" class="pdf_viewer"
         .splitter
 
-= link_to installation_prescriptions_path(@installation), class: "btn btn-primary circle-fixed-button", remote: true do
+= link_to installation_prescriptions_path(@installation), class: 'btn btn-primary circle-fixed-button', remote: true do
   i.fas.fa-file-download.fa-fw
   span.counter.badge.badge-pill.badge-light.position-absolute = @user.prescriptions_for(@installation).count
 
 #modalPrescriptions.modal
   .modal-bg.modal-exit
   .modal-container
-    h4 Prescriptions à exporter
-    #prescriptions_recap
-      = render partial: './prescriptions/prescription'
+    .border-bottom.pb-3
+      h4 Fiche d'inspection
+      = link_to 'Tout supprimer', installation_delete_many_path(@installation),
+        remote: true, method: :delete,
+        id: 'delete_all_prescriptions',
+        class: 'text-danger small',
+        onclick: "document.querySelectorAll('.alineas_checkbox').forEach((x)=>{x.checked = false;});"
+      button.modal-close.modal-exit
+        | X
 
-    button.modal-close.modal-exit
-      | X
+    .modal-content
+      #prescriptions_recap
 
-    = link_to 'Télécharger la fiche', generate_doc_path, method: :post, class: 'btn btn-primary', id: 'js_download_fiche'
+        = render partial: './prescriptions/prescription'
+    .border-top.pt-3
+      = link_to 'Télécharger la fiche', generate_doc_path, method: :post, class: 'btn btn-primary', id: 'js_download_fiche'
+
+      button.modal-exit.btn.btn-link
+        | fermer
