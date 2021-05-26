@@ -162,7 +162,7 @@
 
                   = f.hidden_field :text_reference, value: ap.short_title
 
-                = f.button :submit, 'ajouter une prescription', class: 'btn btn-primary'
+                = f.button :submit, 'Ajouter une prescription', class: 'btn btn-primary'
             .col-9
               - url_ovh = 'https://storage.sbg.cloud.ovh.net/v1/AUTH_3287ea227a904f04ad4e8bceb0776108/ap/'
               object data="#{url_ovh}#{ap.georisques_id}.pdf" type="application/pdf" class="pdf_viewer"
@@ -193,4 +193,4 @@
       = link_to 'Télécharger la fiche', generate_doc_path, method: :post, class: 'btn btn-primary', id: 'js_download_fiche'
 
       button.modal-exit.btn.btn-link
-        | fermer
+        | Fermer
