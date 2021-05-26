@@ -29,58 +29,66 @@ RSpec.describe 'Feature tests end to end', js: true do
     click_link("Voir les prescriptions pour générer une fiche d'inspection")
 
     expect(page).to have_content('AM - 09/04/19')
+    page.find('#modalPrescriptions', visible: :hidden)
 
     # Create prescriptions using checkbox select_all
     find('.select_all', match: :first).click
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
-    expect(page).to have_selector '.sidebar-content h6', text: 'AM - 09/04/19 - 2521 E', count: 1
-    expect(page).to have_selector '.sidebar-content div.prescription', count: '5'
+
+    expect(page).not_to have_selector '#prescriptions_recap h6', text: 'AM - 09/04/19 - 2521 E'
+    expect(page).to have_selector '.counter', text: '5'
     expect(Prescription.count).to eq 5
 
     # Delete prescriptions using checkbox select_all
     find('.select_all', match: :first).click
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: false)
-    expect(page).not_to have_selector '.sidebar-content h6', text: 'AM - 09/04/19 - 2521 E', count: 1
-    expect(page).to have_selector '.sidebar-content div.prescription', count: '0'
+    expect(page).to have_selector '.counter', text: '0'
     expect(Prescription.count).to eq 0
 
     find('.select_all', match: :first).click
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
-    expect(page).to have_selector '.sidebar-content div.prescription', count: '5'
+    expect(page).to have_selector '.counter', text: '5'
     expect(Prescription.count).to eq 5
 
     # Create prescriptions from a row in a table
     find('label', text: '500 mg/m3').click
-    expect(page).to have_selector '.sidebar-content p', text: '500 mg/m3'
-    expect(page).to have_selector '.sidebar-content div.prescription', count: '6'
+    expect(page).to have_selector '.counter', text: '6'
+    expect(Prescription.count).to eq 6
 
     # Create prescriptions from AP
     fill_in 'Référence', with: 'Art. 3'
     fill_in 'Contenu', with: "Prescriptions copier - coller de l'AP"
     click_button('ajouter une prescription')
-    expect(page).to have_selector '.sidebar-content h6', text: 'AP - 27/04/21', count: 1
-    expect(page).to have_selector '.sidebar-content div.prescription', count: '7'
+    expect(page).to have_selector '.counter', text: '7'
     expect(Prescription.count).to eq 7
 
     fill_in 'Référence', with: 'Art. 4'
     fill_in 'Contenu', with: "Prescriptions 2 copier - coller de l'AP"
     click_button('ajouter une prescription')
-    expect(page).to have_selector '.sidebar-content h6', text: 'AP - 27/04/21', count: 1
-    expect(page).to have_selector '.sidebar-content div.prescription', count: '8'
+    expect(page).to have_selector '.counter', text: '8'
     expect(Prescription.count).to eq 8
 
-    # Generate Fiche d'inspection
+    # Open and close the modal
     click_on(class: 'circle-fixed-button')
 
-    expect(page).to have_content('AM - 09/04/19')
+    expect(page).to have_selector '#prescriptions_recap h6', text: 'AM - 09/04/19 - 2521 E', count: 1
+    expect(page).to have_selector '#prescriptions_recap h6', text: 'AP - 27/04/21', count: 1
+    expect(page).to have_selector '.prescription', count: '8'
+
+    # Generate Fiche d'inspection
+    click_link('Télécharger la fiche')
     expect(DownloadHelpers.download_content).to have_content "les dispositions du présent arrêté s'appliquent"
     expect(DownloadHelpers.download_content).to have_content '500 mg/m3'
     expect(DownloadHelpers.download_content).to have_content "Prescriptions copier - coller de l'AP"
 
     # After download prescriptions are still present
-    expect(page).to have_content('AM - 09/04/19')
-    expect(page).to have_selector '.sidebar-content div.prescription', count: '8'
+    page.find('#modalPrescriptions', visible: true)
+    expect(page).to have_selector '#prescriptions_recap h6', text: 'AM - 09/04/19 - 2521 E', count: 1
+    expect(page).to have_selector '#prescriptions_recap h6', text: 'AP - 27/04/21', count: 1
+    expect(page).to have_selector '.prescription', count: '8'
     expect(Prescription.count).to eq 8
+    click_button('fermer')
+    page.find('#modalPrescriptions', visible: false)
 
     # Visit a new installation - Prescriptions are not displayed
     visit root_path
@@ -90,9 +98,11 @@ RSpec.describe 'Feature tests end to end', js: true do
     expect(page).to have_content('SEPANOR')
     click_link("Voir les prescriptions pour générer une fiche d'inspection")
 
-    expect(page).not_to have_selector '.sidebar-content h6', text: 'AM - 09/04/19 - 2521 E', count: 1
+    expect(page).to have_selector '.counter', text: '0'
+    click_on(class: 'circle-fixed-button')
+    expect(page).not_to have_selector '#prescriptions_recap h6', text: 'AM - 09/04/19 - 2521 E', count: 1
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: false)
-    expect(page).to have_selector '.sidebar-content div.prescription', count: '0'
+    expect(page).to have_selector '.prescription', count: '0'
 
     # Return to installation - prescriptions are still displayed
     visit root_path
@@ -100,17 +110,18 @@ RSpec.describe 'Feature tests end to end', js: true do
     click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
     click_link("Voir les prescriptions pour générer une fiche d'inspection")
 
+    click_on(class: 'circle-fixed-button')
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
-    expect(page).to have_selector '.sidebar-content h6', text: 'AM - 09/04/19 - 2521 E', count: 1
-    expect(page).to have_selector '.sidebar-content div.prescription', count: '8'
+    expect(page).to have_selector '#prescriptions_recap h6', text: 'AM - 09/04/19 - 2521 E', count: 1
+    expect(page).to have_selector '.prescription', count: '8'
 
     find('.delete_prescription', match: :first).click
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: false)
-    expect(page).to have_selector '.sidebar-content div.prescription', count: '7'
+    expect(page).to have_selector '.prescription', count: '7'
     expect(Prescription.count).to eq 7
 
     click_link('Tout supprimer')
-    expect(page).to have_selector '.sidebar-content div.prescription', count: '0'
+    expect(page).to have_selector '.prescription', count: '0'
     expect(Prescription.count).to eq 0
   end
 end

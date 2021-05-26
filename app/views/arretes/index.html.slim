@@ -165,7 +165,7 @@
                 = f.button :submit, 'ajouter une prescription', class: 'btn btn-primary'
             .col-9
               - url_ovh = 'https://storage.sbg.cloud.ovh.net/v1/AUTH_3287ea227a904f04ad4e8bceb0776108/ap/'
-              object data="#{url_ovh}#{ap.georisques_id}.pdf" type="image/svg+xml" class="pdf_viewer"
+              object data="#{url_ovh}#{ap.georisques_id}.pdf" type="application/pdf" class="pdf_viewer"
         .splitter
 
 = link_to installation_prescriptions_path(@installation), class: 'btn btn-primary circle-fixed-button', remote: true do
