@@ -115,7 +115,7 @@ RSpec.describe 'Feature tests end to end', js: true do
     expect(page).to have_selector '#prescriptions_recap h6', text: 'AM - 09/04/19 - 2521 E', count: 1
     expect(page).to have_selector '.prescription', count: '8'
 
-    find('.delete_prescription', match: :first).click
+    click_link('Supprimer', match: :first)
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: false)
     expect(page).to have_selector '.prescription', count: '7'
     expect(Prescription.count).to eq 7
