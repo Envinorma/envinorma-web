@@ -9,6 +9,7 @@ FactoryBot.define do
       installation
       activite { "Centrale d'enrobage à chaud" }
       date_autorisation { 'Tue, 07 May 1974' }
+      date_mise_en_service { 'Tue, 07 May 1974' }
       volume { '150000.000 t/an' }
       rubrique_acte { '2521' }
       regime_acte { 'A' }
@@ -22,6 +23,7 @@ FactoryBot.define do
       installation
       activite { 'Houille, coke, lignite, charbon de bois, goudron, asphalte, brais et matières bitumineuses' }
       date_autorisation { 'Tue, 07 May 1974' }
+      date_mise_en_service { 'Tue, 07 May 1974' }
       volume { ' ' }
       rubrique_acte { '4801' }
       regime_acte { 'D' }
@@ -35,6 +37,7 @@ FactoryBot.define do
       installation
       activite { 'Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes' }
       date_autorisation { 'Fri, 30 Jul 2004' }
+      date_mise_en_service { 'Fri, 30 Jul 2004' }
       volume { '150.000 kW' }
       rubrique_acte { '2515' }
       regime_acte { 'D' }

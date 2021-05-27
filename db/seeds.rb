@@ -51,6 +51,7 @@ classements_list.each do |classement|
     alinea_acte: classement['alinea_acte'],
     activite: classement['activite'],
     date_autorisation: classement['date_autorisation']&.to_date,
+    date_mise_en_service: classement['date_mise_en_service']&.to_date,
     volume: "#{classement['volume']} #{classement['unit']}",
     installation_id: Installation.find_by(s3ic_id: classement['s3ic_id'])&.id
   )

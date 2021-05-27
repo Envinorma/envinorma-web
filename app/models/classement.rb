@@ -52,6 +52,7 @@ class Classement < ApplicationRecord
           alinea_acte: classement_raw['alinea_acte'],
           activite: classement_raw['activite'],
           date_autorisation: classement_raw['date_autorisation']&.to_date,
+          date_mise_en_service: classement_raw['date_mise_en_service']&.to_date,
           volume: "#{classement_raw['volume']} #{classement_raw['unit']}",
           installation_id: installation_id
         )

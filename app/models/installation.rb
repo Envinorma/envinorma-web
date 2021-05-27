@@ -53,6 +53,7 @@ class Installation < ApplicationRecord
         alinea_acte: classement.alinea_acte,
         activite: classement.activite,
         date_autorisation: classement.date_autorisation,
+        date_mise_en_service: classement.date_mise_en_service,
         volume: classement.volume,
         installation_id: installation_duplicated.id
       )

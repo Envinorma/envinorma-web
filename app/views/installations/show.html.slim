@@ -40,6 +40,7 @@
         th Régime
         th Activité
         th Date d'autorisation
+        th Date de mise en service
         th Volume
 
     tbody
@@ -62,6 +63,7 @@
 
           td = classement.activite
           td = classement.date_autorisation&.strftime('%d/%m/%Y')
+          td = classement.date_mise_en_service&.strftime('%d/%m/%Y')
           td = classement.human_readable_volume
 
   .small.text-secondary
