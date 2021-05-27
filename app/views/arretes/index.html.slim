@@ -41,10 +41,14 @@
             .col-3
               dl.summary
                 .display-summary id="anchor_#{arrete.id}_summary" class='anchor'
-                  - arrete.summary['elements'].each do |summary_item|
+                  - create_summary = lambda do |section, depth = 0|
                     dd
-                      a class="level_#{summary_item['depth']}" href="#anchor_#{summary_item['section_id']}"
-                        = summary_item['section_title']
+                      a class="level_#{depth}" href="#anchor_#{section.id}"
+                        = section.title.text
+                    - section.sections.each do |section|
+                      - create_summary.call(section, depth + 1)
+                  - arrete.data.sections.each do |section|
+                    - create_summary.call(section)
 
             .col-9
               h2.display.h1

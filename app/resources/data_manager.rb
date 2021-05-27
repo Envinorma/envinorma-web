@@ -40,8 +40,7 @@ class DataManager
           installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),
           installation_date_criterion_right: am.dig('installation_date_criterion', 'right_date'),
           aida_url: am['aida_url'],
-          legifrance_url: am['legifrance_url'],
-          summary: am['summary']
+          legifrance_url: am['legifrance_url']
         )
 
         arrete.arretes_unique_classements.delete_all
@@ -55,8 +54,7 @@ class DataManager
           installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),
           installation_date_criterion_right: am.dig('installation_date_criterion', 'right_date'),
           aida_url: am['aida_url'],
-          legifrance_url: am['legifrance_url'],
-          summary: am['summary']
+          legifrance_url: am['legifrance_url']
         )
       end
 

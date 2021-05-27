@@ -4,7 +4,7 @@ class Arrete < ApplicationRecord
   has_many :arretes_unique_classements, dependent: :delete_all
   has_many :unique_classements, through: :arretes_unique_classements
 
-  validates :data, :summary, :title, :cid, :aida_url, :legifrance_url, :publication_date, presence: true
+  validates :data, :title, :cid, :aida_url, :legifrance_url, :publication_date, presence: true
   validates :title, length: { minimum: 10 }
 
   validates :unique_version, inclusion: { in: [true, false] }
@@ -87,7 +87,6 @@ class Arrete < ApplicationRecord
         installation_date_criterion_right: arrete_json.dig('installation_date_criterion', 'right_date'),
         aida_url: arrete_json['aida_url'],
         legifrance_url: arrete_json['legifrance_url'],
-        summary: arrete_json['summary'],
         enriched_from_id: cid_to_arrete_id.nil? ? nil : cid_to_arrete_id.fetch(arrete_json['id'])
       )
       raise "error validations #{arrete.cid} #{arrete.errors.full_messages}" unless arrete.validate

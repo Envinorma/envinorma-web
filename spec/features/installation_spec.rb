@@ -41,7 +41,7 @@ RSpec.describe 'installations test features', js: true do
 
     # User can delete classement
     click_link('Modifier cette installation')
-    find('.form-check input', match: :first).click
+    find('#installation_classements_attributes_3__destroy').click
     click_button('Sauvegarder les modifications')
     expect(page).not_to have_content('1510')
   end

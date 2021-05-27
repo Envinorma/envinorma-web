@@ -14,7 +14,6 @@ FactoryBot.define do
       installation_date_criterion_right { am.dig('installation_date_criterion', 'right_date') }
       aida_url { am['aida_url'] }
       legifrance_url { am['legifrance_url'] }
-      summary { am['summary'] }
     end
   end
 end
