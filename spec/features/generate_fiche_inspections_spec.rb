@@ -58,13 +58,13 @@ RSpec.describe 'Feature tests end to end', js: true do
     # Create prescriptions from AP
     fill_in 'Référence', with: 'Art. 3'
     fill_in 'Contenu', with: "Prescriptions copier - coller de l'AP"
-    click_button('ajouter une prescription')
+    click_button('Ajouter une prescription')
     expect(page).to have_selector '.counter', text: '7'
     expect(Prescription.count).to eq 7
 
     fill_in 'Référence', with: 'Art. 4'
     fill_in 'Contenu', with: "Prescriptions 2 copier - coller de l'AP"
-    click_button('ajouter une prescription')
+    click_button('Ajouter une prescription')
     expect(page).to have_selector '.counter', text: '8'
     expect(Prescription.count).to eq 8
 
@@ -87,7 +87,7 @@ RSpec.describe 'Feature tests end to end', js: true do
     expect(page).to have_selector '#prescriptions_recap h6', text: 'AP - 27/04/21', count: 1
     expect(page).to have_selector '.prescription', count: '8'
     expect(Prescription.count).to eq 8
-    click_button('fermer')
+    click_button('Fermer')
     page.find('#modalPrescriptions', visible: false)
 
     # Visit a new installation - Prescriptions are not displayed
