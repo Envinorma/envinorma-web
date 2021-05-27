@@ -4,7 +4,7 @@ class Arrete < ApplicationRecord
   has_many :arretes_unique_classements, dependent: :delete_all
   has_many :unique_classements, through: :arretes_unique_classements
 
-  validates :data, :title, :cid, :aida_url, :legifrance_url, :publication_date, presence: true
+  validates :data, :title, :cid, :aida_url, :legifrance_url, :date_of_signature, presence: true
   validates :title, length: { minimum: 10 }
 
   validates :unique_version, inclusion: { in: [true, false] }
@@ -38,7 +38,7 @@ class Arrete < ApplicationRecord
   end
 
   def short_title
-    "AM - #{publication_date.strftime('%d/%m/%y')}"
+    "AM - #{date_of_signature.strftime('%d/%m/%y')}"
   end
 
   class << self
@@ -79,7 +79,7 @@ class Arrete < ApplicationRecord
       arrete = Arrete.new(
         data: arrete_json,
         cid: arrete_json['id'],
-        publication_date: arrete_json['publication_date'].to_date,
+        date_of_signature: arrete_json['date_of_signature'].to_date,
         title: arrete_json.dig('title', 'text'),
         classements_with_alineas: arrete_json['classements_with_alineas'],
         unique_version: arrete_json['unique_version'],

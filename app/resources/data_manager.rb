@@ -34,7 +34,7 @@ class DataManager
       if arrete.present?
         arrete.update!(
           data: am,
-          publication_date: am['publication_date'].to_date,
+          date_of_signature: am['date_of_signature'].to_date,
           title: am.dig('title', 'text'),
           unique_version: am['unique_version'],
           installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),
@@ -48,7 +48,7 @@ class DataManager
         arrete = Arrete.create!(
           data: am,
           cid: am['id'],
-          publication_date: am['publication_date'].to_date,
+          date_of_signature: am['date_of_signature'].to_date,
           title: am.dig('title', 'text'),
           unique_version: am['unique_version'],
           installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),
