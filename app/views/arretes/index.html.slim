@@ -177,11 +177,10 @@
   .modal-container
     .border-bottom.pb-3
       h4 Fiche d'inspection
-      = link_to 'Tout supprimer', installation_delete_many_path(@installation),
+      = link_to 'Tout supprimer', installation_destroy_all_path(@installation),
         remote: true, method: :delete,
-        id: 'delete_all_prescriptions',
         class: 'text-danger small',
-        onclick: "document.querySelectorAll('.alineas_checkbox').forEach((x)=>{x.checked = false;});"
+        onclick: "document.querySelectorAll('input[type=checkbox]').forEach((checkbox)=>{checkbox.checked = false;});"
       button.modal-close.modal-exit
         | X
 

@@ -35,22 +35,16 @@ class PrescriptionsController < ApplicationController
     prescription = Prescription.find(params[:id])
     prescription.destroy
 
+    @prescriptions = @user.prescriptions_grouped_for(@installation)
     render_destroy
   end
 
-  def delete_many
-    prescriptions = if params.key?('alinea_ids')
-                      @user.prescriptions_for(@installation).where(alinea_id: params[:alinea_ids])
-                    else
-                      @user.prescriptions_for(@installation)
-                    end
-    prescriptions.destroy_all
-
+  def destroy_all
+    @user.prescriptions_for(@installation).destroy_all
     render_destroy
   end
 
   def render_destroy
-    @prescriptions = @user.prescriptions_grouped_for(@installation)
     @counter = @user.prescriptions_for(@installation).count
 
     respond_to do |format|
