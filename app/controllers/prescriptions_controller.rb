@@ -5,30 +5,30 @@ class PrescriptionsController < ApplicationController
 
   def index
     @prescriptions = @user.prescriptions_grouped_for(@installation)
+    @modal = true
 
-    respond_to do |format|
-      format.js
-      format.json { render json: { success: true }, status: :created }
-    end
+    render_prescriptions
   end
 
-  def create
+  def create_or_delete_from_am
     checkbox_key = "prescription_checkbox_#{params[:prescription][:alinea_id]}"
-    prescription_from_ap = params[:prescription][:from_am_id].nil?
+    checkbox_checked = params[checkbox_key].present?
 
-    if params[checkbox_key] || prescription_from_ap
+    if checkbox_checked
       Prescription.create(prescription_params)
     else
       @user.prescriptions_for(@installation).find_by(alinea_id:
       params[:prescription][:alinea_id]).destroy
     end
 
-    @counter = @user.prescriptions_for(@installation).count
+    render_prescriptions
+  end
 
-    respond_to do |format|
-      format.js
-      format.json { render json: { success: true }, status: :created }
-    end
+  def create_from_ap
+    Prescription.create(prescription_params)
+    @from_ap = true
+
+    render_prescriptions
   end
 
   def destroy
@@ -36,20 +36,19 @@ class PrescriptionsController < ApplicationController
     prescription.destroy
 
     @prescriptions = @user.prescriptions_grouped_for(@installation)
-    render_destroy
+    render_prescriptions
   end
 
   def destroy_all
     @user.prescriptions_for(@installation).destroy_all
-    render_destroy
+    render_prescriptions
   end
 
-  def render_destroy
+  def render_prescriptions
     @counter = @user.prescriptions_for(@installation).count
 
     respond_to do |format|
-      format.js { render 'destroy.js.erb' }
-      format.json { render json: { success: true }, status: :deleted }
+      format.js { render 'prescriptions.js.erb' }
     end
   end
 

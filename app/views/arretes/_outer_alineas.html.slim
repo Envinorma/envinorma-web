@@ -3,7 +3,7 @@
   - if outer_alinea.text != ''
     .form-group.row
         .col-sm-12
-          = form_with(model: [@installation, @prescription], id: "alinea_checkbox_form_#{alinea_id}", remote: true) do |f|
+          = simple_form_for @prescription, url: installation_create_or_delete_from_am_path(@installation, @prescription),  html: { id: "alinea_checkbox_form_#{alinea_id}" }, remote: true do |f|
             .form-check.checkbox-arrete
               = check_box_tag "prescription_checkbox_#{alinea_id}",
                 '1', prescription_checked?(@alinea_ids, alinea_id),
@@ -33,7 +33,7 @@
         - else
           tr
             td
-              = form_with(model: [@installation, @prescription], id: "alinea_checkbox_form_#{row_id}", remote: true) do |f|
+              = simple_form_for @prescription, url: installation_create_or_delete_from_am_path(@installation, @prescription),  html: { id: "alinea_checkbox_form_#{row_id}" }, remote: true do |f|
                 = check_box_tag "prescription_checkbox_#{row_id}",
                   '1', prescription_checked?(@alinea_ids, row_id),
                   class: "form-check-input select_all_#{subsection_id} alineas_checkbox",

@@ -149,7 +149,7 @@
             .col-3
               h5 = ap.title
 
-              = simple_form_for [@installation, @prescription], remote: true do |f|
+              = simple_form_for @prescription, url: installation_create_from_ap_path(@installation, @prescription), remote: true do |f|
                 .row
                   .col-12
                     = f.input :reference, placeholder: 'ex: Art. 2'
