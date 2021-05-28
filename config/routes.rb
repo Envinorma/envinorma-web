@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get 'installations/search', to: 'installations#search', format: 'json'
   resources :installations do
     resources :classements
-    resources :prescriptions, only: [:index, :destroy]
+    resources :prescriptions, only: %i[index destroy]
     delete '/prescriptions', to: 'prescriptions#destroy_all', as: 'destroy_all'
     post '/prescriptions/from_ap', to: 'prescriptions#create_from_ap', as: 'create_from_ap'
     post '/prescriptions/from_am', to: 'prescriptions#create_or_delete_from_am', as: 'create_or_delete_from_am'
