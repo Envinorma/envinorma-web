@@ -80,12 +80,21 @@
         p.text-secondary Il n’y a pas d’arrêté ministériel disponible pour cette installation.
 
       - else
-        ul.list-unstyled
-          - @arretes.each do |arrete|
-            li
-              => arrete.short_title
-              span.text-secondary
-                = "- #{classement_infos(arrete, @installation)}"
+        - @arretes.each do |arrete|
+          .form-group.row
+            .form-check
+              = check_box_tag "arrete_#{arrete.id}",
+                '1', arrete.version_descriptor.applicable,
+                class: "form-check-input arrete-checkbox",
+                'data-arrete-id': arrete.id
+              = label_tag "arrete_#{arrete.id}", class: arrete.version_descriptor.applicable ? 'active' : 'inactive'
+                = arrete.short_title
+                span.text-secondary
+                  = " - #{classement_infos(arrete, @installation)}"
+                br
+                span.text-secondary.fs-6
+                  - arrete.version_descriptor.applicability_warnings.each do |warning|
+                    = warning
 
     .col
       h2.mt-5 Arrêtés préfectoraux associés
@@ -100,4 +109,5 @@
   - if @arretes.any? || @aps.any?
       = link_to "Voir les prescriptions pour générer une fiche d'inspection",
             arretes_path(@installation, arrete_ids: @arretes.pluck(:id)),
-            class: 'btn btn-primary mb-4 js_loader__link btn-fixed-bottom'
+            class: 'btn btn-primary mb-4 js_loader__link btn-fixed-bottom',
+            id: 'arretes_link_button'

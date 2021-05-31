@@ -2,8 +2,6 @@
 
 module ApplicationHelper
   def classement_infos(arrete, installation)
-    arrete = Arrete.find(arrete.enriched_from_id) if arrete.enriched?
-
     classements = arrete.unique_classements.select do |classement|
       installation.classements.pluck(:rubrique, :regime).include?([classement.rubrique, classement.regime])
     end

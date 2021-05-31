@@ -26,13 +26,7 @@ class InstallationsController < ApplicationController
       classement.regime.present? ? REGIMES[classement.regime.to_sym] : REGIMES[:empty]
     end
 
-    arretes_list = get_unique_classements_from(@classements).map(&:arretes).flatten
-
-    @arretes = []
-    arretes_list.uniq.each do |arrete|
-      enriched_arretes = Arrete.where(enriched_from_id: arrete.id)
-      @arretes << (enriched_arretes.empty? ? arrete : filter_arretes(arrete, enriched_arretes).first)
-    end
+    @arretes = compute_applicable_arretes_list(@classements)
   end
 
   def edit
@@ -67,20 +61,13 @@ class InstallationsController < ApplicationController
     @installation = Installation.find(params[:id])
   end
 
-  def get_unique_classements_from(classements)
-    unique_classements = []
-    classements.each do |classement|
-      unique_classements << UniqueClassement.where(rubrique: classement.rubrique, regime: classement.regime).to_a
-    end
-    unique_classements.flatten
-  end
-
   def force_json
     request.format = :json
   end
 
   def classement_params
-    params.require(:installation).permit(classements_attributes: %i[id regime rubrique date_autorisation
-                                                                    _destroy])
+    params.require(:installation).permit(
+      classements_attributes: %i[id regime rubrique date_autorisation date_mise_en_service _destroy]
+    )
   end
 end

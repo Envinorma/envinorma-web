@@ -19,9 +19,8 @@ class DataManager
   end
 
   def self.seed_arretes_and_associations
-    arretes_list = parse_seed_json('am_list.json')
-    enriched_arretes_files = Dir.glob("#{Rails.root}/db/seeds/enriched_arretes/*.json")
-    Arrete.validate_then_recreate(arretes_list, enriched_arretes_files)
+    arretes_files = Dir.glob("#{Rails.root}/db/seeds/enriched_arretes/*.json")
+    Arrete.validate_then_recreate(arretes_files)
   end
 
   def self.update_am
@@ -36,11 +35,9 @@ class DataManager
           data: am,
           date_of_signature: am['date_of_signature'].to_date,
           title: am.dig('title', 'text'),
-          unique_version: am['unique_version'],
-          installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),
-          installation_date_criterion_right: am.dig('installation_date_criterion', 'right_date'),
           aida_url: am['aida_url'],
-          legifrance_url: am['legifrance_url']
+          legifrance_url: am['legifrance_url'],
+          version_descriptor: am['version_descriptor']
         )
 
         arrete.arretes_unique_classements.delete_all
@@ -50,11 +47,9 @@ class DataManager
           cid: am['id'],
           date_of_signature: am['date_of_signature'].to_date,
           title: am.dig('title', 'text'),
-          unique_version: am['unique_version'],
-          installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),
-          installation_date_criterion_right: am.dig('installation_date_criterion', 'right_date'),
           aida_url: am['aida_url'],
-          legifrance_url: am['legifrance_url']
+          legifrance_url: am['legifrance_url'],
+          version_descriptor: am['version_descriptor']
         )
       end
 

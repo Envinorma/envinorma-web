@@ -57,6 +57,10 @@
                   =  "- #{classement_infos}"
               p
                 strong = arrete.title
+              
+              - arrete.version_descriptor.applicability_warnings.each do |warning|
+                *{tag: 'p', class: arrete.version_descriptor.applicable ? 'alert alert-warning' : 'alert alert-danger' }
+                  = warning
 
               p.mb-5
                 = link_to 'Consulter sur Aida', arrete.aida_url, target: '_blank'
