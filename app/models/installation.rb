@@ -63,42 +63,89 @@ class Installation < ApplicationRecord
   end
 
   class << self
-    def validate_then_recreate(installations_list)
-      puts 'Seeding installations...'
-      puts '...validating'
-      installations = []
-      installations_list.each do |installation_raw|
-        installation = Installation.new(
-          name: installation_raw['name'],
-          s3ic_id: installation_raw['s3ic_id'],
-          region: installation_raw['region'],
-          department: installation_raw['department'],
-          zipcode: installation_raw['code_postal'],
-          city: installation_raw['city'],
-          last_inspection: installation_raw['last_inspection']&.to_date,
-          regime: installation_raw['regime'],
-          seveso: installation_raw['seveso'],
-          state: installation_raw['active']
-        )
-        unless installation.validate
-          raise "error validations #{installation.inspect} #{installation.errors.full_messages}"
-        end
+    def load_s3ic_id_to_envinorma_id
+      result = {}
+      Installation.all.pluck(:id, :s3ic_id).each do |id, s3ic_id|
+        result[s3ic_id] = id
+      end
+      result
+    end
 
-        installations << installation
+    def recreate_from_file(seed_file)
+      puts "#{Time.now} Seeding installations..."
+      batch_size = 1000
+      nb_installations = `wc -l #{seed_file}`.to_i - 1 # count lines without overflowing memory
+      nb_batches = (nb_installations.to_f / batch_size).ceil
+      puts "#{nb_batches} batches of size #{batch_size} to process"
+
+      # We avoid actually building batches in order to avoid memory overflow
+      CSV.foreach(seed_file, headers: true).each_slice(batch_size).each_with_index do |raw_batch, batch_index|
+        hash_batch = raw_batch.map { |raw| create_installation_hash(raw) }
+        insert_batch(batch_index, nb_batches, hash_batch)
+        GC.start if batch_index % 10 == 9 # Force garbage collection for RAM limitations
       end
 
-      recreate(installations)
+      puts "...done. Inserted #{Installation.count}/#{nb_installations} installations."
     end
 
     private
 
-    def recreate(installations)
-      puts '...destroying'
-      Installation.destroy_all
+    def create_installation_hash(installation_raw)
+      {
+        'name' => installation_raw['name'],
+        's3ic_id' => installation_raw['s3ic_id'],
+        'region' => installation_raw['region'],
+        'department' => installation_raw['department'],
+        'zipcode' => installation_raw['code_postal'],
+        'city' => installation_raw['city'],
+        'last_inspection' => installation_raw['last_inspection']&.to_date,
+        'regime' => installation_raw['regime'],
+        'seveso' => installation_raw['seveso'],
+        'state' => installation_raw['active'],
+        'created_at' => DateTime.now,
+        'updated_at' => DateTime.now
+      }
+    end
+
+    def validate_batch(installation_hashes)
+      installation_hashes.each do |installation_hash|
+        installation = Installation.new(installation_hash)
+
+        unless installation.validate
+          raise "error validations #{installation.inspect} #{installation.errors.full_messages}"
+        end
+      end
+    end
+
+    def delete_old_objects
+      # Delete is faster than Destroy
+      puts '...deleting existing APs.'
+      AP.delete_all
+      puts '...deleting existing prescriptions.'
+      Prescription.delete_all
+      puts '...deleting existing classements.'
+      Classement.delete_all
+      puts '...deleting existing installations.'
+      Installation.delete_all
       ActiveRecord::Base.connection.reset_pk_sequence!(Installation.table_name)
-      puts '...creating'
-      installations.each(&:save)
-      puts "...done. Inserted #{Installation.count}/#{installations.length} installations."
+      ActiveRecord::Base.connection.reset_pk_sequence!(Prescription.table_name)
+      ActiveRecord::Base.connection.reset_pk_sequence!(Classement.table_name)
+      ActiveRecord::Base.connection.reset_pk_sequence!(Installation.table_name)
+    end
+
+    def validate_batch_and_destroy_existing_installations(installation_hashes)
+      puts '...validating first batch.'
+      validate_batch(installation_hashes)
+
+      delete_old_objects
+    end
+
+    def insert_batch(batch_index, nb_batches, installation_hashes)
+      validate_batch_and_destroy_existing_installations(installation_hashes) if batch_index.zero?
+      puts "...inserting batch #{batch_index + 1}/#{nb_batches}"
+      inserted_ids = Installation.insert_all(installation_hashes)
+      missing_insertions = installation_hashes.length - inserted_ids.length
+      puts "Warning: #{missing_insertions} installations were not inserted!" unless missing_insertions.zero?
     end
   end
 end
