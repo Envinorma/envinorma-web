@@ -17,4 +17,12 @@ class Prescription < ApplicationRecord
   def rank_array
     rank.nil? ? [] : rank.split('.').map(&:to_i)
   end
+
+  class << self
+    def delete_and_reset_primary_key
+      puts 'Deleting existing Prescriptions.'
+      Prescription.delete_all
+      ActiveRecord::Base.connection.reset_pk_sequence!(Prescription.table_name)
+    end
+  end
 end

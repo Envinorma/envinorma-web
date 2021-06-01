@@ -20,6 +20,12 @@ class AP < ApplicationRecord
   end
 
   class << self
+    def delete_and_reset_primary_key
+      puts 'Deleting existing APs.'
+      AP.delete_all
+      ActiveRecord::Base.connection.reset_pk_sequence!(AP.table_name)
+    end
+
     def recreate_from_file(seed_file)
       puts "#{Time.now} Seeding aps..."
       batch_size = 5000

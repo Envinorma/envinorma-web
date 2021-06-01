@@ -85,7 +85,7 @@
             .form-check
               = check_box_tag "arrete_#{arrete.id}",
                 '1', arrete.version_descriptor.applicable,
-                class: "form-check-input arrete-checkbox",
+                class: 'form-check-input arrete-checkbox',
                 'data-arrete-id': arrete.id
               = label_tag "arrete_#{arrete.id}", class: arrete.version_descriptor.applicable ? 'active' : 'inactive'
                 = arrete.short_title

@@ -35,6 +35,12 @@ class Classement < ApplicationRecord
   end
 
   class << self
+    def delete_and_reset_primary_key
+      puts 'Deleting existing Classements.'
+      Classement.delete_all
+      ActiveRecord::Base.connection.reset_pk_sequence!(Classement.table_name)
+    end
+
     def recreate_from_file(seed_file)
       puts "#{Time.now} Seeding classements..."
       batch_size = 5000

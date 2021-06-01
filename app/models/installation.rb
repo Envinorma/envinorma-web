@@ -118,18 +118,11 @@ class Installation < ApplicationRecord
     end
 
     def delete_old_objects
-      # Delete is faster than Destroy
-      puts '...deleting existing APs.'
-      AP.delete_all
-      puts '...deleting existing prescriptions.'
-      Prescription.delete_all
-      puts '...deleting existing classements.'
-      Classement.delete_all
-      puts '...deleting existing installations.'
+      AP.delete_and_reset_primary_key
+      Classement.delete_and_reset_primary_key
+      Prescription.delete_and_reset_primary_key
+      puts 'Deleting existing Installations.' # Delete is faster than Destroy
       Installation.delete_all
-      ActiveRecord::Base.connection.reset_pk_sequence!(Installation.table_name)
-      ActiveRecord::Base.connection.reset_pk_sequence!(Prescription.table_name)
-      ActiveRecord::Base.connection.reset_pk_sequence!(Classement.table_name)
       ActiveRecord::Base.connection.reset_pk_sequence!(Installation.table_name)
     end
 
