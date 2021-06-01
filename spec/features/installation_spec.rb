@@ -41,7 +41,12 @@ RSpec.describe 'installations test features', js: true do
 
     # User can delete classement
     click_link('Modifier cette installation')
-    find('#installation_classements_attributes_3__destroy').click
+
+    4.times.each do |index|
+      if find("#installation_classements_attributes_#{index}_rubrique").value.include?('1510')
+        find("#installation_classements_attributes_#{index}__destroy").click
+      end
+    end
     click_button('Sauvegarder les modifications')
     expect(page).not_to have_content('1510')
   end
