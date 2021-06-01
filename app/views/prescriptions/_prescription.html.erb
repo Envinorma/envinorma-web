@@ -17,10 +17,8 @@
               <% end %>
             </p>
             <%= link_to "Supprimer", installation_prescription_path(installation_id: @installation.id, id: prescription.id), remote: true, method: :delete,
-              id: "delete_prescription_#{prescription.alinea_id}",
-              class: 'delete_prescription text-danger small',
-              onclick: prescription.from_am? ? "document.getElementById('prescription_checkbox_#{prescription.alinea_id}').checked = false;" : "",
-              data: {id: prescription.alinea_id} %>
+              class: 'text-danger small',
+              onclick: prescription.from_am? ? "document.getElementById('prescription_checkbox_#{prescription.alinea_id}').checked = false;" : "" %>
           </div>
         <% end %>
       <% end %>

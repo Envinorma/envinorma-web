@@ -2,7 +2,7 @@
   .container
     .row
       .col-1.align-self-center
-        = link_to '< Retour à l’installation', installation_path(@installation), class: 'js_loader__link small'
+        = link_to '< Retour à l’installation', installation_path(@installation), class: 'small  js_loader__link'
       .col-11
         .glide
 
@@ -157,7 +157,9 @@
             .col-3
               h5 = ap.title
 
-              = simple_form_for [@installation, @prescription], remote: true do |f|
+              = simple_form_for @prescription,
+                url: installation_create_from_ap_path(@installation, @prescription),
+                remote: true do |f|
                 .row
                   .col-12
                     = f.input :reference, placeholder: 'ex: Art. 2'
@@ -170,7 +172,7 @@
 
                   = f.hidden_field :text_reference, value: ap.short_title
 
-                = f.button :submit, 'ajouter une prescription', class: 'btn btn-primary'
+                = f.button :submit, 'Ajouter une prescription', class: 'btn btn-primary'
             .col-9
               - url_ovh = 'https://storage.sbg.cloud.ovh.net/v1/AUTH_3287ea227a904f04ad4e8bceb0776108/ap/'
               object data="#{url_ovh}#{ap.georisques_id}.pdf" type="application/pdf" class="pdf_viewer"
@@ -185,11 +187,10 @@
   .modal-container
     .border-bottom.pb-3
       h4 Fiche d'inspection
-      = link_to 'Tout supprimer', installation_delete_many_path(@installation),
+      = link_to 'Tout supprimer', installation_destroy_all_path(@installation),
         remote: true, method: :delete,
-        id: 'delete_all_prescriptions',
         class: 'text-danger small',
-        onclick: "document.querySelectorAll('.alineas_checkbox').forEach((x)=>{x.checked = false;});"
+        onclick: "document.querySelectorAll('input[type=checkbox]').forEach((checkbox)=>{checkbox.checked = false;});"
       button.modal-close.modal-exit
         | X
 
@@ -201,4 +202,4 @@
       = link_to 'Télécharger la fiche', generate_doc_path, method: :post, class: 'btn btn-primary', id: 'js_download_fiche'
 
       button.modal-exit.btn.btn-link
-        | fermer
+        | Fermer
