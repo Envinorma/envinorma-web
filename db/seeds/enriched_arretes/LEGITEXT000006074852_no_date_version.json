@@ -1,5 +1,4 @@
 {
-    "active": true,
     "aida_url": "https://aida.ineris.fr/consultation_document/37312",
     "classements": [
         {
@@ -16,8 +15,8 @@
             "rubrique": "2113"
         }
     ],
+    "date_of_signature": "1986-09-15",
     "id": "LEGITEXT000006074852",
-    "installation_date_criterion": null,
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074852",
     "publication_date": "1986-09-15",
     "sections": [
@@ -55,37 +54,31 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "L'installation sera située, installée et exploitée conformément aux plans et dossiers joints à la demande d'autorisation, incluant l'étude d'impact et une étude des dangers présentés par l'installation, et sous réserve du respect des prescriptions du présent arrêté."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "L'installation sera implantée à une distance minimale de 150 mètres de tout immeuble habité ou occupé par des tiers. Cette distance pourra toutefois être réduite, tout en restant supérieure à 100 mètres, dans la mesure où la présence d'obstacles (bâtiments, barrières végétales, topographie) pourrait le justifier."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "L'installation ne sera pas implantée sur un terrain à forte pente ou présentant des risques importants de percolation."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Dans le cas d'une activité en zone de montagne, des dispositions particulières devront être prises pour éviter tout ruissellement vers les points ou cours d'eau."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Elle ne sera pas implantée dans le périmètre de protection des captages d'eau potable, ni à moins de 35 mètres des cours d'eau, points d'eau et fossés d'évacuation des eaux pluviales."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Toute transformation dans l'état des lieux, toute modification de l'installation sera portée à la connaissance du préfet avant leur réalisation, ainsi que tout changement d'exploitant."
                         }
@@ -94,7 +87,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 1"
                     }
@@ -112,7 +104,6 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "La capacité autorisée est de .................... animaux en présence simultanée dans l'installation, dont .................... femelles."
                         }
@@ -121,7 +112,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 2"
                     }
@@ -143,49 +133,41 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les lignes de cages et les bâtiments seront conçus de manière à éviter la fuite des animaux."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "La distance entre chaque ligne de cage, bord à bord du toit, sera au minimum de 4 mètres ; ceci afin de permettre le passage d'engins en vue de l'enlèvement des fumiers ou l'installation d'un dispositif automatique d'enlèvement de ces fumiers."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Ces allées seront stabilisées pour permettre la circulation dans de bonnes conditions des véhicules de service."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Le sol sera étanche, résistant aux dégradations et apte aux nettoyages répétés."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Sous les cages une couche suffisante de matière propre à absorber les déjections (paille, sciure, sable) sera mise en place et renouvelée régulièrement."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Le toit sera muni de gouttières et devra déborder suffisamment des lignes de cages pour éviter aux eaux pluviales de ruisseler sur les fumiers. Des caniveaux étanches seront prévus, présentant une pente suffisante pour évacuer les liquides non absorbés vers des dispositifs d'évacuation ou de stockage."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les eaux pluviales ne seront pas mélangées aux eaux résiduaires :"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "à cet effet, le sol des bâtiments sera surélevé."
                         }
@@ -194,7 +176,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 3"
                     }
@@ -212,13 +193,11 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les équipements d'abreuvement (abreuvoir simple ou intégré dans un système à distribution automatique) seront maintenus en bon état de propreté et d'entretien, et, le cas échéant, protégés contre le gel."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "L'eau des abreuvoirs sera renouvelée tous les jours dans la mesure où il ne s'agit pas d'installations sous pression."
                         }
@@ -227,7 +206,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 4"
                     }
@@ -245,31 +223,26 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les aliments seront préparés à mesure des besoins. Les produits utilisés seront stockés dans un local clos et réservé à cet effet, ou en silo. Les produits frais (sous-produits animaux) seront conservés en chambre froide ou congelés et alors conservés en congélateur."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Lorsqu'il sera fait usage d'une cuisine pour la préparation de la nourriture, son sol sera imperméable avec une pente suffisante pour assurer un écoulement facile des liquides vers l'amorce de la canalisation souterraine, aboutissant aux dispositifs d'évacuation, de stockage et de traitement."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les eaux de lavage des matériels et ustensiles seront évacuées de même."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les odeurs seront combattues par les moyens adéquats (ventilation, hottes)."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Il ne sera pas conservé dans l'établissement d'aliments corrompus. Les bâtiments utilisés seront maintenus en parfait état de propreté et d'entretien, et désinfectés au moins une fois par an."
                         }
@@ -278,7 +251,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 5"
                     }
@@ -300,49 +272,41 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les fumiers seront stockés sur une aire étanche d'une surface suffisante munie au moins d'un point bas, où sont collectés les liquides d'égouttage et située à plus de 150 mètres des habitations de tiers les plus proches."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Sa superficie sera fonction de la plus longue période pouvant séparer deux évacuations successives de déjections solides, soit ... ."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les jus d'égouttage seront dirigés vers les installations de stockage des effluents d'une capacité de ... mètres cubes."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les fumiers seront évacués dans des récipients étanches régulièrement lavés, ou, s'ils sont destinés à l'épandage, dans des bennes agricoles."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Ils seront enlevés de dessous les cages aussi souvent que nécessaire pour éviter les écoulements, les odeurs et le développement d'insectes soit à une fréquence de ... ."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Dans le cas de production de lisiers, ceux-ci seront collectés et dirigés vers une fosse de stockage d'une capacité suffisante pour un stockage minimal de trois mois des déjections et eaux de lavage."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les cadavres d'animaux seront envoyés dans un équarrissage régulièrement autorisé au titre de la loi du 19 juillet 1976, ou détruits dans les conditions prévues par le code rural."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "D'une façon générale, toutes dispositions seront prises pour combattre les nuisances."
                         }
@@ -351,7 +315,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 6"
                     }
@@ -369,19 +332,16 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les animaux sacrifiés sont amenés dès refroidissement suffisant en salle de dépouillage."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Ce local devra être équipé de manière à permettre l'exécution du travail dans de bonnes conditions d'hygiène et de sécurité."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les déchets seront stockés et évacués en conformité avec les prescriptions de l'article 6 ; leur destination sera précisée."
                         }
@@ -390,7 +350,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 7"
                     }
@@ -408,7 +367,6 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "D'une manière générale, le séchage, la préparation et le stockage des peaux devront être effectués selon les règles de l'art et ne pas être à l'origine de nuisances ou dangers pour le voisinage."
                         }
@@ -417,7 +375,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 8"
                     }
@@ -435,31 +392,26 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Toutes dispositions efficaces seront prises contre la pullulation des mouches et des rongeurs nuisibles : emploi d'insecticides, etc."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Toutes dispositions seront également prises pour éviter la fuite des animaux : si les bâtiments d'élevage ne peuvent être entièrement clos, la clôture extérieure sera munie d'un sas de volume suffisant pour contenir les équipements et véhicules employés, et équipée de portes à fermeture automatique."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Si les bâtiments d'élevage sont clos, la clôture externe et celle des bâtiments ne pourront être ouvertes simultanément."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Toute fuite d'animaux constatée sera signalée à l'inspecteur des installations classées."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "La clôture (éventuellement de grillage) entourant l'élevage sera d'une hauteur minimale au-dessus du sol de 1,50 mètre, enfoncée dans le sol d'au moins 30 centimètres et surmontée le cas échéant (grillage) d'une plaque pleine et lisse d'au moins 25 centimètres (tôle ou, mieux, matériaux synthétiques) pour éviter la fuite des animaux et les protéger des prédateurs."
                         }
@@ -468,7 +420,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 9"
                     }
@@ -486,61 +437,51 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "L'exploitant fournira à l'inspecteur des installations classées le relevé cadastral des terrains sur lesquels est pratiqué l'épandage (en produisant, le cas échéant, l'accord écrit des propriétaires concernés)."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "En cas d'épandage des effluents, les prescriptions suivantes seront respectées : en aucun cas la capacité d'absorption des sols ne devra être dépassée, de telle sorte que ni la stagnation prolongée sur ces sols, ni le ruissellement en dehors du champ d'épandage, ni une percolation rapide vers les nappes souterraines ne puissent se produire."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "L'épandage est interdit :"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "- à proximité des points de prélèvements d'eau destinée à l'alimentation des collectivités humaines ou des particuliers, à moins de 200 mètres des lieux de baignade, à moins de 500 mètres des sites d'aquaculture, à moins de 35 mètres des cours d'eau ;"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "- à moins de 100 mètres des habitations, des campings, hormis le cas du camping à la ferme."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "En cas d'épandage avec enfouissement ou épandage de lisier désodorisé, la distance de 100 mètres par rapport aux lieux d'habitations et de camping (sauf camping à la ferme) peut être ramenée à 50 mètres :"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "- pendant les périodes où le sol est gelé ;"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "- en dehors des terres régulièrement travaillées et des prairies normalement exploitées ;"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "- à l'aide de dispositifs d'aéro-aspersion, générateurs de brouillards fins ;"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "- sur les sols dont la pente est importante."
                         }
@@ -549,7 +490,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 10 - Tout rejet direct des fumiers et lisiers dans les eaux superficielles est interdit."
                     }
@@ -567,43 +507,36 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Le niveau sonore des bruits émis par l'élevage ne devra pas excéder les seuils fixés par l'arrêté ministériel du 20 août 1985, soit en limite de propriété :"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "45 dB + Ct + Cz"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Ct"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "étant un coefficient correcteur fonction de l'heure ;"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Cz"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "étant un coefficient correcteur fonction de la zone d'implantation."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Exemple simplifié : en zone rurale non habitée, la limite est fixée à 65 dB le jour et 55 dB la nuit."
                         }
@@ -612,7 +545,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 11"
                     }
@@ -630,19 +562,16 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Le matériel électrique utilisé sera conforme aux normes en vigueur."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "L'implantation de la borne d'eau la plus proche sera indiquée dans le dossier de demande d'autorisation ; il sera signalé éventuellement la présence d'une mare ou d'une réserve d'eau pouvant être utilisée en cas d'incendie."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Lorsqu'une installation utilisant des gaz toxiques sera mise en oeuvre pour la sacrification des animaux, toutes précautions devront être prises en vue de la protection du personnel et de l'environnement. Les produits utilisés pour la sacrification seront, d'une façon générale, conservés comme des produits toxiques et dangereux et non accessibles à d'autres personnes que l'exploitant ou les employés désignés par lui."
                         }
@@ -651,7 +580,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 12"
                     }
@@ -669,7 +597,6 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les règles techniques applicables au titre de la protection de l'environnement aux élevages d'animaux carnassiers à fourrure sont fixées par l'instruction et son commentaire, annexés au présent arrêté."
                         }
@@ -678,7 +605,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 1"
                     }
@@ -696,7 +622,6 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "L'ensemble de ces règles est applicable sans délai aux établissements faisant l'objet d'un arrêté d'autorisation postérieur au présent arrêté."
                         }
@@ -705,7 +630,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 2"
                     }
@@ -723,7 +647,6 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Le directeur de la prévention des pollutions et les   préfets sont chargés de l'exécution du présent arrêté, qui sera publié au Journal officiel de la République française."
                         }
@@ -732,7 +655,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 3"
                     }
@@ -740,7 +662,6 @@
             ],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Règles techniques applicables aux élevages de carnassiers à fourrure (visons)soumis à autorisation (plus de 2000 animaux) Rubrique 58-7°."
             }
@@ -784,13 +705,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Ces prescriptions concernent essentiellement les visons, principaux carnassiers élevés en France pour leur fourrure."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Dans le cas d'un élevage de renards ou de putois, autres cas pouvant être rencontrés, une adaptation de ces prescriptions est bien entendu nécessaire."
                                 }
@@ -799,7 +718,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "ANNEXE"
                             }
@@ -807,7 +725,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Règles techniques applicables aux élevages de carnassiers à fourrure (visons)soumis à autorisation (plus de 2000 animaux) Rubrique 58-7°."
                     }
@@ -815,118 +732,33 @@
             ],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Annexes"
             }
         }
     ],
-    "summary": {
-        "elements": [
-            {
-                "depth": 0,
-                "section_id": "DD1Ff11a6b6B",
-                "section_title": "Règles techniques applicables aux élevages de carnassiers à [...]"
-            },
-            {
-                "depth": 1,
-                "section_id": "bB60acbFe8aA",
-                "section_title": "Article 1"
-            },
-            {
-                "depth": 1,
-                "section_id": "FbeB1ae6AEcA",
-                "section_title": "Article 2"
-            },
-            {
-                "depth": 1,
-                "section_id": "ba0E1Dd9399F",
-                "section_title": "Article 3"
-            },
-            {
-                "depth": 1,
-                "section_id": "b7aaaCbE485F",
-                "section_title": "Article 4"
-            },
-            {
-                "depth": 1,
-                "section_id": "b3EDf8e4831b",
-                "section_title": "Article 5"
-            },
-            {
-                "depth": 1,
-                "section_id": "CaeEEf6eaBEc",
-                "section_title": "Article 6"
-            },
-            {
-                "depth": 1,
-                "section_id": "EbbCbD2Bd9ea",
-                "section_title": "Article 7"
-            },
-            {
-                "depth": 1,
-                "section_id": "93a0a46a64da",
-                "section_title": "Article 8"
-            },
-            {
-                "depth": 1,
-                "section_id": "8071F383CBe4",
-                "section_title": "Article 9"
-            },
-            {
-                "depth": 1,
-                "section_id": "DE1dF8854193",
-                "section_title": "Article 10 - Tout rejet direct des fumiers et lisiers dans les [...]"
-            },
-            {
-                "depth": 1,
-                "section_id": "6bdb628CbDCf",
-                "section_title": "Article 11"
-            },
-            {
-                "depth": 1,
-                "section_id": "3a11453A3EFE",
-                "section_title": "Article 12"
-            },
-            {
-                "depth": 1,
-                "section_id": "5B1acF3fDaFB",
-                "section_title": "Article 1"
-            },
-            {
-                "depth": 1,
-                "section_id": "13dEa3a82fF6",
-                "section_title": "Article 2"
-            },
-            {
-                "depth": 1,
-                "section_id": "6f5539c6A864",
-                "section_title": "Article 3"
-            },
-            {
-                "depth": 0,
-                "section_id": "08bEFE648aEd",
-                "section_title": "Annexes"
-            },
-            {
-                "depth": 1,
-                "section_id": "FcFCfd400F2b",
-                "section_title": "Règles techniques applicables aux élevages de carnassiers à [...]"
-            },
-            {
-                "depth": 2,
-                "section_id": "8c074ca8F3cE",
-                "section_title": "ANNEXE"
-            }
-        ]
-    },
     "title": {
         "active": true,
-        "links": [],
         "table": null,
         "text": "Arrêté du 15/09/86 fixant les règles techniques auxquelles doivent satisfaire au titre de la protection de l'environnement les élevages d'animaux carnassiers à fourrure"
     },
-    "unique_version": true,
-    "visa": [],
-    "warning_inactive": "Ce paragraphe pourrait ne pas être applicable. C'est le cas pour les installations dont la date d'autorisation est antérieure au 13/11/1986."
+    "version_descriptor": {
+        "aed_date": {
+            "is_used": true,
+            "known_value": false,
+            "left_value": null,
+            "right_value": null
+        },
+        "applicability_warnings": [
+            "Cet arrêté pourrait ne pas être applicable. C'est le cas pour les installations dont la date d'autorisation est antérieure au 13/11/1986."
+        ],
+        "applicable": true,
+        "installation_date": {
+            "is_used": false,
+            "known_value": null,
+            "left_value": null,
+            "right_value": null
+        }
+    },
+    "visa": []
 }

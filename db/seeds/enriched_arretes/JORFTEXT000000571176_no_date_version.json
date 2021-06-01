@@ -1,5 +1,4 @@
 {
-    "active": true,
     "aida_url": "https://aida.ineris.fr/consultation_document/35416",
     "classements": [
         {
@@ -27,8 +26,8 @@
             "rubrique": "1416"
         }
     ],
+    "date_of_signature": "1998-02-12",
     "id": "JORFTEXT000000571176",
-    "installation_date_criterion": null,
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000571176",
     "publication_date": "1998-02-12",
     "sections": [
@@ -45,7 +44,6 @@
             "outer_alineas": [
                 {
                     "active": true,
-                    "links": [],
                     "table": null,
                     "text": "Les installations classées pour la protection de l'environnement, soumises à déclaration sous la rubrique n° 4715, sont soumises aux dispositions de l'annexe I. Les présentes dispositions s'appliquent sans préjudice des autres législations."
                 }
@@ -54,7 +52,6 @@
             "sections": [],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Article 1"
             }
@@ -72,25 +69,21 @@
             "outer_alineas": [
                 {
                     "active": true,
-                    "links": [],
                     "table": null,
                     "text": "Les dispositions de l'annexe I sont applicables :"
                 },
                 {
                     "active": true,
-                    "links": [],
                     "table": null,
                     "text": "- aux installations nouvelles (déclarées à partir du 1er juillet 1998) à partir du 1er juillet 1998 ;"
                 },
                 {
                     "active": true,
-                    "links": [],
                     "table": null,
                     "text": "- aux installations existantes (déclarées avant le 1er juillet 1998) selon les délais mentionnés à l'annexe II."
                 },
                 {
                     "active": true,
-                    "links": [],
                     "table": null,
                     "text": "Les prescriptions auxquelles les installations existantes sont déjà soumises demeurent applicables jusqu'à l'entrée en vigueur de ces dispositions."
                 }
@@ -99,7 +92,6 @@
             "sections": [],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Article 2"
             }
@@ -121,7 +113,6 @@
             "outer_alineas": [
                 {
                     "active": true,
-                    "links": [],
                     "table": null,
                     "text": "Le préfet peut, pour une installation donnée, modifier par arrêté les dispositions des annexes I et II dans les conditions prévues aux articles 11 de la loi du 19 juillet 1976 et 30 du décret du 21 septembre 1977 susvisés."
                 }
@@ -130,7 +121,6 @@
             "sections": [],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Article 3"
             }
@@ -148,7 +138,6 @@
             "outer_alineas": [
                 {
                     "active": true,
-                    "links": [],
                     "table": null,
                     "text": "Le directeur de la prévention des pollutions et des risques est chargé de l'exécution du présent arrêté, qui sera publié au Journal officiel de la République française."
                 }
@@ -157,7 +146,6 @@
             "sections": [],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Article 4"
             }
@@ -213,7 +201,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'installation doit être implantée, réalisée et exploitée conformément aux plans et autres documents joints à la déclaration, sous réserve du respect des prescriptions ci-dessous."
                                 }
@@ -222,7 +209,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "1.1 - Conformité de l'installation à la déclaration"
                             }
@@ -244,7 +230,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Toute modification apportée par le déclarant à l'installation, à son mode d'exploitation ou à son voisinage, entraînant un changement notable des éléments du dossier de déclaration initiale, doit être portée, avant sa réalisation, à la connaissance du préfet qui peut exiger une nouvelle déclaration (référence : article 31 du décret du 21 septembre 1977)."
                                 }
@@ -253,7 +238,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "1.2 - Modifications"
                             }
@@ -275,7 +259,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "La déclaration doit préciser les mesures prises ou prévues par l'exploitant pour respecter les dispositions du présent arrêté (référence : article 25 du décret du 21 septembre 1977)."
                                 }
@@ -284,7 +267,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "1.3 - Justification du respect des prescriptions de l'arrêté"
                             }
@@ -306,43 +288,36 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'exploitant doit établir et tenir à jour un dossier comportant les documents suivants :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- le dossier de déclaration,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- les plans tenus à jour,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- la preuve de dépôt de la déclaration et les prescriptions générales,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- les arrêtés préfectoraux relatifs à l'installation concernée, pris en application de la législation relative aux installations classées pour la protection de l'environnement, s'il y en a,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- les résultats des dernières mesures sur les effluents et le bruit, les rapports des visites,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- les documents prévus aux points 3.5, 3.6, 4.3, 4.7, 4.8, 5.1 du présent arrêté."
                                 }
@@ -351,7 +326,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "1.4 - Dossier installation classée"
                             }
@@ -373,7 +347,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'exploitant d'une installation est tenu de déclarer, dans les meilleurs délais, à l'inspection des installations classées, les accidents ou incidents survenus du fait du fonctionnement de cette installation qui sont de nature à porter atteinte aux intérêts mentionnés à l'article 1er de la loi du 19 juillet 1976 (référence : article 38 du décret du 21 septembre 1977)."
                                 }
@@ -382,7 +355,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "1.5 - Déclaration d'accident ou de pollution accidentelle"
                             }
@@ -404,7 +376,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Lorsque l'installation change d'exploitant, le nouvel exploitant ou son représentant doit en faire la déclaration au préfet dans le mois qui suit la prise en charge de l'exploitation. Cette déclaration doit mentionner, s'il s'agit d'une personne physique, les nom, prénoms et domicile du nouvel exploitant et, s'il s'agit d'une personne morale, sa dénomination ou sa raison sociale, sa forme juridique, l'adresse de son siège social ainsi que la qualité du signataire de la déclaration (référence : article 34 du décret du 21 septembre 1977)."
                                 }
@@ -413,7 +384,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "1.6 - Changement d'exploitant"
                             }
@@ -435,7 +405,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Lorsqu'une installation cesse l'activité au titre de laquelle elle était déclarée, son exploitant doit en informer le préfet au moins un mois avant l'arrêt définitif. La notification de l'exploitant indique les mesures de remise en état prévues ou réalisées (référence : article 34-1 du décret du 21 septembre 1977)."
                                 }
@@ -444,7 +413,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "1.7 - Cessation d'activité"
                             }
@@ -466,7 +434,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "non concerné"
                                 }
@@ -475,7 +442,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "1.8 (*)"
                             }
@@ -483,7 +449,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "1. Dispositions générales"
                     }
@@ -541,7 +506,6 @@
                                     "outer_alineas": [
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "L'installation doit être implantée à une distance d'au moins 20 mètres des limites de propriété. Il est interdit de stocker ou d'employer de l'hydrogène liquide dans des bâtiments."
                                         }
@@ -550,7 +514,6 @@
                                     "sections": [],
                                     "title": {
                                         "active": true,
-                                        "links": [],
                                         "table": null,
                                         "text": "2.1.1 - Prescriptions spécifiques pour l'hydrogène liquide"
                                     }
@@ -572,25 +535,21 @@
                                     "outer_alineas": [
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "L'installation doit être implantée à une distance d'au moins :"
                                         },
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "- si elle est située à l'air libre ou sous auvent, à 8 mètres des limites de propriété ou de tout bâtiment,"
                                         },
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "- si le local contenant l'installation est fermé, à 5 mètres des limites de propriété ou de tout bâtiment."
                                         },
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "Les distances de 8 à 5 mètres entre le bâtiment et le stockage de récipients d'hydrogène gazeux ne sont pas exigibles s'ils sont séparés par un mur plein sans ouverture, construits en matériaux incombustibles et de caractéristiques coupe-feu 2 heures, d'une hauteur minimale de 3 mètres et prolongé du stockage par un auvent construit en matériaux incombustibles et pare-flamme de degré 1 heure, d'une largeur minimale de minimale de 3 mètres en projection sur un plan horizontal. Ce mur doit être prolongé de part et d'autre et du côté du stockage par des murs de retour sans ouverture, construits en matériaux incombustibles et coupe-feu de degré 1 heure, d'une hauteur de 3 mètres et d'une longueur de 2 mètres au moins."
                                         }
@@ -599,7 +558,6 @@
                                     "sections": [],
                                     "title": {
                                         "active": true,
-                                        "links": [],
                                         "table": null,
                                         "text": "2.1.2 - Prescriptions spécifiques pour l'hydrogène gazeux"
                                     }
@@ -607,7 +565,6 @@
                             ],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "2.1 - Règles d'implantation"
                             }
@@ -631,7 +588,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'exploitant prend les dispositions nécessaires pour satisfaire à l'esthétique du site. L'ensemble du site doit être maintenu en bon état de propreté (peinture, plantations, engazonnement...)."
                                 }
@@ -640,7 +596,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "2.2 - Intégration dans le paysage"
                             }
@@ -664,7 +619,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'installation ne doit pas être surmontée de locaux occupés par des tiers ou habités."
                                 }
@@ -673,7 +627,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "2.3 - Interdiction d'habitations au-dessus des installations"
                             }
@@ -697,43 +650,36 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les locaux abritant les installations d'hydrogène gazeux doivent présenter les caractéristiques de réaction et de résistance au feu minimales suivantes :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- murs et planchers hauts coupe-feu de degré 2 heures,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- toiture légère incombustible,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- portes intérieures coupe-feu de degré 2 heures et munies d'un ferme-porte ou d'un dispositif assurant leur fermeture automatique,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- porte donnant vers l'extérieur pare-flamme de degré 2 heures,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- matériaux de classe M0 (incombustibles)."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les locaux fermés doivent être équipés en partie haute de dispositifs permettant l'évacuation de l'hydrogène, des fumées et gaz de combustion dégagés en cas d'incendie (lanterneaux en toiture, ouvrants en façade ou tout autre dispositif équivalent). Les commandes d'ouverture manuelle sont placées à proximité des accès. Le système de désenfumage doit être adapté aux risques particuliers de l'installation."
                                 }
@@ -742,7 +688,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "2.4 - Comportement au feu des bâtiments"
                             }
@@ -766,13 +711,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'installation doit être accessible pour permettre l'intervention des services d'incendie et de secours. Elle est desservie, sur au moins une face, par une voie-engin ou par une voie-échelle si le plancher haut de cette installation est à une hauteur supérieure à 8 mètres par rapport à cette voie."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "En cas de local fermé, une des façades est équipée d'ouvrant permettant le passage de sauveteurs équipés."
                                 }
@@ -781,7 +724,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "2.5 - Accessibilité"
                             }
@@ -803,7 +745,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Sans préjudice des dispositions du code du travail, les locaux doivent être convenablement ventilés pour éviter tout risque d'atmosphère explosible. Le débouché à l'atmosphère de la ventilation doit être placé aussi loin que possible des habitations voisines."
                                 }
@@ -812,7 +753,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "2.6 - Ventilation"
                             }
@@ -834,7 +774,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les installations électriques, doivent être réalisées conformément au décret n° 88-1056 du 14 novembre 1988 relatif à la réglementation du travail."
                                 }
@@ -843,7 +782,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "2.7 - Installations électriques"
                             }
@@ -865,7 +803,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les équipements métalliques (réservoirs, cuves, canalisations) doivent être mis à la terre conformément aux règlements et aux normes applicables, compte tenu notamment de la nature inflammable de l'hydrogène."
                                 }
@@ -874,7 +811,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "2.8 - Mise à la terre des équipements"
                             }
@@ -913,7 +849,6 @@
                                     "outer_alineas": [
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "Le sol des aires comportant un ou plusieurs récipients d'hydrogène liquide doit être étanche, incombustible, non poreux et réalisé en matériaux inertes vis-à-vis de l'hydrogène liquide."
                                         }
@@ -922,7 +857,6 @@
                                     "sections": [],
                                     "title": {
                                         "active": true,
-                                        "links": [],
                                         "table": null,
                                         "text": "2.9.1 - Prescriptions spécifiques pour l'hydrogène liquide"
                                     }
@@ -930,7 +864,6 @@
                             ],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "2.9 - Rétention des aires et locaux de travail"
                             }
@@ -952,7 +885,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "non concerné"
                                 }
@@ -961,7 +893,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "2.10 (*)"
                             }
@@ -1000,7 +931,6 @@
                                     "outer_alineas": [
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "Dans le cas où l'installation comporte un ou plusieurs récipients fixes d'hydrogène liquide, la disposition du sol doit être horizontale ou s'opposer à tout épanchement éventuel d'hydrogène liquide dans les zones où il présenterait un danger ou d'aggravation de danger (fosses, trous d'homme, passage de câbles électriques en sol, caniveaux, regard, etc.) doivent être éloignés de 5 mètres au moins du (des) récipient(s). Cette distance n'est pas exigée si les dispositions sont prises pour éviter qu'un épanchement éventuel d'hydrogène liquide puisse s'écouler vers lesdites zones, par exemple en imposant une distance horizontale dec ontournement au moins égale à 5 mètres."
                                         }
@@ -1009,7 +939,6 @@
                                     "sections": [],
                                     "title": {
                                         "active": true,
-                                        "links": [],
                                         "table": null,
                                         "text": "2.11.1 Prescriptions spécifiques pour l'hydrogène liquide"
                                     }
@@ -1017,7 +946,6 @@
                             ],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "2.11 - Epanchement d'hydrogène liquide"
                             }
@@ -1025,7 +953,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "2. Implantation - aménagement"
                     }
@@ -1064,7 +991,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'exploitation doit se faire sous la surveillance, directe ou indirecte, d'une personne nommément désignée par l'exploitant et ayant une connaissance de la conduite de l'installation et des dangers et inconvénients des produits utilisés ou stockés dans l'installation."
                                 }
@@ -1073,7 +999,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "3.1 - Surveillance de l'exploitation"
                             }
@@ -1095,7 +1020,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les personnes étrangères à l'établissement ne doivent pas avoir un accès libre aux installations. De plus, en l'absence du personnel d'exploitation , l'installation doit être rendue inaccessible aux personnes étrangères (clôture, fermeture à clé, etc.)"
                                 }
@@ -1104,7 +1028,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "3.2 - Contrôle de l'accès"
                             }
@@ -1126,13 +1049,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'exploitant doit avoir à sa disposition des documents lui permettant de connaître la nature et les risques de l'hydrogène, en particulier les fiches de données de sécurité prévues par l'article R. 231-53 du code du travail."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les récipients doivent porter en caractères très lisibles le nom du produit ou la couleur d'identification des gaz normalisée et, s'il y a lieu, les symboles de danger conformément au règlement CLP n° 1272/2008 du 16 décembre 2008 modifié relatif à la classification, l'emballage et l'étiquetage des substances et mélanges ou aux réglements relatifs au transport de matières dangereuses."
                                 }
@@ -1141,7 +1062,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "3.3 - Connaissance des produits - Etiquetage"
                             }
@@ -1163,13 +1083,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les locaux doivent être maintenus propres et régulièrement nettoyés notamment de manière à éviter les amas de matières dangereuses ou polluantes et de poussières. Le matériel de nettoyage doit être adapté aux risques présentés par les produits et poussières."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le matériel de nettoyage doit être adapté aux risques présentés par les produits."
                                 }
@@ -1178,7 +1096,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "3.4 - Propreté"
                             }
@@ -1200,13 +1117,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "La quantité d'hydrogène présente dans les installations doit pouvoir être estimée à tout moment à l'intention de l'inspection des installations classées et des services de secours."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "La présence dans les ateliers de matières dangereuses ou combustibles est limitée aux nécessités de l'exploitation."
                                 }
@@ -1215,7 +1130,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "3.5 - Registre entrée/sortie"
                             }
@@ -1237,7 +1151,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Toutes les installations électriques doivent être entretenues en bon état et doivent être contrôlées, après leur installation ou leur modification par une personne compétente. La périodicité, l'objet et l'étendue des vérifications des installations électriques ainsi que le contenu des rapports relatifs aux dites vérifications sont fixés par l'arrêté du 20 décembre 1988 relatif à la réglementation du travail."
                                 }
@@ -1246,7 +1159,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "3.6 - Vérification périodique des installations électriques"
                             }
@@ -1268,25 +1180,21 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Des substances non imflammables et non comburantes peuvent être stockées dans le local ou sur l'aire de stockage de l'installation."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Des substances inflammables ou comburantes peuvent être stockées dans le local ou sur l'aire du stockage de l'installation si elles sont séparées des récipients d'hydrogène :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- soit par une distance de 8 mètres (distance portée à 20 mètres par rapport aux récipients d'hydrogène liquide),"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- soit par un ur plein sans ouverture présentant une avancée de 1 mètre, construit en matériaux de caractéristique coupe-feu de degré deux heures, s'élevant jusqu'à une hauteur de 3 mètres ou jusqu'à la toiture sauf indications plus contraignantes d'une autre réglementation."
                                 }
@@ -1295,7 +1203,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "3.7 - Vérification des lignes annexes"
                             }
@@ -1303,7 +1210,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "3. Exploitation - entretien"
                     }
@@ -1342,7 +1248,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Sans préjudice des dispositions du code du travail, des matériels de protection individuelle, adaptés aux risques présentés par l'installation et permettant l'intervention en cas de sinistre, doivent être conservés à proximité du dépôt et du lieu d'utilisation. Ces matériels doivent être entretenus en bon état et vérifiés périodiquement. Le personnel doit être formé à l'emploi de ces matériels."
                                 }
@@ -1351,7 +1256,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "4.1 - Protection individuelle"
                             }
@@ -1390,37 +1294,31 @@
                                     "outer_alineas": [
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "L'installation doit être dotée de moyens de secours contre l'incendie appropriés aux risques et conformes aux normes en vigueur, notamment :"
                                         },
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "- d'une borne d'incendie normalisée de 100 mm de diamètre avec le matériel nécessaire pour mettre en batterie une grosse lance et deux petites,"
                                         },
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "- 1 extincteur à poudre de 50 kg sur roues,"
                                         },
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "- 2 extincteurs à poudre de 9 kg,"
                                         },
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "- 1 extincteur CO² de 6 kg."
                                         },
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "Ces matériels doivent être disposés à proximité de l'installation, maintenus en bon état et vérifiés au moins une fois par an. Le personnel doit être formé à l'utilisation des moyens de secours contre l'incendie. En cas d'incendie dans le voisinage de l'installation des dipositions doivent être prises pour protéger l'installation."
                                         }
@@ -1429,7 +1327,6 @@
                                     "sections": [],
                                     "title": {
                                         "active": true,
-                                        "links": [],
                                         "table": null,
                                         "text": "4.2.1 - Prescriptions spécifiques à l'hydrogène liquide"
                                     }
@@ -1451,25 +1348,21 @@
                                     "outer_alineas": [
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "L'installation doit être dotée de moyens de secours contre l'incendie appropriés aux risques et conformes aux normes en vigueur, notamment :"
                                         },
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "- 1 extincteur à poudre de 50 kg sur roues ;"
                                         },
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "- 1 robinet d'eau de 40 mm, équipé d'une lance susceptible d'être mise instantanément en service."
                                         },
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "Ces matériels doivent être disposés à proximité de l'installation, maintenus en bon état et vérifiés au moins une fois par an. Le personnel doit être formé à l'utilisation des moyens de secours contre l'incendie. En cas d'incendie dans le voisinage de l'installation des dispositions doivent être prises pour protéger l'installation."
                                         }
@@ -1478,7 +1371,6 @@
                                     "sections": [],
                                     "title": {
                                         "active": true,
-                                        "links": [],
                                         "table": null,
                                         "text": "4.2.2 - Prescriptions spécifiques à l'hydrogène gazeux"
                                     }
@@ -1486,7 +1378,6 @@
                             ],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "4.2 - Moyens de lutte contre l'incendie"
                             }
@@ -1508,13 +1399,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'exploitant recense, sous sa responsabilité, les parties de l'installation qui, en raison des caractéristiques qualitatives et quantitatives des matières mises en œuvre, stockées, utilisées ou produites, sont susceptibles d'être à l'origine d'un sinistre pouvant avoir des conséquences directes ou indirectes sur l'environnement, la sécurité publique ou le maintien en sécurité de l'installation."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'exploitant détermine pour chacune de ces parties de l'installation la nature du risque (incendie ou atmosphères explosives). Ce risque est signalé."
                                 }
@@ -1523,7 +1412,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "4.3 - Localisation des risques"
                             }
@@ -1545,7 +1433,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Dans les parties de l'installation visées au point 4.3 \"atmosphères explosives\", les installations électriques doivent être réduites à ce qui est strictement nécessaire aux besoins de l'exploitation. Elles doivent être entièrement constituées de matériels utilisables dans les atmosphères explosives. Cependant, dans les parties de l'installation où les atmosphères explosives peuvent apparaître de manière épisodique avec une faible fréquence et une courte durée, les installations électriques peuvent être constituées de matériel électrique de bonne qualité industrielle qui, en service normal, n'engendrent ni arc ni étincelle, ni surface chaude susceptible de provoquer une explosion. Les canalisations ne doivent pas être une cause possible d'inflammation et doivent être convenablement protégées contre les chocs, contre la propagation des flammes et contre l'action des produits présents dans la partie de l'installation en cause."
                                 }
@@ -1554,7 +1441,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "4.4 - Matériel électrique de sécurité"
                             }
@@ -1576,7 +1462,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Dans les parties de l'installation, visées au point 4.3, présentant des risques d'incendie ou d'explosion, il est interdit d'apporter du feu sous une forme quelconque, sauf pour la réalisation de travaux ayant fait l'objet d'un \"permis de feu\". Cette interdiction doit être affichée en caractères apparents."
                                 }
@@ -1585,7 +1470,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "4.5 - Interdiction des feux"
                             }
@@ -1607,19 +1491,16 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Dans les parties de l'installation visées au point 4.3, tous les travaux de réparation ou d'aménagement conduisant à une augmentation des risques (emploi d'une flamme ou d'une source chaude, purge des circuits...) ne peuvent être effectués qu'après délivrance d'un \"permis de travail\" et éventuellement d'un \"permis de feu\" et en respectant les règles d'une consigne particulière."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le \"permis de travail\" et éventuellement le \"permis de feu\" et la consigne particulière doivent être établis et visés par l'exploitant ou par la personne qu'il aura nommément désignée. Lorsque les travaux sont effectués par une entreprise extérieure, le \"permis de travail\" et éventuellement le \"permis de feu\" et la consigne particulière relative à la sécurité de l'installation, doivent être cosignés par l'exploitant et l'entreprise extérieure ou les personnes qu'ils auront nommément désignées."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Après la fin des travaux et avant la reprise de l'activité, une vérification des installations doit être effectuée par l'exploitant ou son représentant."
                                 }
@@ -1628,7 +1509,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "4.6 - \"Permis de travail\" et/ou \"permis de feu\" dans les parties de l'installation visées au point 4.3"
                             }
@@ -1650,49 +1530,41 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Sans préjudice des dispositions du code du travail, des consignes précisant les modalités d'application des dispositions du présent arrêté doivent être établies, tenues à jour et affichées dans les lieux fréquentés par le personnel. Ces consignes doivent notamment indiquer :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- l'interdiction d'apporter du feu sous une forme quelconque, dans les parties de l'installation visées au point 4.3 \"incendie\" et \"atmosphères explosives\","
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- l'obligation du \"permis de travail\" pour les parties de l'installation visées au point 4.3,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- les mesures à prendre en cas de fuite sur un récipient ou une canalisation contenant de l'hydrogène, notamment les conditions de rejet prévues au point 5.7,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- les mesures à prendre en cas d'échauffement d'un récipient,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- les moyens d'extinction à utiliser en cas d'incendie,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- la procédure d'alerte avec les numéros de téléphone du responsable d'intervention de l'établissement, des services d'incendie et de secours, etc,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- les procédures d'arrêt d'urgence et de mise en sécurité de l'installation (électricité, réseaux de fluides)."
                                 }
@@ -1701,7 +1573,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "4.7- Consignes de sécurité"
                             }
@@ -1723,25 +1594,21 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les opérations comportant des manipulations dangereuses et la conduite des installations (démarrage et arrêt, fonctionnement normal, entretien, etc.) doivent faire l'objet de consignes d'exploitation écrites. Ces consignes prévoient notamment :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- les modes opératoires,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- la fréquence de contrôle des dispositifs de sécurité et de traitement des pollutions et nuisances générées,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- les instructions de maintenance et de nettoyage."
                                 }
@@ -1750,7 +1617,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "4.8 - Consignes d'exploitation"
                             }
@@ -1772,7 +1638,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les détecteurs de gaz sont mis en place dans les parties de l'installation visées au point 4.3 présentant des risques en cas de dégagement et d'accumulation importante de gaz. Ces zones sont équipées de systèmes de détection dont les niveaux de sensibilité sont adaptés aux situations."
                                 }
@@ -1781,7 +1646,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "4.9 - Détection de gaz"
                             }
@@ -1789,7 +1653,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "4. Risques"
                     }
@@ -1828,19 +1691,16 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les installations de prélèvement d'eau dans le milieu naturel doivent être munies de dispositifs de mesure totalisateurs de la quantité d'eau prélevée. Ces dispositifs doivent être relevés toutes les semaines si le débit moyen prélevé est supérieur à 10 m³/j. Le résultat de ces mesures doit être enregistré et tenu à la disposition de l'inspecteur des installations classées."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le raccordement à une nappe d'eau ou au réseau public de distribution d'eau potable doit être muni d'un dispositif anti-retour."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'usage du réseau d'eau incendie est strictement réservé aux sinistres et aux exercices de secours, et aux opérations d'entretien ou de maintien hors gel de ce réseau."
                                 }
@@ -1849,7 +1709,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "5.1 - Prélèvements"
                             }
@@ -1871,7 +1730,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Toutes dispositions doivent être prises pour limiter la consommation d'eau."
                                 }
@@ -1880,7 +1738,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "5.2 - Consommation"
                             }
@@ -1902,13 +1759,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le réseau de collecte doit être de type séparatif permettant d'isoler les eaux résiduaires polluées des eaux pluviales non susceptibles d'être polluées."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les points de rejet des eaux résiduaires doivent être en nombre aussi réduit que possible et aménagés pour permettre un prélèvement aisé d'échantillons et l'installation d'un dispositif de mesure du débit."
                                 }
@@ -1917,7 +1772,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "5.3 - Réseau de collecte"
                             }
@@ -1939,7 +1793,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "non concerné"
                                 }
@@ -1948,7 +1801,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "5.4 (*)"
                             }
@@ -1970,7 +1822,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "non concerné"
                                 }
@@ -1979,7 +1830,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "5.5 (*)"
                             }
@@ -2001,7 +1851,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le rejet direct ou indirect, même après épuration, d'eaux résiduelles dans une nappe souterraine est interdit."
                                 }
@@ -2010,7 +1859,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "5.6 - Interdiction des rejets en nappe"
                             }
@@ -2032,7 +1880,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Des dispositions doivent être prises pour qu'il ne puisse pas y avoir en cas d'accident (rupture de récipient, cuvette, etc.), déversement de matières dangereuses dans les égouts publics ou le milieu naturel. Leur évacuation éventuelle après un accident doit se faire comme des déchets dans les conditions prévues au titre 7 ci-après."
                                 }
@@ -2041,7 +1888,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "5.7 - Prévention des pollutions accidentelles"
                             }
@@ -2063,7 +1909,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "non concerné"
                                 }
@@ -2072,7 +1917,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "5.8 (*)"
                             }
@@ -2094,7 +1938,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "non concerné"
                                 }
@@ -2103,7 +1946,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "5.9 (*)"
                             }
@@ -2111,7 +1953,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "5. Eau"
                     }
@@ -2150,13 +1991,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les installations susceptibles de dégager des gaz doivent être munies de dispositifs permettant de collecter et canaliser autant que possible les émissions. Ces dispositifs, après épuration des gaz collectés en tant que de besoin, sont munis d'orifices obturables et accessibles aux fins d'analyse."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le débouché des cheminées doit être éloigné au maximum des habitations et ne pas comporter d'obstacles à la diffusion des gaz (chapeaux chinois...)."
                                 }
@@ -2165,7 +2004,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "6.1 - Captage et épuration des rejets à l'atmosphère"
                             }
@@ -2204,19 +2042,16 @@
                                     "outer_alineas": [
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "Les soupapes, dispositifs de mise à l'atmosphère ou de purge devront être reliés sans possibilité d'obstruction accidentelle à une cheminée située à l'intérieur de la clôture."
                                         },
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "La cheminée devra être équipée d'un système d'extinction de flamme facilement manœuvrable (par exemple, un système d'injection d'azote ou équivalent)."
                                         },
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "De plus elle devra déboucher de manière telle qu'il n'y ait pas d'obstacles ou d'équipements (bâtiment, ligne électrique, etc.) en partie haute dans une zone délimitée par une demi-sphère de rayon 20 mètres et de centre le point situé à 3 mètres au-dessous de la sortie de la cheminée."
                                         }
@@ -2225,7 +2060,6 @@
                                     "sections": [],
                                     "title": {
                                         "active": true,
-                                        "links": [],
                                         "table": null,
                                         "text": "6.2.1 - Prescriptions spécifiques à l'hydrogène liquide"
                                     }
@@ -2247,7 +2081,6 @@
                                     "outer_alineas": [
                                         {
                                             "active": true,
-                                            "links": [],
                                             "table": null,
                                             "text": "Tout rejet de purge d'hydrogène devra se faire à l'air libre et, dans tous les cas, en un lieu et à une hauteur suffisante pour ne présenter aucun risque."
                                         }
@@ -2256,7 +2089,6 @@
                                     "sections": [],
                                     "title": {
                                         "active": true,
-                                        "links": [],
                                         "table": null,
                                         "text": "6.2.2 - Prescriptions spécifiques à l'hydrogène gazeux"
                                     }
@@ -2264,7 +2096,6 @@
                             ],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "6.2 - Valeurs limites et conditions de rejet"
                             }
@@ -2286,7 +2117,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "non concerné"
                                 }
@@ -2295,7 +2125,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "6.3 (*)"
                             }
@@ -2303,7 +2132,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "6. Air - odeurs"
                     }
@@ -2342,13 +2170,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Toutes dispositions doivent être prises pour limiter les quantités de déchets produits, notamment en effectuant toutes les opérations de valorisation possibles."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les déchets qui ne peuvent être valorisés sont éliminés dans les installations réglementées à cet effet au titre de la loi du 19 juillet 1976, dans des conditions permettant d'assurer la protection de l'environnement."
                                 }
@@ -2357,7 +2183,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "7.1 - Récupération - recyclage"
                             }
@@ -2379,7 +2204,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "non concerné"
                                 }
@@ -2388,7 +2212,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "7.2 (*)"
                             }
@@ -2410,7 +2233,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "non concerné"
                                 }
@@ -2419,7 +2241,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "7.3 (*)"
                             }
@@ -2441,7 +2262,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "non concerné"
                                 }
@@ -2450,7 +2270,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "7.4 (*)"
                             }
@@ -2472,7 +2291,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le brûlage des déchets à l'air libre est interdit."
                                 }
@@ -2481,7 +2299,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "7.5 - Brûlage"
                             }
@@ -2489,7 +2306,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "7. Déchets"
                     }
@@ -2528,61 +2344,51 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Au sens du présent arrêté, on appelle :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- émergence : la différence entre les niveaux de pression continus équivalents pondérés A du bruit ambiant (installation en fonctionnement) et du bruit résiduel (en l'absence du bruit généré par l'installation),"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- zones à émergence réglementée :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- l'intérieur des immeubles habités ou occupés par des tiers, existant à la date de la déclaration, et leurs parties extérieures les plus proches (cour, jardin, terrasse),"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- les zones constructibles définies par des documents d'urbanisme opposables aux tiers et publiés à la date de la déclaration,"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "- l'intérieur des immeubles habités ou occupés par des tiers qui ont été implantés après la date de la déclaration dans les zones constructibles définies ci-dessus, et leurs parties extérieures éventuelles les plus proches (cour, jardin, terrasse) à l'exclusion de celles des immeubles implantés dans les zones destinées à recevoir des activités artisanales ou industrielles."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Pour les installations existantes (déclarées avant le 1er juillet 1998) la date de la déclaration est remplacée, dans la définition ci-dessus des zones à émergence réglementée, par la date du présent arrêté."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'installation est construite, équipée et exploitée de façon telle que son fonctionnement ne puisse être à l'origine de bruits transmis par voie aérienne ou solidienne susceptibles de compromettre la santé ou la sécurité du voisinage ou de constituer une nuisance pour celui-ci."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les émissions sonores émises par l'installation ne doivent pas être à l'origine, dans les zones à émergence réglementée, d'une émergence supérieure aux valeurs admissibles précisées dans le tableau suivant :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": {
                                         "rows": [
                                             {
@@ -2699,19 +2505,16 @@
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "De plus, le niveau de bruit en limite de propriété de l'installation ne devra pas dépasser, lorsqu'elle est en fonctionnement, 70 dB (A) pour la période de jour et 60 dB (A) pour la période de nuit, sauf si le bruit résiduel pour la période considérée est supérieur à cette limite."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Dans le cas où le bruit particulier de l'établissement est à tonalité marquée au sens du point 1.9 de l'annexe de l'arrêté du 23 janvier 1997 relatif à la limitation des bruits émis dans l'environnement par les installations classées pour la protection de l'environnement, de manière établie ou cyclique, sa durée d'apparition ne peut excéder 30 % de la durée de fonctionnement de l'établissement dans chacune des périodes diurne ou nocturne définies dans le tableau ci-dessus."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Lorsque plusieurs installations classées, soumises à déclaration au titre de rubriques différentes, sont situées au sein d'un même établissement, le niveau de bruit global émis par ces installations devra respecter les valeurs limites ci-dessus."
                                 }
@@ -2720,7 +2523,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "8.1 - Valeurs limites de bruit"
                             }
@@ -2742,13 +2544,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les véhicules de transport, les matériels de manutention et les engins de chantier utilisés à l'intérieur de l'installation doivent être conformes aux dispositions en vigueur en matière de limitation de leurs émissions sonores. En particulier, les engins de chantier doivent être conformes à un type homologué."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'usage de tous appareils de communication par voie acoustique (sirènes, avertisseurs, haut parleurs, etc.), gênant pour le voisinage, est interdit, sauf si leur emploi est exceptionnel et réservé à la prévention et au signalement d'incidents graves ou d'accidents."
                                 }
@@ -2757,7 +2557,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "8.2 - Véhicules - engins de chantier"
                             }
@@ -2779,7 +2578,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "non concerné"
                                 }
@@ -2788,7 +2586,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "8.3 (*)"
                             }
@@ -2810,7 +2607,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les mesures sont effectuées selon la méthode définie en annexe de l'arrêté du 23 janvier 1997."
                                 }
@@ -2819,7 +2615,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "8.4 - Mesure de bruit"
                             }
@@ -2827,7 +2622,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "8. Bruit et vibrations"
                     }
@@ -2866,7 +2660,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "En fin d'exploitation, tous les produits dangereux ainsi que tous les déchets doivent être valorisés ou évacués vers des installations dûment autorisées."
                                 }
@@ -2875,7 +2668,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "9.1 - Elimination des produits dangereux en fin d'exploitation"
                             }
@@ -2897,13 +2689,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "non concerné"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "(*) Un modèle a été constitué pour la rédaction des arrêtés de prescriptions générales applicables aux installations soumises à déclaration. Certaines dispositions de ce modèle, qui ne se justifient pas pour les installations visées par le présent arrêté ont été supprimées. Néanmoins, la numérotation a été conservée pour permettre une homogénéité entre les arrêtés de prescriptions générales de toutes les rubriques de la nomenclature."
                                 }
@@ -2912,7 +2702,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "9.2 (*)"
                             }
@@ -2920,7 +2709,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "9. Remise en état en fin d'exploitation"
                     }
@@ -2928,423 +2716,31 @@
             ],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Annexe I"
             }
         }
     ],
-    "summary": {
-        "elements": [
-            {
-                "depth": 0,
-                "section_id": "FcaB1d9da441",
-                "section_title": "Article 1"
-            },
-            {
-                "depth": 0,
-                "section_id": "1AEE5CFeDaBe",
-                "section_title": "Article 2"
-            },
-            {
-                "depth": 0,
-                "section_id": "2Ea4867A3dc9",
-                "section_title": "Article 3"
-            },
-            {
-                "depth": 0,
-                "section_id": "C35dbB00c466",
-                "section_title": "Article 4"
-            },
-            {
-                "depth": 0,
-                "section_id": "a6d86FBdB5d9",
-                "section_title": "Annexe I"
-            },
-            {
-                "depth": 1,
-                "section_id": "988D577dd06B",
-                "section_title": "1. Dispositions générales"
-            },
-            {
-                "depth": 2,
-                "section_id": "aad49D9af20c",
-                "section_title": "1.1 - Conformité de l'installation à la déclaration"
-            },
-            {
-                "depth": 2,
-                "section_id": "2eC6328D792e",
-                "section_title": "1.2 - Modifications"
-            },
-            {
-                "depth": 2,
-                "section_id": "A0da1cBEfaCe",
-                "section_title": "1.3 - Justification du respect des prescriptions de l'arrêté"
-            },
-            {
-                "depth": 2,
-                "section_id": "A8BF502A5d9a",
-                "section_title": "1.4 - Dossier installation classée"
-            },
-            {
-                "depth": 2,
-                "section_id": "608ed0dbFB66",
-                "section_title": "1.5 - Déclaration d'accident ou de pollution accidentelle"
-            },
-            {
-                "depth": 2,
-                "section_id": "1E5974883C10",
-                "section_title": "1.6 - Changement d'exploitant"
-            },
-            {
-                "depth": 2,
-                "section_id": "C06bd9f7D668",
-                "section_title": "1.7 - Cessation d'activité"
-            },
-            {
-                "depth": 2,
-                "section_id": "EaDEfd5978E3",
-                "section_title": "1.8 (*)"
-            },
-            {
-                "depth": 1,
-                "section_id": "b1affBeaFdBa",
-                "section_title": "2. Implantation - aménagement"
-            },
-            {
-                "depth": 2,
-                "section_id": "40EE39F0dFB5",
-                "section_title": "2.1 - Règles d'implantation"
-            },
-            {
-                "depth": 3,
-                "section_id": "166DB99d65DE",
-                "section_title": "2.1.1 - Prescriptions spécifiques pour l'hydrogène liquide"
-            },
-            {
-                "depth": 3,
-                "section_id": "C25D5D0dC026",
-                "section_title": "2.1.2 - Prescriptions spécifiques pour l'hydrogène gazeux"
-            },
-            {
-                "depth": 2,
-                "section_id": "7bf3A7bcBBa4",
-                "section_title": "2.2 - Intégration dans le paysage"
-            },
-            {
-                "depth": 2,
-                "section_id": "Cd3f632aBBB8",
-                "section_title": "2.3 - Interdiction d'habitations au-dessus des installations"
-            },
-            {
-                "depth": 2,
-                "section_id": "f7bad83311df",
-                "section_title": "2.4 - Comportement au feu des bâtiments"
-            },
-            {
-                "depth": 2,
-                "section_id": "Add46dDDc7c0",
-                "section_title": "2.5 - Accessibilité"
-            },
-            {
-                "depth": 2,
-                "section_id": "C693Fb606EBD",
-                "section_title": "2.6 - Ventilation"
-            },
-            {
-                "depth": 2,
-                "section_id": "56E7eEd6ab71",
-                "section_title": "2.7 - Installations électriques"
-            },
-            {
-                "depth": 2,
-                "section_id": "EfC64eD5AFcf",
-                "section_title": "2.8 - Mise à la terre des équipements"
-            },
-            {
-                "depth": 2,
-                "section_id": "33A8902b3C8a",
-                "section_title": "2.9 - Rétention des aires et locaux de travail"
-            },
-            {
-                "depth": 3,
-                "section_id": "cb08Afebca4f",
-                "section_title": "2.9.1 - Prescriptions spécifiques pour l'hydrogène liquide"
-            },
-            {
-                "depth": 2,
-                "section_id": "c1B3a2FCDfaD",
-                "section_title": "2.10 (*)"
-            },
-            {
-                "depth": 2,
-                "section_id": "Ac5CA8CDb004",
-                "section_title": "2.11 - Epanchement d'hydrogène liquide"
-            },
-            {
-                "depth": 3,
-                "section_id": "DABcbdF4cfa9",
-                "section_title": "2.11.1 Prescriptions spécifiques pour l'hydrogène liquide"
-            },
-            {
-                "depth": 1,
-                "section_id": "3841AA003fe0",
-                "section_title": "3. Exploitation - entretien"
-            },
-            {
-                "depth": 2,
-                "section_id": "010f8CBCD29a",
-                "section_title": "3.1 - Surveillance de l'exploitation"
-            },
-            {
-                "depth": 2,
-                "section_id": "cDa73Ef9e758",
-                "section_title": "3.2 - Contrôle de l'accès"
-            },
-            {
-                "depth": 2,
-                "section_id": "f7e1d65a9C0c",
-                "section_title": "3.3 - Connaissance des produits - Etiquetage"
-            },
-            {
-                "depth": 2,
-                "section_id": "de96b974f8f9",
-                "section_title": "3.4 - Propreté"
-            },
-            {
-                "depth": 2,
-                "section_id": "7E7e235FeDd9",
-                "section_title": "3.5 - Registre entrée/sortie"
-            },
-            {
-                "depth": 2,
-                "section_id": "9c2B3cf4F63e",
-                "section_title": "3.6 - Vérification périodique des installations électriques"
-            },
-            {
-                "depth": 2,
-                "section_id": "5ED3cC55CE8b",
-                "section_title": "3.7 - Vérification des lignes annexes"
-            },
-            {
-                "depth": 1,
-                "section_id": "Ce5AD9eA77A7",
-                "section_title": "4. Risques"
-            },
-            {
-                "depth": 2,
-                "section_id": "0f07fcfFafB1",
-                "section_title": "4.1 - Protection individuelle"
-            },
-            {
-                "depth": 2,
-                "section_id": "b044d7530427",
-                "section_title": "4.2 - Moyens de lutte contre l'incendie"
-            },
-            {
-                "depth": 3,
-                "section_id": "d51B23B8fD2d",
-                "section_title": "4.2.1 - Prescriptions spécifiques à l'hydrogène liquide"
-            },
-            {
-                "depth": 3,
-                "section_id": "E2B1CA5D0ad4",
-                "section_title": "4.2.2 - Prescriptions spécifiques à l'hydrogène gazeux"
-            },
-            {
-                "depth": 2,
-                "section_id": "1b311C6734FB",
-                "section_title": "4.3 - Localisation des risques"
-            },
-            {
-                "depth": 2,
-                "section_id": "E1c52DfaEbF0",
-                "section_title": "4.4 - Matériel électrique de sécurité"
-            },
-            {
-                "depth": 2,
-                "section_id": "C2dbf9F31be8",
-                "section_title": "4.5 - Interdiction des feux"
-            },
-            {
-                "depth": 2,
-                "section_id": "bA36DbcdfFA9",
-                "section_title": "4.6 - \"Permis de travail\" et/ou \"permis de feu\" dans les [...]"
-            },
-            {
-                "depth": 2,
-                "section_id": "D6e7792f5ecf",
-                "section_title": "4.7- Consignes de sécurité"
-            },
-            {
-                "depth": 2,
-                "section_id": "2FF812f1de73",
-                "section_title": "4.8 - Consignes d'exploitation"
-            },
-            {
-                "depth": 2,
-                "section_id": "A4A0a484c249",
-                "section_title": "4.9 - Détection de gaz"
-            },
-            {
-                "depth": 1,
-                "section_id": "39Ec02CeaA5c",
-                "section_title": "5. Eau"
-            },
-            {
-                "depth": 2,
-                "section_id": "306AC95db5BF",
-                "section_title": "5.1 - Prélèvements"
-            },
-            {
-                "depth": 2,
-                "section_id": "BAd9c6c32aaa",
-                "section_title": "5.2 - Consommation"
-            },
-            {
-                "depth": 2,
-                "section_id": "c36DeA4F9eD4",
-                "section_title": "5.3 - Réseau de collecte"
-            },
-            {
-                "depth": 2,
-                "section_id": "C55fA6BB19D6",
-                "section_title": "5.4 (*)"
-            },
-            {
-                "depth": 2,
-                "section_id": "e4eD01F125Db",
-                "section_title": "5.5 (*)"
-            },
-            {
-                "depth": 2,
-                "section_id": "9e0C374d534d",
-                "section_title": "5.6 - Interdiction des rejets en nappe"
-            },
-            {
-                "depth": 2,
-                "section_id": "CdEF7f63dE2A",
-                "section_title": "5.7 - Prévention des pollutions accidentelles"
-            },
-            {
-                "depth": 2,
-                "section_id": "3b94243f78Fb",
-                "section_title": "5.8 (*)"
-            },
-            {
-                "depth": 2,
-                "section_id": "2B9e99b2ceD9",
-                "section_title": "5.9 (*)"
-            },
-            {
-                "depth": 1,
-                "section_id": "cd86fA3EaAfb",
-                "section_title": "6. Air - odeurs"
-            },
-            {
-                "depth": 2,
-                "section_id": "578BfEA66155",
-                "section_title": "6.1 - Captage et épuration des rejets à l'atmosphère"
-            },
-            {
-                "depth": 2,
-                "section_id": "eBfa95018DaE",
-                "section_title": "6.2 - Valeurs limites et conditions de rejet"
-            },
-            {
-                "depth": 3,
-                "section_id": "CC7D06FB89e0",
-                "section_title": "6.2.1 - Prescriptions spécifiques à l'hydrogène liquide"
-            },
-            {
-                "depth": 3,
-                "section_id": "F32eFfD8AbA1",
-                "section_title": "6.2.2 - Prescriptions spécifiques à l'hydrogène gazeux"
-            },
-            {
-                "depth": 2,
-                "section_id": "F957ff29C142",
-                "section_title": "6.3 (*)"
-            },
-            {
-                "depth": 1,
-                "section_id": "cB9dC0Bcf95b",
-                "section_title": "7. Déchets"
-            },
-            {
-                "depth": 2,
-                "section_id": "fbedd3a9711c",
-                "section_title": "7.1 - Récupération - recyclage"
-            },
-            {
-                "depth": 2,
-                "section_id": "5565F67d1747",
-                "section_title": "7.2 (*)"
-            },
-            {
-                "depth": 2,
-                "section_id": "7D7B5b85fD99",
-                "section_title": "7.3 (*)"
-            },
-            {
-                "depth": 2,
-                "section_id": "13BC7D323Ee2",
-                "section_title": "7.4 (*)"
-            },
-            {
-                "depth": 2,
-                "section_id": "0e7A43c81e3b",
-                "section_title": "7.5 - Brûlage"
-            },
-            {
-                "depth": 1,
-                "section_id": "5153DE7a1dD4",
-                "section_title": "8. Bruit et vibrations"
-            },
-            {
-                "depth": 2,
-                "section_id": "98c28c774Ed1",
-                "section_title": "8.1 - Valeurs limites de bruit"
-            },
-            {
-                "depth": 2,
-                "section_id": "A1bb63fCBa32",
-                "section_title": "8.2 - Véhicules - engins de chantier"
-            },
-            {
-                "depth": 2,
-                "section_id": "bCa19576aaB6",
-                "section_title": "8.3 (*)"
-            },
-            {
-                "depth": 2,
-                "section_id": "7CddfEFe54Ee",
-                "section_title": "8.4 - Mesure de bruit"
-            },
-            {
-                "depth": 1,
-                "section_id": "b2c8C7AffddF",
-                "section_title": "9. Remise en état en fin d'exploitation"
-            },
-            {
-                "depth": 2,
-                "section_id": "Fa25AC0dAbaD",
-                "section_title": "9.1 - Elimination des produits dangereux en fin d'exploitation"
-            },
-            {
-                "depth": 2,
-                "section_id": "a70bb5c4e1B0",
-                "section_title": "9.2 (*)"
-            }
-        ]
-    },
     "title": {
         "active": true,
-        "links": [],
         "table": null,
         "text": "Arrêté du 12/02/98 relatif aux prescriptions générales applicables aux installations classées pour la protection de l'environnement soumises à déclaration sous la rubrique n° 4715"
     },
-    "unique_version": true,
-    "visa": [],
-    "warning_inactive": null
+    "version_descriptor": {
+        "aed_date": {
+            "is_used": true,
+            "known_value": false,
+            "left_value": null,
+            "right_value": null
+        },
+        "applicability_warnings": [],
+        "applicable": true,
+        "installation_date": {
+            "is_used": false,
+            "known_value": null,
+            "left_value": null,
+            "right_value": null
+        }
+    },
+    "visa": []
 }
