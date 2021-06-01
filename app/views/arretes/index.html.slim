@@ -38,7 +38,7 @@
         - classement_infos = classement_infos(arrete, @installation)
         section id="anchor_am_#{arrete.id}" class='anchor'
           .row
-            .col-2
+            .col-3
               dl.summary
                 .display-summary id="anchor_#{arrete.id}_summary" class='anchor'
                   - arrete.summary['elements'].each do |summary_item|
@@ -46,7 +46,7 @@
                       a class="level_#{summary_item['depth']}" href="#anchor_#{summary_item['section_id']}"
                         = summary_item['section_title']
 
-            .col-7
+            .col-9
               h2.display.h1
                 = arrete.short_title
                 span.text-secondary
@@ -149,7 +149,9 @@
             .col-3
               h5 = ap.title
 
-              = simple_form_for [@installation, @prescription], remote: true do |f|
+              = simple_form_for @prescription,
+                url: installation_create_from_ap_path(@installation, @prescription),
+                remote: true do |f|
                 .row
                   .col-12
                     = f.input :reference, placeholder: 'ex: Art. 2'
@@ -162,18 +164,34 @@
 
                   = f.hidden_field :text_reference, value: ap.short_title
 
-                = f.button :submit, 'ajouter une prescription', class: 'btn btn-primary'
-            .col-6
+                = f.button :submit, 'Ajouter une prescription', class: 'btn btn-primary'
+            .col-9
               - url_ovh = 'https://storage.sbg.cloud.ovh.net/v1/AUTH_3287ea227a904f04ad4e8bceb0776108/ap/'
-              object data="#{url_ovh}#{ap.georisques_id}.pdf" type="image/svg+xml" class="pdf_viewer"
+              object data="#{url_ovh}#{ap.georisques_id}.pdf" type="application/pdf" class="pdf_viewer"
         .splitter
 
-  .col-3.offset-9
-    .sidebar
-      .sidebar-content
-        h4.mb-4 Prescriptions à exporter
-        div#prescriptions_recap
-          = render partial: './prescriptions/prescription'
-
-= link_to generate_doc_path, method: :post, class: 'btn btn-primary circle-fixed-button' do
+= link_to installation_prescriptions_path(@installation), class: 'btn btn-primary circle-fixed-button', remote: true do
   i.fas.fa-file-download.fa-fw
+  span.counter.badge.badge-pill.badge-light.position-absolute = @user.prescriptions_for(@installation).count
+
+#modalPrescriptions.modal
+  .modal-bg.modal-exit
+  .modal-container
+    .border-bottom.pb-3
+      h4 Fiche d'inspection
+      = link_to 'Tout supprimer', installation_destroy_all_path(@installation),
+        remote: true, method: :delete,
+        class: 'text-danger small',
+        onclick: "document.querySelectorAll('input[type=checkbox]').forEach((checkbox)=>{checkbox.checked = false;});"
+      button.modal-close.modal-exit
+        | X
+
+    .modal-content
+      #prescriptions_recap
+
+        = render partial: './prescriptions/prescription'
+    .border-top.pt-3
+      = link_to 'Télécharger la fiche', generate_doc_path, method: :post, class: 'btn btn-primary', id: 'js_download_fiche'
+
+      button.modal-exit.btn.btn-link
+        | Fermer
