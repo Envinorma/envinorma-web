@@ -41,7 +41,7 @@ class Arrete < ApplicationRecord
   end
 
   def regime_rank_score
-    raise "Expecting at least one classement" if classements_with_alineas.length.zero?
+    raise 'Expecting at least one classement' if classements_with_alineas.length.zero?
 
     unique_regime = classements_with_alineas[0].regime
     case unique_regime
