@@ -75,10 +75,14 @@ module FilterArretes
   end
 
   def date_in_range(candidate, left_date, right_date)
-    left_value = left_date&.to_timestamp || -Float::INFINITY
-    right_value = right_date&.to_timestamp || Float::INFINITY
-    candidate_value = candidate.to_timestamp
+    left_value = timestamp(left_date) || -Float::INFINITY
+    right_value = timestamp(right_date) || Float::INFINITY
+    candidate_value = timestamp(candidate)
     left_value <= candidate_value && candidate_value <= right_value
+  end
+
+  def timestamp(date)
+    date&.to_datetime&.to_i
   end
 
   def sort_arretes(arretes)
