@@ -55,13 +55,13 @@ module FilterArretes
 
   def match(version_descriptor, classement)
     match_autorisation = date_match(version_descriptor['aed_date'], classement.date_autorisation)
-    match_mise_en_service = date_match(version_descriptor['installation_date'], classement.date_mise_en_service)
+    match_mise_en_service = date_match(version_descriptor['date_de_mise_en_service'], classement.date_mise_en_service)
     match_autorisation && match_mise_en_service
   end
 
   def date_match(date_descriptor, classement_date)
     # if the date is not used for parametrization its a match
-    return true if date_descriptor['is_not_used_in_parametrization']
+    return true if !date_descriptor['is_used_in_parametrization'] # rubocop:disable Style/NegatedIf
 
     # if date is used for parametrization we check if classement_date is present
     # if not we want a match with the AM version where "unknown_classement_date_version" is true

@@ -93,7 +93,7 @@ class Arrete < ApplicationRecord
 
     def new_arrete(arrete_json)
       autorisation_date_known = arrete_json.dig('version_descriptor', 'aed_date', 'known_value')
-      installation_date_known = arrete_json.dig('version_descriptor', 'installation_date', 'known_value')
+      date_de_mise_en_service_known = arrete_json.dig('version_descriptor', 'date_de_mise_en_service', 'known_value')
       arrete = Arrete.new(
         data: arrete_json,
         cid: arrete_json['id'],
@@ -102,7 +102,7 @@ class Arrete < ApplicationRecord
         classements_with_alineas: arrete_json['classements_with_alineas'],
         aida_url: arrete_json['aida_url'],
         legifrance_url: arrete_json['legifrance_url'],
-        default_version: autorisation_date_known != true && installation_date_known != true,
+        default_version: autorisation_date_known != true && date_de_mise_en_service_known != true,
         version_descriptor: arrete_json['version_descriptor']
       )
       raise "error validations #{arrete.cid} #{arrete.errors.full_messages}" unless arrete.validate
