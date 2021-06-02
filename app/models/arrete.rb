@@ -32,6 +32,30 @@ class Arrete < ApplicationRecord
     "AM - #{date_of_signature.strftime('%d/%m/%y')}"
   end
 
+  def rank_score
+    [applicable_rank_score, regime_rank_score]
+  end
+
+  def applicable_rank_score
+    version_descriptor.applicable ? 0 : 1
+  end
+
+  def regime_rank_score
+    raise "Expecting at least one classement" if classements_with_alineas.length.zero?
+
+    unique_regime = classements_with_alineas[0].regime
+    case unique_regime
+    when 'A'
+      0
+    when 'E'
+      1
+    when 'D'
+      2
+    else
+      3
+    end
+  end
+
   class << self
     def validate_then_recreate(arretes_files)
       puts 'Seeding arretes...'
