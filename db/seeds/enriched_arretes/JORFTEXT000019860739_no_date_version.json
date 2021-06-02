@@ -18,7 +18,6 @@
     "date_of_signature": "2008-09-29",
     "id": "JORFTEXT000019860739",
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000019860739",
-    "publication_date": "2008-09-29",
     "sections": [
         {
             "annotations": {
@@ -1707,20 +1706,20 @@
     },
     "version_descriptor": {
         "aed_date": {
-            "is_used": true,
-            "known_value": false,
+            "is_used_in_parametrization": true,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": true
         },
         "applicability_warnings": [
             "Ne s'applique que si le stockage est constitué d'un ou plusieurs îlots de stockage de papier, carton ou pâte à papier de concentration en fibre supérieure à 70 % dans lequel chacun des îlots est séparé de moins de 30 mètres d'un autre îlot.\n\n"
         ],
         "applicable": true,
-        "installation_date": {
-            "is_used": false,
-            "known_value": null,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": false,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": null
         }
     },
     "visa": []

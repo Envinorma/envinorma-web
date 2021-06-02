@@ -27,7 +27,6 @@
     "date_of_signature": "2018-08-03",
     "id": "JORFTEXT000037284611",
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037284611",
-    "publication_date": "2018-08-03",
     "sections": [
         {
             "annotations": {
@@ -27076,20 +27075,20 @@
     },
     "version_descriptor": {
         "aed_date": {
-            "is_used": false,
-            "known_value": null,
+            "is_used_in_parametrization": false,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": null
         },
         "applicability_warnings": [
             "Cet arrêté pourrait ne pas être applicable. C'est le cas pour les installations dont la quantité associée à la rubrique est inférieure à 1.0."
         ],
         "applicable": true,
-        "installation_date": {
-            "is_used": true,
-            "known_value": true,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": true,
             "left_value": "2018-12-20",
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": false
         }
     },
     "visa": [

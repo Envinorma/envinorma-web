@@ -18,7 +18,6 @@
     "date_of_signature": "2018-10-22",
     "id": "JORFTEXT000037519292",
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037519292",
-    "publication_date": "2018-10-22",
     "sections": [
         {
             "annotations": {
@@ -4813,18 +4812,18 @@
     },
     "version_descriptor": {
         "aed_date": {
-            "is_used": false,
-            "known_value": null,
+            "is_used_in_parametrization": false,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": null
         },
         "applicability_warnings": [],
         "applicable": true,
-        "installation_date": {
-            "is_used": true,
-            "known_value": true,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": true,
             "left_value": "2019-01-01",
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": false
         }
     },
     "visa": [

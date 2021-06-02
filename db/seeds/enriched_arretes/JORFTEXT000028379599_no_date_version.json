@@ -18,7 +18,6 @@
     "date_of_signature": "2013-12-10",
     "id": "JORFTEXT000028379599",
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000028379599",
-    "publication_date": "2013-12-10",
     "sections": [
         {
             "annotations": {
@@ -4813,20 +4812,20 @@
     },
     "version_descriptor": {
         "aed_date": {
-            "is_used": false,
-            "known_value": null,
+            "is_used_in_parametrization": false,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": null
         },
         "applicability_warnings": [
             "Cet arrêté pourrait ne pas être applicable. C'est le cas pour les installations dont la date de mise en service est antérieure au 10/12/2013."
         ],
         "applicable": true,
-        "installation_date": {
-            "is_used": true,
-            "known_value": false,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": true,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": true
         }
     },
     "visa": [

@@ -27,7 +27,6 @@
     "date_of_signature": "2016-02-15",
     "id": "JORFTEXT000032282438",
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000032282438",
-    "publication_date": "2016-02-15",
     "sections": [
         {
             "annotations": {
@@ -5859,18 +5858,18 @@
     },
     "version_descriptor": {
         "aed_date": {
-            "is_used": false,
-            "known_value": null,
+            "is_used_in_parametrization": false,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": null
         },
         "applicability_warnings": [],
         "applicable": true,
-        "installation_date": {
-            "is_used": true,
-            "known_value": true,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": true,
             "left_value": null,
-            "right_value": "2016-07-01"
+            "right_value": "2016-07-01",
+            "unknown_classement_date_version": false
         }
     },
     "visa": [

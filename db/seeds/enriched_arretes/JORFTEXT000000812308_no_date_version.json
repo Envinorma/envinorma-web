@@ -18,7 +18,6 @@
     "date_of_signature": "2005-06-17",
     "id": "JORFTEXT000000812308",
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000812308",
-    "publication_date": "2005-06-17",
     "sections": [
         {
             "annotations": null,
@@ -4949,18 +4948,18 @@
     },
     "version_descriptor": {
         "aed_date": {
-            "is_used": true,
-            "known_value": false,
+            "is_used_in_parametrization": true,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": true
         },
         "applicability_warnings": [],
         "applicable": true,
-        "installation_date": {
-            "is_used": false,
-            "known_value": null,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": false,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": null
         }
     },
     "visa": []

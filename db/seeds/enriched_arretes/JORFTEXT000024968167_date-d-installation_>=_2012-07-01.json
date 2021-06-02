@@ -18,7 +18,6 @@
     "date_of_signature": "2011-11-26",
     "id": "JORFTEXT000024968167",
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000024968167",
-    "publication_date": "2011-11-26",
     "sections": [
         {
             "annotations": null,
@@ -3083,18 +3082,18 @@
     },
     "version_descriptor": {
         "aed_date": {
-            "is_used": true,
-            "known_value": false,
+            "is_used_in_parametrization": true,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": true
         },
         "applicability_warnings": [],
         "applicable": true,
-        "installation_date": {
-            "is_used": true,
-            "known_value": true,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": true,
             "left_value": "2012-07-01",
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": false
         }
     },
     "visa": []

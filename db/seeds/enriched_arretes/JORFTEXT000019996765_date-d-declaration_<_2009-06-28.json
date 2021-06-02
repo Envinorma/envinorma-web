@@ -161,7 +161,6 @@
     "date_of_signature": "2008-12-22",
     "id": "JORFTEXT000019996765",
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000019996765",
-    "publication_date": "2008-12-22",
     "sections": [
         {
             "annotations": null,
@@ -3655,18 +3654,18 @@
     },
     "version_descriptor": {
         "aed_date": {
-            "is_used": true,
-            "known_value": true,
+            "is_used_in_parametrization": true,
             "left_value": null,
-            "right_value": "2009-06-28"
+            "right_value": "2009-06-28",
+            "unknown_classement_date_version": false
         },
         "applicability_warnings": [],
         "applicable": true,
-        "installation_date": {
-            "is_used": false,
-            "known_value": null,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": false,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": null
         }
     },
     "visa": [

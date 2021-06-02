@@ -29,7 +29,6 @@
     "date_of_signature": "1997-07-23",
     "id": "JORFTEXT000000568479",
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000568479",
-    "publication_date": "1997-07-23",
     "sections": [
         {
             "annotations": null,
@@ -2585,18 +2584,18 @@
     },
     "version_descriptor": {
         "aed_date": {
-            "is_used": true,
-            "known_value": true,
+            "is_used_in_parametrization": true,
             "left_value": null,
-            "right_value": "2021-01-01"
+            "right_value": "2021-01-01",
+            "unknown_classement_date_version": false
         },
         "applicability_warnings": [],
         "applicable": true,
-        "installation_date": {
-            "is_used": true,
-            "known_value": true,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": true,
             "left_value": null,
-            "right_value": "2021-01-01"
+            "right_value": "2021-01-01",
+            "unknown_classement_date_version": false
         }
     },
     "visa": []

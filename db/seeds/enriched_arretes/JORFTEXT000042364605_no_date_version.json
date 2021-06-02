@@ -161,7 +161,6 @@
     "date_of_signature": "2020-09-24",
     "id": "JORFTEXT000042364605",
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042364605",
-    "publication_date": "2020-09-24",
     "sections": [
         {
             "annotations": {
@@ -10258,18 +10257,18 @@
     },
     "version_descriptor": {
         "aed_date": {
-            "is_used": false,
-            "known_value": null,
+            "is_used_in_parametrization": false,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": null
         },
         "applicability_warnings": [],
         "applicable": true,
-        "installation_date": {
-            "is_used": false,
-            "known_value": null,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": false,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": null
         }
     },
     "visa": [

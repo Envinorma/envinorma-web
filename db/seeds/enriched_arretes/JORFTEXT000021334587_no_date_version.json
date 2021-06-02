@@ -20,7 +20,6 @@
     "date_of_signature": "2009-11-10",
     "id": "JORFTEXT000021334587",
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000021334587",
-    "publication_date": "2009-11-10",
     "sections": [
         {
             "annotations": {
@@ -3918,18 +3917,18 @@
     },
     "version_descriptor": {
         "aed_date": {
-            "is_used": true,
-            "known_value": false,
+            "is_used_in_parametrization": true,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": true
         },
         "applicability_warnings": [],
         "applicable": true,
-        "installation_date": {
-            "is_used": false,
-            "known_value": null,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": false,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": null
         }
     },
     "visa": []

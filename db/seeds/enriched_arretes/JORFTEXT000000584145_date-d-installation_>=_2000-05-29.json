@@ -18,7 +18,6 @@
     "date_of_signature": "2000-05-29",
     "id": "JORFTEXT000000584145",
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000584145",
-    "publication_date": "2000-05-29",
     "sections": [
         {
             "annotations": null,
@@ -2755,20 +2754,20 @@
     },
     "version_descriptor": {
         "aed_date": {
-            "is_used": false,
-            "known_value": null,
+            "is_used_in_parametrization": false,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": null
         },
         "applicability_warnings": [
             "Cet arrêté pourrait ne pas être applicable. C'est le cas pour les installations dont l'alinéa de classement est l'alinéa 2."
         ],
         "applicable": true,
-        "installation_date": {
-            "is_used": true,
-            "known_value": true,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": true,
             "left_value": "2000-05-29",
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": false
         }
     },
     "visa": []

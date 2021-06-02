@@ -29,7 +29,6 @@
     "date_of_signature": "2020-09-10",
     "id": "JORFTEXT000042344843",
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042344843",
-    "publication_date": "2020-09-10",
     "sections": [
         {
             "annotations": {
@@ -18251,20 +18250,20 @@
     },
     "version_descriptor": {
         "aed_date": {
-            "is_used": false,
-            "known_value": null,
+            "is_used_in_parametrization": false,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": null
         },
         "applicability_warnings": [
             "Cet arrêté pourrait ne pas être applicable. C'est le cas pour les installations dont la rubrique est 3610 et l'alinéa de classement est l'alinéa c."
         ],
         "applicable": true,
-        "installation_date": {
-            "is_used": true,
-            "known_value": true,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": true,
             "left_value": null,
-            "right_value": "2021-01-01"
+            "right_value": "2021-01-01",
+            "unknown_classement_date_version": false
         }
     },
     "visa": [

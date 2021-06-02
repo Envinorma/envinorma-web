@@ -29,7 +29,6 @@
     "date_of_signature": "2015-06-01",
     "id": "JORFTEXT000030673177",
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000030673177",
-    "publication_date": "2015-06-01",
     "sections": [
         {
             "annotations": {
@@ -8996,8 +8995,8 @@
                 "modified": false,
                 "previous_version": null,
                 "warnings": [
-                    "Pour les installations soumises aux disposition techniques de l'arrêté du 3 octobre 2010, l'exploitant peut opter pour le respect des dispositions des articles 14, 44 à 52, 58 et 59 de l'arrêté du 1er juin 2015 en lieu et place des dispositions des articles 43 à 50 de l'arrêté du 3 octobre 2010.",
-                    "Ce paragraphe ne s’applique pas à cette installation car la date d'enregistrement est antérieure au 01/06/2015."
+                    "Ce paragraphe ne s’applique pas à cette installation car la date d'enregistrement est antérieure au 01/06/2015.",
+                    "Pour les installations soumises aux disposition techniques de l'arrêté du 3 octobre 2010, l'exploitant peut opter pour le respect des dispositions des articles 14, 44 à 52, 58 et 59 de l'arrêté du 1er juin 2015 en lieu et place des dispositions des articles 43 à 50 de l'arrêté du 3 octobre 2010."
                 ]
             },
             "id": "EE4dfaCB97ec",
@@ -15608,18 +15607,18 @@
     },
     "version_descriptor": {
         "aed_date": {
-            "is_used": true,
-            "known_value": true,
+            "is_used_in_parametrization": true,
             "left_value": null,
-            "right_value": "2015-06-01"
+            "right_value": "2015-06-01",
+            "unknown_classement_date_version": false
         },
         "applicability_warnings": [],
         "applicable": true,
-        "installation_date": {
-            "is_used": false,
-            "known_value": null,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": false,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": null
         }
     },
     "visa": [

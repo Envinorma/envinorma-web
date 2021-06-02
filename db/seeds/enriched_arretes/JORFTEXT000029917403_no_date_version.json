@@ -18,7 +18,6 @@
     "date_of_signature": "2014-12-03",
     "id": "JORFTEXT000029917403",
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029917403",
-    "publication_date": "2014-12-03",
     "sections": [
         {
             "annotations": {
@@ -2665,20 +2664,20 @@
     },
     "version_descriptor": {
         "aed_date": {
-            "is_used": true,
-            "known_value": false,
+            "is_used_in_parametrization": true,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": true
         },
         "applicability_warnings": [
             "Cet arrêté pourrait ne pas être applicable. C'est le cas pour les installations dont la date de déclaration est antérieure au 01/01/2015."
         ],
         "applicable": true,
-        "installation_date": {
-            "is_used": false,
-            "known_value": null,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": false,
             "left_value": null,
-            "right_value": null
+            "right_value": null,
+            "unknown_classement_date_version": null
         }
     },
     "visa": []
