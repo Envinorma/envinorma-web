@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class Arrete < ApplicationRecord
+  include ApplicationHelper
+
   validates :data, :title, :cid, :aida_url, :legifrance_url, :date_of_signature, :version_descriptor, presence: true
   validates :title, length: { minimum: 10 }
 
@@ -41,16 +43,7 @@ class Arrete < ApplicationRecord
     raise 'Expecting at least one classement' if classements_with_alineas.length.zero?
 
     unique_regime = classements_with_alineas[0].regime
-    case unique_regime
-    when 'A'
-      0
-    when 'E'
-      1
-    when 'D'
-      2
-    else
-      3
-    end
+    REGIMES[unique_regime]
   end
 
   class << self

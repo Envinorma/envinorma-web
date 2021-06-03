@@ -93,13 +93,10 @@
                   small.text-secondary
                     = " - #{classement_infos(arrete, @installation)}"
 
-
             - if arrete.version_descriptor.applicability_warnings.present?
               - warnings = arrete.version_descriptor.applicability_warnings.join(' - ')
               li data-tooltip=warnings
                 i.fas.fa-exclamation-triangle
-
-
 
     .col
       h2.mt-5 Arrêtés préfectoraux associés

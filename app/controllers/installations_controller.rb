@@ -1,16 +1,8 @@
 # frozen_string_literal: true
 
 class InstallationsController < ApplicationController
-  REGIMES = {
-    A: 0,
-    E: 1,
-    D: 2,
-    NC: 3,
-    unknown: 4,
-    empty: 5
-  }.freeze
-
   include FilterArretes
+  include ApplicationHelper
   before_action :set_installation, except: %i[index search]
   before_action :force_json, only: :search
   before_action :check_if_authorized_user, only: %i[show edit update]
