@@ -11,8 +11,11 @@ window.addEventListener('DOMContentLoaded', () => {
     let lastId;
     let cur = [];
 
+    if (mainSummary.length !== 0) {
+      mainSummary[0].classList.add("current");
+    }
+
     mainNavLinks[0].classList.add("current");
-    mainSummary[0].classList.add("current");
 
     // This should probably be throttled.
     // Especially because it triggers during smooth scrolling.

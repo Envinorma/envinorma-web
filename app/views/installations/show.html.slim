@@ -82,28 +82,42 @@
       - else
         - @arretes.each do |arrete|
           .form-group.row
-            .form-check
-              = check_box_tag "arrete_#{arrete.id}",
-                '1', arrete.version_descriptor.applicable,
-                class: 'form-check-input arrete-checkbox',
-                'data-arrete-id': arrete.id
-              = label_tag "arrete_#{arrete.id}", class: arrete.version_descriptor.applicable ? 'active' : 'inactive'
-                = arrete.short_title
-                span.text-secondary
-                  = " - #{classement_infos(arrete, @installation)}"
-                br
-                span.text-secondary.fs-6
-                  - arrete.version_descriptor.applicability_warnings.each do |warning|
-                    = warning
+            .col
+              .form-check.checkbox-custom
+                = check_box_tag "arrete_#{arrete.id}",
+                  '1', arrete.version_descriptor.applicable,
+                  class: 'form-check-input js_arrete_checkbox',
+                  'data-arrete-id': arrete.id
+                = label_tag "arrete_#{arrete.id}", class: arrete.version_descriptor.applicable ? 'active' : 'inactive'
+                  = arrete.short_title
+                  small.text-secondary
+                    = " - #{classement_infos(arrete, @installation)}"
+
+
+            - if arrete.version_descriptor.applicability_warnings.present?
+              - warnings = arrete.version_descriptor.applicability_warnings.join(' - ')
+              li data-tooltip=warnings
+                i.fas.fa-exclamation-triangle
+
+
 
     .col
       h2.mt-5 Arrêtés préfectoraux associés
       - if @aps.empty?
         p.text-secondary Il n’y a pas d’arrêté préfectoral disponible pour cette installation.
       - else
-        ul.list-unstyled
-          - @aps.each do |ap|
-            li = ap.title
+        - @aps.each do |ap|
+          .form-group.row
+            .col
+              .form-check.checkbox-custom
+                = check_box_tag "ap_#{ap.id}",
+                  '1', true, disabled: true,
+                  class: 'form-check-input'
+                = label_tag "ap_#{ap.id}"
+                  = ap.short_title
+
+                  small.text-secondary
+                    = " - #{ap.description}"
 
   hr.mb-5.mt-5
   - if @arretes.any? || @aps.any?

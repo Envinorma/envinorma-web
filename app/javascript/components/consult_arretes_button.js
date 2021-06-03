@@ -2,7 +2,7 @@ const _ = require("underscore");
 
 const checkedArretedIds = () => {
   const checked = _.filter(
-    $(".arrete-checkbox"),
+    $(".js_arrete_checkbox"),
     (checkbox) => checkbox.checked
   );
   return _.map(checked, (checkbox) => {
@@ -26,9 +26,8 @@ window.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  const checkboxes = document.querySelectorAll(".arrete-checkbox");
+  const checkboxes = document.querySelectorAll(".js_arrete_checkbox");
   checkboxes.forEach((checkbox) => {
-    console.log(checkbox);
     checkbox.addEventListener("change", () =>
       changeArretesLinkButtonHref(button)
     );
