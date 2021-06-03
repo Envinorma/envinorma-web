@@ -32,10 +32,8 @@ class DataManager
           legifrance_url: am['legifrance_url'],
           version_descriptor: am['version_descriptor']
         )
-
-        arrete.arretes_unique_classements.delete_all
       else
-        arrete = Arrete.create!(
+        Arrete.create!(
           data: am,
           cid: am['id'],
           date_of_signature: am['date_of_signature'].to_date,
@@ -44,13 +42,6 @@ class DataManager
           legifrance_url: am['legifrance_url'],
           version_descriptor: am['version_descriptor']
         )
-      end
-
-      arrete.classements_with_alineas.each do |arrete_classement|
-        classements = UniqueClassement.where(rubrique: arrete_classement.rubrique, regime: arrete_classement.regime)
-        classements.each do |classement|
-          ArretesUniqueClassement.create(arrete_id: arrete.id, unique_classement_id: classement.id)
-        end
       end
 
       ids << am['id']

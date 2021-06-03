@@ -6,4 +6,4 @@ require("./select_all_checkbox");
 require("./slider");
 require("./add_prescriptions");
 require("./prescription_textarea.js");
-require("./consult_arretes_button.js");
+require("./create_url_from_checked_arretes.js");

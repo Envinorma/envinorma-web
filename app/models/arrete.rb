@@ -1,9 +1,6 @@
 # frozen_string_literal: true
 
 class Arrete < ApplicationRecord
-  has_many :arretes_unique_classements, dependent: :delete_all
-  has_many :unique_classements, through: :arretes_unique_classements
-
   validates :data, :title, :cid, :aida_url, :legifrance_url, :date_of_signature, :version_descriptor, presence: true
   validates :title, length: { minimum: 10 }
 
@@ -78,16 +75,7 @@ class Arrete < ApplicationRecord
       ActiveRecord::Base.connection.reset_pk_sequence!(Arrete.table_name)
 
       puts '...creating'
-      arretes.each do |arrete|
-        arrete.save
-
-        arrete.classements_with_alineas.each do |arrete_classement|
-          classements = UniqueClassement.where(rubrique: arrete_classement.rubrique, regime: arrete_classement.regime)
-          classements.each do |classement|
-            ArretesUniqueClassement.create(arrete_id: arrete.id, unique_classement_id: classement.id)
-          end
-        end
-      end
+      arretes.each(&:save)
       puts "...done. Inserted #{Arrete.count}/#{arretes.length} arretes."
     end
 
