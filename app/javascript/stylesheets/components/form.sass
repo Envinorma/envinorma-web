@@ -1,4 +1,4 @@
-.checkbox-arrete
+.checkbox-custom
   display: flex
   align-items: center
 
@@ -15,9 +15,15 @@
   input[type="checkbox"]
     cursor: pointer
 
+  input[type="checkbox"]:disabled,
+  input[type="checkbox"]:disabled + label
+    cursor: inherit
+
 .form-check-label:after
   background-color:red
 
+.form-check-label:disabled
+  cursor: inherit
 
 .table td
   vertical-align: inherit

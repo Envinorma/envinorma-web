@@ -7,7 +7,7 @@
             url: installation_create_or_delete_from_am_path(@installation, @prescription),
             html: { id: "alinea_checkbox_form_#{alinea_id}" },
             remote: true do |f|
-            .form-check.checkbox-arrete
+            .form-check.checkbox-custom
               = check_box_tag "prescription_checkbox_#{alinea_id}",
                 '1', prescription_checked?(@alinea_ids, alinea_id),
                 class: "form-check-input select_all_#{subsection_id} alineas_checkbox",

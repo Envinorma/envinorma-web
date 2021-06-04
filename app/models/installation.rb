@@ -53,6 +53,7 @@ class Installation < ApplicationRecord
         alinea_acte: classement.alinea_acte,
         activite: classement.activite,
         date_autorisation: classement.date_autorisation,
+        date_mise_en_service: classement.date_mise_en_service,
         volume: classement.volume,
         installation_id: installation_duplicated.id
       )
@@ -62,42 +63,21 @@ class Installation < ApplicationRecord
   end
 
   class << self
-    def validate_then_recreate(installations_list)
-      puts 'Seeding installations...'
-      puts '...validating'
-      installations = []
-      installations_list.each do |installation_raw|
-        installation = Installation.new(
-          name: installation_raw['name'],
-          s3ic_id: installation_raw['s3ic_id'],
-          region: installation_raw['region'],
-          department: installation_raw['department'],
-          zipcode: installation_raw['code_postal'],
-          city: installation_raw['city'],
-          last_inspection: installation_raw['last_inspection']&.to_date,
-          regime: installation_raw['regime'],
-          seveso: installation_raw['seveso'],
-          state: installation_raw['active']
-        )
-        unless installation.validate
-          raise "error validations #{installation.inspect} #{installation.errors.full_messages}"
-        end
-
-        installations << installation
-      end
-
-      recreate(installations)
-    end
-
-    private
-
-    def recreate(installations)
-      puts '...destroying'
-      Installation.destroy_all
-      ActiveRecord::Base.connection.reset_pk_sequence!(Installation.table_name)
-      puts '...creating'
-      installations.each(&:save)
-      puts "...done. Inserted #{Installation.count}/#{installations.length} installations."
+    def create_hash_from_csv_row(installation_raw)
+      {
+        'name' => installation_raw['name'],
+        's3ic_id' => installation_raw['s3ic_id'],
+        'region' => installation_raw['region'],
+        'department' => installation_raw['department'],
+        'zipcode' => installation_raw['code_postal'],
+        'city' => installation_raw['city'],
+        'last_inspection' => installation_raw['last_inspection']&.to_date,
+        'regime' => installation_raw['regime'],
+        'seveso' => installation_raw['seveso'],
+        'state' => installation_raw['active'],
+        'created_at' => DateTime.now,
+        'updated_at' => DateTime.now
+      }
     end
   end
 end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_29_130832) do
+ActiveRecord::Schema.define(version: 2021_06_03_160431) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -29,21 +29,13 @@ ActiveRecord::Schema.define(version: 2021_04_29_130832) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "title"
-    t.boolean "unique_version"
-    t.string "installation_date_criterion_left"
-    t.string "installation_date_criterion_right"
     t.string "aida_url"
     t.string "legifrance_url"
-    t.jsonb "summary"
     t.string "cid"
     t.jsonb "classements_with_alineas"
-    t.bigint "enriched_from_id"
-    t.date "publication_date"
-  end
-
-  create_table "arretes_unique_classements", id: false, force: :cascade do |t|
-    t.bigint "arrete_id", null: false
-    t.bigint "unique_classement_id", null: false
+    t.date "date_of_signature"
+    t.jsonb "version_descriptor"
+    t.boolean "default_version"
   end
 
   create_table "classements", force: :cascade do |t|
@@ -54,27 +46,14 @@ ActiveRecord::Schema.define(version: 2021_04_29_130832) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "activite"
-    t.date "date_autorisation"
+    t.date "date_mise_en_service"
     t.string "volume"
     t.string "seuil"
     t.string "rubrique_acte"
     t.string "regime_acte"
     t.string "alinea_acte"
+    t.date "date_autorisation"
     t.index ["installation_id"], name: "index_classements_on_installation_id"
-  end
-
-  create_table "enriched_arretes", force: :cascade do |t|
-    t.jsonb "data"
-    t.string "short_title"
-    t.string "title"
-    t.boolean "unique_version"
-    t.string "installation_date_criterion_left"
-    t.string "installation_date_criterion_right"
-    t.string "aida_url"
-    t.string "legifrance_url"
-    t.jsonb "summary"
-    t.bigint "arrete_id", null: false
-    t.index ["arrete_id"], name: "index_enriched_arretes_on_arrete_id"
   end
 
   create_table "installations", force: :cascade do |t|
@@ -114,12 +93,6 @@ ActiveRecord::Schema.define(version: 2021_04_29_130832) do
     t.string "version", null: false
   end
 
-  create_table "unique_classements", force: :cascade do |t|
-    t.string "rubrique"
-    t.string "regime"
-    t.string "alinea"
-  end
-
   create_table "users", force: :cascade do |t|
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -127,7 +100,6 @@ ActiveRecord::Schema.define(version: 2021_04_29_130832) do
 
   add_foreign_key "aps", "installations"
   add_foreign_key "classements", "installations"
-  add_foreign_key "enriched_arretes", "arretes"
   add_foreign_key "installations", "users"
   add_foreign_key "prescriptions", "installations"
   add_foreign_key "prescriptions", "users"

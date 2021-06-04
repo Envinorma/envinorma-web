@@ -20,37 +20,19 @@ class AP < ApplicationRecord
   end
 
   class << self
-    def validate_then_recreate(aps_list)
-      puts 'Seeding AP...'
-      puts '...validating'
-      aps = []
-      aps_list.each do |ap|
-        installation_id = Installation.find_by(s3ic_id: ap['installation_s3ic_id'])&.id
-        next unless installation_id
-
-        ap = AP.new(
-          installation_s3ic_id: ap['installation_s3ic_id'],
-          description: ap['description'],
-          date: ap['date'],
-          georisques_id: ap['georisques_id'],
-          installation_id: installation_id
-        )
-        raise "error validations #{ap.inspect} #{ap.errors.full_messages}" unless ap.validate
-
-        aps << ap
-      end
-      recreate(aps)
-    end
-
-    private
-
-    def recreate(aps)
-      puts '...destroying'
-      AP.destroy_all
-      ActiveRecord::Base.connection.reset_pk_sequence!(AP.table_name)
-      puts '...creating'
-      aps.each(&:save)
-      puts "...done. Inserted #{AP.count}/#{aps.length} AP."
+    def create_hash_from_csv_row(ap_raw, s3ic_id_to_envinorma_id)
+      installation_id = if s3ic_id_to_envinorma_id.key?(ap_raw['installation_s3ic_id'])
+                          s3ic_id_to_envinorma_id[ap_raw['installation_s3ic_id']]
+                        else
+                          1
+                        end
+      {
+        'installation_s3ic_id' => ap_raw['installation_s3ic_id'],
+        'description' => ap_raw['description'],
+        'date' => ap_raw['date'],
+        'georisques_id' => ap_raw['georisques_id'],
+        'installation_id' => installation_id
+      }
     end
   end
 end

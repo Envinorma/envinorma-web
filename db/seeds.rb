@@ -10,12 +10,8 @@ am_list.each do |am|
     cid: am['id'],
     short_title: am['short_title'],
     title: am.dig('title', 'text'),
-    unique_version: am['unique_version'],
-    installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),
-    installation_date_criterion_right: am.dig('installation_date_criterion', 'right_date'),
     aida_url: am['aida_url'],
-    legifrance_url: am['legifrance_url'],
-    summary: am['summary']
+    legifrance_url: am['legifrance_url']
   )
 end
 puts 'Arretes are seeded'
@@ -51,6 +47,7 @@ classements_list.each do |classement|
     alinea_acte: classement['alinea_acte'],
     activite: classement['activite'],
     date_autorisation: classement['date_autorisation']&.to_date,
+    date_mise_en_service: classement['date_mise_en_service']&.to_date,
     volume: "#{classement['volume']} #{classement['unit']}",
     installation_id: Installation.find_by(s3ic_id: classement['s3ic_id'])&.id
   )
@@ -66,20 +63,3 @@ Arrete.all.each do |arrete|
   end
 end
 puts 'ArreteClassement are seeded'
-
-Dir.glob("#{Rails.root}/db/seeds/enriched_arretes/*.json").each do |json_file|
-  am = JSON.parse(File.read(json_file))
-  EnrichedArrete.create(
-    data: am,
-    short_title: am['short_title'],
-    title: am.dig('title', 'text'),
-    unique_version: am['unique_version'],
-    installation_date_criterion_left: am.dig('installation_date_criterion', 'left_date'),
-    installation_date_criterion_right: am.dig('installation_date_criterion', 'right_date'),
-    aida_url: am['aida_url'],
-    legifrance_url: am['legifrance_url'],
-    summary: am['summary'],
-    arrete_id: Arrete.find_by("data->>'id' = ?", (am['id']).to_s).id
-  )
-end
-puts 'Enriched Arretes are seeded'

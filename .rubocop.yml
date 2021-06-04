@@ -9,7 +9,6 @@ AllCops:
     - lib/tasks/deployment/*
     - node_modules/**/*
     - vendor/**/*
-    - app/controllers/concerns/filter_arretes.rb
 
 Metrics/AbcSize:
   Enabled: false

@@ -1,20 +1,32 @@
 # frozen_string_literal: true
 
 module ApplicationHelper
-  def classement_infos(arrete, installation)
-    arrete = Arrete.find(arrete.enriched_from_id) if arrete.enriched?
+  REGIMES = {
+    A: 0,
+    E: 1,
+    D: 2,
+    NC: 3,
+    unknown: 4,
+    empty: 5
+  }.freeze
 
-    classements = arrete.unique_classements.select do |classement|
-      installation.classements.pluck(:rubrique, :regime).include?([classement.rubrique, classement.regime])
+  def common_classements(arrete_classements, installation_classement)
+    classements = arrete_classements.filter do |classement|
+      installation_classement.pluck(:rubrique, :regime).include?([classement.rubrique, classement.regime])
     end
 
     classements.map! do |classement|
-      if classement.alinea.present?
-        "#{classement.rubrique} #{classement.regime} al. #{classement.alinea}"
-      else
+      if classement.alineas.empty?
         "#{classement.rubrique} #{classement.regime}"
+      else
+        alineas_string = classement.alineas.join(' ou ')
+        "#{classement.rubrique} #{classement.regime} al. #{alineas_string}"
       end
     end.join(' - ')
+  end
+
+  def classement_infos(arrete, installation)
+    common_classements(arrete.classements_with_alineas, installation.classements)
   end
 
   def prescription_checked?(alinea_ids, alinea_id)

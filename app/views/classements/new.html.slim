@@ -7,8 +7,10 @@
         = f.input :rubrique
       .col-3
         = f.input :regime, collection: %w[A E D NC]
-      .col-6
+      .col-3
         = f.input :date_autorisation, as: :date, html5: true
+      .col-3
+        = f.input :date_mise_en_service, as: :date, html5: true
 
     = f.button :submit, 'Sauvegarder les modifications', class: 'btn btn-primary'
     = link_to "Retourner sur l'installation", installation_path(@installation), class: 'btn btn-link'

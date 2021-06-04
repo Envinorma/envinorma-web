@@ -1,0 +1,35 @@
+[data-tooltip]
+  position: absolute
+  display: inline-flex
+  cursor: help
+  align-self: center
+  color: $warning
+  right: 25px
+
+[data-tooltip]:before
+  content: attr(data-tooltip)
+  opacity: 0
+  position: absolute
+  background: rgba(0,0,0, .8)
+  border-radius: 5px
+  left: 50%
+  transform: translate(-50%, 10%)
+  bottom: 50%
+  padding: 5px
+  text-align: center
+  color: #ffffff
+  font-size: 13px
+  width: 100%
+  min-width: 260px
+
+  transition: all .5s ease
+  overflow: hidden
+  margin: auto
+  line-height: 1.3em
+  pointer-events: none
+  z-index: 10
+
+[data-tooltip]:hover:before
+  opacity: 1
+  bottom: 100%
+  transform: translate(-50%, -10px)

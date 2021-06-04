@@ -1,5 +1,4 @@
 {
-    "active": true,
     "aida_url": "https://aida.ineris.fr/consultation_document/43228",
     "classements": [
         {
@@ -32,10 +31,9 @@
             "rubrique": "2940"
         }
     ],
+    "date_of_signature": "2020-05-12",
     "id": "JORFTEXT000041876133",
-    "installation_date_criterion": null,
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000041876133",
-    "publication_date": "2020-05-12",
     "sections": [
         {
             "annotations": {
@@ -73,43 +71,36 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Le présent arrêté fixe les prescriptions applicables aux installations classées soumises à enregistrement sous la rubrique 2940."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Le présent arrêté s'applique aux installations nouvelles enregistrées à compter de la date d'entrée en vigueur du présent arrêté."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les installations existantes sont les installations régulièrement autorisées en application d'un arrêté d'autorisation ou bénéficiant de l'article L. 513-1 du code de l'environnement à la date d'entrée en vigueur du présent arrêté."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les dispositions du présent arrêté sont applicables aux installations existantes dans les conditions précisées en annexe I. Les prescriptions constructives auxquelles les installations existantes sont déjà soumises en application d'un arrêté préfectoral d'autorisation demeurent, le cas échéant, applicables."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Dans le cas d'une extension d'une installation existante nécessitant un nouvel enregistrement en application de l'article R. 512-46-23 du code de l'environnement :"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "\t- les articles 2.1, 4.2, 4.3, 4.4 et 6.4 ne s'appliquent qu'à la partie constructive de l'extension. Les locaux existants restent, pour ces articles, soumis aux dispositions antérieures ;"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "\t- les autres articles sont applicables à l'ensemble de l'installation."
                         }
@@ -118,7 +109,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 1.1"
                     }
@@ -140,73 +130,61 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Au sens du présent arrêté, on entend par :"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "« Réfrigération en circuit ouvert » : tout système dans lequel les eaux de refroidissement sont rejetées dans le milieu naturel après prélèvement ou dans le réseau d'assainissement."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "« Mention de danger » : phrase définie à l'article 2 du règlement (CE) n° 1272/2008 relatif à la classification, l'étiquetage et l'emballage des substances et des mélanges, dit CLP."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "« Substances ou mélanges dangereux » : substance ou mélange classé suivant les classes et catégories de danger définies à l'annexe I, parties 2, 3 et 4 du règlement CLP."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "« Composé organique volatil (COV) » : tout composé organique ainsi que la fraction de créosote ayant une pression de vapeur de 0,01 kPa ou plus à une température de 293,15 K ou ayant une volatilité correspondante dans les conditions d'utilisation particulières."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "« Niveau d'une odeur ou concentration d'un mélange odorant » : conventionnellement, le facteur de dilution qu'il faut appliquer à un effluent pour qu'il ne soit plus ressenti comme odorant par 50 % des personnes constituant un échantillon de population."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "« Débit d'odeur » : conventionnellement, le produit du débit d'air rejeté, exprimé en m3/h, par le facteur de dilution au seuil de perception."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "« Emergence » : la différence entre les niveaux de pression continus équivalents pondérés A du bruit ambiant (installation en fonctionnement) et du bruit résiduel (en l'absence du bruit généré par l'installation)."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "« Zones à émergence réglementée » :"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "\t- l'intérieur des immeubles habités ou occupés par des tiers, existant à la date du dépôt de dossier d'enregistrement, et leurs parties extérieures éventuelles les plus proches (cour, jardin, terrasse) à l'exclusion de celles des immeubles implantés dans les zones destinées à recevoir des activités artisanales ou industrielles ;"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "\t- les zones constructibles définies par des documents d'urbanisme opposables aux tiers et publiés à la date du dépôt de dossier d'enregistrement ;"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "\t- l'intérieur des immeubles habités ou occupés par des tiers qui ont été implantés après la date du dépôt de dossier d'enregistrement dans les zones constructibles définies ci-dessus, et leurs parties extérieures éventuelles les plus proches (cour, jardin, terrasse), à l'exclusion de celles des immeubles implantés."
                         }
@@ -215,7 +193,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 1.2 - Définitions."
                     }
@@ -237,7 +214,6 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "L'installation est implantée, réalisée et exploitée conformément aux plans et autres documents joints à la demande d'enregistrement."
                         }
@@ -246,7 +222,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 1.3 - Conformité de l'installation."
                     }
@@ -254,7 +229,6 @@
             ],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Chapitre Ier : Dispositions générales"
             }
@@ -295,13 +269,11 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les locaux dans lesquels sont réalisées les activités visées par la rubrique 2940 sont situés à une distance minimale de dix mètres des limites de la propriété où l'installation est implantée et à plus de 20 mètres des habitations et des établissements tiers recevant du public."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "L'installation ne se situe pas au-dessus ou en dessous de locaux habités ou occupés par des tiers."
                         }
@@ -310,7 +282,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 2.1 - Règles d'implantation."
                     }
@@ -332,7 +303,6 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "L'exploitant prend les dispositions nécessaires pour maintenir le site en bon état de propreté (peinture, plantations, engazonnement, etc.)."
                         }
@@ -341,7 +311,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 2.2 - Intégration dans le paysage."
                     }
@@ -349,7 +318,6 @@
             ],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Chapitre II : Implantation et aménagement"
             }
@@ -388,7 +356,6 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "L'exploitation se fait sous la surveillance, directe ou indirecte, d'une personne nommément désignée par l'exploitant et ayant une connaissance de la conduite de l'installation et des dangers et inconvénients des produits utilisés ou stockés dans l'installation."
                         }
@@ -397,7 +364,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 3.1 - Surveillance de l'installation."
                     }
@@ -419,13 +385,11 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les personnes étrangères à l'établissement n'ont pas un accès libre aux installations."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Toutes dispositions sont prises afin que les personnes non autorisées ou en dehors de toute surveillance n'aient pas accès aux installations (par exemple clôture ou panneaux d'interdiction de pénétrer ou procédures d'identification à respecter)."
                         }
@@ -434,7 +398,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 3.2 - Contrôle de l'accès."
                     }
@@ -456,13 +419,11 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "L'exploitant dispose des documents lui permettant de connaître la nature et les risques des substances ou mélanges dangereux présents dans l'installation, en particulier les fiches de données de sécurité. Il prend les dispositions nécessaires pour respecter les préconisations desdites fiches (compatibilité des produits, stockage, emploi, lutte contre l'incendie)."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "L'exploitant tient à jour un registre indiquant la nature et la quantité des substances ou mélanges dangereux détenus, ainsi que leur lieu de stockage. Ce registre est tenu à la disposition de l'inspection des installations classées et des services d'incendie et de secours."
                         }
@@ -471,7 +432,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 3.3 - Gestion des produits."
                     }
@@ -493,7 +453,6 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les locaux sont maintenus propres et régulièrement nettoyés notamment de manière à éviter les amas de matières dangereuses ou polluantes, de poussières ou de déchets. Le matériel de nettoyage est adapté aux risques présentés par les produits et poussières."
                         }
@@ -502,7 +461,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 3.4 - Propreté de l'installation."
                     }
@@ -510,7 +468,6 @@
             ],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Chapitre III : Exploitation"
             }
@@ -566,25 +523,21 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'exploitant recense, sous sa responsabilité, les parties de l'installation qui, en raison des caractéristiques qualitatives et quantitatives des matières mises en œuvre, stockées, utilisées ou produites, des procédés ou des activités réalisées, sont susceptibles d'être à l'origine d'un sinistre pouvant avoir des conséquences directes ou indirectes sur l'environnement, la sécurité publique ou le maintien en sécurité de l'installation."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'exploitant détermine pour chacune de ces parties de l'installation la nature du risque (incendie, atmosphères explosibles ou émanations toxiques par inhalation). Ce risque est signalé. Les ateliers et aires de manipulations de ces produits font partie de ce recensement."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'exploitant dispose d'un plan général des ateliers et des stockages indiquant les différentes zones de danger correspondant à ces risques."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les parties de l'installation concernées par l'emploi ou le stockage de substances ou mélanges inflammables (H224, H225 ou H226) ou toxiques pour la santé humaine (H300, H301, H310, H311, H330, H331, H370) sont systématiquement à considérer dans ce recensement."
                                 }
@@ -593,7 +546,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.1 - Localisation des risques."
                             }
@@ -601,7 +553,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Section I : Généralités"
                     }
@@ -642,91 +593,76 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le bâtiment abritant l'installation présente au moins les caractéristiques de comportement au feu suivantes :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- la structure est de résistance au feu R 30 ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- les murs extérieurs sont construits en matériaux A2s1d0."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les locaux à risque incendie définis à l'article 4.1 présentent les caractéristiques de résistance au feu minimales suivantes :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- ossature (ossature verticale et charpente de toiture) R 30 si la hauteur sous pied de ferme n'excède pas 8 mètres et R 60 si la hauteur sous pied de ferme excède 8 mètres ou s'il existe un plancher haut ou une mezzanine ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- plancher haut ou mezzanine REI 60 ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- murs extérieurs RE 30 ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- portes RE 30, les portes étant munies d'un ferme-porte ou d'un dispositif assurant leur fermeture automatique. Cette disposition ne s'applique pas aux zones de peinture avec convoyeur traversant."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- le système de couverture de toiture satisfait la classe BROOF (t3)."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Afin de ne pas aggraver les effets d'un éventuel sinistre, les locaux à risque incendie définis à l'article 4.1 sont séparés des bâtiments ou locaux fréquentés par le personnel et abritant des bureaux ou des lieux dont la vocation n'est pas directement liée à l'exploitation de l'installation :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- soit par une distance d'au moins 10 mètres entre les locaux si ceux-ci sont distincts ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- soit par un mur REI 120, dépassant d'au moins 1 mètre en toiture et de 0,5 mètre latéralement, dans les autres cas. Les portes sont REI 60 et munies d'un ferme-porte ou d'un dispositif assurant leur fermeture automatique."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le mur précité peut être un mur séparatif ordinaire dans le cas d'une modification d'une installation existante donnant lieu à un nouveau dossier d'enregistrement."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les matériaux utilisés pour l'éclairage naturel ne produisent pas, lors d'un incendie, de gouttes enflammées."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les justificatifs attestant des propriétés de résistance au feu sont conservés et tenus à la disposition de l'inspection des installations classées."
                                 }
@@ -735,7 +671,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.2 - Comportement au feu."
                             }
@@ -759,295 +694,246 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "I. Accès au site"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'installation dispose en permanence d'un accès au moins pour permettre à tout moment l'intervention des services d'incendie et de secours."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les véhicules stationnent sans occasionner de gêne pour l'accessibilité des engins des services d'incendie et de secours depuis les voies de circulation externes au bâtiment, même en dehors des heures d'exploitation et d'ouverture de l'installation."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'accès au site est conçu pour pouvoir être ouvert immédiatement sur demande des services d'incendie et de secours ou directement par ces derniers."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "II. Voie « engins »"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Une voie engins au moins est maintenue dégagée pour :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- la circulation sur la périphérie complète du bâtiment ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- l'accès au bâtiment ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- l'accès aux aires de mise en station des moyens élévateurs aériens ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- l'accès aux aires de stationnement des engins."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Elle est positionnée de façon à ne pouvoir être obstruée par l'effondrement de tout ou partie de ce bâtiment ou occupée par les eaux d'extinction."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Cette voie engins respecte les caractéristiques suivantes :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- la largeur utile est au minimum de 6 mètres, la hauteur libre au minimum de 4,5 mètres et la pente inférieure à 15 % ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- dans les virages, le rayon intérieur R minimal est de 13 mètres. Une surlargeur de S = 15/R mètres est ajoutée dans les virages de rayon intérieur R compris entre 13 et 50 mètres ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- la voie résiste à la force portante calculée pour un véhicule de 320 kN avec un maximum de 130 kN par essieu, ceux-ci étant distants de 3,6 mètres au minimum ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- chaque point du périmètre du bâtiment est à une distance maximale de 60 mètres de cette voie ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- aucun obstacle n'est disposé entre la voie engins et les accès au bâtiment, les aires de mise en station des moyens élévateurs aériens et les aires de stationnement des engins."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "En cas d'impossibilité de mise en place d'une voie engins permettant la circulation sur l'intégralité de la périphérie du bâtiment et si tout ou partie de la voie est en impasse, les 40 derniers mètres de la partie de la voie en impasse sont d'une largeur utile minimale de 7 mètres et une aire de retournement comprise dans un cercle de 20 mètres de diamètre est prévue à son extrémité."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le positionnement de la voie engins est proposé par le pétitionnaire dans son dossier d'enregistrement."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "III. Aires de stationnement"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "III.1. Aires de mise en station des moyens élévateurs aériens"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les aires de mise en station des moyens élévateurs aériens permettent aux engins de stationner pour déployer leurs moyens élévateurs aériens (par exemple les échelles et les bras élévateurs articulés). Elles sont directement accessibles depuis la voie engins définie au II."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Elles sont positionnées de façon à ne pouvoir être obstruées par l'effondrement de tout ou partie du bâtiment ou occupées par les eaux d'extinction."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Elles sont entretenues et maintenues dégagées en permanence."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Pour toute installation, au moins une façade est desservie par au moins une aire de mise en station des moyens élévateurs aériens."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Par ailleurs, pour toute installation située dans un bâtiment de plusieurs niveaux possédant au moins un plancher situé à une hauteur supérieure à 8 mètres par rapport au sol intérieur, une aire de mise en station des moyens élévateurs aériens permet d'accéder à des ouvertures sur au moins deux façades."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Ces ouvertures permettent au moins un accès par étage pour chacune des façades disposant d'aires de mise en station des moyens élévateurs aériens et présentent une hauteur minimale de 1,8 mètre et une largeur minimale de 0,9 mètre. Les panneaux d'obturation ou les châssis composant ces accès s'ouvrent et demeurent toujours accessibles de l'extérieur et de l'intérieur. Ils sont aisément repérables de l'extérieur par les services d'incendie et de secours."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Chaque aire de mise en station des moyens élévateurs aériens respecte les caractéristiques suivantes :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- la largeur utile est au minimum de 7 mètres, la longueur au minimum de 10 mètres, la pente au maximum de 10 %, avec un positionnement de l'aire permettant un stationnement parallèle au bâtiment ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- la distance par rapport à la façade est de 1 mètre minimum et de 8 mètres maximum ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- un positionnement de l'aire permettant un stationnement perpendiculaire au bâtiment est possible, sous réserve qu'il permette aux lances incendie d'atteindre les mêmes zones du bâtiment avec une aire de stationnement parallèle ; la distance par rapport à la façade est inférieure à 1 mètre pour un stationnement perpendiculaire au bâtiment ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- elle comporte une matérialisation au sol ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- aucun obstacle aérien ne gêne la manœuvre de ces moyens aériens à la verticale de cette aire ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- elle est maintenue en permanence entretenue, dégagée et accessible aux services d'incendie et de secours. Si les conditions d'exploitation ne permettent pas de maintenir ces aires dégagées en permanence (présence de véhicules liés à l'exploitation), l'exploitant fixe les mesures organisationnelles permettant de libérer ces aires en cas de sinistre avant l'arrivée des services d'incendie et de secours ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- elle résiste à la force portante calculée pour un véhicule de 320 kN avec un maximum de 130 kN par essieu, ceux-ci étant distants de 3,6 mètres au minimum et présente une résistance au poinçonnement minimale de 88 N/cm2."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "III.2. Aires de stationnement des engins"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les aires de stationnement des engins permettent aux moyens des services d'incendie et de secours de stationner pour se raccorder aux points d'eau incendie. Elles sont directement accessibles depuis la voie engins définie au II. Les aires de stationnement des engins au droit des réserves d'eau alimentant un réseau privé de points d'eau incendie ne sont pas nécessaires."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\tLes aires de stationnement des engins sont positionnées de façon à ne pouvoir être obstruées par l'effondrement de tout ou partie de ce bâtiment ou occupées par les eaux d'extinction."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\tElles sont entretenues et maintenues dégagées en permanence."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Chaque aire de stationnement des engins respecte, par ailleurs, les caractéristiques suivantes :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- la largeur utile est au minimum de 4 mètres, la longueur au minimum de 8 mètres, la pente est comprise entre 2 et 7 % ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- elle comporte une matérialisation au sol ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- elle est située à 5 mètres maximum du point d'eau incendie ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- elle est maintenue en permanence entretenue, dégagée et accessible aux services d'incendie et de secours. Si les conditions d'exploitation ne permettent pas de maintenir ces aires dégagées en permanence (présence de véhicules liés à l'exploitation), l'exploitant fixe les mesures organisationnelles permettant de libérer ces aires en cas de sinistre avant l'arrivée des services d'incendie et de secours ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- l'aire résiste à la force portante calculée pour un véhicule de 320 kN avec un maximum de 130 kN par essieu, ceux-ci étant distants de 3,6 mètres au minimum."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "IV. Documents à jour à disposition des services d'incendie et de secours"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'exploitant tient à disposition des services d'incendie et de secours :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- des plans des locaux avec une description des dangers pour chaque local présentant des risques particuliers et l'emplacement des moyens de protection incendie ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- des consignes précises pour l'accès des secours avec des procédures pour accéder à tous les lieux."
                                 }
@@ -1056,7 +942,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.3 - Accessibilité."
                             }
@@ -1080,61 +965,51 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les locaux abritant les installations visées par la rubrique 2940 sont équipés en partie haute de dispositifs d'évacuation naturelle de fumées et de chaleur permettant l'évacuation à l'air libre des fumées, gaz de combustion, chaleur et produits imbrûlés dégagés en cas d'incendie."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Ces dispositifs sont à commandes automatique et manuelle. Leur surface utile d'ouverture n'est pas inférieure à :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- 2 % si la superficie à désenfumer est inférieure à 1 600 m2 ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- à déterminer selon la nature des risques si la superficie à désenfumer est supérieure à 1 600 m2 sans pouvoir être inférieure à 2 % de la superficie des locaux."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "En exploitation normale, le réarmement (fermeture) est possible depuis le sol du local ou depuis la zone de désenfumage."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les commandes d'ouverture manuelle sont placées à proximité des accès. Elles sont clairement signalées et facilement accessibles."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les dispositifs d'évacuation naturelle de fumées et de chaleur sont adaptés aux risques particuliers de l'installation."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Tous les dispositifs sont composés de matières compatibles avec l'usage, et conformes aux règles de la construction. Les équipements conformes à la norme NF EN 12 101-2, version décembre 2013, sont présumés répondre aux dispositions ci-dessus."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Des amenées d'air frais sont réalisées pour chaque local abritant l'installation"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les dispositifs d'ouverture automatique des exutoires, lorsqu'ils existent, sont réglés de telle façon que l'ouverture des organes de désenfumage ne puisse se produire avant le déclenchement de l'extinction automatique, si l'installation en est équipée."
                                 }
@@ -1143,7 +1018,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.4 - Désenfumage."
                             }
@@ -1167,109 +1041,91 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'installation est dotée de moyens de détection et de lutte contre l'incendie appropriés aux risques, notamment :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "a) D'un moyen permettant d'alerter les services d'incendie et de secours ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "b) D'extincteurs répartis à l'intérieur de l'installation, sur les aires extérieures et dans les lieux présentant des risques spécifiques, à proximité des dégagements, bien visibles et facilement accessibles. Les agents d'extinction sont appropriés aux risques à combattre et compatibles avec les matières stockées ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "c) De robinets d'incendie armés (RIA) ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "d) D'un ou de plusieurs points d'eau incendie, tels que :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- des prises d'eau, poteaux ou bouches d'incendie normalisés, d'un diamètre nominal adapté au débit à fournir, alimentés par un réseau public ou privé, sous des pressions minimale et maximale permettant la mise en œuvre des pompes des engins de lutte contre l'incendie ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- des réserves d'eau, réalimentées ou non, disponibles pour le site et dont les organes de manœuvre sont accessibles en permanence aux services d'incendie et de secours."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Ces deux types de points d'eau incendie sus-cités ne sont pas exclusifs l'un de l'autre et peuvent par conséquent coexister pour une même installation."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "S'il s'agit de points d'eau incendie privés, l'exploitant :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- permet aux services d'incendie et de secours d'assurer les reconnaissances opérationnelles ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- indique aux services d'incendie et de secours les modifications relatives à la disponibilité ou indisponibilité des points d'eau incendie dans les plus brefs délais ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- implante, signale, maintient et contrôle les points d'eau selon les dispositions techniques en vigueur dans le département."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les prises de raccordement sont conformes aux normes en vigueur pour permettre aux services d'incendie et de secours de s'alimenter sur ces points d'eau incendie."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le ou les points d'eau incendie sont en mesure de fournir un débit global adapté aux risques à défendre, sans être inférieur à 60 mètres cubes par heure durant deux heures. L'exploitant est en mesure de justifier au préfet la disponibilité effective des débits et le cas échéant des réserves d'eau."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'accès extérieur du bâtiment contenant l'installation est à moins de 100 mètres d'un point d'eau incendie (la distance est mesurée par les voies praticables par les moyens des services d'incendie et de secours). Les points d'eau incendie sont distants entre eux de 150 mètres maximum (la distance est mesurée par les voies praticables aux engins des services d'incendie et de secours) ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "e) Les moyens de lutte contre l'incendie sont capables de fonctionner efficacement quelle que soit la température de l'installation et notamment en période de gel. L'exploitant s'assure de la vérification périodique et de la maintenance des matériels de sécurité et de lutte contre l'incendie conformément aux référentiels en vigueur."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'usage du réseau d'eau incendie est strictement réservé aux sinistres, aux exercices de secours et aux opérations d'entretien ou de maintien hors gel de ce réseau."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Des personnes désignées par l'exploitant sont entraînées à la manœuvre des moyens de secours contre l'incendie. Le personnel, y compris le cas échéant le personnel des entreprises extérieures, est instruit sur les conduites à tenir en cas de sinistre."
                                 }
@@ -1278,7 +1134,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.5 - Moyens d'alerte et de lutte contre l'incendie."
                             }
@@ -1302,7 +1157,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les tuyauteries transportant des fluides dangereux ou insalubres et de collecte d'effluents pollués ou susceptibles de l'être sont étanches et résistent à l'action physique et chimique des produits qu'elles sont susceptibles de contenir. Elles sont convenablement entretenues et font l'objet d'examens périodiques appropriés permettant de s'assurer de leur bon état."
                                 }
@@ -1311,7 +1165,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.6 - Tuyauteries et canalisations."
                             }
@@ -1319,7 +1172,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Section II : Dispositions constructives"
                     }
@@ -1360,13 +1212,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Dans les parties de l'installation visées à l'article 4.1 et recensées « atmosphères explosibles », les installations électriques, mécaniques, hydrauliques et pneumatiques sont conformes aux dispositions des articles R. 557-7-1 à R. 557-7-9 du code de l'environnement. Elles sont réduites à ce qui est strictement nécessaire aux besoins de l'exploitation et sont entièrement constituées de matériels utilisables dans les atmosphères explosives."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les systèmes de dépoussiérage et de transport des produits situés dans les ateliers sont conçus de manière à limiter les émissions de poussières inflammables. Ils sont rendus aussi étanches que possible et équipés de dispositifs détectant tout incident de fonctionnement et déclenchant l'arrêt de l'installation (asservissement à la ventilation, bourrage, défaut moteur, etc.)."
                                 }
@@ -1375,7 +1225,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.7 - Matériels utilisables en atmosphères explosibles."
                             }
@@ -1399,19 +1248,16 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'exploitant tient à la disposition de l'inspection des installations classées les éléments justifiant que ses installations électriques sont réalisées conformément aux règles en vigueur, entretenues en bon état et vérifiées."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les équipements métalliques sont mis à la terre conformément aux règlements et aux normes applicables."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le chauffage des locaux à risque incendie ne peut être réalisé que par eau chaude, vapeur produite par un générateur thermique ou autre système présentant un degré de sécurité adapté."
                                 }
@@ -1420,7 +1266,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.8 - Installations électriques et chauffage."
                             }
@@ -1444,13 +1289,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les locaux contenant l'installation sont convenablement ventilés pour prévenir la formation d'atmosphère explosive ou toxique. Le débouché à l'atmosphère de la ventilation est placé aussi loin que possible des immeubles habités ou occupés par des tiers et des bouches d'aspiration d'air extérieur, et à une hauteur suffisante compte tenu de la hauteur des bâtiments environnants afin de favoriser la dispersion des gaz rejetés et au minimum à 1 mètre au-dessus du faîtage."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "La forme du conduit d'évacuation, notamment dans la partie la plus proche du débouché à l'atmosphère, est conçue de manière à favoriser au maximum l'ascension et la dispersion des polluants dans l'atmosphère (par exemple l'utilisation de chapeaux est interdite)."
                                 }
@@ -1459,7 +1302,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.9 - Ventilation des locaux."
                             }
@@ -1483,19 +1325,16 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Chaque partie de l'installation recensée selon les dispositions de l'article 4.1 en raison des conséquences d'un sinistre susceptible de se produire dispose d'un dispositif de détection automatique d'incendie. L'exploitant dresse la liste détaillée de ces dispositifs avec leur fonctionnalité et détermine les opérations d'entretien destinées à maintenir leur efficacité dans le temps."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\tL'exploitant est en mesure de démontrer la pertinence du dimensionnement retenu pour les dispositifs de détection et le cas échéant d'extinction. Il organise à fréquence semestrielle au minimum des vérifications de maintenance et des tests dont les comptes-rendus sont tenus à la disposition de l'inspection des installations classées."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "En cas d'installation de systèmes d'extinction automatique d'incendie, ceux-ci sont conçus, installés et entretenus régulièrement conformément aux référentiels reconnus."
                                 }
@@ -1504,7 +1343,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.10 - Systèmes de détection et extinction automatiques."
                             }
@@ -1528,25 +1366,21 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le débit d'extraction des vapeurs des cabines de peinture par pulvérisation ainsi que des étuves ou fours de séchage est dimensionné et réglé de telle sorte que la concentration maximale des solvants dans l'air est toujours inférieure à 25 % de la LIE (limite inférieure d'explosivité) du solvant ou du mélange de solvants contenus dans les produits appliqués."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le fonctionnement des installations de pulvérisation, séchage ou cuisson est asservi au fonctionnement correct de la ventilation."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les installations de séchage ou cuisson disposent de systèmes de sécurité permettant d'avertir les opérateurs du dépassement des conditions nominales de fonctionnement (température, autre paramètre) pour leur laisser le temps de revenir à des conditions nominales de fonctionnement ou engager la procédure de mise en sécurité du fonctionnement du procédé concerné."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les cabines d'application par pulvérisation de produits de revêtement organiques conformes à la norme NF EN 16985 version décembre 2018 et les cabines de séchage conformes à la norme NF EN 1539 version 2015 sont présumées répondre aux dispositions ci-dessus."
                                 }
@@ -1555,7 +1389,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.11 - Dispositions particulières applicables aux cabines de peinture et aux étuves ou fours de séchage utilisant des liquides ou mélanges inflammables (H224, H225 ou H226)."
                             }
@@ -1563,7 +1396,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Section III : Dispositif de prévention des accidents"
                     }
@@ -1604,91 +1436,76 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "I. Tout stockage d'un liquide susceptible de créer une pollution des eaux ou des sols est associé à une capacité de rétention dont le volume est au moins égal à la plus grande des deux valeurs suivantes :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- 100 % de la capacité du plus grand réservoir ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- 50 % de la capacité totale des réservoirs associés."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Cette disposition n'est pas applicable aux bassins de traitement des eaux résiduaires."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Pour les stockages de récipients de capacité unitaire inférieure ou égale à 250 litres, la capacité de rétention est au moins égale à :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- dans le cas de liquides inflammables, 50 % de la capacité totale des fûts ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- dans les autres cas, 20 % de la capacité totale des fûts ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- dans tous les cas 800 litres minimum ou égale à la capacité totale lorsque celle-là est inférieure à 800 litres."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "II. La capacité de rétention est étanche aux produits qu'elle pourrait contenir et résiste à l'action physique et chimique des fluides. Il en est de même pour son dispositif d'obturation qui est maintenu fermé."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'étanchéité du (ou des) réservoir(s) associé(s) peut être contrôlée à tout moment."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les produits récupérés en cas d'accident ne peuvent être rejetés que dans des conditions conformes au présent arrêté ou sont éliminés comme les déchets."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les réservoirs ou récipients contenant des produits incompatibles ne sont pas associés à une même rétention."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les réservoirs fixes sont munis de jauges de niveau et pour les stockages enterrés de limiteurs de remplissage. Le stockage des liquides inflammables, ainsi que des autres substances et mélanges dangereux n'est permis sous le niveau du sol que dans des réservoirs en fosse maçonnée, ou assimilés et dans les conditions énoncées ci-dessus."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "III. Lorsque les stockages sont à l'air libre, les rétentions sont vidées dès que possible des eaux pluviales s'y versant."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "IV. Le sol des aires et des locaux de stockage ou de manipulation des matières dangereuses pour l'homme ou susceptibles de créer une pollution de l'eau ou du sol est étanche et équipé de façon à pouvoir recueillir les eaux de lavage et les matières répandues accidentellement."
                                 }
@@ -1697,7 +1514,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.12 - Capacité de rétention."
                             }
@@ -1721,55 +1537,46 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Toutes mesures sont prises pour recueillir l'ensemble des eaux et écoulements susceptibles d'être pollués lors d'un sinistre, y compris les eaux utilisées lors d'un incendie, afin que ceux-ci soient récupérés ou traités afin de prévenir toute pollution des sols, des égouts, des cours d'eau ou du milieu naturel."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "En cas de recours à des systèmes de relevage autonomes, l'exploitant est en mesure de justifier à tout instant d'un entretien et d'une maintenance rigoureux de ces dispositifs. Des tests réguliers sont par ailleurs menés sur ces équipements."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "En cas de confinement interne (dans les locaux), les orifices d'écoulement sont en position fermée par défaut. En cas de confinement externe, les orifices d'écoulement issus de ces dispositifs sont munis d'un dispositif d'obturation, à déclenchement automatique ou commandable à distance, pour assurer ce confinement lorsque des eaux susceptibles d'être polluées y sont portées. Tout moyen est mis en place pour éviter la propagation de l'incendie par ces écoulements."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Ces dispositifs permettant l'obturation des réseaux d'évacuation des eaux de ruissellement sont implantés de sorte à maintenir sur le site les eaux d'extinction d'un incendie ou les épandages accidentels. Ils sont clairement signalés et facilement accessibles et peuvent être mis en œuvre dans des délais brefs et à tout moment. Une consigne définit les modalités de mise en œuvre de ces dispositifs. Cette consigne est affichée à l'accueil de l'établissement."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le volume nécessaire à ce confinement est déterminé de la façon suivante. L'exploitant calcule la somme :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- du volume d'eau d'extinction nécessaire à la lutte contre l'incendie d'une part ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- du volume de produit libéré par cet incendie d'autre part ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- du volume d'eau lié aux intempéries à raison de 10 litres par mètre carré de surface de drainage vers l'ouvrage de confinement lorsque le confinement est externe."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'évacuation des effluents recueillis se fait dans les conditions prévues aux chapitres V ou IX selon la composition des effluents."
                                 }
@@ -1778,7 +1585,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.13 - Rétention et isolement."
                             }
@@ -1786,7 +1592,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Section IV : Dispositif de rétention des pollutions accidentelles"
                     }
@@ -1825,55 +1630,46 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Dans les parties de l'installation recensées à l'article 4.1, les travaux de réparation ou d'aménagement ne peuvent être effectués qu'après élaboration d'un document ou dossier comprenant les éléments suivants :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- la définition des phases d'activité dangereuses et des moyens de prévention spécifiques correspondants ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- l'adaptation des matériels, installations et dispositifs à la nature des opérations à réaliser ainsi que la définition de leurs conditions d'entretien ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- les instructions à donner aux personnes en charge des travaux ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- l'organisation mise en place pour assurer les premiers secours en cas d'urgence ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- lorsque les travaux sont effectués par une entreprise extérieure, les conditions de recours par cette dernière à de la sous-traitance et l'organisation mise en place dans un tel cas pour assurer le maintien de la sécurité."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Ce document ou dossier est établi, sur la base d'une analyse des risques liés aux travaux, et visé par l'exploitant ou par une personne qu'il aura nommément désignée. Le respect des dispositions précédentes peut être assuré par l'élaboration du document relatif à la protection défini à l'article R. 4227-52 du code du travail et par l'obtention de l'autorisation mentionnée au 6° du même article. Lorsque les travaux sont effectués par une entreprise extérieure, le document ou dossier est signé par l'exploitant et l'entreprise extérieure ou les personnes qu'ils auront nommément désignées."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Dans les parties de l'installation présentant des risques d'incendie ou d'explosion, il est interdit d'apporter du feu sous une forme quelconque, sauf pour la réalisation de travaux ayant fait l'objet d'un document ou dossier spécifique conforme aux dispositions précédentes. Cette interdiction est affichée en caractères apparents."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Une vérification de la bonne réalisation des travaux est effectuée par l'exploitant ou son représentant avant la reprise de l'activité. Elle fait l'objet d'un enregistrement et est tenue à la disposition de l'inspection des installations classées."
                                 }
@@ -1882,7 +1678,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.14 - Travaux."
                             }
@@ -1904,37 +1699,31 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "I. Règles générales"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "L'exploitant assure ou fait effectuer la vérification périodique et la maintenance des matériels de sécurité et de lutte contre l'incendie mis en place ainsi que des éventuelles installations électriques et de chauffage, conformément aux référentiels en vigueur."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les vérifications périodiques de ces matériels sont enregistrées sur un registre sur lequel sont également mentionnées les suites données à ces vérifications."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les différents opérateurs et intervenant sur le site, y compris le personnel des entreprises extérieures, reçoivent une formation sur les risques inhérents des installations, la conduite à tenir en cas d'incident ou d'accident et sur la mise en œuvre des moyens d'intervention."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "II. Protection individuelle"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Des équipements de protection individuelle, adaptés aux risques présentés par l'installation et permettant l'intervention en cas de sinistre, sont conservés à proximité de l'installation et du lieu d'utilisation. Ces équipements sont entretenus en bon état et vérifiés périodiquement. Le personnel est formé à leur emploi."
                                 }
@@ -1943,7 +1732,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.15 - Vérification périodique et maintenance des équipements."
                             }
@@ -1967,25 +1755,21 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "La présence dans les ateliers de substances et mélanges dangereux et de produits combustibles est limitée aux nécessités de l'exploitation et ne peut en aucun cas dépasser la production journalière autorisée."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les éventuels rebuts de production sont évacués régulièrement."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les installations de production sont construites conformément aux règles de l'art et sont conçues afin d'éviter de générer des points chauds susceptibles d'initier un sinistre."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les différents opérateurs et intervenant sur le site, y compris le personnel intérimaire, reçoivent une formation sur les risques inhérents des installations, la conduite à tenir en cas d'incident ou d'accident et sur la mise en œuvre des moyens d'intervention"
                                 }
@@ -1994,7 +1778,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 4.16 - Dispositions relatives à la prévention des risques dans le cadre de l'exploitation."
                             }
@@ -2002,7 +1785,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Section V : Dispositions d'exploitation"
                     }
@@ -2010,7 +1792,6 @@
             ],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Chapitre IV : Prévention des accidents et des pollutions"
             }
@@ -2068,7 +1849,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les articles 5.10, 5.11, 5.12 et 10 ne sont pas applicables aux installations ne présentant pas de rejets dans l'eau liés à l'activité (eaux de rinçage, de process, purges, etc.). Les justificatifs sont joints au dossier d'enregistrement."
                                 }
@@ -2077,7 +1857,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 5.1.1 - Applicabilité."
                             }
@@ -2101,31 +1880,26 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le rejet respecte les dispositions de l'article 22 de l'arrêté ministériel du 2 février 1998 susvisé en matière de :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- compatibilité avec le milieu récepteur ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- suppression des émissions de substances dangereuses."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Pour chaque polluant, le flux rejeté est inférieur à 10 % du flux admissible par le milieu."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "La conception et l'exploitation des installations permettent de limiter les débits d'eau et les flux polluants."
                                 }
@@ -2134,7 +1908,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 5.1.2 - Compatibilité avec les objectifs de qualité du milieu."
                             }
@@ -2142,7 +1915,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Section I : Principes généraux"
                     }
@@ -2183,19 +1955,16 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le prélèvement maximum journalier effectué dans le réseau public et/ou le milieu naturel est limité à la valeur mentionnée par l'exploitant dans son dossier de demande d'enregistrement."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le prélèvement ne se situe pas dans une zone où des mesures permanentes de répartition quantitative ont été instituées au titre de l'article L. 211-2 du code de l'environnement."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "La réfrigération en circuit ouvert est interdite."
                                 }
@@ -2204,7 +1973,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 5.2 - Prélèvement d'eau."
                             }
@@ -2226,19 +1994,16 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les installations de prélèvement d'eau sont munies d'un dispositif de mesure totalisateur. Ce dispositif est relevé quotidiennement si le débit prélevé est susceptible de dépasser 100 m3/j, hebdomadairement si ce débit est inférieur. Ces résultats sont portés sur un registre éventuellement informatisé et conservés dans le dossier de l'installation."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le raccordement à une nappe d'eau ou au réseau public de distribution d'eau destiné à la consommation humaine est muni d'un dispositif de protection visant à prévenir d'éventuelles contaminations par le retour d'eau pouvant être polluée."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les ouvrages de prélèvement dans les cours d'eau ne gênent pas le libre écoulement des eaux. Le fonctionnement de ces ouvrages est conforme aux dispositions de l'article L. 214-18 du code de l'environnement."
                                 }
@@ -2247,7 +2012,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 5.3 - Ouvrages de prélèvements."
                             }
@@ -2255,7 +2019,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Section II : Prélèvements et consommation d'eau"
                     }
@@ -2296,19 +2059,16 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Il est interdit d'établir des liaisons directes entre les réseaux de collecte des effluents devant subir un traitement ou être détruits et le milieu récepteur, à l'exception des cas accidentels où la sécurité des personnes ou des installations serait compromise."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les effluents aqueux rejetés par les installations ne sont pas susceptibles de dégrader les réseaux de l'installation ou de dégager des produits toxiques ou inflammables dans ces réseaux, éventuellement par mélange avec d'autres effluents. Ces effluents ne contiennent pas de substances de nature à gêner le bon fonctionnement des ouvrages de traitement du site."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le plan des réseaux de collecte des effluents fait apparaître les secteurs collectés, les points de branchement, regards, avaloirs, postes de relevage, postes de mesure, vannes manuelles et automatiques. Il est à jour et tenu à la disposition de l'inspection des installations classées ainsi que des services d'incendie et de secours."
                                 }
@@ -2317,7 +2077,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 5.4 - Collecte des effluents."
                             }
@@ -2339,13 +2098,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les points de rejet dans le milieu naturel sont en nombre aussi réduit que possible."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Ils sont aménagés pour permettre un prélèvement aisé d'échantillons et l'installation d'un dispositif de mesure du débit."
                                 }
@@ -2354,7 +2111,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 5.5 - Points de rejets."
                             }
@@ -2376,13 +2132,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les dispositions de l'article 43 de l'arrêté ministériel du 2 février 1998 susvisé s'appliquent."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les eaux pluviales susceptibles d'être significativement polluées du fait des activités menées par l'installation industrielle respectent les valeurs limites fixées à la section IV."
                                 }
@@ -2391,7 +2145,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 5.6 - Rejet des eaux pluviales."
                             }
@@ -2413,7 +2166,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les rejets directs ou indirects d'effluents vers les eaux souterraines sont interdits."
                                 }
@@ -2422,7 +2174,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 5.7 - Eaux souterraines."
                             }
@@ -2430,7 +2181,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Section III : Collecte et rejet des effluents"
                     }
@@ -2471,7 +2221,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Tous les effluents aqueux sont canalisés. La dilution des effluents est interdite."
                                 }
@@ -2480,7 +2229,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 5.8 - Généralités."
                             }
@@ -2502,55 +2250,46 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "La température des effluents rejetés est inférieure à 30° C sauf si la température en amont dépasse 30° C. Dans ce cas, la température des effluents rejetés n'est pas supérieure à la température de la masse d'eau amont. Pour les installations raccordées, la température des effluents rejetés pourra aller jusqu'à 50° C, sous réserve que l'autorisation de raccordement ou la convention de déversement le prévoit ou sous réserve de l'accord préalable du gestionnaire de réseau."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le pH des effluents rejetés est compris entre 5,5 et 8,5, 9,5 s'il y a neutralisation alcaline."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "En cas de rejet au milieu naturel, les dispositions ci-après sont également applicables :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "a) Pour les eaux réceptrices auxquelles s'appliquent les dispositions de l'article D. 211-10 du code de l'environnement, les effets du rejet, mesurés dans les mêmes conditions que précédemment, respectent également les dispositions suivantes :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- ne pas entraîner une élévation maximale de température de 1,5 °C pour les eaux salmonicoles, de 3° C pour les eaux cyprinicoles et de 2° C pour les eaux conchylicoles ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- ne pas induire une température supérieure à 21,5° C pour les eaux salmonicoles, à 28° C pour les eaux cyprinicoles et à 25° C pour les eaux destinées à la production d'eau alimentaire ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- maintenir un pH compris entre 6 et 9 pour les eaux salmonicoles et cyprinicoles et pour les eaux de baignade, compris entre 6,5 et 8,5 pour les eaux destinées à la production d'eau alimentaire, et compris entre 7 et 9 pour les eaux conchylicoles ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- ne pas entraîner un accroissement supérieur à 30 % des matières en suspension et une variation supérieure à 10 % de la salinité pour les eaux conchylicoles ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "b) L'exploitant justifie que le débit maximum journalier ne dépasse pas 1/10 du débit moyen interannuel du cours d'eau."
                                 }
@@ -2559,7 +2298,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 5.9 - Conditions de rejets dans l'eau (milieu naturel ou rejet raccordé)."
                             }
@@ -2581,31 +2319,26 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les eaux résiduaires rejetées au milieu naturel respectent les valeurs limites de concentration suivantes, selon le flux journalier maximal autorisé et les objectifs de qualité et de quantité des eaux visés à l'article 5.1.2."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Pour chacun des polluants rejetés par l'installation le flux maximal journalier est, sauf indication contraire, celui mentionné dans le dossier d'enregistrement."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Dans le cas où le rejet s'effectue dans le même milieu que le milieu de prélèvement, la conformité du rejet par rapport aux valeurs limites d'émissions pourra être évaluée selon les modalités définies à l'article 32 de l'arrêté ministériel du 2 février 1998 susvisé."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les valeurs limites évoquées au premier alinéa sont :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": {
                                         "rows": [
                                             {
@@ -2790,7 +2523,6 @@
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": {
                                         "rows": [
                                             {
@@ -3450,7 +3182,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 5.10 - Valeurs limites d'émission pour rejet dans le milieu naturel."
                             }
@@ -3472,55 +3203,46 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le raccordement à une station d'épuration collective, urbaine ou industrielle, n'est envisageable que dans le cas où l'infrastructure collective d'assainissement (réseau et station d'épuration) est apte à acheminer et traiter l'effluent industriel dans de bonnes conditions. Une autorisation de déversement ainsi que, le cas échéant, une convention de déversement sont établies avec la ou les autorités compétentes en charge du réseau d'assainissement et du réseau de collecte."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Lorsque le flux maximal apporté par l'effluent est susceptible de dépasser 15 kg/j de DBO5 ou 45 kg/j de DCO, les valeurs limites de concentration imposées à l'effluent à la sortie de l'installation avant raccordement à une station d'épuration collective ne dépassent pas :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- MES : 600 mg/l ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- DBO5 : 800 mg/l ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- DCO : 2 000 mg/l ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- azote global (exprimé en N) : 150 mg/l ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- phosphore total (exprimé en P) : 50 mg/l."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Toutefois, les valeurs limites ci-dessus peuvent être supérieures si le gestionnaire du réseau d'assainissement l'autorise."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Lorsqu'une installation est raccordée à une station d'épuration collective, urbaine ou industrielle, les valeurs limites d'émissions en sortie d'installation des polluants autres que ceux mentionnés aux 1 et 2 de l'article 5.10 sont les mêmes que celles pour un rejet dans le milieu naturel. Toutefois, les valeurs limites imposées à la sortie de l'installation peuvent être différentes si la station d'épuration des effluents industriels a la capacité de traiter les micropolluants."
                                 }
@@ -3529,7 +3251,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 5.11 - Raccordement à une station d'épuration collective."
                             }
@@ -3551,25 +3272,21 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les valeurs limites ci-dessus s'appliquent à des prélèvements, mesures ou analyses moyens réalisés sur 24 heures."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Dans le cas où une auto-surveillance est mise en place, 10 % de la série des résultats des mesures peuvent dépasser les valeurs limites prescrites, sans toutefois dépasser le double de ces valeurs. Dans le cas d'une auto-surveillance journalière (ou plus fréquente) des effluents aqueux, ces 10 % sont comptés sur une base mensuelle."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Dans le cas de prélèvements instantanés, aucun résultat de mesure ne dépasse le double de la valeur limite prescrite."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Pour l'azote et le phosphore, la concentration moyenne sur un prélèvement de 24 heures ne dépasse pas le double des valeurs limites fixées."
                                 }
@@ -3578,7 +3295,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 5.12 - Dispositions communes aux valeurs limites d'émission pour un rejet dans le milieu naturel ou un raccordement à une station d'épuration."
                             }
@@ -3586,7 +3302,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Section IV : Valeurs limites d'émission"
                     }
@@ -3594,7 +3309,6 @@
             ],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Chapitre V : Émissions dans l'eau"
             }
@@ -3650,19 +3364,16 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les poussières, gaz polluants ou odeurs sont captés à la source et canalisés, sauf dans le cas d'une impossibilité technique justifiée. Les rejets sont conformes aux dispositions du présent arrêté."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les stockages de produits pulvérulents, volatils ou odorants, susceptibles de conduire à des émissions diffuses de polluants dans l'atmosphère, sont confinés (récipients, silos, bâtiments fermés, etc.)."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Le stockage des autres produits en vrac est réalisé dans la mesure du possible dans des espaces fermés. À défaut, des dispositions particulières tant au niveau de la conception et de la construction (implantation en fonction du vent, etc.) que de l'exploitation sont mises en œuvre."
                                 }
@@ -3671,7 +3382,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 6.1 - Généralités."
                             }
@@ -3679,7 +3389,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Section I : Généralités"
                     }
@@ -3720,13 +3429,11 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les points de rejet dans le milieu naturel sont en nombre aussi réduit que possible. Si plusieurs points de rejet sont nécessaires, l'exploitant le justifie."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les effluents sont collectés et rejetés à l'atmosphère, après traitement éventuel, par l'intermédiaire de cheminées pour permettre une bonne diffusion des rejets. La forme des conduits, notamment dans leur partie la plus proche du débouché à l'atmosphère, est conçue de façon à favoriser au maximum l'ascension des gaz dans l'atmosphère. L'emplacement de ces conduits est tel qu'il ne peut y avoir à aucun moment siphonage des effluents rejetés dans les conduits ou prises d'air avoisinants. Les contours des conduits ne présentent pas de point anguleux et la variation de la section des conduits au voisinage du débouché est continue et lente."
                                 }
@@ -3735,7 +3442,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 6.2 - Points de rejets."
                             }
@@ -3757,7 +3463,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Les points de mesure et les points de prélèvement d'échantillons sont aménagés conformément aux règles en vigueur et équipés des appareils nécessaires pour effectuer les mesures prévues par le présent arrêté dans des conditions représentatives."
                                 }
@@ -3766,7 +3471,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 6.3 - Points de mesures."
                             }
@@ -3788,31 +3492,26 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Tout rejet en façade, à l'horizontal, est interdit."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "La vitesse d'éjection des gaz en marche continue maximale est au moins égale à 8 m/s si le débit d'émission de la cheminée considérée dépasse 5 000 m3/h, 5 m/s si ce débit est inférieur ou égal à 5 000 m3/h."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "En plus des dispositions de l'article 6.2, les cheminées susceptibles de rejeter un flux de polluant supérieur à 1 kg/h de poussières, ou 10 g/h de COV avec mention de danger H340, H350, H350i, H360D ou H360F, ou 0,1 kg/h de COV avec mention de danger H341 ou H351, ou 2 kg/h pour les COV autres que ceux mentionnés ci-dessus ont une hauteur minimale comme définie ci-après."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "La hauteur de la cheminée (différence entre l'altitude du débouché à l'air libre et l'altitude moyenne du sol à l'endroit considéré) exprimée en mètres est déterminée, d'une part, en fonction du niveau des émissions de polluants à l'atmosphère, d'autre part, en fonction de l'existence d'obstacles susceptibles de gêner la dispersion des gaz. Cette hauteur ne peut être inférieure à 10 mètres. De plus, le rejet dépasse d'au moins 5 mètres les bâtiments situés dans un rayon de 15 mètres."
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "De plus, si le rejet de composés organiques volatils dépasse 150 Kg/h ou 20 kg/h pour ceux à mentions de danger H340, H350, H350i, H360d, H360f, H341 ou H351, la hauteur de la cheminée est conforme aux dispositions des articles 53 à 56 de l'arrêté du 2 février 1998 susvisé."
                                 }
@@ -3821,7 +3520,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 6.4 - Hauteur de cheminée et conditions de rejet à l'atmosphère."
                             }
@@ -3843,19 +3541,16 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Poussières :"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- si le flux horaire est inférieur ou égal à 1 kg/h, la valeur limite de concentration est de 100 mg/Nm3 ;"
                                 },
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "\t- si le flux horaire est supérieur à 1 kg/h, la valeur limite de concentration est de 40 mg/Nm3."
                                 }
@@ -3864,7 +3559,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 6.5 - Valeurs limites d'émission."
                             }
@@ -3872,7 +3566,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Section II : Rejets à l'atmosphère"
                     }
@@ -3913,7 +3606,6 @@
                             "outer_alineas": [
                                 {
                                     "active": true,
-                                    "links": [],
                                     "table": null,
                                     "text": "Toutes les dispositions nécessaires sont prises pour que l'établissement ne soit pas à l'origine d'émission de gaz odorant susceptibles d'incommoder le voisinage et de nuire à la santé et à la sécurité publique."
                                 }
@@ -3922,7 +3614,6 @@
                             "sections": [],
                             "title": {
                                 "active": true,
-                                "links": [],
                                 "table": null,
                                 "text": "Article 6.6 - Odeurs."
                             }
@@ -3930,7 +3621,6 @@
                     ],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Section III : Autres dispositions applicables"
                     }
@@ -3938,7 +3628,6 @@
             ],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Chapitre VI : Émissions dans l'air"
             }
@@ -3979,7 +3668,6 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les rejets directs dans les sols sont interdits."
                         }
@@ -3988,7 +3676,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 7"
                     }
@@ -3996,7 +3683,6 @@
             ],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Chapitre VII : Émissions dans les sols"
             }
@@ -4035,19 +3721,16 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "I. Valeurs limites de bruit"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les émissions sonores de l'installation ne sont pas à l'origine, dans les zones à émergence réglementée, d'une émergence supérieure aux valeurs admissibles définies dans le tableau suivant :"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": {
                                 "rows": [
                                     {
@@ -4164,25 +3847,21 @@
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "De plus, le niveau de bruit en limite de propriété de l'installation ne dépasse pas, lorsqu'elle est en fonctionnement, 70 dB(A) pour la période de jour et 60 dB(A) pour la période de nuit, sauf si le bruit résiduel pour la période considérée est supérieur à cette limite."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "II. Véhicules"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les véhicules de transport, les matériels de manutention et les engins utilisés à l'intérieur de l'installation sont conformes aux dispositions en vigueur en matière de limitation de leurs émissions sonores"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "L'usage de tous appareils de communication par voie acoustique (sirènes, avertisseurs, haut-parleurs, etc.), gênant pour le voisinage, est interdit, sauf si leur emploi est exceptionnel et réservé à la prévention et au signalement d'incidents graves ou d'accidents."
                         }
@@ -4191,7 +3870,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 8 - Bruit et vibrations."
                     }
@@ -4199,7 +3877,6 @@
             ],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Chapitre VIII : Bruit et vibrations"
             }
@@ -4238,19 +3915,16 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les déchets produits par l'installation sont entreposés dans des conditions prévenant toute dégradation qui remettrait en cause leur valorisation ou élimination appropriée."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "La quantité de déchets entreposés sur le site ne dépasse pas la capacité correspondant à 3 mois de production ou, en cas de traitement externe, un lot normal d'expédition vers l'installation de traitement."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les déchets dangereux font l'objet de bordereaux de suivi qui sont conservés pendant 5 ans."
                         }
@@ -4259,7 +3933,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 9 - Généralités."
                     }
@@ -4267,7 +3940,6 @@
             ],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Chapitre IX : Déchets"
             }
@@ -4308,13 +3980,11 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Que les effluents de l'installation soient rejetés dans le milieu naturel ou dans un réseau de raccordement à une station d'épuration collective et, le cas échéant, lorsque les flux journaliers autorisés dépassent les valeurs indiquées en contributions nettes, une mesure est réalisée selon la fréquence indiquée dans le tableau ci-dessous pour les polluants énumérés ci-après, à partir d'un échantillon représentatif prélevé sur une durée de 24 heures."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": {
                                 "rows": [
                                     {
@@ -4573,19 +4243,16 @@
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Les polluants et substances qui ne sont pas susceptibles d'être émis par l'installation, ne font pas l'objet des mesures périodiques prévues. Dans ce cas, l'exploitant tient à la disposition de l'inspection des installations classées les éléments techniques permettant d'attester l'absence d'émission de ces produits par l'installation."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Lorsque les polluants bénéficient, au sein du périmètre autorisé, d'une dilution telle qu'ils ne sont plus mesurables au niveau du rejet au milieu extérieur ou au niveau du raccordement avec un réseau d'assainissement, ils sont mesurés au sein du périmètre autorisé avant dilution."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Pour les effluents raccordés, les mesures faites à une fréquence plus contraignante à la demande du gestionnaire de la station d'épuration sont tenues à la disposition de l'inspection des installations classées."
                         }
@@ -4594,7 +4261,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 10 - Surveillance des émissions dans l'eau."
                     }
@@ -4602,7 +4268,6 @@
             ],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Chapitre X : Surveillance des émissions"
             }
@@ -4641,31 +4306,26 @@
                     "outer_alineas": [
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Le directeur général de la prévention des risques est chargé de l'exécution du présent arrêté, qui sera publié au Journal officiel de la République française."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Fait le 12 mai 2020."
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "Pour la ministre et par délégation :"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "\tLe directeur général de la prévention des risques,"
                         },
                         {
                             "active": true,
-                            "links": [],
                             "table": null,
                             "text": "\tC. Bourillet"
                         }
@@ -4674,7 +4334,6 @@
                     "sections": [],
                     "title": {
                         "active": true,
-                        "links": [],
                         "table": null,
                         "text": "Article 11"
                     }
@@ -4682,7 +4341,6 @@
             ],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Chapitre XI : Exécution"
             }
@@ -4704,13 +4362,11 @@
             "outer_alineas": [
                 {
                     "active": true,
-                    "links": [],
                     "table": null,
                     "text": "Les dispositions ci-après sont applicables aux installations existantes selon le calendrier suivant :"
                 },
                 {
                     "active": true,
-                    "links": [],
                     "table": {
                         "rows": [
                             {
@@ -4791,7 +4447,6 @@
                 },
                 {
                     "active": true,
-                    "links": [],
                     "table": null,
                     "text": "Les dispositions ne figurant pas dans le tableau ci-dessus ne sont pas applicables aux installations existantes. Dans l'attente de l'applicabilité de ces dispositions, les dispositions correspondantes de l'arrêté préfectoral d'autorisation demeurent applicables."
                 }
@@ -4800,388 +4455,31 @@
             "sections": [],
             "title": {
                 "active": true,
-                "links": [],
                 "table": null,
                 "text": "Annexe I : Dispositions applicables aux installations existantes"
             }
         }
     ],
-    "summary": {
-        "elements": [
-            {
-                "depth": 0,
-                "section_id": "4c1e3AC2d2bE",
-                "section_title": "Chapitre Ier : Dispositions générales"
-            },
-            {
-                "depth": 1,
-                "section_id": "Aa7AFB8CeF4C",
-                "section_title": "Article 1.1"
-            },
-            {
-                "depth": 1,
-                "section_id": "dF60A615CA6D",
-                "section_title": "Article 1.2 - Définitions."
-            },
-            {
-                "depth": 1,
-                "section_id": "e62E3bB592fc",
-                "section_title": "Article 1.3 - Conformité de l'installation."
-            },
-            {
-                "depth": 0,
-                "section_id": "7fbF277c44Fc",
-                "section_title": "Chapitre II : Implantation et aménagement"
-            },
-            {
-                "depth": 1,
-                "section_id": "59ff35a794F9",
-                "section_title": "Article 2.1 - Règles d'implantation."
-            },
-            {
-                "depth": 1,
-                "section_id": "69747dEbbFFB",
-                "section_title": "Article 2.2 - Intégration dans le paysage."
-            },
-            {
-                "depth": 0,
-                "section_id": "b34a6e5EEB4B",
-                "section_title": "Chapitre III : Exploitation"
-            },
-            {
-                "depth": 1,
-                "section_id": "8Dd3acB1aa71",
-                "section_title": "Article 3.1 - Surveillance de l'installation."
-            },
-            {
-                "depth": 1,
-                "section_id": "AA280F277dCC",
-                "section_title": "Article 3.2 - Contrôle de l'accès."
-            },
-            {
-                "depth": 1,
-                "section_id": "2769DeAaaB12",
-                "section_title": "Article 3.3 - Gestion des produits."
-            },
-            {
-                "depth": 1,
-                "section_id": "a87CdEC32C66",
-                "section_title": "Article 3.4 - Propreté de l'installation."
-            },
-            {
-                "depth": 0,
-                "section_id": "53f7b5BBE64d",
-                "section_title": "Chapitre IV : Prévention des accidents et des pollutions"
-            },
-            {
-                "depth": 1,
-                "section_id": "1c2AE1Bd67B9",
-                "section_title": "Section I : Généralités"
-            },
-            {
-                "depth": 2,
-                "section_id": "4AFFbfB2b088",
-                "section_title": "Article 4.1 - Localisation des risques."
-            },
-            {
-                "depth": 1,
-                "section_id": "db7Fff481D5a",
-                "section_title": "Section II : Dispositions constructives"
-            },
-            {
-                "depth": 2,
-                "section_id": "Cbd5fcfa6d7E",
-                "section_title": "Article 4.2 - Comportement au feu."
-            },
-            {
-                "depth": 2,
-                "section_id": "D00c4F787e8D",
-                "section_title": "Article 4.3 - Accessibilité."
-            },
-            {
-                "depth": 2,
-                "section_id": "EaA3f0BA33b6",
-                "section_title": "Article 4.4 - Désenfumage."
-            },
-            {
-                "depth": 2,
-                "section_id": "7fDe34BFE5E1",
-                "section_title": "Article 4.5 - Moyens d'alerte et de lutte contre l'incendie."
-            },
-            {
-                "depth": 2,
-                "section_id": "db680af30d4B",
-                "section_title": "Article 4.6 - Tuyauteries et canalisations."
-            },
-            {
-                "depth": 1,
-                "section_id": "DEFd5CF75f69",
-                "section_title": "Section III : Dispositif de prévention des accidents"
-            },
-            {
-                "depth": 2,
-                "section_id": "cA706C8dec32",
-                "section_title": "Article 4.7 - Matériels utilisables en atmosphères explosibles."
-            },
-            {
-                "depth": 2,
-                "section_id": "AaFF8df0d8AF",
-                "section_title": "Article 4.8 - Installations électriques et chauffage."
-            },
-            {
-                "depth": 2,
-                "section_id": "cE3D59bb41be",
-                "section_title": "Article 4.9 - Ventilation des locaux."
-            },
-            {
-                "depth": 2,
-                "section_id": "030fA69C5aC6",
-                "section_title": "Article 4.10 - Systèmes de détection et extinction automatiques."
-            },
-            {
-                "depth": 2,
-                "section_id": "67a1eC2AB31b",
-                "section_title": "Article 4.11 - Dispositions particulières applicables aux [...]"
-            },
-            {
-                "depth": 1,
-                "section_id": "0c18deb7E55c",
-                "section_title": "Section IV : Dispositif de rétention des pollutions [...]"
-            },
-            {
-                "depth": 2,
-                "section_id": "BE3533d1fC01",
-                "section_title": "Article 4.12 - Capacité de rétention."
-            },
-            {
-                "depth": 2,
-                "section_id": "7F673eEc22fb",
-                "section_title": "Article 4.13 - Rétention et isolement."
-            },
-            {
-                "depth": 1,
-                "section_id": "6F052Cc16Ddd",
-                "section_title": "Section V : Dispositions d'exploitation"
-            },
-            {
-                "depth": 2,
-                "section_id": "aEc46F35B62E",
-                "section_title": "Article 4.14 - Travaux."
-            },
-            {
-                "depth": 2,
-                "section_id": "564D9F33DccE",
-                "section_title": "Article 4.15 - Vérification périodique et maintenance des [...]"
-            },
-            {
-                "depth": 2,
-                "section_id": "Cc7CfB412dEf",
-                "section_title": "Article 4.16 - Dispositions relatives à la prévention des [...]"
-            },
-            {
-                "depth": 0,
-                "section_id": "d518BF66aFba",
-                "section_title": "Chapitre V : Émissions dans l'eau"
-            },
-            {
-                "depth": 1,
-                "section_id": "DD00E3d0C4F9",
-                "section_title": "Section I : Principes généraux"
-            },
-            {
-                "depth": 2,
-                "section_id": "78B6CCa9eDCb",
-                "section_title": "Article 5.1.1 - Applicabilité."
-            },
-            {
-                "depth": 2,
-                "section_id": "8cC96EEc2DfF",
-                "section_title": "Article 5.1.2 - Compatibilité avec les objectifs de qualité du [...]"
-            },
-            {
-                "depth": 1,
-                "section_id": "F3DA936C3ce3",
-                "section_title": "Section II : Prélèvements et consommation d'eau"
-            },
-            {
-                "depth": 2,
-                "section_id": "bfcA2ACeEA9D",
-                "section_title": "Article 5.2 - Prélèvement d'eau."
-            },
-            {
-                "depth": 2,
-                "section_id": "C29F0De6cdE9",
-                "section_title": "Article 5.3 - Ouvrages de prélèvements."
-            },
-            {
-                "depth": 1,
-                "section_id": "1C3ac87EF14F",
-                "section_title": "Section III : Collecte et rejet des effluents"
-            },
-            {
-                "depth": 2,
-                "section_id": "d50aDcabc4fc",
-                "section_title": "Article 5.4 - Collecte des effluents."
-            },
-            {
-                "depth": 2,
-                "section_id": "edaf72092f23",
-                "section_title": "Article 5.5 - Points de rejets."
-            },
-            {
-                "depth": 2,
-                "section_id": "35a3CDfA01dB",
-                "section_title": "Article 5.6 - Rejet des eaux pluviales."
-            },
-            {
-                "depth": 2,
-                "section_id": "A9eF3Dc436C1",
-                "section_title": "Article 5.7 - Eaux souterraines."
-            },
-            {
-                "depth": 1,
-                "section_id": "AAf0Eb90fbAf",
-                "section_title": "Section IV : Valeurs limites d'émission"
-            },
-            {
-                "depth": 2,
-                "section_id": "DE4Cac9BBDEd",
-                "section_title": "Article 5.8 - Généralités."
-            },
-            {
-                "depth": 2,
-                "section_id": "Feb2647730da",
-                "section_title": "Article 5.9 - Conditions de rejets dans l'eau (milieu naturel [...]"
-            },
-            {
-                "depth": 2,
-                "section_id": "1AF0eADEbDbB",
-                "section_title": "Article 5.10 - Valeurs limites d'émission pour rejet dans le [...]"
-            },
-            {
-                "depth": 2,
-                "section_id": "A4726B6f6EEB",
-                "section_title": "Article 5.11 - Raccordement à une station d'épuration [...]"
-            },
-            {
-                "depth": 2,
-                "section_id": "dA40Df547FBB",
-                "section_title": "Article 5.12 - Dispositions communes aux valeurs limites [...]"
-            },
-            {
-                "depth": 0,
-                "section_id": "F8A3e9aF244c",
-                "section_title": "Chapitre VI : Émissions dans l'air"
-            },
-            {
-                "depth": 1,
-                "section_id": "D65cCc75689C",
-                "section_title": "Section I : Généralités"
-            },
-            {
-                "depth": 2,
-                "section_id": "DfF91A362Cb5",
-                "section_title": "Article 6.1 - Généralités."
-            },
-            {
-                "depth": 1,
-                "section_id": "E6DCE3Ea1ebf",
-                "section_title": "Section II : Rejets à l'atmosphère"
-            },
-            {
-                "depth": 2,
-                "section_id": "0Dad2dfC5B0B",
-                "section_title": "Article 6.2 - Points de rejets."
-            },
-            {
-                "depth": 2,
-                "section_id": "56A7dDe8Be98",
-                "section_title": "Article 6.3 - Points de mesures."
-            },
-            {
-                "depth": 2,
-                "section_id": "cCBfcC89aBca",
-                "section_title": "Article 6.4 - Hauteur de cheminée et conditions de rejet à [...]"
-            },
-            {
-                "depth": 2,
-                "section_id": "cF59467Ba3B8",
-                "section_title": "Article 6.5 - Valeurs limites d'émission."
-            },
-            {
-                "depth": 1,
-                "section_id": "0b5a7CBbFcfC",
-                "section_title": "Section III : Autres dispositions applicables"
-            },
-            {
-                "depth": 2,
-                "section_id": "8d9F14d9435E",
-                "section_title": "Article 6.6 - Odeurs."
-            },
-            {
-                "depth": 0,
-                "section_id": "BaCEA01C87cD",
-                "section_title": "Chapitre VII : Émissions dans les sols"
-            },
-            {
-                "depth": 1,
-                "section_id": "dABAE6940c94",
-                "section_title": "Article 7"
-            },
-            {
-                "depth": 0,
-                "section_id": "fEc89cf2eA84",
-                "section_title": "Chapitre VIII : Bruit et vibrations"
-            },
-            {
-                "depth": 1,
-                "section_id": "5f1ffbDBDEcb",
-                "section_title": "Article 8 - Bruit et vibrations."
-            },
-            {
-                "depth": 0,
-                "section_id": "87f2fE2BffB9",
-                "section_title": "Chapitre IX : Déchets"
-            },
-            {
-                "depth": 1,
-                "section_id": "d6F7C6Cfa5B3",
-                "section_title": "Article 9 - Généralités."
-            },
-            {
-                "depth": 0,
-                "section_id": "Ee13C6E98f37",
-                "section_title": "Chapitre X : Surveillance des émissions"
-            },
-            {
-                "depth": 1,
-                "section_id": "3F9F0fB6aA1C",
-                "section_title": "Article 10 - Surveillance des émissions dans l'eau."
-            },
-            {
-                "depth": 0,
-                "section_id": "Ac874fe1Ccc3",
-                "section_title": "Chapitre XI : Exécution"
-            },
-            {
-                "depth": 1,
-                "section_id": "bedCf80fdffB",
-                "section_title": "Article 11"
-            },
-            {
-                "depth": 0,
-                "section_id": "2DB95fe6E8aF",
-                "section_title": "Annexe I : Dispositions applicables aux installations existantes"
-            }
-        ]
-    },
     "title": {
         "active": true,
-        "links": [],
         "table": null,
         "text": "Arrêté du 12/05/20 relatif aux prescriptions générales applicables aux installations relevant du régime de l'enregistrement au titre de la rubrique n° 2940 (Application, revêtement, laquage, stratification, imprégnation, cuisson, séchage de vernis, peinture, apprêt, colle, enduit, etc., sur support quelconque) de la nomenclature des installations classées pour la protection de l'environnement"
     },
-    "unique_version": true,
-    "visa": [],
-    "warning_inactive": null
+    "version_descriptor": {
+        "aed_date": {
+            "is_used_in_parametrization": true,
+            "left_value": null,
+            "right_value": null,
+            "unknown_classement_date_version": true
+        },
+        "applicability_warnings": [],
+        "applicable": true,
+        "date_de_mise_en_service": {
+            "is_used_in_parametrization": false,
+            "left_value": null,
+            "right_value": null,
+            "unknown_classement_date_version": null
+        }
+    },
+    "visa": []
 }

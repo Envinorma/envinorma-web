@@ -30,6 +30,7 @@ RSpec.describe 'Installation' do
       installation_id: installation_duplicated.id,
       activite: "Centrale d'enrobage à chaud",
       date_autorisation: 'Tue, 07 May 1974'.to_date,
+      date_mise_en_service: 'Tue, 07 May 1974'.to_date,
       rubrique_acte: '2521',
       regime_acte: 'A',
       alinea_acte: '1'

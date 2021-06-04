@@ -35,42 +35,28 @@ class Classement < ApplicationRecord
   end
 
   class << self
-    def validate_then_recreate(classements_list)
-      puts 'Seeding classements...'
-      puts '...validating'
-      classements = []
-      classements_list.each do |classement_raw|
-        installation_id = Installation.find_by(s3ic_id: classement_raw['s3ic_id'])&.id
-        next unless installation_id
+    def create_hash_from_csv_row(classement_raw, s3ic_id_to_envinorma_id)
+      installation_id = if s3ic_id_to_envinorma_id.key?(classement_raw['s3ic_id'])
+                          s3ic_id_to_envinorma_id[classement_raw['s3ic_id']]
+                        else
+                          1
+                        end
 
-        classement = Classement.new(
-          rubrique: classement_raw['rubrique'],
-          regime: classement_raw['regime'],
-          alinea: classement_raw['alinea'],
-          rubrique_acte: classement_raw['rubrique_acte'],
-          regime_acte: classement_raw['regime_acte'],
-          alinea_acte: classement_raw['alinea_acte'],
-          activite: classement_raw['activite'],
-          date_autorisation: classement_raw['date_autorisation']&.to_date,
-          volume: "#{classement_raw['volume']} #{classement_raw['unit']}",
-          installation_id: installation_id
-        )
-        raise "error validations #{classement.inspect} #{classement.errors.full_messages}" unless classement.validate
-
-        classements << classement
-      end
-      recreate(classements)
-    end
-
-    private
-
-    def recreate(classements)
-      puts '...destroying'
-      Classement.destroy_all
-      ActiveRecord::Base.connection.reset_pk_sequence!(Classement.table_name)
-      puts '...creating'
-      classements.each(&:save)
-      puts "...done. Inserted #{Classement.count}/#{classements.length} classements."
+      {
+        'rubrique' => classement_raw['rubrique'],
+        'regime' => classement_raw['regime'],
+        'alinea' => classement_raw['alinea'],
+        'rubrique_acte' => classement_raw['rubrique_acte'],
+        'regime_acte' => classement_raw['regime_acte'],
+        'alinea_acte' => classement_raw['alinea_acte'],
+        'activite' => classement_raw['activite'],
+        'date_autorisation' => classement_raw['date_autorisation']&.to_date,
+        'date_mise_en_service' => classement_raw['date_mise_en_service']&.to_date,
+        'volume' => "#{classement_raw['volume']} #{classement_raw['unit']}",
+        'installation_id' => installation_id,
+        'created_at' => DateTime.now,
+        'updated_at' => DateTime.now
+      }
     end
   end
 end
