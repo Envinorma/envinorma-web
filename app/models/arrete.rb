@@ -50,10 +50,11 @@ class Arrete < ApplicationRecord
     def validate_then_recreate(arretes_files)
       puts 'Seeding arretes...'
       arretes = []
-      arretes_files.each do |json_file|
+      arretes_files.each_with_index do |json_file, index|
         am = JSON.parse(File.read(json_file))
         arrete = new_arrete(am)
         arretes << arrete
+        puts "#{index + 1} arretes initialized" if index % 10 == 9
       end
       puts "Found #{arretes_files.length} arretes."
       recreate(arretes)
@@ -73,8 +74,6 @@ class Arrete < ApplicationRecord
     end
 
     def new_arrete(arrete_json)
-      autorisation_date_known = arrete_json.dig('version_descriptor', 'aed_date', 'known_value')
-      date_de_mise_en_service_known = arrete_json.dig('version_descriptor', 'date_de_mise_en_service', 'known_value')
       arrete = Arrete.new(
         data: arrete_json,
         cid: arrete_json['id'],
@@ -83,12 +82,30 @@ class Arrete < ApplicationRecord
         classements_with_alineas: arrete_json['classements_with_alineas'],
         aida_url: arrete_json['aida_url'],
         legifrance_url: arrete_json['legifrance_url'],
-        default_version: autorisation_date_known != true && date_de_mise_en_service_known != true,
+        default_version: default_version?(arrete_json['version_descriptor']),
         version_descriptor: arrete_json['version_descriptor']
       )
       raise "error validations #{arrete.cid} #{arrete.errors.full_messages}" unless arrete.validate
 
       arrete
+    end
+
+    def default_version?(version_descriptor)
+      default1 = default_version_for_date?(version_descriptor['aed_date'])
+      default2 = default_version_for_date?(version_descriptor['date_de_mise_en_service'])
+      default1 && default2
+    end
+
+    def default_version_for_date?(date_descriptor)
+      raise 'Expecting non nil date_descriptor' if date_descriptor.nil?
+
+      %w[unknown_classement_date_version is_used_in_parametrization].each do |key|
+        raise "Expecting key #{key} in date_descriptor" unless date_descriptor.key?(key)
+      end
+
+      return true if date_descriptor['is_used_in_parametrization'] == false
+
+      date_descriptor['unknown_classement_date_version'] == true
     end
   end
 end
