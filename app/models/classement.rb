@@ -41,27 +41,13 @@ class Classement < ApplicationRecord
       ActiveRecord::Base.connection.reset_pk_sequence!(Classement.table_name)
     end
 
-    def recreate_from_file(seed_file)
-      puts "#{Time.now} Seeding classements..."
-      batch_size = 5000
-      nb_classements = `wc -l #{seed_file}`.to_i - 1 # count lines without overflowing memory
-      nb_batches = (nb_classements.to_f / batch_size).ceil
+    def create_hash_from_csv_row(classement_raw, s3ic_id_to_envinorma_id)
+      installation_id = if s3ic_id_to_envinorma_id.key?(classement_raw['s3ic_id'])
+                          s3ic_id_to_envinorma_id[classement_raw['s3ic_id']]
+                        else
+                          1
+                        end
 
-      s3ic_id_to_envinorma_id = Installation.load_s3ic_id_to_envinorma_id
-
-      # We avoid actually building batches in order to avoid memory overflow
-      CSV.foreach(seed_file, headers: true).each_slice(batch_size).each_with_index do |raw_batch, batch_index|
-        hash_batch = raw_batch.map { |raw| create_classement_hash(raw, s3ic_id_to_envinorma_id) }
-        insert_batch(batch_index, nb_batches, hash_batch)
-        GC.start if batch_index % 10 == 9 # Force garbage collection for RAM limitations
-      end
-
-      puts "...done. Inserted #{Classement.count}/#{nb_classements} classements."
-    end
-
-    private
-
-    def create_classement_hash(classement_raw, s3ic_id_to_envinorma_id)
       {
         'rubrique' => classement_raw['rubrique'],
         'regime' => classement_raw['regime'],
@@ -73,35 +59,10 @@ class Classement < ApplicationRecord
         'date_autorisation' => classement_raw['date_autorisation']&.to_date,
         'date_mise_en_service' => classement_raw['date_mise_en_service']&.to_date,
         'volume' => "#{classement_raw['volume']} #{classement_raw['unit']}",
-        'installation_id' => s3ic_id_to_envinorma_id[classement_raw['s3ic_id']],
+        'installation_id' => installation_id,
         'created_at' => DateTime.now,
         'updated_at' => DateTime.now
       }
-    end
-
-    def validate_batch(classement_hashes)
-      classement_hashes.each do |classement_hash|
-        classement = Classement.new(classement_hash)
-
-        raise "error validations #{classement.inspect} #{classement.errors.full_messages}" unless classement.validate
-      end
-    end
-
-    def validate_batch_and_destroy_existing_classements(classement_hashes)
-      puts '...validating first batch.'
-      validate_batch(classement_hashes)
-
-      puts '...destroying existing classements.'
-      Classement.destroy_all
-      ActiveRecord::Base.connection.reset_pk_sequence!(Classement.table_name)
-    end
-
-    def insert_batch(batch_index, nb_batches, classement_hashes)
-      validate_batch_and_destroy_existing_classements(classement_hashes) if batch_index.zero?
-      puts "...inserting batch #{batch_index + 1}/#{nb_batches}"
-      inserted_ids = Classement.insert_all(classement_hashes)
-      missing_insertions = classement_hashes.length - inserted_ids.length
-      puts "Warning: #{missing_insertions} classements were not inserted!" unless missing_insertions.zero?
     end
   end
 end
