@@ -35,12 +35,6 @@ class Classement < ApplicationRecord
   end
 
   class << self
-    def delete_and_reset_primary_key
-      puts 'Deleting existing Classements.'
-      Classement.delete_all
-      ActiveRecord::Base.connection.reset_pk_sequence!(Classement.table_name)
-    end
-
     def create_hash_from_csv_row(classement_raw, s3ic_id_to_envinorma_id)
       installation_id = if s3ic_id_to_envinorma_id.key?(classement_raw['s3ic_id'])
                           s3ic_id_to_envinorma_id[classement_raw['s3ic_id']]

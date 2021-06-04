@@ -20,12 +20,6 @@ class AP < ApplicationRecord
   end
 
   class << self
-    def delete_and_reset_primary_key
-      puts 'Deleting existing APs.'
-      AP.delete_all
-      ActiveRecord::Base.connection.reset_pk_sequence!(AP.table_name)
-    end
-
     def create_hash_from_csv_row(ap_raw, s3ic_id_to_envinorma_id)
       installation_id = if s3ic_id_to_envinorma_id.key?(ap_raw['installation_s3ic_id'])
                           s3ic_id_to_envinorma_id[ap_raw['installation_s3ic_id']]

@@ -8,7 +8,7 @@ class DataManager
     Arrete.validate_then_recreate(arretes_files)
   end
 
-  def self.seed_installations_and_associations
+  def self.seed_installations_and_associations(validate)
     seed_folder = File.join(Rails.root, 'db', 'seeds')
 
     installations_file = File.join(seed_folder, 'installations_all.csv')
@@ -16,9 +16,11 @@ class DataManager
     aps_file = File.join(seed_folder, 'aps_all.csv')
 
     # Validate files
-    recreate_from_file(installations_file, Installation, 1000, true, {})
-    recreate_from_file(classements_file, Classement, 5000, true, {})
-    recreate_from_file(aps_file, AP, 5000, true, {})
+    if validate
+      recreate_from_file(installations_file, Installation, 1000, true, {})
+      recreate_from_file(classements_file, Classement, 5000, true, {})
+      recreate_from_file(aps_file, AP, 5000, true, {})
+    end
 
     # Delete old objects
     delete_old_objects
@@ -82,12 +84,16 @@ class DataManager
   end
 
   def self.delete_old_objects
-    AP.delete_and_reset_primary_key
-    Classement.delete_and_reset_primary_key
-    Prescription.delete_and_reset_primary_key
-    puts 'Deleting existing Installations.' # Delete is faster than Destroy
-    Installation.delete_all
-    ActiveRecord::Base.connection.reset_pk_sequence!(Installation.table_name)
+    delete_and_reset_primary_key(AP)
+    delete_and_reset_primary_key(Classement)
+    delete_and_reset_primary_key(Prescription)
+    delete_and_reset_primary_key(Installation)
+  end
+
+  def self.delete_and_reset_primary_key(model)
+    puts "Deleting existing #{model}s."
+    model.delete_all
+    ActiveRecord::Base.connection.reset_pk_sequence!(model.table_name)
   end
 
   def self.load_s3ic_id_to_envinorma_id
