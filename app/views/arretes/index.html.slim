@@ -123,7 +123,8 @@
                                               ref: subsection.reference_str,
                                               am_ref: am_ref,
                                               am_id: arrete.id,
-                                              subsection_rank: subsection_rank }
+                                              subsection_rank: subsection_rank,
+                                              modification: true }
 
                         - if subsection.applicability.active && subsection.outer_alineas.count > 1
                           .border-bottom.mb-3.pb-3
@@ -140,7 +141,8 @@
                                     ref: subsection.reference_str,
                                     am_ref: am_ref,
                                     am_id: arrete.id,
-                                    subsection_rank: subsection_rank }
+                                    subsection_rank: subsection_rank,
+                                    modification: false }
 
                   / iterate on sections and increment level
                   - subsection.sections.each_with_index do |item, item_index|
