@@ -1,7 +1,7 @@
 const nbWordsInLines = (lines) => {
   var result = 0;
   lines.forEach((line) => {
-    result += line.split(" ").length;
+    result += line.trim().split(" ").length; // trim because some browsers add white space after each word
   });
   return result;
 };
