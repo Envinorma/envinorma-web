@@ -7,7 +7,7 @@ const nbWordsInLines = (lines) => {
 };
 
 const tooMuchLineBreaks = (text) => {
-  const lines = text.split("\n");
+  const lines = text.split(/\r?\n|\r/g);
   const nbLines = lines.length;
   const nbWords = nbWordsInLines(lines);
   if (nbLines <= 3) {
@@ -17,7 +17,7 @@ const tooMuchLineBreaks = (text) => {
 };
 
 const removeLineBreaks = (text) => {
-  return text.replaceAll("\n", " ");
+  return text.replaceAll(/\r?\n|\r/g, " ");
 };
 
 const getTextToPaste = (event) => {
