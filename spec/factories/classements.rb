@@ -43,5 +43,47 @@ FactoryBot.define do
       regime_acte { 'D' }
       alinea_acte { '1c' }
     end
+
+    trait :classement_1234_D_before2010 do
+      rubrique { '1234' }
+      regime { 'D' }
+      alinea { '1' }
+      installation
+      activite { 'Fake activité' }
+      date_autorisation { 'Fri, 30 Jul 2004' }
+      date_mise_en_service { 'Fri, 30 Jul 2004' }
+      volume { '15.000 V' }
+      rubrique_acte { '1234' }
+      regime_acte { 'D' }
+      alinea_acte { '1' }
+    end
+
+    trait :classement_1234_D_after2010 do
+      rubrique { '1234' }
+      regime { 'D' }
+      alinea { '1' }
+      installation
+      activite { 'Fake activité' }
+      date_autorisation { 'Fri, 30 Jul 2014' }
+      date_mise_en_service { 'Fri, 30 Jul 2014' }
+      volume { '15.000 V' }
+      rubrique_acte { '1234' }
+      regime_acte { 'D' }
+      alinea_acte { '1' }
+    end
+
+    trait :classement_2345_D do
+      rubrique { '2345' }
+      regime { 'D' }
+      alinea { '' }
+      installation
+      activite { 'Fake activité 2345' }
+      date_autorisation { 'Fri, 30 Jul 2014' }
+      date_mise_en_service { 'Fri, 30 Jul 2014' }
+      volume { '12.000 t' }
+      rubrique_acte { '2345' }
+      regime_acte { 'D' }
+      alinea_acte { '' }
+    end
   end
 end
