@@ -16,13 +16,15 @@ const tooMuchLineBreaks = (text) => {
   return nbLines == nbWords;
 };
 
-const removeLineBreaks = (text) => {
+const removeLineBreaksAndDoubleSpaces = (text) => {
   return text.replace(/\r?\n|\r/g, " ").replace(/  /g, " ");
 };
 
 const getTextToPaste = (event) => {
   const toPaste = (event.clipboardData || window.clipboardData).getData("text");
-  return tooMuchLineBreaks(toPaste) ? removeLineBreaks(toPaste) : toPaste;
+  return tooMuchLineBreaks(toPaste)
+    ? removeLineBreaksAndDoubleSpaces(toPaste)
+    : toPaste;
 };
 
 const pasteText = (textarea, toPaste) => {
