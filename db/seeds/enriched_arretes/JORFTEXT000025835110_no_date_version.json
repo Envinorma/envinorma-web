@@ -1008,7 +1008,9 @@
             "right_value": null,
             "unknown_classement_date_version": null
         },
-        "applicability_warnings": [],
+        "applicability_warnings": [
+            "Cet arrêté ne s’applique qu’aux installations agréées."
+        ],
         "applicable": true,
         "date_de_mise_en_service": {
             "is_used_in_parametrization": false,
