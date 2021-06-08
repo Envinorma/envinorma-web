@@ -35,3 +35,10 @@ vendor/bundle
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# Unused Seeds
+db/seeds/documents*
+db/seeds/aps_sample.csv
+db/seeds/installations_sample.csv
+db/seeds/classements_sample.csv
+backups

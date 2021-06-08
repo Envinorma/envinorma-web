@@ -1,5 +1,6 @@
+- suffix = modification ? '_modif' : ''
 - subsection.outer_alineas.each_with_index do |outer_alinea, alinea_index|
-  - alinea_id = "#{subsection_id}_#{alinea_index}"
+  - alinea_id = "#{subsection_id}_#{alinea_index}#{suffix}"
   - if outer_alinea.text != ''
     .form-group.row
         .col-sm-12
@@ -26,7 +27,7 @@
   - if outer_alinea.table
     table.table.table-bordered
       - outer_alinea.table.rows.each_with_index do |row, index|
-        - row_id = "#{alinea_id}_#{index}"
+        - row_id = "#{alinea_id}_#{index}#{suffix}"
         - if row.is_header
           tr
             th
