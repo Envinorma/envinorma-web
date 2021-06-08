@@ -13,8 +13,7 @@ RSpec.describe 'test prescription selection in modified section', js: true do
 
     # Show previous version
     find('.icon-collapse-mini').click
-
-    sleep(10)
+    expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0_modif')
 
     # There are 2 alineas : the previous version and the new version
     expect(all('.alineas_checkbox')[0][:name]).to eq 'prescription_checkbox_941cf0d1bA08_0_modif'
@@ -22,10 +21,12 @@ RSpec.describe 'test prescription selection in modified section', js: true do
 
     # We expect to have both Prescriptions in db after clicking both checkboxes
     all('.alineas_checkbox')[1].click
-    sleep(0.3) # ensure prescription persistence was done
+    expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
+    expect(page).to have_selector '.counter', text: '1'
     expect(Prescription.all.pluck(:alinea_id)).to eq ['941cf0d1bA08_0']
     all('.alineas_checkbox')[0].click
-    sleep(0.3) # ensure prescription persistence was done
+    expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0_modif', checked: true)
+    expect(page).to have_selector '.counter', text: '2'
     expect(Prescription.all.pluck(:alinea_id)).to eq %w[941cf0d1bA08_0 941cf0d1bA08_0_modif]
   end
 end
