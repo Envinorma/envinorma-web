@@ -1,13 +1,13 @@
 const nbWordsInLines = (lines) => {
   var result = 0;
   lines.forEach((line) => {
-    result += line.split(" ").length;
+    result += line.trim().split(" ").length; // trim because some browsers add white space after each word
   });
   return result;
 };
 
 const tooMuchLineBreaks = (text) => {
-  const lines = text.split("\n");
+  const lines = text.split(/\r?\n|\r/g);
   const nbLines = lines.length;
   const nbWords = nbWordsInLines(lines);
   if (nbLines <= 3) {
@@ -16,13 +16,15 @@ const tooMuchLineBreaks = (text) => {
   return nbLines == nbWords;
 };
 
-const removeLineBreaks = (text) => {
-  return text.replaceAll("\n", " ");
+const removeLineBreaksAndDoubleSpaces = (text) => {
+  return text.replace(/\r?\n|\r/g, " ").replace(/  /g, " ");
 };
 
 const getTextToPaste = (event) => {
   const toPaste = (event.clipboardData || window.clipboardData).getData("text");
-  return tooMuchLineBreaks(toPaste) ? removeLineBreaks(toPaste) : toPaste;
+  return tooMuchLineBreaks(toPaste)
+    ? removeLineBreaksAndDoubleSpaces(toPaste)
+    : toPaste;
 };
 
 const pasteText = (textarea, toPaste) => {
