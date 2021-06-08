@@ -26,6 +26,8 @@ window.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
+  changeArretesLinkButtonHref(button); // Execute at page load
+
   const checkboxes = document.querySelectorAll(".js_arrete_checkbox");
   checkboxes.forEach((checkbox) => {
     checkbox.addEventListener("change", () =>
