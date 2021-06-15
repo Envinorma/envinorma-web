@@ -3,7 +3,7 @@
 ActiveRecord::Base.logger.level = 1
 
 class DataManager
-  def self.seed_arretes_and_associations
+  def self.seed_arretes
     arretes_files = Dir.glob("#{Rails.root}/db/seeds/enriched_arretes/*.json")
     Arrete.validate_then_recreate(arretes_files)
   end
