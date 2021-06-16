@@ -2,7 +2,7 @@
 
 class InstallationsController < ApplicationController
   include FilterArretes
-  include ApplicationHelper
+  include RegimeHelper
   before_action :set_installation, except: %i[index search]
   before_action :force_json, only: :search
   before_action :check_if_authorized_user, only: %i[show edit update]

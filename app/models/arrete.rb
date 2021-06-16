@@ -2,6 +2,7 @@
 
 class Arrete < ApplicationRecord
   include ApplicationHelper
+  include RegimeHelper
 
   validates :data, :title, :cid, :aida_url, :legifrance_url, :date_of_signature, :version_descriptor, presence: true
   validates :title, length: { minimum: 10 }
