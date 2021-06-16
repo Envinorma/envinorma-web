@@ -7,7 +7,7 @@ Ce projet est réalisé dans le cadre du programme [EIG](https://entrepreneur-in
 
 Pour en savoir plus, vous pouvez consulter [la page du projet](https://entrepreneur-interet-general.etalab.gouv.fr/defis/2020/envinorma.html) ou vous rendre sur [l'application](envinorma.herokuapp.com/).
 
-![l'application envinorma.herokuapp.com/](docs/demo-envinorma.gif)
+![l'application envinorma.herokuapp.com/](app/javascript/images/cover.png)
 
 
 ## Lancer l'application en local
@@ -16,15 +16,20 @@ Pour en savoir plus, vous pouvez consulter [la page du projet](https://entrepren
 ```
 git clone git@github.com:Envinorma/envinorma-web.git
 cd envinorma-web
+```
+
+### Installer les librairies
+```
 bundle install
+yarn install
 ```
 
 ### Seeder les données et lancer le serveur
 ```
-rails db:seed
+rails db:create db:migrate db:seed
 rails s
 ```
-Vous pouvez maintenant vous rendre sur l'URL `localhost:3000` et vous devriez pouvoir utiliser l'application en local.
+Vous pouvez maintenant vous rendre sur l'URL `localhost:3000` pour utiliser l'application en local.
 
 ### Lancer les tests
 ```
