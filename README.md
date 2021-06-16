@@ -7,6 +7,8 @@ Ce projet est réalisé dans le cadre du programme [EIG](https://entrepreneur-in
 
 Pour en savoir plus, vous pouvez consulter [la page du projet](https://entrepreneur-interet-general.etalab.gouv.fr/defis/2020/envinorma.html) ou vous rendre sur [l'application](envinorma.herokuapp.com/).
 
+![l'application envinorma.herokuapp.com/](docs/demo-envinorma.gif)
+
 
 ## Lancer l'application en local
 
@@ -20,7 +22,7 @@ bundle install
 ### Seeder les données et lancer le serveur
 ```
 rails db:seed
-rails -s
+rails s
 ```
 Vous pouvez maintenant vous rendre sur l'URL `localhost:3000` et vous devriez pouvoir utiliser l'application en local.
 
