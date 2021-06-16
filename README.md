@@ -5,9 +5,9 @@ Envinorma cherche à faciliter la préparation des inspections en simplifiant l'
 Ce projet est réalisé dans le cadre du programme [EIG](https://entrepreneur-interet-general.etalab.gouv.fr/).
 
 
-Pour en savoir plus, vous pouvez consulter [la page du projet](https://entrepreneur-interet-general.etalab.gouv.fr/defis/2020/envinorma.html) ou vous rendre sur [l'application](envinorma.herokuapp.com/).
+Pour en savoir plus, vous pouvez consulter [la page du projet](https://entrepreneur-interet-general.etalab.gouv.fr/defis/2020/envinorma.html) ou vous rendre sur [l'application](http://envinorma.herokuapp.com/).
 
-![l'application envinorma.herokuapp.com/](app/javascript/images/cover.png)
+![l'application envinorma.herokuapp.com](app/javascript/images/cover.png)
 
 
 ## Lancer l'application en local
@@ -37,3 +37,27 @@ bundle exec rspec # unit and features tests
 rubocop #linter ruby
 slim-lint app/views/ #linter slim
 ```
+
+> Si vous souhaitez mettre en place des "git hooks" pour lancer ces tests à chaque push, il vous suffit d'éxécuter `$ ./scripts/install-hooks.bash`
+
+---
+
+## Pour aller plus loin
+
+### Les données
+Pour fonctionner l'application nécessite un certains nombres de données liées aux installations et à la règlementation.
+Vous trouverez dans [ce dossier](https://github.com/Envinorma/data-tasks) les différentes tâches de préparation de la donnée. Elle est ensuite incorporée dans l'application à l'aide du `DataManager`
+
+```
+# permet de seeder les installations ainsi que leurs classements et arrêtés préfectoraux associés
+DataManager.seed_installations_and_associations(true)
+
+# permet de seeder les arrêtés ministériels
+DataManager.seed_ams
+```
+
+> (Aujourd'hui la donnée est simplement supprimée puis recrée - un systême plus fin de mise à jour est en cours).
+
+> On utilise la gem `after_party` pour lancer des tâches au moment du déploiement. ex: lorsque que l'on met en production un nouveau lot d'arrêtés ministériels
+
+![le schéma de la donnée](docs/schema.png)
