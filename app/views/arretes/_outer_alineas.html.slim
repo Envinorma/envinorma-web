@@ -33,7 +33,7 @@
             th
             - row.cells.each do |cell|
               th colspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
-                = cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe
+                = cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe # rubocop:disable Rails/OutputSafety
         - else
           tr
             td
@@ -55,4 +55,4 @@
             - row.cells.each do |cell|
               td colspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
                 = label_tag("prescription_checkbox_#{row_id}",
-                  cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe)
+                  cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe)  # rubocop:disable Rails/OutputSafety
