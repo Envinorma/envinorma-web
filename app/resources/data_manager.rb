@@ -4,12 +4,12 @@ ActiveRecord::Base.logger.level = 1
 
 class DataManager
   def self.seed_arretes_and_associations
-    arretes_files = Dir.glob("#{Rails.root}/db/seeds/enriched_arretes/*.json")
+    arretes_files = Dir.glob(Rails.root.join('db/seeds/enriched_arretes/*.json'))
     Arrete.validate_then_recreate(arretes_files)
   end
 
   def self.seed_installations_and_associations(validate)
-    seed_folder = File.join(Rails.root, 'db', 'seeds')
+    seed_folder = Rails.root.join('db/seeds')
 
     installations_file = File.join(seed_folder, 'installations_all.csv')
     classements_file = File.join(seed_folder, 'classements_all.csv')
@@ -34,15 +34,15 @@ class DataManager
 
   def self.recreate_from_file(seed_file, model, batch_size, validate_only, s3ic_id_to_envinorma_id)
     verb = validate_only ? 'Validating' : 'Seeding'
-    puts "#{Time.now} #{verb} #{model}s..."
+    Rails.logger.info "#{Time.zone.now} #{verb} #{model}s..."
     nb_lines = `wc -l #{seed_file}`.to_i - 1 # count lines without overflowing memory
     nb_batches = (nb_lines.to_f / batch_size).ceil
-    puts "#{nb_batches} batches of size #{batch_size} to process"
+    Rails.logger.info "#{nb_batches} batches of size #{batch_size} to process"
 
     batch_generator = CSV.foreach(seed_file, headers: true).each_slice(batch_size)
     batchwise_insertion(batch_generator, model, nb_batches, validate_only, s3ic_id_to_envinorma_id)
 
-    puts "...done. Inserted #{model.count}/#{nb_lines} #{model}s." unless validate_only
+    Rails.logger.info "...done. Inserted #{model.count}/#{nb_lines} #{model}s." unless validate_only
   end
 
   def self.batchwise_insertion(batches, model, nb_batches, validate_only, s3ic_id_to_envinorma_id)
@@ -68,7 +68,7 @@ class DataManager
   end
 
   def self.validate_batch(model, batch_index, nb_batches, hash_batch)
-    puts "...validating batch #{batch_index + 1}/#{nb_batches}"
+    Rails.logger.info "...validating batch #{batch_index + 1}/#{nb_batches}"
     hash_batch.each do |hash|
       object = model.new(hash)
 
@@ -77,10 +77,11 @@ class DataManager
   end
 
   def self.insert_batch(model, batch_index, nb_batches, hash_batch)
-    puts "...inserting batch #{batch_index + 1}/#{nb_batches}"
-    inserted_ids = model.insert_all(hash_batch)
+    Rails.logger.info "...inserting batch #{batch_index + 1}/#{nb_batches}"
+    # Below line skips validation, but it is handled separately
+    inserted_ids = model.insert_all(hash_batch) # rubocop:disable Rails/SkipsModelValidations
     missing_insertions = hash_batch.length - inserted_ids.length
-    puts "Warning: #{missing_insertions} #{model}s were not inserted!" unless missing_insertions.zero?
+    Rails.logger.info "Warning: #{missing_insertions} #{model}s were not inserted!" unless missing_insertions.zero?
   end
 
   def self.delete_old_objects
@@ -91,7 +92,7 @@ class DataManager
   end
 
   def self.delete_and_reset_primary_key(model)
-    puts "Deleting existing #{model}s."
+    Rails.logger.info "Deleting existing #{model}s."
     model.delete_all
     ActiveRecord::Base.connection.reset_pk_sequence!(model.table_name)
   end

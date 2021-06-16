@@ -40,7 +40,7 @@ RSpec.configure do |config|
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
-  config.before(:each) do
+  config.before do
     DownloadHelpers.clear_downloads
   end
 
@@ -50,10 +50,10 @@ RSpec.configure do |config|
   config.use_transactional_fixtures = false
 
   config.before(:suite) { DatabaseCleaner.clean_with(:truncation) }
-  config.before(:each) { DatabaseCleaner.strategy = :transaction }
-  config.before(:each, js: true) { DatabaseCleaner.strategy = :truncation }
-  config.before(:each) { DatabaseCleaner.start }
-  config.after(:each) { DatabaseCleaner.clean }
+  config.before { DatabaseCleaner.strategy = :transaction }
+  config.before(js: true) { DatabaseCleaner.strategy = :truncation }
+  config.before { DatabaseCleaner.start }
+  config.after { DatabaseCleaner.clean }
 
   # You can uncomment this line to turn off ActiveRecord support entirely.
   # config.use_active_record = false
