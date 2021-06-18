@@ -91,15 +91,16 @@
                   class: 'form-check-input js_arrete_checkbox',
                   'data-arrete-id': arrete.id
                 = label_tag "arrete_#{arrete.id}",
-                  class: arrete.version_descriptor.applicable ? 'active' : 'inactive',
-                  title: arrete.title
-                  = arrete.short_title
+                  class: arrete.version_descriptor.applicable ? 'active' : 'inactive'
+
+                  span.tooltip-underline data-tooltip=arrete.title
+                    = arrete.short_title
                   small.text-secondary
                     = " - #{classement_infos(arrete, @installation)}"
 
             - if arrete.version_descriptor.applicability_warnings.present?
               - warnings = arrete.version_descriptor.applicability_warnings.join(' - ')
-              li data-tooltip=warnings
+              li.tooltip-warning data-tooltip=warnings
                 i.fas.fa-exclamation-triangle
 
     .col
