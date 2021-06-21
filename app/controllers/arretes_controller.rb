@@ -10,9 +10,13 @@ class ArretesController < ApplicationController
       @arretes << Arrete.find(arrete_id)
     end
 
+    @aps = []
+    params['ap_ids']&.each do |ap_id|
+      @aps << AP.find(ap_id)
+    end
+
     @prescription = Prescription.new
     @prescriptions = @user.prescriptions_grouped_for(@installation)
-    @aps = @installation.retrieve_aps
     @alinea_ids = @user.prescription_alinea_ids(@installation)
   end
 
