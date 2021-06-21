@@ -76,9 +76,6 @@
                     - if subsection.applicability.active
                       - if subsection.outer_alineas.present?
                         - subsection_id = subsection.id
-                        *{ tag: "h#{level}",
-                          class: 'icon-collapse',
-                          data: { toggle: 'collapse', target: "#collapse_#{subsection_id}" } }
                           = subsection.title.text
 
                       - else
@@ -89,9 +86,6 @@
                       .inactive
                         - if subsection.outer_alineas.present?
                           - subsection_id = subsection.id
-                          *{ tag: "h#{level}",
-                            class: 'icon-collapse',
-                            data: { toggle: 'collapse', target: "#collapse_#{subsection_id}" } }
                             = subsection.title.text
                         - else
                           *{ tag: "h#{level}" } = subsection.title.text
@@ -103,48 +97,46 @@
 
                     / display outeralineas
                     - if subsection.outer_alineas.present?
-                      .collapse.show id="collapse_#{subsection_id}"
+                      - am_ref = "#{am_short_title} - #{classement_infos}"
 
-                        - am_ref = "#{am_short_title} - #{classement_infos}"
-
-                        / display button and collapse original text version if modified
-                        - if subsection.applicability.modified
-                          small
-                            .border-bottom.mb-3.pb-3
-                              *{ tag: "a href='#'",
-                                class: 'icon-collapse icon-collapse-mini',
-                                data: { toggle: 'collapse', target: "#modified_collapse_#{subsection_id}" } }
-                                | voir le texte d'origine
-
-                              .inactive
-                                .collapse id="modified_collapse_#{subsection_id}"
-                                  = render partial: 'outer_alineas',
-                                    locals: { subsection: subsection.applicability.previous_version,
-                                              level: level,
-                                              subsection_id: subsection_id,
-                                              ref: subsection.reference_str,
-                                              am_ref: am_ref,
-                                              am_id: arrete.id,
-                                              subsection_rank: subsection_rank,
-                                              modification: true }
-
-                        - if subsection.applicability.active && subsection.outer_alineas.count > 1
+                      / display button and collapse original text version if modified
+                      - if subsection.applicability.modified
+                        small
                           .border-bottom.mb-3.pb-3
-                            .form-group.row
-                              .col-sm-12
-                                .form-check
-                                  = check_box_tag "select_all_#{subsection.id}",
-                                    '1', false, class: 'form-check-input select_all', data: { section_id: subsection.id }
+                            *{ tag: "a href='#'",
+                              class: 'icon-collapse icon-collapse-mini',
+                              data: { toggle: 'collapse', target: "#modified_collapse_#{subsection_id}" } }
+                              | voir le texte d'origine
 
-                        = render partial: 'outer_alineas',
-                          locals: { subsection: subsection,
-                                    level: level,
-                                    subsection_id: subsection_id,
-                                    ref: subsection.reference_str,
-                                    am_ref: am_ref,
-                                    am_id: arrete.id,
-                                    subsection_rank: subsection_rank,
-                                    modification: false }
+                            .inactive
+                              .collapse id="modified_collapse_#{subsection_id}"
+                                = render partial: 'outer_alineas',
+                                  locals: { subsection: subsection.applicability.previous_version,
+                                            level: level,
+                                            subsection_id: subsection_id,
+                                            ref: subsection.reference_str,
+                                            am_ref: am_ref,
+                                            am_id: arrete.id,
+                                            subsection_rank: subsection_rank,
+                                            modification: true }
+
+                      - if subsection.applicability.active && subsection.outer_alineas.count > 1
+                        .border-bottom.mb-3.pb-3
+                          .form-group.row
+                            .col-sm-12
+                              .form-check
+                                = check_box_tag "select_all_#{subsection.id}",
+                                  '1', false, class: 'form-check-input select_all', data: { section_id: subsection.id }
+
+                      = render partial: 'outer_alineas',
+                        locals: { subsection: subsection,
+                                  level: level,
+                                  subsection_id: subsection_id,
+                                  ref: subsection.reference_str,
+                                  am_ref: am_ref,
+                                  am_id: arrete.id,
+                                  subsection_rank: subsection_rank,
+                                  modification: false }
 
                   / iterate on sections and increment level
                   - subsection.sections.each_with_index do |item, item_index|
