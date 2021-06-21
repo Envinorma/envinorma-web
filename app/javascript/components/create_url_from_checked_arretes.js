@@ -38,12 +38,14 @@ const changeArretesLinkButtonHref = (button) => {
 
   if (arrete_ids_url != "" && ap_ids_url != "") {
     button.href = hrefBase + "?" + arrete_ids_url + "&" + ap_ids_url
+    button.classList.remove("d-none")
   }
   else if (arrete_ids_url == "" && ap_ids_url == "") {
-    button.href = hrefBase;
+    button.classList.add("d-none")
   }
   else {
     button.href = hrefBase + "?" + (arrete_ids_url || ap_ids_url)
+    button.classList.remove("d-none")
   }
 };
 
