@@ -7,7 +7,7 @@ RSpec.describe 'Installation' do
   let!(:classement) { create :classement, :classement_2521_E, installation: installation }
   let!(:user) { User.create }
 
-  it 'should duplicates installation and its classements for a user' do
+  it 'duplicates installation for a user' do
     installation_duplicated = installation.duplicate!(user)
 
     expect(installation_duplicated).to have_attributes(
@@ -21,24 +21,31 @@ RSpec.describe 'Installation' do
       seveso: 'NS',
       state: 'En fonctionnement'
     )
+  end
 
+  it 'duplicates installation classements for a user' do
+    installation_duplicated = installation.duplicate!(user)
     expect(installation_duplicated.classements.count).to eq 1
+  end
+
+  it 'duplicates installation with same classements for a user' do
+    installation_duplicated = installation.duplicate!(user)
     expect(installation_duplicated.classements.first).to have_attributes(
-      rubrique: '2521',
-      regime: 'E',
-      alinea: '1',
+      rubrique: classement.rubrique,
+      regime: classement.regime,
+      alinea: classement.alinea,
       installation_id: installation_duplicated.id,
-      activite: "Centrale d'enrobage à chaud",
-      date_autorisation: 'Tue, 07 May 1974'.to_date,
-      date_mise_en_service: 'Tue, 07 May 1974'.to_date,
-      rubrique_acte: '2521',
-      regime_acte: 'A',
-      alinea_acte: '1'
+      activite: classement.activite,
+      date_autorisation: classement.date_autorisation,
+      date_mise_en_service: classement.date_mise_en_service,
+      rubrique_acte: classement.rubrique_acte,
+      regime_acte: classement.regime_acte,
+      alinea_acte: classement.alinea_acte
     )
   end
 
-  it 'should not duplicate if user has already a copy' do
+  it 'does not duplicate if user has already a copy' do
     installation.duplicate!(user)
-    expect { installation.duplicate!(user) }.to change { Installation.count }.by(0)
+    expect { installation.duplicate!(user) }.to change(Installation, :count).by(0)
   end
 end

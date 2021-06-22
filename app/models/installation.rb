@@ -11,7 +11,13 @@ class Installation < ApplicationRecord
   validates :name, :s3ic_id, presence: true
   validates :s3ic_id, format: { with: /\A([0-9]{4}\.[0-9]{5})\z/,
                                 message: 'check s3ic_id format' }
-  validates_uniqueness_of :user_id, scope: :duplicated_from_id, if: -> { duplicated_from_id.present? }
+
+  # Validation below ensures that one user can duplicate the installation only once
+  # Rubocop does not recommend this validation as it can get slow
+  # For now, we can afford this validation so we disable this warning.
+  # rubocop:disable Rails/UniqueValidationWithoutIndex
+  validates :user_id, uniqueness: { scope: :duplicated_from_id, if: -> { duplicated_from_id.present? } }
+  # rubocop:enable Rails/UniqueValidationWithoutIndex
 
   scope :not_attached_to_user, -> { where(user: nil) }
 

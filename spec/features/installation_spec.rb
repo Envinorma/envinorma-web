@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 require 'rails_helper'
-
+# rubocop:disable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength
 RSpec.describe 'installations test features', js: true do
-  before(:all) do
+  before do
     installation_eva_industries = FactoryBot.create(:installation)
     FactoryBot.create(:classement, :classement_2521_E, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_4801_D, installation: installation_eva_industries)
@@ -51,3 +51,4 @@ RSpec.describe 'installations test features', js: true do
     expect(page).not_to have_content('1510')
   end
 end
+# rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength

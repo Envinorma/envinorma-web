@@ -24,3 +24,10 @@ Metrics/MethodLength:
 
 Style/Documentation:
   Enabled: false
+
+RSpec/ExampleLength:
+  Max: 15
+
+require:
+  - rubocop-rspec
+  - rubocop-rails

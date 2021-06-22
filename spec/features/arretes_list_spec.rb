@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 require 'rails_helper'
-
+# rubocop:disable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength
 RSpec.describe 'test AM list computation', js: true do
-  before(:each) do
+  before do
     FactoryBot.create(:arrete, :classement_2521_E)
     FactoryBot.create(:arrete, :fake_arrete_1_default)
     FactoryBot.create(:arrete, :fake_arrete_1_after2010)
@@ -91,3 +91,4 @@ RSpec.describe 'test AM list computation', js: true do
     expect(all('.js_arrete_checkbox')[1]['data-arrete-id']).to eq '4'
   end
 end
+# rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength

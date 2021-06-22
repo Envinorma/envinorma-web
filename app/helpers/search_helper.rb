@@ -6,7 +6,7 @@ module SearchHelper
 
     query = 'name ILIKE ? or s3ic_id ILIKE ? or city ILIKE ? or zipcode ILIKE ?'
     nb_query_vars = 4
-    if last_word.nil? || last_word.empty?
+    if last_word.blank?
       args = [query] + Array.new(nb_query_vars, "%#{first_words}%")
     else
       and_query = "(#{query}) and (#{query})"

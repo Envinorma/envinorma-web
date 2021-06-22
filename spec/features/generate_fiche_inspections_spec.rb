@@ -2,8 +2,9 @@
 
 require 'rails_helper'
 
+# rubocop:disable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength
 RSpec.describe 'Feature tests end to end', js: true do
-  before(:all) do
+  before do
     installation_eva_industries = FactoryBot.create(:installation)
     FactoryBot.create(:classement, :classement_2521_E, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_4801_D, installation: installation_eva_industries)
@@ -123,3 +124,4 @@ RSpec.describe 'Feature tests end to end', js: true do
     expect(Prescription.count).to eq 0
   end
 end
+# rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength

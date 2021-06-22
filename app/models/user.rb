@@ -21,7 +21,7 @@ class User < ApplicationRecord
   end
 
   def retrieve_duplicated_installation(installation)
-    installations.where(duplicated_from_id: installation.id).first
+    installations.find_by(duplicated_from_id: installation.id)
   end
 
   private

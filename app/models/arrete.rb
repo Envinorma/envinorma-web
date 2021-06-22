@@ -2,6 +2,7 @@
 
 class Arrete < ApplicationRecord
   include ApplicationHelper
+  include RegimeHelper
 
   validates :data, :title, :cid, :aida_url, :legifrance_url, :date_of_signature, :version_descriptor, presence: true
   validates :title, length: { minimum: 10 }
@@ -48,29 +49,29 @@ class Arrete < ApplicationRecord
 
   class << self
     def validate_then_recreate(arretes_files)
-      puts 'Seeding arretes...'
+      Rails.logger.info('Seeding arretes...')
       arretes = []
       arretes_files.each_with_index do |json_file, index|
         am = JSON.parse(File.read(json_file))
         arrete = new_arrete(am)
         arretes << arrete
-        puts "#{index + 1} arretes initialized" if index % 10 == 9
+        Rails.logger.info("#{index + 1} arretes initialized") if index % 10 == 9
       end
-      puts "Found #{arretes_files.length} arretes."
+      Rails.logger.info("Found #{arretes_files.length} arretes.")
       recreate(arretes)
-      puts "Inserted #{Arrete.count} arretes in total."
+      Rails.logger.info("Inserted #{Arrete.count} arretes in total.")
     end
 
     private
 
     def recreate(arretes)
-      puts '...destroying'
+      Rails.logger.info '...destroying'
       Arrete.destroy_all
       ActiveRecord::Base.connection.reset_pk_sequence!(Arrete.table_name)
 
-      puts '...creating'
+      Rails.logger.info('...creating')
       arretes.each(&:save)
-      puts "...done. Inserted #{Arrete.count}/#{arretes.length} arretes."
+      Rails.logger.info("...done. Inserted #{Arrete.count}/#{arretes.length} arretes.")
     end
 
     def new_arrete(arrete_json)
