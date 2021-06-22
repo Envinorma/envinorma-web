@@ -70,25 +70,13 @@
               - arrete.data.sections.each_with_index do |section, section_index|
                 - extract_sections = lambda do |subsection, subsection_rank, level = 3|
 
+                  - subsection_id = subsection.id
+
                   div id="anchor_#{subsection.id}" class='anchor anchor-summary'
 
                     / display title
-                    - if subsection.applicability.active
-                      - if subsection.outer_alineas.present?
-                        - subsection_id = subsection.id
-                          = subsection.title.text
-
-                      - else
-                        *{ tag: "h#{level}" } = subsection.title.text
-
-                    / display inactive title
-                    - else
-                      .inactive
-                        - if subsection.outer_alineas.present?
-                          - subsection_id = subsection.id
-                            = subsection.title.text
-                        - else
-                          *{ tag: "h#{level}" } = subsection.title.text
+                    - class_name = subsection.applicability.active ? '' : 'inactive'
+                    *{ tag: "h#{level}", class: class_name } = subsection.title.text
 
                     / display warning
                     - subsection.applicability.warnings.each do |warning|
