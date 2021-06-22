@@ -32,8 +32,6 @@
     "sections": [
         {
             "annotations": {
-                "guide": null,
-                "prescriptive": true,
                 "topic": "DISPOSITIONS_GENERALES"
             },
             "applicability": {
@@ -43,7 +41,6 @@
                 "warnings": []
             },
             "id": "5FEdae4FAD5F",
-            "lf_id": null,
             "outer_alineas": [
                 {
                     "active": true,
@@ -76,8 +73,6 @@
         },
         {
             "annotations": {
-                "guide": null,
-                "prescriptive": true,
                 "topic": "DISPOSITIONS_GENERALES"
             },
             "applicability": {
@@ -87,7 +82,6 @@
                 "warnings": []
             },
             "id": "4de7B6De4BF0",
-            "lf_id": null,
             "outer_alineas": [
                 {
                     "active": true,
@@ -120,8 +114,6 @@
         },
         {
             "annotations": {
-                "guide": null,
-                "prescriptive": true,
                 "topic": "DISPOSITIONS_GENERALES"
             },
             "applicability": {
@@ -131,7 +123,6 @@
                 "warnings": []
             },
             "id": "3B07CB9eC896",
-            "lf_id": null,
             "outer_alineas": [
                 {
                     "active": true,
@@ -156,7 +147,6 @@
                 "warnings": []
             },
             "id": "f58Bff6d53A2",
-            "lf_id": null,
             "outer_alineas": [
                 {
                     "active": true,
@@ -174,8 +164,6 @@
         },
         {
             "annotations": {
-                "guide": null,
-                "prescriptive": true,
                 "topic": "ACCIDENTS_POLLUTIONS"
             },
             "applicability": {
@@ -185,14 +173,11 @@
                 "warnings": []
             },
             "id": "992FfF8f5811",
-            "lf_id": null,
             "outer_alineas": [],
             "reference_str": "Annexe",
             "sections": [
                 {
                     "annotations": {
-                        "guide": null,
-                        "prescriptive": true,
                         "topic": "ACCIDENTS_POLLUTIONS"
                     },
                     "applicability": {
@@ -202,7 +187,6 @@
                         "warnings": []
                     },
                     "id": "c1bEa76A7cDA",
-                    "lf_id": null,
                     "outer_alineas": [
                         {
                             "active": true,
@@ -329,8 +313,6 @@
                     "sections": [
                         {
                             "annotations": {
-                                "guide": null,
-                                "prescriptive": true,
                                 "topic": "BIOGAZ"
                             },
                             "applicability": {
@@ -342,14 +324,11 @@
                                 ]
                             },
                             "id": "EAE8EF20D5c4",
-                            "lf_id": null,
                             "outer_alineas": [],
                             "reference_str": "Annexe I 1.",
                             "sections": [
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -359,14 +338,11 @@
                                         "warnings": []
                                     },
                                     "id": "ba2AC6fFeDcf",
-                                    "lf_id": null,
                                     "outer_alineas": [],
                                     "reference_str": "Annexe I 1.1.",
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "guide": null,
-                                                "prescriptive": true,
                                                 "topic": "DISPOSITIONS_GENERALES"
                                             },
                                             "applicability": {
@@ -376,7 +352,6 @@
                                                 "warnings": []
                                             },
                                             "id": "D6A52e7a4d78",
-                                            "lf_id": null,
                                             "outer_alineas": [
                                                 {
                                                     "active": false,
@@ -394,8 +369,6 @@
                                         },
                                         {
                                             "annotations": {
-                                                "guide": null,
-                                                "prescriptive": true,
                                                 "topic": "DISPOSITIONS_GENERALES"
                                             },
                                             "applicability": {
@@ -405,7 +378,6 @@
                                                 "warnings": []
                                             },
                                             "id": "B8b7b998c0DF",
-                                            "lf_id": null,
                                             "outer_alineas": [
                                                 {
                                                     "active": false,
@@ -445,8 +417,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -456,7 +426,6 @@
                                         "warnings": []
                                     },
                                     "id": "875519817Fa5",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -474,8 +443,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -485,7 +452,6 @@
                                         "warnings": []
                                     },
                                     "id": "d5BAA6E8f1d4",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -503,8 +469,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -514,7 +478,6 @@
                                         "warnings": []
                                     },
                                     "id": "AbfB4ed4E6C3",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -602,8 +565,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -613,7 +574,6 @@
                                         "warnings": []
                                     },
                                     "id": "62aFcbA8ab3F",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -636,8 +596,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -647,7 +605,6 @@
                                         "warnings": []
                                     },
                                     "id": "D95Ccf68b26d",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -665,8 +622,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -676,7 +631,6 @@
                                         "warnings": []
                                     },
                                     "id": "D6a3b2AfcaCd",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -694,8 +648,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "BIOGAZ"
                                     },
                                     "applicability": {
@@ -705,7 +657,6 @@
                                         "warnings": []
                                     },
                                     "id": "E77337d6e1ce",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -730,8 +681,6 @@
                         },
                         {
                             "annotations": {
-                                "guide": null,
-                                "prescriptive": true,
                                 "topic": "DISPOSITIONS_GENERALES"
                             },
                             "applicability": {
@@ -743,7 +692,6 @@
                                 ]
                             },
                             "id": "e398f8d05F2f",
-                            "lf_id": null,
                             "outer_alineas": [
                                 {
                                     "active": false,
@@ -755,8 +703,6 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -766,7 +712,6 @@
                                         "warnings": []
                                     },
                                     "id": "114Ca44ca01e",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1077,8 +1022,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1088,7 +1031,6 @@
                                         "warnings": []
                                     },
                                     "id": "C0F3Afc93abC",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1106,8 +1048,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1117,7 +1057,6 @@
                                         "warnings": []
                                     },
                                     "id": "dAdFcFDBC775",
-                                    "lf_id": null,
                                     "outer_alineas": [],
                                     "reference_str": "Annexe I 2.3.",
                                     "sections": [],
@@ -1129,8 +1068,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1140,14 +1077,11 @@
                                         "warnings": []
                                     },
                                     "id": "64c81ea4cAa1",
-                                    "lf_id": null,
                                     "outer_alineas": [],
                                     "reference_str": "Annexe I 2.4.",
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "guide": null,
-                                                "prescriptive": true,
                                                 "topic": "DISPOSITIONS_GENERALES"
                                             },
                                             "applicability": {
@@ -1157,7 +1091,6 @@
                                                 "warnings": []
                                             },
                                             "id": "afceA0405cF3",
-                                            "lf_id": null,
                                             "outer_alineas": [],
                                             "reference_str": "Annexe I 2.4.1.",
                                             "sections": [],
@@ -1169,8 +1102,6 @@
                                         },
                                         {
                                             "annotations": {
-                                                "guide": null,
-                                                "prescriptive": true,
                                                 "topic": "DISPOSITIONS_GENERALES"
                                             },
                                             "applicability": {
@@ -1180,7 +1111,6 @@
                                                 "warnings": []
                                             },
                                             "id": "F83D9C4Dff27",
-                                            "lf_id": null,
                                             "outer_alineas": [
                                                 {
                                                     "active": false,
@@ -1210,8 +1140,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1221,7 +1149,6 @@
                                         "warnings": []
                                     },
                                     "id": "E3Adb3CB8Ba7",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1239,8 +1166,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1250,7 +1175,6 @@
                                         "warnings": []
                                     },
                                     "id": "A154f1F3A3FA",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1273,8 +1197,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1284,7 +1206,6 @@
                                         "warnings": []
                                     },
                                     "id": "CCAff5Dd4B74",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1357,8 +1278,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1368,7 +1287,6 @@
                                         "warnings": []
                                     },
                                     "id": "CB17a0ac6E9E",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1391,8 +1309,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1402,7 +1318,6 @@
                                         "warnings": []
                                     },
                                     "id": "F3BC4eB6C6fe",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1430,8 +1345,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1441,7 +1354,6 @@
                                         "warnings": []
                                     },
                                     "id": "2436D3D8E822",
-                                    "lf_id": null,
                                     "outer_alineas": [],
                                     "reference_str": "Annexe I 2.10.",
                                     "sections": [],
@@ -1453,8 +1365,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1464,7 +1374,6 @@
                                         "warnings": []
                                     },
                                     "id": "962c5bc61057",
-                                    "lf_id": null,
                                     "outer_alineas": [],
                                     "reference_str": "Annexe I 2.11.",
                                     "sections": [],
@@ -1476,8 +1385,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1487,7 +1394,6 @@
                                         "warnings": []
                                     },
                                     "id": "A8CDaC9dEAe8",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1525,8 +1431,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1536,7 +1440,6 @@
                                         "warnings": []
                                     },
                                     "id": "61e05d00ca3F",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1576,8 +1479,6 @@
                         },
                         {
                             "annotations": {
-                                "guide": null,
-                                "prescriptive": true,
                                 "topic": "BIOGAZ"
                             },
                             "applicability": {
@@ -1589,14 +1490,11 @@
                                 ]
                             },
                             "id": "aE0EA2E53F5C",
-                            "lf_id": null,
                             "outer_alineas": [],
                             "reference_str": "Annexe I 3.",
                             "sections": [
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1606,7 +1504,6 @@
                                         "warnings": []
                                     },
                                     "id": "771716Afa933",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1624,8 +1521,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1635,7 +1530,6 @@
                                         "warnings": []
                                     },
                                     "id": "77E98dE8FBbA",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1658,8 +1552,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1669,7 +1561,6 @@
                                         "warnings": []
                                     },
                                     "id": "f381AC5ffFA0",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1692,8 +1583,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1703,7 +1592,6 @@
                                         "warnings": []
                                     },
                                     "id": "EA2a5E47FB68",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1721,8 +1609,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "BIOGAZ"
                                     },
                                     "applicability": {
@@ -1732,7 +1618,6 @@
                                         "warnings": []
                                     },
                                     "id": "d5A5C4B904E2",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1750,8 +1635,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1761,7 +1644,6 @@
                                         "warnings": []
                                     },
                                     "id": "f2D1a438Bb8D",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1779,8 +1661,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1790,7 +1670,6 @@
                                         "warnings": []
                                     },
                                     "id": "Cff530480Ec4",
-                                    "lf_id": null,
                                     "outer_alineas": [],
                                     "reference_str": "Annexe I 3.7.",
                                     "sections": [],
@@ -1802,8 +1681,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -1813,7 +1690,6 @@
                                         "warnings": []
                                     },
                                     "id": "F80c8CA8D58b",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1858,8 +1734,6 @@
                         },
                         {
                             "annotations": {
-                                "guide": null,
-                                "prescriptive": true,
                                 "topic": "BIOGAZ"
                             },
                             "applicability": {
@@ -1871,14 +1745,11 @@
                                 ]
                             },
                             "id": "e3A90fcf7bD9",
-                            "lf_id": null,
                             "outer_alineas": [],
                             "reference_str": "Annexe I 4.",
                             "sections": [
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "RISQUES"
                                     },
                                     "applicability": {
@@ -1888,7 +1759,6 @@
                                         "warnings": []
                                     },
                                     "id": "c3A9e4dab502",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -1911,8 +1781,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "INCENDIE"
                                     },
                                     "applicability": {
@@ -1922,7 +1790,6 @@
                                         "warnings": []
                                     },
                                     "id": "0eEAFeF6aB3A",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -2070,8 +1937,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "RISQUES"
                                     },
                                     "applicability": {
@@ -2081,7 +1946,6 @@
                                         "warnings": []
                                     },
                                     "id": "5f801FC0ea6b",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -2114,8 +1978,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "RISQUES"
                                     },
                                     "applicability": {
@@ -2125,7 +1987,6 @@
                                         "warnings": []
                                     },
                                     "id": "CD9dF96E23Ef",
-                                    "lf_id": null,
                                     "outer_alineas": [],
                                     "reference_str": "Annexe I 4.4.",
                                     "sections": [],
@@ -2137,8 +1998,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "RISQUES"
                                     },
                                     "applicability": {
@@ -2148,7 +2007,6 @@
                                         "warnings": []
                                     },
                                     "id": "E5d15B38a7fE",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -2176,8 +2034,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "RISQUES"
                                     },
                                     "applicability": {
@@ -2187,7 +2043,6 @@
                                         "warnings": []
                                     },
                                     "id": "40F1Adf12EF7",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -2205,8 +2060,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "RISQUES"
                                     },
                                     "applicability": {
@@ -2216,7 +2069,6 @@
                                         "warnings": []
                                     },
                                     "id": "a5dCeEe1B436",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -2314,8 +2166,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -2325,7 +2175,6 @@
                                         "warnings": []
                                     },
                                     "id": "D401F14ddDEC",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -2362,8 +2211,6 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "guide": null,
-                                                "prescriptive": true,
                                                 "topic": "DISPOSITIONS_GENERALES"
                                             },
                                             "applicability": {
@@ -2373,7 +2220,6 @@
                                                 "warnings": []
                                             },
                                             "id": "14BBf9dD6fdf",
-                                            "lf_id": null,
                                             "outer_alineas": [
                                                 {
                                                     "active": false,
@@ -2391,8 +2237,6 @@
                                         },
                                         {
                                             "annotations": {
-                                                "guide": null,
-                                                "prescriptive": true,
                                                 "topic": "DISPOSITIONS_GENERALES"
                                             },
                                             "applicability": {
@@ -2402,7 +2246,6 @@
                                                 "warnings": []
                                             },
                                             "id": "Fdc51e8EbaB5",
-                                            "lf_id": null,
                                             "outer_alineas": [
                                                 {
                                                     "active": false,
@@ -2414,8 +2257,6 @@
                                             "sections": [
                                                 {
                                                     "annotations": {
-                                                        "guide": null,
-                                                        "prescriptive": true,
                                                         "topic": "DISPOSITIONS_GENERALES"
                                                     },
                                                     "applicability": {
@@ -2425,7 +2266,6 @@
                                                         "warnings": []
                                                     },
                                                     "id": "803Bbf52F2Da",
-                                                    "lf_id": null,
                                                     "outer_alineas": [],
                                                     "reference_str": "Annexe I 4.8. 4.9.2.",
                                                     "sections": [],
@@ -2437,8 +2277,6 @@
                                                 },
                                                 {
                                                     "annotations": {
-                                                        "guide": null,
-                                                        "prescriptive": true,
                                                         "topic": "DISPOSITIONS_GENERALES"
                                                     },
                                                     "applicability": {
@@ -2448,7 +2286,6 @@
                                                         "warnings": []
                                                     },
                                                     "id": "45C0Ec24f7Fd",
-                                                    "lf_id": null,
                                                     "outer_alineas": [
                                                         {
                                                             "active": false,
@@ -2511,8 +2348,6 @@
                                                 },
                                                 {
                                                     "annotations": {
-                                                        "guide": null,
-                                                        "prescriptive": true,
                                                         "topic": "DISPOSITIONS_GENERALES"
                                                     },
                                                     "applicability": {
@@ -2522,7 +2357,6 @@
                                                         "warnings": []
                                                     },
                                                     "id": "073DaC47aB78",
-                                                    "lf_id": null,
                                                     "outer_alineas": [
                                                         {
                                                             "active": false,
@@ -2557,8 +2391,6 @@
                                         },
                                         {
                                             "annotations": {
-                                                "guide": null,
-                                                "prescriptive": true,
                                                 "topic": "DISPOSITIONS_GENERALES"
                                             },
                                             "applicability": {
@@ -2568,7 +2400,6 @@
                                                 "warnings": []
                                             },
                                             "id": "cEae9279A4d8",
-                                            "lf_id": null,
                                             "outer_alineas": [
                                                 {
                                                     "active": false,
@@ -2641,8 +2472,6 @@
                                         },
                                         {
                                             "annotations": {
-                                                "guide": null,
-                                                "prescriptive": true,
                                                 "topic": "DISPOSITIONS_GENERALES"
                                             },
                                             "applicability": {
@@ -2652,7 +2481,6 @@
                                                 "warnings": []
                                             },
                                             "id": "a9BeEe37F03A",
-                                            "lf_id": null,
                                             "outer_alineas": [
                                                 {
                                                     "active": false,
@@ -2712,8 +2540,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "BIOGAZ"
                                     },
                                     "applicability": {
@@ -2723,14 +2549,11 @@
                                         "warnings": []
                                     },
                                     "id": "b5B3A9e39bC3",
-                                    "lf_id": null,
                                     "outer_alineas": [],
                                     "reference_str": "Annexe I 4.10.",
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "guide": null,
-                                                "prescriptive": true,
                                                 "topic": "RISQUES"
                                             },
                                             "applicability": {
@@ -2740,7 +2563,6 @@
                                                 "warnings": []
                                             },
                                             "id": "DDa2f688d7e8",
-                                            "lf_id": null,
                                             "outer_alineas": [],
                                             "reference_str": "Annexe I 4.10.1.",
                                             "sections": [],
@@ -2752,8 +2574,6 @@
                                         },
                                         {
                                             "annotations": {
-                                                "guide": null,
-                                                "prescriptive": true,
                                                 "topic": "RISQUES"
                                             },
                                             "applicability": {
@@ -2763,7 +2583,6 @@
                                                 "warnings": []
                                             },
                                             "id": "41DDCe72229F",
-                                            "lf_id": null,
                                             "outer_alineas": [],
                                             "reference_str": "Annexe I 4.10.2.",
                                             "sections": [],
@@ -2775,8 +2594,6 @@
                                         },
                                         {
                                             "annotations": {
-                                                "guide": null,
-                                                "prescriptive": true,
                                                 "topic": "RISQUES"
                                             },
                                             "applicability": {
@@ -2786,7 +2603,6 @@
                                                 "warnings": []
                                             },
                                             "id": "9EFcfE27116e",
-                                            "lf_id": null,
                                             "outer_alineas": [
                                                 {
                                                     "active": false,
@@ -2819,8 +2635,6 @@
                                         },
                                         {
                                             "annotations": {
-                                                "guide": null,
-                                                "prescriptive": true,
                                                 "topic": "BIOGAZ"
                                             },
                                             "applicability": {
@@ -2830,7 +2644,6 @@
                                                 "warnings": []
                                             },
                                             "id": "Ad0C437a1089",
-                                            "lf_id": null,
                                             "outer_alineas": [
                                                 {
                                                     "active": false,
@@ -2855,8 +2668,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "RISQUES"
                                     },
                                     "applicability": {
@@ -2866,7 +2677,6 @@
                                         "warnings": []
                                     },
                                     "id": "Ea4Ddb2421Bb",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -2911,8 +2721,6 @@
                         },
                         {
                             "annotations": {
-                                "guide": null,
-                                "prescriptive": true,
                                 "topic": "ACCIDENTS_POLLUTIONS"
                             },
                             "applicability": {
@@ -2922,14 +2730,11 @@
                                 "warnings": []
                             },
                             "id": "823E4397EaFb",
-                            "lf_id": null,
                             "outer_alineas": [],
                             "reference_str": "Annexe I 5.",
                             "sections": [
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "EAU"
                                     },
                                     "applicability": {
@@ -2941,7 +2746,6 @@
                                         ]
                                     },
                                     "id": "1553eF4E2Fb6",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -2969,8 +2773,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "EAU"
                                     },
                                     "applicability": {
@@ -2982,7 +2784,6 @@
                                         ]
                                     },
                                     "id": "00A25f9E07dD",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -3000,8 +2801,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "EAU"
                                     },
                                     "applicability": {
@@ -3013,7 +2812,6 @@
                                         ]
                                     },
                                     "id": "7122eff5B564",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -3051,8 +2849,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "EAU"
                                     },
                                     "applicability": {
@@ -3062,7 +2858,6 @@
                                         "warnings": []
                                     },
                                     "id": "C2C6d8E3B255",
-                                    "lf_id": null,
                                     "outer_alineas": [],
                                     "reference_str": "Annexe I 5.4.",
                                     "sections": [],
@@ -3074,8 +2869,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -3085,7 +2878,6 @@
                                         "warnings": []
                                     },
                                     "id": "CCD7BF66FBbb",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -3133,8 +2925,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "EAU"
                                     },
                                     "applicability": {
@@ -3146,7 +2936,6 @@
                                         ]
                                     },
                                     "id": "3DC4ACAF5850",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -3164,8 +2953,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "ACCIDENTS_POLLUTIONS"
                                     },
                                     "applicability": {
@@ -3177,7 +2964,6 @@
                                         ]
                                     },
                                     "id": "dC92e93dCB48",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -3200,8 +2986,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "EAU"
                                     },
                                     "applicability": {
@@ -3211,7 +2995,6 @@
                                         "warnings": []
                                     },
                                     "id": "EC5Ba3FbD66D",
-                                    "lf_id": null,
                                     "outer_alineas": [],
                                     "reference_str": "Annexe I 5.8.",
                                     "sections": [],
@@ -3223,8 +3006,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DISPOSITIONS_GENERALES"
                                     },
                                     "applicability": {
@@ -3234,7 +3015,6 @@
                                         "warnings": []
                                     },
                                     "id": "f34B0e3fbbaB",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -3262,8 +3042,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "EAU"
                                     },
                                     "applicability": {
@@ -3273,7 +3051,6 @@
                                         "warnings": []
                                     },
                                     "id": "467afc9Afa8C",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -3333,8 +3110,6 @@
                         },
                         {
                             "annotations": {
-                                "guide": null,
-                                "prescriptive": true,
                                 "topic": "AIR_ODEURS"
                             },
                             "applicability": {
@@ -3344,14 +3119,11 @@
                                 "warnings": []
                             },
                             "id": "eF2BDBcEDc92",
-                            "lf_id": null,
                             "outer_alineas": [],
                             "reference_str": "Annexe I 6.",
                             "sections": [
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "AIR_ODEURS"
                                     },
                                     "applicability": {
@@ -3361,7 +3133,6 @@
                                         "warnings": []
                                     },
                                     "id": "f38Aa1a51711",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -3389,8 +3160,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "AIR_ODEURS"
                                     },
                                     "applicability": {
@@ -3400,7 +3169,6 @@
                                         "warnings": []
                                     },
                                     "id": "4fFEcFeCc8cE",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -3430,8 +3198,6 @@
                         },
                         {
                             "annotations": {
-                                "guide": null,
-                                "prescriptive": true,
                                 "topic": "BRULAGE"
                             },
                             "applicability": {
@@ -3443,7 +3209,6 @@
                                 ]
                             },
                             "id": "cBEB6C6A7198",
-                            "lf_id": null,
                             "outer_alineas": [
                                 {
                                     "active": false,
@@ -3455,8 +3220,6 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DECHETS"
                                     },
                                     "applicability": {
@@ -3466,7 +3229,6 @@
                                         "warnings": []
                                     },
                                     "id": "21c6b3aeb4Bb",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -3489,8 +3251,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DECHETS"
                                     },
                                     "applicability": {
@@ -3500,7 +3260,6 @@
                                         "warnings": []
                                     },
                                     "id": "417a3Db0a92d",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -3528,8 +3287,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DECHETS"
                                     },
                                     "applicability": {
@@ -3539,7 +3296,6 @@
                                         "warnings": []
                                     },
                                     "id": "3ab51ad450Ca",
-                                    "lf_id": null,
                                     "outer_alineas": [],
                                     "reference_str": "Annexe I 7.3.",
                                     "sections": [],
@@ -3551,8 +3307,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DECHETS"
                                     },
                                     "applicability": {
@@ -3562,7 +3316,6 @@
                                         "warnings": []
                                     },
                                     "id": "77Eba9ca2dCA",
-                                    "lf_id": null,
                                     "outer_alineas": [],
                                     "reference_str": "Annexe I 7.4.",
                                     "sections": [],
@@ -3574,8 +3327,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "DECHETS"
                                     },
                                     "applicability": {
@@ -3585,7 +3336,6 @@
                                         "warnings": []
                                     },
                                     "id": "4fdcfE89d8e5",
-                                    "lf_id": null,
                                     "outer_alineas": [],
                                     "reference_str": "Annexe I 7.5.",
                                     "sections": [],
@@ -3597,8 +3347,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "BRULAGE"
                                     },
                                     "applicability": {
@@ -3608,7 +3356,6 @@
                                         "warnings": []
                                     },
                                     "id": "FAb64A0C639B",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -3633,8 +3380,6 @@
                         },
                         {
                             "annotations": {
-                                "guide": null,
-                                "prescriptive": true,
                                 "topic": "BRUIT_VIBRATIONS"
                             },
                             "applicability": {
@@ -3646,14 +3391,11 @@
                                 ]
                             },
                             "id": "46FF1de355D6",
-                            "lf_id": null,
                             "outer_alineas": [],
                             "reference_str": "Annexe I 8.",
                             "sections": [
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "BRUIT_VIBRATIONS"
                                     },
                                     "applicability": {
@@ -3663,7 +3405,6 @@
                                         "warnings": []
                                     },
                                     "id": "4fEAFcd8ECD0",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -3822,8 +3563,6 @@
                                 },
                                 {
                                     "annotations": {
-                                        "guide": null,
-                                        "prescriptive": true,
                                         "topic": "BRUIT_VIBRATIONS"
                                     },
                                     "applicability": {
@@ -3833,7 +3572,6 @@
                                         "warnings": []
                                     },
                                     "id": "AF55b0De0Ab5",
-                                    "lf_id": null,
                                     "outer_alineas": [
                                         {
                                             "active": false,
@@ -3863,8 +3601,6 @@
                         },
                         {
                             "annotations": {
-                                "guide": null,
-                                "prescriptive": true,
                                 "topic": "DISPOSITIONS_GENERALES"
                             },
                             "applicability": {
@@ -3876,7 +3612,6 @@
                                 ]
                             },
                             "id": "7CbE83e92b3f",
-                            "lf_id": null,
                             "outer_alineas": [
                                 {
                                     "active": false,
@@ -3918,7 +3653,6 @@
                         "warnings": []
                     },
                     "id": "5cd6b09ffaC5",
-                    "lf_id": null,
                     "outer_alineas": [
                         {
                             "active": true,
@@ -3943,7 +3677,6 @@
                         "warnings": []
                     },
                     "id": "e294DcEb74bd",
-                    "lf_id": null,
                     "outer_alineas": [
                         {
                             "active": true,
@@ -3968,7 +3701,6 @@
                         "warnings": []
                     },
                     "id": "fB488AE4259a",
-                    "lf_id": null,
                     "outer_alineas": [
                         {
                             "active": true,
@@ -3986,8 +3718,6 @@
                 },
                 {
                     "annotations": {
-                        "guide": null,
-                        "prescriptive": true,
                         "topic": "DISPOSITIONS_GENERALES"
                     },
                     "applicability": {
@@ -3997,7 +3727,6 @@
                         "warnings": []
                     },
                     "id": "22d99cfAe88C",
-                    "lf_id": null,
                     "outer_alineas": [
                         {
                             "active": true,
@@ -4037,7 +3766,6 @@
                         "warnings": []
                     },
                     "id": "7CEecc793EDF",
-                    "lf_id": null,
                     "outer_alineas": [
                         {
                             "active": true,
