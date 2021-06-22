@@ -88,18 +88,19 @@
               .form-check.checkbox-custom
                 = check_box_tag "arrete_#{arrete.id}",
                   '1', arrete.version_descriptor.applicable,
-                  class: 'form-check-input js_arrete_checkbox',
+                  class: 'form-check-input js_arrete_checkbox js_checkbox',
                   'data-arrete-id': arrete.id
                 = label_tag "arrete_#{arrete.id}",
-                  class: arrete.version_descriptor.applicable ? 'active' : 'inactive',
-                  title: arrete.title
-                  = arrete.short_title
+                  class: arrete.version_descriptor.applicable ? 'active' : 'inactive'
+
+                  span.tooltip-underline data-tooltip=arrete.title
+                    = arrete.short_title
                   small.text-secondary
                     = " - #{classement_infos(arrete, @installation)}"
 
             - if arrete.version_descriptor.applicability_warnings.present?
               - warnings = arrete.version_descriptor.applicability_warnings.join(' - ')
-              li data-tooltip=warnings
+              li.tooltip-warning data-tooltip=warnings
                 i.fas.fa-exclamation-triangle
 
     .col
@@ -112,8 +113,9 @@
             .col
               .form-check.checkbox-custom
                 = check_box_tag "ap_#{ap.id}",
-                  '1', true, disabled: true,
-                  class: 'form-check-input'
+                  '1', true,
+                  class: 'form-check-input js_ap_checkbox js_checkbox',
+                  'data-ap-id': ap.id
                 = label_tag "ap_#{ap.id}"
                   = ap.short_title
 
@@ -123,7 +125,7 @@
   hr.mb-5.mt-5
   - if @arretes.any? || @aps.any?
       = link_to "Voir les prescriptions pour générer une fiche d'inspection",
-            arretes_path(@installation, arrete_ids: @arretes.pluck(:id)),
-            data: { disable_with: "Voir les prescriptions pour générer une fiche d'inspection" },
-            class: 'btn btn-primary mb-4 btn-fixed-bottom',
-            id: 'arretes_link_button'
+        arretes_path(@installation, arrete_ids: @arretes.pluck(:id), ap_ids: @aps.pluck(:id)),
+        data: { disable_with: "Voir les prescriptions pour générer une fiche d'inspection" },
+        class: 'btn btn-primary mb-4 btn-fixed-bottom',
+        id: 'arretes_link_button'

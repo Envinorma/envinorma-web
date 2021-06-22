@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'rails_helper'
-# rubocop:disable RSpec/MultipleExpectations, RSpec/DescribeClass
+# rubocop:disable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength
 RSpec.describe 'select arretes to display feature', js: true do
   before do
     installation_eva_industries = FactoryBot.create(:installation)
@@ -11,6 +11,7 @@ RSpec.describe 'select arretes to display feature', js: true do
     FactoryBot.create(:arrete, :fake_arrete_1_default)
     FactoryBot.create(:arrete, :fake_arrete_1_after2010)
     FactoryBot.create(:arrete, :fake_arrete_1_before2010)
+    FactoryBot.create(:ap, installation: installation_eva_industries)
   end
 
   it 'allows user to select arretes to display' do
@@ -20,20 +21,32 @@ RSpec.describe 'select arretes to display feature', js: true do
 
     # By default, first AM is applicable and second AM is not applicable
     # NB: The matching AM version of fake_arrete_1 is the 3rd version
-    expect(all('.js_arrete_checkbox').count).to eq 2
+    # by default AP are checked
+    expect(all('.js_checkbox').count).to eq 3
     expect(find('#arrete_1').checked?).to eq true
     expect(find('#arrete_4').checked?).to eq false
-    expect(find('#arretes_link_button')[:href].end_with?('installations/1/arretes?arrete_ids[]=1')).to eq true
+    suffix = 'installations/1/arretes?arrete_ids[]=1&ap_ids[]=1'
+    expect(find('#arretes_link_button')[:href].end_with?(suffix)).to eq true
 
-    # After clicking on the second checkbox, both AM will be displayed
+    # After clicking on the second AM checkbox, both AM will be displayed
     find('#arrete_4').click
+    suffix = 'installations/1/arretes?arrete_ids[]=1&arrete_ids[]=4&ap_ids[]=1'
+    expect(find('#arretes_link_button')[:href].end_with?(suffix)).to eq true
+
+    # After clicking on AP checkbox, only AM will be displayed
+    execute_script("document.querySelector('#ap_1').click();") # javascript way for `find('#ap_1').click`
     suffix = 'installations/1/arretes?arrete_ids[]=1&arrete_ids[]=4'
     expect(find('#arretes_link_button')[:href].end_with?(suffix)).to eq true
 
-    # After clicking on both checkboxes, no AM will be displayed
+    # After clicking on both checkboxes, no AM or AP will be displayed and button is hidden
     find('#arrete_1').click
     find('#arrete_4').click
-    expect(find('#arretes_link_button')[:href].end_with?('installations/1/arretes')).to eq true
+    page.find('#arretes_link_button', visible: :hidden)
+
+    # After clicking on AP checkbox, only AP will be displayed and button is visible
+    execute_script("document.querySelector('#ap_1').click();") # javascript way for `find('#ap_1').click`
+    suffix = 'installations/1/arretes?ap_ids[]=1'
+    expect(find('#arretes_link_button')[:href].end_with?(suffix)).to eq true
   end
 end
-# rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass
+# rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength
