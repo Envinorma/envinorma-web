@@ -125,6 +125,7 @@
   hr.mb-5.mt-5
   - if @arretes.any? || @aps.any?
       = link_to "Voir les prescriptions pour générer une fiche d'inspection",
-            arretes_path(@installation, arrete_ids: @arretes.pluck(:id), ap_ids: @aps.pluck(:id)),
-            class: 'btn btn-primary mb-4 btn-fixed-bottom js_loader__link',
-            id: 'arretes_link_button'
+        arretes_path(@installation, arrete_ids: @arretes.pluck(:id), ap_ids: @aps.pluck(:id)),
+        data: { disable_with: "Voir les prescriptions pour générer une fiche d'inspection" },
+        class: 'btn btn-primary mb-4 btn-fixed-bottom',
+        id: 'arretes_link_button'

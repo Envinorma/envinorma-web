@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
 require 'rails_helper'
-
+# rubocop:disable RSpec/MultipleExpectations
 RSpec.describe InstallationsController, type: :controller do
-  context 'on #edit' do
+  context 'when #edit' do
     it 'creates a user if no user is set, duplicates installation and redirects to edit' do
       installation = Installation.create(name: 'Installation test', s3ic_id: '0000.00000')
 
       expect do
         get :edit, params: { id: installation.id }
-      end.to change { User.count }.from(0).to(1)
-                                  .and change { Installation.count }.from(1).to(2)
+      end.to change(User, :count).from(0).to(1)
+                                 .and change(Installation, :count).from(1).to(2)
 
       expect(cookies[:user_id]).to eq User.last.id.to_s
 
@@ -27,8 +27,8 @@ RSpec.describe InstallationsController, type: :controller do
 
       expect do
         get :edit, params: { id: Installation.last.id }
-      end.to change { User.count }.by(0)
-                                  .and change { Installation.count }.by(0)
+      end.to change(User, :count).by(0)
+                                 .and change(Installation, :count).by(0)
 
       expect(response).to have_http_status(:ok)
     end
@@ -40,9 +40,10 @@ RSpec.describe InstallationsController, type: :controller do
 
       expect do
         get :edit, params: { id: installation.id }
-      end.to change { Installation.count }.by(0)
+      end.to change(Installation, :count).by(0)
 
       expect(response).to redirect_to(edit_installation_path(Installation.last))
     end
   end
 end
+# rubocop:enable RSpec/MultipleExpectations

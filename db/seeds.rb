@@ -14,7 +14,7 @@ am_list.each do |am|
     legifrance_url: am['legifrance_url']
   )
 end
-puts 'Arretes are seeded'
+Rails.logger.info 'Arretes are seeded'
 
 path = File.join(File.dirname(__FILE__), './seeds/installations_idf.csv')
 installations_list = CSV.parse(File.read(path), headers: true)
@@ -32,7 +32,7 @@ installations_list.each do |installation|
     state: installation['active']
   )
 end
-puts 'Installations are seeded'
+Rails.logger.info 'Installations are seeded'
 
 path = File.join(File.dirname(__FILE__), './seeds/classements_idf.csv')
 classements_list = CSV.parse(File.read(path), headers: true)
@@ -52,7 +52,7 @@ classements_list.each do |classement|
     installation_id: Installation.find_by(s3ic_id: classement['s3ic_id'])&.id
   )
 end
-puts 'Classements are seeded'
+Rails.logger.info 'Classements are seeded'
 
 Arrete.all.each do |arrete|
   arrete.data.classements_with_alineas.each do |arrete_classement|
@@ -62,4 +62,4 @@ Arrete.all.each do |arrete|
     end
   end
 end
-puts 'ArreteClassement are seeded'
+Rails.logger.info 'ArreteClassement are seeded'

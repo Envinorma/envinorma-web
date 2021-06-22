@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 require 'rails_helper'
-
+# rubocop:disable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength
 RSpec.describe 'select arretes to display feature', js: true do
-  before(:all) do
+  before do
     installation_eva_industries = FactoryBot.create(:installation)
     FactoryBot.create(:classement, :classement_2521_E, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_1234_D_before2010, installation: installation_eva_industries)
@@ -49,3 +49,4 @@ RSpec.describe 'select arretes to display feature', js: true do
     expect(find('#arretes_link_button')[:href].end_with?(suffix)).to eq true
   end
 end
+# rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength

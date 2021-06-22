@@ -4,7 +4,7 @@
   .container
     .row
       .col-1.align-self-center
-        = link_to '< Retour à l’installation', installation_path(@installation), class: 'small  js_loader__link'
+        = link_to '< Retour à l’installation', installation_path(@installation), class: 'small'
       .col-11
         .glide
 
@@ -65,8 +65,8 @@
                   = warning
 
               p.mb-5
-                = link_to 'Consulter sur Aida', arrete.aida_url, target: '_blank'
-                = link_to 'Consulter sur Légifrance', arrete.legifrance_url, target: '_blank', class: 'ml-3'
+                = link_to 'Consulter sur Aida', arrete.aida_url, target: '_blank', rel: 'noopener'
+                = link_to 'Consulter sur Légifrance', arrete.legifrance_url, target: '_blank', class: 'ml-3', rel: 'noopener'
               - arrete.data.sections.each_with_index do |section, section_index|
                 - extract_sections = lambda do |subsection, subsection_rank, level = 3|
 

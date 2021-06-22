@@ -2,8 +2,9 @@
 
 require 'rails_helper'
 
+# rubocop:disable RSpec/MultipleExpectations, RSpec/DescribeClass
 RSpec.describe 'test prescription selection in modified section', js: true do
-  before(:all) do
+  before do
     FactoryBot.create(:installation)
     FactoryBot.create(:arrete, :fake_arrete2)
   end
@@ -30,3 +31,4 @@ RSpec.describe 'test prescription selection in modified section', js: true do
     expect(Prescription.all.pluck(:alinea_id)).to eq %w[941cf0d1bA08_0 941cf0d1bA08_0_modif]
   end
 end
+# rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass

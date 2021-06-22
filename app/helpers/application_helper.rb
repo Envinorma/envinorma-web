@@ -1,15 +1,6 @@
 # frozen_string_literal: true
 
 module ApplicationHelper
-  REGIMES = {
-    A: 0,
-    E: 1,
-    D: 2,
-    NC: 3,
-    unknown: 4,
-    empty: 5
-  }.freeze
-
   def common_classements(arrete_classements, installation_classement)
     classements = arrete_classements.filter do |classement|
       installation_classement.pluck(:rubrique, :regime).include?([classement.rubrique, classement.regime])
