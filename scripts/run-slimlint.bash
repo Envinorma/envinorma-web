@@ -5,4 +5,4 @@ set -e
 cd "${0%/*}/.."
 
 echo "Running Slim Lint"
-slim-lint app/views/
+bundle exec slim-lint app/views/
