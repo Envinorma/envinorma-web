@@ -8,31 +8,36 @@ class DataManager
     Arrete.validate_then_recreate(arretes_files)
   end
 
-  def self.seed_installations_and_associations(validate)
+  def self.seed_installations_and_associations(validate:, use_sample: false)
     seed_folder = Rails.root.join('db/seeds')
 
-    installations_file = File.join(seed_folder, 'installations_all.csv')
-    classements_file = File.join(seed_folder, 'classements_all.csv')
-    aps_file = File.join(seed_folder, 'aps_all.csv')
+    file_suffix = use_sample ? 'sample_rspec' : 'all'
+    Rails.logger.info("Seeding dataset '#{file_suffix}'.")
+    installations_file = File.join(seed_folder, "installations_#{file_suffix}.csv")
+    classements_file = File.join(seed_folder, "classements_#{file_suffix}.csv")
+    aps_file = File.join(seed_folder, "aps_#{file_suffix}.csv")
 
     # Validate files
     if validate
-      recreate_from_file(installations_file, Installation, 1000, true, {})
-      recreate_from_file(classements_file, Classement, 5000, true, {})
-      recreate_from_file(aps_file, AP, 5000, true, {})
+      # We create a fake installation to which all APs and classements will be attached.
+      # It enables validation and the fake installation is removed juste after.
+      Installation.create(id: 1, s3ic_id: '0000.00000', name: 'test') if Installation.where(id: 1).first.nil?
+      recreate_or_validate_from_file(installations_file, Installation, 1000, true, {})
+      recreate_or_validate_from_file(classements_file, Classement, 5000, true, {})
+      recreate_or_validate_from_file(aps_file, AP, 5000, true, {})
     end
 
     # Delete old objects
     delete_old_objects
 
     # Insert files
-    recreate_from_file(installations_file, Installation, 1000, false, {})
+    recreate_or_validate_from_file(installations_file, Installation, 1000, false, {})
     s3ic_id_to_envinorma_id = load_s3ic_id_to_envinorma_id
-    recreate_from_file(classements_file, Classement, 5000, false, s3ic_id_to_envinorma_id)
-    recreate_from_file(aps_file, AP, 5000, false, s3ic_id_to_envinorma_id)
+    recreate_or_validate_from_file(classements_file, Classement, 5000, false, s3ic_id_to_envinorma_id)
+    recreate_or_validate_from_file(aps_file, AP, 5000, false, s3ic_id_to_envinorma_id)
   end
 
-  def self.recreate_from_file(seed_file, model, batch_size, validate_only, s3ic_id_to_envinorma_id)
+  def self.recreate_or_validate_from_file(seed_file, model, batch_size, validate_only, s3ic_id_to_envinorma_id)
     verb = validate_only ? 'Validating' : 'Seeding'
     Rails.logger.info "#{Time.zone.now} #{verb} #{model}s..."
     nb_lines = `wc -l #{seed_file}`.to_i - 1 # count lines without overflowing memory
