@@ -78,7 +78,7 @@ module FilterArretes
     left_value = timestamp(left_date) || -Float::INFINITY
     right_value = timestamp(right_date) || Float::INFINITY
     candidate_value = timestamp(candidate)
-    left_value <= candidate_value && candidate_value <= right_value
+    left_value <= candidate_value && candidate_value < right_value
   end
 
   def timestamp(date)
