@@ -32,6 +32,14 @@ RSpec.describe FilterArretes do
     it 'returns true if right date is nil and left date is above candidate.' do
       expect(date_in_range('2020-01-01'.to_date, '2021-01-01', nil)).to eq false
     end
+
+    it 'returns false if candidate date is equal to right_date.' do
+      expect(date_in_range('2020-01-01'.to_date, nil, '2020-01-01')).to eq false
+    end
+
+    it 'returns true if candidate date is equal to left_date.' do
+      expect(date_in_range('2020-01-01'.to_date, '2020-01-01', nil)).to eq true
+    end
   end
 
   context 'when :date_match' do
