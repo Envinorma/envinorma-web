@@ -2547,7 +2547,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "EXPLOITATION"
+                                "topic": "FIN_EXPLOITATION"
                             },
                             "applicability": {
                                 "active": true,
@@ -3318,7 +3318,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "FIN_EXPLOITATION"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
