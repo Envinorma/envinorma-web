@@ -9,7 +9,7 @@ const activateButton = (button) => {
 };
 
 const hideAllElements = () => {
-  document.querySelectorAll(".summary_element").forEach((element) => {
+  document.querySelectorAll(".filterable").forEach((element) => {
     element.classList.add("d-none");
   });
 };
