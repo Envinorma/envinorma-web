@@ -1,5 +1,10 @@
 - content_for :meta_title, "Envinorma - #{@installation.name} - #{@installation.city}"
 
+.container
+  - @topics.each do |topic_id, topic_name|
+    *{ tag: 'button', class: 'btn btn-light topic-button', data: { topic: topic_id } }
+      = topic_name
+
 .am_nav
   .container
     .row
@@ -43,14 +48,14 @@
             .col-3
               dl.summary
                 .display-summary id="anchor_#{arrete.id}_summary" class='anchor'
-                  - create_summary = lambda do |sec, depth = 0|
-                    dd
-                      a class="level_#{depth}" href="#anchor_#{sec.id}"
-                        = sec.title.text
-                    - sec.sections.each do |subsec|
-                      - create_summary.call(subsec, depth + 1)
-                  - arrete.data.sections.each do |section|
-                    - create_summary.call(section)
+                  - arrete.summary_data.each do |summary_item|
+                    - class_names = summary_item[:topics].map { |topic| "topic_#{topic}" }.join(' ')
+                    dd class="#{class_names} summary_element"
+                      a class="level_#{summary_item[:depth]}" href="#anchor_#{summary_item[:id]}"
+                        = summary_item[:title]
+                        - summary_item[:topics].each do |topic|
+                          .badge.badge-pill.badge-success
+                            = topic
 
             .col-9
               h2.display.h1

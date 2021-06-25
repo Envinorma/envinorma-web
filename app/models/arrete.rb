@@ -32,6 +32,50 @@ class Arrete < ApplicationRecord
     "AM - #{date_of_signature.strftime('%d/%m/%y')}"
   end
 
+  def section_summary_data(section, ascendant_topic = nil, depth = 0)
+    ascendant_topic ||= section.annotations.topic
+    section_summary = []
+    descendant_topics = ascendant_topic.nil? ? [] : [ascendant_topic]
+    section.sections.each do |subsection|
+      subsection_summary = section_summary_data(subsection, ascendant_topic, depth + 1)
+      section_summary.concat(subsection_summary)
+      descendant_topics.concat(subsection_summary[0][:topics])
+    end
+    section_summary_item = {
+      title: section.title.text, topics: descendant_topics.uniq, depth: depth, id: section.id
+    }
+    [section_summary_item].concat(section_summary)
+  end
+
+  def summary_data
+    summary = []
+    data.sections.each do |section|
+      summary.concat(section_summary_data(section))
+    end
+    summary
+  end
+
+  # def section_topics(section, ascendant_topic = nil)
+  #   ascendant_topic ||= section.annotations.topic
+  #   result = {}
+  #   descendant_topics = ascendant_topic.nil? ? [] : [ascendant_topic]
+  #   section.sections.each do |subsection|
+  #     subsection_topics = section_topics(subsection, ascendant_topic)
+  #     result.merge(subsection_topics)
+  #     descendant_topics.concat(subsection_topics[subsection.id])
+  #   end
+  #   result[section.id] = descendant_topics.uniq
+  #   result
+  # end
+
+  # def topics
+  #   topics = {}
+  #   data.sections.each do |section|
+  #     topics.merge(section_topics(section))
+  #   end
+  #   topics
+  # end
+
   def rank_score
     [applicable_rank_score, regime_rank_score]
   end

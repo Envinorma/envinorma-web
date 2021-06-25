@@ -18,6 +18,18 @@ class ArretesController < ApplicationController
     @prescription = Prescription.new
     @prescriptions = @user.prescriptions_grouped_for(@installation)
     @alinea_ids = @user.prescription_alinea_ids(@installation)
+
+    @topics = {
+      DISPOSITIONS_GENERALES: 'Dispositions générales',
+      IMPLANTATION_AMENAGEMENT: 'Implantation - aménagement',
+      EXPLOITATION: 'Exploitation',
+      RISQUES: 'Risques',
+      EAU: 'Eau',
+      AIR_ODEURS: 'Air - odeurs',
+      DECHETS: 'Déchets',
+      BRUIT_VIBRATIONS: 'Bruit - vibrations',
+      FIN_EXPLOITATION: 'Fin d\'exploitation'
+    }.freeze
   end
 
   def generate_doc_with_prescriptions
