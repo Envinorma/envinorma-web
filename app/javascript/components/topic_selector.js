@@ -12,19 +12,52 @@ const hideAllElements = () => {
   document.querySelectorAll(".filterable").forEach((element) => {
     element.classList.add("d-none");
   });
+
+  document.querySelectorAll(".empty-illu").forEach((element) => {
+    element.classList.add("d-none");
+  });
 };
-const showElements = (topic) => {
-  document.querySelectorAll(".topic_" + topic).forEach((element) => {
+
+const showAllElements = () => {
+  document.querySelectorAll(".filterable").forEach((element) => {
     element.classList.remove("d-none");
   });
 };
 
-const filterSummary = (event) => {
-  deactivateAllButtons();
-  activateButton(event.target);
-  hideAllElements();
-  showElements(event.target.dataset.topic);
+const showElements = (topic) => {
+  document.querySelectorAll(".topic_" + topic).forEach((element) => {
+    element.classList.remove("d-none");
+  });
+
+  document.querySelectorAll(".am-content").forEach((content) => {
+    if (content.querySelectorAll(".filterable.d-none").length == content.querySelectorAll(".filterable").length) {
+      content.querySelector(".empty-illu").classList.remove("d-none")
+    }
+  });
+
 };
+
+const filterSummary = (event) => {
+  document.querySelector(".spinner").classList.add("fade-in");
+  document.querySelector(".spinner").classList.add("active");
+  setTimeout(() => {
+    if (event.target.id == "js_delete_topics") {
+      resetFilter()
+      return
+    }
+    deactivateAllButtons();
+    activateButton(event.target);
+    hideAllElements();
+    showElements(event.target.dataset.topic);
+    document.querySelector(".spinner").classList.remove("active");
+  }, 500);
+};
+
+const resetFilter = () => {
+  deactivateAllButtons();
+  showAllElements();
+  document.querySelector(".spinner").classList.remove("active");
+}
 
 window.addEventListener("load", () => {
   const topicButtons = document.querySelectorAll(".topic-button");

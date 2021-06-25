@@ -1,12 +1,17 @@
 - content_for :meta_title, "Envinorma - #{@installation.name} - #{@installation.city}"
 
-.container
-  - @topics.each do |topic_id, topic_name|
-    *{ tag: 'button', class: 'btn btn-light topic-button', data: { topic: topic_id } }
-      = topic_name
-
 .am_nav
   .container
+    .first-nav-part
+      .row
+        ul.list-inline
+          - @topics.each do |topic_id, topic_name|
+            li.list-inline-item.mb-1
+              = button_tag topic_name, class: "btn btn-light btn-sm topic-button",
+                data: { topic: topic_id }
+          li.list-inline-item
+            = button_tag "x supprimer les filtres", class: "small btn btn-sm btn-link topic-button", id: "js_delete_topics"
+
     .row
       .col-1.align-self-center
         = link_to '< Retour à l’installation', installation_path(@installation), class: 'small'
@@ -58,84 +63,90 @@
                   - arrete.data.sections.each do |section|
                     - create_summary.call(section)
             .col-9
-              h2.display.h1
-                = arrete.short_title
-                span.text-secondary
-                  =  "- #{classement_infos}"
-              p
-                strong = arrete.title
+              .am-header.filterable
+                h2.display.h1
+                  = arrete.short_title
+                  span.text-secondary
+                    =  "- #{classement_infos}"
+                p
+                  strong = arrete.title
 
-              - arrete.version_descriptor.applicability_warnings.each do |warning|
-                *{ tag: 'p', class: arrete.version_descriptor.applicable ? 'alert alert-warning' : 'alert alert-danger' }
-                  = warning
+                - arrete.version_descriptor.applicability_warnings.each do |warning|
+                  *{ tag: 'p', class: arrete.version_descriptor.applicable ? 'alert alert-warning' : 'alert alert-danger' }
+                    = warning
 
-              p.mb-5
-                = link_to 'Consulter sur Aida', arrete.aida_url, target: '_blank', rel: 'noopener'
-                = link_to 'Consulter sur Légifrance', arrete.legifrance_url, target: '_blank', class: 'ml-3', rel: 'noopener'
-              - arrete.data.sections.each_with_index do |section, section_index|
-                - extract_sections = lambda do |subsection, subsection_rank, level = 3|
+                p.mb-5
+                  = link_to 'Consulter sur Aida', arrete.aida_url, target: '_blank', rel: 'noopener'
+                  = link_to 'Consulter sur Légifrance', arrete.legifrance_url, target: '_blank', class: 'ml-3', rel: 'noopener'
 
-                  - subsection_id = subsection.id
-                  - class_names = @arrete_topics[arrete.id][subsection.id].map { |topic| "topic_#{topic}" }.join(' ')
-                  div id="anchor_#{subsection.id}" class='anchor anchor-summary filterable #{class_names}'
+              .am-content
+                .empty-illu.text-center.text-secondary.d-none
+                  i.far.fa-times-circle.fa-2x
+                  p Cet arrêté ne contient pas de prescriptions avec le thême choisi
+                - arrete.data.sections.each_with_index do |section, section_index|
+                  - extract_sections = lambda do |subsection, subsection_rank, level = 3|
 
-                    / display title
-                    - class_name = subsection.applicability.active ? '' : 'inactive'
-                    *{ tag: "h#{level}", class: class_name } = subsection.title.text
+                    - subsection_id = subsection.id
+                    - class_names = @arrete_topics[arrete.id][subsection.id].map { |topic| "topic_#{topic}" }.join(' ')
+                    div id="anchor_#{subsection.id}" class='anchor anchor-summary filterable #{class_names}'
 
-                    / display warning
-                    - subsection.applicability.warnings.each do |warning|
-                      .alert.alert-secondary
-                        p = warning
+                      / display title
+                      - class_name = subsection.applicability.active ? '' : 'inactive'
+                      *{ tag: "h#{level}", class: class_name } = subsection.title.text
 
-                    / display outeralineas
-                    - if subsection.outer_alineas.present?
-                      - am_ref = "#{am_short_title} - #{classement_infos}"
+                      / display warning
+                      - subsection.applicability.warnings.each do |warning|
+                        .alert.alert-secondary
+                          p = warning
 
-                      / display button and collapse original text version if modified
-                      - if subsection.applicability.modified
-                        small
+                      / display outeralineas
+                      - if subsection.outer_alineas.present?
+                        - am_ref = "#{am_short_title} - #{classement_infos}"
+
+                        / display button and collapse original text version if modified
+                        - if subsection.applicability.modified
+                          small
+                            .border-bottom.mb-3.pb-3
+                              *{ tag: "a href='#'",
+                                class: 'icon-collapse icon-collapse-mini',
+                                data: { toggle: 'collapse', target: "#modified_collapse_#{subsection_id}" } }
+                                | voir le texte d'origine
+
+                              .inactive
+                                .collapse id="modified_collapse_#{subsection_id}"
+                                  = render partial: 'outer_alineas',
+                                    locals: { subsection: subsection.applicability.previous_version,
+                                              level: level,
+                                              subsection_id: subsection_id,
+                                              ref: subsection.reference_str,
+                                              am_ref: am_ref,
+                                              am_id: arrete.id,
+                                              subsection_rank: subsection_rank,
+                                              modification: true }
+
+                        - if subsection.applicability.active && subsection.outer_alineas.count > 1
                           .border-bottom.mb-3.pb-3
-                            *{ tag: "a href='#'",
-                              class: 'icon-collapse icon-collapse-mini',
-                              data: { toggle: 'collapse', target: "#modified_collapse_#{subsection_id}" } }
-                              | voir le texte d'origine
+                            .form-group.row
+                              .col-sm-12
+                                .form-check
+                                  = check_box_tag "select_all_#{subsection.id}",
+                                    '1', false, class: 'form-check-input select_all', data: { section_id: subsection.id }
 
-                            .inactive
-                              .collapse id="modified_collapse_#{subsection_id}"
-                                = render partial: 'outer_alineas',
-                                  locals: { subsection: subsection.applicability.previous_version,
-                                            level: level,
-                                            subsection_id: subsection_id,
-                                            ref: subsection.reference_str,
-                                            am_ref: am_ref,
-                                            am_id: arrete.id,
-                                            subsection_rank: subsection_rank,
-                                            modification: true }
+                        = render partial: 'outer_alineas',
+                          locals: { subsection: subsection,
+                                    level: level,
+                                    subsection_id: subsection_id,
+                                    ref: subsection.reference_str,
+                                    am_ref: am_ref,
+                                    am_id: arrete.id,
+                                    subsection_rank: subsection_rank,
+                                    modification: false }
 
-                      - if subsection.applicability.active && subsection.outer_alineas.count > 1
-                        .border-bottom.mb-3.pb-3
-                          .form-group.row
-                            .col-sm-12
-                              .form-check
-                                = check_box_tag "select_all_#{subsection.id}",
-                                  '1', false, class: 'form-check-input select_all', data: { section_id: subsection.id }
+                    / iterate on sections and increment level
+                    - subsection.sections.each_with_index do |item, item_index|
+                      - extract_sections.call(item, "#{subsection_rank}.#{item_index}", level + 1)
 
-                      = render partial: 'outer_alineas',
-                        locals: { subsection: subsection,
-                                  level: level,
-                                  subsection_id: subsection_id,
-                                  ref: subsection.reference_str,
-                                  am_ref: am_ref,
-                                  am_id: arrete.id,
-                                  subsection_rank: subsection_rank,
-                                  modification: false }
-
-                  / iterate on sections and increment level
-                  - subsection.sections.each_with_index do |item, item_index|
-                    - extract_sections.call(item, "#{subsection_rank}.#{item_index}", level + 1)
-
-                - extract_sections.call(section, section_index.to_s)
+                  - extract_sections.call(section, section_index.to_s)
 
         .splitter
 
