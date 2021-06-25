@@ -49,7 +49,7 @@
               dl.summary
                 .display-summary id="anchor_#{arrete.id}_summary" class='anchor'
                   - create_summary = lambda do |sec, depth = 0|
-                    - class_names = arrete.topics[sec.id].map { |topic| "topic_#{topic}" }.join(' ')
+                    - class_names = @arrete_topics[arrete.id][sec.id].map { |topic| "topic_#{topic}" }.join(' ')
                     dd class="#{class_names} filterable"
                       a class="level_#{depth}" href="#anchor_#{sec.id}"
                         = sec.title.text
@@ -76,7 +76,7 @@
                 - extract_sections = lambda do |subsection, subsection_rank, level = 3|
 
                   - subsection_id = subsection.id
-                  - class_names = arrete.topics[subsection.id].map { |topic| "topic_#{topic}" }.join(' ')
+                  - class_names = @arrete_topics[arrete.id][subsection.id].map { |topic| "topic_#{topic}" }.join(' ')
                   div id="anchor_#{subsection.id}" class='anchor anchor-summary filterable #{class_names}'
 
                     / display title

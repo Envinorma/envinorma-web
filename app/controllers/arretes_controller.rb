@@ -18,6 +18,10 @@ class ArretesController < ApplicationController
     @prescription = Prescription.new
     @prescriptions = @user.prescriptions_grouped_for(@installation)
     @alinea_ids = @user.prescription_alinea_ids(@installation)
+    @arrete_topics = {}
+    @arretes.each do |arrete|
+      @arrete_topics[arrete.id] = arrete.topics
+    end
 
     @topics = {
       DISPOSITIONS_GENERALES: 'Dispositions générales',
