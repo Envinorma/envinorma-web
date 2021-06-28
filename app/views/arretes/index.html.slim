@@ -7,10 +7,10 @@
         ul.list-inline
           - @topics.each do |topic_id, topic_name|
             li.list-inline-item.mb-1
-              = button_tag topic_name, class: "btn btn-light btn-sm topic-button",
+              = button_tag topic_name, class: 'btn btn-light btn-sm topic-button',
                 data: { topic: topic_id }
           li.list-inline-item
-            = button_tag "x supprimer les filtres", class: "small btn btn-sm btn-link topic-button", id: "js_delete_topics"
+            = button_tag 'x supprimer les filtres', class: 'small btn btn-sm btn-link topic-button', id: 'js_delete_topics'
 
     .row
       .col-1.align-self-center
@@ -63,11 +63,12 @@
                   - arrete.data.sections.each do |section|
                     - create_summary.call(section)
             .col-9
+              h2.display.h1
+                = arrete.short_title
+                span.text-secondary
+                  =  "- #{classement_infos}"
+
               .am-header.filterable
-                h2.display.h1
-                  = arrete.short_title
-                  span.text-secondary
-                    =  "- #{classement_infos}"
                 p
                   strong = arrete.title
 
@@ -77,12 +78,17 @@
 
                 p.mb-5
                   = link_to 'Consulter sur Aida', arrete.aida_url, target: '_blank', rel: 'noopener'
-                  = link_to 'Consulter sur Légifrance', arrete.legifrance_url, target: '_blank', class: 'ml-3', rel: 'noopener'
+                  = link_to 'Consulter sur Légifrance', arrete.legifrance_url,
+                            target: '_blank',
+                            class: 'ml-3',
+                            rel: 'noopener'
 
               .am-content
-                .empty-illu.text-center.text-secondary.d-none
-                  i.far.fa-times-circle.fa-2x
-                  p Cet arrêté ne contient pas de prescriptions avec le thême choisi
+                .empty-illu.text-secondary.d-none
+                  i.far.fa-times-circle
+                  '
+                  | Cet arrêté ne contient pas de prescriptions avec le thême choisi
+
                 - arrete.data.sections.each_with_index do |section, section_index|
                   - extract_sections = lambda do |subsection, subsection_rank, level = 3|
 
