@@ -33,10 +33,23 @@ html
   img
     width: 30px
 
+.topics_nav
+  z-index: 2
+  background-color: white
+  position: sticky
+  top: 49px
+  z-index: 2
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+  padding: 0.5em 0
+  margin: 0 -15px 30px -15px
+
+  ul
+    margin-bottom: 0
+
 .summary
   position: sticky
   top: 140px
-  border-left: 2px solid $primary
+  border-left: 1px solid rgba(0, 0, 0, 0.1)
   font-size: 0.8em
   bottom: 0
   height: 80vh
@@ -57,10 +70,6 @@ html
   .level_0
     text-transform: uppercase
     font-weight: bold
-
-.first-nav-part
-  padding: 0.5em 0
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
 
 section.anchor::before, div.anchor::before
   display: block

@@ -1,37 +1,19 @@
-.am_nav
-  z-index: 2
-  background-color: white
-  position: sticky
-  top: 49px
-  z-index: 2
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
-  line-height: 1
-  margin-bottom: 30px
+.glide
+  a
+    color: inherit
+    display: block
+    padding: 0.5em 0
+    height: 100%
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
 
-  ul
-    margin-bottom: 0
-
-  li
-    text-align: center
-    line-height: 1.2
-    font-size: 0.9em
-
-  .glide
-    a
-      color: inherit
-      display: block
-      padding: 0.5em 0
-      height: 100%
-      white-space: nowrap
-      overflow: hidden
-      text-overflow: ellipsis
-
-      &:hover,
-      &.current
-        color: #000000
-        text-decoration: none
-        border-bottom: 3px solid $primary
-        padding-bottom: calc(0.5em - 3px)
+    &:hover,
+    &.current
+      color: #000000
+      text-decoration: none
+      border-bottom: 3px solid $primary
+      padding-bottom: calc(0.5em - 3px)
 
 .glide__slide
   height: auto

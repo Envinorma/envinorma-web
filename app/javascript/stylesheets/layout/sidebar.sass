@@ -1,0 +1,33 @@
+.sidebar-sticky
+  display: flex
+  flex-direction: column
+  position: sticky
+  top: 49px
+  height: calc(100vh - 49px)
+  background-color: $light
+  padding: 15px
+
+  ul
+    padding-top: 1em
+    overflow-y: auto
+    margin-left: -15px
+
+  li
+    line-height: 1
+    margin-bottom: 1.5em
+
+    &:last-child
+      margin-bottom: 0
+
+  .nav
+    a
+      border-left: 3px solid $light
+      padding: 0 0 0 15px
+
+      &.current
+        border-left: 3px solid $primary
+        color: black
+
+  hr
+    width: 100%
+    margin-bottom: 0
