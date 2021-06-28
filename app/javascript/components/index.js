@@ -1,4 +1,5 @@
 require("./active_nav");
+require("./define_height_summary");
 require("./loader");
 require("./modal");
 require("./search");

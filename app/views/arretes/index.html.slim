@@ -37,8 +37,6 @@
                   li.list-inline-item.mb-1
                     = button_tag topic_name, class: 'btn btn-light btn-sm topic-button',
                       data: { topic: topic_id }
-                li.list-inline-item
-                  = button_tag 'x supprimer les filtres', class: 'small btn btn-sm btn-link topic-button', id: 'js_delete_topics'
 
       .container
         - if @arretes.any?
