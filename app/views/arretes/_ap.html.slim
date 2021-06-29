@@ -1,0 +1,25 @@
+- placeholder = 'ex: Les quantités maximales qui seront stockées sont estimées à environ : 1 500.000m3'
+section id="anchor_ap_#{ap.id}" class='anchor'
+  .row.pt-4
+    .col-3
+      h5 = ap.title
+
+      = simple_form_for @prescription,
+        url: installation_create_from_ap_path(@installation, @prescription),
+        remote: true do |f|
+        .row
+          .col-12
+            = f.input :reference, placeholder: 'ex: Art. 2'
+          .col-12
+            = f.input :content,
+                      as: :text,
+                      placeholder: placeholder,
+                      hint: 'Le copier-coller est possible depuis le PDF'
+
+          = f.hidden_field :text_reference, value: ap.short_title
+
+        = f.button :submit, 'Ajouter une prescription', class: 'btn btn-primary'
+    .col-9
+      - url_ovh = 'https://storage.sbg.cloud.ovh.net/v1/AUTH_3287ea227a904f04ad4e8bceb0776108/ap/'
+      object data="#{url_ovh}#{ap.georisques_id}.pdf" type="application/pdf" class="pdf_viewer"
+.splitter

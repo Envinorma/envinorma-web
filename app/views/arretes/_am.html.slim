@@ -1,0 +1,112 @@
+- am_short_title = arrete.short_title
+- classement_infos = classement_infos(arrete, @installation)
+section id="anchor_am_#{arrete.id}" class='anchor'
+  .row
+    .col-3
+      dl.summary
+        .display-summary id="anchor_#{arrete.id}_summary" class='anchor'
+          - create_summary = lambda do |sec, depth = 0|
+            - class_names = @arrete_topics[arrete.id][sec.id].map { |topic| "topic_#{topic}" }.join(' ')
+            dd class="#{class_names} filterable"
+              a class="level_#{depth}" href="#anchor_#{sec.id}"
+                = sec.title.text
+            - sec.sections.each do |subsec|
+              - create_summary.call(subsec, depth + 1)
+          - arrete.data.sections.each do |section|
+            - create_summary.call(section)
+    .col-9.pt-4
+      h2.display.h1
+        = arrete.short_title
+        span.text-secondary
+          =  "- #{classement_infos}"
+
+      .am-header.filterable
+        p
+          strong = arrete.title
+
+        - arrete.version_descriptor.applicability_warnings.each do |warning|
+          - classname = arrete.version_descriptor.applicable ? 'alert alert-warning' : 'alert alert-danger'
+          *{ tag: 'p', class: classname }
+            = warning
+
+        p.mb-5
+          = link_to 'Consulter sur Aida', arrete.aida_url, target: '_blank', rel: 'noopener'
+          = link_to 'Consulter sur Légifrance', arrete.legifrance_url,
+                    target: '_blank',
+                    class: 'ml-3',
+                    rel: 'noopener'
+
+      .am-content
+        .empty-illu.text-secondary.d-none
+          i.far.fa-times-circle
+          '
+          | Cet arrêté ne contient pas de prescriptions correspondant au thème choisi
+
+        - arrete.data.sections.each_with_index do |section, section_index|
+          - extract_sections = lambda do |subsection, subsection_rank, parent_topic, level = 3|
+            - section_topic = parent_topic || subsection.annotations.topic
+            - class_names = @arrete_topics[arrete.id][subsection.id].map { |topic| "topic_#{topic}" }.join(' ')
+            div id="anchor_#{subsection.id}" class='anchor anchor-summary filterable #{class_names}'
+
+              / display title
+              - class_name = subsection.applicability.active ? '' : 'inactive'
+              *{ tag: "h#{level}", class: class_name } = subsection.title.text
+
+              / display warning
+              - subsection.applicability.warnings.each do |warning|
+                .alert.alert-secondary
+                  p = warning
+
+              / display outeralineas
+              - if subsection.outer_alineas.present?
+                - am_ref = "#{am_short_title} - #{classement_infos}"
+
+                / display button and collapse original text version if modified
+                - if subsection.applicability.modified
+                  small
+                    .border-bottom.mb-3.pb-3
+                      *{ tag: "a href='#'",
+                        class: 'icon-collapse icon-collapse-mini',
+                        data: { toggle: 'collapse', target: "#modified_collapse_#{subsection.id}" } }
+                        | voir le texte d'origine
+
+                      .inactive
+                        .collapse id="modified_collapse_#{subsection.id}"
+                          = render partial: 'outer_alineas',
+                            locals: { subsection: subsection.applicability.previous_version,
+                                      level: level,
+                                      subsection_id: subsection.id,
+                                      ref: subsection.reference_str,
+                                      am_ref: am_ref,
+                                      am_id: arrete.id,
+                                      subsection_rank: subsection_rank,
+                                      modification: true,
+                                      topic: section_topic }
+
+                - if subsection.applicability.active && subsection.outer_alineas.count > 1
+                  .border-bottom.mb-3.pb-3
+                    .form-group.row
+                      .col-sm-12
+                        .form-check
+                          = check_box_tag "select_all_#{subsection.id}",
+                            '1', false, class: 'form-check-input select_all',
+                            data: { section_id: subsection.id }
+
+                = render partial: 'outer_alineas',
+                  locals: { subsection: subsection,
+                            level: level,
+                            subsection_id: subsection.id,
+                            ref: subsection.reference_str,
+                            am_ref: am_ref,
+                            am_id: arrete.id,
+                            subsection_rank: subsection_rank,
+                            modification: false,
+                            topic: section_topic }
+
+            / iterate on sections and increment level
+            - subsection.sections.each_with_index do |item, item_index|
+              - extract_sections.call(item, "#{subsection_rank}.#{item_index}", section_topic, level + 1)
+
+          - extract_sections.call(section, section_index.to_s, section.annotations.topic)
+
+.splitter
