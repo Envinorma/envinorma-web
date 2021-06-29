@@ -74,7 +74,8 @@ RSpec.describe OdfHelper do
                                        from_am_id: 'am-id', text_reference: 'am-id',
                                        rank: '0', user_id: 0)
       prescriptions = [prescription1, prescription2]
-      result = { 'am-id - ref' => 'line 1<text:line-break/>line 2<text:line-break/><text:line-break/>line 3' }
+      result = [{ full_reference: 'am-id - ref',
+                  content: 'line 1<text:line-break/>line 2<text:line-break/><text:line-break/>line 3' }]
       expect(merge_prescriptions_with_same_ref(prescriptions)).to eq result
     end
 
@@ -84,7 +85,8 @@ RSpec.describe OdfHelper do
       prescription2 = Prescription.new(reference: 'Annexe 2.', content: "line 1\nline 2", alinea_id: '0',
                                        from_am_id: 'am-id', text_reference: 'AP 2009', rank: '0', user_id: 0)
       prescriptions = [prescription1, prescription2]
-      result = { 'AM 2020 - Art. 1' => 'line 3', 'AP 2009 - Annexe 2.' => 'line 1<text:line-break/>line 2' }
+      result = [{ full_reference: 'AM 2020 - Art. 1', content: 'line 3' },
+                { full_reference: 'AP 2009 - Annexe 2.', content: 'line 1<text:line-break/>line 2' }]
       expect(merge_prescriptions_with_same_ref(prescriptions)).to eq result
     end
   end
