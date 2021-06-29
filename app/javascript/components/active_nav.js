@@ -1,8 +1,8 @@
 window.addEventListener('DOMContentLoaded', () => {
 
-  if (document.querySelector(".am_nav") != null) {
+  if (document.querySelector(".sidebar-sticky") != null) {
 
-    let mainNavLinks = document.querySelectorAll(".am_nav .glide a");
+    let mainNavLinks = document.querySelectorAll(".sidebar-sticky .nav a");
     let mainSections = document.querySelectorAll(".container section");
     let mainSummary = document.querySelectorAll(".summary .display-summary");
     let mainSummaryLinks = document.querySelectorAll(".summary a");

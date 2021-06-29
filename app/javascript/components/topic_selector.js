@@ -1,11 +1,11 @@
 const deactivateAllButtons = () => {
   document.querySelectorAll(".topic-button").forEach((topicButton) => {
-    topicButton.classList.replace("btn-success", "btn-light");
+    topicButton.classList.replace("btn-primary", "btn-light");
   });
 };
 
 const activateButton = (button) => {
-  button.classList.replace("btn-light", "btn-success");
+  button.classList.replace("btn-light", "btn-primary");
 };
 
 const hideAllElements = () => {
@@ -41,10 +41,12 @@ const filterSummary = (event) => {
   document.querySelector(".spinner").classList.add("fade-in");
   document.querySelector(".spinner").classList.add("active");
   setTimeout(() => {
-    if (event.target.id == "js_delete_topics") {
+
+    if (event.target.classList.contains("btn-primary")) {
       resetFilter()
       return
     }
+
     deactivateAllButtons();
     activateButton(event.target);
     hideAllElements();
