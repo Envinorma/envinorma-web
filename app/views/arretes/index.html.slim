@@ -68,7 +68,8 @@
                         strong = arrete.title
 
                       - arrete.version_descriptor.applicability_warnings.each do |warning|
-                        *{ tag: 'p', class: arrete.version_descriptor.applicable ? 'alert alert-warning' : 'alert alert-danger' }
+                        - classname = arrete.version_descriptor.applicable ? 'alert alert-warning' : 'alert alert-danger'
+                        *{ tag: 'p', class: classname }
                           = warning
 
                       p.mb-5
@@ -131,7 +132,8 @@
                                     .col-sm-12
                                       .form-check
                                         = check_box_tag "select_all_#{subsection.id}",
-                                          '1', false, class: 'form-check-input select_all', data: { section_id: subsection.id }
+                                          '1', false, class: 'form-check-input select_all',
+                                          data: { section_id: subsection.id }
 
                               = render partial: 'outer_alineas',
                                 locals: { subsection: subsection,
@@ -153,6 +155,7 @@
               .splitter
 
         - if @aps.any?
+            - placeholder = 'ex: Les quantités maximales qui seront stockées sont estimées à environ : 1 500.000m3'
             - @aps.each do |ap|
               section id="anchor_ap_#{ap.id}" class='anchor'
                 .row.pt-4
@@ -166,7 +169,6 @@
                         .col-12
                           = f.input :reference, placeholder: 'ex: Art. 2'
                         .col-12
-                          - placeholder = 'ex: Les quantités maximales qui seront stockées sont estimées à environ : 1 500.000m3'
                           = f.input :content,
                                     as: :text,
                                     placeholder: placeholder,
