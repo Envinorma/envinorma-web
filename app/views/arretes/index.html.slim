@@ -29,7 +29,7 @@
 
     .col-10
       .topics_nav
-        .container
+        .container-fluid
           .row
             .col-12
               ul.list-inline
@@ -38,7 +38,7 @@
                     = button_tag topic_name, class: 'btn btn-light btn-sm topic-button',
                       data: { topic: topic_id }
 
-      .container
+      .container-fluid
         - if @arretes.any?
             - @arretes.each do |arrete|
               - am_short_title = arrete.short_title
@@ -57,7 +57,7 @@
                             - create_summary.call(subsec, depth + 1)
                         - arrete.data.sections.each do |section|
                           - create_summary.call(section)
-                  .col-9
+                  .col-9.pt-4
                     h2.display.h1
                       = arrete.short_title
                       span.text-secondary
@@ -154,7 +154,7 @@
         - if @aps.any?
             - @aps.each do |ap|
               section id="anchor_ap_#{ap.id}" class='anchor'
-                .row
+                .row.pt-4
                   .col-3
                     h5 = ap.title
 

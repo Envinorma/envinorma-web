@@ -7,8 +7,12 @@ const defineSummaryHeight = () => {
 
     document.querySelectorAll(".summary").forEach((summary) => {
       summary.style.top = height_both_nav + 'px';
-      console.log((viewport - height_both_nav))
       summary.style.height = (viewport - height_both_nav) + 'px';
+    });
+
+    document.querySelectorAll("section.anchor, div.anchor").forEach((section) => {
+      section.style.marginTop = '-' + height_both_nav + 'px';
+      section.style.paddingTop = height_both_nav + 'px';
     });
   };
 };
