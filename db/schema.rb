@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_03_160431) do
+ActiveRecord::Schema.define(version: 2021_06_28_095937) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -85,6 +85,7 @@ ActiveRecord::Schema.define(version: 2021_06_03_160431) do
     t.string "text_reference"
     t.string "rank"
     t.bigint "installation_id"
+    t.string "topic"
     t.index ["installation_id"], name: "index_prescriptions_on_installation_id"
     t.index ["user_id"], name: "index_prescriptions_on_user_id"
   end

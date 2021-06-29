@@ -23,6 +23,7 @@
               = f.hidden_field :text_reference, value: am_ref, namespace: alinea_id
               = f.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}", namespace: alinea_id
               = f.hidden_field :from_am_id, value: am_id, namespace: alinea_id
+              = f.hidden_field :topic, value: topic, namespace: alinea_id
 
   - if outer_alinea.table
     table.table.table-bordered
@@ -31,11 +32,11 @@
         - if row.is_header
           tr
             th
-            -# rubocop:disable Rails/OutputSafety
             - row.cells.each do |cell|
               th colspan="#{cell.colspan}" rowspan="#{cell.rowspan}"
-                = cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe
-            -# rubocop:enable Rails/OutputSafety
+                - content = cell.content.text.to_s.gsub(/\n/, '<br/>').html_safe  # rubocop:disable Rails/OutputSafety
+                / leave as is for linters
+                = content
         - else
           tr
             td
@@ -53,6 +54,7 @@
                 = f.hidden_field :text_reference, value: am_ref, namespace: row_id
                 = f.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}.#{index}", namespace: row_id
                 = f.hidden_field :from_am_id, value: am_id, namespace: row_id
+                = f.hidden_field :topic, value: topic, namespace: alinea_id
 
             - row.cells.each do |cell|
               td colspan="#{cell.colspan}" rowspan="#{cell.rowspan}"

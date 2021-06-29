@@ -1,12 +1,13 @@
 # frozen_string_literal: true
 
 class PrescriptionsController < ApplicationController
+  include TopicHelper
   before_action :set_installation
 
   def index
-    @prescriptions = @user.prescriptions_grouped_for(@installation)
+    by_topic = params[:by_topic] == 'true'
+    @prescriptions = @user.prescriptions_grouped_for(@installation, by_topic)
     @modal = true
-
     render_prescriptions
   end
 
@@ -35,7 +36,7 @@ class PrescriptionsController < ApplicationController
     prescription = Prescription.find(params[:id])
     prescription.destroy
 
-    @prescriptions = @user.prescriptions_grouped_for(@installation)
+    @prescriptions = @user.prescriptions_grouped_for(@installation, true)
     render_prescriptions
   end
 
@@ -45,6 +46,7 @@ class PrescriptionsController < ApplicationController
   end
 
   def render_prescriptions
+    @topics = TOPICS
     @counter = @user.prescriptions_for(@installation).count
 
     respond_to do |format|
@@ -60,7 +62,7 @@ class PrescriptionsController < ApplicationController
 
   def prescription_params
     params.require(:prescription).permit(:reference, :content, :alinea_id, :from_am_id, :user_id, :text_reference,
-                                         :rank)
+                                         :rank, :topic)
           .merge!(installation_id: @installation.id, user_id: @user.id)
   end
 end

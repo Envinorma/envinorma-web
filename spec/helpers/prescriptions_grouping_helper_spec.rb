@@ -4,10 +4,10 @@ require 'rails_helper'
 require './app/helpers/filter_helper'
 
 RSpec.configure do |c|
-  c.include FilterHelper
+  c.include PrescriptionsGroupingHelper
 end
 
-RSpec.describe FilterHelper do
+RSpec.describe PrescriptionsGroupingHelper do
   it 'sorts prescriptions by creation date when different AM.' do
     prescription1 = Prescription.new(reference: '', content: '', alinea_id: '0', from_am_id: 'am-id-1',
                                      text_reference: 'AM 1', rank: '1.1.2', user_id: 0,

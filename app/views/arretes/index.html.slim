@@ -84,9 +84,8 @@
                   i.far.fa-times-circle.fa-2x
                   p Cet arrêté ne contient pas de prescriptions avec le thême choisi
                 - arrete.data.sections.each_with_index do |section, section_index|
-                  - extract_sections = lambda do |subsection, subsection_rank, level = 3|
-
-                    - subsection_id = subsection.id
+                  - extract_sections = lambda do |subsection, subsection_rank, parent_topic, level = 3|
+                    - section_topic = parent_topic || subsection.annotations.topic
                     - class_names = @arrete_topics[arrete.id][subsection.id].map { |topic| "topic_#{topic}" }.join(' ')
                     div id="anchor_#{subsection.id}" class='anchor anchor-summary filterable #{class_names}'
 
@@ -109,20 +108,21 @@
                             .border-bottom.mb-3.pb-3
                               *{ tag: "a href='#'",
                                 class: 'icon-collapse icon-collapse-mini',
-                                data: { toggle: 'collapse', target: "#modified_collapse_#{subsection_id}" } }
+                                data: { toggle: 'collapse', target: "#modified_collapse_#{subsection.id}" } }
                                 | voir le texte d'origine
 
                               .inactive
-                                .collapse id="modified_collapse_#{subsection_id}"
+                                .collapse id="modified_collapse_#{subsection.id}"
                                   = render partial: 'outer_alineas',
                                     locals: { subsection: subsection.applicability.previous_version,
                                               level: level,
-                                              subsection_id: subsection_id,
+                                              subsection_id: subsection.id,
                                               ref: subsection.reference_str,
                                               am_ref: am_ref,
                                               am_id: arrete.id,
                                               subsection_rank: subsection_rank,
-                                              modification: true }
+                                              modification: true,
+                                              topic: section_topic }
 
                         - if subsection.applicability.active && subsection.outer_alineas.count > 1
                           .border-bottom.mb-3.pb-3
@@ -135,18 +135,19 @@
                         = render partial: 'outer_alineas',
                           locals: { subsection: subsection,
                                     level: level,
-                                    subsection_id: subsection_id,
+                                    subsection_id: subsection.id,
                                     ref: subsection.reference_str,
                                     am_ref: am_ref,
                                     am_id: arrete.id,
                                     subsection_rank: subsection_rank,
-                                    modification: false }
+                                    modification: false,
+                                    topic: section_topic }
 
                     / iterate on sections and increment level
                     - subsection.sections.each_with_index do |item, item_index|
-                      - extract_sections.call(item, "#{subsection_rank}.#{item_index}", level + 1)
+                      - extract_sections.call(item, "#{subsection_rank}.#{item_index}", section_topic, level + 1)
 
-                  - extract_sections.call(section, section_index.to_s)
+                  - extract_sections.call(section, section_index.to_s, section.annotations.topic)
 
         .splitter
 
@@ -178,7 +179,9 @@
               object data="#{url_ovh}#{ap.georisques_id}.pdf" type="application/pdf" class="pdf_viewer"
         .splitter
 
-= link_to installation_prescriptions_path(@installation), class: 'btn btn-primary circle-fixed-button', remote: true do
+= form_with(url: installation_prescriptions_path(@installation), id: 'recap-opener',
+            class: 'btn btn-primary circle-fixed-button', remote: true, method: 'GET') do |f|
+  = f.hidden_field :by_topic, value: false, id: 'recap-grouping'
   i.fas.fa-file-download.fa-fw
   span.counter.badge.badge-pill.badge-light.position-absolute = @user.prescriptions_for(@installation).count
 
@@ -191,13 +194,21 @@
         remote: true, method: :delete,
         class: 'text-danger small',
         onclick: "document.querySelectorAll('input[type=checkbox]').forEach((checkbox)=>{checkbox.checked = false;});"
+      p
+        =
+        / = form_with(url: installation_prescriptions_path(@installation), remote: true, method: 'get') do
+          / = check_box_tag(name: 'by_topic', checked: false)
+        / installation_prescriptions_path(@installation), remote: true do
+        input#recap-grouping-checbox.custom-control-input type="checkbox"
+        label.custom-control-label for="recap-grouping-checbox" Grouper par thème
+
       button.modal-close.modal-exit
         | X
 
     .modal-content
       #prescriptions_recap
 
-        = render partial: './prescriptions/prescription'
+        = render partial: './prescriptions/prescriptions_recap'
     .border-top.pt-3
       = link_to 'Télécharger la fiche', generate_doc_path, method: :post, class: 'btn btn-primary', id: 'js_download_fiche'
 

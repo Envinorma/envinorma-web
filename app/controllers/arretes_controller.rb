@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class ArretesController < ApplicationController
+  include TopicHelper
   include FilterArretes
   before_action :set_installation
 
@@ -16,24 +17,13 @@ class ArretesController < ApplicationController
     end
 
     @prescription = Prescription.new
-    @prescriptions = @user.prescriptions_grouped_for(@installation)
     @alinea_ids = @user.prescription_alinea_ids(@installation)
     @arrete_topics = {}
     @arretes.each do |arrete|
       @arrete_topics[arrete.id] = arrete.topics
     end
 
-    @topics = {
-      DISPOSITIONS_GENERALES: 'Dispositions générales',
-      IMPLANTATION_AMENAGEMENT: 'Implantation - aménagement',
-      EXPLOITATION: 'Exploitation',
-      RISQUES: 'Risques',
-      EAU: 'Eau',
-      AIR_ODEURS: 'Air - odeurs',
-      DECHETS: 'Déchets',
-      BRUIT_VIBRATIONS: 'Bruit - vibrations',
-      FIN_EXPLOITATION: 'Fin d\'exploitation'
-    }.freeze
+    @topics = TOPICS
   end
 
   def generate_doc_with_prescriptions

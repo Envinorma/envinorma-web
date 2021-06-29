@@ -1,0 +1,17 @@
+<% if @prescriptions %>
+  <div class="mt-3">
+    <% @prescriptions.each do |topic, grouped_by_text| %>
+      <% if !topic.nil?  %>
+        <% if topic == ''  %>
+          <h5>Aucun thème</h5>
+        <% else  %>
+          <h5>Thème : <%= @topics[topic] %></h5>
+        <% end %>
+        <hr/>
+      <% end %>
+      <% grouped_by_text.each do |text_reference, group| %>
+        <%= render partial: 'prescriptions/prescriptions_group', locals: {text_reference: text_reference, group: group} %>
+      <% end %>
+    <% end %>
+  </div>
+<% end %>

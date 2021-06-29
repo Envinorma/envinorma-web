@@ -8,3 +8,4 @@ require("./add_prescriptions");
 require("./prescription_textarea.js");
 require("./create_url_from_checked_arretes.js");
 require("./topic_selector.js");
+require("./open_recap.js");

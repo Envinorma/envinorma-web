@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class User < ApplicationRecord
+  include PrescriptionsGroupingHelper
+
   has_many :installations, dependent: :destroy
   has_many :prescriptions, dependent: :destroy
 
@@ -12,8 +14,8 @@ class User < ApplicationRecord
     prescriptions.where(installation_id: installation.id)
   end
 
-  def prescriptions_grouped_for(installation)
-    group_prescriptions(prescriptions_for(installation))
+  def prescriptions_grouped_for(installation, by_topic)
+    group_prescriptions(prescriptions_for(installation), by_topic)
   end
 
   def already_duplicated_installation?(installation)
@@ -26,7 +28,7 @@ class User < ApplicationRecord
 
   private
 
-  def group_prescriptions(prescriptions)
-    FilterHelper.sort_and_group(prescriptions)
+  def group_prescriptions(prescriptions, by_topic)
+    sort_and_group(prescriptions, by_topic)
   end
 end

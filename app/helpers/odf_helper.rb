@@ -32,7 +32,7 @@ module OdfHelper
 
   def merge_prescriptions_with_same_ref(prescriptions)
     prescriptions_joined_by_ref = {}
-    FilterHelper.sort_and_group(prescriptions).each do |text_reference, group|
+    PrescriptionsGroupingHelper.sort_and_group(prescriptions).each do |text_reference, group|
       group.each do |section_reference, subgroup|
         content = compute_cell_content(subgroup)
         full_reference = "#{text_reference} - #{section_reference}"
