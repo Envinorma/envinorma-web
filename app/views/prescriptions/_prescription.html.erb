@@ -1,5 +1,4 @@
 <div class='<%= "prescription_#{prescription.id} prescription" %>'>
-  <button class='btn btn-primary btn-pill btn-sm'><%= prescription.topic %></button>
   <p>
     <% prescription.content.split("\n").each do |line| %>
       <%= line %>

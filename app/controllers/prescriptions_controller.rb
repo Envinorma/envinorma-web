@@ -5,8 +5,7 @@ class PrescriptionsController < ApplicationController
   before_action :set_installation
 
   def index
-    by_topic = params[:by_topic] == 'true'
-    @prescriptions = @user.prescriptions_grouped_for(@installation, by_topic)
+    @prescriptions = @user.prescriptions_grouped_for(@installation)
     @modal = true
     render_prescriptions
   end
@@ -36,12 +35,18 @@ class PrescriptionsController < ApplicationController
     prescription = Prescription.find(params[:id])
     prescription.destroy
 
-    @prescriptions = @user.prescriptions_grouped_for(@installation, true)
+    @prescriptions = @user.prescriptions_grouped_for(@installation)
     render_prescriptions
   end
 
   def destroy_all
     @user.prescriptions_for(@installation).destroy_all
+    render_prescriptions
+  end
+
+  def toggle_grouping
+    @user.toggle_grouping
+    @prescriptions = @user.prescriptions_grouped_for(@installation)
     render_prescriptions
   end
 

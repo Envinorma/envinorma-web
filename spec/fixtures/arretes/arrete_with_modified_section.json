@@ -33,10 +33,16 @@
     },
     "sections": [
         {
+            "annotations": {
+                "topic": null
+            },
             "applicability": {
                 "active": true,
                 "modified": true,
                 "previous_version": {
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,

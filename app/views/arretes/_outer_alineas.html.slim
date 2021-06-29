@@ -54,7 +54,7 @@
                 = f.hidden_field :text_reference, value: am_ref, namespace: row_id
                 = f.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}.#{index}", namespace: row_id
                 = f.hidden_field :from_am_id, value: am_id, namespace: row_id
-                = f.hidden_field :topic, value: topic, namespace: alinea_id
+                = f.hidden_field :topic, value: topic, namespace: row_id
 
             - row.cells.each do |cell|
               td colspan="#{cell.colspan}" rowspan="#{cell.rowspan}"

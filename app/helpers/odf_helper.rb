@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 module OdfHelper
+  include PrescriptionsGroupingHelper
+
   HTML_ESCAPE = {
     '&' => '&amp;',
     '>' => '&gt;',
@@ -32,7 +34,7 @@ module OdfHelper
 
   def merge_prescriptions_with_same_ref(prescriptions)
     prescriptions_joined_by_ref = {}
-    PrescriptionsGroupingHelper.sort_and_group(prescriptions).each do |text_reference, group|
+    sort_and_group_by_text(prescriptions).each do |text_reference, group|
       group.each do |section_reference, subgroup|
         content = compute_cell_content(subgroup)
         full_reference = "#{text_reference} - #{section_reference}"

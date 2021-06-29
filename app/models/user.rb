@@ -14,8 +14,8 @@ class User < ApplicationRecord
     prescriptions.where(installation_id: installation.id)
   end
 
-  def prescriptions_grouped_for(installation, by_topic)
-    group_prescriptions(prescriptions_for(installation), by_topic)
+  def prescriptions_grouped_for(installation)
+    group_prescriptions(prescriptions_for(installation))
   end
 
   def already_duplicated_installation?(installation)
@@ -26,9 +26,14 @@ class User < ApplicationRecord
     installations.find_by(duplicated_from_id: installation.id)
   end
 
+  def toggle_grouping
+    self.group_prescriptions_by_topic = !group_prescriptions_by_topic
+    save
+  end
+
   private
 
-  def group_prescriptions(prescriptions, by_topic)
-    sort_and_group(prescriptions, by_topic)
+  def group_prescriptions(prescriptions)
+    sort_and_group(prescriptions, group_prescriptions_by_topic)
   end
 end

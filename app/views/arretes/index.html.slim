@@ -179,9 +179,7 @@
               object data="#{url_ovh}#{ap.georisques_id}.pdf" type="application/pdf" class="pdf_viewer"
         .splitter
 
-= form_with(url: installation_prescriptions_path(@installation), id: 'recap-opener',
-            class: 'btn btn-primary circle-fixed-button', remote: true, method: 'GET') do |f|
-  = f.hidden_field :by_topic, value: false, id: 'recap-grouping'
+= link_to installation_prescriptions_path(@installation), class: 'btn btn-primary circle-fixed-button', remote: true do
   i.fas.fa-file-download.fa-fw
   span.counter.badge.badge-pill.badge-light.position-absolute = @user.prescriptions_for(@installation).count
 
@@ -194,13 +192,10 @@
         remote: true, method: :delete,
         class: 'text-danger small',
         onclick: "document.querySelectorAll('input[type=checkbox]').forEach((checkbox)=>{checkbox.checked = false;});"
-      p
-        =
-        / = form_with(url: installation_prescriptions_path(@installation), remote: true, method: 'get') do
-          / = check_box_tag(name: 'by_topic', checked: false)
-        / installation_prescriptions_path(@installation), remote: true do
-        input#recap-grouping-checbox.custom-control-input type="checkbox"
-        label.custom-control-label for="recap-grouping-checbox" Grouper par thème
+      = link_to(installation_toggle_grouping_path(@installation), remote: true,
+          onclick: "document.querySelector('#recap-grouping-checkbox').checked ^= 1;") do
+        *{ tag: 'input', id: 'recap-grouping-checkbox', checked: @user.group_prescriptions_by_topic, type: 'checkbox' }
+          | Grouper par thème
 
       button.modal-close.modal-exit
         | X
