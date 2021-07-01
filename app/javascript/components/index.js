@@ -1,3 +1,4 @@
+require("./active_group_buttons");
 require("./active_nav");
 require("./define_height_summary");
 require("./loader");
