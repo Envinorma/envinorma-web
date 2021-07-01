@@ -67,7 +67,7 @@ RSpec.describe 'Feature tests end to end', js: true do
     expect(page).to have_selector '.counter', text: '8'
     expect(Prescription.count).to eq 8
 
-    # Open and close the modal
+    # Open modal
     click_on(class: 'circle-fixed-button')
 
     expect(page).to have_selector '#prescriptions_recap h6', text: 'AM - 09/04/19 - 2521 E', count: 1
@@ -86,8 +86,31 @@ RSpec.describe 'Feature tests end to end', js: true do
     expect(page).to have_selector '#prescriptions_recap h6', text: 'AP - 27/04/21', count: 1
     expect(page).to have_selector '.prescription', count: '8'
     expect(Prescription.count).to eq 8
+
+    # Delete one prescription from modal
+    click_link('Supprimer', match: :first)
+    expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: false)
+    expect(page).to have_selector '.prescription', count: '7'
+    expect(Prescription.count).to eq 7
+
+    # Delete all prescriptions from modal
+    click_link('Tout supprimer')
+    expect(page).to have_selector '.prescription', count: '0'
+    expect(Prescription.count).to eq 0
+
+    # Close the modal
     click_button('Fermer')
     page.find('#modalPrescriptions', visible: false)
+  end
+
+  it 'saves prescriptions for an installation and a user' do
+    visit_eva_industries_prescriptions_page
+
+    # Create prescriptions using checkbox select_all
+    find('.select_all', match: :first).click
+    expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
+    expect(page).to have_selector '.counter', text: '5'
+    expect(Prescription.count).to eq 5
 
     # Visit a new installation - Prescriptions are not displayed
     visit root_path
@@ -104,24 +127,64 @@ RSpec.describe 'Feature tests end to end', js: true do
     expect(page).to have_selector '.prescription', count: '0'
 
     # Return to installation - prescriptions are still displayed
-    visit root_path
-    fill_in('autocomplete', with: 'EVA INDUST')
-    click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
-    click_link("Voir les prescriptions pour générer une fiche d'inspection")
+    visit_eva_industries_prescriptions_page
 
     click_on(class: 'circle-fixed-button')
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
     expect(page).to have_selector '#prescriptions_recap h6', text: 'AM - 09/04/19 - 2521 E', count: 1
-    expect(page).to have_selector '.prescription', count: '8'
+    expect(page).to have_selector '.prescription', count: '5'
+  end
 
-    click_link('Supprimer', match: :first)
-    expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: false)
-    expect(page).to have_selector '.prescription', count: '7'
-    expect(Prescription.count).to eq 7
+  it 'filter am with topics' do
+    visit_eva_industries_prescriptions_page
 
-    click_link('Tout supprimer')
-    expect(page).to have_selector '.prescription', count: '0'
-    expect(Prescription.count).to eq 0
+    expect(page).to have_content('Chapitre Ier : Dispositions générales')
+    click_button('Air - odeurs')
+    expect(page).to have_selector '.btn-primary', text: 'Air - odeurs'
+    expect(page).not_to have_content('Chapitre Ier : Dispositions générales')
+    expect(page).to have_content("Chapitre VI : Emissions dans l'air")
+
+    click_button("Fin d'exploitation")
+    expect(page).to have_selector '.btn-primary', text: "Fin d'exploitation"
+    expect(page).to have_selector '.btn-light', text: 'Air - odeurs'
+    expect(page).not_to have_content('Chapitre Ier : Dispositions générales')
+    expect(page).to have_content('Cet arrêté ne contient pas de prescriptions correspondant au thème choisi')
+
+    click_button("Fin d'exploitation")
+    expect(page).to have_selector '.btn-light', text: "Fin d'exploitation"
+    expect(page).to have_content('Chapitre Ier : Dispositions générales')
+  end
+
+  it 'filter selected prescriptions by topics or by arretes' do
+    visit_eva_industries_prescriptions_page
+
+    click_button('Air - odeurs')
+    expect(page).to have_content("Chapitre VI : Emissions dans l'air")
+    find('.select_all', match: :first).click
+    expect(page).to have_selector '.counter', text: '4'
+    expect(Prescription.count).to eq 4
+
+    click_button('Bruit - vibrations')
+    expect(page).to have_content('Chapitre VII : Bruit, vibration et émissions lumineuses')
+    find('.select_all', match: :first).click
+    expect(page).to have_selector '.counter', text: '8'
+    expect(Prescription.count).to eq 8
+
+    click_on(class: 'circle-fixed-button')
+
+    expect(page).to have_content("Fiche d'inspection")
+    expect(page).to have_selector '.btn-secondary', text: 'Grouper par arrêté'
+    expect(page).to have_selector '.btn-light', text: 'Grouper par thème'
+    expect(page).not_to have_content('Thème : Air - odeurs')
+    # save_and_open_page
+    # WIP : Why there is no prescription displayed when opening modal ?
+
+    click_link('Grouper par thème')
+    expect(page).to have_content('Thème : Air - odeurs')
+
+    click_link('Grouper par arrêté')
+    expect(page).not_to have_content('Thème : Air - odeurs')
   end
 end
+
 # rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength
