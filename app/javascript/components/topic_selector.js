@@ -1,3 +1,27 @@
+const filterSummary = (event) => {
+  document.querySelector(".spinner").classList.add("fade-in");
+  document.querySelector(".spinner").classList.add("active");
+  setTimeout(() => {
+
+    if (event.target.classList.contains("btn-primary")) {
+      resetFilter()
+      return
+    }
+
+    deactivateAllButtons();
+    activateButton(event.target);
+    hideAllElements();
+    showElements(event.target.dataset.topic);
+    document.querySelector(".spinner").classList.remove("active");
+  }, 500);
+};
+
+const resetFilter = () => {
+  deactivateAllButtons();
+  showAllElements();
+  document.querySelector(".spinner").classList.remove("active");
+}
+
 const deactivateAllButtons = () => {
   document.querySelectorAll(".topic-button").forEach((topicButton) => {
     topicButton.classList.replace("btn-primary", "btn-light");
@@ -22,6 +46,10 @@ const showAllElements = () => {
   document.querySelectorAll(".filterable").forEach((element) => {
     element.classList.remove("d-none");
   });
+
+  document.querySelectorAll(".empty-illu").forEach((element) => {
+    element.classList.add("d-none");
+  });
 };
 
 const showElements = (topic) => {
@@ -36,30 +64,6 @@ const showElements = (topic) => {
   });
 
 };
-
-const filterSummary = (event) => {
-  document.querySelector(".spinner").classList.add("fade-in");
-  document.querySelector(".spinner").classList.add("active");
-  setTimeout(() => {
-
-    if (event.target.classList.contains("btn-primary")) {
-      resetFilter()
-      return
-    }
-
-    deactivateAllButtons();
-    activateButton(event.target);
-    hideAllElements();
-    showElements(event.target.dataset.topic);
-    document.querySelector(".spinner").classList.remove("active");
-  }, 500);
-};
-
-const resetFilter = () => {
-  deactivateAllButtons();
-  showAllElements();
-  document.querySelector(".spinner").classList.remove("active");
-}
 
 window.addEventListener("load", () => {
   const topicButtons = document.querySelectorAll(".topic-button");
