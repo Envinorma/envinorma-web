@@ -2,8 +2,8 @@
 
 require 'rails_helper'
 
-# rubocop:disable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength
-RSpec.describe 'Feature tests end to end', js: true do
+# rubocop:disable RSpec/MultipleExpectations, RSpec/ExampleLength
+RSpec.describe 'Feature tests end to end', js: true, type: :feature do
   before do
     installation_eva_industries = FactoryBot.create(:installation)
     FactoryBot.create(:classement, :classement_2521_E, installation: installation_eva_industries)
@@ -160,31 +160,36 @@ RSpec.describe 'Feature tests end to end', js: true do
 
     click_button('Air - odeurs')
     expect(page).to have_content("Chapitre VI : Emissions dans l'air")
-    find('.select_all', match: :first).click
+    find('.select_all', match: :first).click(wait: 4)
     expect(page).to have_selector '.counter', text: '4'
     expect(Prescription.count).to eq 4
+    expect(Prescription.last.topic).to eq 'AIR_ODEURS'
 
     click_button('Bruit - vibrations')
     expect(page).to have_content('Chapitre VII : Bruit, vibration et émissions lumineuses')
-    find('.select_all', match: :first).click
-    expect(page).to have_selector '.counter', text: '8'
-    expect(Prescription.count).to eq 8
+    find('.select_all', match: :first).click(wait: 4)
+    expect(page).to have_selector '.counter', text: '9'
+    expect(Prescription.count).to eq 9
+    expect(Prescription.last.topic).to eq 'BRUIT_VIBRATIONS'
 
-    click_on(class: 'circle-fixed-button')
+    find(class: 'circle-fixed-button').click(wait: 5)
 
     expect(page).to have_content("Fiche d'inspection")
+    expect(page).to have_content('Les poussières, gaz polluants ou odeurs sont captés à la source')
     expect(page).to have_selector '.btn-secondary', text: 'Grouper par arrêté'
     expect(page).to have_selector '.btn-light', text: 'Grouper par thème'
     expect(page).not_to have_content('Thème : Air - odeurs')
-    # save_and_open_page
-    # WIP : Why there is no prescription displayed when opening modal ?
 
     click_link('Grouper par thème')
     expect(page).to have_content('Thème : Air - odeurs')
+
+    click_link('Télécharger la fiche')
+    expect(DownloadHelpers.download_content).to have_content 'Air - odeurs'
+    expect(DownloadHelpers.download_content).not_to have_content 'Dispositions générales'
 
     click_link('Grouper par arrêté')
     expect(page).not_to have_content('Thème : Air - odeurs')
   end
 end
 
-# rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength
+# rubocop:enable RSpec/MultipleExpectations, RSpec/ExampleLength

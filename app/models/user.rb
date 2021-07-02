@@ -27,13 +27,12 @@ class User < ApplicationRecord
   end
 
   def toggle_grouping
-    self.group_prescriptions_by_topic = !group_prescriptions_by_topic
-    save
+    toggle! :consults_precriptions_by_topics # rubocop:disable Rails/SkipsModelValidations
   end
 
   private
 
   def group_prescriptions(prescriptions)
-    sort_and_group(prescriptions, group_prescriptions_by_topic)
+    sort_and_group(prescriptions, consults_precriptions_by_topics?)
   end
 end

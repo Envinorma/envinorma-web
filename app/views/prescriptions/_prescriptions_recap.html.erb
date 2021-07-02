@@ -10,7 +10,27 @@
         <hr/>
       <% end %>
       <% grouped_by_text.each do |text_reference, group| %>
-        <%= render partial: 'prescriptions/prescriptions_group', locals: {text_reference: text_reference, group: group} %>
+        <h6>
+          <%= text_reference %>
+        </h6>
+        <% group.each do |section_reference, prescriptions| %>
+          <strong>
+            <%= section_reference %>
+          </strong>
+          <% prescriptions.each do |prescription| %>
+            <div class='<%= "prescription_#{prescription.id} prescription" %>'>
+              <p>
+                <% prescription.content.split("\n").each do |line| %>
+                  <%= line %>
+                  <br>
+                <% end %>
+              </p>
+              <%= link_to "Supprimer", installation_prescription_path(installation_id: @installation.id, id: prescription.id), remote: true, method: :delete,
+                class: 'text-danger small',
+                onclick: prescription.from_am? ? "document.getElementById('prescription_checkbox_#{prescription.alinea_id}').checked = false;" : "" %>
+            </div>
+          <% end %>
+        <% end %>
       <% end %>
     <% end %>
   </div>

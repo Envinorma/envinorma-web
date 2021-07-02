@@ -49,7 +49,7 @@ class Arrete < ApplicationRecord
     result
   end
 
-  def topics
+  def topics_by_section
     # Hash which associates each section id to the list of topics of its descendant.
     topics = {}
     data.sections.each do |section|

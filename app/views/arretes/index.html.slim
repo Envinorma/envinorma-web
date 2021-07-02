@@ -58,8 +58,8 @@
       h4 Fiche d'inspection
 
       .btn-group.js_btn_group_by
-        - btn_arrete_class = @user.group_prescriptions_by_topic ? 'btn-light' : 'btn-secondary'
-        - btn_topic_class = @user.group_prescriptions_by_topic ? 'btn-secondary' : 'btn-light'
+        - btn_arrete_class = @user.consults_precriptions_by_topics? ? 'btn-light' : 'btn-secondary'
+        - btn_topic_class = @user.consults_precriptions_by_topics? ? 'btn-secondary' : 'btn-light'
 
         = link_to 'Grouper par arrêté', installation_toggle_grouping_path(@installation), remote: true,
           class: "btn btn-sm #{btn_arrete_class} js_group_by_arrete"

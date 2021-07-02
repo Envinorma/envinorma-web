@@ -4,6 +4,7 @@ class ArretesController < ApplicationController
   include TopicHelper
   include FilterArretes
   include FicheInspectionHelper
+  include OdfHelper
   before_action :set_installation
 
   def index
@@ -19,17 +20,17 @@ class ArretesController < ApplicationController
 
     @prescription = Prescription.new
     @alinea_ids = @user.prescription_alinea_ids(@installation)
-    @arrete_topics = {}
+    @topics_by_section = {}
     @arretes.each do |arrete|
-      @arrete_topics[arrete.id] = arrete.topics
+      @topics_by_section[arrete.id] = arrete.topics_by_section
     end
 
     @topics = TOPICS
   end
 
   def generate_doc_with_prescriptions
-    groups = helpers.merge_prescriptions(@user.prescriptions, @user.group_prescriptions_by_topic)
-    generate_doc(groups, @user.group_prescriptions_by_topic)
+    groups = merge_prescriptions(@user.prescriptions, @user.consults_precriptions_by_topics?)
+    generate_doc(groups, @user.consults_precriptions_by_topics?)
   end
 
   private
