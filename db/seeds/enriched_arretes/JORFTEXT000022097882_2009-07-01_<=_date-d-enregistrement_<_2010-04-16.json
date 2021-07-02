@@ -163,7 +163,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -429,7 +429,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "RISQUES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -443,7 +443,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "IMPLANTATION_AMENAGEMENT"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2136,7 +2136,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "EAU"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -2224,7 +2224,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "AIR_ODEURS"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2605,7 +2605,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "AIR_ODEURS"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2753,7 +2753,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "DECHETS"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -2884,7 +2884,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "BRUIT_VIBRATIONS"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -3177,7 +3177,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "FIN_EXPLOITATION"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -5987,7 +5987,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "AIR_ODEURS"
                                     },
                                     "applicability": {
                                         "active": true,

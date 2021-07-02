@@ -1648,14 +1648,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": "IMPLANTATION_AMENAGEMENT"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": "IMPLANTATION_AMENAGEMENT"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1894,7 +1894,7 @@
                                         "modified": true,
                                         "previous_version": {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -2339,7 +2339,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2542,7 +2542,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2602,7 +2602,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -2818,7 +2818,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -3142,14 +3142,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": "EAU"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -3277,7 +3277,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -3360,7 +3360,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -4293,7 +4293,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "BRUIT_VIBRATIONS"
                             },
                             "applicability": {
                                 "active": true,
@@ -5995,7 +5995,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "BRUIT_VIBRATIONS"
                             },
                             "applicability": {
                                 "active": false,

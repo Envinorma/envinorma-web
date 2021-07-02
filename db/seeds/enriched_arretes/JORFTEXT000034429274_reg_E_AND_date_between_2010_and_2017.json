@@ -1809,7 +1809,7 @@
                                         "modified": true,
                                         "previous_version": {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -1947,7 +1947,7 @@
                                         "modified": true,
                                         "previous_version": {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -1961,7 +1961,7 @@
                                             "sections": [
                                                 {
                                                     "annotations": {
-                                                        "topic": "DISPOSITIONS_GENERALES"
+                                                        "topic": null
                                                     },
                                                     "applicability": {
                                                         "active": false,
@@ -2082,7 +2082,7 @@
                                                 },
                                                 {
                                                     "annotations": {
-                                                        "topic": "DISPOSITIONS_GENERALES"
+                                                        "topic": null
                                                     },
                                                     "applicability": {
                                                         "active": false,
@@ -2336,7 +2336,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2599,7 +2599,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2659,7 +2659,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -2877,7 +2877,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -4156,7 +4156,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "BRUIT_VIBRATIONS"
                             },
                             "applicability": {
                                 "active": true,
@@ -5858,7 +5858,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "BRUIT_VIBRATIONS"
                             },
                             "applicability": {
                                 "active": false,

@@ -271,7 +271,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -285,7 +285,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": null
+                        "topic": "DECHETS"
                     },
                     "applicability": {
                         "active": true,
@@ -509,7 +509,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": null
+                        "topic": "RISQUES"
                     },
                     "applicability": {
                         "active": true,
@@ -1018,7 +1018,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": null
+                        "topic": "EAU"
                     },
                     "applicability": {
                         "active": true,
@@ -1089,7 +1089,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": null
+                        "topic": "EAU"
                     },
                     "applicability": {
                         "active": true,
@@ -1186,7 +1186,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": null
+                        "topic": "EAU"
                     },
                     "applicability": {
                         "active": true,
@@ -1711,7 +1711,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": null
+                        "topic": "DECHETS"
                     },
                     "applicability": {
                         "active": true,
@@ -3083,7 +3083,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": null
+                        "topic": "EAU"
                     },
                     "applicability": {
                         "active": true,

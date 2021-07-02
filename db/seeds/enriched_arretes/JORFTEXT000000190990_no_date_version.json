@@ -34,7 +34,7 @@
     "sections": [
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -48,7 +48,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -62,7 +62,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -115,7 +115,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -129,7 +129,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -155,7 +155,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -191,7 +191,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -222,7 +222,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -268,7 +268,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -299,7 +299,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -338,7 +338,9 @@
             }
         },
         {
-            "annotations": null,
+            "annotations": {
+                "topic": null
+            },
             "applicability": {
                 "active": true,
                 "modified": false,
@@ -350,7 +352,9 @@
             "reference_str": "",
             "sections": [
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -379,7 +383,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -431,7 +437,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -445,7 +451,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -475,7 +481,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -499,7 +507,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -543,7 +553,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -567,7 +579,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -598,7 +612,9 @@
             }
         },
         {
-            "annotations": null,
+            "annotations": {
+                "topic": null
+            },
             "applicability": {
                 "active": true,
                 "modified": false,
@@ -610,7 +626,9 @@
             "reference_str": "",
             "sections": [
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -642,7 +660,7 @@
         },
         {
             "annotations": {
-                "topic": "VAPEURS"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -656,7 +674,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "VAPEURS"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -669,7 +687,9 @@
                     "reference_str": "Annexe I",
                     "sections": [
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -699,7 +719,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "VAPEURS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -724,7 +744,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -769,7 +791,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "VAPEURS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -805,7 +827,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "VAPEURS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -837,7 +859,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -849,7 +873,9 @@
                     "reference_str": "Annexe II",
                     "sections": [
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -888,7 +914,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -942,7 +970,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -966,7 +996,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -990,7 +1022,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -1022,7 +1056,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "VAPEURS"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1036,7 +1070,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "VAPEURS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1050,7 +1084,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "VAPEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1086,7 +1120,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "VAPEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1129,7 +1163,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "VAPEURS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1143,7 +1177,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "VAPEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1169,7 +1203,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "VAPEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1195,7 +1229,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "VAPEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1228,7 +1262,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "VAPEURS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1248,7 +1282,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "VAPEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1274,7 +1308,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "VAPEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1300,7 +1334,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "VAPEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1326,7 +1360,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "VAPEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1352,7 +1386,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "VAPEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1385,7 +1419,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "VAPEURS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1399,7 +1433,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "VAPEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1419,7 +1453,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "VAPEURS"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1445,7 +1479,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "VAPEURS"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1471,7 +1505,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "VAPEURS"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1497,7 +1531,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "VAPEURS"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1530,7 +1564,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "VAPEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1556,7 +1590,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "VAPEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1589,7 +1623,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "VAPEURS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1603,7 +1637,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "VAPEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1634,7 +1668,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "VAPEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,

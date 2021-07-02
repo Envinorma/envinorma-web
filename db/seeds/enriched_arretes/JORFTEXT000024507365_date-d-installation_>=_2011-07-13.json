@@ -21,7 +21,7 @@
     "sections": [
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -29,7 +29,7 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "5542ecC1d1fa",
+            "id": "04e08BEf7c75",
             "outer_alineas": [
                 {
                     "active": true,
@@ -67,7 +67,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -75,13 +75,13 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "EA6e4dcf38Af",
+            "id": "b2aAe2351D74",
             "outer_alineas": [],
             "reference_str": "",
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -89,13 +89,13 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "F5DBdA495aeF",
+                    "id": "CeB9FdC10B8f",
                     "outer_alineas": [],
                     "reference_str": "Art. 2",
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -103,7 +103,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "ce0d16F4a8Ce",
+                            "id": "06F826FFE12f",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -196,7 +196,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -204,19 +204,21 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "65FBbaB62F0E",
+                            "id": "dCEC9cEB1d5B",
                             "outer_alineas": [],
                             "reference_str": "Art. 2",
                             "sections": [
                                 {
-                                    "annotations": null,
+                                    "annotations": {
+                                        "topic": null
+                                    },
                                     "applicability": {
                                         "active": true,
                                         "modified": false,
                                         "previous_version": null,
                                         "warnings": []
                                     },
-                                    "id": "1cdBb21EAA1b",
+                                    "id": "f7F1686DA45c",
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -234,7 +236,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -242,7 +244,7 @@
                                         "previous_version": null,
                                         "warnings": []
                                     },
-                                    "id": "B024eecf2e3a",
+                                    "id": "FfFBD5eC4E0c",
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -296,44 +298,56 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "bEB5caADB6Ca",
+                            "id": "A7A3C9d3fAf8",
                             "outer_alineas": [],
                             "reference_str": "Art. 2",
                             "sections": [
                                 {
-                                    "annotations": null,
+                                    "annotations": {
+                                        "topic": null
+                                    },
                                     "applicability": {
                                         "active": true,
                                         "modified": false,
                                         "previous_version": null,
                                         "warnings": []
                                     },
-                                    "id": "8Ad7b9900207",
-                                    "outer_alineas": [],
-                                    "reference_str": "Art. 2 I.",
+                                    "id": "C91Ff31Ba90B",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "L'exploitant tient à la disposition de l'inspection des installations classées les rapports, registres, manuels, consignes et justificatifs visés par le présent arrêté, dans leur version française, le cas échéant en version dématérialisée."
+                                        }
+                                    ],
+                                    "reference_str": "Art. 2",
                                     "sections": [],
                                     "title": {
                                         "active": true,
                                         "table": null,
-                                        "text": "I. - L'exploitant tient à la disposition de l'inspection des installations classées les rapports, registres, manuels, consignes et justificatifs visés par le présent arrêté, dans leur version française, le cas échéant en version dématérialisée."
+                                        "text": "I."
                                     }
                                 },
                                 {
-                                    "annotations": null,
+                                    "annotations": {
+                                        "topic": null
+                                    },
                                     "applicability": {
                                         "active": true,
                                         "modified": false,
                                         "previous_version": null,
                                         "warnings": []
                                     },
-                                    "id": "d5BFbfBdD224",
+                                    "id": "3C8Ea432B7Ae",
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -382,7 +396,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": "IMPLANTATION_AMENAGEMENT"
             },
             "applicability": {
                 "active": true,
@@ -390,13 +404,13 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "44BF91d5ffd6",
+            "id": "d9aaA94f9BAC",
             "outer_alineas": [],
             "reference_str": "",
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -404,13 +418,13 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "E1dAA5b1AdEb",
+                    "id": "1f5Dbcb36a8A",
                     "outer_alineas": [],
                     "reference_str": "Art. 3",
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -418,7 +432,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "3DcEde5A2DF9",
+                            "id": "Ab26bB2be9Fa",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -446,7 +460,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -454,7 +468,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "BCDAa0C6daA5",
+                            "id": "cB1adaFcb67a",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -479,7 +493,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -487,7 +501,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "5EaD676b296C",
+                    "id": "Ae54af9d049B",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -504,7 +518,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -512,13 +526,13 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "6AD3C62cbAAa",
+                            "id": "d8bEd5acac3d",
                             "outer_alineas": [],
                             "reference_str": "Art. 4",
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -526,7 +540,7 @@
                                         "previous_version": null,
                                         "warnings": []
                                     },
-                                    "id": "4a25c6c91CDA",
+                                    "id": "02FfcA4F91a5",
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -661,7 +675,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -669,7 +683,7 @@
                                         "previous_version": null,
                                         "warnings": []
                                     },
-                                    "id": "afeD79A3ACca",
+                                    "id": "daB7Dfe5c514",
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -717,7 +731,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -725,7 +739,7 @@
                                         "previous_version": null,
                                         "warnings": []
                                     },
-                                    "id": "0069f92cBD27",
+                                    "id": "BF3C3cEaF4Cc",
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -768,7 +782,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -776,7 +790,7 @@
                                         "previous_version": null,
                                         "warnings": []
                                     },
-                                    "id": "D6BcfEFe21E2",
+                                    "id": "c87cCa86cc8B",
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -911,7 +925,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -919,7 +933,7 @@
                                         "previous_version": null,
                                         "warnings": []
                                     },
-                                    "id": "3Bba8FAEb3A8",
+                                    "id": "Fb6A3e90932E",
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -944,7 +958,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -952,13 +966,13 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "5a8afa4Dc690",
+                            "id": "2cE82a3C50e1",
                             "outer_alineas": [],
                             "reference_str": "Art. 4",
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -966,7 +980,7 @@
                                         "previous_version": null,
                                         "warnings": []
                                     },
-                                    "id": "5aaa3Ad081aC",
+                                    "id": "3E76E86B7cc8",
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -1075,7 +1089,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1083,7 +1097,7 @@
                                         "previous_version": null,
                                         "warnings": []
                                     },
-                                    "id": "171Da2BfAa04",
+                                    "id": "EFaf1c41ceCc",
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -1108,7 +1122,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1116,7 +1130,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "d2Ec9C6b9e6a",
+                            "id": "b623eF64EdB1",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -1141,7 +1155,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1149,7 +1163,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "2f6ADBfA0F36",
+                    "id": "411Cd05d7e00",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1167,7 +1181,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1175,7 +1189,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "bbaEA06773De",
+                    "id": "bB3caD004Cc2",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1200,7 +1214,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -1208,13 +1222,13 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "dfC238beEfE4",
+            "id": "9f24D9209FcE",
             "outer_alineas": [],
             "reference_str": "",
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1222,7 +1236,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "cd86E8Ff0ee8",
+                    "id": "217BCFeEFbAa",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1250,7 +1264,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1258,7 +1272,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "6c904c7dA7D4",
+                    "id": "c54aeeEE1141",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1286,7 +1300,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1294,7 +1308,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "7cFFcf5de98D",
+                    "id": "7f4aae0BA7Eb",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1317,7 +1331,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1325,7 +1339,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "4dA28dC4Ad9e",
+                    "id": "1a659DdE3cfF",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1363,7 +1377,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1371,7 +1385,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "0c3e029E6EA3",
+                    "id": "c8Ae0eCb2fce",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1396,7 +1410,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -1404,13 +1418,13 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "Fce10b3654Ee",
+            "id": "30EcBFBFdfA8",
             "outer_alineas": [],
             "reference_str": "",
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1418,7 +1432,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "A28EC158Ac1F",
+                    "id": "45C8bFEdFfCF",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1456,7 +1470,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1464,7 +1478,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "4Cb575Ab223a",
+                    "id": "CCbb87eBE5bf",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1487,7 +1501,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1495,7 +1509,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "1b301fd4d6ea",
+                    "id": "2eeEeE91e73d",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1538,7 +1552,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1546,7 +1560,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "F0bD99caAacf",
+                    "id": "aeD6AACCBEAb",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1569,7 +1583,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1577,7 +1591,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "6D4d96BD76bb",
+                    "id": "02A9eDcAE64F",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1595,7 +1609,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1603,7 +1617,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "Ac7e71ca39bB",
+                    "id": "607B9cFbae61",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1651,7 +1665,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1659,13 +1673,13 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "aDB5BFDaF3c9",
+                    "id": "47ecCdF6d6aD",
                     "outer_alineas": [],
                     "reference_str": "Art. 18",
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1673,7 +1687,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "ea6b7C97ABfE",
+                            "id": "001f1c9edFE3",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -1691,7 +1705,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1699,7 +1713,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "0F9BAfD0126e",
+                            "id": "Dc662445aE1e",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -1717,7 +1731,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1725,7 +1739,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "4d1101F3da0f",
+                            "id": "CaD97E9F8D22",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -1753,7 +1767,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1761,7 +1775,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "e0D3ddF0b62C",
+                            "id": "8100BF5b6DFC",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -1786,7 +1800,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1794,7 +1808,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "7E5A4EebbFCa",
+                    "id": "B6Ea38DA391F",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1817,7 +1831,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1825,7 +1839,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "28Bf54cCD8E2",
+                    "id": "cEc7457D8f4A",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1848,7 +1862,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1856,7 +1870,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "e968eA848f8c",
+                    "id": "6Fa82047dAa3",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1894,13 +1908,13 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "FBa70aaADb19",
+            "id": "D512DE1036ec",
             "outer_alineas": [],
             "reference_str": "",
             "sections": [
                 {
                     "annotations": {
-                        "topic": "RISQUES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1908,7 +1922,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "79Dd9650ae49",
+                    "id": "dbd3a927d6Ec",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1956,7 +1970,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "RISQUES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1964,7 +1978,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "5e87F8Bd1aa8",
+                    "id": "B15F29EB1cC3",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1992,7 +2006,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "RISQUES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2000,7 +2014,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "7a64452BB72B",
+                    "id": "16C7CFc7FAAA",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -2018,7 +2032,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "RISQUES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2026,7 +2040,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "7645Ad16a566",
+                    "id": "04Cbf2A90DB9",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -2069,13 +2083,13 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "dDa3b5CabE4f",
+            "id": "A34c08555f7d",
             "outer_alineas": [],
             "reference_str": "",
             "sections": [
                 {
                     "annotations": {
-                        "topic": "BRUIT_VIBRATIONS"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2083,7 +2097,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "58A98470c7D6",
+                    "id": "74A54e7A5d99",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -2226,7 +2240,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "BRUIT_VIBRATIONS"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2234,7 +2248,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "dD4BcBBcf383",
+                    "id": "DF76cfb53641",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -2257,7 +2271,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "BRUIT_VIBRATIONS"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2265,7 +2279,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "7424E62ecACA",
+                    "id": "43F707A593A7",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -2283,7 +2297,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "BRUIT_VIBRATIONS"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2291,7 +2305,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "B6E42DBe9A0f",
+                    "id": "2E848b9b9bCA",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -2319,7 +2333,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "BRUIT_VIBRATIONS"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2327,7 +2341,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "1C8B80F33591",
+                    "id": "4D3B201ADdFF",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -2362,7 +2376,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -2370,13 +2384,13 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "7f43c1546601",
+            "id": "0Eccb6b62a39",
             "outer_alineas": [],
             "reference_str": "",
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2384,13 +2398,13 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "C68FEdBdCAff",
+                    "id": "3D1F4E2D168b",
                     "outer_alineas": [],
                     "reference_str": "Art. 29",
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -2398,7 +2412,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "c1Aa0daCB57B",
+                            "id": "5CCaC5A5826A",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -2430,14 +2444,16 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "0Eb5CFcbC516",
+                            "id": "c7c8B5BedE7C",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -2498,26 +2514,30 @@
             }
         },
         {
-            "annotations": null,
+            "annotations": {
+                "topic": null
+            },
             "applicability": {
                 "active": true,
                 "modified": false,
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "2Ec8c981C3Ef",
+            "id": "3Fb6cfb122af",
             "outer_alineas": [],
             "reference_str": "",
             "sections": [
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "ebAf985eEac3",
+                    "id": "9D22Dbc8fb46",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -2534,14 +2554,16 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "d26D0d6a426a",
+                    "id": "27F53e4Babb9",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -2558,14 +2580,16 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "CaAF924179ee",
+                    "id": "b7A9CebcbF03",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -2589,38 +2613,44 @@
             }
         },
         {
-            "annotations": null,
+            "annotations": {
+                "topic": null
+            },
             "applicability": {
                 "active": true,
                 "modified": false,
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "0df5a4e7cC13",
+            "id": "fbBFe5b85A24",
             "outer_alineas": [],
             "reference_str": "Annexe",
             "sections": [
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "4Df22fF06225",
+                    "id": "425fF9406cAc",
                     "outer_alineas": [],
                     "reference_str": "Annexe I",
                     "sections": [
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "804baf7f19cD",
+                            "id": "36aC68bf00aD",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -2657,14 +2687,16 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "f6Dbd046E611",
+                            "id": "fbEa4F6D8efd",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -2716,14 +2748,16 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "9D0B880f69eC",
+                            "id": "dFf3ee0AbE4F",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -2747,14 +2781,16 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "7cBbEAA64C9A",
+                    "id": "BF6DDD2EdF6f",
                     "outer_alineas": [
                         {
                             "active": true,

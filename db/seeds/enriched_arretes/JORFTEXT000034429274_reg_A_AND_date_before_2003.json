@@ -2915,7 +2915,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2998,7 +2998,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -3939,7 +3939,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "BRUIT_VIBRATIONS"
                             },
                             "applicability": {
                                 "active": true,
@@ -5643,7 +5643,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "BRUIT_VIBRATIONS"
                             },
                             "applicability": {
                                 "active": false,
