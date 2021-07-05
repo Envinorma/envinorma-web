@@ -160,28 +160,30 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     click_button('Air - odeurs')
     expect(page).to have_content("Chapitre VI : Emissions dans l'air")
-    find('.select_all', match: :first).click(wait: 4)
+    find('.select_all', match: :first).click
     expect(page).to have_selector '.counter', text: '4'
     expect(Prescription.count).to eq 4
     expect(Prescription.last.topic).to eq 'AIR_ODEURS'
 
     click_button('Bruit - vibrations')
     expect(page).to have_content('Chapitre VII : Bruit, vibration et émissions lumineuses')
-    find('.select_all', match: :first).click(wait: 4)
+    find('.select_all', match: :first).click
     expect(page).to have_selector '.counter', text: '9'
     expect(Prescription.count).to eq 9
     expect(Prescription.last.topic).to eq 'BRUIT_VIBRATIONS'
 
-    find(class: 'circle-fixed-button').click(wait: 5)
+    find(class: 'circle-fixed-button').click
 
     expect(page).to have_content("Fiche d'inspection")
     expect(page).to have_content('Les poussières, gaz polluants ou odeurs sont captés à la source')
+    expect(page).not_to have_content('Thème : Air - odeurs')
     expect(page).to have_selector '.btn-secondary', text: 'Grouper par arrêté'
     expect(page).to have_selector '.btn-light', text: 'Grouper par thème'
-    expect(page).not_to have_content('Thème : Air - odeurs')
 
     click_link('Grouper par thème')
     expect(page).to have_content('Thème : Air - odeurs')
+    expect(page).to have_selector '.btn-light', text: 'Grouper par arrêté'
+    expect(page).to have_selector '.btn-secondary', text: 'Grouper par thème'
 
     click_link('Télécharger la fiche')
     expect(DownloadHelpers.download_content).to have_content 'Air - odeurs'
