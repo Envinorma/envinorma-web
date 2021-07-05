@@ -11,14 +11,15 @@ module TopicHelper
     'DECHETS' => 'Déchets',
     'BRUIT_VIBRATIONS' => 'Bruit - vibrations',
     'FIN_EXPLOITATION' => 'Fin d\'exploitation',
-    '' => 'Aucun thème'
+    'AUCUN' => 'Aucun'
   }.freeze
 
   def section_topics(section, ascendant_topic = nil)
     # recursively computes the topics Hash of a section and all its descendant
     # NB :
-    # - if section.annotations.topic is defined, then all descendant sections have this topic
+    # - if section.annotations.topic is defined, then all descendant sections are mapped to this topic
     # - section topics list is the union of the topics of all its children sections
+    # - by default, a section is mapped to topic AUCUN
     ascendant_topic ||= section.annotations.topic
     result = {}
     descendant_topics = ascendant_topic.nil? ? [] : [ascendant_topic]
@@ -27,7 +28,8 @@ module TopicHelper
       result.update(subsection_topics)
       descendant_topics.concat(subsection_topics[subsection.id])
     end
-    result[section.id] = descendant_topics.uniq
+    unique_descendant_topics = descendant_topics.uniq
+    result[section.id] = unique_descendant_topics.empty? ? ['AUCUN'] : unique_descendant_topics
     result
   end
 end

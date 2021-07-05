@@ -11,7 +11,9 @@ module PrescriptionsGroupingHelper
   end
 
   def topic_score_rank(topic)
-    topic.blank? ? [1, ''] : [0, topic]
+    # Topics are always sorted alphabetically except for 
+    # topic 'AUCUN' which is always the last topic
+    topic == 'AUCUN' ? [1, 'AUCUN'] : [0, topic]
   end
 
   def sort_and_group_by_text(prescriptions)

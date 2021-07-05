@@ -13,7 +13,7 @@ RSpec.describe 'Arrete' do
     end
 
     it 'maps to no topic if no descendents have a topic' do
-      expect(Arrete.first.topics_by_section['eB6CEdbaDCA3']).to eq []
+      expect(Arrete.first.topics_by_section['eB6CEdbaDCA3']).to eq ['AUCUN']
     end
   end
 end

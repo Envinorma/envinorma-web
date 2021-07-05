@@ -38,5 +38,15 @@ RSpec.describe TopicHelper do
       expected = { 'section' => %w[DECHETS EAU], 'subsection1' => ['DECHETS'], 'subsection2' => ['EAU'] }
       expect(section_topics(section, nil)).to eq(expected)
     end
+
+    it 'maps children topics to parent section id, using AUCUN as default topic' do
+      subsection1 = OpenStruct.new({ id: 'subsection1', annotations: OpenStruct.new({ topic: nil }),
+                                     sections: [] })
+      subsection2 = OpenStruct.new({ id: 'subsection2', annotations: OpenStruct.new({ topic: 'EAU' }), sections: [] })
+      section = OpenStruct.new({ id: 'section', annotations: OpenStruct.new({ topic: nil }),
+                                 sections: [subsection1, subsection2] })
+      expected = { 'section' => %w[AUCUN EAU], 'subsection1' => ['AUCUN'], 'subsection2' => ['EAU'] }
+      expect(section_topics(section, nil)).to eq(expected)
+    end
   end
 end
