@@ -15,26 +15,40 @@ section id="anchor_am_#{arrete.id}" class='anchor'
           - arrete.data.sections.each do |section|
             - create_summary.call(section)
     .col-9.pt-4
-      h2.display.h1
-        = arrete.short_title
-        span.text-secondary
-          =  "- #{classement_infos}"
+      .am-header
+        .d-flex.align-items-start
+          h1.h3.mr-auto
+            = arrete.short_title
+            span.text-secondary
+              =  "- #{classement_infos}"
 
-      .am-header.filterable
-        p
-          strong = arrete.title
+          = link_to arrete.aida_url,
+                    target: '_blank',
+                    class: 'btn btn-light btn-sm',
+                    rel: 'noopener' do
+                    i.fas.fa-link
+                    '
+                    | Aida
+
+          = link_to arrete.legifrance_url,
+                    target: '_blank',
+                    class: 'btn btn-light btn-sm ml-1',
+                    rel: 'noopener' do
+
+                    i.fas.fa-link
+                    '
+                    | Légifrance
 
         - arrete.version_descriptor.applicability_warnings.each do |warning|
-          - classname = arrete.version_descriptor.applicable ? 'alert alert-warning' : 'alert alert-danger'
+          - classname = arrete.version_descriptor.applicable ? 'alert alert-secondary' : 'alert alert-danger'
           p class="#{classname}"
             = warning
 
-        p.mb-5
-          = link_to 'Consulter sur Aida', arrete.aida_url, target: '_blank', rel: 'noopener'
-          = link_to 'Consulter sur Légifrance', arrete.legifrance_url,
-                    target: '_blank',
-                    class: 'ml-3',
-                    rel: 'noopener'
+        .filterable
+          p
+            strong = arrete.title
+
+        .border-bottom.mb-3.pb-3
 
       .am-content
         .empty-illu.text-secondary.d-none
@@ -43,7 +57,7 @@ section id="anchor_am_#{arrete.id}" class='anchor'
           | Cet arrêté ne contient pas de prescriptions correspondant au thème choisi
 
         - arrete.data.sections.each_with_index do |section, section_index|
-          - extract_sections = lambda do |subsection, subsection_rank, level = 3|
+          - extract_sections = lambda do |subsection, subsection_rank, level = 4|
             ruby:
               topics = @topics_by_section[arrete.id][subsection.id]
               main_topic = topics.length == 1 ? topics[0] : 'AUCUN'
