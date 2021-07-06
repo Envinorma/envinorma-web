@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 module TopicHelper
+  AUCUN = 'AUCUN'
+
   TOPICS = {
     'DISPOSITIONS_GENERALES' => 'Dispositions générales',
     'IMPLANTATION_AMENAGEMENT' => 'Implantation - aménagement',
@@ -11,7 +13,7 @@ module TopicHelper
     'DECHETS' => 'Déchets',
     'BRUIT_VIBRATIONS' => 'Bruit - vibrations',
     'FIN_EXPLOITATION' => 'Fin d\'exploitation',
-    'AUCUN' => 'Aucun'
+    AUCUN => 'Aucun'
   }.freeze
 
   def section_topics(section, ascendant_topic = nil)
@@ -29,7 +31,7 @@ module TopicHelper
       descendant_topics.concat(subsection_topics[subsection.id])
     end
     unique_descendant_topics = descendant_topics.uniq
-    result[section.id] = unique_descendant_topics.empty? ? ['AUCUN'] : unique_descendant_topics
+    result[section.id] = unique_descendant_topics.empty? ? [TopicHelper::AUCUN] : unique_descendant_topics
     result
   end
 end

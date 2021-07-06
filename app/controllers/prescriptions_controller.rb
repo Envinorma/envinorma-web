@@ -25,7 +25,9 @@ class PrescriptionsController < ApplicationController
   end
 
   def create_from_ap
-    Prescription.create(prescription_params)
+    prescription_hash = prescription_params
+    prescription_hash[:topic] = TopicHelper::AUCUN
+    Prescription.create(prescription_hash)
     @from_ap = true
 
     render_prescriptions
