@@ -172,6 +172,13 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(Prescription.count).to eq 9
     expect(Prescription.last.topic).to eq 'BRUIT_VIBRATIONS'
 
+    # Create prescriptions from AP
+    fill_in 'Référence', with: 'Art. 3'
+    fill_in 'Contenu', with: "Prescriptions copier - coller de l'AP"
+    click_button('Ajouter une prescription')
+    expect(page).to have_selector '.counter', text: '10'
+    expect(Prescription.count).to eq 10
+
     find(class: 'circle-fixed-button').click
 
     expect(page).to have_content("Fiche d'inspection")
@@ -182,6 +189,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     click_link('Grouper par thème')
     expect(page).to have_content('Thème : Air - odeurs')
+    expect(page).to have_content('Thème : Aucun')
     expect(page).to have_selector '.btn-light', text: 'Grouper par arrêté'
     expect(page).to have_selector '.btn-secondary', text: 'Grouper par thème'
 
