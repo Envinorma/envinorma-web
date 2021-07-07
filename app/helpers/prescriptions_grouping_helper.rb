@@ -13,12 +13,7 @@ module PrescriptionsGroupingHelper
   def topic_score_rank(topic)
     # Topics are always sorted alphabetically except for
     # topic 'AUCUN' which is always the last topic
-    blank_topic?(topic) ? [1, TopicHelper::AUCUN] : [0, topic]
-  end
-
-  def blank_topic?(topic)
-    # topic.blank? is for retrocompatibility
-    topic.blank? || topic == TopicHelper::AUCUN
+    topic == TopicHelper::AUCUN ? [1, TopicHelper::AUCUN] : [0, topic]
   end
 
   def sort_and_group_by_text(prescriptions)
