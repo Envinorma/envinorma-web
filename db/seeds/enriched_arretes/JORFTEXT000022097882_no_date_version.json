@@ -163,7 +163,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "DISPOSITIONS_GENERALES"
                             },
                             "applicability": {
                                 "active": true,
@@ -921,7 +921,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "IMPLANTATION_AMENAGEMENT"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1731,7 +1731,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -5328,7 +5328,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": null
+                        "topic": "AIR_ODEURS"
                     },
                     "applicability": {
                         "active": true,
@@ -5989,7 +5989,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "AIR_ODEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -6039,7 +6039,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": null
+                        "topic": "AIR_ODEURS"
                     },
                     "applicability": {
                         "active": true,
@@ -6142,7 +6142,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": null
+                        "topic": "BRUIT_VIBRATIONS"
                     },
                     "applicability": {
                         "active": true,

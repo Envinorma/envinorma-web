@@ -1653,7 +1653,7 @@
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Une partie de ce paragraphe ne s’applique pas à cette installation car le régime est à déclaration et la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017."
+                                    "Une partie de ce paragraphe ne s’applique pas à cette installation car la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017 et le régime est à déclaration."
                                 ]
                             },
                             "id": "ad24FCC0709B",
@@ -1739,7 +1739,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "IMPLANTATION_AMENAGEMENT"
                             },
                             "applicability": {
                                 "active": true,
@@ -1907,7 +1907,7 @@
                                             }
                                         },
                                         "warnings": [
-                                            "Ce paragraphe a été modifié pour cette installation car le régime est à déclaration et la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017."
+                                            "Ce paragraphe a été modifié pour cette installation car la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017 et le régime est à déclaration."
                                         ]
                                     },
                                     "id": "AE601ce06Ee7",
@@ -2187,7 +2187,7 @@
                                             }
                                         },
                                         "warnings": [
-                                            "Ce paragraphe a été modifié pour cette installation car le régime est à déclaration et la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017."
+                                            "Ce paragraphe a été modifié pour cette installation car la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017 et le régime est à déclaration."
                                         ]
                                     },
                                     "id": "f7cBE8e5A91B",
@@ -2315,7 +2315,7 @@
                                             }
                                         },
                                         "warnings": [
-                                            "Ce paragraphe a été modifié pour cette installation car le régime est à déclaration et la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017."
+                                            "Ce paragraphe a été modifié pour cette installation car la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017 et le régime est à déclaration."
                                         ]
                                     },
                                     "id": "b0DFEd53Dc4b",
@@ -2391,7 +2391,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "IMPLANTATION_AMENAGEMENT"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2496,7 +2496,7 @@
                                     }
                                 },
                                 "warnings": [
-                                    "Ce paragraphe a été modifié pour cette installation car le régime est à déclaration et la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017."
+                                    "Ce paragraphe a été modifié pour cette installation car la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017 et le régime est à déclaration."
                                 ]
                             },
                             "id": "4E2Ff42a8F1B",
@@ -2594,7 +2594,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2731,7 +2731,7 @@
                                     }
                                 },
                                 "warnings": [
-                                    "Ce paragraphe a été modifié pour cette installation car le régime est à déclaration et la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017."
+                                    "Ce paragraphe a été modifié pour cette installation car la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017 et le régime est à déclaration."
                                 ]
                             },
                             "id": "49E34496E439",
@@ -2797,14 +2797,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Ce paragraphe ne s’applique pas à cette installation car le régime est à déclaration et la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017."
+                                    "Ce paragraphe ne s’applique pas à cette installation car la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017 et le régime est à déclaration."
                                 ]
                             },
                             "id": "39fD23aABD84",
@@ -2877,7 +2877,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2937,7 +2937,7 @@
                                     }
                                 },
                                 "warnings": [
-                                    "Ce paragraphe a été modifié pour cette installation car le régime est à déclaration et la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017."
+                                    "Ce paragraphe a été modifié pour cette installation car la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017 et le régime est à déclaration."
                                 ]
                             },
                             "id": "6dCe9dAdB8a1",
@@ -2963,7 +2963,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -2999,7 +2999,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3278,7 +3278,7 @@
                                     }
                                 },
                                 "warnings": [
-                                    "Ce paragraphe a été modifié pour cette installation car le régime est à déclaration et la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017."
+                                    "Ce paragraphe a été modifié pour cette installation car la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017 et le régime est à déclaration."
                                 ]
                             },
                             "id": "Ee0B7EAB753C",
@@ -3341,7 +3341,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -3381,7 +3381,7 @@
                                     }
                                 },
                                 "warnings": [
-                                    "Ce paragraphe a été modifié pour cette installation car le régime est à déclaration et la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017."
+                                    "Ce paragraphe a été modifié pour cette installation car la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017 et le régime est à déclaration."
                                 ]
                             },
                             "id": "BC90aeBF1ec8",
@@ -3424,7 +3424,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -3529,7 +3529,7 @@
                                     }
                                 },
                                 "warnings": [
-                                    "Ce paragraphe a été modifié pour cette installation car le régime est à déclaration et la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017."
+                                    "Ce paragraphe a été modifié pour cette installation car la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017 et le régime est à déclaration."
                                 ]
                             },
                             "id": "F70002BdD5b4",
@@ -3570,14 +3570,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Une partie de ce paragraphe ne s’applique pas à cette installation car le régime est à déclaration et la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017."
+                                    "Une partie de ce paragraphe ne s’applique pas à cette installation car la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017 et le régime est à déclaration."
                                 ]
                             },
                             "id": "82a1Ed244C66",
@@ -3613,14 +3613,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Une partie de ce paragraphe ne s’applique pas à cette installation car le régime est à déclaration et la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017."
+                                    "Une partie de ce paragraphe ne s’applique pas à cette installation car la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017 et le régime est à déclaration."
                                 ]
                             },
                             "id": "2C7331b63cd3",
@@ -3666,7 +3666,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3707,14 +3707,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Ce paragraphe ne s’applique pas à cette installation car le régime est à déclaration et la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017."
+                                    "Ce paragraphe ne s’applique pas à cette installation car la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017 et le régime est à déclaration."
                                 ]
                             },
                             "id": "A05766aB5dAf",
@@ -3755,7 +3755,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3918,7 +3918,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3944,7 +3944,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -4015,7 +4015,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -4101,7 +4101,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -4142,7 +4142,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -4580,7 +4580,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "EXPLOITATION"
                             },
                             "applicability": {
                                 "active": true,
@@ -4654,7 +4654,7 @@
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Ce paragraphe ne s’applique pas à cette installation car le régime est à déclaration et la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017."
+                                    "Ce paragraphe ne s’applique pas à cette installation car la date de mise en service est postérieure au 30/04/2009 et antérieure au 01/07/2017 et le régime est à déclaration."
                                 ]
                             },
                             "id": "8dF063bAfAD2",
@@ -4663,7 +4663,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "IMPLANTATION_AMENAGEMENT"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4709,7 +4709,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4755,7 +4755,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4786,7 +4786,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4847,7 +4847,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4873,7 +4873,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4899,7 +4899,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4935,7 +4935,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4968,7 +4968,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -5363,7 +5363,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "IMPLANTATION_AMENAGEMENT"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -5591,7 +5591,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -5617,7 +5617,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -6010,7 +6010,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "BRUIT_VIBRATIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -6062,7 +6062,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "FIN_EXPLOITATION"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,

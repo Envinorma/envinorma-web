@@ -1739,14 +1739,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "IMPLANTATION_AMENAGEMENT"
                             },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est antérieure au 01/07/2003."
+                                    "Ce paragraphe ne s’applique pas à cette installation car la date de mise en service est antérieure au 01/07/2003 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "3c84FebbC62a",
@@ -2205,14 +2205,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "IMPLANTATION_AMENAGEMENT"
                             },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est antérieure au 01/07/2003."
+                                    "Ce paragraphe ne s’applique pas à cette installation car la date de mise en service est antérieure au 01/07/2003 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "aFD8E96BF936",
@@ -2313,14 +2313,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est antérieure au 01/07/2003."
+                                    "Ce paragraphe ne s’applique pas à cette installation car la date de mise en service est antérieure au 01/07/2003 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "Ef17Ec4A21Bb",
@@ -2453,14 +2453,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est antérieure au 01/07/2003."
+                                    "Ce paragraphe ne s’applique pas à cette installation car la date de mise en service est antérieure au 01/07/2003 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "39fD23aABD84",
@@ -2526,14 +2526,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est antérieure au 01/07/2003."
+                                    "Ce paragraphe ne s’applique pas à cette installation car la date de mise en service est antérieure au 01/07/2003 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "60dfe04AdaCE",
@@ -2589,7 +2589,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -2625,14 +2625,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Une partie de ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est antérieure au 01/07/2003."
+                                    "Une partie de ce paragraphe ne s’applique pas à cette installation car la date de mise en service est antérieure au 01/07/2003 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "adeEB81af69A",
@@ -2770,7 +2770,7 @@
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est antérieure au 01/07/2003."
+                                    "Ce paragraphe ne s’applique pas à cette installation car la date de mise en service est antérieure au 01/07/2003 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "f79bCBd6752E",
@@ -2833,7 +2833,7 @@
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est antérieure au 01/07/2003."
+                                    "Ce paragraphe ne s’applique pas à cette installation car la date de mise en service est antérieure au 01/07/2003 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "E05BA9DE36B3",
@@ -2911,7 +2911,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2951,7 +2951,7 @@
                                     }
                                 },
                                 "warnings": [
-                                    "Ce paragraphe a été modifié pour cette installation car le régime est à enregistrement et la date de mise en service est antérieure au 01/07/2003."
+                                    "Ce paragraphe a été modifié pour cette installation car la date de mise en service est antérieure au 01/07/2003 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "Db4fA5d1CcaC",
@@ -2994,7 +2994,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -3099,7 +3099,7 @@
                                     }
                                 },
                                 "warnings": [
-                                    "Ce paragraphe a été modifié pour cette installation car le régime est à enregistrement et la date de mise en service est antérieure au 01/07/2003."
+                                    "Ce paragraphe a été modifié pour cette installation car la date de mise en service est antérieure au 01/07/2003 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "31A040Dc4a96",
@@ -3195,14 +3195,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Une partie de ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est antérieure au 01/07/2003."
+                                    "Une partie de ce paragraphe ne s’applique pas à cette installation car la date de mise en service est antérieure au 01/07/2003 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "82a1Ed244C66",
@@ -3238,14 +3238,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Une partie de ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est antérieure au 01/07/2003."
+                                    "Une partie de ce paragraphe ne s’applique pas à cette installation car la date de mise en service est antérieure au 01/07/2003 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "2C7331b63cd3",
@@ -3291,7 +3291,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3332,14 +3332,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est antérieure au 01/07/2003."
+                                    "Ce paragraphe ne s’applique pas à cette installation car la date de mise en service est antérieure au 01/07/2003 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "A05766aB5dAf",
@@ -3380,14 +3380,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est antérieure au 01/07/2003."
+                                    "Ce paragraphe ne s’applique pas à cette installation car la date de mise en service est antérieure au 01/07/2003 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "888bfE9e29Fe",
@@ -3545,7 +3545,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3571,7 +3571,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3642,7 +3642,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3728,7 +3728,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3769,7 +3769,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -4205,7 +4205,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "EXPLOITATION"
                             },
                             "applicability": {
                                 "active": true,
@@ -4279,7 +4279,7 @@
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est antérieure au 01/07/2003."
+                                    "Ce paragraphe ne s’applique pas à cette installation car la date de mise en service est antérieure au 01/07/2003 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "8dF063bAfAD2",
@@ -4288,7 +4288,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "IMPLANTATION_AMENAGEMENT"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4334,7 +4334,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4380,7 +4380,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4411,7 +4411,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4472,7 +4472,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4498,7 +4498,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4524,7 +4524,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4560,7 +4560,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4593,7 +4593,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -4990,7 +4990,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "IMPLANTATION_AMENAGEMENT"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5218,7 +5218,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5244,7 +5244,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5637,7 +5637,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "BRUIT_VIBRATIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5689,7 +5689,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "FIN_EXPLOITATION"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,

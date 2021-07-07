@@ -529,7 +529,7 @@
         },
         {
             "annotations": {
-                "topic": null
+                "topic": "EXPLOITATION"
             },
             "applicability": {
                 "active": true,
@@ -15858,7 +15858,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "AIR_ODEURS"
                             },
                             "applicability": {
                                 "active": true,
@@ -16522,7 +16522,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "EAU"
                             },
                             "applicability": {
                                 "active": true,
@@ -17253,7 +17253,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "AIR_ODEURS"
                             },
                             "applicability": {
                                 "active": true,
@@ -17279,7 +17279,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "EAU"
                             },
                             "applicability": {
                                 "active": true,
@@ -17305,7 +17305,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "EAU"
                             },
                             "applicability": {
                                 "active": true,
@@ -17842,7 +17842,7 @@
             "unknown_classement_date_version": null
         },
         "applicability_warnings": [
-            "Cet arrêté pourrait ne pas être applicable. C'est le cas pour les installations dont la rubrique est 3610 et l'alinéa de classement est l'alinéa c."
+            "Cet arrêté pourrait ne pas être applicable. C'est le cas pour les installations dont l'alinéa de classement est l'alinéa c et la rubrique est 3610."
         ],
         "applicable": true,
         "date_de_mise_en_service": {

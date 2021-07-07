@@ -139,7 +139,7 @@
         },
         {
             "annotations": {
-                "topic": null
+                "topic": "IMPLANTATION_AMENAGEMENT"
             },
             "applicability": {
                 "active": true,
@@ -577,7 +577,7 @@
         },
         {
             "annotations": {
-                "topic": null
+                "topic": "EXPLOITATION"
             },
             "applicability": {
                 "active": true,
@@ -2261,7 +2261,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": null
+                        "topic": "AIR_ODEURS"
                     },
                     "applicability": {
                         "active": true,
@@ -2450,7 +2450,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": null
+                        "topic": "EAU"
                     },
                     "applicability": {
                         "active": true,
@@ -2690,7 +2690,7 @@
         },
         {
             "annotations": {
-                "topic": null
+                "topic": "FIN_EXPLOITATION"
             },
             "applicability": {
                 "active": true,
@@ -2984,7 +2984,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": null
+                        "topic": "AIR_ODEURS"
                     },
                     "applicability": {
                         "active": true,

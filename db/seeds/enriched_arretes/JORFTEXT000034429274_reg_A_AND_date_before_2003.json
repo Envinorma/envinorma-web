@@ -1741,7 +1741,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "IMPLANTATION_AMENAGEMENT"
                             },
                             "applicability": {
                                 "active": true,
@@ -2211,7 +2211,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "IMPLANTATION_AMENAGEMENT"
                             },
                             "applicability": {
                                 "active": false,
@@ -2319,7 +2319,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": false,
@@ -2459,7 +2459,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -2530,7 +2530,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": false,
@@ -2593,7 +2593,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -2629,7 +2629,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -2915,7 +2915,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2955,7 +2955,7 @@
                                     }
                                 },
                                 "warnings": [
-                                    "Ce paragraphe a été modifié pour cette installation car le régime est à autorisation et la date de mise en service est antérieure au 01/01/2003."
+                                    "Ce paragraphe a été modifié pour cette installation car la date de mise en service est antérieure au 01/01/2003 et le régime est à autorisation."
                                 ]
                             },
                             "id": "a6DAfecfBbd4",
@@ -2998,7 +2998,7 @@
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -3103,7 +3103,7 @@
                                     }
                                 },
                                 "warnings": [
-                                    "Ce paragraphe a été modifié pour cette installation car le régime est à autorisation et la date de mise en service est antérieure au 01/01/2003."
+                                    "Ce paragraphe a été modifié pour cette installation car la date de mise en service est antérieure au 01/01/2003 et le régime est à autorisation."
                                 ]
                             },
                             "id": "ACef7cBAdB9A",
@@ -3199,7 +3199,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3242,7 +3242,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3295,7 +3295,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3336,7 +3336,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": false,
@@ -3384,7 +3384,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": false,
@@ -3549,7 +3549,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3575,7 +3575,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3646,7 +3646,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3732,7 +3732,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3773,7 +3773,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -4209,7 +4209,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "EXPLOITATION"
                             },
                             "applicability": {
                                 "active": true,
@@ -4292,7 +4292,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "IMPLANTATION_AMENAGEMENT"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4338,7 +4338,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4384,7 +4384,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4415,7 +4415,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4476,7 +4476,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4502,7 +4502,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4528,7 +4528,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4564,7 +4564,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": null
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4597,7 +4597,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": null
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": false,
@@ -4996,7 +4996,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "IMPLANTATION_AMENAGEMENT"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5224,7 +5224,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5250,7 +5250,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5643,7 +5643,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "BRUIT_VIBRATIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5695,7 +5695,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "FIN_EXPLOITATION"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
