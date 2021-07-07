@@ -2,8 +2,7 @@
   <div class="mt-3">
     <% @prescriptions.each do |topic, grouped_by_text| %>
       <% if !topic.nil?  %>
-        <h5>Thème : <%= @topics[topic] %></h5>
-        <hr/>
+        <p><span class="badge badge-pill badge-secondary">Thème : <%= @topics[topic] %></span></p>
       <% end %>
       <% grouped_by_text.each do |text_reference, group| %>
         <h6>
