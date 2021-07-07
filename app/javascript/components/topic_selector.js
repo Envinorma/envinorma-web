@@ -1,4 +1,4 @@
-const filterSummary = (event) => {
+const applyTopicFiltering = (event) => {
   document.querySelector(".spinner").classList.add("fade-in");
   document.querySelector(".spinner").classList.add("active");
   setTimeout(() => {
@@ -68,6 +68,6 @@ const showElements = (topic) => {
 window.addEventListener("load", () => {
   const topicButtons = document.querySelectorAll(".topic-button");
   topicButtons.forEach((topicButton) => {
-    topicButton.addEventListener("click", filterSummary);
+    topicButton.addEventListener("click", applyTopicFiltering);
   });
 });
