@@ -1,8 +1,12 @@
 <% if @prescriptions %>
   <div class="mt-3">
     <% @prescriptions.each do |topic, grouped_by_text| %>
-      <% if !topic.nil?  %>
-        <p><span class="badge badge-pill badge-secondary">Thème : <%= @topics[topic] %></span></p>
+      <% if topic != nil  %>
+        <% if topic == TopicHelper::AUCUN %>
+          <p><span class="badge badge-pill badge-secondary">Aucun thème</span>
+        <% else %>
+          <p><span class="badge badge-pill badge-secondary">Thème : <%= @topics[topic] %></span></p>
+        <% end %>
       <% end %>
       <% grouped_by_text.each do |text_reference, group| %>
         <h6>

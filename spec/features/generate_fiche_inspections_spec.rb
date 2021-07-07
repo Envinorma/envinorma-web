@@ -189,7 +189,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     click_link('Grouper par thème')
     expect(page).to have_content('Thème : Air - odeurs')
-    expect(page).to have_content('Thème : Aucun')
+    expect(page).to have_content('Aucun thème')
     expect(page).to have_selector '.btn-light', text: 'Grouper par arrêté'
     expect(page).to have_selector '.btn-secondary', text: 'Grouper par thème'
 
