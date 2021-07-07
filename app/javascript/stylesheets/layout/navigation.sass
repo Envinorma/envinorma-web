@@ -54,17 +54,15 @@ html
   padding: 1.5rem 2rem 1.5rem 0
   border-right: 1px solid rgba(0, 0, 0, 0.1)
 
-  a
-    color: inherit
+  a.btn
+    text-align: left
     display: block
-    padding-left: 10px
+    &:hover
+      background-color: #e2e6ea
+      border-color: #dae0e5
 
-    &:hover,
-    &.current
-      text-decoration: none
-      color: #000000
-      border-left: 3px solid $primary
-      padding-left: 7px
+  .btn-sm
+    font-size: 0.8rem
 
   .level_0
     text-transform: uppercase

@@ -31,7 +31,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     page.find('#modalPrescriptions', visible: :hidden)
 
     # Create prescriptions using checkbox select_all
-    find('.select_all', match: :first).click
+    find('.select_all', match: :first).click(wait: 4)
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
 
     expect(page).not_to have_selector '#prescriptions_recap h6', text: 'AM - 09/04/19 - 2521 E'
@@ -39,18 +39,18 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(Prescription.count).to eq 5
 
     # Delete prescriptions using checkbox select_all
-    find('.select_all', match: :first).click
+    find('.select_all', match: :first).click(wait: 4)
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: false)
     expect(page).to have_selector '.counter', text: '0'
     expect(Prescription.count).to eq 0
 
-    find('.select_all', match: :first).click
+    find('.select_all', match: :first).click(wait: 4)
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
     expect(page).to have_selector '.counter', text: '5'
     expect(Prescription.count).to eq 5
 
     # Create prescriptions from a row in a table
-    find('label', text: '500 mg/m3').click
+    find('label', text: '500 mg/m3').click(wait: 4)
     expect(page).to have_selector '.counter', text: '6'
     expect(Prescription.count).to eq 6
 
@@ -107,7 +107,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     visit_eva_industries_prescriptions_page
 
     # Create prescriptions using checkbox select_all
-    find('.select_all', match: :first).click
+    find('.select_all', match: :first).click(wait: 4)
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
     expect(page).to have_selector '.counter', text: '5'
     expect(Prescription.count).to eq 5
@@ -160,14 +160,14 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     click_button('Air - odeurs')
     expect(page).to have_content("Chapitre VI : Emissions dans l'air")
-    find('.select_all', match: :first).click
+    find('.select_all', match: :first).click(wait: 4)
     expect(page).to have_selector '.counter', text: '4'
     expect(Prescription.count).to eq 4
     expect(Prescription.last.topic).to eq 'AIR_ODEURS'
 
     click_button('Bruit - vibrations')
     expect(page).to have_content('Chapitre VII : Bruit, vibration et émissions lumineuses')
-    find('.select_all', match: :first).click
+    find('.select_all', match: :first).click(wait: 4)
     expect(page).to have_selector '.counter', text: '9'
     expect(Prescription.count).to eq 9
     expect(Prescription.last.topic).to eq 'BRUIT_VIBRATIONS'
@@ -179,7 +179,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(page).to have_selector '.counter', text: '10'
     expect(Prescription.count).to eq 10
 
-    find(class: 'circle-fixed-button').click
+    find(class: 'circle-fixed-button').click(wait: 4)
 
     expect(page).to have_content("Fiche d'inspection")
     expect(page).to have_content('Les poussières, gaz polluants ou odeurs sont captés à la source')

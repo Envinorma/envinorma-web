@@ -12,10 +12,10 @@ window.addEventListener('DOMContentLoaded', () => {
     let cur = [];
 
     if (mainSummary.length !== 0) {
-      mainSummary[0].classList.add("current");
+      mainSummary[0].classList.add("active");
     }
 
-    mainNavLinks[0].classList.add("current");
+    mainNavLinks[0].classList.replace("btn-light", "btn-primary");
 
     // This should probably be throttled.
     // Especially because it triggers during smooth scrolling.
@@ -39,13 +39,13 @@ window.addEventListener('DOMContentLoaded', () => {
           section.offsetTop <= fromTop &&
           section.offsetTop + section.offsetHeight > fromTop
         ) {
-          link.classList.add("current");
+          link.classList.replace("btn-light", "btn-primary");
           if ( summary != null) {
 
             summary.classList.add("current");
           }
         } else {
-          link.classList.remove("current");
+          link.classList.replace("btn-primary", "btn-light");
           if ( summary != null) {
             summary.classList.remove("current");
           }
