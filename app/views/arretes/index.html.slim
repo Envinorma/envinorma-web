@@ -7,29 +7,30 @@
 
       hr
 
-      ul.nav
-        - if @arretes.any?
-          em.text-secondary.small Arrêtés ministériels
-          hr.mb-3
-          - @arretes.each do |arrete|
-            - classement_infos = classement_infos(arrete, @installation)
-            li
-              a.btn.btn-sm.btn-light href="#anchor_am_#{arrete.id}"
-                => arrete.short_title
-                br
-                  small
-                    => classement_infos
+      nav
+        ul.nav
+          - if @arretes.any?
+            em.text-secondary.small Arrêtés ministériels
+            hr.mb-3
+            - @arretes.each do |arrete|
+              - classement_infos = classement_infos(arrete, @installation)
+              li
+                a.btn.btn-sm.btn-light href="#anchor_am_#{arrete.id}"
+                  => arrete.short_title
+                  br
+                    small
+                      => classement_infos
 
-        - if @aps.any?
-          em.text-secondary.small Arrêtés préfectoraux
-          hr.mb-3
-          - @aps.each do |ap|
-            li
-              a.btn.btn-sm.btn-light href="#anchor_ap_#{ap.id}"
-                => ap.short_title
-                br
-                  small
-                    => ap.description
+          - if @aps.any?
+            em.text-secondary.small Arrêtés préfectoraux
+            hr.mb-3
+            - @aps.each do |ap|
+              li
+                a.btn.btn-sm.btn-light href="#anchor_ap_#{ap.id}"
+                  => ap.short_title
+                  br
+                    small
+                      => ap.description
 
     .col-10
       .topics_nav
