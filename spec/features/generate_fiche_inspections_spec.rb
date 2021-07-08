@@ -141,18 +141,23 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(page).to have_content('Chapitre Ier : Dispositions générales')
     click_button('Air - odeurs')
     expect(page).to have_selector '.btn-primary', text: 'Air - odeurs'
-    expect(page).not_to have_content('Chapitre Ier : Dispositions générales')
     expect(page).to have_content("Chapitre VI : Emissions dans l'air")
+    expect(page).not_to have_content('Chapitre Ier : Dispositions générales')
+    alert_ap = 'Votre sélection "Air - odeurs" a bien été prise en compte mais les arrêtés préfectoraux'
+    expect(page).to have_content(alert_ap)
 
     click_button("Fin d'exploitation")
     expect(page).to have_selector '.btn-primary', text: "Fin d'exploitation"
     expect(page).to have_selector '.btn-light', text: 'Air - odeurs'
-    expect(page).not_to have_content('Chapitre Ier : Dispositions générales')
     expect(page).to have_content('Cet arrêté ne contient pas de prescriptions correspondant au thème choisi')
+    expect(page).not_to have_content('Chapitre Ier : Dispositions générales')
+    alert_ap = 'Votre sélection "Fin d\'exploitation" a bien été prise en compte mais les arrêtés préfectoraux'
+    expect(page).to have_content(alert_ap)
 
     click_button("Fin d'exploitation")
     expect(page).to have_selector '.btn-light', text: "Fin d'exploitation"
     expect(page).to have_content('Chapitre Ier : Dispositions générales')
+    expect(page).not_to have_content(alert_ap)
   end
 
   it 'filter selected prescriptions by topics or by arretes' do

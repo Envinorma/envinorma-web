@@ -41,7 +41,7 @@
                   - if topic_id.present?
                     li.list-inline-item.mb-1
                       = button_tag topic_name, class: 'btn btn-light btn-sm topic-button',
-                        data: { topic: topic_id }
+                        data: { topic: topic_id, topic_humanized: topic_name }
 
       .container-fluid
         - if @arretes.any?
