@@ -153,7 +153,7 @@
     "sections": [
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -263,7 +263,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": "IMPLANTATION_AMENAGEMENT"
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -287,7 +289,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": "IMPLANTATION_AMENAGEMENT"
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -311,7 +315,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": "FIN_EXPLOITATION"
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -345,7 +351,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": "EXPLOITATION"
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -369,7 +377,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": "EXPLOITATION"
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -398,7 +408,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": "EXPLOITATION"
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -430,7 +442,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -444,7 +456,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "IMPLANTATION_AMENAGEMENT"
                     },
                     "applicability": {
                         "active": true,
@@ -475,7 +487,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "IMPLANTATION_AMENAGEMENT"
                     },
                     "applicability": {
                         "active": true,
@@ -506,7 +518,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "EXPLOITATION"
                     },
                     "applicability": {
                         "active": true,
@@ -547,7 +559,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "EXPLOITATION"
                     },
                     "applicability": {
                         "active": true,
@@ -578,7 +590,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "EXPLOITATION"
                     },
                     "applicability": {
                         "active": true,
@@ -619,7 +631,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "EXPLOITATION"
                     },
                     "applicability": {
                         "active": true,
@@ -670,7 +682,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "EXPLOITATION"
                     },
                     "applicability": {
                         "active": true,
@@ -718,7 +730,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -732,7 +744,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "EXPLOITATION"
                     },
                     "applicability": {
                         "active": true,
@@ -783,7 +795,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "EXPLOITATION"
                     },
                     "applicability": {
                         "active": true,
@@ -819,7 +831,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "EXPLOITATION"
                     },
                     "applicability": {
                         "active": true,
@@ -850,7 +862,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "EXPLOITATION"
                     },
                     "applicability": {
                         "active": true,
@@ -876,7 +888,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "EXPLOITATION"
                     },
                     "applicability": {
                         "active": true,
@@ -909,7 +921,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -923,7 +935,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -954,7 +966,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -995,7 +1007,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1021,7 +1033,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1054,7 +1066,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -1068,7 +1080,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "IMPLANTATION_AMENAGEMENT"
                     },
                     "applicability": {
                         "active": true,
@@ -1087,7 +1099,9 @@
                     "reference_str": "Annexe I",
                     "sections": [
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -1137,7 +1151,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1173,7 +1187,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "VAPEURS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1203,7 +1217,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -1242,7 +1258,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -1266,7 +1284,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -1297,7 +1317,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -1315,7 +1337,9 @@
                     "reference_str": "Annexe II",
                     "sections": [
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -1327,7 +1351,9 @@
                             "reference_str": "Annexe II",
                             "sections": [
                                 {
-                                    "annotations": null,
+                                    "annotations": {
+                                        "topic": null
+                                    },
                                     "applicability": {
                                         "active": true,
                                         "modified": false,
@@ -1366,7 +1392,9 @@
                                     }
                                 },
                                 {
-                                    "annotations": null,
+                                    "annotations": {
+                                        "topic": null
+                                    },
                                     "applicability": {
                                         "active": true,
                                         "modified": false,
@@ -1412,7 +1440,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -1424,7 +1454,9 @@
                             "reference_str": "Annexe II",
                             "sections": [
                                 {
-                                    "annotations": null,
+                                    "annotations": {
+                                        "topic": null
+                                    },
                                     "applicability": {
                                         "active": true,
                                         "modified": false,
@@ -1453,7 +1485,9 @@
                                     }
                                 },
                                 {
-                                    "annotations": null,
+                                    "annotations": {
+                                        "topic": null
+                                    },
                                     "applicability": {
                                         "active": true,
                                         "modified": false,
@@ -1491,7 +1525,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -1509,176 +1545,100 @@
                             "active": true,
                             "table": null,
                             "text": "Les entreprises sont qualifiées selon les dispositions minimales suivantes :"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "1. L’entreprise fournit à l’organisme un dossier comprenant :"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "– la description de la méthode de transformation qu’elle met en œuvre ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "– les types de revêtements qui seront utilisés ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "– la description des modalités de mise en œuvre et les contrôles réalisés à chaque étape de la transformation ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "– la description du système de détection mis en place et ses modalités de mise en œuvre."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "2. L’organisme réalise des essais sur éprouvette(s) et/ou réservoir(s) prototype(s) selon des modalités définies dans un cahier des charges précis. Ces essais portent sur :"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "– la tenue mécanique du réservoir transformé (mesures de dureté, d’adhérence des éventuels sur-revêtements, mesure de la résistance aux chocs et à la pression) ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "– l’étanchéité de la transformation (mesures de compacité) ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "– la durabilité de la transformation (essais de compatibilité chimique en phase liquide et gazeuse)."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "3. Ces essais en laboratoire sont complétés par un audit initial sur une installation proposée par l’entreprise afin de vérifier les points suivants :"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "– la mise en œuvre effective du procédé de transformation tel que décrit dans le dossier déposé par l’entreprise ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "– la mise en œuvre effective des contrôles décrits dans le dossier ainsi que de contrôles complémentaires, le cas échéant, que l’organisme souhaiterait mener."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "4. L’organisme peut alors délivrer un certificat ou équivalent qui fait apparaître a minima :"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "– les coordonnées de l’organisme qui a accordé la qualification ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "– les coordonnées de l’entreprise ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "– le(s) document(s) de référence pris en compte pour la qualification de l’entreprise ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "– la date de début de validité et la durée de validité qui ne saurait excéder un an."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "5. L’organisme effectue un contrôle annuel du respect effectif des modalités décrites dans le dossier initial de façon similaire à l’audit initial, sur un site proposé par l’entreprise. En cas de non-conformité, l’habilitation n’est pas renouvelée."
                         }
                     ],
                     "reference_str": "Annexe III",
-                    "sections": [
-                        {
-                            "annotations": null,
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "CfFdB82A6fA8",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "– la description de la méthode de transformation qu’elle met en œuvre ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "– les types de revêtements qui seront utilisés ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "– la description des modalités de mise en œuvre et les contrôles réalisés à chaque étape de la transformation ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "– la description du système de détection mis en place et ses modalités de mise en œuvre."
-                                }
-                            ],
-                            "reference_str": "Annexe III 1.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "1. L’entreprise fournit à l’organisme un dossier comprenant :"
-                            }
-                        },
-                        {
-                            "annotations": null,
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "eB50dB5A8198",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "– la tenue mécanique du réservoir transformé (mesures de dureté, d’adhérence des éventuels sur-revêtements, mesure de la résistance aux chocs et à la pression) ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "– l’étanchéité de la transformation (mesures de compacité) ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "– la durabilité de la transformation (essais de compatibilité chimique en phase liquide et gazeuse)."
-                                }
-                            ],
-                            "reference_str": "Annexe III 2.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "2. L’organisme réalise des essais sur éprouvette(s) et/ou réservoir(s) prototype(s) selon des modalités définies dans un cahier des charges précis. Ces essais portent sur :"
-                            }
-                        },
-                        {
-                            "annotations": null,
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "1Bf3068013AD",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "– la mise en œuvre effective du procédé de transformation tel que décrit dans le dossier déposé par l’entreprise ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "– la mise en œuvre effective des contrôles décrits dans le dossier ainsi que de contrôles complémentaires, le cas échéant, que l’organisme souhaiterait mener."
-                                }
-                            ],
-                            "reference_str": "Annexe III 3.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "3. Ces essais en laboratoire sont complétés par un audit initial sur une installation proposée par l’entreprise afin de vérifier les points suivants :"
-                            }
-                        },
-                        {
-                            "annotations": null,
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "bA191A86aedB",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "– les coordonnées de l’organisme qui a accordé la qualification ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "– les coordonnées de l’entreprise ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "– le(s) document(s) de référence pris en compte pour la qualification de l’entreprise ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "– la date de début de validité et la durée de validité qui ne saurait excéder un an."
-                                }
-                            ],
-                            "reference_str": "Annexe III 4.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "4. L’organisme peut alors délivrer un certificat ou équivalent qui fait apparaître a minima :"
-                            }
-                        },
-                        {
-                            "annotations": null,
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "7dBD0A27bdDc",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "L’organisme effectue un contrôle annuel du respect effectif des modalités décrites dans le dossier initial de façon similaire à l’audit initial, sur un site proposé par l’entreprise. En cas de non-conformité, l’habilitation n’est pas renouvelée."
-                                }
-                            ],
-                            "reference_str": "Annexe III",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "5."
-                            }
-                        }
-                    ],
+                    "sections": [],
                     "title": {
                         "active": true,
                         "table": null,

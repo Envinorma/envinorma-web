@@ -21,7 +21,7 @@
     "sections": [
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -35,7 +35,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "IMPLANTATION_AMENAGEMENT"
                     },
                     "applicability": {
                         "active": true,
@@ -85,7 +85,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": "IMPLANTATION_AMENAGEMENT"
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -110,7 +112,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "EAU"
+                        "topic": "IMPLANTATION_AMENAGEMENT"
                     },
                     "applicability": {
                         "active": true,
@@ -170,7 +172,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": "EXPLOITATION"
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -199,7 +203,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": "EXPLOITATION"
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -244,7 +250,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "EAU"
+                        "topic": "EXPLOITATION"
                     },
                     "applicability": {
                         "active": true,
@@ -304,7 +310,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": "EXPLOITATION"
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -338,7 +346,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": "EXPLOITATION"
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -362,7 +372,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": "EXPLOITATION"
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -406,7 +418,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": "EAU"
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -415,6 +429,11 @@
                     },
                     "id": "DE1dF8854193",
                     "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Tout rejet direct des fumiers et lisiers dans les eaux superficielles est interdit."
+                        },
                         {
                             "active": true,
                             "table": null,
@@ -471,11 +490,13 @@
                     "title": {
                         "active": true,
                         "table": null,
-                        "text": "Article 10 - Tout rejet direct des fumiers et lisiers dans les eaux superficielles est interdit."
+                        "text": "Article 10"
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": "BRUIT_VIBRATIONS"
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -529,7 +550,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": "RISQUES"
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -563,7 +586,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -587,7 +612,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -611,7 +638,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -642,7 +671,9 @@
             }
         },
         {
-            "annotations": null,
+            "annotations": {
+                "topic": null
+            },
             "applicability": {
                 "active": true,
                 "modified": false,
@@ -654,7 +685,9 @@
             "reference_str": "Annexe",
             "sections": [
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -666,7 +699,9 @@
                     "reference_str": "Annexe",
                     "sections": [
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,

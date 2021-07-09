@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 require 'rails_helper'
-require './app/helpers/filter_helper'
+require './app/helpers/prescriptions_grouping_helper'
 
 RSpec.configure do |c|
-  c.include FilterHelper
+  c.include PrescriptionsGroupingHelper
 end
 
-RSpec.describe FilterHelper do
+RSpec.describe PrescriptionsGroupingHelper do
   it 'sorts prescriptions by creation date when different AM.' do
     prescription1 = Prescription.new(reference: '', content: '', alinea_id: '0', from_am_id: 'am-id-1',
                                      text_reference: 'AM 1', rank: '1.1.2', user_id: 0,
@@ -15,7 +15,7 @@ RSpec.describe FilterHelper do
     prescription2 = Prescription.new(reference: '', content: '', alinea_id: '1', from_am_id: 'am-id-2',
                                      text_reference: 'AM 0', rank: '0', user_id: 0, created_at: '2020/01/01'.to_date)
     prescriptions = [prescription1, prescription2]
-    output_prescriptions = described_class.sort_and_group(prescriptions).values.map(&:values).flatten
+    output_prescriptions = sort_and_group_by_text(prescriptions).values.map(&:values).flatten
     expect(output_prescriptions).to eq [prescription2, prescription1]
   end
 
@@ -25,7 +25,7 @@ RSpec.describe FilterHelper do
     prescription2 = Prescription.new(reference: '', content: '', alinea_id: '0', from_am_id: 'am-id',
                                      text_reference: 'AM', rank: '1.1.2', user_id: 0, created_at: '2020/01/02'.to_date)
     prescriptions = [prescription1, prescription2]
-    output_prescriptions = described_class.sort_and_group(prescriptions).values.map(&:values).flatten
+    output_prescriptions = sort_and_group_by_text(prescriptions).values.map(&:values).flatten
     expect(output_prescriptions).to eq [prescription2, prescription1]
   end
 
@@ -43,7 +43,7 @@ RSpec.describe FilterHelper do
     prescriptions = [prescription1, prescription2, prescription3, prescription4]
     expected = { 'AM' => { 'ref-2' => [prescription4], 'ref' => [prescription3, prescription2] },
                  'AP' => { 'ref-ap' => [prescription1] } }
-    output_prescriptions = described_class.sort_and_group(prescriptions)
+    output_prescriptions = sort_and_group_by_text(prescriptions)
     expect(output_prescriptions).to eq expected
     new_order = [prescription3, prescription2, prescription4, prescription1]
     expect(output_prescriptions.values.map(&:values).flatten).to eq new_order

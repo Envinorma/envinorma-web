@@ -1,187 +1,88 @@
 - content_for :meta_title, "Envinorma - #{@installation.name} - #{@installation.city}"
 
-.am_nav
-  .container
-    .row
-      .col-1.align-self-center
-        = link_to '< Retour à l’installation', installation_path(@installation), class: 'small'
-      .col-11
-        .glide
+.container-fluid
+  .row
+    .col-2.sidebar-sticky
+      = link_to '< Retour à l’installation', installation_path(@installation), class: 'small align-items-center'
 
-          div class="glide__track" data-glide-el="track"
-            ul.glide__slides
-              - if @arretes.any?
-                - @arretes.each do |arrete|
-                  - classement_infos = classement_infos(arrete, @installation)
-                  li.glide__slide
-                    a href="#anchor_am_#{arrete.id}"
-                      => arrete.short_title
-                      br
-                        small
-                          => classement_infos
+      hr
 
-              - if @aps.any?
-                - @aps.each do |ap|
-                  li.glide__slide
-                    a href="#anchor_ap_#{ap.id}"
-                      => ap.short_title
-                      br
-                        small
-                          => ap.description
+      ul.nav
+        - if @arretes.any?
+          em.text-secondary.small Arrêtés ministériels
+          hr.mb-3
+          - @arretes.each do |arrete|
+            - classement_infos = classement_infos(arrete, @installation)
+            li
+              a.btn.btn-sm.btn-light href="#anchor_am_#{arrete.id}"
+                => arrete.short_title
+                br
+                  small
+                    => classement_infos
 
-          div class="glide__arrows" data-glide-el="controls"
-            button class="glide__arrow glide__arrow--left" data-glide-dir="<"<
-            button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+        - if @aps.any?
+          em.text-secondary.small Arrêtés préfectoraux
+          hr.mb-3
+          - @aps.each do |ap|
+            li
+              a.btn.btn-sm.btn-light href="#anchor_ap_#{ap.id}"
+                => ap.short_title
+                br
+                  small
+                    => ap.description
 
-.container
-  - if @arretes.any?
-      - @arretes.each do |arrete|
-        - am_short_title = arrete.short_title
-        - classement_infos = classement_infos(arrete, @installation)
-        section id="anchor_am_#{arrete.id}" class='anchor'
+    .col-10
+      .topics_nav
+        .container-fluid
           .row
-            .col-3
-              dl.summary
-                .display-summary id="anchor_#{arrete.id}_summary" class='anchor'
-                  - create_summary = lambda do |sec, depth = 0|
-                    dd
-                      a class="level_#{depth}" href="#anchor_#{sec.id}"
-                        = sec.title.text
-                    - sec.sections.each do |subsec|
-                      - create_summary.call(subsec, depth + 1)
-                  - arrete.data.sections.each do |section|
-                    - create_summary.call(section)
+            .col-12
+              ul.list-inline
+                - @topics.each do |topic_id, topic_name|
+                  - if topic_id.present?
+                    li.list-inline-item.mb-1
+                      = button_tag topic_name, class: 'btn btn-light btn-sm topic-button',
+                        data: { topic: topic_id, topic_humanized: topic_name }
 
-            .col-9
-              h2.display.h1
-                = arrete.short_title
-                span.text-secondary
-                  =  "- #{classement_infos}"
-              p
-                strong = arrete.title
+      .container-fluid
+        - if @arretes.any?
+            - @arretes.each do |arrete|
+              = render partial: 'am', locals: { arrete: arrete }
+        - if @aps.any?
+            - @aps.each do |ap|
+              = render partial: 'ap', locals: { ap: ap }
 
-              - arrete.version_descriptor.applicability_warnings.each do |warning|
-                *{ tag: 'p', class: arrete.version_descriptor.applicable ? 'alert alert-warning' : 'alert alert-danger' }
-                  = warning
-
-              p.mb-5
-                = link_to 'Consulter sur Aida', arrete.aida_url, target: '_blank', rel: 'noopener'
-                = link_to 'Consulter sur Légifrance', arrete.legifrance_url, target: '_blank', class: 'ml-3', rel: 'noopener'
-              - arrete.data.sections.each_with_index do |section, section_index|
-                - extract_sections = lambda do |subsection, subsection_rank, level = 3|
-
-                  - subsection_id = subsection.id
-
-                  div id="anchor_#{subsection.id}" class='anchor anchor-summary'
-
-                    / display title
-                    - class_name = subsection.applicability.active ? '' : 'inactive'
-                    *{ tag: "h#{level}", class: class_name } = subsection.title.text
-
-                    / display warning
-                    - subsection.applicability.warnings.each do |warning|
-                      .alert.alert-secondary
-                        p = warning
-
-                    / display outeralineas
-                    - if subsection.outer_alineas.present?
-                      - am_ref = "#{am_short_title} - #{classement_infos}"
-
-                      / display button and collapse original text version if modified
-                      - if subsection.applicability.modified
-                        small
-                          .border-bottom.mb-3.pb-3
-                            *{ tag: "a href='#'",
-                              class: 'icon-collapse icon-collapse-mini',
-                              data: { toggle: 'collapse', target: "#modified_collapse_#{subsection_id}" } }
-                              | voir le texte d'origine
-
-                            .inactive
-                              .collapse id="modified_collapse_#{subsection_id}"
-                                = render partial: 'outer_alineas',
-                                  locals: { subsection: subsection.applicability.previous_version,
-                                            level: level,
-                                            subsection_id: subsection_id,
-                                            ref: subsection.reference_str,
-                                            am_ref: am_ref,
-                                            am_id: arrete.id,
-                                            subsection_rank: subsection_rank,
-                                            modification: true }
-
-                      - if subsection.applicability.active && subsection.outer_alineas.count > 1
-                        .border-bottom.mb-3.pb-3
-                          .form-group.row
-                            .col-sm-12
-                              .form-check
-                                = check_box_tag "select_all_#{subsection.id}",
-                                  '1', false, class: 'form-check-input select_all', data: { section_id: subsection.id }
-
-                      = render partial: 'outer_alineas',
-                        locals: { subsection: subsection,
-                                  level: level,
-                                  subsection_id: subsection_id,
-                                  ref: subsection.reference_str,
-                                  am_ref: am_ref,
-                                  am_id: arrete.id,
-                                  subsection_rank: subsection_rank,
-                                  modification: false }
-
-                  / iterate on sections and increment level
-                  - subsection.sections.each_with_index do |item, item_index|
-                    - extract_sections.call(item, "#{subsection_rank}.#{item_index}", level + 1)
-
-                - extract_sections.call(section, section_index.to_s)
-
-        .splitter
-
-  - if @aps.any?
-      - @aps.each do |ap|
-        section id="anchor_ap_#{ap.id}" class='anchor'
-          .row
-            .col-3
-              h5 = ap.title
-
-              = simple_form_for @prescription,
-                url: installation_create_from_ap_path(@installation, @prescription),
-                remote: true do |f|
-                .row
-                  .col-12
-                    = f.input :reference, placeholder: 'ex: Art. 2'
-                  .col-12
-                    - placeholder = 'ex: Les quantités maximales qui seront stockées sont estimées à environ : 1 500.000m3'
-                    = f.input :content,
-                              as: :text,
-                              placeholder: placeholder,
-                              hint: 'Le copier-coller est possible depuis le PDF'
-
-                  = f.hidden_field :text_reference, value: ap.short_title
-
-                = f.button :submit, 'Ajouter une prescription', class: 'btn btn-primary'
-            .col-9
-              - url_ovh = 'https://storage.sbg.cloud.ovh.net/v1/AUTH_3287ea227a904f04ad4e8bceb0776108/ap/'
-              object data="#{url_ovh}#{ap.georisques_id}.pdf" type="application/pdf" class="pdf_viewer"
-        .splitter
-
-= link_to installation_prescriptions_path(@installation), class: 'btn btn-primary circle-fixed-button', remote: true do
-  i.fas.fa-file-download.fa-fw
-  span.counter.badge.badge-pill.badge-light.position-absolute = @user.prescriptions_for(@installation).count
+      = link_to installation_prescriptions_path(@installation), class: 'btn btn-primary circle-fixed-button', remote: true do
+        i.fas.fa-file-download.fa-fw
+        span.counter.badge.badge-pill.badge-light.position-absolute = @user.prescriptions_for(@installation).count
 
 #modalPrescriptions.modal
   .modal-bg.modal-exit
   .modal-container
     .border-bottom.pb-3
       h4 Fiche d'inspection
+
+      .btn-group.js_btn_group_by
+        - btn_arrete_class = @user.consults_precriptions_by_topics? ? 'btn-light' : 'btn-secondary'
+        - btn_topic_class = @user.consults_precriptions_by_topics? ? 'btn-secondary' : 'btn-light'
+
+        = link_to 'Grouper par arrêté', installation_toggle_grouping_path(@installation), remote: true,
+          class: "btn btn-sm #{btn_arrete_class} js_group_by_arrete"
+
+        = link_to 'Grouper par thème', installation_toggle_grouping_path(@installation), remote: true,
+          class: "btn btn-sm #{btn_topic_class} js_group_by_topic"
+
       = link_to 'Tout supprimer', installation_destroy_all_path(@installation),
         remote: true, method: :delete,
-        class: 'text-danger small',
+        class: 'float-right btn btn-outline-danger btn-sm',
         onclick: "document.querySelectorAll('input[type=checkbox]').forEach((checkbox)=>{checkbox.checked = false;});"
+
       button.modal-close.modal-exit
         | X
 
     .modal-content
       #prescriptions_recap
 
-        = render partial: './prescriptions/prescription'
+        = render partial: './prescriptions/prescriptions_recap'
     .border-top.pt-3
       = link_to 'Télécharger la fiche', generate_doc_path, method: :post, class: 'btn btn-primary', id: 'js_download_fiche'
 

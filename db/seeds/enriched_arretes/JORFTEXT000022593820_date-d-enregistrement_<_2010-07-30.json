@@ -32,7 +32,7 @@
     "sections": [
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -58,7 +58,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -100,7 +100,9 @@
             }
         },
         {
-            "annotations": null,
+            "annotations": {
+                "topic": null
+            },
             "applicability": {
                 "active": true,
                 "modified": false,
@@ -137,7 +139,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -163,7 +165,7 @@
         },
         {
             "annotations": {
-                "topic": "AIR_ODEURS"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -177,7 +179,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "AIR_ODEURS"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -278,7 +280,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -311,7 +313,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -362,7 +364,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -407,7 +409,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DECHETS"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -421,7 +423,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -435,7 +437,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -466,7 +468,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -514,7 +516,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -557,7 +559,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DECHETS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -571,7 +573,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DECHETS"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -585,7 +587,7 @@
                                             "sections": [
                                                 {
                                                     "annotations": {
-                                                        "topic": "DECHETS"
+                                                        "topic": null
                                                     },
                                                     "applicability": {
                                                         "active": false,
@@ -698,7 +700,7 @@
                                                 },
                                                 {
                                                     "annotations": {
-                                                        "topic": "DISPOSITIONS_GENERALES"
+                                                        "topic": null
                                                     },
                                                     "applicability": {
                                                         "active": true,
@@ -736,7 +738,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -774,7 +776,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -814,7 +816,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -828,7 +830,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -871,7 +873,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -954,7 +956,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -1002,7 +1004,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -1030,7 +1032,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1063,7 +1065,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1077,7 +1079,7 @@
                                             "sections": [
                                                 {
                                                     "annotations": {
-                                                        "topic": "DISPOSITIONS_GENERALES"
+                                                        "topic": null
                                                     },
                                                     "applicability": {
                                                         "active": true,
@@ -1138,7 +1140,7 @@
                                                 },
                                                 {
                                                     "annotations": {
-                                                        "topic": "DISPOSITIONS_GENERALES"
+                                                        "topic": null
                                                     },
                                                     "applicability": {
                                                         "active": true,
@@ -1186,7 +1188,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -1202,7 +1204,7 @@
                                             "sections": [
                                                 {
                                                     "annotations": {
-                                                        "topic": "DISPOSITIONS_GENERALES"
+                                                        "topic": null
                                                     },
                                                     "applicability": {
                                                         "active": false,
@@ -1283,7 +1285,7 @@
                                                 },
                                                 {
                                                     "annotations": {
-                                                        "topic": "DISPOSITIONS_GENERALES"
+                                                        "topic": null
                                                     },
                                                     "applicability": {
                                                         "active": false,
@@ -1319,7 +1321,7 @@
                                                 },
                                                 {
                                                     "annotations": {
-                                                        "topic": "DISPOSITIONS_GENERALES"
+                                                        "topic": null
                                                     },
                                                     "applicability": {
                                                         "active": false,
@@ -1350,7 +1352,7 @@
                                                 },
                                                 {
                                                     "annotations": {
-                                                        "topic": "DISPOSITIONS_GENERALES"
+                                                        "topic": null
                                                     },
                                                     "applicability": {
                                                         "active": false,
@@ -1376,7 +1378,7 @@
                                                 },
                                                 {
                                                     "annotations": {
-                                                        "topic": "DISPOSITIONS_GENERALES"
+                                                        "topic": null
                                                     },
                                                     "applicability": {
                                                         "active": false,
@@ -1436,7 +1438,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1450,7 +1452,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1486,7 +1488,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1581,7 +1583,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1619,7 +1621,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1633,7 +1635,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1694,7 +1696,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1754,7 +1756,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DECHETS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1768,7 +1770,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1811,7 +1813,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1842,7 +1844,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1903,7 +1905,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1939,7 +1941,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1985,7 +1987,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -2021,7 +2023,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -2057,7 +2059,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -2093,7 +2095,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DECHETS"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -2252,7 +2254,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "AIR_ODEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2283,7 +2285,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "AIR_ODEURS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2340,7 +2342,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "DECHETS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2381,7 +2383,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DECHETS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2407,7 +2409,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DECHETS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2462,7 +2464,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -2476,7 +2478,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2490,7 +2492,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -2516,7 +2518,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -2542,7 +2544,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -2568,7 +2570,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -2626,7 +2628,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2640,7 +2642,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -2666,7 +2668,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -2730,7 +2732,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -3201,7 +3203,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "RISQUES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,

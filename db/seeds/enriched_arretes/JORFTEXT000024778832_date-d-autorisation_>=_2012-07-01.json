@@ -22,7 +22,9 @@
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000024778832",
     "sections": [
         {
-            "annotations": null,
+            "annotations": {
+                "topic": null
+            },
             "applicability": {
                 "active": true,
                 "modified": false,
@@ -82,7 +84,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -96,7 +98,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -299,7 +301,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": "IMPLANTATION_AMENAGEMENT"
             },
             "applicability": {
                 "active": true,
@@ -313,7 +315,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -374,7 +376,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -388,7 +390,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -429,7 +431,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -467,7 +469,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -481,7 +483,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -512,7 +514,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -545,7 +547,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -559,7 +561,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -600,7 +602,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -641,7 +643,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -667,7 +669,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -707,7 +709,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": "IMPLANTATION_AMENAGEMENT"
             },
             "applicability": {
                 "active": true,
@@ -721,7 +723,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -752,7 +754,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -783,7 +785,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -797,7 +799,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -833,7 +835,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -864,7 +866,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -907,7 +909,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -948,7 +950,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -979,7 +981,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1010,7 +1012,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1046,7 +1048,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1060,7 +1062,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1121,7 +1123,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1162,7 +1164,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1188,7 +1190,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1244,7 +1246,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1280,7 +1282,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1313,7 +1315,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1344,7 +1346,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1358,7 +1360,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1389,7 +1391,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1420,7 +1422,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1451,7 +1453,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1487,7 +1489,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1520,7 +1522,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1556,7 +1558,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1602,7 +1604,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1640,7 +1642,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": "EXPLOITATION"
             },
             "applicability": {
                 "active": true,
@@ -1654,7 +1656,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1685,7 +1687,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1699,7 +1701,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1765,7 +1767,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1808,7 +1810,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1854,7 +1856,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1868,7 +1870,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1894,7 +1896,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1925,7 +1927,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1958,7 +1960,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1994,7 +1996,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2050,7 +2052,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2070,7 +2072,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -2096,7 +2098,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -2162,7 +2164,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -2205,7 +2207,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2246,7 +2248,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2279,7 +2281,7 @@
         },
         {
             "annotations": {
-                "topic": "INSTALLATIONS_ELECTRIQUES"
+                "topic": "RISQUES"
             },
             "applicability": {
                 "active": true,
@@ -2293,7 +2295,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "RISQUES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2319,7 +2321,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "RISQUES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2350,7 +2352,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "RISQUES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2376,7 +2378,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "RISQUES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2417,7 +2419,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "INSTALLATIONS_ELECTRIQUES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2431,7 +2433,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "RISQUES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -2457,7 +2459,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "RISQUES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -2488,7 +2490,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "INSTALLATIONS_ELECTRIQUES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -2521,7 +2523,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "RISQUES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2559,7 +2561,7 @@
         },
         {
             "annotations": {
-                "topic": "INCENDIE"
+                "topic": "RISQUES"
             },
             "applicability": {
                 "active": true,
@@ -2573,7 +2575,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "INCENDIE"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2587,7 +2589,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "INCENDIE"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -2623,7 +2625,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "INCENDIE"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -2664,7 +2666,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "INCENDIE"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -2697,7 +2699,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "INCENDIE"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2723,7 +2725,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "INCENDIE"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2749,7 +2751,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "INCENDIE"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2797,7 +2799,7 @@
         },
         {
             "annotations": {
-                "topic": "ACCIDENTS_POLLUTIONS"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -2811,7 +2813,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "ACCIDENTS_POLLUTIONS"
+                        "topic": "AIR_ODEURS"
                     },
                     "applicability": {
                         "active": true,
@@ -2825,7 +2827,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "ACCIDENTS_POLLUTIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -2876,7 +2878,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "ACCIDENTS_POLLUTIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -3091,7 +3093,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "ACCIDENTS_POLLUTIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -3105,7 +3107,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "ACCIDENTS_POLLUTIONS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -3131,7 +3133,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "ACCIDENTS_POLLUTIONS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -3187,7 +3189,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "ACCIDENTS_POLLUTIONS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -3761,7 +3763,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "ACCIDENTS_POLLUTIONS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -3837,7 +3839,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "ACCIDENTS_POLLUTIONS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -3870,7 +3872,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "ACCIDENTS_POLLUTIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -3966,7 +3968,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "ACCIDENTS_POLLUTIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -4002,7 +4004,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "ACCIDENTS_POLLUTIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -4050,7 +4052,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "ACCIDENTS_POLLUTIONS"
+                        "topic": "EAU"
                     },
                     "applicability": {
                         "active": true,
@@ -4064,7 +4066,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "ACCIDENTS_POLLUTIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -4090,7 +4092,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "ACCIDENTS_POLLUTIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -4121,7 +4123,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "ACCIDENTS_POLLUTIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -4192,7 +4194,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "ACCIDENTS_POLLUTIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -4212,7 +4214,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "ACCIDENTS_POLLUTIONS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -4263,7 +4265,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "ACCIDENTS_POLLUTIONS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -4364,7 +4366,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "ACCIDENTS_POLLUTIONS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -4410,7 +4412,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "ACCIDENTS_POLLUTIONS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -4451,7 +4453,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "ACCIDENTS_POLLUTIONS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -4501,7 +4503,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "ACCIDENTS_POLLUTIONS"
+                        "topic": "DECHETS"
                     },
                     "applicability": {
                         "active": true,
@@ -4515,7 +4517,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "ACCIDENTS_POLLUTIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -4541,7 +4543,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "ACCIDENTS_POLLUTIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -4567,7 +4569,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "ACCIDENTS_POLLUTIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -4600,7 +4602,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "ACCIDENTS_POLLUTIONS"
+                        "topic": "BRUIT_VIBRATIONS"
                     },
                     "applicability": {
                         "active": true,
@@ -4614,7 +4616,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "ACCIDENTS_POLLUTIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -4647,7 +4649,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "ACCIDENTS_POLLUTIONS"
+                        "topic": "AIR_ODEURS"
                     },
                     "applicability": {
                         "active": true,
@@ -4661,7 +4663,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "ACCIDENTS_POLLUTIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -4701,7 +4703,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -4714,7 +4716,9 @@
             "reference_str": "",
             "sections": [
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -4759,7 +4763,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -4792,7 +4796,7 @@
         },
         {
             "annotations": {
-                "topic": "COV"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -4806,7 +4810,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "EMISSIONS"
+                        "topic": "AIR_ODEURS"
                     },
                     "applicability": {
                         "active": true,
@@ -4819,7 +4823,9 @@
                     "reference_str": "Annexe 1",
                     "sections": [
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -4844,7 +4850,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "EMISSIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -4858,7 +4864,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "EMISSIONS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -4924,7 +4930,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "EMISSIONS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -4971,7 +4977,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -5468,7 +5476,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "COV"
+                        "topic": "AIR_ODEURS"
                     },
                     "applicability": {
                         "active": true,
@@ -5481,7 +5489,9 @@
                     "reference_str": "Annexe 2",
                     "sections": [
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -5506,7 +5516,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "COV"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -5520,7 +5530,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "COV"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -5561,7 +5571,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "COV"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,

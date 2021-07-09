@@ -1,6 +1,31 @@
 # frozen_string_literal: true
 
 module OdfHelper
+  include PrescriptionsGroupingHelper
+
+  def merge_prescriptions(prescriptions, group_by_topics)
+    if group_by_topics
+
+      return group_by_topics(prescriptions).map do |topic, topic_prescriptions|
+        { topic: topic, groups: merge_prescriptions_with_same_ref(topic_prescriptions) }
+      end
+    end
+    merge_prescriptions_with_same_ref(prescriptions)
+  end
+
+  def merge_prescriptions_with_same_ref(prescriptions)
+    prescriptions_joined_by_ref = []
+    sort_and_group_by_text(prescriptions).each do |text_reference, group|
+      group.each do |section_reference, subgroup|
+        prescriptions_joined_by_ref << {
+          content: compute_cell_content(subgroup),
+          full_reference: "#{text_reference} - #{section_reference}"
+        }
+      end
+    end
+    prescriptions_joined_by_ref
+  end
+
   HTML_ESCAPE = {
     '&' => '&amp;',
     '>' => '&gt;',
@@ -28,17 +53,5 @@ module OdfHelper
   def compute_cell_content(prescriptions)
     ordered_prescriptions = prescriptions.map!(&:content)
     ordered_prescriptions.map { |x| sanitize(x) }.join('<text:line-break/><text:line-break/>')
-  end
-
-  def merge_prescriptions_with_same_ref(prescriptions)
-    prescriptions_joined_by_ref = {}
-    FilterHelper.sort_and_group(prescriptions).each do |text_reference, group|
-      group.each do |section_reference, subgroup|
-        content = compute_cell_content(subgroup)
-        full_reference = "#{text_reference} - #{section_reference}"
-        prescriptions_joined_by_ref[full_reference] = content
-      end
-    end
-    prescriptions_joined_by_ref
   end
 end

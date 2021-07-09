@@ -20,7 +20,9 @@
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000034429274",
     "sections": [
         {
-            "annotations": null,
+            "annotations": {
+                "topic": null
+            },
             "applicability": {
                 "active": true,
                 "modified": false,
@@ -55,7 +57,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -121,7 +123,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -147,7 +149,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -183,7 +185,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -229,7 +231,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -299,7 +301,9 @@
             }
         },
         {
-            "annotations": null,
+            "annotations": {
+                "topic": null
+            },
             "applicability": {
                 "active": true,
                 "modified": false,
@@ -324,7 +328,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -350,7 +354,7 @@
         },
         {
             "annotations": {
-                "topic": "BRUIT_VIBRATIONS"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -364,7 +368,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -680,7 +684,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "BRUIT_VIBRATIONS"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -694,7 +698,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DECHETS"
+                                "topic": "DISPOSITIONS_GENERALES"
                             },
                             "applicability": {
                                 "active": true,
@@ -708,7 +712,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -734,7 +738,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -789,7 +793,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -822,7 +826,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -858,7 +862,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -872,7 +876,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -958,7 +962,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1001,7 +1005,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1027,7 +1031,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1041,7 +1045,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1107,7 +1111,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1143,7 +1147,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1184,7 +1188,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1265,7 +1269,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1303,7 +1307,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DECHETS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1317,7 +1321,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DECHETS"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1363,7 +1367,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DECHETS"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1394,7 +1398,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DECHETS"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": true,
@@ -1432,7 +1436,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": false,
@@ -1454,7 +1458,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -1495,7 +1499,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -1521,7 +1525,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -1547,7 +1551,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -1578,7 +1582,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -1604,7 +1608,7 @@
                                         },
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -1644,14 +1648,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "IMPLANTATION_AMENAGEMENT"
                             },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Une partie de ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017."
+                                    "Une partie de ce paragraphe ne s’applique pas à cette installation car la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "ad24FCC0709B",
@@ -1737,7 +1741,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "IMPLANTATION_AMENAGEMENT"
                             },
                             "applicability": {
                                 "active": true,
@@ -1757,7 +1761,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -1798,14 +1802,14 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
                                         "modified": true,
                                         "previous_version": {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -1905,7 +1909,7 @@
                                             }
                                         },
                                         "warnings": [
-                                            "Ce paragraphe a été modifié pour cette installation car le régime est à enregistrement et la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017."
+                                            "Ce paragraphe a été modifié pour cette installation car la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017 et le régime est à enregistrement."
                                         ]
                                     },
                                     "id": "212E31AABC73",
@@ -1936,14 +1940,14 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
                                         "modified": true,
                                         "previous_version": {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -1957,7 +1961,7 @@
                                             "sections": [
                                                 {
                                                     "annotations": {
-                                                        "topic": "DISPOSITIONS_GENERALES"
+                                                        "topic": null
                                                     },
                                                     "applicability": {
                                                         "active": false,
@@ -2078,7 +2082,7 @@
                                                 },
                                                 {
                                                     "annotations": {
-                                                        "topic": "DISPOSITIONS_GENERALES"
+                                                        "topic": null
                                                     },
                                                     "applicability": {
                                                         "active": false,
@@ -2145,7 +2149,7 @@
                                             }
                                         },
                                         "warnings": [
-                                            "Ce paragraphe a été modifié pour cette installation car le régime est à enregistrement et la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017."
+                                            "Ce paragraphe a été modifié pour cette installation car la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017 et le régime est à enregistrement."
                                         ]
                                     },
                                     "id": "34DEfeF10b4D",
@@ -2226,7 +2230,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2277,7 +2281,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2325,14 +2329,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": "IMPLANTATION_AMENAGEMENT"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2437,7 +2441,7 @@
                                     }
                                 },
                                 "warnings": [
-                                    "Ce paragraphe a été modifié pour cette installation car le régime est à enregistrement et la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017."
+                                    "Ce paragraphe a été modifié pour cette installation car la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "6D9fE5BeC835",
@@ -2588,14 +2592,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2655,7 +2659,7 @@
                                     "sections": [
                                         {
                                             "annotations": {
-                                                "topic": "DISPOSITIONS_GENERALES"
+                                                "topic": null
                                             },
                                             "applicability": {
                                                 "active": false,
@@ -2732,7 +2736,7 @@
                                     }
                                 },
                                 "warnings": [
-                                    "Ce paragraphe a été modifié pour cette installation car le régime est à enregistrement et la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017."
+                                    "Ce paragraphe a été modifié pour cette installation car la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "BAeE9699597F",
@@ -2793,14 +2797,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017."
+                                    "Ce paragraphe ne s’applique pas à cette installation car la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "39fD23aABD84",
@@ -2866,14 +2870,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
                                 "modified": true,
                                 "previous_version": {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2933,7 +2937,7 @@
                                     }
                                 },
                                 "warnings": [
-                                    "Ce paragraphe a été modifié pour cette installation car le régime est à enregistrement et la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017."
+                                    "Ce paragraphe a été modifié pour cette installation car la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "9b4E8b5167Af",
@@ -2964,7 +2968,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3000,7 +3004,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3136,7 +3140,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "EAU"
                             },
                             "applicability": {
                                 "active": true,
@@ -3197,7 +3201,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "EAU"
                             },
                             "applicability": {
                                 "active": true,
@@ -3273,7 +3277,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3314,7 +3318,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3420,7 +3424,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3461,7 +3465,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3512,7 +3516,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3553,7 +3557,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3599,7 +3603,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3613,7 +3617,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -3659,7 +3663,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -3762,7 +3766,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3788,7 +3792,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3859,7 +3863,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3945,7 +3949,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -3986,7 +3990,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -4166,7 +4170,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "BRUIT_VIBRATIONS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -4348,7 +4352,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -4379,7 +4383,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "BRUIT_VIBRATIONS"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -4422,7 +4426,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "EXPLOITATION"
                             },
                             "applicability": {
                                 "active": true,
@@ -4453,7 +4457,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "FIN_EXPLOITATION"
                             },
                             "applicability": {
                                 "active": true,
@@ -4489,14 +4493,14 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
                                 "previous_version": null,
                                 "warnings": [
-                                    "Ce paragraphe ne s’applique pas à cette installation car le régime est à enregistrement et la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017."
+                                    "Ce paragraphe ne s’applique pas à cette installation car la date de mise en service est postérieure au 16/04/2010 et antérieure au 01/07/2017 et le régime est à enregistrement."
                                 ]
                             },
                             "id": "8dF063bAfAD2",
@@ -4505,7 +4509,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": "IMPLANTATION_AMENAGEMENT"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4551,7 +4555,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4597,7 +4601,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4628,7 +4632,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4689,7 +4693,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4715,7 +4719,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4741,7 +4745,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4777,7 +4781,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": "RISQUES"
                                     },
                                     "applicability": {
                                         "active": false,
@@ -4810,7 +4814,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": "RISQUES"
                             },
                             "applicability": {
                                 "active": true,
@@ -4840,7 +4844,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -4853,6 +4857,11 @@
                                         {
                                             "active": true,
                                             "table": null,
+                                            "text": "Un système d'extinction automatique d'incendie adapté au produit stocké, ou un dispositif dont l'exploitant démontre l'efficacité pour éviter la persistance d'une nappe enflammée, est mis en place dans chaque cellule de liquides et solides liquéfiables combustibles. Cette disposition s'applique sans préjudice de la première phrase du point 7 de la présente annexe."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
                                             "text": "Le choix du système d'extinction automatique d'incendie à implanter est explicité dans le plan de défense incendie prévu au point 23 de la présente annexe. L'exploitant précise le référentiel professionnel retenu pour le choix et le dimensionnement du système mis en place."
                                         },
                                         {
@@ -4861,17 +4870,17 @@
                                             "text": "Avant la mise en service de l'installation, une attestation de conformité du système d'extinction mis en place aux exigences du référentiel professionnel retenu est établie. Cette attestation est accompagnée d'une description du système et des principaux éléments techniques concernant la surface de dimensionnement des zones de collecte, les réserves en eau, le cas échéant les réserves en émulseur, l'alimentation des pompes et l'estimation des débits d'alimentation en eau et, le cas échéant, en émulseur. Ce document est tenu à disposition de l'inspection des installations classées, et le cas échéant de l'organisme de contrôle."
                                         }
                                     ],
-                                    "reference_str": "Annexe II 28.1.",
+                                    "reference_str": "Annexe II 28.",
                                     "sections": [],
                                     "title": {
                                         "active": true,
                                         "table": null,
-                                        "text": "28.1. Un système d'extinction automatique d'incendie adapté au produit stocké, ou un dispositif dont l'exploitant démontre l'efficacité pour éviter la persistance d'une nappe enflammée, est mis en place dans chaque cellule de liquides et solides liquéfiables combustibles. Cette disposition s'applique sans préjudice de la première phrase du point 7 de la présente annexe."
+                                        "text": "28.1."
                                     }
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -4902,7 +4911,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -5067,7 +5076,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": false,
@@ -5083,7 +5092,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5097,7 +5106,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": false,
@@ -5123,7 +5132,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": false,
@@ -5174,7 +5183,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": false,
@@ -5207,7 +5216,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5243,7 +5252,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5274,7 +5283,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5299,7 +5308,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
@@ -5323,7 +5334,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
@@ -5347,7 +5360,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
@@ -5371,7 +5386,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
@@ -5400,7 +5417,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
@@ -5424,7 +5443,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
@@ -5449,7 +5470,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "INCENDIE"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5480,7 +5501,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "INCENDIE"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5506,7 +5527,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "INCENDIE"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5541,7 +5562,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
@@ -5566,7 +5589,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "INSTALLATIONS_ELECTRIQUES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5606,7 +5629,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
@@ -5636,7 +5661,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5661,7 +5686,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
@@ -5705,7 +5732,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
@@ -5730,7 +5759,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5756,7 +5785,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5781,7 +5810,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
@@ -5806,7 +5837,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "INCENDIE"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5831,7 +5862,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
@@ -5856,7 +5889,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5882,7 +5915,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -5907,7 +5940,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": false,
                                 "modified": false,
@@ -5937,7 +5972,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": false,
@@ -6000,7 +6035,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -6371,7 +6406,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -6937,7 +6972,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -7442,7 +7477,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -7945,7 +7980,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -8000,7 +8035,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -8031,7 +8066,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,

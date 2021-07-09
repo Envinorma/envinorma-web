@@ -3,6 +3,7 @@
 class Arrete < ApplicationRecord
   include ApplicationHelper
   include RegimeHelper
+  include TopicHelper
 
   validates :data, :title, :cid, :aida_url, :legifrance_url, :date_of_signature, :version_descriptor, presence: true
   validates :title, length: { minimum: 10 }
@@ -30,6 +31,15 @@ class Arrete < ApplicationRecord
 
   def short_title
     "AM - #{date_of_signature.strftime('%d/%m/%y')}"
+  end
+
+  def topics_by_section
+    # Hash which associates each section id to the list of topics of its descendant.
+    topics = {}
+    data.sections.each do |section|
+      topics.update(section_topics(section))
+    end
+    topics
   end
 
   def rank_score

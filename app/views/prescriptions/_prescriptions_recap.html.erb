@@ -1,0 +1,36 @@
+<% if @prescriptions %>
+  <div class="mt-3">
+    <% @prescriptions.each do |topic, grouped_by_text| %>
+      <% if topic != nil  %>
+        <% if topic == TopicHelper::AUCUN %>
+          <p><span class="badge badge-pill badge-secondary">Aucun thème</span>
+        <% else %>
+          <p><span class="badge badge-pill badge-secondary">Thème : <%= @topics[topic] %></span></p>
+        <% end %>
+      <% end %>
+      <% grouped_by_text.each do |text_reference, group| %>
+        <h6>
+          <%= text_reference %>
+        </h6>
+        <% group.each do |section_reference, prescriptions| %>
+          <strong>
+            <%= section_reference %>
+          </strong>
+          <% prescriptions.each do |prescription| %>
+            <div class='<%= "prescription_#{prescription.id} prescription" %>'>
+              <p>
+                <% prescription.content.split("\n").each do |line| %>
+                  <%= line %>
+                  <br>
+                <% end %>
+              </p>
+              <%= link_to "Supprimer", installation_prescription_path(installation_id: @installation.id, id: prescription.id), remote: true, method: :delete,
+                class: 'text-danger small',
+                onclick: prescription.from_am? ? "document.getElementById('prescription_checkbox_#{prescription.alinea_id}').checked = false;" : "" %>
+            </div>
+          <% end %>
+        <% end %>
+      <% end %>
+    <% end %>
+  </div>
+<% end %>

@@ -20,7 +20,9 @@
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000803657",
     "sections": [
         {
-            "annotations": null,
+            "annotations": {
+                "topic": null
+            },
             "applicability": {
                 "active": true,
                 "modified": false,
@@ -69,7 +71,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -155,7 +157,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -198,7 +200,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -224,7 +226,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -255,7 +257,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -281,7 +283,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -327,7 +329,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -358,7 +360,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -399,7 +401,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -432,7 +434,7 @@
         },
         {
             "annotations": {
-                "topic": "DECHETS"
+                "topic": "RISQUES"
             },
             "applicability": {
                 "active": true,
@@ -445,7 +447,9 @@
             "reference_str": "",
             "sections": [
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -479,7 +483,9 @@
                     }
                 },
                 {
-                    "annotations": null,
+                    "annotations": {
+                        "topic": null
+                    },
                     "applicability": {
                         "active": true,
                         "modified": false,
@@ -504,7 +510,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "EAU"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -518,7 +524,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -556,7 +562,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "EAU"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -570,7 +576,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -610,7 +616,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -642,7 +650,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DECHETS"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -656,7 +664,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -670,7 +678,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "EAU"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -725,7 +733,9 @@
                                     }
                                 },
                                 {
-                                    "annotations": null,
+                                    "annotations": {
+                                        "topic": null
+                                    },
                                     "applicability": {
                                         "active": true,
                                         "modified": false,
@@ -776,7 +786,9 @@
                             }
                         },
                         {
-                            "annotations": null,
+                            "annotations": {
+                                "topic": null
+                            },
                             "applicability": {
                                 "active": true,
                                 "modified": false,
@@ -801,7 +813,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DECHETS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -866,7 +878,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": "EAU"
             },
             "applicability": {
                 "active": true,
@@ -880,7 +892,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "EAU"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -906,7 +918,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "EAU"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -932,7 +944,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "EAU"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -968,7 +980,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1004,7 +1016,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "EAU"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1051,7 +1063,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "EAU"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1065,7 +1077,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1121,7 +1133,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1167,7 +1179,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1218,7 +1230,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "EFFLUENTS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1271,7 +1283,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DECHETS"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1285,7 +1297,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DECHETS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1326,7 +1338,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DECHETS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1359,7 +1371,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "EPANDAGE"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1373,7 +1385,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "EPANDAGE"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1443,7 +1455,7 @@
         },
         {
             "annotations": {
-                "topic": "BRUIT_VIBRATIONS"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -1457,7 +1469,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "EMISSIONS"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1518,7 +1530,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "EMISSIONS"
+                        "topic": "EAU"
                     },
                     "applicability": {
                         "active": true,
@@ -1532,7 +1544,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "EMISSIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1818,7 +1830,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "AIR_ODEURS"
                     },
                     "applicability": {
                         "active": true,
@@ -1832,7 +1844,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1879,7 +1891,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "BRUIT_VIBRATIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1905,7 +1917,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "BRUIT_VIBRATIONS"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -1945,7 +1957,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -1959,7 +1971,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -1985,7 +1997,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2026,7 +2038,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -2059,7 +2071,7 @@
         },
         {
             "annotations": {
-                "topic": "DISPOSITIONS_GENERALES"
+                "topic": null
             },
             "applicability": {
                 "active": true,
@@ -2073,7 +2085,7 @@
             "sections": [
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": "EAU"
                     },
                     "applicability": {
                         "active": true,
@@ -2128,7 +2140,7 @@
                     "sections": [
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -2423,7 +2435,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "DISPOSITIONS_GENERALES"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -2443,7 +2455,7 @@
                             "sections": [
                                 {
                                     "annotations": {
-                                        "topic": "DISPOSITIONS_GENERALES"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2499,7 +2511,7 @@
                                 },
                                 {
                                     "annotations": {
-                                        "topic": "EAU"
+                                        "topic": null
                                     },
                                     "applicability": {
                                         "active": true,
@@ -2582,7 +2594,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -2800,7 +2812,7 @@
                         },
                         {
                             "annotations": {
-                                "topic": "EAU"
+                                "topic": null
                             },
                             "applicability": {
                                 "active": true,
@@ -4182,7 +4194,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
@@ -4253,7 +4265,7 @@
                 },
                 {
                     "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
+                        "topic": null
                     },
                     "applicability": {
                         "active": true,
