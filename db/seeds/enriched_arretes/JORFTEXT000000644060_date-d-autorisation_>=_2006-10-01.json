@@ -4674,6 +4674,11 @@
                                 {
                                     "active": true,
                                     "table": null,
+                                    "text": "La consommation spécifique d'eau ne doit pas excéder 8 litres par mètre carré de surface traitée et par fonction de rinçage."
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
                                     "text": "Pour les opérations de décapage ou d'électrozingage de tôles ou de fils en continu, cette consommation spécifique n'excédera pas 2 litres par mètre carré de surface traitée et par fonction de rinçage."
                                 },
                                 {
@@ -4682,12 +4687,12 @@
                                     "text": "L'exploitant calcule une fois par an la consommation spécifique de son installation, sur une période représentative de son activité. Il tient à disposition de l'inspection des installations classées le résultat et le mode de calcul de cette consommation spécifique ainsi que les éléments justificatifs de ce calcul."
                                 }
                             ],
-                            "reference_str": "Art. 21 II.-",
+                            "reference_str": "Art. 21",
                             "sections": [],
                             "title": {
                                 "active": true,
                                 "table": null,
-                                "text": "II.-La consommation spécifique d'eau ne doit pas excéder 8 litres par mètre carré de surface traitée et par fonction de rinçage."
+                                "text": "II."
                             }
                         }
                     ],

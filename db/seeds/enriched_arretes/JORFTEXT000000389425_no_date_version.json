@@ -298,13 +298,19 @@
                         "warnings": []
                     },
                     "id": "7ba5C252d2CB",
-                    "outer_alineas": [],
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Dans tous les cas, les principes de bonnes pratiques microbiologiques sont appliqués."
+                        }
+                    ],
                     "reference_str": "Art. 9",
                     "sections": [],
                     "title": {
                         "active": true,
                         "table": null,
-                        "text": "Article 9 - Dans tous les cas, les principes de bonnes pratiques microbiologiques sont appliqués."
+                        "text": "Article 9"
                     }
                 },
                 {

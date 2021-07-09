@@ -1152,6 +1152,11 @@
                                             "outer_alineas": [
                                                 {
                                                     "active": true,
+                                                    "table": null,
+                                                    "text": "Les déchets répondant au b (v) de la définition de biomasse ne dépassent pas les teneurs en chacun des composés suivants :"
+                                                },
+                                                {
+                                                    "active": true,
                                                     "table": {
                                                         "rows": [
                                                             {
@@ -1162,7 +1167,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\nComposé"
+                                                                            "text": "Composé"
                                                                         },
                                                                         "rowspan": 1
                                                                     },
@@ -1172,7 +1177,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\nTeneur maximale (en mg/kg de matière sèche)"
+                                                                            "text": "Teneur maximale (en mg/kg de matière sèche)"
                                                                         },
                                                                         "rowspan": 1
                                                                     }
@@ -1188,7 +1193,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\nMercure, Hg"
+                                                                            "text": "Mercure, Hg"
                                                                         },
                                                                         "rowspan": 1
                                                                     },
@@ -1198,7 +1203,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\n0,2"
+                                                                            "text": "0,2"
                                                                         },
                                                                         "rowspan": 1
                                                                     }
@@ -1214,7 +1219,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\nArsenic, As"
+                                                                            "text": "Arsenic, As"
                                                                         },
                                                                         "rowspan": 1
                                                                     },
@@ -1224,7 +1229,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\n4"
+                                                                            "text": "4"
                                                                         },
                                                                         "rowspan": 1
                                                                     }
@@ -1240,7 +1245,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\nCadmium, Cd"
+                                                                            "text": "Cadmium, Cd"
                                                                         },
                                                                         "rowspan": 1
                                                                     },
@@ -1250,7 +1255,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\n5"
+                                                                            "text": "5"
                                                                         },
                                                                         "rowspan": 1
                                                                     }
@@ -1266,7 +1271,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\nChrome, Cr"
+                                                                            "text": "Chrome, Cr"
                                                                         },
                                                                         "rowspan": 1
                                                                     },
@@ -1276,7 +1281,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\n30"
+                                                                            "text": "30"
                                                                         },
                                                                         "rowspan": 1
                                                                     }
@@ -1292,7 +1297,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\nCuivre, Cu"
+                                                                            "text": "Cuivre, Cu"
                                                                         },
                                                                         "rowspan": 1
                                                                     },
@@ -1302,7 +1307,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\n30"
+                                                                            "text": "30"
                                                                         },
                                                                         "rowspan": 1
                                                                     }
@@ -1318,7 +1323,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\nPlomb, Pb"
+                                                                            "text": "Plomb, Pb"
                                                                         },
                                                                         "rowspan": 1
                                                                     },
@@ -1328,7 +1333,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\n50"
+                                                                            "text": "50"
                                                                         },
                                                                         "rowspan": 1
                                                                     }
@@ -1344,7 +1349,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\nZinc, Zn"
+                                                                            "text": "Zinc, Zn"
                                                                         },
                                                                         "rowspan": 1
                                                                     },
@@ -1354,7 +1359,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\n200"
+                                                                            "text": "200"
                                                                         },
                                                                         "rowspan": 1
                                                                     }
@@ -1370,7 +1375,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\nChlore, Cl"
+                                                                            "text": "Chlore, Cl"
                                                                         },
                                                                         "rowspan": 1
                                                                     },
@@ -1380,7 +1385,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\n900"
+                                                                            "text": "900"
                                                                         },
                                                                         "rowspan": 1
                                                                     }
@@ -1396,7 +1401,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\nPCP"
+                                                                            "text": "PCP"
                                                                         },
                                                                         "rowspan": 1
                                                                     },
@@ -1406,7 +1411,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\n3"
+                                                                            "text": "3"
                                                                         },
                                                                         "rowspan": 1
                                                                     }
@@ -1422,7 +1427,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\nPCB"
+                                                                            "text": "PCB"
                                                                         },
                                                                         "rowspan": 1
                                                                     },
@@ -1432,7 +1437,7 @@
                                                                             "active": true,
                                                                             "links": [],
                                                                             "table": null,
-                                                                            "text": "\n2"
+                                                                            "text": "2"
                                                                         },
                                                                         "rowspan": 1
                                                                     }
@@ -1490,12 +1495,12 @@
                                                     "text": "- pour le dosage des PCB : NF EN 15308 (version 2017 ou ultérieure)."
                                                 }
                                             ],
-                                            "reference_str": "Art. 10 I.",
+                                            "reference_str": "Art. 10",
                                             "sections": [],
                                             "title": {
                                                 "active": true,
                                                 "table": null,
-                                                "text": "I. Les déchets répondant au b (v) de la définition de biomasse ne dépassent pas les teneurs en chacun des composés suivants :"
+                                                "text": "I."
                                             }
                                         },
                                         {
@@ -1510,6 +1515,11 @@
                                             },
                                             "id": "9C52c0F0c597",
                                             "outer_alineas": [
+                                                {
+                                                    "active": true,
+                                                    "table": null,
+                                                    "text": "Les cendres volantes issues de la combustion de déchets répondant au b (v) de la définition de biomasse respectent les teneurs suivantes (en mg/kg de matière sèche) :"
+                                                },
                                                 {
                                                     "active": true,
                                                     "table": null,
@@ -1536,7 +1546,7 @@
                                             "title": {
                                                 "active": true,
                                                 "table": null,
-                                                "text": "II. Les cendres volantes issues de la combustion de déchets répondant au b (v) de la définition de biomasse respectent les teneurs suivantes (en mg/kg de matière sèche) :"
+                                                "text": "II. "
                                             }
                                         }
                                     ],
@@ -1680,92 +1690,45 @@
                                         "warnings": []
                                     },
                                     "id": "DFBa0eBEbDa2",
-                                    "outer_alineas": [],
-                                    "reference_str": "Art. 14",
-                                    "sections": [
+                                    "outer_alineas": [
                                         {
-                                            "annotations": {
-                                                "topic": null
-                                            },
-                                            "applicability": {
-                                                "active": true,
-                                                "modified": false,
-                                                "previous_version": null,
-                                                "warnings": []
-                                            },
-                                            "id": "6cF6E2DcFeFF",
-                                            "outer_alineas": [
-                                                {
-                                                    "active": true,
-                                                    "table": null,
-                                                    "text": "Les livraisons de ce type de combustible par le fournisseur concerné sont de nouveau acceptées dès lors que l'exploitant dispose de résultats d'analyses attestant de la conformité aux seuils définis au I de l'article 10 du présent arrêté."
-                                                }
-                                            ],
-                                            "reference_str": "Art. 14 I.",
-                                            "sections": [],
-                                            "title": {
-                                                "active": true,
-                                                "table": null,
-                                                "text": "I. - Lorsque les résultats d'analyses réalisées sur un lot conformément à l'article 12 du présent arrêté ne respectent pas les seuils définis au I de l'article 10 du présent arrêté, l'exploitant refuse immédiatement toute livraison par le fournisseur concerné de ce type de combustible."
-                                            }
+                                            "active": true,
+                                            "table": null,
+                                            "text": "I. - Lorsque les résultats d'analyses réalisées sur un lot conformément à l'article 12 du présent arrêté ne respectent pas les seuils définis au I de l'article 10 du présent arrêté, l'exploitant refuse immédiatement toute livraison par le fournisseur concerné de ce type de combustible."
                                         },
                                         {
-                                            "annotations": {
-                                                "topic": null
-                                            },
-                                            "applicability": {
-                                                "active": true,
-                                                "modified": false,
-                                                "previous_version": null,
-                                                "warnings": []
-                                            },
-                                            "id": "89B72253Cb45",
-                                            "outer_alineas": [
-                                                {
-                                                    "active": true,
-                                                    "table": null,
-                                                    "text": "La fréquence de l'ensemble des analyses réalisées au titre de l'article 12 du présent arrêté est alors doublée par :"
-                                                },
-                                                {
-                                                    "active": true,
-                                                    "table": null,
-                                                    "text": "- une analyse de la teneur de l'ensemble des paramètres listés au I de l'article 10 du présent arrêté effectuée sur un lot toutes les 500 tonnes fournies, et au minimum une fois par semestre ;"
-                                                },
-                                                {
-                                                    "active": true,
-                                                    "table": null,
-                                                    "text": "- une analyse de la teneur en métaux et dioxines visés au II de l'article 10 du présent arrêté effectuée dans les cendres volantes une fois par trimestre."
-                                                }
-                                            ],
-                                            "reference_str": "Art. 14 II.",
-                                            "sections": [],
-                                            "title": {
-                                                "active": true,
-                                                "table": null,
-                                                "text": "II. - Lorsque les résultats d'analyses réalisées sur un lot ou lorsque les résultats d'analyses réalisées sur les cendres volantes conformément à l'article 12 du présent arrêté ne respectent pas les seuils définis respectivement au I ou au II de l'article 10 du présent arrêté, l'exploitant informe l'inspection des installations classées dans un délai n'excédant pas un mois."
-                                            }
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Les livraisons de ce type de combustible par le fournisseur concerné sont de nouveau acceptées dès lors que l'exploitant dispose de résultats d'analyses attestant de la conformité aux seuils définis au I de l'article 10 du présent arrêté."
                                         },
                                         {
-                                            "annotations": {
-                                                "topic": null
-                                            },
-                                            "applicability": {
-                                                "active": true,
-                                                "modified": false,
-                                                "previous_version": null,
-                                                "warnings": []
-                                            },
-                                            "id": "591cE97BcBeC",
-                                            "outer_alineas": [],
-                                            "reference_str": "Art. 14 III.",
-                                            "sections": [],
-                                            "title": {
-                                                "active": true,
-                                                "table": null,
-                                                "text": "III. - Les fréquences d'analyses sur lot et dans les cendres volantes sont rétablies aux fréquences prévues à l'article 12 dès lors que deux résultats d'analyses consécutifs sur lot et deux résultats d'analyses consécutifs sur cendres volantes sont conformes aux seuils fixés à l'article 10 du présent arrêté."
-                                            }
+                                            "active": true,
+                                            "table": null,
+                                            "text": "II. - Lorsque les résultats d'analyses réalisées sur un lot ou lorsque les résultats d'analyses réalisées sur les cendres volantes conformément à l'article 12 du présent arrêté ne respectent pas les seuils définis respectivement au I ou au II de l'article 10 du présent arrêté, l'exploitant informe l'inspection des installations classées dans un délai n'excédant pas un mois."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "La fréquence de l'ensemble des analyses réalisées au titre de l'article 12 du présent arrêté est alors doublée par :"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- une analyse de la teneur de l'ensemble des paramètres listés au I de l'article 10 du présent arrêté effectuée sur un lot toutes les 500 tonnes fournies, et au minimum une fois par semestre ;"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- une analyse de la teneur en métaux et dioxines visés au II de l'article 10 du présent arrêté effectuée dans les cendres volantes une fois par trimestre."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "III. - Les fréquences d'analyses sur lot et dans les cendres volantes sont rétablies aux fréquences prévues à l'article 12 dès lors que deux résultats d'analyses consécutifs sur lot et deux résultats d'analyses consécutifs sur cendres volantes sont conformes aux seuils fixés à l'article 10 du présent arrêté."
                                         }
                                     ],
+                                    "reference_str": "Art. 14",
+                                    "sections": [],
                                     "title": {
                                         "active": true,
                                         "table": null,
@@ -2037,15 +2000,20 @@
                                                 {
                                                     "active": true,
                                                     "table": null,
+                                                    "text": "Le local abritant l'installation est accessible pour permettre l'intervention des services d'incendie et de secours."
+                                                },
+                                                {
+                                                    "active": true,
+                                                    "table": null,
                                                     "text": "Il est desservi, sur au moins une face, par une voie engin et dispose au moins d'une aire de mise en station des moyens aériens si le plancher du niveau le plus haut du bâtiment abritant ce local est à une hauteur supérieure à 8 mètres par rapport à cette voie."
                                                 }
                                             ],
-                                            "reference_str": "Art. 19 I.",
+                                            "reference_str": "Art. 19",
                                             "sections": [],
                                             "title": {
                                                 "active": true,
                                                 "table": null,
-                                                "text": "I. - Le local abritant l'installation est accessible pour permettre l'intervention des services d'incendie et de secours."
+                                                "text": "I."
                                             }
                                         },
                                         {
@@ -2062,6 +2030,11 @@
                                             },
                                             "id": "9f4Cf945a8D8",
                                             "outer_alineas": [
+                                                {
+                                                    "active": true,
+                                                    "table": null,
+                                                    "text": "La voie « engins » respecte les caractéristiques suivantes :"
+                                                },
                                                 {
                                                     "active": true,
                                                     "table": null,
@@ -2088,12 +2061,12 @@
                                                     "text": "- aucun obstacle n'est disposé entre les accès à l'installation ou aux voies échelles et la voie engin."
                                                 }
                                             ],
-                                            "reference_str": "Art. 19 II.",
+                                            "reference_str": "Art. 19",
                                             "sections": [],
                                             "title": {
                                                 "active": true,
                                                 "table": null,
-                                                "text": "II. - La voie « engins » respecte les caractéristiques suivantes :"
+                                                "text": "II."
                                             }
                                         },
                                         {
@@ -2110,6 +2083,11 @@
                                             },
                                             "id": "cC1DA3B5dF9A",
                                             "outer_alineas": [
+                                                {
+                                                    "active": true,
+                                                    "table": null,
+                                                    "text": "Les aires de mise en station des moyens aériens permettent aux engins de stationner pour déployer leurs moyens aériens (par exemple les échelles et les bras élévateurs articulés). Elles sont directement accessibles depuis la voie « engins » définie au I supra."
+                                                },
                                                 {
                                                     "active": true,
                                                     "table": null,
@@ -2171,7 +2149,7 @@
                                             "title": {
                                                 "active": true,
                                                 "table": null,
-                                                "text": "III. - Les aires de mise en station des moyens aériens permettent aux engins de stationner pour déployer leurs moyens aériens (par exemple les échelles et les bras élévateurs articulés). Elles sont directement accessibles depuis la voie « engins » définie au I supra."
+                                                "text": "III. "
                                             }
                                         },
                                         {
@@ -2189,6 +2167,11 @@
                                                 {
                                                     "active": true,
                                                     "table": null,
+                                                    "text": "L'exploitant tient à disposition des services d'incendie et de secours :"
+                                                },
+                                                {
+                                                    "active": true,
+                                                    "table": null,
                                                     "text": "- les plans des locaux avec une description des dangers pour chaque local présentant des risques particuliers et l'emplacement des moyens de protection incendie ;"
                                                 },
                                                 {
@@ -2197,12 +2180,12 @@
                                                     "text": "- des consignes précises pour l'accès des secours avec des procédures pour accéder à tous les lieux."
                                                 }
                                             ],
-                                            "reference_str": "Art. 19 IV.",
+                                            "reference_str": "Art. 19",
                                             "sections": [],
                                             "title": {
                                                 "active": true,
                                                 "table": null,
-                                                "text": "IV. - L'exploitant tient à disposition des services d'incendie et de secours :"
+                                                "text": "IV."
                                             }
                                         }
                                     ],
