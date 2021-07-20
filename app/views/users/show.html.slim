@@ -1,6 +1,9 @@
 .container.mt-5
-  h1 Mes installations modifiées
+  h1.mb-4 Mes installations
 
-  dl
+  ul.list-group.list-group-flush
     - @installations.each do |installation|
-      dd = link_to installation.name, installation_path(installation)
+      li.list-group-item.d-flex.align-items-center
+        span.mr-auto = installation.name
+        = link_to 'Consulter', installation_path(installation)
+        = link_to 'Supprimer',installation_path(installation), method: :delete, data: {confirm: "Êtes-vous sûr de vouloir supprimer cette installation ?"}, class: 'text-danger ml-3'
