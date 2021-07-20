@@ -53,6 +53,7 @@ group :development, :test do
   # RSpec for Rails 5+
   gem 'database_cleaner'
   gem 'factory_bot_rails'
+  gem 'rails-controller-testing'
   gem 'rspec-rails', '~> 4.0.2'
   gem 'rubocop', '~> 1.10', require: false
   gem 'rubocop-rails', '~> 2.10.1', require: false

@@ -3,9 +3,10 @@
 class InstallationsController < ApplicationController
   include FilterArretes
   include RegimeHelper
-  before_action :set_installation, except: %i[index search]
   before_action :force_json, only: :search
-  before_action :check_if_authorized_user, only: %i[show edit update]
+  before_action :set_installation, only: %i[show edit update]
+  before_action :user_can_modify_installation, only: %i[edit update]
+  before_action :user_can_visit_installation, only: %i[show]
 
   def index
     @installations = Installation.not_attached_to_user
@@ -21,15 +22,12 @@ class InstallationsController < ApplicationController
     @arretes = compute_applicable_arretes_list(@classements)
   end
 
-  def edit
-    return if @installation.user_id == @user.id
+  def edit; end
 
-    if @user.already_duplicated_installation?(@installation)
-      redirect_to edit_installation_path(@user.retrieve_duplicated_installation(@installation))
-    else
-      installation_duplicated = @installation.duplicate!(@user)
-      redirect_to edit_installation_path(installation_duplicated)
-    end
+  def create
+    set_installation
+    installation_duplicated = @installation.duplicate!(@user)
+    redirect_to installation_path(installation_duplicated)
   end
 
   def update
