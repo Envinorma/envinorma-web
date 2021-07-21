@@ -14,7 +14,7 @@ RSpec.describe 'installations test features', js: true do
     visit root_path
     fill_in('autocomplete', with: 'EVA INDUST')
     click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
-    expect(page).not_to have_content('Mes installations modifiées')
+    expect(page).not_to have_content('Mes installations')
 
     # Duplicate installation to add new classement
     click_link('Créer une copie de l’installation (accessible par vous seul).')
