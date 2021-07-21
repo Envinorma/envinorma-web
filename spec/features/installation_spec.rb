@@ -14,17 +14,21 @@ RSpec.describe 'installations test features', js: true do
     visit root_path
     fill_in('autocomplete', with: 'EVA INDUST')
     click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
-    expect(page).not_to have_content('Mes installations modifiées')
+    expect(page).not_to have_content('Mes installations')
 
     # Duplicate installation to add new classement
-    click_link('Modifier cette installation')
+    click_link('Créer une copie de l’installation (accessible par vous seul).')
+    expect(page).to have_content('Mes installations')
+    expect(page).to have_content('Cette installation a été créée par vos soins')
+
+    # add new classement
+    click_link('Modifier les classements')
     click_link('Ajouter un nouveau classement')
     fill_in 'Rubrique', with: '1510'
     select 'E', from: 'Régime'
     click_button('Sauvegarder les modifications')
 
-    expect(page).to have_content('Mes installations modifiées')
-    expect(page).to have_content('version modifiée')
+    expect(page).to have_content('Cette installation a été créée par vos soins')
     expect(page).to have_content('1510')
     expect(Installation.count).to eq 2
 
@@ -36,11 +40,11 @@ RSpec.describe 'installations test features', js: true do
     expect(page).not_to have_content('1510')
 
     # User can retrieve his duplicated installation
-    click_link('Consulter votre version modifiée')
+    click_link('Consulter votre version de l’installation.')
     expect(page).to have_content('1510')
 
     # User can delete classement
-    click_link('Modifier cette installation')
+    click_link('Modifier les classements')
 
     4.times.each do |index|
       if find("#installation_classements_attributes_#{index}_rubrique").value.include?('1510')

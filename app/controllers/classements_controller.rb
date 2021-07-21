@@ -2,7 +2,7 @@
 
 class ClassementsController < ApplicationController
   before_action :set_installation
-  before_action :check_if_authorized_user, only: %i[new create]
+  before_action :user_can_modify_installation, only: %i[new create]
 
   def new
     @classement = Classement.new

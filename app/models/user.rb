@@ -18,11 +18,15 @@ class User < ApplicationRecord
     group_prescriptions(prescriptions_for(installation))
   end
 
-  def already_duplicated_installation?(installation)
+  def owned?(installation)
+    present? && installation.user_id == id
+  end
+
+  def already_duplicated?(installation)
     present? && installations.pluck(:duplicated_from_id).include?(installation.id)
   end
 
-  def retrieve_duplicated_installation(installation)
+  def retrieve_duplicated(installation)
     installations.find_by(duplicated_from_id: installation.id)
   end
 
