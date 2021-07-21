@@ -6,4 +6,7 @@
       li.list-group-item.d-flex.align-items-center
         span.mr-auto = installation.name
         = link_to 'Consulter', installation_path(installation)
-        = link_to 'Supprimer',installation_path(installation), method: :delete, data: {confirm: "Êtes-vous sûr de vouloir supprimer cette installation ?"}, class: 'text-danger ml-3'
+        = link_to 'Supprimer', installation_path(installation),
+          method: :delete,
+          data: { confirm: 'Êtes-vous sûr de vouloir supprimer cette installation ?' },
+          class: 'text-danger ml-3'

@@ -74,7 +74,7 @@ RSpec.describe InstallationsController, type: :controller do
 
       expect do
         delete :destroy, params: { id: Installation.last.id }
-      end.not_to change { Installation.count }
+      end.not_to change(Installation, :count)
 
       expect(response).to redirect_to(root_path)
     end
