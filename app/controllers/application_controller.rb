@@ -30,9 +30,7 @@ class ApplicationController < ActionController::Base
 
   def user_can_visit_installation
     return if @installation.user_id.nil?
-    return if @user.present? && @installation.user_id == @user.id
 
-    flash[:alert] = 'Désolé, vous n’êtes pas autorisé à accéder à cette page'
-    redirect_to root_path
+    user_can_modify_installation
   end
 end
