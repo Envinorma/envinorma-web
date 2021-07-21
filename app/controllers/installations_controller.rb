@@ -5,7 +5,7 @@ class InstallationsController < ApplicationController
   include RegimeHelper
   before_action :force_json, only: :search
   before_action :set_installation, only: %i[show edit update destroy]
-  before_action :user_can_modify_installation, only: %i[edit update]
+  before_action :user_can_modify_installation, only: %i[edit update destroy]
   before_action :user_can_visit_installation, only: %i[show]
 
   def index
