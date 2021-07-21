@@ -36,11 +36,14 @@ class Classement < ApplicationRecord
 
   class << self
     def create_hash_from_csv_row(classement_raw, s3ic_id_to_envinorma_id)
-      installation_id = if s3ic_id_to_envinorma_id.key?(classement_raw['s3ic_id'])
-                          s3ic_id_to_envinorma_id[classement_raw['s3ic_id']]
-                        else
-                          1
-                        end
+      s3ic_id = classement_raw['s3ic_id']
+      if s3ic_id_to_envinorma_id.nil?
+        installation_id = 1
+      else
+        raise "s3ic_id #{s3ic_id} not found" unless s3ic_id_to_envinorma_id.key?(s3ic_id)
+
+        installation_id = s3ic_id_to_envinorma_id[s3ic_id]
+      end
 
       {
         'rubrique' => classement_raw['rubrique'],

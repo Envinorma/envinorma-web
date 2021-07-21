@@ -21,13 +21,16 @@ class AP < ApplicationRecord
 
   class << self
     def create_hash_from_csv_row(ap_raw, s3ic_id_to_envinorma_id)
-      installation_id = if s3ic_id_to_envinorma_id.key?(ap_raw['installation_s3ic_id'])
-                          s3ic_id_to_envinorma_id[ap_raw['installation_s3ic_id']]
-                        else
-                          1
-                        end
+      s3ic_id = ap_raw['installation_s3ic_id']
+      if s3ic_id_to_envinorma_id.nil?
+        installation_id = 1
+      else
+        raise "s3ic_id #{s3ic_id} not found" unless s3ic_id_to_envinorma_id.key?(s3ic_id)
+
+        installation_id = s3ic_id_to_envinorma_id[s3ic_id]
+      end
       {
-        'installation_s3ic_id' => ap_raw['installation_s3ic_id'],
+        'installation_s3ic_id' => s3ic_id,
         'description' => ap_raw['description'],
         'date' => ap_raw['date'],
         'georisques_id' => ap_raw['georisques_id'],

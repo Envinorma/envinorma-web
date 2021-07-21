@@ -23,16 +23,18 @@ class DataManager
       # It enables validation and the fake installation is removed juste after.
       Installation.create(id: 1, s3ic_id: '0000.00000', name: 'test') if Installation.where(id: 1).first.nil?
       recreate_or_validate_from_file(installations_file, Installation, 1000, true, {})
-      recreate_or_validate_from_file(classements_file, Classement, 5000, true, {})
-      recreate_or_validate_from_file(aps_file, AP, 5000, true, {})
+      recreate_or_validate_from_file(classements_file, Classement, 5000, true, nil)
+      recreate_or_validate_from_file(aps_file, AP, 5000, true, nil)
     end
+
+    previous_envinorma_id_to_s3ic_id = load_envinorma_id_to_s3ic_id({})
+    recreate_or_validate_from_file(installations_file, Installation, 1000, false, {})
+    s3ic_id_to_envinorma_id = load_new_s3ic_id_to_envinorma_id(previous_envinorma_id_to_s3ic_id)
 
     # Delete old objects
     delete_old_objects
 
     # Insert files
-    recreate_or_validate_from_file(installations_file, Installation, 1000, false, {})
-    s3ic_id_to_envinorma_id = load_s3ic_id_to_envinorma_id
     recreate_or_validate_from_file(classements_file, Classement, 5000, false, s3ic_id_to_envinorma_id)
     recreate_or_validate_from_file(aps_file, AP, 5000, false, s3ic_id_to_envinorma_id)
   end
@@ -102,10 +104,18 @@ class DataManager
     ActiveRecord::Base.connection.reset_pk_sequence!(model.table_name)
   end
 
-  def self.load_s3ic_id_to_envinorma_id
+  def self.load_envinorma_id_to_s3ic_id
     result = {}
     Installation.all.pluck(:id, :s3ic_id).each do |id, s3ic_id|
-      result[s3ic_id] = id
+      result[id] = s3ic_id
+    end
+    result
+  end
+
+  def self.load_new_s3ic_id_to_envinorma_id(previous_envinorma_id_to_s3ic_id)
+    result = {}
+    Installation.all.pluck(:id, :s3ic_id).each do |id, s3ic_id|
+      result[s3ic_id] = id unless previous_envinorma_id_to_s3ic_id.key?(id)
     end
     result
   end
