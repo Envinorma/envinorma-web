@@ -22,7 +22,6 @@ RSpec.describe 'installations test features', js: true do
     expect(page).to have_content('Cette installation a été créée par vos soins')
 
     # add new classement
-    click_link('Modifier les classements')
     click_link('Ajouter un nouveau classement')
     fill_in 'Rubrique', with: '1510'
     select 'E', from: 'Régime'

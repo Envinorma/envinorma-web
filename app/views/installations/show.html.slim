@@ -36,6 +36,7 @@
     - if @user.owned?(@installation)
       = link_to 'Modifier les classements',
         edit_installation_path(@installation)
+      = link_to 'Ajouter un nouveau classement', new_installation_classement_path(@installation), class: 'ml-3'
     - elsif @user.already_duplicated?(@installation)
       ' Vous souhaitez modifier ces classements ?
       = link_to 'Consulter votre version de l’installation.',
