@@ -9,14 +9,14 @@ class ClassementsController < ApplicationController
   end
 
   def create
-    reference = ClassementReference.find(params[:classement_reference_id])
+    reference = ClassementReference.find(params[:classement][:reference_id])
     @classement = Classement.create(installation_id: @installation.id, rubrique: reference.rubrique,
                                     regime: reference.regime, alinea: reference.alinea,
                                     activite: reference.description)
 
     if @classement.save
       flash[:notice] = 'Le classement a été ajouté'
-      redirect_to edit_installation_path(@installation)
+      redirect_to installation_path(@installation)
     else
       flash[:alert] = "Le classement n'a pas été ajouté"
       render 'new'

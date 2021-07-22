@@ -1,12 +1,14 @@
 .container.mt-5
   h1 = @installation.name
   h2.mb-4 Ajouter un classement
-  = form_tag "/installations/#{@installation.id}/classements", method: :post
+  = simple_form_for [@installation, @classement] do |f|
+
     input(
       type='search' placeholder='Entrer le numéro ou le libellé de la rubrique'
       data-behavior='autocomplete-classements' id='autocomplete-classements' class='form-control'
     )
-    = hidden_field_tag 'classement_reference_id', ''
+
+    = f.hidden_field :reference_id, value: ''
     .mt-4
-      input(type='submit' value='Sauvegarder' class='btn btn-primary')
+      = f.button :submit, 'Ajouter le classement', class: 'btn btn-primary'
       = link_to "Retourner sur l'installation", installation_path(@installation), class: 'btn btn-link'
