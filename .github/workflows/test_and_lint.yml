@@ -7,6 +7,9 @@ on:
     branches:
       - master
 
+env:
+  LANG: "fr_FR.UTF-8"
+
 jobs:
   linters:
     name: Linters
@@ -120,6 +123,11 @@ jobs:
           RAILS_ENV: test
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgres
+
+      - name: fr_FR.UTF-8
+        run: |
+            sudo locale-gen fr_FR.UTF-8
+            sudo update-locale LANG=fr_FR.UTF-8
 
       - name: Run tests
         run: bundle exec rspec

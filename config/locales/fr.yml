@@ -1,6 +1,8 @@
 fr:
   activerecord:
     attributes:
+      installation:
+        name: Nom de l'installation
       prescription:
         reference: "Référence"
         content: "Contenu"

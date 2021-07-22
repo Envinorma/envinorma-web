@@ -7,10 +7,13 @@
       = link_to 'Mes installations ', user_path, class: 'text-secondary'
       | ». Elle n’est pas accessible aux autres utilisateurs.
 
-  h1.display-4.mb-4
+  h1.display-4
     => @installation.name
-
-  .row
+  - if @user.owned?(@installation)
+    p
+      = link_to "Modifier le nom de l'installation",
+        edit_name_path(@installation)
+  .row.mt-5
     .col
       h2.h5 Localisation
       p = "#{@installation.zipcode} #{@installation.city}"
@@ -33,6 +36,7 @@
     - if @user.owned?(@installation)
       = link_to 'Modifier les classements',
         edit_installation_path(@installation)
+      = link_to 'Ajouter un nouveau classement', new_installation_classement_path(@installation), class: 'ml-3'
     - elsif @user.already_duplicated?(@installation)
       ' Vous souhaitez modifier ces classements ?
       = link_to 'Consulter votre version de l’installation.',
