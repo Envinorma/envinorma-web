@@ -29,6 +29,10 @@ class Installation < ApplicationRecord
     end
   end
 
+  def fictive?
+    s3ic_id == '0000.00000'
+  end
+
   def duplicated_by_user?(user_id_cookies)
     user_id && user_id == user_id_cookies.to_i
   end

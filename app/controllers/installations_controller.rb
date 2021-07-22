@@ -27,6 +27,18 @@ class InstallationsController < ApplicationController
   def edit_name; end
 
   def create
+    return create_from_existing_installation if params[:id].present?
+
+    @installation = Installation.create(
+      name: 'Mon installation',
+      s3ic_id: '0000.00000',
+      user_id: @user.id
+    )
+
+    redirect_to new_installation_classement_path(@installation)
+  end
+
+  def create_from_existing_installation
     set_installation
     installation_duplicated = @installation.duplicate!(@user)
     redirect_to installation_path(installation_duplicated)
