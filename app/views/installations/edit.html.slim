@@ -2,8 +2,6 @@
   h1 = @installation.name
   h2 Modifier les classements
 
-  p.text-right
-    = link_to 'Ajouter un nouveau classement', new_installation_classement_path(@installation), class: 'btn btn-link'
   hr
   = simple_form_for @installation do |f|
     = f.simple_fields_for :classements do |c|
