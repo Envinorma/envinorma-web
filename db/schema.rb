@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_02_154420) do
+ActiveRecord::Schema.define(version: 2021_07_21_171243) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -36,6 +36,13 @@ ActiveRecord::Schema.define(version: 2021_07_02_154420) do
     t.date "date_of_signature"
     t.jsonb "version_descriptor"
     t.boolean "default_version"
+  end
+
+  create_table "classement_references", force: :cascade do |t|
+    t.string "rubrique"
+    t.string "regime"
+    t.string "alinea"
+    t.string "description"
   end
 
   create_table "classements", force: :cascade do |t|

@@ -8,6 +8,21 @@ class DataManager
     Arrete.validate_then_recreate(arretes_files)
   end
 
+  def self.seed_classement_references
+    Rails.logger.info('Seeding classement_references.')
+    seed_folder = Rails.root.join('db/seeds')
+    classement_references_file = File.join(seed_folder, 'classement_references.csv')
+    delete_and_reset_primary_key(ClassementReference)
+    CSV.foreach(classement_references_file, headers: true) do |row|
+      ClassementReference.create(
+        rubrique: row['rubrique'],
+        regime: row['regime'],
+        alinea: row['alinea'],
+        description: row['description']
+      )
+    end
+  end
+
   def self.seed_installations_and_associations(validate:, use_sample: false)
     seed_folder = Rails.root.join('db/seeds')
 

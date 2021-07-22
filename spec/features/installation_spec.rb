@@ -8,6 +8,7 @@ RSpec.describe 'installations test features', js: true do
     FactoryBot.create(:classement, :classement_2521_E, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_4801_D, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_2515_D, installation: installation_eva_industries)
+    ClassementReference.create(rubrique: 1510, alinea: '2b', regime: 'E', description: 'Entrepôt')
   end
 
   it 'allows user to add and remove classements from a duplicate installation' do
@@ -24,12 +25,14 @@ RSpec.describe 'installations test features', js: true do
     # add new classement
     click_link('Modifier les classements')
     click_link('Ajouter un nouveau classement')
-    fill_in 'Rubrique', with: '1510'
-    select 'E', from: 'Régime'
-    click_button('Sauvegarder les modifications')
+    fill_in('autocomplete-classements', with: '1510')
+    find('li', text: 'E 2b - Entrepôt').click
+    click_button('Sauvegarder')
 
-    expect(page).to have_content('Cette installation a été créée par vos soins')
+    expect(page).to have_content('Modifier les classements')
+    click_link("Retourner sur l'installation")
     expect(page).to have_content('1510')
+    expect(Classement.count).to eq 7
     expect(Installation.count).to eq 2
 
     # Duplicated installation does not appear in search
