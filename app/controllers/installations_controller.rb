@@ -4,8 +4,8 @@ class InstallationsController < ApplicationController
   include FilterArretes
   include RegimeHelper
   before_action :force_json, only: :search
-  before_action :set_installation, only: %i[show edit update]
-  before_action :user_can_modify_installation, only: %i[edit update]
+  before_action :set_installation, only: %i[show edit update destroy]
+  before_action :user_can_modify_installation, only: %i[edit update destroy]
   before_action :user_can_visit_installation, only: %i[show]
 
   def index
@@ -37,6 +37,17 @@ class InstallationsController < ApplicationController
     else
       flash[:alert] = "L'installation n'a pas été mise à jour"
       render :edit
+    end
+  end
+
+  def destroy
+    @installation.destroy
+    if @user.installations.present?
+      flash[:notice] = "L'installation a bien été supprimée"
+      redirect_to user_path
+    else
+      flash[:notice] = "L'installation a bien été supprimée. Vous n'avez plus d'installation"
+      redirect_to root_path
     end
   end
 
