@@ -26,10 +26,8 @@ RSpec.describe 'installations test features', js: true do
     click_link('Ajouter un nouveau classement')
     fill_in('autocomplete-classements', with: '1510')
     find('li', text: 'E 2b - Entrepôt').click
-    click_button('Sauvegarder')
-
-    expect(page).to have_content('Modifier les classements')
-    click_link("Retourner sur l'installation")
+    click_button('Ajouter le classement')
+    expect(page).to have_content('Le classement a été ajouté')
     expect(page).to have_content('1510')
     expect(Classement.count).to eq 7
     expect(Installation.count).to eq 2
