@@ -4,8 +4,8 @@ class InstallationsController < ApplicationController
   include FilterArretes
   include RegimeHelper
   before_action :force_json, only: :search
-  before_action :set_installation, only: %i[show edit update destroy]
-  before_action :user_can_modify_installation, only: %i[edit update destroy]
+  before_action :set_installation, only: %i[show edit edit_name update destroy]
+  before_action :user_can_modify_installation, only: %i[edit edit_name update destroy]
   before_action :user_can_visit_installation, only: %i[show]
 
   def index
@@ -23,6 +23,8 @@ class InstallationsController < ApplicationController
   end
 
   def edit; end
+
+  def edit_name; end
 
   def create
     set_installation
@@ -67,8 +69,8 @@ class InstallationsController < ApplicationController
   end
 
   def classement_params
-    params.require(:installation).permit(
-      classements_attributes: %i[id regime rubrique date_autorisation date_mise_en_service _destroy]
-    )
+    params.require(:installation).permit(:name,
+                                         classements_attributes: %i[id regime rubrique date_autorisation
+                                                                    date_mise_en_service _destroy])
   end
 end
