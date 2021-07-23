@@ -8,11 +8,11 @@
       .row
         .col-2
           = c.input :rubrique, disabled: true, hint: 'La rubrique ne peut pas être modifiée.'
-        .col-2
+        .col-1
           = c.input :regime, collection: %w[A E D NC]
         .col-2
           = c.input :alinea
-        .col-2
+        .col-3
           = c.input :date_autorisation, as: :date, html5: true
         .col-3
           = c.input :date_mise_en_service, as: :date, html5: true
