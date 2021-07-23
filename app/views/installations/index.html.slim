@@ -8,9 +8,7 @@
 
         .text-center
           p.mt-5.mb-0 Vous ne trouvez pas votre installation ou elle n’existe pas encore ?
-          = link_to 'Créer une installation fictive',
-            installations_path(),
-            method: :post
+          = link_to 'Créer une installation fictive', new_installation_path
 
 footer
   p
