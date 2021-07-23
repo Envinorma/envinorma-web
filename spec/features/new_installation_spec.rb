@@ -13,6 +13,8 @@ RSpec.describe 'new installations test features', js: true do
     expect(page).to have_content('Mes installations')
     expect(page).not_to have_content('Modifier les classements')
     expect(Installation.count).to eq(1)
+    expect(Installation.first.s3ic_id).to eq('0000.00000')
+    expect(page).not_to have_content('0000.00000')
   end
 end
 # rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass
