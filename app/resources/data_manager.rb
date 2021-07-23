@@ -21,6 +21,7 @@ class DataManager
         description: row['description']
       )
     end
+    Rails.logger.info("Inserted #{ClassementReference.count} classement_references.")
   end
 
   def self.seed_installations_and_associations(validate:, use_sample: false)

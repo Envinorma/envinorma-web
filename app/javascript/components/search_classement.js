@@ -7,13 +7,14 @@ window.addEventListener('DOMContentLoaded', () => {
     },
     getValue: 'name',
     list: {
-      maxNumberOfElements: 10,
-      onChooseEvent: function () {
-        const element = $('#classement_reference_id')[0];
-        element.value = $input.getSelectedItemData().id;
-      },
+      maxNumberOfElements: 15,
+      onChooseEvent: () => setSelectedValueInHiddenInput($input.getSelectedItemData().id),
     },
   };
 
   $input.easyAutocomplete(options);
 });
+
+const setSelectedValueInHiddenInput = (id) => {
+  $('#classement_reference_id')[0].value = id;
+};
