@@ -4,7 +4,10 @@
       .col-8
         = image_pack_tag('factory-illu.svg', class: 'illu-factory')
 
-        input type="search" placeholder="Entrer le nom d'une installation" data-behavior="autocomplete" id="autocomplete"
+        input(
+          type="search" placeholder="Entrer le nom d'une installation"
+          data-behavior="autocomplete-installation" id="autocomplete"
+        )
 
         .text-center
           p.mt-5.mb-0 Vous ne trouvez pas votre installation ou elle n’existe pas encore ?

@@ -9,7 +9,10 @@ class ClassementsController < ApplicationController
   end
 
   def create
-    @classement = Classement.create(classement_params)
+    reference = ClassementReference.find(params[:classement][:reference_id])
+    @classement = Classement.create(installation_id: @installation.id, rubrique: reference.rubrique,
+                                    regime: reference.regime, alinea: reference.alinea,
+                                    activite: reference.description)
 
     if @classement.save
       flash[:notice] = 'Le classement a été ajouté'
@@ -26,11 +29,5 @@ class ClassementsController < ApplicationController
 
   def set_installation
     @installation = Installation.find(params[:installation_id])
-  end
-
-  def classement_params
-    params.require(:classement).permit(
-      :rubrique, :regime, :date_autorisation, :date_mise_en_service
-    ).merge!(installation_id: @installation.id)
   end
 end

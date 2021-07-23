@@ -3,6 +3,7 @@
 Rails.application.routes.draw do
   root 'installations#index'
   get 'installations/search', to: 'installations#search', format: 'json'
+  get 'classement_references/search', to: 'classement_references#search', format: 'json'
   resources :installations do
     resources :classements
     resources :prescriptions, only: %i[index destroy]

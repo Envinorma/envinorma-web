@@ -8,13 +8,15 @@
       .row
         .col-2
           = c.input :rubrique, disabled: true, hint: 'La rubrique ne peut pas être modifiée.'
-        .col-2
+        .col-1
           = c.input :regime, collection: %w[A E D NC]
+        .col-2
+          = c.input :alinea
         .col-3
           = c.input :date_autorisation, as: :date, html5: true
         .col-3
           = c.input :date_mise_en_service, as: :date, html5: true
-        .col-2
+        .col-1
           = c.label :_destroy, '&nbsp;'.html_safe
           = c.input :_destroy, as: :boolean, label: '<i class="fas fa-trash"></i>'.html_safe
 
