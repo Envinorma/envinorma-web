@@ -13,29 +13,32 @@
     p
       = link_to "Modifier le nom de l'installation",
         edit_name_path(@installation)
-  .row.mt-5
-    .col
-      h2.h5 Localisation
-      p = "#{@installation.zipcode} #{@installation.city}"
-      p = "#{@installation.department} - #{@installation.region}"
 
-    .col
-      h2.h5 Activités
-      p = "N° inspection : #{@installation.s3ic_id}"
-      p = "Dernière inspection : #{@installation.last_inspection&.strftime('%d/%m/%Y')}"
-      p = "État d'activité : #{@installation.state}"
+  - unless @installation.fictive?
+    .row.mt-5
+      .col
+        h2.h5 Localisation
+        p = "#{@installation.zipcode} #{@installation.city}"
+        p = "#{@installation.department} - #{@installation.region}"
 
-    .col
-      h2.h5 Informations complémentaires
-      p = "Régime en vigueur de l'établissement : #{@installation.regime}"
-      p = "Statut SEVESO : #{@installation.seveso}"
+      .col
+        h2.h5 Activités
+        p = "N° inspection : #{@installation.s3ic_id}"
+        p = "Dernière inspection : #{@installation.last_inspection&.strftime('%d/%m/%Y')}"
+        p = "État d'activité : #{@installation.state}"
+
+      .col
+        h2.h5 Informations complémentaires
+        p = "Régime en vigueur de l'établissement : #{@installation.regime}"
+        p = "Statut SEVESO : #{@installation.seveso}"
 
   h2.mt-5 Classements
 
   p
     - if @user.owned?(@installation)
-      = link_to 'Modifier les classements',
-        edit_installation_path(@installation)
+      - if @installation.classements.any?
+        = link_to 'Modifier les classements',
+          edit_installation_path(@installation)
       = link_to 'Ajouter un nouveau classement', new_installation_classement_path(@installation), class: 'ml-3'
     - elsif @user.already_duplicated?(@installation)
       ' Vous souhaitez modifier ces classements ?
@@ -81,12 +84,13 @@
           td = classement.date_mise_en_service&.strftime('%d/%m/%Y')
           td = classement.human_readable_volume
 
-  .small.text-secondary
-    | Sur chaque ligne
-    br
-    | - Classements en vigueur estimés à partir des évolutions de la nomenclature
-    br
-    | - Classements publiés dans un acte administratif
+  - unless @installation.fictive?
+    .small.text-secondary
+      | Sur chaque ligne
+      br
+      | - Classements en vigueur estimés à partir des évolutions de la nomenclature
+      br
+      | - Classements publiés dans un acte administratif
 
   .row
     .col
