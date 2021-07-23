@@ -1,10 +1,14 @@
 .section-blue
-  .container
+  .container.mt-5.mb-5
     .row.justify-content-center.align-items-center
       .col-8
         = image_pack_tag('factory-illu.svg', class: 'illu-factory')
 
         input type="search" placeholder="Entrer le nom d'une installation" data-behavior="autocomplete" id="autocomplete"
+
+        .text-center
+          p.mt-5.mb-0 Vous ne trouvez pas votre installation ou elle n’existe pas encore ?
+          = link_to 'Créer une installation fictive', new_installation_path
 
 footer
   p
