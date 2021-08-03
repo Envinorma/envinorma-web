@@ -43,7 +43,7 @@ class DataManager
       recreate_or_validate_from_file(aps_file, AP, 5000, true, nil)
     end
 
-    previous_envinorma_id_to_s3ic_id = load_envinorma_id_to_s3ic_id({})
+    previous_envinorma_id_to_s3ic_id = load_envinorma_id_to_s3ic_id
     recreate_or_validate_from_file(installations_file, Installation, 1000, false, {})
     s3ic_id_to_envinorma_id = load_new_s3ic_id_to_envinorma_id(previous_envinorma_id_to_s3ic_id)
 
