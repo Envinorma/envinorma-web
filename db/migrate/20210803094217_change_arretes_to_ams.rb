@@ -1,4 +1,4 @@
-class ChangeArretesToAms < ActiveRecord::Migration[6.0]
+class ChangeArretesToAMs < ActiveRecord::Migration[6.0]
   def change
     rename_table :arretes, :ams
   end
