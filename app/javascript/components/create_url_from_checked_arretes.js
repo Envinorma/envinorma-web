@@ -1,66 +1,57 @@
-const _ = require("underscore");
+const _ = require('underscore');
 
-const checkedArretedIds = () => {
-  const checked = _.filter(
-    $(".js_arrete_checkbox"),
-    (checkbox) => checkbox.checked
-  );
-  return _.map(checked, (checkbox) => {
-    return checkbox.dataset.arreteId;
-  });
+const checkedCheckboxes = (selector) => {
+  return $(selector).filter(':checked');
 };
 
-const checkedApdIds = () => {
-  const checked = _.filter(
-    $(".js_ap_checkbox"),
-    (checkbox) => checkbox.checked
-  );
-  return _.map(checked, (checkbox) => {
-    return checkbox.dataset.apId;
-  });
+const checkedAmIds = () => {
+  return _.map(checkedCheckboxes('.js_am_checkbox'), (checkbox) => checkbox.dataset.amId);
+};
+
+const checkedApIds = () => {
+  return _.map(checkedCheckboxes('.js_ap_checkbox'), (checkbox) => checkbox.dataset.apId);
+};
+
+const buildKeyArgumentString = (argumentName, values) => {
+  const keyValues = _.map(values, (value) => `${argumentName}[]=${value}`);
+  return keyValues.join('&');
+};
+
+export const buildUrlFromCheckedArretes = (hrefBase, amIds, apIds) => {
+  const amString = buildKeyArgumentString('am_ids', amIds);
+  const apString = buildKeyArgumentString('ap_ids', apIds);
+  const nonEmptyStrings = _.filter([amString, apString], (string) => string !== '');
+  return hrefBase + '?' + nonEmptyStrings.join('&');
 };
 
 const changeArretesLinkButtonHref = (button) => {
-  const arrete_ids = checkedArretedIds()
-  const ap_ids = checkedApdIds()
+  const amIds = checkedAmIds();
+  const apIds = checkedApIds();
+  const hrefBase = button.href.split('?')[0];
+  const url = buildUrlFromCheckedArretes(hrefBase, amIds, apIds);
 
-  const hrefBase = button.href.split("?")[0];
-  var arrete_ids_url = ""
-  var ap_ids_url = ""
-
-  if (arrete_ids.length != 0) {
-    arrete_ids_url = "arrete_ids[]=" + arrete_ids.join("&arrete_ids[]=")
-  }
-
-  if (ap_ids.length != 0) {
-    ap_ids_url = "ap_ids[]=" + ap_ids.join("&ap_ids[]=")
-  }
-
-  if (arrete_ids_url != "" && ap_ids_url != "") {
-    button.href = hrefBase + "?" + arrete_ids_url + "&" + ap_ids_url
-    button.classList.remove("d-none")
-  }
-  else if (arrete_ids_url == "" && ap_ids_url == "") {
-    button.classList.add("d-none")
-  }
-  else {
-    button.href = hrefBase + "?" + (arrete_ids_url || ap_ids_url)
-    button.classList.remove("d-none")
+  if (amIds.length === 0 && apIds.length === 0) {
+    button.classList.add('d-none');
+  } else {
+    button.href = url;
+    button.classList.remove('d-none');
   }
 };
 
-window.addEventListener("DOMContentLoaded", () => {
-  const button = $("#arretes_link_button")[0];
-  if (!button) {
-    return;
-  }
+if (window.addEventListener) {
+  console.log(window);
+  console.log(window.addEventListener);
+  window.addEventListener('DOMContentLoaded', () => {
+    const button = $('#arretes_link_button')[0];
+    if (!button) {
+      return;
+    }
 
-  changeArretesLinkButtonHref(button); // Execute at page load
+    changeArretesLinkButtonHref(button); // Execute at page load
 
-  const checkboxes = document.querySelectorAll(".js_checkbox");
-  checkboxes.forEach((checkbox) => {
-    checkbox.addEventListener("change", () =>
-      changeArretesLinkButtonHref(button)
-    );
+    const checkboxes = document.querySelectorAll('.js_checkbox');
+    checkboxes.forEach((checkbox) => {
+      checkbox.addEventListener('change', () => changeArretesLinkButtonHref(button));
+    });
   });
-});
+}

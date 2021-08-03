@@ -6,11 +6,11 @@ require 'rails_helper'
 RSpec.describe 'test prescription selection in modified section', js: true do
   before do
     FactoryBot.create(:installation)
-    FactoryBot.create(:arrete, :fake_arrete2)
+    FactoryBot.create(:am, :fake_am2)
   end
 
   it 'allows to select prescription in new and old version of section' do
-    visit arretes_path(Installation.first, arrete_ids: Arrete.all.pluck(:id))
+    visit arretes_path(Installation.first, am_ids: AM.all.pluck(:id))
 
     # Show previous version
     find('.icon-collapse-mini').click

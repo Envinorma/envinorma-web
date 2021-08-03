@@ -1,25 +1,25 @@
 # frozen_string_literal: true
 
-module FilterArretes
+module FilterAMs
   extend ActiveSupport::Concern
 
-  def compute_applicable_arretes_list(classements)
-    classements_by_am_cid = get_arretes_cid_from(classements)
-    arretes = deduce_list_of_arretes(classements_by_am_cid)
-    sort_arretes(arretes)
+  def compute_applicable_ams_list(classements)
+    classements_by_am_cid = get_ams_cid_from(classements)
+    ams = deduce_list_of_ams(classements_by_am_cid)
+    sort_ams(ams)
   end
 
   private
 
-  def get_arretes_cid_from(classements)
-    all_arretes = Arrete.where(default_version: true).pluck(:cid, :classements_with_alineas)
+  def get_ams_cid_from(classements)
+    all_ams = AM.where(default_version: true).pluck(:cid, :classements_with_alineas)
     result = {}
     classements.each do |classement|
-      all_arretes.each do |cid, arrete_classements|
-        arrete_classements.each do |arrete_classement|
-          arrete_rubrique = arrete_classement['rubrique']
-          arrete_regime = arrete_classement['regime']
-          next unless arrete_rubrique == classement.rubrique && arrete_regime == classement.regime
+      all_ams.each do |cid, am_classements|
+        am_classements.each do |am_classement|
+          am_rubrique = am_classement['rubrique']
+          am_regime = am_classement['regime']
+          next unless am_rubrique == classement.rubrique && am_regime == classement.regime
 
           result[cid] = [] unless result.key?(cid)
           result[cid].append(classement)
@@ -29,28 +29,28 @@ module FilterArretes
     result
   end
 
-  def deduce_list_of_arretes(classements_by_am_cid)
-    arretes = []
+  def deduce_list_of_ams(classements_by_am_cid)
+    ams = []
     classements_by_am_cid.each do |cid, classements|
-      arretes << select_arrete_version(cid, classements)
+      ams << select_am_version(cid, classements)
     end
-    arretes
+    ams
   end
 
-  def select_arrete_version(cid, classements)
-    # if multiple classements apply for one arrete we cannot rely on date so we pick the generic version
-    return Arrete.find_by(cid: cid, default_version: true) if classements.length > 1
+  def select_am_version(cid, classements)
+    # if multiple classements apply for one am we cannot rely on date so we pick the generic version
+    return AM.find_by(cid: cid, default_version: true) if classements.length > 1
 
     classement = classements[0]
 
-    version_descriptors = Arrete.where(cid: cid).pluck(:id, :version_descriptor)
+    version_descriptors = AM.where(cid: cid).pluck(:id, :version_descriptor)
     matches = []
     version_descriptors.each do |id, version_descriptor|
       matches << id if match(version_descriptor, classement)
     end
     raise "Expecting exactly one AM version to match, got #{matches.length} match(es)" if matches.length != 1
 
-    Arrete.find(matches[0])
+    AM.find(matches[0])
   end
 
   def match(version_descriptor, classement)
@@ -85,7 +85,7 @@ module FilterArretes
     date&.to_datetime&.to_i
   end
 
-  def sort_arretes(arretes)
-    arretes.sort_by(&:rank_score)
+  def sort_ams(ams)
+    ams.sort_by(&:rank_score)
   end
 end

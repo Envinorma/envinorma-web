@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 require 'rails_helper'
-require './app/controllers/concerns/filter_arretes'
+require './app/controllers/concerns/filter_ams'
 
 RSpec.configure do |c|
-  c.include FilterArretes
+  c.include FilterAMs
 end
 
-RSpec.describe FilterArretes do
+RSpec.describe FilterAMs do # rubocop:disable RSpec/FilePath
   context 'when :date_in_range' do
     it 'returns true if candidate is in range.' do
       expect(date_in_range('2020-01-01'.to_date, '2019-01-01', '2021-01-01')).to eq true
