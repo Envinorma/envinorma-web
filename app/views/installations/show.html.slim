@@ -95,28 +95,28 @@
   .row
     .col
       h2.mt-5 Arrêtés ministériels associés
-      - if @arretes.empty?
+      - if @ams.empty?
         p.text-secondary Il n’y a pas d’arrêté ministériel disponible pour cette installation.
 
       - else
-        - @arretes.each do |arrete|
+        - @ams.each do |am|
           .form-group.row
             .col
               .form-check.checkbox-custom
-                = check_box_tag "arrete_#{arrete.id}",
-                  '1', arrete.version_descriptor.applicable,
-                  class: 'form-check-input js_arrete_checkbox js_checkbox',
-                  'data-arrete-id': arrete.id
-                = label_tag "arrete_#{arrete.id}",
-                  class: arrete.version_descriptor.applicable ? 'active' : 'inactive'
+                = check_box_tag "am_#{am.id}",
+                  '1', am.version_descriptor.applicable,
+                  class: 'form-check-input js_am_checkbox js_checkbox',
+                  'data-am-id': am.id
+                = label_tag "am_#{am.id}",
+                  class: am.version_descriptor.applicable ? 'active' : 'inactive'
 
-                  span.tooltip-underline data-tooltip=arrete.title
-                    = arrete.short_title
+                  span.tooltip-underline data-tooltip=am.title
+                    = am.short_title
                   small.text-secondary
-                    = " - #{classement_infos(arrete, @installation)}"
+                    = " - #{classement_infos(am, @installation)}"
 
-            - if arrete.version_descriptor.applicability_warnings.present?
-              - warnings = arrete.version_descriptor.applicability_warnings.join(' - ')
+            - if am.version_descriptor.applicability_warnings.present?
+              - warnings = am.version_descriptor.applicability_warnings.join(' - ')
               li.tooltip-warning data-tooltip=warnings
                 i.fas.fa-exclamation-triangle
 
@@ -140,9 +140,9 @@
                     = " - #{ap.description}"
 
   hr.mb-5.mt-5
-  - if @arretes.any? || @aps.any?
+  - if @ams.any? || @aps.any?
       = link_to "Voir les prescriptions pour générer une fiche d'inspection",
-        arretes_path(@installation, arrete_ids: @arretes.pluck(:id), ap_ids: @aps.pluck(:id)),
+        arretes_path(@installation, am_ids: @ams.pluck(:id), ap_ids: @aps.pluck(:id)),
         data: { disable_with: "Voir les prescriptions pour générer une fiche d'inspection" },
         class: 'btn btn-primary mb-4 btn-fixed-bottom',
         id: 'arretes_link_button'

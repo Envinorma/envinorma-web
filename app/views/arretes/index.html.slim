@@ -8,14 +8,14 @@
       hr
 
       ul.nav
-        - if @arretes.any?
+        - if @ams.any?
           em.text-secondary.small Arrêtés ministériels
           hr.mb-3
-          - @arretes.each do |arrete|
-            - classement_infos = classement_infos(arrete, @installation)
+          - @ams.each do |am|
+            - classement_infos = classement_infos(am, @installation)
             li
-              a.btn.btn-sm.btn-light href="#anchor_am_#{arrete.id}"
-                => arrete.short_title
+              a.btn.btn-sm.btn-light href="#anchor_am_#{am.id}"
+                => am.short_title
                 br
                   small
                     => classement_infos
@@ -44,9 +44,9 @@
                         data: { topic: topic_id, topic_humanized: topic_name }
 
       .container-fluid
-        - if @arretes.any?
-            - @arretes.each do |arrete|
-              = render partial: 'am', locals: { arrete: arrete }
+        - if @ams.any?
+            - @ams.each do |am|
+              = render partial: 'am', locals: { am: am }
         - if @aps.any?
             - @aps.each do |ap|
               = render partial: 'ap', locals: { ap: ap }

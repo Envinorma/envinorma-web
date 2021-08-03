@@ -2,15 +2,15 @@
 
 class ArretesController < ApplicationController
   include TopicHelper
-  include FilterArretes
+  include FilterAMs
   include FicheInspectionHelper
   include OdfHelper
   before_action :set_installation
 
   def index
-    @arretes = []
-    params['arrete_ids']&.each do |arrete_id|
-      @arretes << Arrete.find(arrete_id)
+    @ams = []
+    params['am_ids']&.each do |am_id|
+      @ams << AM.find(am_id)
     end
 
     @aps = []
@@ -21,8 +21,8 @@ class ArretesController < ApplicationController
     @prescription = Prescription.new
     @alinea_ids = @user.prescription_alinea_ids(@installation)
     @topics_by_section = {}
-    @arretes.each do |arrete|
-      @topics_by_section[arrete.id] = arrete.topics_by_section
+    @ams.each do |am|
+      @topics_by_section[am.id] = am.topics_by_section
     end
 
     @topics = TOPICS

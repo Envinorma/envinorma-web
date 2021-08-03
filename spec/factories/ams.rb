@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 FactoryBot.define do
-  factory :arrete do
+  factory :am do
     trait :classement_2521_E do
-      path = Rails.root.join('spec/fixtures/arretes/JORFTEXT000038358856.json')
+      path = Rails.root.join('spec/fixtures/ams/JORFTEXT000038358856.json')
       am = JSON.parse(File.read(path))
       data { am }
       cid { am['id'] }
@@ -16,8 +16,8 @@ FactoryBot.define do
       classements_with_alineas { am['classements_with_alineas'] }
     end
 
-    trait :fake_arrete_1_default do
-      path = Rails.root.join('spec/fixtures/arretes/fake_arrete_1/default_version.json')
+    trait :fake_am_1_default do
+      path = Rails.root.join('spec/fixtures/ams/fake_am_1/default_version.json')
       am = JSON.parse(File.read(path))
       data { am }
       cid { am['id'] }
@@ -30,8 +30,8 @@ FactoryBot.define do
       classements_with_alineas { am['classements_with_alineas'] }
     end
 
-    trait :fake_arrete_1_after2010 do
-      path = Rails.root.join('spec/fixtures/arretes/fake_arrete_1/after_2010.json')
+    trait :fake_am_1_after2010 do
+      path = Rails.root.join('spec/fixtures/ams/fake_am_1/after_2010.json')
       am = JSON.parse(File.read(path))
       data { am }
       cid { am['id'] }
@@ -44,8 +44,8 @@ FactoryBot.define do
       classements_with_alineas { am['classements_with_alineas'] }
     end
 
-    trait :fake_arrete_1_before2010 do
-      path = Rails.root.join('spec/fixtures/arretes/fake_arrete_1/before_2010.json')
+    trait :fake_am_1_before2010 do
+      path = Rails.root.join('spec/fixtures/ams/fake_am_1/before_2010.json')
       am = JSON.parse(File.read(path))
       data { am }
       cid { am['id'] }
@@ -57,8 +57,9 @@ FactoryBot.define do
       legifrance_url { am['legifrance_url'] }
       classements_with_alineas { am['classements_with_alineas'] }
     end
-    trait :fake_arrete2 do
-      path = Rails.root.join('spec/fixtures/arretes/arrete_with_modified_section.json')
+
+    trait :fake_am2 do
+      path = Rails.root.join('spec/fixtures/ams/am_with_modified_section.json')
       am = JSON.parse(File.read(path))
       data { am }
       cid { am['id'] }

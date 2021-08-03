@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Arrete < ApplicationRecord
+class AM < ApplicationRecord
   include ApplicationHelper
   include RegimeHelper
   include TopicHelper
@@ -58,47 +58,47 @@ class Arrete < ApplicationRecord
   end
 
   class << self
-    def validate_then_recreate(arretes_files)
-      Rails.logger.info('Seeding arretes...')
-      arretes = []
-      arretes_files.each_with_index do |json_file, index|
+    def validate_then_recreate(ams_files)
+      Rails.logger.info('Seeding ams...')
+      ams = []
+      ams_files.each_with_index do |json_file, index|
         am = JSON.parse(File.read(json_file))
-        arrete = new_arrete(am)
-        arretes << arrete
-        Rails.logger.info("#{index + 1} arretes initialized") if index % 10 == 9
+        am = new_am(am)
+        ams << am
+        Rails.logger.info("#{index + 1} ams initialized") if index % 10 == 9
       end
-      Rails.logger.info("Found #{arretes_files.length} arretes.")
-      recreate(arretes)
-      Rails.logger.info("Inserted #{Arrete.count} arretes in total.")
+      Rails.logger.info("Found #{ams_files.length} ams.")
+      recreate(ams)
+      Rails.logger.info("Inserted #{AM.count} ams in total.")
     end
 
     private
 
-    def recreate(arretes)
+    def recreate(ams)
       Rails.logger.info '...destroying'
-      Arrete.destroy_all
-      ActiveRecord::Base.connection.reset_pk_sequence!(Arrete.table_name)
+      AM.destroy_all
+      ActiveRecord::Base.connection.reset_pk_sequence!(AM.table_name)
 
       Rails.logger.info('...creating')
-      arretes.each(&:save)
-      Rails.logger.info("...done. Inserted #{Arrete.count}/#{arretes.length} arretes.")
+      ams.each(&:save)
+      Rails.logger.info("...done. Inserted #{AM.count}/#{ams.length} ams.")
     end
 
-    def new_arrete(arrete_json)
-      arrete = Arrete.new(
-        data: arrete_json,
-        cid: arrete_json['id'],
-        date_of_signature: arrete_json['date_of_signature'].to_date,
-        title: arrete_json.dig('title', 'text'),
-        classements_with_alineas: arrete_json['classements_with_alineas'],
-        aida_url: arrete_json['aida_url'],
-        legifrance_url: arrete_json['legifrance_url'],
-        default_version: default_version?(arrete_json['version_descriptor']),
-        version_descriptor: arrete_json['version_descriptor']
+    def new_am(am_json)
+      am = AM.new(
+        data: am_json,
+        cid: am_json['id'],
+        date_of_signature: am_json['date_of_signature'].to_date,
+        title: am_json.dig('title', 'text'),
+        classements_with_alineas: am_json['classements_with_alineas'],
+        aida_url: am_json['aida_url'],
+        legifrance_url: am_json['legifrance_url'],
+        default_version: default_version?(am_json['version_descriptor']),
+        version_descriptor: am_json['version_descriptor']
       )
-      raise "error validations #{arrete.cid} #{arrete.errors.full_messages}" unless arrete.validate
+      raise "error validations #{am.cid} #{am.errors.full_messages}" unless am.validate
 
-      arrete
+      am
     end
 
     def default_version?(version_descriptor)

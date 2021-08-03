@@ -10,21 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_21_171243) do
+ActiveRecord::Schema.define(version: 2021_08_03_094217) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "aps", force: :cascade do |t|
-    t.string "installation_s3ic_id"
-    t.string "description"
-    t.date "date"
-    t.string "georisques_id"
-    t.bigint "installation_id", null: false
-    t.index ["installation_id"], name: "index_aps_on_installation_id"
-  end
-
-  create_table "arretes", force: :cascade do |t|
+  create_table "ams", force: :cascade do |t|
     t.jsonb "data"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -36,6 +27,15 @@ ActiveRecord::Schema.define(version: 2021_07_21_171243) do
     t.date "date_of_signature"
     t.jsonb "version_descriptor"
     t.boolean "default_version"
+  end
+
+  create_table "aps", force: :cascade do |t|
+    t.string "installation_s3ic_id"
+    t.string "description"
+    t.date "date"
+    t.string "georisques_id"
+    t.bigint "installation_id", null: false
+    t.index ["installation_id"], name: "index_aps_on_installation_id"
   end
 
   create_table "classement_references", force: :cascade do |t|

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class InstallationsController < ApplicationController
-  include FilterArretes
+  include FilterAMs
   include RegimeHelper
   before_action :force_json, only: :search
   before_action :set_installation, only: %i[show edit edit_name update destroy]
@@ -19,7 +19,7 @@ class InstallationsController < ApplicationController
       classement.regime.present? ? REGIMES[classement.regime.to_sym] : REGIMES[:empty]
     end
 
-    @arretes = compute_applicable_arretes_list(@classements)
+    @ams = compute_applicable_ams_list(@classements)
   end
 
   def edit; end

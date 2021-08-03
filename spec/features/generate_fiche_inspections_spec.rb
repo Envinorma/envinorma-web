@@ -9,7 +9,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     FactoryBot.create(:classement, :classement_2521_E, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_4801_D, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_2515_D, installation: installation_eva_industries)
-    FactoryBot.create(:arrete, :classement_2521_E)
+    FactoryBot.create(:am, :classement_2521_E)
     FactoryBot.create(:ap, installation: installation_eva_industries)
 
     installation_sepanor = FactoryBot.create(:installation, name: 'SEPANOR', s3ic_id: '0065.06067', zipcode: '95066',

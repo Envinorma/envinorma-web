@@ -4,10 +4,10 @@ require 'rails_helper'
 # rubocop:disable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength
 RSpec.describe 'test AM list computation', js: true do
   before do
-    FactoryBot.create(:arrete, :classement_2521_E)
-    FactoryBot.create(:arrete, :fake_arrete_1_default)
-    FactoryBot.create(:arrete, :fake_arrete_1_after2010)
-    FactoryBot.create(:arrete, :fake_arrete_1_before2010)
+    FactoryBot.create(:am, :classement_2521_E)
+    FactoryBot.create(:am, :fake_am_1_default)
+    FactoryBot.create(:am, :fake_am_1_after2010)
+    FactoryBot.create(:am, :fake_am_1_before2010)
   end
 
   it 'displays no AM when installation has no classement' do
@@ -16,7 +16,7 @@ RSpec.describe 'test AM list computation', js: true do
     fill_in('autocomplete', with: 'EVA INDUST')
     click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
 
-    expect(all('.js_arrete_checkbox').count).to eq 0
+    expect(all('.js_am_checkbox').count).to eq 0
   end
 
   it 'displays no AM when installation has classement with no AM' do
@@ -26,7 +26,7 @@ RSpec.describe 'test AM list computation', js: true do
     fill_in('autocomplete', with: 'EVA INDUST')
     click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
 
-    expect(all('.js_arrete_checkbox').count).to eq 0
+    expect(all('.js_am_checkbox').count).to eq 0
   end
 
   it 'displays default version when several classements match the same AM' do
@@ -37,8 +37,8 @@ RSpec.describe 'test AM list computation', js: true do
     fill_in('autocomplete', with: 'EVA INDUST')
     click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
 
-    expect(all('.js_arrete_checkbox').count).to eq 1
-    expect(first('.js_arrete_checkbox')['data-arrete-id']).to eq '2'
+    expect(all('.js_am_checkbox').count).to eq 1
+    expect(first('.js_am_checkbox')['data-am-id']).to eq '2'
   end
 
   it 'displays the applicable version when the is only one classement' do
@@ -50,8 +50,8 @@ RSpec.describe 'test AM list computation', js: true do
     fill_in('autocomplete', with: 'EVA INDUST')
     click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
 
-    expect(all('.js_arrete_checkbox').count).to eq 1
-    expect(first('.js_arrete_checkbox')['data-arrete-id']).to eq '4'
+    expect(all('.js_am_checkbox').count).to eq 1
+    expect(first('.js_am_checkbox')['data-am-id']).to eq '4'
 
     # It returns default version when only classement has no date
     classement = Classement.find(1)
@@ -61,8 +61,8 @@ RSpec.describe 'test AM list computation', js: true do
     fill_in('autocomplete', with: 'EVA INDUST')
     click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
 
-    expect(all('.js_arrete_checkbox').count).to eq 1
-    expect(first('.js_arrete_checkbox')['data-arrete-id']).to eq '2'
+    expect(all('.js_am_checkbox').count).to eq 1
+    expect(first('.js_am_checkbox')['data-am-id']).to eq '2'
 
     # It returns version after 2010 when date is after 2010
     classement = Classement.find(1)
@@ -72,8 +72,8 @@ RSpec.describe 'test AM list computation', js: true do
     fill_in('autocomplete', with: 'EVA INDUST')
     click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
 
-    expect(all('.js_arrete_checkbox').count).to eq 1
-    expect(first('.js_arrete_checkbox')['data-arrete-id']).to eq '3'
+    expect(all('.js_am_checkbox').count).to eq 1
+    expect(first('.js_am_checkbox')['data-am-id']).to eq '3'
   end
 
   it 'displays correctly sorted AM when two AM are applicable' do
@@ -86,9 +86,9 @@ RSpec.describe 'test AM list computation', js: true do
     click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
 
     # First classement with regime E, then classement with regime D
-    expect(all('.js_arrete_checkbox').count).to eq 2
-    expect(first('.js_arrete_checkbox')['data-arrete-id']).to eq '1'
-    expect(all('.js_arrete_checkbox')[1]['data-arrete-id']).to eq '4'
+    expect(all('.js_am_checkbox').count).to eq 2
+    expect(first('.js_am_checkbox')['data-am-id']).to eq '1'
+    expect(all('.js_am_checkbox')[1]['data-am-id']).to eq '4'
   end
 end
 # rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength
