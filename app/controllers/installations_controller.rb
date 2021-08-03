@@ -4,8 +4,8 @@ class InstallationsController < ApplicationController
   include FilterArretes
   include RegimeHelper
   before_action :force_json, only: :search
-  before_action :set_installation, only: %i[show edit update]
-  before_action :user_can_modify_installation, only: %i[edit update]
+  before_action :set_installation, only: %i[show edit edit_name update destroy]
+  before_action :user_can_modify_installation, only: %i[edit edit_name update destroy]
   before_action :user_can_visit_installation, only: %i[show]
 
   def index
@@ -24,7 +24,25 @@ class InstallationsController < ApplicationController
 
   def edit; end
 
+  def edit_name; end
+
+  def new
+    @installation = Installation.new(name: 'Mon installation')
+  end
+
   def create
+    return create_from_existing_installation if params[:id].present?
+
+    @installation = Installation.create(
+      name: params[:installation][:name],
+      s3ic_id: '0000.00000',
+      user_id: @user.id
+    )
+
+    redirect_to installation_path(@installation)
+  end
+
+  def create_from_existing_installation
     set_installation
     installation_duplicated = @installation.duplicate!(@user)
     redirect_to installation_path(installation_duplicated)
@@ -37,6 +55,17 @@ class InstallationsController < ApplicationController
     else
       flash[:alert] = "L'installation n'a pas été mise à jour"
       render :edit
+    end
+  end
+
+  def destroy
+    @installation.destroy
+    if @user.installations.present?
+      flash[:notice] = "L'installation a bien été supprimée"
+      redirect_to user_path
+    else
+      flash[:notice] = "L'installation a bien été supprimée. Vous n'avez plus d'installation"
+      redirect_to root_path
     end
   end
 
@@ -56,8 +85,8 @@ class InstallationsController < ApplicationController
   end
 
   def classement_params
-    params.require(:installation).permit(
-      classements_attributes: %i[id regime rubrique date_autorisation date_mise_en_service _destroy]
-    )
+    params.require(:installation).permit(:name,
+                                         classements_attributes: %i[id regime rubrique date_autorisation
+                                                                    date_mise_en_service _destroy])
   end
 end

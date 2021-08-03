@@ -8,9 +8,10 @@ RSpec.describe 'installations test features', js: true do
     FactoryBot.create(:classement, :classement_2521_E, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_4801_D, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_2515_D, installation: installation_eva_industries)
+    ClassementReference.create(rubrique: 1510, alinea: '2b', regime: 'E', description: 'Entrepôt')
   end
 
-  it 'allows user to add and remove classements from a duplicate installation' do
+  it 'allows user to add, remove, modify classements and modify name from a duplicate installation' do
     visit root_path
     fill_in('autocomplete', with: 'EVA INDUST')
     click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
@@ -22,14 +23,13 @@ RSpec.describe 'installations test features', js: true do
     expect(page).to have_content('Cette installation a été créée par vos soins')
 
     # add new classement
-    click_link('Modifier les classements')
     click_link('Ajouter un nouveau classement')
-    fill_in 'Rubrique', with: '1510'
-    select 'E', from: 'Régime'
-    click_button('Sauvegarder les modifications')
-
-    expect(page).to have_content('Cette installation a été créée par vos soins')
+    fill_in('autocomplete-classements', with: '1510')
+    find('li', text: 'E 2b - Entrepôt').click
+    click_button('Ajouter le classement')
+    expect(page).to have_content('Le classement a été ajouté')
     expect(page).to have_content('1510')
+    expect(Classement.count).to eq 7
     expect(Installation.count).to eq 2
 
     # Duplicated installation does not appear in search
@@ -53,6 +53,23 @@ RSpec.describe 'installations test features', js: true do
     end
     click_button('Sauvegarder les modifications')
     expect(page).not_to have_content('1510')
+
+    # User can modify classement (except 'Rubrique' field)
+    click_link('Modifier les classements')
+    expect(page).to have_field 'Rubrique', disabled: true
+    select 'NC', from: 'Régime', match: :first
+    fill_in "Date d'autorisation", match: :first, with: '03/11/2020'
+    fill_in 'Date de mise en service', match: :first, with: '03/12/2020'
+    click_button('Sauvegarder les modifications')
+    expect(page).to have_content('NC')
+    expect(page).to have_content('03/11/2020')
+    expect(page).to have_content('03/12/2020')
+
+    # User can modify name
+    click_link("Modifier le nom de l'installation")
+    fill_in "Nom de l'installation", with: 'Nouveau nom'
+    click_button('Sauvegarder la modification')
+    expect(page).to have_content('Nouveau nom')
   end
 end
 # rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength

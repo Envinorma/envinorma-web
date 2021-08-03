@@ -3,6 +3,7 @@
 Rails.application.routes.draw do
   root 'installations#index'
   get 'installations/search', to: 'installations#search', format: 'json'
+  get 'classement_references/search', to: 'classement_references#search', format: 'json'
   resources :installations do
     resources :classements
     resources :prescriptions, only: %i[index destroy]
@@ -11,6 +12,8 @@ Rails.application.routes.draw do
     post '/prescriptions/from_am', to: 'prescriptions#create_or_delete_from_am', as: 'create_or_delete_from_am'
     get '/prescriptions/toggle_grouping', to: 'prescriptions#toggle_grouping', as: 'toggle_grouping'
   end
+  get '/installations/new', to: 'installations#new', as: 'new'
+  get '/installations/:id/edit_name', to: 'installations#edit_name', as: 'edit_name'
   get '/installations/:id/arretes', to: 'arretes#index', as: 'arretes'
   post '/installations/:id/arretes', to: 'arretes#generate_doc_with_prescriptions', as: 'generate_doc'
 

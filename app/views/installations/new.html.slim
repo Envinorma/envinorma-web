@@ -1,0 +1,11 @@
+.container.mt-5
+  h1 Créer une installation fictive
+
+  hr
+  = simple_form_for @installation do |f|
+    .row
+      .col
+        = f.input :name
+
+    .mb-4
+      = f.button :submit, 'Créer l\'installation', class: 'btn btn-primary'
