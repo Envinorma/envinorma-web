@@ -18,15 +18,18 @@ class AM < ApplicationRecord
             format: { with: %r{\Ahttps://www\.legifrance\.gouv\.fr/loda/id/.*\z} }
 
   def data
-    JSON.parse(super.to_json, object_class: OpenStruct)
+    # Lazy argument, loaded once needed (and only once)
+    @data ||= JSON.parse(super.to_json, object_class: OpenStruct)
   end
 
   def classements_with_alineas
-    JSON.parse(super.to_json, object_class: OpenStruct)
+    # Lazy argument, loaded once needed (and only once)
+    @classements_with_alineas ||= JSON.parse(super.to_json, object_class: OpenStruct)
   end
 
   def version_descriptor
-    JSON.parse(super.to_json, object_class: OpenStruct)
+    # Lazy argument, loaded once needed (and only once)
+    @version_descriptor ||= JSON.parse(super.to_json, object_class: OpenStruct)
   end
 
   def version_identifier
@@ -76,15 +79,15 @@ class AM < ApplicationRecord
       aida_url: aida_url,
       legifrance_url: legifrance_url,
       date_of_signature: date_of_signature,
-      version_descriptor: version_descriptor,
-      data: data,
-      classements_with_alineas: classements_with_alineas,
+      version_descriptor: self['version_descriptor'], # we want the initial value, not the one from the wrapper
+      data: self['data'], # identical to version_descriptor
+      classements_with_alineas: self['classements_with_alineas'], # identical to version_descriptor
       default_version: default_version
     }
   end
 
   class << self
-    def self.from_hash(am_hash)
+    def from_hash(am_hash)
       am = AM.new(
         title: am_hash.dig('title', 'text'),
         cid: am_hash['id'],

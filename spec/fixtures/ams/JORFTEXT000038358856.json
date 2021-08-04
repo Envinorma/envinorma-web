@@ -2,7 +2,7 @@
     "aida_url": "https://aida.ineris.fr/consultation_document/41901",
     "version_descriptor": {
         "aed_date": {
-            "is_not_used_in_parametrization": false,
+            "is_used_in_parametrization": true,
             "unknown_classement_date_version": null,
             "left_value": null,
             "right_value": null
@@ -12,7 +12,7 @@
         ],
         "applicable": true,
         "date_de_mise_en_service": {
-            "is_not_used_in_parametrization": false,
+            "is_used_in_parametrization": true,
             "unknown_classement_date_version": null,
             "left_value": null,
             "right_value": null
