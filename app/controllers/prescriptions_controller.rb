@@ -55,6 +55,7 @@ class PrescriptionsController < ApplicationController
   def render_prescriptions
     @topics = TOPICS
     @counter = @user.prescriptions_for(@installation).count
+    @prescriptions_might_be_deprecated = prescriptions_might_be_deprecated?
 
     respond_to do |format|
       format.js { render 'prescriptions.js.erb' }
@@ -71,5 +72,13 @@ class PrescriptionsController < ApplicationController
     params.require(:prescription).permit(:reference, :content, :alinea_id, :from_am_id, :user_id, :text_reference,
                                          :rank, :topic)
           .merge!(installation_id: @installation.id, user_id: @user.id)
+  end
+
+  def prescriptions_might_be_deprecated?
+    # Prescriptions are deprecated if any of them have been selected before the last update of the AM
+    prescriptions = @user.prescriptions_for(@installation).pluck(:from_am_id, :created_at)
+    dates_by_am_id = Hash.new([])
+    prescriptions.each { |am_id, date| dates_by_am_id[am_id] += [date] if am_id.present? }
+    dates_by_am_id.any? { |am_id, dates| AM.find(am_id).content_updated_at > dates.min }
   end
 end

@@ -1,6 +1,12 @@
 <% if @prescriptions %>
   <div class="mt-3">
     <% @prescriptions.each do |topic, grouped_by_text| %>
+      <% if @prescriptions_might_be_deprecated %>
+        <div class="alert alert-warning dismissable">
+          Certains arrêtés ministériels dont sont issues ces prescriptions ont été mis à jour depuis leur extraction dans cette fiche.
+          Elles peuvent donc différer de la version en vigueur.
+        </div>
+      <% end %>
       <% if topic != nil  %>
         <% if topic == TopicHelper::AUCUN %>
           <p><span class="badge badge-pill badge-secondary">Aucun thème</span>
