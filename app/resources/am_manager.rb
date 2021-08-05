@@ -38,11 +38,10 @@ class AMManager
   def self.split_ids(ams_to_seed, ams_in_db)
     # Creates new AMs, updates existing AMs, and deletes AMs that are not in the seed file
     ams_to_insert = ams_to_seed.keys - ams_in_db.keys
-    Rails.logger.info("#{ams_to_insert.length} new AMs to create.")
     ams_to_delete = ams_in_db.keys - ams_to_seed.keys
-    Rails.logger.info("#{ams_to_delete.length} AMs to delete.")
     ams_to_update = ams_in_db.keys & ams_to_seed.keys
-    Rails.logger.info("#{ams_to_update.length} AMs to update.")
+    Rails.logger.info("#{ams_to_insert.length} AMs to create, #{ams_to_delete.length}"\
+                      "AMs to delete. #{ams_to_update.length} AMs to update.")
     [ams_to_insert, ams_to_delete, ams_to_update]
   end
 
@@ -69,15 +68,20 @@ class AMManager
 
   def self.update_existing_ams(ids_to_update, ams_in_db, ams_to_seed)
     Rails.logger.info("Updating #{ids_to_update.length} AMs...")
+    nb_content_updated = 0
     ids_to_update.each_with_index do |id, index|
       am_in_db = ams_in_db[id]
       am_in_seed = ams_to_seed[id]
       update_hash = am_in_seed.to_hash
-      update_hash['content_updated_at'] = DateTime.now unless same_content?(am_in_db, am_in_seed)
+      unless same_content?(am_in_db, am_in_seed)
+        update_hash['content_updated_at'] = DateTime.now unless same_content?(am_in_db, am_in_seed)
+        nb_content_updated += 1
+      end
       am_in_db.update(update_hash)
       Rails.logger.info("#{index + 1} ams updated") if index % 10 == 9
     end
-    Rails.logger.info("...done. Updated #{AM.count}/#{ids_to_update.length} ams.")
+    Rails.logger.info("...done. Updated #{AM.count}/#{ids_to_update.length} ams" \
+                      " (content edited for #{nb_content_updated} ams).")
   end
 
   def self.parse_file(json_file)
