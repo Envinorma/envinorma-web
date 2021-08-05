@@ -79,6 +79,6 @@ class PrescriptionsController < ApplicationController
     prescriptions = @user.prescriptions_for(@installation).pluck(:from_am_id, :created_at)
     dates_by_am_id = Hash.new([])
     prescriptions.each { |am_id, date| dates_by_am_id[am_id] += [date] if am_id.present? }
-    dates_by_am_id.any? { |am_id, dates| AM.find(am_id).content_updated_at > dates.min }
+    dates_by_am_id.any? { |am_id, dates| AM.find(am_id).content_updated_at > dates.min if AM.exists?(id: am_id) }
   end
 end

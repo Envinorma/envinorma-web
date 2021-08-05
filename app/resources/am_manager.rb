@@ -35,7 +35,7 @@ class AMManager
     ams_to_insert = ams_to_seed.keys - ams_ids_in_db.keys
     ams_to_delete = ams_ids_in_db.keys - ams_to_seed.keys
     ams_to_update = ams_ids_in_db.keys & ams_to_seed.keys
-    Rails.logger.info("#{ams_to_insert.length} AMs to create, #{ams_to_delete.length}"\
+    Rails.logger.info("#{ams_to_insert.length} AMs to create, #{ams_to_delete.length} "\
                       "AMs to delete. #{ams_to_update.length} AMs to update.")
     [ams_to_insert, ams_to_delete, ams_to_update]
   end
@@ -52,13 +52,13 @@ class AMManager
       AM.find(ams_ids_in_db[id]).destroy
     end
     Rails.logger.info('...done.')
-    delete_associated_prescriptions(ids_to_delete)
+    delete_associated_prescriptions(ids_to_delete.map { |id| ams_ids_in_db[id] }.uniq)
   end
 
   def self.delete_associated_prescriptions(ids_to_delete)
     Rails.logger.info('Deleting associated prescriptions...')
-    deleted = Prescription.where(from_am_id: ids_to_delete).destroy_all
-    Rails.logger.info("Deleted #{deleted.count} prescriptions.")
+    deleted = Prescription.where(from_am_id: ids_to_delete).delete_all
+    Rails.logger.info("Deleted #{deleted} prescriptions.")
   end
 
   def self.update_existing_ams(ids_to_update, ams_ids_in_db, ams_to_seed)
