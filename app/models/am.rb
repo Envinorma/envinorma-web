@@ -18,15 +18,30 @@ class AM < ApplicationRecord
             format: { with: %r{\Ahttps://www\.legifrance\.gouv\.fr/loda/id/.*\z} }
 
   def data
-    JSON.parse(super.to_json, object_class: OpenStruct)
+    # Lazy argument, loaded once needed (and only once)
+    @data ||= JSON.parse(super.to_json, object_class: OpenStruct)
   end
 
   def classements_with_alineas
-    JSON.parse(super.to_json, object_class: OpenStruct)
+    # Lazy argument, loaded once needed (and only once)
+    @classements_with_alineas ||= JSON.parse(super.to_json, object_class: OpenStruct)
   end
 
   def version_descriptor
-    JSON.parse(super.to_json, object_class: OpenStruct)
+    # Lazy argument, loaded once needed (and only once)
+    @version_descriptor ||= JSON.parse(super.to_json, object_class: OpenStruct)
+  end
+
+  def version_identifier
+    # string which identifies the version of the AM by combining cid and version_descriptor
+    aed_date_identifier = date_parameter_identifier(version_descriptor.aed_date)
+    date_de_mise_en_service_identifier = date_parameter_identifier(version_descriptor.date_de_mise_en_service)
+    "#{cid}-#{aed_date_identifier}-#{date_de_mise_en_service_identifier}"
+  end
+
+  def date_parameter_identifier(date_parameter)
+    [date_parameter.is_used_in_parametrization, date_parameter.left_value,
+     date_parameter.right_value, date_parameter.unknown_classement_date_version].join('-')
   end
 
   def short_title
@@ -57,44 +72,32 @@ class AM < ApplicationRecord
     REGIMES[unique_regime]
   end
 
+  def to_hash
+    {
+      title: title,
+      cid: cid,
+      aida_url: aida_url,
+      legifrance_url: legifrance_url,
+      date_of_signature: date_of_signature,
+      version_descriptor: self['version_descriptor'], # we want the initial value, not the one from the wrapper
+      data: self['data'], # identical to version_descriptor
+      classements_with_alineas: self['classements_with_alineas'], # identical to version_descriptor
+      default_version: default_version
+    }
+  end
+
   class << self
-    def validate_then_recreate(ams_files)
-      Rails.logger.info('Seeding ams...')
-      ams = []
-      ams_files.each_with_index do |json_file, index|
-        am = JSON.parse(File.read(json_file))
-        am = new_am(am)
-        ams << am
-        Rails.logger.info("#{index + 1} ams initialized") if index % 10 == 9
-      end
-      Rails.logger.info("Found #{ams_files.length} ams.")
-      recreate(ams)
-      Rails.logger.info("Inserted #{AM.count} ams in total.")
-    end
-
-    private
-
-    def recreate(ams)
-      Rails.logger.info '...destroying'
-      AM.destroy_all
-      ActiveRecord::Base.connection.reset_pk_sequence!(AM.table_name)
-
-      Rails.logger.info('...creating')
-      ams.each(&:save)
-      Rails.logger.info("...done. Inserted #{AM.count}/#{ams.length} ams.")
-    end
-
-    def new_am(am_json)
+    def from_hash(am_hash)
       am = AM.new(
-        data: am_json,
-        cid: am_json['id'],
-        date_of_signature: am_json['date_of_signature'].to_date,
-        title: am_json.dig('title', 'text'),
-        classements_with_alineas: am_json['classements_with_alineas'],
-        aida_url: am_json['aida_url'],
-        legifrance_url: am_json['legifrance_url'],
-        default_version: default_version?(am_json['version_descriptor']),
-        version_descriptor: am_json['version_descriptor']
+        title: am_hash.dig('title', 'text'),
+        cid: am_hash['id'],
+        aida_url: am_hash['aida_url'],
+        legifrance_url: am_hash['legifrance_url'],
+        date_of_signature: am_hash['date_of_signature'].to_date,
+        version_descriptor: am_hash['version_descriptor'],
+        data: am_hash,
+        classements_with_alineas: am_hash['classements_with_alineas'],
+        default_version: default_version?(am_hash['version_descriptor'])
       )
       raise "error validations #{am.cid} #{am.errors.full_messages}" unless am.validate
 
