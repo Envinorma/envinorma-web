@@ -95,28 +95,28 @@
   .row
     .col
       h2.mt-5 Arrêtés ministériels associés
-      - if @ams.empty?
+      - if @ams_with_applicabilities.empty?
         p.text-secondary Il n’y a pas d’arrêté ministériel disponible pour cette installation.
 
       - else
-        - @ams.each do |am|
+        - @ams_with_applicabilities.each do |am, applicable, warnings|
           .form-group.row
             .col
               .form-check.checkbox-custom
                 = check_box_tag "am_#{am.id}",
-                  '1', am.version_descriptor.applicable,
+                  '1', applicable,
                   class: 'form-check-input js_am_checkbox js_checkbox',
                   'data-am-id': am.id
                 = label_tag "am_#{am.id}",
-                  class: am.version_descriptor.applicable ? 'active' : 'inactive'
+                  class: applicable ? 'active' : 'inactive'
 
                   span.tooltip-underline data-tooltip=am.title
                     = am.short_title
                   small.text-secondary
                     = " - #{classement_infos(am, @installation)}"
 
-            - if am.version_descriptor.applicability_warnings.present?
-              - warnings = am.version_descriptor.applicability_warnings.join(' - ')
+            - if warnings.present?
+              - warnings = warnings.join(' - ')
               li.tooltip-warning data-tooltip=warnings
                 i.fas.fa-exclamation-triangle
 
@@ -140,9 +140,10 @@
                     = " - #{ap.description}"
 
   hr.mb-5.mt-5
-  - if @ams.any? || @aps.any?
+  - if @ams_with_applicabilities.any? || @aps.any?
+      - am_ids = @ams_with_applicabilities.map { |am, _, _| am.id }
       = link_to "Voir les prescriptions pour générer une fiche d'inspection",
-        arretes_path(@installation, am_ids: @ams.pluck(:id), ap_ids: @aps.pluck(:id)),
+        arretes_path(@installation, am_ids: am_ids, ap_ids: @aps.pluck(:id)),
         data: { disable_with: "Voir les prescriptions pour générer une fiche d'inspection" },
         class: 'btn btn-primary mb-4 btn-fixed-bottom',
         id: 'arretes_link_button'

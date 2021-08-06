@@ -19,7 +19,7 @@ class InstallationsController < ApplicationController
       classement.regime.present? ? REGIMES[classement.regime.to_sym] : REGIMES[:empty]
     end
 
-    @ams = compute_applicable_ams_list(@classements)
+    @ams_with_applicabilities = compute_applicable_ams_list(@classements)
   end
 
   def edit; end
@@ -86,7 +86,7 @@ class InstallationsController < ApplicationController
 
   def classement_params
     params.require(:installation).permit(:name,
-                                         classements_attributes: %i[id regime rubrique date_autorisation
+                                         classements_attributes: %i[id regime rubrique alinea date_autorisation
                                                                     date_mise_en_service _destroy])
   end
 end
