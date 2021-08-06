@@ -2,13 +2,7 @@
     "aida_url": "https://aida.ineris.fr/consultation_document/4591",
     "classements": [
         {
-            "alinea": "1",
-            "regime": "D",
-            "rubrique": "2160",
-            "state": "ACTIVE"
-        },
-        {
-            "alinea": "2",
+            "alinea": "",
             "regime": "D",
             "rubrique": "2160",
             "state": "ACTIVE"
@@ -16,10 +10,7 @@
     ],
     "classements_with_alineas": [
         {
-            "alineas": [
-                "1",
-                "2"
-            ],
+            "alineas": [],
             "regime": "D",
             "rubrique": "2160"
         }
