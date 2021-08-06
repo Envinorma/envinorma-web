@@ -4,74 +4,69 @@ class AMManager
   def self.validate_then_recreate(ams_files)
     Rails.logger.info("Seeding #{ams_files.length} ams...")
     ams_to_seed = initialize_ams(ams_files)
-    ams_in_db = fetch_existing_ams
-    recreate(ams_to_seed, ams_in_db)
+    ams_ids_in_db = fetch_existing_am_ids
+    recreate(ams_to_seed, ams_ids_in_db)
     Rails.logger.info("#{AM.count}/#{ams_files.length} ams are in db.")
   end
 
   def self.initialize_ams(ams_files)
     ams = {}
     ams_files.each_with_index do |json_file, index|
-      am_hash = parse_file(json_file)
-      raise "Error: AM file #{json_file} is empty." if am_hash.nil?
-
-      am = AM.from_hash(am_hash)
-      ams[am.version_identifier] = am
+      am = AM.from_hash(parse_file(json_file))
+      ams[am.version_identifier] = json_file
       Rails.logger.info("#{index + 1} ams initialized") if index % 10 == 9
     end
     ams
   end
 
-  def self.fetch_existing_ams
-    ams = {}
-    AM.all.map { |am| ams[am.version_identifier] = am }
-    ams
+  def self.fetch_existing_am_ids
+    AM.all.map { |am| [am.version_identifier, am.id] }.to_h
   end
 
-  def self.recreate(ams_to_seed, ams_in_db)
-    ids_to_insert, ids_to_delete, ids_to_update = split_ids(ams_to_seed, ams_in_db)
+  def self.recreate(ams_to_seed, ams_ids_in_db)
+    ids_to_insert, ids_to_delete, ids_to_update = split_ids(ams_to_seed, ams_ids_in_db)
     insert_new_ams(ids_to_insert, ams_to_seed)
-    delete_old_ams(ids_to_delete, ams_in_db)
-    update_existing_ams(ids_to_update, ams_in_db, ams_to_seed)
+    delete_old_ams(ids_to_delete, ams_ids_in_db)
+    update_existing_ams(ids_to_update, ams_ids_in_db, ams_to_seed)
   end
 
-  def self.split_ids(ams_to_seed, ams_in_db)
+  def self.split_ids(ams_to_seed, ams_ids_in_db)
     # Creates new AMs, updates existing AMs, and deletes AMs that are not in the seed file
-    ams_to_insert = ams_to_seed.keys - ams_in_db.keys
-    ams_to_delete = ams_in_db.keys - ams_to_seed.keys
-    ams_to_update = ams_in_db.keys & ams_to_seed.keys
-    Rails.logger.info("#{ams_to_insert.length} AMs to create, #{ams_to_delete.length}"\
+    ams_to_insert = ams_to_seed.keys - ams_ids_in_db.keys
+    ams_to_delete = ams_ids_in_db.keys - ams_to_seed.keys
+    ams_to_update = ams_ids_in_db.keys & ams_to_seed.keys
+    Rails.logger.info("#{ams_to_insert.length} AMs to create, #{ams_to_delete.length} "\
                       "AMs to delete. #{ams_to_update.length} AMs to update.")
     [ams_to_insert, ams_to_delete, ams_to_update]
   end
 
   def self.insert_new_ams(ids_to_insert, ams_to_seed)
     Rails.logger.info("Inserting #{ids_to_insert.length} AMs...")
-    ids_to_insert.each { |id| ams_to_seed[id].save }
+    ids_to_insert.each { |id| AM.from_hash(parse_file(ams_to_seed[id])).save }
     Rails.logger.info('...done.')
   end
 
-  def self.delete_old_ams(ids_to_delete, ams_in_db)
+  def self.delete_old_ams(ids_to_delete, ams_ids_in_db)
     Rails.logger.info("Deleting #{ids_to_delete.length} AMs...")
     ids_to_delete.each do |id|
-      AM.find(ams_in_db[id].id).destroy
+      AM.find(ams_ids_in_db[id]).destroy
     end
     Rails.logger.info('...done.')
-    delete_associated_prescriptions(ids_to_delete)
+    delete_associated_prescriptions(ids_to_delete.map { |id| ams_ids_in_db[id] }.uniq)
   end
 
   def self.delete_associated_prescriptions(ids_to_delete)
     Rails.logger.info('Deleting associated prescriptions...')
-    deleted = Prescription.where(from_am_id: ids_to_delete).destroy_all
-    Rails.logger.info("Deleted #{deleted.count} prescriptions.")
+    deleted = Prescription.where(from_am_id: ids_to_delete).delete_all
+    Rails.logger.info("Deleted #{deleted} prescriptions.")
   end
 
-  def self.update_existing_ams(ids_to_update, ams_in_db, ams_to_seed)
+  def self.update_existing_ams(ids_to_update, ams_ids_in_db, ams_to_seed)
     Rails.logger.info("Updating #{ids_to_update.length} AMs...")
     nb_content_updated = 0
     ids_to_update.each_with_index do |id, index|
-      am_in_db = ams_in_db[id]
-      am_in_seed = ams_to_seed[id]
+      am_in_db = AM.find(ams_ids_in_db[id])
+      am_in_seed = AM.from_hash(parse_file(ams_to_seed[id]))
       update_hash = am_in_seed.to_hash
       unless same_content?(am_in_db, am_in_seed)
         update_hash['content_updated_at'] = DateTime.now unless same_content?(am_in_db, am_in_seed)

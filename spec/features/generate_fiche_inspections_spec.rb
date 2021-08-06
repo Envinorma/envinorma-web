@@ -198,6 +198,13 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(page).to have_selector '.btn-light', text: 'Grouper par arrêté'
     expect(page).to have_selector '.btn-secondary', text: 'Grouper par thème'
 
+    expect(page).not_to have_content('Certains arrêtés ministériels dont sont issues')
+    # Simulate an update of the AM content
+    AM.first.update(content_updated_at: Time.zone.now)
+    click_link('Grouper par arrêté')
+    expect(page).to have_content('Certains arrêtés ministériels dont sont issues')
+    click_link('Grouper par thème')
+
     click_link('Télécharger la fiche')
     expect(DownloadHelpers.download_content).to have_content 'Air - odeurs'
     expect(DownloadHelpers.download_content).not_to have_content 'Dispositions générales'

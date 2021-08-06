@@ -41,6 +41,19 @@ RSpec.describe AMManager do
       described_class.validate_then_recreate([])
       expect(AM.count).to eq(0)
     end
+
+    it 'deletes the AM and associated prescriptions if not present in new AMs files' do
+      FactoryBot.create(:am, :classement_2521_E)
+      User.create!(id: 1)
+      Installation.create!(id: 1, name: 'name', s3ic_id: '0000.00000')
+      Prescription.create!(alinea_id: '0', content: 'content', from_am_id: AM.first.id, user_id: 1, installation_id: 1)
+      Prescription.create!(alinea_id: '1', content: 'content', from_am_id: nil, user_id: 1, installation_id: 1)
+      Prescription.create!(alinea_id: '2', content: 'content', from_am_id: AM.first.id + 1,
+                           user_id: 1, installation_id: 1)
+      expect do
+        described_class.validate_then_recreate([])
+      end.to change(Prescription, :count).from(3).to(2)
+    end
   end
 
   context 'when #same_content?' do
