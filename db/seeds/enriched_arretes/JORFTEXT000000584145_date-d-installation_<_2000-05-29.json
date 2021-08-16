@@ -2550,9 +2550,7 @@
             "right_value": null,
             "unknown_classement_date_version": null
         },
-        "applicability_warnings": [
-            "Cet arrêté pourrait ne pas être applicable. C'est le cas pour les installations dont l'alinéa de classement est l'alinéa 2."
-        ],
+        "applicability_warnings": [],
         "applicable": true,
         "date_de_mise_en_service": {
             "is_used_in_parametrization": true,

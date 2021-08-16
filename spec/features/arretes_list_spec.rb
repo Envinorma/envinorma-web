@@ -41,7 +41,7 @@ RSpec.describe 'test AM list computation', js: true do
     expect(first('.js_am_checkbox')['data-am-id']).to eq '2'
   end
 
-  it 'displays the applicable version when the is only one classement' do
+  it 'displays the applicable version when there is only one classement' do
     installation_eva_industries = FactoryBot.create(:installation)
 
     # It returns version before 2010 when date is before 2010
@@ -89,6 +89,45 @@ RSpec.describe 'test AM list computation', js: true do
     expect(all('.js_am_checkbox').count).to eq 2
     expect(first('.js_am_checkbox')['data-am-id']).to eq '1'
     expect(all('.js_am_checkbox')[1]['data-am-id']).to eq '4'
+  end
+
+  it 'displays unchecked AM if there is an alinea mismatch on the classement' do
+    installation_eva_industries = FactoryBot.create(:installation)
+    FactoryBot.create(:classement, :classement_1234_D_after2010, installation: installation_eva_industries)
+    Classement.first.update!(alinea: '11') # Change with mismatching alinea
+
+    visit root_path
+    fill_in('autocomplete', with: 'EVA INDUST')
+    click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
+
+    expect(all('.js_am_checkbox').count).to eq 1
+    expect(first('.js_am_checkbox').checked?).to eq false
+  end
+
+  it 'displays checked AM if classement alinea matches am alinea' do
+    installation_eva_industries = FactoryBot.create(:installation)
+    FactoryBot.create(:classement, :classement_1234_D_after2010, installation: installation_eva_industries)
+
+    visit root_path
+    fill_in('autocomplete', with: 'EVA INDUST')
+    click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
+
+    expect(all('.js_am_checkbox').count).to eq 1
+    expect(first('.js_am_checkbox').checked?).to eq true
+  end
+
+  it 'displays checked AM if any classement alinea matches am alinea' do
+    installation_eva_industries = FactoryBot.create(:installation)
+    FactoryBot.create(:classement, :classement_1234_D_after2010, installation: installation_eva_industries)
+    FactoryBot.create(:classement, :classement_1234_D_after2010, installation: installation_eva_industries)
+    Classement.first.update!(alinea: '11') # Change with mismatching alinea
+
+    visit root_path
+    fill_in('autocomplete', with: 'EVA INDUST')
+    click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
+
+    expect(all('.js_am_checkbox').count).to eq 1
+    expect(first('.js_am_checkbox').checked?).to eq true
   end
 end
 # rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength

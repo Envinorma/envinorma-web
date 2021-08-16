@@ -6,12 +6,19 @@
             "regime": "D",
             "rubrique": "2710",
             "state": "ACTIVE"
+        },
+        {
+            "alinea": "2-b",
+            "regime": "D",
+            "rubrique": "2710",
+            "state": "ACTIVE"
         }
     ],
     "classements_with_alineas": [
         {
             "alineas": [
-                "2"
+                "2",
+                "2-b"
             ],
             "regime": "D",
             "rubrique": "2710"

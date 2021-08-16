@@ -6,7 +6,7 @@ module FilterAMs
   def compute_applicable_ams_list(classements)
     classements_by_am_cid = get_ams_cid_from(classements)
     ams = deduce_list_of_ams(classements_by_am_cid)
-    sort_ams(ams)
+    sort_ams(am_with_applicabilities(ams, classements_by_am_cid))
   end
 
   private
@@ -85,7 +85,39 @@ module FilterAMs
     date&.to_datetime&.to_i
   end
 
-  def sort_ams(ams)
-    ams.sort_by(&:rank_score)
+  def sort_ams(ams_and_applicabilities)
+    ams_and_applicabilities.sort_by { |am, applicable, _| [applicable ? 0 : 1, am.rank_score] }
+  end
+
+  ALINEA_WARNING = "Les alinéas auxquels cet arrêté s'applique semblent ne pas correspondre "\
+                   'aux alinéas de classements de cette installation'
+
+  def am_with_applicabilities(ams, classements_by_am_cid)
+    # Add two items to each am :
+    # - applicability : a boolean (true if am is applicable, false otherwise)
+    # - warnings : a list of strings (applicability warning messages)
+    # Most warnings are already stored in the AM, but we add the ones related to alineas
+    am_with_applicabilities = []
+    ams.each do |am|
+      alinea_match = alineas_match?(am, classements_by_am_cid[am.cid])
+      applicability = (am.version_descriptor.applicable && alinea_match)
+      am_warnings = am.version_descriptor.applicability_warnings
+      am_warnings.append(ALINEA_WARNING) unless alinea_match
+      am_with_applicabilities << [am, applicability, am_warnings]
+    end
+    am_with_applicabilities
+  end
+
+  def alineas_match?(am, installation_classements) # rubocop:disable Naming/MethodParameterName
+    # Computes whether at least one classement alinea of the installation matches the alinea defined in
+    # the AM classements
+    alineas_by_rubrique_regime = am.classements_with_alineas.map do |classement|
+      [[classement['rubrique'], classement['regime']], classement['alineas']]
+    end.to_h
+    matches = installation_classements.map do |classement|
+      am_alineas = alineas_by_rubrique_regime[[classement.rubrique, classement.regime]]
+      am_alineas.empty? ? true : am_alineas.include?(classement.alinea)
+    end
+    matches.any?
   end
 end

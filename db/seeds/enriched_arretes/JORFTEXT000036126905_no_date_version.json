@@ -2,7 +2,7 @@
     "aida_url": "https://aida.ineris.fr/consultation_document/39938",
     "classements": [
         {
-            "alinea": "3",
+            "alinea": "3-a",
             "regime": "D",
             "rubrique": "2793",
             "state": "ACTIVE"
@@ -11,7 +11,7 @@
     "classements_with_alineas": [
         {
             "alineas": [
-                "3"
+                "3-a"
             ],
             "regime": "D",
             "rubrique": "2793"
@@ -2132,9 +2132,7 @@
             "right_value": null,
             "unknown_classement_date_version": null
         },
-        "applicability_warnings": [
-            "Cet arrêté pourrait ne pas être applicable. C'est le cas pour les installations dont l'alinéa de classement est l'alinéa 2b."
-        ],
+        "applicability_warnings": [],
         "applicable": true,
         "date_de_mise_en_service": {
             "is_used_in_parametrization": false,
