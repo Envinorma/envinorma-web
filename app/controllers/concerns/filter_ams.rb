@@ -86,7 +86,7 @@ module FilterAMs
   end
 
   def sort_ams(ams_and_applicabilities)
-    ams_and_applicabilities.sort_by { |am, applicability, _| [applicability ? 0 : 1, am.rank_score] }
+    ams_and_applicabilities.sort_by { |am, applicable, _| [applicable ? 0 : 1, am.rank_score] }
   end
 
   ALINEA_WARNING = "Les alinéas auxquels cet arrêté s'applique semblent ne pas correspondre "\

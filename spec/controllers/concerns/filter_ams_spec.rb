@@ -109,7 +109,7 @@ RSpec.describe FilterAMs do # rubocop:disable RSpec/FilePath
       expect(alineas_match?(FactoryBot.create(:am, :fake_am_1_default), [classement])).to eq true
     end
 
-    it 'returns false if all given classements have matching alinea' do
+    it 'returns false if all given classements do not match AM alinea' do
       classement1 = Classement.new(rubrique: '1234', regime: 'D', alinea: '11')
       classement2 = Classement.new(rubrique: '1234', regime: 'D', alinea: 'A')
       expect(alineas_match?(FactoryBot.create(:am, :fake_am_1_default), [classement1, classement2])).to eq false
@@ -119,6 +119,14 @@ RSpec.describe FilterAMs do # rubocop:disable RSpec/FilePath
       classement1 = Classement.new(rubrique: '1234', regime: 'D', alinea: '1')
       classement2 = Classement.new(rubrique: '1234', regime: 'D', alinea: 'A')
       expect(alineas_match?(FactoryBot.create(:am, :fake_am_1_default), [classement1, classement2])).to eq true
+    end
+
+    it 'returns true if given classement matches one of the AM alineas' do
+      classement1 = Classement.new(rubrique: '1234', regime: 'D', alinea: '1')
+      am = FactoryBot.create(:am, :fake_am_1_default)
+      classements_with_alineas = [{ rubrique: '1234', regime: 'D', alineas: %w[1 2] }]
+      am.update!(classements_with_alineas: classements_with_alineas)
+      expect(alineas_match?(FactoryBot.create(:am, :fake_am_1_default), [classement1])).to eq true
     end
 
     it 'returns true if am classement does not depend on alinea' do
