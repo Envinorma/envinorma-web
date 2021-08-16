@@ -8,16 +8,9 @@ class ArretesController < ApplicationController
   before_action :set_installation
 
   def index
-    @ams = []
-    params['am_ids']&.each do |am_id|
-      @ams << AM.find(am_id)
-    end
-
-    @aps = []
-    params['ap_ids']&.each do |ap_id|
-      @aps << AP.find(ap_id)
-    end
-
+    @url_am_ids, @url_ap_ids = url_ids
+    @ams = (params['am_ids'].presence || []).map { |am_id| AM.find(am_id) }
+    @aps = (params['ap_ids'].presence || []).map { |ap_id| AP.find(ap_id) }
     @prescription = Prescription.new
     @alinea_ids = @user.prescription_alinea_ids(@installation)
     @topics_by_section = {}
@@ -34,6 +27,13 @@ class ArretesController < ApplicationController
   end
 
   private
+
+  def url_ids
+    # -1 is there to avoid default behavior of checking all arretes
+    url_am_ids = params['am_ids'].presence || [-1]
+    url_ap_ids = params['ap_ids'].presence || [-1]
+    [url_am_ids, url_ap_ids]
+  end
 
   def set_installation
     @installation = Installation.find(params[:id])
