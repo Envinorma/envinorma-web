@@ -100,11 +100,11 @@
 
       - else
         - @ams_with_applicabilities.each do |am, applicable, warnings|
+          - checked = @url_am_ids.nil? ? applicable : @url_am_ids.include?(am.id)
           .form-group.row
             .col
               .form-check.checkbox-custom
-                = check_box_tag "am_#{am.id}",
-                  '1', applicable,
+                = check_box_tag "am_#{am.id}", '1', checked,
                   class: 'form-check-input js_am_checkbox js_checkbox',
                   'data-am-id': am.id
                 = label_tag "am_#{am.id}",
@@ -126,11 +126,11 @@
         p.text-secondary Il n’y a pas d’arrêté préfectoral disponible pour cette installation.
       - else
         - @aps.each do |ap|
+          - checked = @url_ap_ids.nil? ? true : @url_ap_ids.include?(ap.id)
           .form-group.row
             .col
               .form-check.checkbox-custom
-                = check_box_tag "ap_#{ap.id}",
-                  '1', true,
+                = check_box_tag "ap_#{ap.id}", '1', checked,
                   class: 'form-check-input js_ap_checkbox js_checkbox',
                   'data-ap-id': ap.id
                 = label_tag "ap_#{ap.id}"

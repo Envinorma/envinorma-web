@@ -3,7 +3,8 @@
 .container-fluid
   .row
     .col-2.sidebar-sticky
-      = link_to '< Retour à l’installation', installation_path(@installation), class: 'small align-items-center'
+      = link_to '< Retour à l’installation',
+        installation_path(@installation, { am_ids: @url_am_ids, ap_ids: @url_ap_ids }), class: 'small align-items-center'
 
       hr
 
