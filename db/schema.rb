@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_08_04_160659) do
+ActiveRecord::Schema.define(version: 2021_08_18_101759) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 2021_08_04_160659) do
     t.jsonb "version_descriptor"
     t.boolean "default_version"
     t.datetime "content_updated_at", default: "2021-08-04 16:11:17", null: false
+    t.boolean "is_transverse", default: false, null: false
   end
 
   create_table "aps", force: :cascade do |t|

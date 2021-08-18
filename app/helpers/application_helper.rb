@@ -17,6 +17,8 @@ module ApplicationHelper
   end
 
   def classement_infos(am, installation) # rubocop:disable Naming/MethodParameterName
+    return '' if am.is_transverse
+
     common_classements(am.classements_with_alineas, installation.classements)
   end
 

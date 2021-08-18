@@ -20,6 +20,7 @@ class InstallationsController < ApplicationController
     end
 
     @ams_with_applicabilities = compute_applicable_ams_list(@classements)
+    @transversal_ams = AM.where(is_transverse: true)
 
     @url_am_ids = params.key?('am_ids') ? Set.new(params['am_ids'].map(&:to_i)) : nil
     @url_ap_ids = params.key?('ap_ids') ? Set.new(params['ap_ids'].map(&:to_i)) : nil
