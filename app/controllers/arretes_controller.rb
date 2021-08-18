@@ -22,7 +22,7 @@ class ArretesController < ApplicationController
   end
 
   def generate_doc_with_prescriptions
-    groups = merge_prescriptions(@user.prescriptions, @user.consults_precriptions_by_topics?)
+    groups = merge_prescriptions(@user.prescriptions_for(@installation), @user.consults_precriptions_by_topics?)
     generate_doc(groups, @user.consults_precriptions_by_topics?)
   end
 
