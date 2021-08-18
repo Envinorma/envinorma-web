@@ -13,13 +13,13 @@
           em.text-secondary.small Arrêtés ministériels
           hr.mb-3
           - @ams.each do |am|
-            - classement_infos = classement_infos(am, @installation)
+            - am_infos = am_infos(am, @installation)
             li
               a.btn.btn-sm.btn-light href="#anchor_am_#{am.id}"
                 => am.short_title
                 br
                   small
-                    => classement_infos
+                    => am_infos
 
         - if @aps.any?
           em.text-secondary.small Arrêtés préfectoraux

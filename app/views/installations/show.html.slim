@@ -106,7 +106,7 @@
               = label_tag "am_#{am.id}", class: label_class
                 span.tooltip-underline data-tooltip=am.title
                   = am.short_title
-                - infos = classement_infos(am, @installation)
+                - infos = am_infos(am, @installation)
                 - if infos.present?
                   small.text-secondary
                     = " - #{infos}"
