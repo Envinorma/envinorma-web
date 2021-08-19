@@ -61,6 +61,12 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(page).to have_selector '.counter', text: '7'
     expect(Prescription.count).to eq 7
 
+    fill_in 'Référence', with: 'A'
+    click_button('Ajouter une prescription')
+    page.accept_alert # Content is empty so alert is displayed and prescription is not created
+    expect(page).to have_selector '.counter', text: '7'
+    expect(Prescription.count).to eq 7
+
     fill_in 'Référence', with: 'Art. 4'
     fill_in 'Contenu', with: "Prescriptions 2 copier - coller de l'AP"
     click_button('Ajouter une prescription')
