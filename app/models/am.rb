@@ -9,6 +9,7 @@ class AM < ApplicationRecord
   validates :title, length: { minimum: 10 }
 
   validates :default_version, inclusion: { in: [true, false] }
+  validates :is_transverse, inclusion: { in: [true, false] }
   validates :cid, format: { with: /\A(JORF|LEGI)TEXT[0-9]{12}.*\z/ }
 
   validates :aida_url,
@@ -76,6 +77,8 @@ class AM < ApplicationRecord
     {
       title: title,
       cid: cid,
+      nickname: nickname,
+      is_transverse: is_transverse,
       aida_url: aida_url,
       legifrance_url: legifrance_url,
       date_of_signature: date_of_signature,
@@ -91,6 +94,8 @@ class AM < ApplicationRecord
       am = AM.new(
         title: am_hash.dig('title', 'text'),
         cid: am_hash['id'],
+        nickname: am_hash['nickname'],
+        is_transverse: am_hash['is_transverse'],
         aida_url: am_hash['aida_url'],
         legifrance_url: am_hash['legifrance_url'],
         date_of_signature: am_hash['date_of_signature'].to_date,

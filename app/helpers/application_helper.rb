@@ -16,7 +16,11 @@ module ApplicationHelper
     end.join(' - ')
   end
 
-  def classement_infos(am, installation) # rubocop:disable Naming/MethodParameterName
+  def am_infos(am, installation) # rubocop:disable Naming/MethodParameterName
+    # AM infos returns relevant infos given an AM and an installation
+    # if the AM is transverse, it returns the nickname, otherwise it returns the relevant AM classements.
+    return am.nickname if am.is_transverse
+
     common_classements(am.classements_with_alineas, installation.classements)
   end
 

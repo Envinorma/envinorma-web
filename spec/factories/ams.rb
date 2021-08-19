@@ -7,6 +7,8 @@ FactoryBot.define do
       am = JSON.parse(File.read(path))
       data { am }
       cid { am['id'] }
+      is_transverse { am['is_transverse'] }
+      nickname { '' }
       date_of_signature { am['date_of_signature'].to_date }
       title { am.dig('title', 'text') }
       version_descriptor { am['version_descriptor'] }
@@ -21,6 +23,8 @@ FactoryBot.define do
       am = JSON.parse(File.read(path))
       data { am }
       cid { am['id'] }
+      is_transverse { am['is_transverse'] }
+      nickname { '' }
       date_of_signature { am['date_of_signature'].to_date }
       title { am.dig('title', 'text') }
       version_descriptor { am['version_descriptor'] }
@@ -35,6 +39,8 @@ FactoryBot.define do
       am = JSON.parse(File.read(path))
       data { am }
       cid { am['id'] }
+      is_transverse { am['is_transverse'] }
+      nickname { '' }
       date_of_signature { am['date_of_signature'].to_date }
       title { am.dig('title', 'text') }
       version_descriptor { am['version_descriptor'] }
@@ -49,6 +55,8 @@ FactoryBot.define do
       am = JSON.parse(File.read(path))
       data { am }
       cid { am['id'] }
+      is_transverse { am['is_transverse'] }
+      nickname { '' }
       date_of_signature { am['date_of_signature'].to_date }
       title { am.dig('title', 'text') }
       version_descriptor { am['version_descriptor'] }
@@ -63,6 +71,8 @@ FactoryBot.define do
       am = JSON.parse(File.read(path))
       data { am }
       cid { am['id'] }
+      is_transverse { am['is_transverse'] }
+      nickname { '' }
       date_of_signature { am['date_of_signature'].to_date }
       title { am.dig('title', 'text') }
       version_descriptor { am['version_descriptor'] }

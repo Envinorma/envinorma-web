@@ -17,9 +17,7 @@ module FilterAMs
     classements.each do |classement|
       all_ams.each do |cid, am_classements|
         am_classements.each do |am_classement|
-          am_rubrique = am_classement['rubrique']
-          am_regime = am_classement['regime']
-          next unless am_rubrique == classement.rubrique && am_regime == classement.regime
+          next unless classements_match?(classement, am_classement)
 
           result[cid] = [] unless result.key?(cid)
           result[cid].append(classement)
@@ -27,6 +25,12 @@ module FilterAMs
       end
     end
     result
+  end
+
+  def classements_match?(installation_classement, am_classement)
+    am_rubrique = am_classement['rubrique']
+    am_regime = am_classement['regime']
+    am_rubrique == installation_classement.rubrique && am_regime == installation_classement.regime
   end
 
   def deduce_list_of_ams(classements_by_am_cid)
@@ -90,7 +94,7 @@ module FilterAMs
   end
 
   ALINEA_WARNING = "Les alinéas auxquels cet arrêté s'applique semblent ne pas correspondre "\
-                   'aux alinéas de classements de cette installation'
+                   'aux alinéas de classements de cette installation.'
 
   def am_with_applicabilities(ams, classements_by_am_cid)
     # Add two items to each am :

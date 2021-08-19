@@ -166,7 +166,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     click_button('Air - odeurs')
     expect(page).to have_content("Chapitre VI : Emissions dans l'air")
     find('.select_all', match: :first).click(wait: 4)
-    expect(page).to have_selector '.counter', text: '4'
+    expect(page).to have_selector '.counter', text: '4', wait: 10
     expect(Prescription.count).to eq 4
     expect(Prescription.last.topic).to eq 'AIR_ODEURS'
 
