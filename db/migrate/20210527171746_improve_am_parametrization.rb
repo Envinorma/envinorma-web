@@ -1,4 +1,4 @@
-class ImproveAmParametrization < ActiveRecord::Migration[6.0]
+class ImproveAMParametrization < ActiveRecord::Migration[6.0]
   def change
     remove_column :arretes, :unique_version
     remove_column :arretes, :installation_date_criterion_left

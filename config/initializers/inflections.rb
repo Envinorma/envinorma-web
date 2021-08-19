@@ -13,6 +13,9 @@ ActiveSupport::Inflector.inflections(:en) do |inflect|
 
   inflect.acronym 'AP'
   inflect.acronym 'APs'
+
+  inflect.acronym 'AM'
+  inflect.acronym 'AMs'
 end
 
 # These inflection rules are supported but not enabled by default:

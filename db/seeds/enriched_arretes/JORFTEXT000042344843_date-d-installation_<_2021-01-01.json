@@ -2,13 +2,19 @@
     "aida_url": "https://aida.ineris.fr/consultation_document/43534",
     "classements": [
         {
-            "alinea": null,
+            "alinea": "",
             "regime": "A",
             "rubrique": "2430",
             "state": "ACTIVE"
         },
         {
-            "alinea": null,
+            "alinea": "a",
+            "regime": "A",
+            "rubrique": "3610",
+            "state": "ACTIVE"
+        },
+        {
+            "alinea": "b",
             "regime": "A",
             "rubrique": "3610",
             "state": "ACTIVE"
@@ -21,14 +27,19 @@
             "rubrique": "2430"
         },
         {
-            "alineas": [],
+            "alineas": [
+                "a",
+                "b"
+            ],
             "regime": "A",
             "rubrique": "3610"
         }
     ],
     "date_of_signature": "2020-09-10",
     "id": "JORFTEXT000042344843",
+    "is_transverse": false,
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042344843",
+    "nickname": null,
     "sections": [
         {
             "annotations": {
@@ -17841,9 +17852,7 @@
             "right_value": null,
             "unknown_classement_date_version": null
         },
-        "applicability_warnings": [
-            "Cet arrêté pourrait ne pas être applicable. C'est le cas pour les installations dont l'alinéa de classement est l'alinéa c et la rubrique est 3610."
-        ],
+        "applicability_warnings": [],
         "applicable": true,
         "date_de_mise_en_service": {
             "is_used_in_parametrization": true,

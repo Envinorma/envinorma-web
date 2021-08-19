@@ -2,13 +2,7 @@
     "aida_url": "https://aida.ineris.fr/consultation_document/4591",
     "classements": [
         {
-            "alinea": "1",
-            "regime": "D",
-            "rubrique": "2160",
-            "state": "ACTIVE"
-        },
-        {
-            "alinea": "2",
+            "alinea": "",
             "regime": "D",
             "rubrique": "2160",
             "state": "ACTIVE"
@@ -16,17 +10,16 @@
     ],
     "classements_with_alineas": [
         {
-            "alineas": [
-                "1",
-                "2"
-            ],
+            "alineas": [],
             "regime": "D",
             "rubrique": "2160"
         }
     ],
     "date_of_signature": "2007-12-28",
     "id": "JORFTEXT000018049814",
+    "is_transverse": false,
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000018049814",
+    "nickname": null,
     "sections": [
         {
             "annotations": {

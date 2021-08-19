@@ -2,13 +2,7 @@
     "aida_url": "https://aida.ineris.fr/consultation_document/41029",
     "classements": [
         {
-            "alinea": "B",
-            "regime": "E",
-            "rubrique": "2910",
-            "state": "ACTIVE"
-        },
-        {
-            "alinea": "C",
+            "alinea": "",
             "regime": "E",
             "rubrique": "2910",
             "state": "ACTIVE"
@@ -16,17 +10,16 @@
     ],
     "classements_with_alineas": [
         {
-            "alineas": [
-                "B",
-                "C"
-            ],
+            "alineas": [],
             "regime": "E",
             "rubrique": "2910"
         }
     ],
     "date_of_signature": "2018-08-03",
     "id": "JORFTEXT000037284611",
+    "is_transverse": false,
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037284611",
+    "nickname": null,
     "sections": [
         {
             "annotations": {

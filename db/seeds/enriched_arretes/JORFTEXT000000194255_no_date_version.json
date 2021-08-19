@@ -2,7 +2,7 @@
     "aida_url": "https://aida.ineris.fr/consultation_document/5627",
     "classements": [
         {
-            "alinea": "1",
+            "alinea": "",
             "regime": "D",
             "rubrique": "2680",
             "state": "ACTIVE"
@@ -10,16 +10,16 @@
     ],
     "classements_with_alineas": [
         {
-            "alineas": [
-                "1"
-            ],
+            "alineas": [],
             "regime": "D",
             "rubrique": "2680"
         }
     ],
     "date_of_signature": "1998-06-02",
     "id": "JORFTEXT000000194255",
+    "is_transverse": false,
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000194255",
+    "nickname": null,
     "sections": [
         {
             "annotations": {

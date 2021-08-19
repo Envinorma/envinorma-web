@@ -2,19 +2,7 @@
     "aida_url": "https://aida.ineris.fr/consultation_document/43228",
     "classements": [
         {
-            "alinea": "1",
-            "regime": "E",
-            "rubrique": "2940",
-            "state": "ACTIVE"
-        },
-        {
-            "alinea": "2",
-            "regime": "E",
-            "rubrique": "2940",
-            "state": "ACTIVE"
-        },
-        {
-            "alinea": "3",
+            "alinea": "",
             "regime": "E",
             "rubrique": "2940",
             "state": "ACTIVE"
@@ -22,18 +10,16 @@
     ],
     "classements_with_alineas": [
         {
-            "alineas": [
-                "1",
-                "2",
-                "3"
-            ],
+            "alineas": [],
             "regime": "E",
             "rubrique": "2940"
         }
     ],
     "date_of_signature": "2020-05-12",
     "id": "JORFTEXT000041876133",
+    "is_transverse": false,
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000041876133",
+    "nickname": null,
     "sections": [
         {
             "annotations": {

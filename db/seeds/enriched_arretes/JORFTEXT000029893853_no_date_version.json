@@ -2,7 +2,7 @@
     "aida_url": "https://aida.ineris.fr/consultation_document/33655",
     "classements": [
         {
-            "alinea": null,
+            "alinea": "3",
             "regime": "E",
             "rubrique": "2760",
             "state": "ACTIVE"
@@ -10,14 +10,18 @@
     ],
     "classements_with_alineas": [
         {
-            "alineas": [],
+            "alineas": [
+                "3"
+            ],
             "regime": "E",
             "rubrique": "2760"
         }
     ],
     "date_of_signature": "2014-12-12",
     "id": "JORFTEXT000029893853",
+    "is_transverse": false,
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029893853",
+    "nickname": null,
     "sections": [
         {
             "annotations": {

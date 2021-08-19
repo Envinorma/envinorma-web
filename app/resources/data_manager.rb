@@ -3,9 +3,9 @@
 ActiveRecord::Base.logger.level = 1
 
 class DataManager
-  def self.seed_arretes_and_associations
-    arretes_files = Dir.glob(Rails.root.join('db/seeds/enriched_arretes/*.json'))
-    Arrete.validate_then_recreate(arretes_files)
+  def self.seed_ams_and_associations
+    ams_files = Dir.glob(Rails.root.join('db/seeds/enriched_arretes/*.json'))
+    AMManager.validate_then_recreate(ams_files)
   end
 
   def self.seed_classement_references

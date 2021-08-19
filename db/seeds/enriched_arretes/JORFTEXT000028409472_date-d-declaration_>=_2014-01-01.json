@@ -2,25 +2,25 @@
     "aida_url": "https://aida.ineris.fr/consultation_document/28556",
     "classements": [
         {
-            "alinea": null,
+            "alinea": "",
             "regime": "D",
             "rubrique": "2102",
             "state": "ACTIVE"
         },
         {
-            "alinea": null,
+            "alinea": "",
             "regime": "D",
             "rubrique": "2111",
             "state": "ACTIVE"
         },
         {
-            "alinea": "1",
+            "alinea": "1-c",
             "regime": "D",
             "rubrique": "2101",
             "state": "ACTIVE"
         },
         {
-            "alinea": "2",
+            "alinea": "2-c",
             "regime": "D",
             "rubrique": "2101",
             "state": "ACTIVE"
@@ -45,8 +45,8 @@
         },
         {
             "alineas": [
-                "1",
-                "2",
+                "1-c",
+                "2-c",
                 "3"
             ],
             "regime": "D",
@@ -55,7 +55,9 @@
     ],
     "date_of_signature": "2013-12-27",
     "id": "JORFTEXT000028409472",
+    "is_transverse": false,
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000028409472",
+    "nickname": null,
     "sections": [
         {
             "annotations": {

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class InstallationsController < ApplicationController
-  include FilterArretes
+  include FilterAMs
   include RegimeHelper
   before_action :force_json, only: :search
   before_action :set_installation, only: %i[show edit edit_name update destroy]
@@ -19,7 +19,11 @@ class InstallationsController < ApplicationController
       classement.regime.present? ? REGIMES[classement.regime.to_sym] : REGIMES[:empty]
     end
 
-    @arretes = compute_applicable_arretes_list(@classements)
+    @ams_with_applicabilities = compute_applicable_ams_list(@classements)
+    @transversal_ams = AM.where(is_transverse: true)
+
+    @url_am_ids = params.key?('am_ids') ? Set.new(params['am_ids'].map(&:to_i)) : nil
+    @url_ap_ids = params.key?('ap_ids') ? Set.new(params['ap_ids'].map(&:to_i)) : nil
   end
 
   def edit; end
@@ -86,7 +90,7 @@ class InstallationsController < ApplicationController
 
   def classement_params
     params.require(:installation).permit(:name,
-                                         classements_attributes: %i[id regime rubrique date_autorisation
+                                         classements_attributes: %i[id regime rubrique alinea date_autorisation
                                                                     date_mise_en_service _destroy])
   end
 end
