@@ -137,7 +137,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(Prescription.first.installation_id).to eq Prescription.last.installation_id
 
     # Open modal
-    click_on(class: 'circle-fixed-button')
+    click_on(class: 'circle-fixed-button', wait: 5)
 
     # Generate Fiche d'inspection
     click_link('Télécharger la fiche')
@@ -207,7 +207,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     click_button('Air - odeurs')
     expect(page).to have_content("Chapitre VI : Emissions dans l'air")
-    find('.select_all', match: :first).click(wait: 4)
+    find('.select_all', match: :first).click(wait: 10)
     expect(page).to have_selector '.counter', text: '4', wait: 10
     expect(Prescription.count).to eq 4
     expect(Prescription.last.topic).to eq 'AIR_ODEURS'
