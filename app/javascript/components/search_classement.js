@@ -17,4 +17,5 @@ window.addEventListener('DOMContentLoaded', () => {
 
 const setSelectedValueInHiddenInput = (id) => {
   $('#classement_reference_id')[0].value = id;
+  $('#js_classement_submit')[0].disabled = false;
 };
