@@ -27,10 +27,16 @@ class PrescriptionsController < ApplicationController
   def create_from_ap
     prescription_hash = prescription_params
     prescription_hash[:topic] = TopicHelper::AUCUN
-    Prescription.create(prescription_hash)
-    @from_ap = true
-
-    render_prescriptions
+    if prescription_hash[:content].length.zero? || prescription_hash[:reference].length.zero?
+      @message = 'Les champs contenu et référence ne doivent pas être vides.'
+      respond_to do |format|
+        format.js { render 'shared/alert.js.erb' }
+      end
+    else
+      Prescription.create(prescription_hash)
+      @from_ap = true
+      render_prescriptions
+    end
   end
 
   def destroy
