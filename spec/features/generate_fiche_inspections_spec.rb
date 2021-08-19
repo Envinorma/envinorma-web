@@ -109,6 +109,42 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     page.find('#modalPrescriptions', visible: false)
   end
 
+  it "allows user to select prescription without seeing other users' prescriptions" do
+    visit root_path
+    fill_in('autocomplete', with: 'EVA INDUST')
+    click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
+
+    expect(page).to have_content('EVA INDUSTRIES')
+    expect(page).to have_content('Houille, coke, lignite')
+    click_link("Voir les prescriptions pour générer une fiche d'inspection")
+
+    expect(page).to have_content('AM - 09/04/19')
+
+    expect(User.count).to eq 1
+
+    # Simulate creation of a prescription by another user
+    other_user = User.create
+    Prescription.create!(alinea_id: '2', content: 'content other_user', from_am_id: AM.first.id,
+                         user_id: other_user.id, installation_id: 1, reference: 'ref other user',
+                         text_reference: 'text_ref other user')
+
+    # Create a prescription from a row in a table
+    find('label', text: '500 mg/m3').click(wait: 4)
+    expect(page).to have_selector '.counter', text: '1'
+    expect(Prescription.count).to eq 2
+
+    # Ensure both prescriptions are tied to the same installation
+    expect(Prescription.first.installation_id).to eq Prescription.last.installation_id
+
+    # Open modal
+    click_on(class: 'circle-fixed-button')
+
+    # Generate Fiche d'inspection
+    click_link('Télécharger la fiche')
+    expect(DownloadHelpers.download_content).to have_content '500 mg/m3'
+    expect(DownloadHelpers.download_content).not_to have_content 'other user'
+  end
+
   it 'saves prescriptions for an installation and a user' do
     visit_eva_industries_prescriptions_page
 
