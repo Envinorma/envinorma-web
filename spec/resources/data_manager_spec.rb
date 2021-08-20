@@ -70,4 +70,23 @@ RSpec.describe DataManager do
       expect(AP.find(ap.id).description).to eq('Nouveau document')
     end
   end
+
+  context 'when #seed_aps' do
+    it 'seeds AP only by deleting APs that dont exist anymore and creating APs that dont exist yet' do
+      described_class.seed_installations_and_associations(validate: true, use_sample: true)
+      AP.last.delete
+      AP.create!(georisques_id: 'A/1/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', installation_id: Installation.last.id,
+                 installation_s3ic_id: Installation.last.s3ic_id)
+      described_class.seed_aps(use_sample: true)
+      ids = Set.new(AP.pluck(:georisques_id))
+      expected_ids = Set.new(
+        %w[
+          P/c/b6896c18c4964031a644c67b4618d88c P/4/accddfc8ec3941998ad0588c071c39d4
+          P/c/91e4aacb00994b34898f78f3182f543c P/1/29cdec79afe1484aac478c0d06d79901
+          P/4/8acb34015a601eb2015a602221ca0004
+        ]
+      )
+      expect(ids).to eq(expected_ids)
+    end
+  end
 end

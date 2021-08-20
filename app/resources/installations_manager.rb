@@ -11,18 +11,30 @@ class InstallationsManager
     upsert_from_files(installations_file, classements_file, aps_file)
   end
 
+  def self.seed_aps(aps_file)
+    # Seeds only AP, without modifying installations and prescriptions
+    fake_installation = create_fake_installation_for_validation
+    operate_from_file(aps_file, 5000, AP, 'validation', nil)
+    fake_installation.destroy if fake_installation.present?
+    upsert_aps(aps_file, load_s3ic_id_to_envinorma_id)
+  end
+
   def self.validate_from_files(installations_file, classements_file, aps_file)
     Rails.logger.info 'STARTING VALIDATION OF FILES'
-    fake_installation = if Installation.where(id: 1).first.nil?
-                          # We create a fake installation to which all APs and classements will be attached.
-                          # It enables validation and the fake installation is removed juste after.
-                          Installation.create!(id: 1, s3ic_id: '0000.00000', name: 'test')
-                        end
+    fake_installation = create_fake_installation_for_validation
     operate_from_file(installations_file, 1000, Installation, 'validation', {})
     operate_from_file(classements_file, 5000, Classement, 'validation', nil)
     operate_from_file(aps_file, 5000, AP, 'validation', nil)
     fake_installation.destroy if fake_installation.present?
     Rails.logger.info 'VALIDATION OF FILES DONE'
+  end
+
+  def self.create_fake_installation_for_validation
+    # We create a fake installation to which all APs and classements will be attached.
+    # It enables validation and the fake installation is removed juste after.
+    return Installation.create!(id: 1, s3ic_id: '0000.00000', name: 'test') if Installation.where(id: 1).first.nil?
+
+    nil
   end
 
   def self.upsert_from_files(installations_file, classements_file, aps_file)

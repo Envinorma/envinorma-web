@@ -13,6 +13,11 @@ class DataManager
     InstallationsManager.seed(validate, installations_file, classements_file, aps_file)
   end
 
+  def self.seed_aps(use_sample: false)
+    _, _, aps_file = fetch_installation_files(use_sample)
+    InstallationsManager.seed_aps(aps_file)
+  end
+
   def self.fetch_installation_files(use_sample)
     seed_folder = Rails.root.join('db/seeds')
 
