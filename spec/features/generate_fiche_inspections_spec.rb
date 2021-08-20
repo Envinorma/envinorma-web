@@ -99,6 +99,11 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(page).to have_selector '.prescription', count: '7'
     expect(Prescription.count).to eq 7
 
+    # Button is visible with small screens
+    page.driver.browser.manage.window.resize_to(600, 600)
+    click_link('Télécharger la fiche')
+    page.driver.browser.manage.window.resize_to(1200, 800)
+
     # Delete all prescriptions from modal
     click_link('Tout supprimer')
     expect(page).to have_selector '.prescription', count: '0'
