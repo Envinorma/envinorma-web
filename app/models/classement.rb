@@ -35,16 +35,7 @@ class Classement < ApplicationRecord
   end
 
   class << self
-    def create_hash_from_csv_row(classement_raw, s3ic_id_to_envinorma_id)
-      s3ic_id = classement_raw['s3ic_id']
-      if s3ic_id_to_envinorma_id.nil?
-        installation_id = 1
-      else
-        raise "s3ic_id #{s3ic_id} not found" unless s3ic_id_to_envinorma_id.key?(s3ic_id)
-
-        installation_id = s3ic_id_to_envinorma_id[s3ic_id]
-      end
-
+    def create_hash_from_csv_row(classement_raw)
       {
         'rubrique' => classement_raw['rubrique'],
         'regime' => classement_raw['regime'],
@@ -56,7 +47,6 @@ class Classement < ApplicationRecord
         'date_autorisation' => classement_raw['date_autorisation']&.to_date,
         'date_mise_en_service' => classement_raw['date_mise_en_service']&.to_date,
         'volume' => "#{classement_raw['volume']} #{classement_raw['unit']}",
-        'installation_id' => installation_id,
         'created_at' => DateTime.now,
         'updated_at' => DateTime.now
       }
