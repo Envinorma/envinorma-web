@@ -20,19 +20,19 @@ class AP < ApplicationRecord
   end
 
   class << self
-    def create_hash_from_csv_row(ap_raw, s3ic_id_to_envinorma_id)
-      installation_id = if s3ic_id_to_envinorma_id.key?(ap_raw['installation_s3ic_id'])
-                          s3ic_id_to_envinorma_id[ap_raw['installation_s3ic_id']]
-                        else
-                          1
-                        end
+    def create_hash_from_csv_row(ap_raw)
       {
         'installation_s3ic_id' => ap_raw['installation_s3ic_id'],
         'description' => ap_raw['description'],
         'date' => ap_raw['date'],
-        'georisques_id' => ap_raw['georisques_id'],
-        'installation_id' => installation_id
+        'georisques_id' => ap_raw['georisques_id']
       }
+    end
+
+    def delete_from_georisques_ids(georisques_ids_to_delete)
+      Rails.logger.info "Deleting #{georisques_ids_to_delete.count} APs..."
+      nb_aps = AP.where(georisques_id: georisques_ids_to_delete).delete_all
+      Rails.logger.info("...deleted #{nb_aps} APs.")
     end
   end
 end
