@@ -17,4 +17,10 @@ class Prescription < ApplicationRecord
   def rank_array
     rank.nil? ? [] : rank.split('.').map(&:to_i)
   end
+
+  def contains_table?
+    return false if content.length <= 1
+
+    content[0] == '{'
+  end
 end
