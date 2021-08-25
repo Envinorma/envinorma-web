@@ -14,6 +14,6 @@ module PrescriptionHelper
   def html_content(prescription)
     return content_with_slitted_lines(prescription.content) unless prescription.contains_table?
 
-    create_table(JSON.parse(prescription.content, object_class: OpenStruct))
+    create_table(prescription.table)
   end
 end

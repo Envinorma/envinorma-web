@@ -4,28 +4,25 @@ module Odf
   module Table
     include Odf::XmlHelpers
 
-    def insert_table(xml_string, table_name, table_to_insert)
-      insert_table_in_xml(Nokogiri::XML(xml_string), table_name, table_to_insert).to_s
+    class TableVariables
+      attr_reader :name, :struct_to_insert
+
+      def initialize(name, struct_to_insert)
+        @name = name
+        @struct_to_insert = struct_to_insert
+      end
     end
 
-    def insert_table_in_xml(xml, table_name, table_to_insert)
-      table = find_table(xml, table_name)
+    def insert_table(xml, table_variables)
+      table = find_table(xml, table_variables.name)
       ensure_one_cell(table)
-      generate_table(table, table_to_insert)
+      generate_table(table, table_variables.struct_to_insert)
       xml
     end
 
+    CELL_CONTENT = '[CONTENT]'
+
     private
-
-    def find_table(xml, table_name)
-      results = xml.xpath("//table:table[@table:name='#{table_name}']")
-
-      raise "Table #{table_name} not found" if results.empty?
-
-      raise "Multiple tables #{table_name} found" if results.size > 1
-
-      results.first
-    end
 
     def ensure_one_cell(table)
       raise 'Table must have exactly one cell' if table.xpath('.//table:table-cell').size != 1
@@ -75,7 +72,7 @@ module Odf
 
     def generate_cell(template_cell, cell)
       new_cell = deep_clone(template_cell)
-      replace_variable(new_cell, '[CONTENT]', cell.content.text)
+      replace_variable(new_cell, CELL_CONTENT, cell.content.text)
       new_cell['table:number-rows-spanned'] = cell.rowspan if cell.rowspan.to_i != 1
       new_cell['table:number-columns-spanned'] = cell.colspan if cell.colspan.to_i != 1
       new_cell

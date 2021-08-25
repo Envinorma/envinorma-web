@@ -219,17 +219,17 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     click_button('Bruit - vibrations')
     expect(page).to have_content('Chapitre VII : Bruit, vibration et émissions lumineuses')
-    find('.select_all', match: :first).click(wait: 4)
-    expect(page).to have_selector '.counter', text: '9'
-    expect(Prescription.count).to eq 9
+    find('.select_all', match: :first).click(wait: 10)
+    expect(page).to have_selector '.counter', text: '8', wait: 10
+    expect(Prescription.count).to eq 8
     expect(Prescription.last.topic).to eq 'BRUIT_VIBRATIONS'
 
     # Create prescriptions from AP
     fill_in 'Référence', with: 'Art. 3'
     fill_in 'Contenu', with: "Prescriptions copier - coller de l'AP"
     click_button('Ajouter une prescription')
-    expect(page).to have_selector '.counter', text: '10'
-    expect(Prescription.count).to eq 10
+    expect(page).to have_selector '.counter', text: '9'
+    expect(Prescription.count).to eq 9
 
     find(class: 'circle-fixed-button').click(wait: 4)
 

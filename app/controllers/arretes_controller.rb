@@ -4,7 +4,6 @@ class ArretesController < ApplicationController
   include TopicHelper
   include FilterAMs
   include FicheInspectionHelper
-  include OdfHelper
   before_action :set_installation
 
   def index
@@ -21,9 +20,8 @@ class ArretesController < ApplicationController
     @topics = TOPICS
   end
 
-  def generate_doc_with_prescriptions
-    groups = merge_prescriptions(@user.prescriptions_for(@installation), @user.consults_precriptions_by_topics?)
-    generate_doc(groups, @user.consults_precriptions_by_topics?)
+  def generate_fiche_inspection
+    send_fiche_inspection(@user.prescriptions_for(@installation), @user.consults_precriptions_by_topics?)
   end
 
   private

@@ -1,17 +1,25 @@
 # frozen_string_literal: true
 
 module Odf
-  module TableTemplate
+  module TableFromRows
     include Odf::XmlHelpers
 
-    def fill_table(xml_string, table_name, variable_names, variable_values)
-      fill_table_in_xml(Nokogiri::XML(xml_string), table_name, variable_names, variable_values).to_s
+    class TableFromRowsVariables
+      attr_reader :name, :variable_names, :variable_values
+
+      def initialize(name, variable_names, variable_values)
+        @name = name
+        @variable_names = variable_names
+        @variable_values = variable_values
+      end
     end
 
-    def fill_table_in_xml(xml, table_name, variable_names, variable_values)
-      table = find_table(xml, table_name)
-      template_row = find_template_row(table, variable_names)
-      rows_to_add = generate_rows_from_template(template_row, variable_names, variable_values)
+    def fill_table_rows(xml, table_row_variables)
+      table = find_table(xml, table_row_variables.name)
+      template_row = find_template_row(table, table_row_variables.variable_names)
+      rows_to_add = generate_rows_from_template(
+        template_row, table_row_variables.variable_names, table_row_variables.variable_values
+      )
       rows_to_add.each { |row| table.add_child(row) }
       template_row.remove
       xml
@@ -28,16 +36,6 @@ module Odf
       variable_hash = variable_names.zip(variable_values).to_h
       replace_variables(row, variable_hash)
       row
-    end
-
-    def find_table(xml, table_name)
-      results = xml.xpath("//table:table[@table:name='#{table_name}']")
-
-      raise "Table #{table_name} not found" if results.empty?
-
-      raise "Multiple tables #{table_name} found" if results.size > 1
-
-      results.first
     end
 
     def find_template_row(table, variable_names)

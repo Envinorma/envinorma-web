@@ -23,4 +23,8 @@ class Prescription < ApplicationRecord
 
     content[0] == '{'
   end
+
+  def table
+    JSON.parse(content, object_class: OpenStruct)
+  end
 end
