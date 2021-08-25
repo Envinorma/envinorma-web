@@ -12,7 +12,7 @@ module PrescriptionHelper
   end
 
   def html_content(prescription)
-    return content_with_slitted_lines(prescription.content) unless prescription.contains_table?
+    return content_with_slitted_lines(prescription.content) unless prescription.is_table?
 
     create_table(prescription.table)
   end

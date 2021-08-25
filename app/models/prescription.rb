@@ -18,13 +18,9 @@ class Prescription < ApplicationRecord
     rank.nil? ? [] : rank.split('.').map(&:to_i)
   end
 
-  def contains_table?
-    return false if content.length <= 1
-
-    content[0] == '{'
-  end
-
   def table
+    raise 'Cannot read table' unless is_table?
+
     JSON.parse(content, object_class: OpenStruct)
   end
 end

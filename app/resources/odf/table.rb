@@ -20,7 +20,7 @@ module Odf
       xml
     end
 
-    CELL_CONTENT = '[CONTENT]'
+    CELL_PLACEHOLDER = '[CONTENT]'
 
     private
 
@@ -72,7 +72,7 @@ module Odf
 
     def generate_cell(template_cell, cell)
       new_cell = deep_clone(template_cell)
-      replace_variable(new_cell, CELL_CONTENT, cell.content.text)
+      replace_variable(new_cell, CELL_PLACEHOLDER, cell.content.text)
       new_cell['table:number-rows-spanned'] = cell.rowspan if cell.rowspan.to_i != 1
       new_cell['table:number-columns-spanned'] = cell.colspan if cell.colspan.to_i != 1
       new_cell

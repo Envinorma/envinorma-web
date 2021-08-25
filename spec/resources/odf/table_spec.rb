@@ -45,7 +45,7 @@ RSpec.describe Odf::Table do
           <table:table table:name="Table1">
             <table:table-column />
             <table:table-row>
-              <table:table-cell>#{Odf::Table::CELL_CONTENT}</table:table-cell>
+              <table:table-cell>#{Odf::Table::CELL_PLACEHOLDER}</table:table-cell>
             </table:table-row>
           </table:table>
         </root>

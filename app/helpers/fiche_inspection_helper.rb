@@ -82,7 +82,7 @@ module FicheInspectionHelper
     sort_and_group_by_text(prescriptions).each do |text_reference, group|
       group.each do |section_reference, subgroup|
         contents = subgroup.map do |prescription|
-          if prescription.contains_table?
+          if prescription.is_table?
             table_index += 1
             tables << prescription.table
             "Voir tableau #{table_index}"

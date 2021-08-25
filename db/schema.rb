@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_08_18_163253) do
+ActiveRecord::Schema.define(version: 2021_08_25_174418) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -96,6 +96,7 @@ ActiveRecord::Schema.define(version: 2021_08_18_163253) do
     t.string "rank"
     t.bigint "installation_id"
     t.string "topic"
+    t.boolean "is_table", default: false, null: false
     t.index ["installation_id"], name: "index_prescriptions_on_installation_id"
     t.index ["user_id"], name: "index_prescriptions_on_user_id"
   end
