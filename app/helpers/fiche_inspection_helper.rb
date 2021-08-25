@@ -2,10 +2,11 @@
 
 module FicheInspectionHelper
   include TopicHelper
+  include Odf::GenerateOdf
 
-  def generate_doc(prescriptions, group_by_topics)
-    template_name = group_by_topics ? 'template_with_topics' : 'template'
-    template_path = File.join(File.dirname(__FILE__), "../../db/templates/#{template_name}.odt")
+  def generate_fiche_inspection(prescriptions, group_by_topics)
+    input_template = template_path(group_by_topics)
+
 
     fiche_inspection = ODFReport::Report.new(template_path) do |r|
       insert_data(r, prescriptions, group_by_topics)
@@ -15,6 +16,11 @@ module FicheInspectionHelper
   end
 
   private
+
+  def template_path(group_by_topics)
+    template_name = group_by_topics ? 'fiche_inspection_topics' : 'fiche_inspection'
+    File.join(File.dirname(__FILE__), "../../db/templates/#{template_name}.odt")
+  end
 
   def insert_data(report, prescriptions, group_by_topics)
     return insert_prescriptions_table(report, prescriptions) unless group_by_topics
@@ -42,10 +48,7 @@ module FicheInspectionHelper
     table.add_column(:prescription, :content)
   end
 
-  def send_doc(fiche_inspection)
-    send_data fiche_inspection.generate,
-              type: 'application/vnd.oasis.opendocument.text',
-              disposition: 'inline',
-              filename: 'fiche_inspection.odt'
+  def send(path)
+    send_file path, type: 'application/vnd.oasis.opendocument.text', filename: 'fiche_inspection.odt'
   end
 end
