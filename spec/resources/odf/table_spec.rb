@@ -38,41 +38,40 @@ RSpec.describe Odf::Table do
     end
   end
 
-  context 'when #insert_table' do
+  context 'when #table_from_template' do
     it 'generates table in table named Table1 from table struct' do # rubocop:disable RSpec/ExampleLength
-      xml_str = <<~XML
-        <root xmlns:text="c" xmlns:table="d">
-          <table:table table:name="Table1">
-            <table:table-column />
-            <table:table-row>
-              <table:table-cell>#{Odf::Table::CELL_PLACEHOLDER}</table:table-cell>
-            </table:table-row>
-          </table:table>
-        </root>
-      XML
+      xml = Nokogiri::XML(
+        <<~XML
+          <root xmlns:text="c" xmlns:table="d">
+            <table:table table:name="Table1">
+              <table:table-column />
+              <table:table-row>
+                <table:table-cell>[PLACEHOLDER]</table:table-cell>
+              </table:table-row>
+            </table:table>
+          </root>
+        XML
+      )
       path = Rails.root.join('spec/fixtures/fiche_inspection/table.json')
       table_struct = JSON.parse(File.read(path), object_class: OpenStruct)
-      xml = Nokogiri::XML(xml_str)
-      table = Odf::Table::TableVariables.new('Table1', table_struct)
+      table_template = xml.at_xpath('//table:table[@table:name="Table1"]')
       expected = <<~XML
-        <?xml version="1.0"?>
-        <root xmlns:text="c" xmlns:table="d">
-          <table:table table:name="Table1">
-            <table:table-column />
-            <table:table-column />
-            <table:table-row>
-              <table:table-cell>A</table:table-cell>
-              <table:table-cell>B</table:table-cell>
-            </table:table-row>
-            <table:table-row>
-              <table:table-cell>C</table:table-cell>
-              <table:table-cell>D</table:table-cell>
-            </table:table-row>
-          </table:table>
-        </root>
+        <table:table table:name="Table1">
+          <table:table-column />
+          <table:table-column />
+          <table:table-row>
+            <table:table-cell>A</table:table-cell>
+            <table:table-cell>B</table:table-cell>
+          </table:table-row>
+          <table:table-row>
+            <table:table-cell>C</table:table-cell>
+            <table:table-cell>D</table:table-cell>
+          </table:table-row>
+        </table:table>
       XML
 
-      expect(insert_table(xml, table).to_s.gsub(/\s/, '')).to eq(expected.gsub(/\s/, ''))
+      result = table_from_template(table_template, table_struct, '[PLACEHOLDER]').to_s.gsub(/\s/, '')
+      expect(result).to eq(expected.gsub(/\s/, ''))
     end
   end
 end

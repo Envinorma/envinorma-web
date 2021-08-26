@@ -2,30 +2,34 @@
 
 module Odf
   module Section
-    include Odf::Table
     include Odf::TableFromRows
+    include Odf::Variables
     include Odf::XmlHelpers
 
     class SectionVariables
-      attr_reader :name, :variables_hashes, :tables, :tables_from_rows
+      attr_reader :name, :variables, :tables_from_rows
 
-      def initialize(name, variables_hashes, tables, tables_from_rows)
-        ensure_same_length([variables_hashes, tables, tables_from_rows],
-                           'All input lists must have same length')
+      def initialize(name, variables, tables_from_rows)
+        ensure_same_length([variables, tables_from_rows], 'All input lists must have same length')
         @name = name
-        @variables_hashes = variables_hashes
-        @tables = tables
+        @variables = variables
         @tables_from_rows = tables_from_rows
       end
 
       def ensure_same_length(tables, error_message)
         raise(ArgumentError, error_message) if tables.map(&:length).uniq.length != 1
       end
+
+      def template_table_names
+        in_variables = variables.map { |vars| vars.map(&:template_table_name) }.flatten
+        in_tables = tables_from_rows.map { |tables| tables.map(&:template_table_names) }.flatten
+        (in_variables + in_tables).uniq
+      end
     end
 
-    def fill_section(xml, section_variables)
+    def fill_section(xml, section_variables, table_templates)
       template_section = find_section(xml, section_variables.name)
-      new_sections = generate_sections_from_template(template_section, section_variables)
+      new_sections = generate_sections_from_template(template_section, section_variables, table_templates)
       new_sections.each { |sec| template_section.parent.add_child(sec) }
       template_section.remove
       xml
@@ -43,18 +47,16 @@ module Odf
       results.first
     end
 
-    def generate_sections_from_template(template_section, section_variables)
-      objects = section_variables.variables_hashes.zip(section_variables.tables_from_rows, section_variables.tables)
-      objects.map do |variables_hash, table_from_rows, tables|
-        generate_section_from_template(template_section, variables_hash, table_from_rows, tables)
+    def generate_sections_from_template(template_section, section_variables, table_templates)
+      section_variables.variables.zip(section_variables.tables_from_rows).map do |variables, table_from_rows|
+        generate_section_from_template(template_section, variables, table_from_rows, table_templates)
       end
     end
 
-    def generate_section_from_template(template_section, variables_hash, table_from_rows, tables)
+    def generate_section_from_template(template_section, variables, table_from_rows, table_templates)
       new_section = deep_clone(template_section)
-      replace_variables(new_section, variables_hash)
-      table_from_rows.each { |table_from_row| fill_table_rows(new_section, table_from_row) }
-      tables.each { |table| insert_table(new_section, table) }
+      replace_variables(new_section, variables, table_templates)
+      table_from_rows.each { |table_from_row| fill_table_rows(new_section, table_from_row, table_templates) }
       new_section
     end
   end

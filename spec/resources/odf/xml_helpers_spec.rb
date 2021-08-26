@@ -7,23 +7,31 @@ RSpec.configure do |c|
 end
 
 RSpec.describe Odf::XmlHelpers do
-  context 'when #replace_variables' do
+  context 'when #replace_in_xml' do
     it 'does nothing when xml does not contain variable' do
       xml = Nokogiri::XML('<foo/>')
-      replace_variables(xml, { 'VARIABLE' => 'VALUE' })
+      replace_in_xml(xml, 'VARIABLE', 'VALUE', true)
       expect(xml.xpath('foo').to_s).to eq '<foo/>'
-    end
-
-    it 'does nothing when xml there are no variables to replace' do
-      xml = Nokogiri::XML('<foo>VARIABLE</foo>')
-      replace_variables(xml, {})
-      expect(xml.xpath('foo').to_s).to eq '<foo>VARIABLE</foo>'
     end
 
     it 'replaces all variable occurrences in xml' do
       xml = Nokogiri::XML('<root><foo>VAR_1</foo><bar><foo>VAR_2</foo>VAR_1</bar></root>')
-      replace_variables(xml, { 'VAR_1' => 'VALUE_1', 'VAR_2' => 'VALUE_2' })
-      expected = Nokogiri::XML('<root><foo>VALUE_1</foo><bar><foo>VALUE_2</foo>VALUE_1</bar></root>')
+      replace_in_xml(xml, 'VAR_1', 'VALUE_1', true)
+      expected = Nokogiri::XML('<root><foo>VALUE_1</foo><bar><foo>VAR_2</foo>VALUE_1</bar></root>')
+      expect(xml.to_s).to eq expected.to_s
+    end
+
+    it 'sanitizes and replaces the value when sanitize is true' do
+      xml = Nokogiri::XML('<root><foo>VAR_1</foo></root>')
+      replace_in_xml(xml, 'VAR_1', "FOO\nBAR", true)
+      expected = Nokogiri::XML('<root><foo>FOO<text:line-break/>BAR</foo></root>')
+      expect(xml.to_s).to eq expected.to_s
+    end
+
+    it 'replaces without sanitizing the value when sanitize is true' do
+      xml = Nokogiri::XML('<root><foo>VAR_1</foo></root>')
+      replace_in_xml(xml, 'VAR_1', "FOO\nBAR", false)
+      expected = Nokogiri::XML("<root><foo>FOO\nBAR</foo></root>")
       expect(xml.to_s).to eq expected.to_s
     end
   end

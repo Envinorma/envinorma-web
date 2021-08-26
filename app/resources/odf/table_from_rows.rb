@@ -2,24 +2,39 @@
 
 module Odf
   module TableFromRows
+    include Odf::Variables
     include Odf::XmlHelpers
 
-    class TableFromRowsVariables
-      attr_reader :name, :variable_names, :variable_values
+    class TableRows
+      attr_reader :table_name, :row_variables
 
-      def initialize(name, variable_names, variable_values)
-        @name = name
-        @variable_names = variable_names
-        @variable_values = variable_values
+      def initialize(table_name, row_variables)
+        check_row_variables(row_variables)
+        @table_name = table_name
+        @row_variables = row_variables
+      end
+
+      def check_row_variables(row_variables)
+        raise 'No row variables given' if row_variables.empty?
+
+        # Check that all rows have the same placeholders
+        placeholder_lists = row_variables.map { |variables| variables.map(&:placeholder) }
+        raise 'Not all rows have the same placeholders' if placeholder_lists.uniq.size > 1
+      end
+
+      def variable_placeholders
+        @row_variables[0].map(&:placeholder)
+      end
+
+      def template_table_names
+        row_variables.map { |vars| vars.map(&:template_table_name) }.flatten.uniq
       end
     end
 
-    def fill_table_rows(xml, table_row_variables)
-      table = find_table(xml, table_row_variables.name)
-      template_row = find_template_row(table, table_row_variables.variable_names)
-      rows_to_add = generate_rows_from_template(
-        template_row, table_row_variables.variable_names, table_row_variables.variable_values
-      )
+    def fill_table_rows(xml, table_rows, table_templates)
+      table = find_table(xml, table_rows.table_name)
+      template_row = find_template_row(table, table_rows.variable_placeholders)
+      rows_to_add = generate_rows_from_template(template_row, table_rows.row_variables, table_templates)
       rows_to_add.each { |row| table.add_child(row) }
       template_row.remove
       xml
@@ -27,14 +42,13 @@ module Odf
 
     private
 
-    def generate_rows_from_template(template_row, variable_names, variable_values)
-      variable_values.map { |values| generate_row_from_template(template_row, variable_names, values) }
+    def generate_rows_from_template(template_row, rows, table_templates)
+      rows.map { |variables| generate_row_from_template(template_row, variables, table_templates) }
     end
 
-    def generate_row_from_template(template_row, variable_names, variable_values)
+    def generate_row_from_template(template_row, variables, table_templates)
       row = deep_clone(template_row)
-      variable_hash = variable_names.zip(variable_values).to_h
-      replace_variables(row, variable_hash)
+      replace_variables(row, variables, table_templates)
       row
     end
 

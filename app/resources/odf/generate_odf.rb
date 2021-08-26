@@ -1,12 +1,70 @@
 # frozen_string_literal: true
 
+require 'zip'
+
 module Odf
   module GenerateOdf
-    include Odf::Table
     include Odf::TableFromRows
     include Odf::Section
+    include Odf::XmlHelpers
 
     CONTENT_NAME = 'content.xml'
+
+    class OdfGenerator
+      include Odf::TableFromRows
+      include Odf::Section
+      include Odf::GenerateOdf
+
+      attr_reader :section_variables, :table_from_rows_variables
+
+      def initialize(section_variables, table_from_rows_variables)
+        @section_variables = section_variables
+        @table_from_rows_variables = table_from_rows_variables
+      end
+
+      def template_table_names
+        in_sections = section_variables.map(&:template_table_names).flatten
+        in_tables = table_from_rows_variables.map(&:template_table_names).flatten
+        (in_sections + in_tables).uniq.filter(&:present?)
+      end
+
+      def fill_template(input_file, output_file)
+        xml = Nokogiri::XML(load_content_xml(input_file))
+        table_templates = template_table_names.index_with { |name| find_table(xml, name) }
+        section_variables.each { |section| fill_section(xml, section, table_templates) }
+        table_from_rows_variables.each { |table_rows| fill_table_rows(xml, table_rows, table_templates) }
+        remove_template_tables(xml, table_templates.keys)
+        write_new_document(input_file, xml.to_s, output_file)
+      end
+    end
+
+    def remove_template_tables(xml, table_names)
+      remove_tables(xml, table_names)
+    end
+
+    def write_new_document(input_filename, new_content_xml, new_filename)
+      Dir.mktmpdir do |tmp_dir|
+        names = unzip_file(input_filename, tmp_dir)
+        File.open(File.join(tmp_dir, CONTENT_NAME), 'wb') do |f|
+          f.write(new_content_xml.encode(Encoding::UTF_8))
+        end
+        zip_files(names, tmp_dir, new_filename)
+      end
+    end
+
+    def load_content_xml(filename)
+      Zip::File.open(filename) do |zipfile|
+        zipfile.read(CONTENT_NAME).force_encoding(Encoding::UTF_8)
+      end
+    end
+
+    private
+
+    def remove_tables(xml, table_names)
+      table_names.each do |table_name|
+        xml.xpath("//table:table[@table:name='#{table_name}']").remove
+      end
+    end
 
     def zip_files(base_names, directory, zip_filename)
       Zip::File.open(zip_filename, create: true) do |zipfile|
@@ -28,37 +86,5 @@ module Odf
       end
       names
     end
-
-    def write_new_document(input_filename, new_content_xml, new_filename)
-      Dir.mktmpdir do |tmp_dir|
-        names = unzip_file(input_filename, tmp_dir)
-        File.open(File.join(tmp_dir, CONTENT_NAME), 'wb') do |f|
-          f.write(new_content_xml.encode(Encoding::UTF_8))
-        end
-        zip_files(names, tmp_dir, new_filename)
-      end
-    end
-
-    def load_content_xml(filename)
-      Zip::File.open(filename) do |zipfile|
-        zipfile.read(CONTENT_NAME).force_encoding(Encoding::UTF_8)
-      end
-    end
-
-    def delete_file_if_exists(filename)
-      File.delete(filename) if File.exist?(filename)
-    end
-
-    # rubocop:disable Metrics/ParameterLists
-    def fill_template(input_file, output_file, simple_variables, section_variables, table_variables,
-                      table_from_rows_variables)
-      xml = Nokogiri::XML(load_content_xml(input_file))
-      replace_variables(xml, simple_variables)
-      section_variables.each { |section| fill_section(xml, section) }
-      table_variables.each { |table| fill_table(xml, table) }
-      table_from_rows_variables.each { |table_rows| fill_table_rows(xml, table_rows) }
-      write_new_document(input_file, xml.to_s, output_file)
-    end
-    # rubocop:enable Metrics/ParameterLists
   end
 end

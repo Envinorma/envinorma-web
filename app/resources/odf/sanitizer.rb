@@ -7,6 +7,8 @@ module Odf
       odf_linebreak(txt)
     end
 
+    ODF_LINEBREAK = '<text:line-break/>'
+
     private
 
     HTML_ESCAPE = {
@@ -25,7 +27,7 @@ module Odf
     def odf_linebreak(txt)
       return '' unless txt
 
-      txt.to_s.gsub("\n", '<text:line-break/>')
+      txt.to_s.gsub("\n", ODF_LINEBREAK)
     end
   end
 end
