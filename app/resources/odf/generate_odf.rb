@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'zip'
-
 module Odf
   module GenerateOdf
     include Odf::TableFromRows
