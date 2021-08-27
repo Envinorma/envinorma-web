@@ -6,6 +6,10 @@ module Odf
     include Odf::XmlHelpers
 
     class TableRows
+      # TableRows is a class that contains the rows of a table to be created in the ODF document.
+      # It is used to add rows to a table.
+      # The table_name is the name of the table to which the rows should be added.
+      # The row_variables is an array of arrays of variables. Each array of variables is a row of the table.
       attr_reader :table_name, :row_variables
 
       def initialize(table_name, row_variables)
@@ -32,6 +36,10 @@ module Odf
     end
 
     def fill_table_rows(xml, table_rows, table_templates)
+      # Fill the table rows with the variables
+      # xml is the XML document to which the table rows should be added
+      # table_rows is a TableRows object
+      # table_templates is a hash of table templates used to fill variables in the table rows
       table = find_table(xml, table_rows.table_name)
       template_row = find_template_row(table, table_rows.variable_placeholders)
       rows_to_add = generate_rows_from_template(template_row, table_rows.row_variables, table_templates)

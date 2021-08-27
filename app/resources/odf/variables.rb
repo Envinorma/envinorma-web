@@ -6,6 +6,16 @@ module Odf
     include Odf::Table
 
     class Variable
+      # Class for storing the value of a variable
+      # placeholder: the placeholder of the variable in the input template
+      # value_list: the list of values that will be transformed into xml, joined with linebreaks and
+      #             replaced in the input template. If the value is a table, the table will be transformed
+      #             into xml and replaced in the input template. Values can be strings or OpenStructs (for
+      #             tables)
+      # nb_linebreaks: the number of linebreaks that will be added between each value of the list
+      # template_table_name: the name of the template table that will be used to generate the tables
+      # cell_placeholder: the placeholder of the cell in the template table that will be replaced by the
+      #                  content of the table
       attr_reader :placeholder, :value_list, :nb_linebreaks, :template_table_name, :cell_placeholder
 
       def initialize(placeholder, value_list, nb_linebreaks = 1, template_table_name = nil,
@@ -29,12 +39,15 @@ module Odf
     end
 
     def replace_variable(xml, variable, table_templates)
+      # Replace the variable in the xml. If the variable contains a table, the substitution is more complex
+      # because we must manipulate carefully the xml tree. Otherwise, we can simply replace the variable
+      # with string substitution.
       return simple_replacement(xml, variable) unless variable.contains_table?
 
       placeholder_tag = find_placeholder_tag(xml, variable.placeholder)
       table_template = variable.template_table_name.nil? ? nil : table_templates[variable.template_table_name]
       new_tags = build_new_tags(variable, placeholder_tag, table_template)
-      to_insert = insert_linebreaks_between(new_tags, placeholder_tag, variable.nb_linebreaks)
+      to_insert = separate_with_linebreaks(new_tags, placeholder_tag, variable.nb_linebreaks)
       to_insert.each { |tag| placeholder_tag.before(tag) }
       placeholder_tag.remove
     end
@@ -74,9 +87,9 @@ module Odf
       table_from_template(table_template, value, cell_placeholder)
     end
 
-    def insert_linebreaks_between(tags, placeholder_tag, nb_linebreaks)
+    def separate_with_linebreaks(tags, placeholder_tag, nb_linebreaks)
       whitespace = whitespace(placeholder_tag, nb_linebreaks)
-      tags.map { |tag| [tag, deep_clone(whitespace)] }.flatten[..-2]
+      tags.map { |tag| [tag, deep_clone(whitespace)] }.flatten
     end
 
     def whitespace(placeholder_tag, nb_linebreaks)

@@ -9,6 +9,12 @@ module Odf
     CONTENT_NAME = 'content.xml'
 
     class OdfGenerator
+      # OdfGenerator is a class used to generate an ODF document from a template.
+      # It contains the data to be inserted into the template
+      # section_variables: an array of SectionVariable objects. Each SectionVariable contains
+      #                   the data used to instantiate a section in the template.
+      # table_from_rows_variables: an array of TableRows objects. Each TableRows contains
+      #                           the data used to instantiate the rows of a table in the template.
       include Odf::TableFromRows
       include Odf::Section
       include Odf::GenerateOdf

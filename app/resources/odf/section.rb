@@ -7,6 +7,12 @@ module Odf
     include Odf::XmlHelpers
 
     class SectionVariables
+      # SectionVariables is a class that contains a list of variables and table_rows
+      # that are used to create a section.
+      # name: the name of the section to repeat
+      # variables: a list of list of variables. Each list of variables is used to create an instance of the section
+      # tables_from_rows: a list of list of table_rows. Each list of table_rows is used to create an instance of the
+      #                  section
       attr_reader :name, :variables, :tables_from_rows
 
       def initialize(name, variables, tables_from_rows)
@@ -28,6 +34,10 @@ module Odf
     end
 
     def fill_section(xml, section_variables, table_templates)
+      # Fill a section with variables and tables from rows
+      # xml is the xml of the input document
+      # section_variables is a SectionVariables object
+      # table_templates is a list of table templates used in variables
       template_section = find_section(xml, section_variables.name)
       new_sections = generate_sections_from_template(template_section, section_variables, table_templates)
       new_sections.each { |sec| template_section.parent.add_child(sec) }
