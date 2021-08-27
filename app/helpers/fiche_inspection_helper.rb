@@ -25,8 +25,8 @@ module FicheInspectionHelper
 
   def generate_odt(output_file, prescriptions, group_by_topics)
     input_template = template_path(group_by_topics)
-    sections = group_by_topics ? prepare_topic_sections(prescriptions) : []
-    tables_from_rows = group_by_topics ? [] : prepare_prescription_rows([prescriptions])[0]
+    sections = group_by_topics && !prescriptions.empty? ? prepare_topic_sections(prescriptions) : []
+    tables_from_rows = group_by_topics || prescriptions.empty? ? [] : prepare_prescription_rows([prescriptions])[0]
     generator = Odf::GenerateOdf::OdfGenerator.new(sections, tables_from_rows)
     generator.fill_template(input_template, output_file)
   end
@@ -50,7 +50,7 @@ module FicheInspectionHelper
   def prepare_prescription_rows(prescription_groups)
     result = []
     prescription_groups.each do |prescriptions|
-      values = merge_prescriptions_with_same_ref(prescriptions)
+      values = merge_prescriptions_having_same_ref(prescriptions)
       variables = values.map do |ref, contents|
         [Odf::Variables::Variable.new(PRESCRIPTION_REFERENCE, [ref]),
          Odf::Variables::Variable.new(PRESCRIPTION_CONTENT, contents, 2, TABLE_TEMPLATE, TABLE_TEMPLATE_CELL)]
@@ -60,15 +60,13 @@ module FicheInspectionHelper
     result
   end
 
-  def merge_prescriptions_with_same_ref(prescriptions)
-    groups = []
-    sort_and_group_by_text(prescriptions).each do |text_reference, group|
-      group.each do |section_reference, subgroup|
+  def merge_prescriptions_having_same_ref(prescriptions)
+    sort_and_group_by_text(prescriptions).map do |text_reference, group|
+      group.map do |section_reference, subgroup|
         contents = subgroup.map { |presc| presc.is_table? ? presc.table : presc.content }
-        groups << ["#{text_reference} - #{section_reference}", contents]
+        ["#{text_reference} - #{section_reference}", contents]
       end
-    end
-    groups
+    end.flatten(1)
   end
 
   def send_fiche(data)

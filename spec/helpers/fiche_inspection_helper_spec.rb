@@ -7,7 +7,7 @@ RSpec.configure do |c|
 end
 
 RSpec.describe FicheInspectionHelper do
-  context 'when #merge_prescriptions_with_same_ref' do
+  context 'when #merge_prescriptions_having_same_ref' do
     it 'returns grouped and sorted prescription contents when called with several prescriptions' do
       prescription1 = Prescription.new(reference: 'ref', content: 'line 3', alinea_id: '0',
                                        from_am_id: 'am-id', text_reference: 'am-id',
@@ -17,7 +17,7 @@ RSpec.describe FicheInspectionHelper do
                                        rank: '0', user_id: 0)
       prescriptions = [prescription1, prescription2]
       merged = [['am-id - ref', ["line 1\nline 2", 'line 3']]]
-      expect(merge_prescriptions_with_same_ref(prescriptions)).to eq merged
+      expect(merge_prescriptions_having_same_ref(prescriptions)).to eq merged
     end
 
     it 'returns grouped and sorted prescription contents when called with several prescriptions from AP and AM' do
@@ -27,7 +27,7 @@ RSpec.describe FicheInspectionHelper do
                                        from_am_id: 'am-id', text_reference: 'AP 2009', rank: '0', user_id: 0)
       prescriptions = [prescription1, prescription2]
       merged = [['AM 2020 - Art. 1', ['line 3']], ['AP 2009 - Annexe 2.', ["line 1\nline 2"]]]
-      expect(merge_prescriptions_with_same_ref(prescriptions)).to eq merged
+      expect(merge_prescriptions_having_same_ref(prescriptions)).to eq merged
     end
 
     it 'instantiates table when there is one' do
@@ -37,7 +37,7 @@ RSpec.describe FicheInspectionHelper do
                                        from_am_id: 'id', text_reference: 'AP 2009', rank: '0', is_table: true)
       prescriptions = [prescription1, prescription2]
       expected = { foo: 'bar' }
-      expect(merge_prescriptions_with_same_ref(prescriptions)[1][1][0].to_h).to eq expected
+      expect(merge_prescriptions_having_same_ref(prescriptions)[1][1][0].to_h).to eq expected
     end
   end
 end
