@@ -76,7 +76,7 @@ class PrescriptionsController < ApplicationController
 
   def prescription_params
     params.require(:prescription).permit(:reference, :content, :alinea_id, :from_am_id, :user_id, :text_reference,
-                                         :rank, :topic)
+                                         :rank, :topic, :is_table)
           .merge!(installation_id: @installation.id, user_id: @user.id)
   end
 

@@ -115,13 +115,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
   end
 
   it "allows user to select prescription without seeing other users' prescriptions" do
-    visit root_path
-    fill_in('autocomplete', with: 'EVA INDUST')
-    click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
-
-    expect(page).to have_content('EVA INDUSTRIES')
-    expect(page).to have_content('Houille, coke, lignite')
-    click_link("Voir les prescriptions pour générer une fiche d'inspection")
+    visit_eva_industries_prescriptions_page
 
     expect(page).to have_content('AM - 09/04/19')
 
@@ -219,17 +213,17 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     click_button('Bruit - vibrations')
     expect(page).to have_content('Chapitre VII : Bruit, vibration et émissions lumineuses')
-    find('.select_all', match: :first).click(wait: 4)
-    expect(page).to have_selector '.counter', text: '9'
-    expect(Prescription.count).to eq 9
+    find('.select_all', match: :first).click(wait: 10)
+    expect(page).to have_selector '.counter', text: '8', wait: 10
+    expect(Prescription.count).to eq 8
     expect(Prescription.last.topic).to eq 'BRUIT_VIBRATIONS'
 
     # Create prescriptions from AP
     fill_in 'Référence', with: 'Art. 3'
     fill_in 'Contenu', with: "Prescriptions copier - coller de l'AP"
     click_button('Ajouter une prescription')
-    expect(page).to have_selector '.counter', text: '10'
-    expect(Prescription.count).to eq 10
+    expect(page).to have_selector '.counter', text: '9'
+    expect(Prescription.count).to eq 9
 
     find(class: 'circle-fixed-button').click(wait: 4)
 
@@ -258,6 +252,45 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     click_link('Grouper par arrêté')
     expect(page).not_to have_content('Thème : Air - odeurs')
+  end
+
+  it 'selects a prescription which is a table' do
+    visit_eva_industries_prescriptions_page
+
+    click_button('Bruit - vibrations')
+    expect(page).to have_content('Chapitre VII : Bruit, vibration et émissions lumineuses')
+    # Check the first 4 checkboxes with class alineas_checkbox
+    find_all('.alineas_checkbox').each_with_index do |checkbox, index|
+      checkbox.click
+      break if index == 3
+    end
+
+    expect(page).to have_selector '.counter', text: '4', wait: 10
+    expect(Prescription.count).to eq 4
+    expect(Prescription.last.topic).to eq 'BRUIT_VIBRATIONS'
+
+    # One of the prescription is a table
+    nb_tables = Prescription.where(is_table: true).count
+    expect(nb_tables).to eq 1
+    table = Prescription.where(is_table: true).first
+    expect(table.alinea_id).to eq 'FB8Fff10c1Ab_1'
+
+    # Open recap
+    find(class: 'circle-fixed-button').click(wait: 4)
+
+    expect(page).to have_content("Fiche d'inspection")
+    expect(page).to have_content('Niveau de bruit ambiant')
+    expect(page).to have_content('Niveau de bruit ambiant')
+
+    # Expect page to have a table with 3 rows and 3 columns
+    expect(find('#modalPrescriptions')).to have_selector 'table', count: 1
+    expect(find('#modalPrescriptions')).to have_selector 'tr', count: 3
+    expect(find('#modalPrescriptions')).to have_selector 'th', count: 3
+    expect(find('#modalPrescriptions')).to have_selector 'td', count: 6
+
+    click_link('Télécharger la fiche')
+    # Expect download to have a table in addition to the base table (so 2 table tags)
+    expect(DownloadHelpers.raw_download_content.split('<table:table ').length - 1).to eq 2
   end
 end
 

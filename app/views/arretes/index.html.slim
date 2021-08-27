@@ -85,7 +85,8 @@
 
         = render partial: './prescriptions/prescriptions_recap'
     .border-top.pt-3
-      = link_to 'Télécharger la fiche', generate_doc_path, method: :post, class: 'btn btn-primary', id: 'js_download_fiche'
+      = link_to 'Télécharger la fiche', generate_fiche_inspection_path, method: :post, class: 'btn btn-primary',
+        id: 'js_download_fiche'
 
       button.modal-exit.btn.btn-link
         | Fermer

@@ -25,6 +25,12 @@ module DownloadHelpers
     parse
   end
 
+  def raw_download_content
+    wait_for_download
+    unzip_file
+    File.open(OUTPUT_DIR.join('content.xml')).read.force_encoding(Encoding::UTF_8)
+  end
+
   def wait_for_download
     Timeout.timeout(TIMEOUT) do
       sleep 0.1 until downloaded?

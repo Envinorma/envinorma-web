@@ -28,9 +28,6 @@ gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
-# Generates ODF files, given a template (.odt) and data, replacing tags
-gem 'odf-report'
-
 # SimpleForm made forms easy!
 gem 'simple_form', '~> 5.0', '>= 5.0.3'
 # Use Active Storage variant
@@ -45,6 +42,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # Sentry SDK for Ruby - Error tracking
 gem 'sentry-rails'
 gem 'sentry-ruby'
+
+gem 'rubyzip', require: 'zip'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
