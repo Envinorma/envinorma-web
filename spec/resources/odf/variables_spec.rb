@@ -58,7 +58,7 @@ RSpec.describe Odf::Variables do
           <root xmlns:text="c" xmlns:table="d">
             <text:p>hello</text:p>
             <text:p/>
-            <table:table table:name="table-template">
+            <table:table table:name="">
               <table:table-column />
               <table:table-column />
               <table:table-row>
