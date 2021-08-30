@@ -8,6 +8,7 @@ module Odf
       output_table = deep_clone(table_template)
       ensure_one_cell(output_table)
       generate_table(output_table, table_struct_to_insert, cell_placeholder)
+      output_table['table:name'] = ''
       output_table
     end
 

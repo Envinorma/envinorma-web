@@ -56,7 +56,7 @@ RSpec.describe Odf::Table do
       table_struct = JSON.parse(File.read(path), object_class: OpenStruct)
       table_template = xml.at_xpath('//table:table[@table:name="Table1"]')
       expected = <<~XML
-        <table:table table:name="Table1">
+        <table:table table:name="">
           <table:table-column />
           <table:table-column />
           <table:table-row>
