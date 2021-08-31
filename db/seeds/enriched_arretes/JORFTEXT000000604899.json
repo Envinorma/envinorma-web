@@ -1,0 +1,233 @@
+{
+    "aida_url": "https://aida.ineris.fr/consultation_document/5031",
+    "applicability": {
+        "conditions_of_inapplicability": [],
+        "warnings": []
+    },
+    "classements": [],
+    "classements_with_alineas": [],
+    "date_of_signature": "2005-07-29",
+    "id": "JORFTEXT000000604899",
+    "is_transverse": true,
+    "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000604899",
+    "nickname": "Bordereau déchets dangereux",
+    "sections": [
+        {
+            "annotations": {
+                "topic": "DECHETS"
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "4701aA128cdb",
+            "outer_alineas": [
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "Toute personne tenue d'émettre un bordereau de suivi des déchets dangereux en application de l' article R. 541-45 du code de l'environnement utilise le formulaire CERFA n° 12571 (1), sauf, d'une part, pour les déchets dangereux contenant de l'amiante pour lesquels le formulaire CERFA n° 11861 (1) est utilisé et, d'autre part, pour les déchets de fluides frigorigènes pour lesquels le formulaire CERFA n° 15497 (2) est utilisé. Lors de l'élaboration d'un nouveau bordereau suite à regroupement de déchets de fluides frigorigènes, le formulaire CERFA n° 12571 (1) est toutefois utilisé."
+                }
+            ],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "Art. 1",
+            "sections": [],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Article 1"
+            }
+        },
+        {
+            "annotations": {
+                "topic": "DECHETS"
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "aD4Aa4E6c172",
+            "outer_alineas": [
+                {
+                    "active": true,
+                    "links": [
+                        {
+                            "content_size": 23,
+                            "position": 128,
+                            "target": "https://www.legifrance.gouv.fr/affichTexteArticle.do?cidTexte=JORFTEXT000000594802&idArticle=JORFARTI000002042020&categorieLien=cid"
+                        }
+                    ],
+                    "table": null,
+                    "text": "Les collecteurs qui prennent en charge de petites quantités de déchets dangereux relevant d'une même rubrique de l'annexe II du décret du 18 avril 2002 susvisé mais de provenances différentes joignent en outre au bordereau qu'ils émettent l'annexe 1 du formulaire CERFA n° 12571 dûment remplie."
+                }
+            ],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "Art. 2",
+            "sections": [],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Article 2"
+            }
+        },
+        {
+            "annotations": {
+                "topic": "DECHETS"
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "0f4eBa907d4c",
+            "outer_alineas": [
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "Toute personne ayant transformé des déchets ou réalisé un traitement des déchets aboutissant à d'autres déchets joint l'annexe 2 du formulaire CERFA n° 12571 dûment remplie au bordereau qu'elle émet lors de la réexpédition de ces déchets vers une autre installation."
+                },
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "Cette obligation n'est pas applicable aux personnes ayant incinéré ou coïncinéré des déchets."
+                },
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "De même, les personnes ayant transformé ou réalisé un traitement de déchets aboutissant à des déchets ne permettant plus d'identifier la provenance des déchets initiaux sont dispensés de cette obligation, à condition que l'arrêté fixant les prescriptions de leur installation prévoie les cas de cette dispense."
+                }
+            ],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "Art. 3",
+            "sections": [],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Article 3"
+            }
+        },
+        {
+            "annotations": {
+                "topic": "DECHETS"
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "c0d0eCf6B2EB",
+            "outer_alineas": [
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "Les personnes transportant, entreposant, reconditionnant, transformant ou traitant des déchets dangereux ainsi que les négociants de ces mêmes déchets remplissent le bordereau aux endroits les concernant."
+                }
+            ],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "Art. 4",
+            "sections": [],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Article 4"
+            }
+        },
+        {
+            "annotations": {
+                "topic": null
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "Fc6D854bEEDc",
+            "outer_alineas": [
+                {
+                    "active": true,
+                    "links": [
+                        {
+                            "content_size": 25,
+                            "position": 1,
+                            "target": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000468370&categorieLien=id"
+                        }
+                    ],
+                    "table": null,
+                    "text": "L'arrêté du 4 janvier 1985 relatif au contrôle des circuits d'élimination de déchets générateurs de nuisances est abrogé à compter du 1er décembre 2005."
+                }
+            ],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "Art. 5",
+            "sections": [],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Article 5"
+            }
+        },
+        {
+            "annotations": {
+                "topic": null
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "2C8Bda99E45f",
+            "outer_alineas": [
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "Le directeur de la prévention des pollutions et des risques est chargé de l'exécution du présent arrêté, qui sera publié au Journal officiel de la République française."
+                }
+            ],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "Art. 6",
+            "sections": [],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Article 6"
+            }
+        }
+    ],
+    "title": {
+        "active": true,
+        "table": null,
+        "text": "Arrêté du 29/07/05 fixant le formulaire du bordereau de suivi des déchets dangereux mentionné à l'article 4 du décret n° 2005-635 du 30 mai 2005"
+    },
+    "version_descriptor": null,
+    "visa": []
+}

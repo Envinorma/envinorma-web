@@ -1,0 +1,2021 @@
+{
+    "aida_url": "https://aida.ineris.fr/consultation_document/40749",
+    "applicability": {
+        "conditions_of_inapplicability": [],
+        "warnings": []
+    },
+    "classements": [
+        {
+            "alinea": null,
+            "regime": "D",
+            "rubrique": "2794",
+            "state": "ACTIVE"
+        }
+    ],
+    "classements_with_alineas": [
+        {
+            "alineas": [],
+            "regime": "D",
+            "rubrique": "2794"
+        }
+    ],
+    "date_of_signature": "2018-05-18",
+    "id": "JORFTEXT000036976496",
+    "is_transverse": false,
+    "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000036976496",
+    "nickname": null,
+    "sections": [
+        {
+            "annotations": {
+                "topic": null
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "338571A9E8C1",
+            "outer_alineas": [
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "Les installations classées soumises à déclaration sous la rubrique n° 2794 sont soumises aux dispositions de l'annexe I."
+                }
+            ],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "Art. 1",
+            "sections": [],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Article 1"
+            }
+        },
+        {
+            "annotations": {
+                "topic": null
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "F58EBcea8bf7",
+            "outer_alineas": [
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "Les dispositions de l'annexe I sont applicables aux installations déclarées à compter du 1er juillet 2018."
+                },
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "Les dispositions de l'annexe I sont applicables aux installations existantes, autorisées ou déclarées avant le 1er juillet 2018 ou dont le dossier de demande d'autorisation a été déposé avant le 1er juillet 2018, dans les conditions précisées en annexe II."
+                },
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "Les dispositions de l'annexe I sont également applicables aux installations classées soumises à déclaration incluses dans un établissement qui comporte au moins une installation soumise au régime de l'autorisation dès lors que ces installations ne sont pas régies par l'arrêté préfectoral d'autorisation."
+                }
+            ],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "Art. 2",
+            "sections": [],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Article 2"
+            }
+        },
+        {
+            "annotations": {
+                "topic": null
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "d1DdC970151C",
+            "outer_alineas": [
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "Le présent arrêté entre en vigueur le 1er juillet 2018."
+                }
+            ],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "Art. 3",
+            "sections": [],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Article 3"
+            }
+        },
+        {
+            "annotations": {
+                "topic": null
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "D27BecfA9a52",
+            "outer_alineas": [
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "Le directeur général de la prévention des risques est chargé de l'exécution du présent arrêté, qui sera publié au Journal officiel de la République française."
+                }
+            ],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "Art. 4",
+            "sections": [],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Article 4"
+            }
+        },
+        {
+            "annotations": {
+                "topic": null
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "88857CA3DcFD",
+            "outer_alineas": [],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "Annexe I",
+            "sections": [
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "9C1BC49baE4c",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Définitions"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Au sens du présent arrêté, on entend par :"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "\"Produits dangereux et matières dangereuses\" : substance ou mélange classé suivant les \"classes et catégories de danger définies à l'annexe I, parties 2, 3 et 4 du règlement (CE) n° 1272/2008 relatif à la classification, l'étiquetage et l'emballage des substances et des mélanges\" dit CLP. Ce règlement a pour objectif de classer les substances et mélanges dangereux et de communiquer sur ces dangers via l'étiquetage et les fiches de données de sécurité."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "\"Emergence\" : la différence entre les niveaux de pression continus équivalents pondérés A du bruit ambiant (installation en fonctionnement) et du bruit résiduel (en l'absence du bruit généré par l'installation) ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "\"Zones à émergence réglementée\" :"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- l'intérieur des immeubles habités ou occupés par des tiers, existant à la date du dépôt de dossier de déclaration, et leurs parties extérieures éventuelles les plus proches (cour, jardin, terrasse) à l'exclusion de celles des immeubles implantés dans les zones destinées à recevoir des activités artisanales ou industrielles,"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- les zones constructibles définies par des documents d'urbanisme opposables aux tiers et publiés à la date du dépôt de dossier de déclaration,"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- l'intérieur des immeubles habités ou occupés par des tiers qui ont été implantés après la date du dépôt de dossier de déclaration dans les zones constructibles définies ci-dessus, et leurs parties extérieures éventuelles les plus proches (cour, jardin, terrasse), à l'exclusion de celles des immeubles implantés dans les zones destinées à recevoir des activités artisanales ou industrielles."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Annexe I Art. -",
+                    "sections": [
+                        {
+                            "annotations": {
+                                "topic": null
+                            },
+                            "applicability": {
+                                "active": true,
+                                "modified": false,
+                                "previous_version": null,
+                                "warnings": []
+                            },
+                            "id": "96AEFBe7ce91",
+                            "outer_alineas": [
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "L'exploitant établit et tient à jour un dossier comportant les documents suivants :"
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "- les plans de l'installation tenus à jour,"
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "- la preuve du dépôt de déclaration et les prescriptions générales,"
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "- les arrêtés préfectoraux relatifs à l'installation concernée, pris en application de la législation relative aux installations classées pour la protection de l'environnement, s'il y en a,"
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "- les résultats des dernières mesures sur les effluents et le bruit,"
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "- les documents prévus aux points 2.2.1, 2.2.2, 2.4, 4.2 et 5.1 ci après,"
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "- les dispositions prévues en cas de sinistre"
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "Ce dossier est tenu à la disposition de l'inspection des installations classées."
+                                }
+                            ],
+                            "parametrization": {
+                                "potential_inapplicabilities": [],
+                                "potential_modifications": [],
+                                "warnings": []
+                            },
+                            "reference_str": "Annexe I Art. - 1.",
+                            "sections": [],
+                            "title": {
+                                "active": true,
+                                "table": null,
+                                "text": "1. Dossier installation classée"
+                            }
+                        },
+                        {
+                            "annotations": {
+                                "topic": "IMPLANTATION_AMENAGEMENT"
+                            },
+                            "applicability": {
+                                "active": true,
+                                "modified": false,
+                                "previous_version": null,
+                                "warnings": []
+                            },
+                            "id": "e2FaDF7c77ad",
+                            "outer_alineas": [],
+                            "parametrization": {
+                                "potential_inapplicabilities": [],
+                                "potential_modifications": [],
+                                "warnings": []
+                            },
+                            "reference_str": "Annexe I Art. - 2.",
+                            "sections": [
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "0E14ebAa1d6A",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Les parois extérieures du bâtiment fermé où sont entreposés ou manipulés des déchets, les éléments de structure dans le cas d'un bâtiment ouvert ou les limites des aires d'entreposage dans le cas d'un entreposage à l'extérieur, sont implantés à une distance au moins égale à 20 mètres de l'enceinte de l'établissement, à moins que l'exploitant justifie que les effets létaux (seuil des effets thermiques de 5 kW/m2) restent à l'intérieur du site au moyen, si nécessaire, de la mise en place d'un dispositif séparatif E120."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Les parois externes des bâtiments fermés ou les éléments de structure dans le cas d'un bâtiment ouvert sont suffisamment éloignés des aires extérieures d'entreposage et de manipulation de déchets et des zones de stationnement susceptibles de favoriser la naissance d'un incendie pouvant se propager aux bâtiments."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [
+                                            {
+                                                "alineas": null,
+                                                "condition": {
+                                                    "conditions": [
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-07-01",
+                                                            "type": "LITTLER"
+                                                        }
+                                                    ],
+                                                    "type": "OR"
+                                                }
+                                            }
+                                        ],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 2.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "2.1 Règles d'implantation"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "b8CB2bdb56d6",
+                                    "outer_alineas": [],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [
+                                            {
+                                                "alineas": null,
+                                                "condition": {
+                                                    "conditions": [
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-07-01",
+                                                            "type": "LITTLER"
+                                                        }
+                                                    ],
+                                                    "type": "OR"
+                                                }
+                                            }
+                                        ],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 2.",
+                                    "sections": [
+                                        {
+                                            "annotations": {
+                                                "topic": null
+                                            },
+                                            "applicability": {
+                                                "active": true,
+                                                "modified": false,
+                                                "previous_version": null,
+                                                "warnings": []
+                                            },
+                                            "id": "9dBd7E0Cb25E",
+                                            "outer_alineas": [
+                                                {
+                                                    "active": true,
+                                                    "table": null,
+                                                    "text": "Les bâtiments où sont entreposés ou manipulés des produits ou déchets combustibles ou inflammables présentent au moins les caractéristiques de comportement au feu suivantes :"
+                                                },
+                                                {
+                                                    "active": true,
+                                                    "table": null,
+                                                    "text": "- la structure est au moins de résistance au feu R15 ;"
+                                                },
+                                                {
+                                                    "active": true,
+                                                    "table": null,
+                                                    "text": "- les murs extérieurs sont au moins de réaction au feu A2s1d0 ;"
+                                                }
+                                            ],
+                                            "parametrization": {
+                                                "potential_inapplicabilities": [],
+                                                "potential_modifications": [],
+                                                "warnings": []
+                                            },
+                                            "reference_str": "Annexe I Art. - 2.",
+                                            "sections": [],
+                                            "title": {
+                                                "active": true,
+                                                "table": null,
+                                                "text": "2.2.1 Comportement au feu du bâtiment"
+                                            }
+                                        },
+                                        {
+                                            "annotations": {
+                                                "topic": null
+                                            },
+                                            "applicability": {
+                                                "active": true,
+                                                "modified": false,
+                                                "previous_version": null,
+                                                "warnings": []
+                                            },
+                                            "id": "cdD98A47758e",
+                                            "outer_alineas": [
+                                                {
+                                                    "active": true,
+                                                    "table": null,
+                                                    "text": "Les toitures et couvertures de toiture répondent à la classe BROOF (t3)."
+                                                }
+                                            ],
+                                            "parametrization": {
+                                                "potential_inapplicabilities": [],
+                                                "potential_modifications": [],
+                                                "warnings": []
+                                            },
+                                            "reference_str": "Annexe I Art. - 2.",
+                                            "sections": [],
+                                            "title": {
+                                                "active": true,
+                                                "table": null,
+                                                "text": "2.2.2 Toitures et couvertures de toiture"
+                                            }
+                                        },
+                                        {
+                                            "annotations": {
+                                                "topic": null
+                                            },
+                                            "applicability": {
+                                                "active": true,
+                                                "modified": false,
+                                                "previous_version": null,
+                                                "warnings": []
+                                            },
+                                            "id": "51BDA82fAb2D",
+                                            "outer_alineas": [
+                                                {
+                                                    "active": true,
+                                                    "table": null,
+                                                    "text": "Les bâtiments fermés où sont entreposés ou manipulés des produits ou déchets combustibles ou inflammables sont équipés en partie haute de dispositifs d'évacuation naturelle de fumées et de chaleur, permettant l'évacuation à l'air libre des fumées, gaz de combustion, chaleur et produits imbrûlés dégagés en cas d'incendie."
+                                                },
+                                                {
+                                                    "active": true,
+                                                    "table": null,
+                                                    "text": "Les dispositifs d'évacuation naturelle à l'air libre peuvent être des dispositifs passifs (ouvertures permanentes) ou des dispositifs actifs. Dans ce dernier cas, ils sont composés d'exutoires à commandes automatique et manuelle. Leur surface utile d'ouverture n'est pas inférieure à :"
+                                                },
+                                                {
+                                                    "active": true,
+                                                    "table": null,
+                                                    "text": "- 2 % si la superficie à désenfumer est inférieure à 1600 m2,"
+                                                },
+                                                {
+                                                    "active": true,
+                                                    "table": null,
+                                                    "text": "- à déterminer selon la nature des risques si la superficie à désenfumer est supérieure à 1600 m2 sans pouvoir être inférieure à 2 % de la superficie des bâtiments."
+                                                },
+                                                {
+                                                    "active": true,
+                                                    "table": null,
+                                                    "text": "Les commandes d'ouverture manuelle sont placées à proximité des accès."
+                                                },
+                                                {
+                                                    "active": true,
+                                                    "table": null,
+                                                    "text": "Les dispositifs d'évacuation naturelle de fumées et de chaleur sont adaptés aux risques particuliers de l'installation."
+                                                }
+                                            ],
+                                            "parametrization": {
+                                                "potential_inapplicabilities": [],
+                                                "potential_modifications": [],
+                                                "warnings": []
+                                            },
+                                            "reference_str": "Annexe I Art. - 2.",
+                                            "sections": [],
+                                            "title": {
+                                                "active": true,
+                                                "table": null,
+                                                "text": "2.2.3 Désenfumage"
+                                            }
+                                        }
+                                    ],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "2.2 Comportement au feu"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "0C2aa36a2Eaa",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "L'installation est accessible pour permettre l'intervention des services d'incendie et de secours. Elle est desservie, sur au moins deux faces, par une voie engin. Une des façades de chaque bâtiment fermé est équipée d'ouvrants permettant le passage de sauveteurs équipés."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Cette voie engin respecte les caractéristiques suivantes :"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- la largeur utile est au minimum de 3 mètres, la hauteur libre au minimum de 4,5 mètres et la pente inférieure à 15 % ;"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- dans les virages de rayon intérieur inférieur à 50 mètres, un rayon intérieur R minimal de 13 mètres est maintenu et une sur-largeur de S = 15/R mètres est ajoutée ;"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- la voie résiste à la force portante calculée pour un véhicule de 320 kN avec un maximum de 130 kN par essieu, ceux-ci étant distants de 3,6 mètres au minimum ;"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- chaque point du périmètre du bâtiment est à une distance maximale de 60 mètres de cette voie ;"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- elle est positionnée de façon à ne pouvoir être obstruée par l'effondrement de tout ou partie de ce bâtiment ou occupée par les eaux d'extinction ;"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- aucun obstacle n'est disposé entre la voie \"engins\" et les accès au bâtiment."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [
+                                            {
+                                                "alineas": null,
+                                                "condition": {
+                                                    "conditions": [
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-07-01",
+                                                            "type": "LITTLER"
+                                                        }
+                                                    ],
+                                                    "type": "OR"
+                                                }
+                                            }
+                                        ],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 2.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "2.3 Accessibilité"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "871F2C9E1e10",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "L'exploitant tient à la disposition de l'inspection des installations classées les éléments justifiant que ses installations électriques sont réalisées conformément aux règles en vigueur."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 2.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "2.4 Installations électriques"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "c6AA52f8cD13",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Les équipements métalliques (réservoirs, cuves, canalisations) sont mis à la terre conformément aux règles en vigueur."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 2.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "2.5 Mise à la terre des équipements"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "A0E86Ef9FcB9",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Le sol des aires et des bâtiments où sont entreposés ou manipulés des matières dangereuses pour l'homme ou susceptibles de créer une pollution de l'eau ou du sol est étanche, A1 (incombustible) et équipé de façon à pouvoir recueillir les eaux de lavage et les matières répandues accidentellement."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [
+                                            {
+                                                "alineas": null,
+                                                "condition": {
+                                                    "conditions": [
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-07-01",
+                                                            "type": "LITTLER"
+                                                        }
+                                                    ],
+                                                    "type": "OR"
+                                                }
+                                            }
+                                        ],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 2.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "2.6 Rétention des sols"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "d1387BAFd7B6",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Tout entreposage de produits liquides susceptibles de créer une pollution de l'eau ou du sol est associé à une capacité de rétention dont le volume est au moins égal à la plus grande des deux valeurs suivantes :"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- 100 % de la capacité du plus grand réservoir,"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- 50 % de la capacité globale des réservoirs associés."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Cette disposition ne s'applique pas aux bassins de traitement des eaux résiduaires."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Lorsque le stockage est constitué exclusivement de récipients de capacité unitaire inférieure ou égale à 250 litres, admis au transport, le volume minimal de la rétention est égal soit à la capacité totale des récipients si cette capacité est inférieure à 800 litres, soit à 20 % de la capacité totale ou 50 % dans le cas de liquides inflammables avec un minimum de 800 litres si cette capacité excède 800 litres."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "La capacité de rétention est étanche aux produits qu'elle pourrait contenir et résiste à l'action physique et chimique des fluides. Il en est de même pour son dispositif d'obturation qui est maintenu fermé en conditions normales."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "L'étanchéité du (ou des) réservoir (s) doit pouvoir être contrôlée à tout moment. Les réservoirs ou récipients contenant des produits incompatibles ne sont pas associés à une même rétention."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [
+                                            {
+                                                "alineas": null,
+                                                "condition": {
+                                                    "conditions": [
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-07-01",
+                                                            "type": "LITTLER"
+                                                        }
+                                                    ],
+                                                    "type": "OR"
+                                                }
+                                            }
+                                        ],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 2.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "2.7 Cuvettes de rétention"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "0722A827E9f2",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Le site dispose d'une capacité de rétention des eaux de ruissellement générées lors de l'extinction d'un sinistre ou d'un accident de transport. L'exploitant dispose d'un justificatif de dimensionnement de cette capacité de rétention."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Les dispositifs permettant l'obturation des réseaux d'évacuation des eaux de ruissellement sont clairement signalés et facilement accessibles. Une consigne définit les modalités de mise en œuvre de ces dispositifs."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 2.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "2.8 Isolement du réseau de collecte"
+                                    }
+                                }
+                            ],
+                            "title": {
+                                "active": true,
+                                "table": null,
+                                "text": "2. Implantation - aménagement"
+                            }
+                        },
+                        {
+                            "annotations": {
+                                "topic": "EXPLOITATION"
+                            },
+                            "applicability": {
+                                "active": true,
+                                "modified": false,
+                                "previous_version": null,
+                                "warnings": []
+                            },
+                            "id": "EE5EA18EDD8b",
+                            "outer_alineas": [],
+                            "parametrization": {
+                                "potential_inapplicabilities": [],
+                                "potential_modifications": [],
+                                "warnings": []
+                            },
+                            "reference_str": "Annexe I Art. - 3.",
+                            "sections": [
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "efdb8BA3B1a1",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Les personnes étrangères à l'établissement n'ont pas un accès libre aux installations."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 3.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "3.1 Contrôle de l'accès"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "1215cFEfa1Cc",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Les seuls déchets admis dans l'installation sont les déchets végétaux non dangereux, c'est-à-dire des déchets constitués de matière végétale non transformée (bois, écorce, liège, feuilles, etc.)."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Une inspection visuelle est menée sur chaque chargement de déchets arrivant sur le site de l'installation. Les déchets non conformes aux déchets admissibles dans l'installation sont retournés au déposant ou envoyés vers une installation autorisée à les gérer."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Une zone est prévue pour l'entreposage, avant leur reprise par leur expéditeur ou leur envoi vers une installation autorisée à les recevoir, des déchets qui ne respectent pas les critères mentionnés dans le présent article."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "L'exploitant recueille les informations nécessaires au renseignement du registre prévu par l'article R. 541-43 du code de l'environnement et mentionné dans l'arrêté du 29 février 2012 susvisé."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Une inspection visuelle est menée avant le broyage. Les déchets autres que végétaux présents accidentellement dans les déchets végétaux sont retirés avant broyage et traités avec les déchets similaires produits par l'installation."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 3.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "3.2 Admission et traitement des déchets végétaux"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "5202fBFa4EeF",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "L'exploitant fixe les conditions et les moyens de contrôle permettant d'éviter l'apparition de conditions anaérobies au niveau de l'entreposage des déchets entrant ou après broyage. La hauteur maximale des tas de matières fermentescibles lors de ces phases est à cet effet limitée à 3 mètres."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 3.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "3.3 Conditions d'entreposage"
+                                    }
+                                }
+                            ],
+                            "title": {
+                                "active": true,
+                                "table": null,
+                                "text": "3. Exploitation - entretien"
+                            }
+                        },
+                        {
+                            "annotations": {
+                                "topic": "RISQUES"
+                            },
+                            "applicability": {
+                                "active": true,
+                                "modified": false,
+                                "previous_version": null,
+                                "warnings": []
+                            },
+                            "id": "7f32F30DfBa3",
+                            "outer_alineas": [],
+                            "parametrization": {
+                                "potential_inapplicabilities": [],
+                                "potential_modifications": [],
+                                "warnings": []
+                            },
+                            "reference_str": "Annexe I Art. - 4.",
+                            "sections": [
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "af0a438d30B9",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "L'installation est équipée de moyens de lutte contre l'incendie appropriés aux risques notamment :"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "1) d'un ou plusieurs points d'eau incendie, tels que :"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- des bouches d'incendie, poteaux, ou prises d'eau, d'un diamètre nominal adapté au débit à fournir, alimentés par un réseau public ou privé, sous des pressions minimale et maximale permettant la mise en œuvre des pompes des engins des services d'incendie et de secours ;"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- des réserves d'eau, réalimentées ou non, disponibles pour le site et dont les organes de manœuvre sont utilisables en permanence pour les services d'incendie et de secours."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Les prises de raccordement permettent aux services d'incendie et de secours de s'alimenter sur ces points d'eau incendie."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Le ou les points d'eau incendie sont en mesure de fournir un débit global adapté aux risques à défendre, sans être inférieur à 60 m3/h durant deux heures. Le point d'eau incendie le plus proche de l'installation se situe à moins de 100 mètres de cette dernière. Les autres points d'eau incendie, le cas échéant, se situent à moins de 200 mètres de l'installation (les distances sont mesurées par les voies praticables par les moyens des services d'incendie et de secours) ;"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "2) d'extincteurs répartis à l'intérieur des bâtiments et dans les lieux présentant des risques spécifiques, à proximité des dégagements, bien visibles et facilement accessibles. Les agents d'extinction sont appropriés aux risques à combattre et compatibles avec les produits et déchets gérés dans l'installation ;"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "3) d'un moyen permettant d'alerter les services d'incendie et de secours ;"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "4) de plans des bâtiments et aires de gestion des produits ou déchets facilitant l'intervention des services d'incendie et de secours avec une description des dangers pour chaque bâtiment et aire."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Ces matériels sont maintenus en bon état et vérifiés au moins une fois par an. Ces vérifications font l'objet d'un rapport annuel de contrôle."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [
+                                            {
+                                                "alineas": [
+                                                    2
+                                                ],
+                                                "condition": {
+                                                    "conditions": [
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-07-01",
+                                                            "type": "LITTLER"
+                                                        }
+                                                    ],
+                                                    "type": "OR"
+                                                }
+                                            }
+                                        ],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 4.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "4.1 Moyens de lutte contre l'incendie"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "cCc7C4dd9b93",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Les opérations comportant des manipulations dangereuses et la conduite des installations (démarrage et arrêt, fonctionnement normal, entretien…) font l'objet de consignes d'exploitation écrites. Ces consignes prévoient notamment :"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- les modes opératoires,"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- la fréquence de vérification des dispositifs de sécurité et de traitement des pollutions et nuisances générées,"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- les instructions de maintenance et de nettoyage,"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- le maintien dans le local de fabrication ou d'emploi des seules quantités de matières dangereuses ou combustibles strictement nécessaires au fonctionnement de l'installation,"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- les conditions de conservation et de stockage des produits,"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- a fréquence de contrôles de l'étanchéité et de l'ancrage des réservoirs et de vérification des dispositifs de rétention."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 4.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "4.2 Consignes d'exploitation"
+                                    }
+                                }
+                            ],
+                            "title": {
+                                "active": true,
+                                "table": null,
+                                "text": "4. Risques"
+                            }
+                        },
+                        {
+                            "annotations": {
+                                "topic": "EAU"
+                            },
+                            "applicability": {
+                                "active": true,
+                                "modified": false,
+                                "previous_version": null,
+                                "warnings": []
+                            },
+                            "id": "1Fc7Ed3A1C71",
+                            "outer_alineas": [],
+                            "parametrization": {
+                                "potential_inapplicabilities": [],
+                                "potential_modifications": [],
+                                "warnings": []
+                            },
+                            "reference_str": "Annexe I Art. - 5.",
+                            "sections": [
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "B09bf3A60c02",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Tous les effluents aqueux sont canalisés."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Le réseau de collecte est de type séparatif permettant d'isoler les eaux résiduaires des eaux pluviales."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Les effluents susceptibles d'être pollués, c'est-à-dire les eaux résiduaires et les eaux pluviales susceptibles d'être polluées, notamment par ruissellement sur les voies de circulation, aires de stationnement, de chargement et déchargement et autres surfaces imperméables, sont traités avant rejet dans l'environnement par un dispositif de traitement adéquat."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Le plan des réseaux de collecte des effluents fait apparaître les secteurs collectés, les points de branchement, regards, avaloirs, postes de relevage, postes de mesure, vannes manuelles et automatiques. Il est tenu à la disposition de l'inspection des installations classées ainsi que des services d'incendie et de secours."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 5.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "5.1 Réseau de collecte et eaux pluviales"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "1cF4a09Cd363",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Le dispositif de traitement des effluents susceptibles d'être pollués est entretenu par l'exploitant conformément à un protocole d'entretien. Les fiches de suivi du nettoyage des équipements ainsi que les bordereaux de traitement des déchets détruits ou retraités sont mis à la disposition de l'inspection des installations classées."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 5.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "5.2 Rejet des effluents"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "8B0edfb44Fed",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Les effluents susceptibles d'être pollués rejetés au milieu naturel respectent les valeurs limites de concentration suivantes :"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- matières en suspension : la concentration ne dépasse pas 100 mg/l si le flux journalier n'excède pas 15 kg/j, 35 mg/l au-delà ;"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- DCO : la concentration ne dépasse pas 300 mg/l si le flux journalier n'excède pas 100 kg/j, 125 mg/l au-delà ;"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- hydrocarbures totaux : 10 mg/l si le flux est supérieur à 100 g/j."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 5.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "5.3 Valeurs limites de rejet"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "eDa2DbDf6b41",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Le raccordement à une station d'épuration collective, urbaine ou industrielle, n'est autorisé que si l'infrastructure collective d'assainissement (réseau et station d'épuration) est apte à acheminer et traiter l'effluent industriel ainsi que les boues résultant de ce traitement dans de bonnes conditions. Une autorisation de déversement ainsi que, le cas échéant, une convention de déversement, sont établies avec la ou les autorités compétentes en charge du réseau d'assainissement et du réseau de collecte."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Les valeurs limites de concentration imposées à l'effluent à la sortie de l'installation avant raccordement à une station d'épuration urbaine ne dépassent pas :"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- MEST : 600 mg/l ;"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- DCO : 2 000 mg/l ;"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Toutefois, les valeurs limites de rejet peuvent être supérieures aux valeurs ci-dessus si les autorisations et éventuelles conventions de déversement l'autorisent et dans la mesure où il a été démontré que le bon fonctionnement des réseaux, des équipements d'épuration, ainsi que du système de traitement des boues n'est pas altéré par ces dépassements."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Cette disposition s'applique également pour une installation raccordée à une station d'épuration industrielle (2750) ou mixte (rubrique 2752) dans le cas de rejets de micropolluants."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Pour une installation raccordée à une station d'épuration urbaine et pour les polluants autres que ceux réglementés ci-dessus, les valeurs limites sont les mêmes que pour un rejet dans le milieu naturel."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Pour la température, le débit et le pH, l'autorisation de déversement dans le réseau public fixe la valeur à respecter."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 5.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "5.4 Raccordement à une station d'épuration"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "a47D4D5acd52",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Les valeurs limites ci-dessus s'appliquent à des prélèvements, mesures ou analyses moyens réalisés sur 24 heures. La mesure est réalisée à partir d'un échantillon prélevé sur une durée de 24 heures et représentatif du fonctionnement de l'installation. Dans le cas où il s'avérerait impossible d'effectuer un prélèvement proportionnel au débit de l'effluent, il sera pratiqué un prélèvement asservi au temps ou des prélèvements ponctuels si la nature des rejets le justifie."
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Les contrôles se font, sauf stipulation contraire de la norme appliquée, sur effluent brut non décanté et non filtré, sans dilution préalable ou mélange avec d'autres effluent."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 5.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "5.5 Dispositions concernant la surveillance des effluents aqueux"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "09CD800F3eA9",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Une mesure des concentrations des différents polluants visés au point 5.3 est effectuée au moins tous les ans par un organisme agréé par le ministre chargé de l'environnement. Les polluants qui ne sont pas susceptibles d'être émis par l'installation, ne font pas l'objet des mesures périodiques prévues au présent point."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 5.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "5.6 Surveillance par l'exploitant de la pollution rejetée"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "1a36FC2f6bcE",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "L'application de déchets ou effluents sur ou dans les sols est interdite sauf pour les matières fertilisantes et supports de culture répondant à une norme d'application rendue obligatoire, conformément à l'article L. 255-5 du code rural et de la pêche maritime."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 5.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "5.7 Épandage"
+                                    }
+                                }
+                            ],
+                            "title": {
+                                "active": true,
+                                "table": null,
+                                "text": "5. Eau"
+                            }
+                        },
+                        {
+                            "annotations": {
+                                "topic": "AIR_ODEURS"
+                            },
+                            "applicability": {
+                                "active": true,
+                                "modified": false,
+                                "previous_version": null,
+                                "warnings": []
+                            },
+                            "id": "4Ea50c68eCFd",
+                            "outer_alineas": [],
+                            "parametrization": {
+                                "potential_inapplicabilities": [],
+                                "potential_modifications": [],
+                                "warnings": []
+                            },
+                            "reference_str": "Annexe I Art. - 6.",
+                            "sections": [
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "732fBcD39b3b",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "L'exploitant adopte toutes dispositions nécessaires pour prévenir et limiter les envols de poussières et de matières diverses :"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- les véhicules sortant de l'installation n'entraînent pas de dépôt de poussière ou de boue sur les voies de circulation. Pour cela des dispositions telles que le lavage des roues des véhicules sont prévues en cas de besoin,"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- l'opération de broyage est couverte de manière à capter les émissions,"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- des écrans de végétation d'espèces locales sont mis en place le cas échéant autour de l'installation ;"
+                                        },
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "- pour les installations ou stockages situés en extérieur, des systèmes d'aspersion ou de bâchage sont mis en place si nécessaire."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 6.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "6.1 Prévention et captage des poussières"
+                                    }
+                                },
+                                {
+                                    "annotations": {
+                                        "topic": null
+                                    },
+                                    "applicability": {
+                                        "active": true,
+                                        "modified": false,
+                                        "previous_version": null,
+                                        "warnings": []
+                                    },
+                                    "id": "a347BcF7aea1",
+                                    "outer_alineas": [
+                                        {
+                                            "active": true,
+                                            "table": null,
+                                            "text": "Le site et ses abords sont maintenus propres. S'il est fait usage de bennes ouvertes pour le transport, les déchets entrant et sortant du site sont couverts d'une bâche ou d'un filet."
+                                        }
+                                    ],
+                                    "parametrization": {
+                                        "potential_inapplicabilities": [],
+                                        "potential_modifications": [],
+                                        "warnings": []
+                                    },
+                                    "reference_str": "Annexe I Art. - 6.",
+                                    "sections": [],
+                                    "title": {
+                                        "active": true,
+                                        "table": null,
+                                        "text": "6.2 Risques d'envols"
+                                    }
+                                }
+                            ],
+                            "title": {
+                                "active": true,
+                                "table": null,
+                                "text": "6. Air"
+                            }
+                        },
+                        {
+                            "annotations": {
+                                "topic": "DECHETS"
+                            },
+                            "applicability": {
+                                "active": true,
+                                "modified": false,
+                                "previous_version": null,
+                                "warnings": []
+                            },
+                            "id": "cc9EE6bf94D2",
+                            "outer_alineas": [
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "L'exploitant prend toutes les dispositions nécessaires dans la conception, l'aménagement, et l'exploitation de ses installations pour :"
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "- en priorité, prévenir et réduire la production et la nocivité des déchets,"
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "- assurer une bonne gestion des déchets de son entreprise en privilégiant, dans l'ordre :"
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "a) la préparation en vue de la réutilisation ;"
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "b) le recyclage ;"
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "c) toute autre valorisation, notamment la valorisation énergétique ;"
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "d) l'élimination."
+                                }
+                            ],
+                            "parametrization": {
+                                "potential_inapplicabilities": [],
+                                "potential_modifications": [],
+                                "warnings": []
+                            },
+                            "reference_str": "Annexe I Art. - 7.",
+                            "sections": [],
+                            "title": {
+                                "active": true,
+                                "table": null,
+                                "text": "7. Déchets"
+                            }
+                        },
+                        {
+                            "annotations": {
+                                "topic": "BRUIT_VIBRATIONS"
+                            },
+                            "applicability": {
+                                "active": true,
+                                "modified": false,
+                                "previous_version": null,
+                                "warnings": []
+                            },
+                            "id": "d97FFB9c71df",
+                            "outer_alineas": [
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "Les émissions sonores émises par l'installation ne sont pas à l'origine, dans les zones à émergence réglementée, d'une émergence supérieure aux valeurs admissibles définies dans le tableau suivant :"
+                                },
+                                {
+                                    "active": true,
+                                    "table": {
+                                        "rows": [
+                                            {
+                                                "cells": [
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "Niveau de bruit ambiant existant dans les zones à émergence réglementée\n(incluant le bruit de l'installation)"
+                                                        },
+                                                        "rowspan": 1
+                                                    },
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "Emergence admissible pour la période allant de 7 h à 22 h,\nsauf dimanches et jours fériés"
+                                                        },
+                                                        "rowspan": 1
+                                                    },
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "Emergence admissible pour la période allant de 22 h à 7 h, ainsi que les dimanches et jours fériés"
+                                                        },
+                                                        "rowspan": 1
+                                                    }
+                                                ],
+                                                "is_header": true,
+                                                "text_in_inspection_sheet": null
+                                            },
+                                            {
+                                                "cells": [
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "supérieur à 35 et inférieur ou égal à 45 dB (A)"
+                                                        },
+                                                        "rowspan": 1
+                                                    },
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "6 dB (A)"
+                                                        },
+                                                        "rowspan": 1
+                                                    },
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "4 dB (A)"
+                                                        },
+                                                        "rowspan": 1
+                                                    }
+                                                ],
+                                                "is_header": false,
+                                                "text_in_inspection_sheet": "Niveau de bruit ambiant existant dans les zones à émergence réglementée\n(incluant le bruit de l'installation)\nsupérieur à 35 et inférieur ou égal à 45 dB (A)\nEmergence admissible pour la période allant de 7 h à 22 h,\nsauf dimanches et jours fériés\n6 dB (A)\nEmergence admissible pour la période allant de 22 h à 7 h, ainsi que les dimanches et jours fériés\n4 dB (A)"
+                                            },
+                                            {
+                                                "cells": [
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "supérieur à 45 dB (A)"
+                                                        },
+                                                        "rowspan": 1
+                                                    },
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "5 dB (A)"
+                                                        },
+                                                        "rowspan": 1
+                                                    },
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "3 dB (A)"
+                                                        },
+                                                        "rowspan": 1
+                                                    }
+                                                ],
+                                                "is_header": false,
+                                                "text_in_inspection_sheet": "Niveau de bruit ambiant existant dans les zones à émergence réglementée\n(incluant le bruit de l'installation)\nsupérieur à 45 dB (A)\nEmergence admissible pour la période allant de 7 h à 22 h,\nsauf dimanches et jours fériés\n5 dB (A)\nEmergence admissible pour la période allant de 22 h à 7 h, ainsi que les dimanches et jours fériés\n3 dB (A)"
+                                            }
+                                        ]
+                                    },
+                                    "text": ""
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "De plus, le niveau de bruit en limite de propriété de l'installation ne dépasse pas, lorsqu'elle est en fonctionnement, 70 dB (A) pour la période de jour et 60 dB (A) pour la période de nuit, sauf si le bruit résiduel pour la période considérée est supérieur à cette limite."
+                                }
+                            ],
+                            "parametrization": {
+                                "potential_inapplicabilities": [],
+                                "potential_modifications": [],
+                                "warnings": []
+                            },
+                            "reference_str": "Annexe I Art. - 8.",
+                            "sections": [],
+                            "title": {
+                                "active": true,
+                                "table": null,
+                                "text": "8. Bruit"
+                            }
+                        }
+                    ],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES POUR LA PROTECTION DE L'ENVIRONNEMENT SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2794"
+                    }
+                }
+            ],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Annexe I"
+            }
+        },
+        {
+            "annotations": {
+                "topic": null
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "1Ca12C9F33cE",
+            "outer_alineas": [],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "Annexe II",
+            "sections": [
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "9Ee730635AD4",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Les dispositions mentionnées ci-dessous sont applicables aux installations existantes déclarées avant le 1er juillet 2018."
+                        },
+                        {
+                            "active": true,
+                            "table": {
+                                "rows": [
+                                    {
+                                        "cells": [
+                                            {
+                                                "colspan": 1,
+                                                "content": {
+                                                    "active": true,
+                                                    "links": [],
+                                                    "table": null,
+                                                    "text": "1er juillet 2018"
+                                                },
+                                                "rowspan": 1
+                                            },
+                                            {
+                                                "colspan": 1,
+                                                "content": {
+                                                    "active": true,
+                                                    "links": [],
+                                                    "table": null,
+                                                    "text": "1er janvier 2019"
+                                                },
+                                                "rowspan": 1
+                                            }
+                                        ],
+                                        "is_header": true,
+                                        "text_in_inspection_sheet": null
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "colspan": 1,
+                                                "content": {
+                                                    "active": true,
+                                                    "links": [],
+                                                    "table": null,
+                                                    "text": "1. Dossier installation classé\n3. Exploitation - entretien\n5. 9 Epandage\n6. Risques d'envols\n7. Déchets\n8. Bruit"
+                                                },
+                                                "rowspan": 1
+                                            },
+                                            {
+                                                "colspan": 1,
+                                                "content": {
+                                                    "active": true,
+                                                    "links": [],
+                                                    "table": null,
+                                                    "text": "2.4 Installations électriques\n2.5 Mise à la terre des équipements\n2.8 Isolement du réseau de collecte\n4.1 Moyens de lutte contre l'incendie, sauf 1er tiret\n4.2 Consignes d'exploitation\n5. Eau"
+                                                },
+                                                "rowspan": 1
+                                            }
+                                        ],
+                                        "is_header": false,
+                                        "text_in_inspection_sheet": "1er juillet 2018\n1. Dossier installation classé\n3. Exploitation - entretien\n5. 9 Epandage\n6. Risques d'envols\n7. Déchets\n8. Bruit\n1er janvier 2019\n2.4 Installations électriques\n2.5 Mise à la terre des équipements\n2.8 Isolement du réseau de collecte\n4.1 Moyens de lutte contre l'incendie, sauf 1er tiret\n4.2 Consignes d'exploitation\n5. Eau"
+                                    }
+                                ]
+                            },
+                            "text": ""
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Annexe II Art. -",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article - DISPOSITIONS APPLICABLES AUX INSTALLATIONS EXISTANTES"
+                    }
+                }
+            ],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Annexe II"
+            }
+        }
+    ],
+    "title": {
+        "active": true,
+        "table": null,
+        "text": "Arrêté du 18/05/18 relatif aux prescriptions générales applicables aux installations de broyage de déchets végétaux non dangereux relevant du régime de la déclaration au titre de la rubrique n° 2794 de la nomenclature des installations classées pour la protection de l'environnement"
+    },
+    "version_descriptor": null,
+    "visa": [
+        {
+            "active": true,
+            "links": [
+                {
+                    "content_size": 23,
+                    "position": 6,
+                    "target": "https://www.legifrance.gouv.fr/affichCode.do?cidTexte=LEGITEXT000006074220&dateTexte=29990101&categorieLien=cid"
+                }
+            ],
+            "table": null,
+            "text": "Vu le code de l'environnement, notamment les titres I et II du livre II et les titres I, IV et VII du livre V ;"
+        },
+        {
+            "active": true,
+            "links": [
+                {
+                    "content_size": 9,
+                    "position": 95,
+                    "target": "https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006839117&dateTexte=29990101&categorieLien=cid"
+                },
+                {
+                    "content_size": 9,
+                    "position": 108,
+                    "target": "https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000006839120&dateTexte=29990101&categorieLien=cid"
+                }
+            ],
+            "table": null,
+            "text": "Vu l'arrêté du 29 février 2012 modifié fixant le contenu des registres mentionnés aux articles R. 541-43 et R. 541-46 du code de l'environnement ;"
+        },
+        {
+            "active": true,
+            "table": null,
+            "text": "Vu l'avis des organisations professionnelles intéressées ;"
+        },
+        {
+            "active": true,
+            "links": [
+                {
+                    "content_size": 46,
+                    "position": 132,
+                    "target": "https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000032975869&dateTexte=29990101&categorieLien=cid"
+                }
+            ],
+            "table": null,
+            "text": "Vu les observations formulées lors de la consultation publique réalisée du 10 novembre 2017 au 3 décembre 2017, en application de l'article L. 123-19-1 du code de l'environnement ;"
+        },
+        {
+            "active": true,
+            "table": null,
+            "text": "Vu l'avis du Conseil supérieur de la prévention des risques technologiques en date du 16 janvier 2018 ;"
+        },
+        {
+            "active": true,
+            "table": null,
+            "text": "Vu l'avis du Conseil national d'évaluation des normes en date du 3 mai 2018,"
+        }
+    ]
+}
