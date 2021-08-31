@@ -13,14 +13,14 @@ class AMManager
     ams = {}
     ams_files.each_with_index do |json_file, index|
       am = AM.from_hash(parse_file(json_file))
-      ams[am.version_identifier] = json_file
+      ams[am.cid] = json_file
       Rails.logger.info("#{index + 1} ams initialized") if index % 10 == 9
     end
     ams
   end
 
   def self.fetch_existing_am_ids
-    AM.all.map { |am| [am.version_identifier, am.id] }.to_h
+    AM.all.map { |am| [am.cid, am.id] }.to_h
   end
 
   def self.recreate(ams_to_seed, ams_ids_in_db)

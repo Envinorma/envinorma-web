@@ -19,7 +19,7 @@ class InstallationsController < ApplicationController
       classement.regime.present? ? REGIMES[classement.regime.to_sym] : REGIMES[:empty]
     end
 
-    @ams_with_applicabilities = compute_applicable_ams_list(@classements)
+    @ams = compute_applicable_ams_list(@classements)
     @transversal_ams = AM.where(is_transverse: true)
 
     @url_am_ids = params.key?('am_ids') ? Set.new(params['am_ids'].map(&:to_i)) : nil

@@ -1,22 +1,10 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/41901",
-    "version_descriptor": {
-        "aed_date": {
-            "is_used_in_parametrization": true,
-            "unknown_classement_date_version": null,
-            "left_value": null,
-            "right_value": null
-        },
-        "applicability_warnings": [
+    "applicability": {
+        "warnings": [
             "Cet arrêté pourrait ne pas être applicable. C'est le cas pour les installations dont la date d'autorisation est antérieure au 13/11/1986."
         ],
-        "applicable": true,
-        "date_de_mise_en_service": {
-            "is_used_in_parametrization": true,
-            "unknown_classement_date_version": null,
-            "left_value": null,
-            "right_value": null
-        }
+        "conditions_of_inapplicability": []
     },
     "classements": [
         {

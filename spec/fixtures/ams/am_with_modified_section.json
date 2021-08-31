@@ -1,19 +1,7 @@
 {
-    "version_descriptor": {
-        "aed_date": {
-            "is_used_in_parametrization": true,
-            "unknown_classement_date_version": false,
-            "left_value": null,
-            "right_value": "01/01/2000"
-        },
-        "applicability_warnings": [],
-        "applicable": true,
-        "date_de_mise_en_service": {
-            "is_used_in_parametrization": false,
-            "unknown_classement_date_version": null,
-            "left_value": null,
-            "right_value": null
-        }
+    "applicability": {
+        "warnings": [],
+        "conditions_of_inapplicability": []
     },
     "classements_with_alineas": [
         {

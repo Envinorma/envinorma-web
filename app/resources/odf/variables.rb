@@ -76,7 +76,7 @@ module Odf
     def build_tag(value, placeholder_tag, cell_placeholder, table_template)
       if value.is_a?(String)
         new_tag = deep_clone(placeholder_tag)
-        new_tag.inner_html = sanitize(value)
+        new_tag.inner_html = sanitize_odt_xml(value)
         return new_tag
       end
 

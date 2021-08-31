@@ -11,8 +11,6 @@ FactoryBot.define do
       nickname { '' }
       date_of_signature { am['date_of_signature'].to_date }
       title { am.dig('title', 'text') }
-      version_descriptor { am['version_descriptor'] }
-      default_version { true }
       aida_url { am['aida_url'] }
       legifrance_url { am['legifrance_url'] }
       classements_with_alineas { am['classements_with_alineas'] }
@@ -27,8 +25,6 @@ FactoryBot.define do
       nickname { '' }
       date_of_signature { am['date_of_signature'].to_date }
       title { am.dig('title', 'text') }
-      version_descriptor { am['version_descriptor'] }
-      default_version { true }
       aida_url { am['aida_url'] }
       legifrance_url { am['legifrance_url'] }
       classements_with_alineas { am['classements_with_alineas'] }
@@ -43,8 +39,6 @@ FactoryBot.define do
       nickname { '' }
       date_of_signature { am['date_of_signature'].to_date }
       title { am.dig('title', 'text') }
-      version_descriptor { am['version_descriptor'] }
-      default_version { false }
       aida_url { am['aida_url'] }
       legifrance_url { am['legifrance_url'] }
       classements_with_alineas { am['classements_with_alineas'] }
@@ -59,8 +53,6 @@ FactoryBot.define do
       nickname { '' }
       date_of_signature { am['date_of_signature'].to_date }
       title { am.dig('title', 'text') }
-      version_descriptor { am['version_descriptor'] }
-      default_version { false }
       aida_url { am['aida_url'] }
       legifrance_url { am['legifrance_url'] }
       classements_with_alineas { am['classements_with_alineas'] }
@@ -75,8 +67,6 @@ FactoryBot.define do
       nickname { '' }
       date_of_signature { am['date_of_signature'].to_date }
       title { am.dig('title', 'text') }
-      version_descriptor { am['version_descriptor'] }
-      default_version { false }
       aida_url { am['aida_url'] }
       legifrance_url { am['legifrance_url'] }
       classements_with_alineas { am['classements_with_alineas'] }

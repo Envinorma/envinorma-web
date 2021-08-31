@@ -2,7 +2,7 @@
 
 module Odf
   module Sanitizer
-    def sanitize(txt)
+    def sanitize_odt_xml(txt)
       txt = html_escape(txt)
       odf_linebreak(txt)
     end
