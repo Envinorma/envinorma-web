@@ -1,7 +1,7 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/3641",
     "applicability": {
-        "conditions_of_inapplicability": [],
+        "condition_of_inapplicability": null,
         "warnings": []
     },
     "classements": [
@@ -571,7 +571,7 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-declaration",
+                                                        "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
@@ -580,7 +580,7 @@
                                                 },
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-installation",
+                                                        "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
@@ -660,7 +660,7 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-declaration",
+                                                        "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
@@ -669,7 +669,7 @@
                                                 },
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-installation",
+                                                        "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
@@ -873,7 +873,7 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-declaration",
+                                                        "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
@@ -882,7 +882,7 @@
                                                 },
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-installation",
+                                                        "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
@@ -998,7 +998,7 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-declaration",
+                                                        "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
@@ -1007,7 +1007,7 @@
                                                 },
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-installation",
+                                                        "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
@@ -1142,7 +1142,7 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-declaration",
+                                                        "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
@@ -1151,7 +1151,7 @@
                                                 },
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-installation",
+                                                        "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
@@ -1516,7 +1516,7 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-declaration",
+                                                        "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
@@ -1525,7 +1525,7 @@
                                                 },
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-installation",
+                                                        "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
@@ -2587,7 +2587,7 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-declaration",
+                                                        "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
@@ -2596,7 +2596,7 @@
                                                 },
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-installation",
+                                                        "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,

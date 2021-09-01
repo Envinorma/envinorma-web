@@ -1,7 +1,7 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/28554",
     "applicability": {
-        "conditions_of_inapplicability": [],
+        "condition_of_inapplicability": null,
         "warnings": []
     },
     "classements": [
@@ -395,6 +395,14 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2101",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-enregistrement",
                                                         "type": "DATE"
                                                     },
@@ -404,28 +412,20 @@
                                                 },
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2101",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "2",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "quantite-rubrique",
                                                         "type": "REAL_NUMBER"
                                                     },
                                                     "strict": true,
                                                     "target": 200.0,
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "2-b",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -435,14 +435,6 @@
                                         "alineas": null,
                                         "condition": {
                                             "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2111",
-                                                    "type": "EQUAL"
-                                                },
                                                 {
                                                     "parameter": {
                                                         "id": "date-d-enregistrement",
@@ -451,6 +443,14 @@
                                                     "strict": true,
                                                     "target": "2015-10-02",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2111",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -460,15 +460,6 @@
                                         "alineas": null,
                                         "condition": {
                                             "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "date-d-enregistrement",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": true,
-                                                    "target": "2016-12-07",
-                                                    "type": "LITTLER"
-                                                },
                                                 {
                                                     "parameter": {
                                                         "id": "rubrique",
@@ -491,8 +482,17 @@
                                                         "id": "alinea",
                                                         "type": "STRING"
                                                     },
-                                                    "target": "2",
+                                                    "target": "2-b",
                                                     "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "date-d-enregistrement",
+                                                        "type": "DATE"
+                                                    },
+                                                    "strict": true,
+                                                    "target": "2016-12-07",
+                                                    "type": "LITTLER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -512,20 +512,20 @@
                                                 },
                                                 {
                                                     "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "1-b",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-enregistrement",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2016-12-07",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "1",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -569,6 +569,14 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2101",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-enregistrement",
                                                         "type": "DATE"
                                                     },
@@ -578,28 +586,20 @@
                                                 },
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2101",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "2",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "quantite-rubrique",
                                                         "type": "REAL_NUMBER"
                                                     },
                                                     "strict": true,
                                                     "target": 200.0,
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "2-b",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -609,14 +609,6 @@
                                         "alineas": null,
                                         "condition": {
                                             "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2111",
-                                                    "type": "EQUAL"
-                                                },
                                                 {
                                                     "parameter": {
                                                         "id": "date-d-enregistrement",
@@ -625,6 +617,14 @@
                                                     "strict": true,
                                                     "target": "2015-10-02",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2111",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -634,15 +634,6 @@
                                         "alineas": null,
                                         "condition": {
                                             "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "date-d-enregistrement",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": true,
-                                                    "target": "2016-12-07",
-                                                    "type": "LITTLER"
-                                                },
                                                 {
                                                     "parameter": {
                                                         "id": "rubrique",
@@ -665,8 +656,17 @@
                                                         "id": "alinea",
                                                         "type": "STRING"
                                                     },
-                                                    "target": "2",
+                                                    "target": "2-b",
                                                     "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "date-d-enregistrement",
+                                                        "type": "DATE"
+                                                    },
+                                                    "strict": true,
+                                                    "target": "2016-12-07",
+                                                    "type": "LITTLER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -686,20 +686,20 @@
                                                 },
                                                 {
                                                     "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "1-b",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-enregistrement",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2016-12-07",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "1",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -758,6 +758,14 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2101",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-enregistrement",
                                                         "type": "DATE"
                                                     },
@@ -767,28 +775,20 @@
                                                 },
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2101",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "2",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "quantite-rubrique",
                                                         "type": "REAL_NUMBER"
                                                     },
                                                     "strict": true,
                                                     "target": 200.0,
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "2-b",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -798,14 +798,6 @@
                                         "alineas": null,
                                         "condition": {
                                             "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2111",
-                                                    "type": "EQUAL"
-                                                },
                                                 {
                                                     "parameter": {
                                                         "id": "date-d-enregistrement",
@@ -814,6 +806,14 @@
                                                     "strict": true,
                                                     "target": "2015-10-02",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2111",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -823,15 +823,6 @@
                                         "alineas": null,
                                         "condition": {
                                             "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "date-d-enregistrement",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": true,
-                                                    "target": "2016-12-07",
-                                                    "type": "LITTLER"
-                                                },
                                                 {
                                                     "parameter": {
                                                         "id": "rubrique",
@@ -854,8 +845,17 @@
                                                         "id": "alinea",
                                                         "type": "STRING"
                                                     },
-                                                    "target": "2",
+                                                    "target": "2-b",
                                                     "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "date-d-enregistrement",
+                                                        "type": "DATE"
+                                                    },
+                                                    "strict": true,
+                                                    "target": "2016-12-07",
+                                                    "type": "LITTLER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -875,20 +875,20 @@
                                                 },
                                                 {
                                                     "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "1-b",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-enregistrement",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2016-12-07",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "1",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -945,7 +945,7 @@
                                                         "id": "rubrique",
                                                         "type": "RUBRIQUE"
                                                     },
-                                                    "target": "2102",
+                                                    "target": "2101",
                                                     "type": "EQUAL"
                                                 },
                                                 {
@@ -962,7 +962,7 @@
                                                         "id": "rubrique",
                                                         "type": "RUBRIQUE"
                                                     },
-                                                    "target": "2101",
+                                                    "target": "2102",
                                                     "type": "EQUAL"
                                                 }
                                             ],
@@ -1494,6 +1494,14 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2101",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-enregistrement",
                                                         "type": "DATE"
                                                     },
@@ -1503,28 +1511,20 @@
                                                 },
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2101",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "2",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "quantite-rubrique",
                                                         "type": "REAL_NUMBER"
                                                     },
                                                     "strict": true,
                                                     "target": 200.0,
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "2-b",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -1534,15 +1534,6 @@
                                         "alineas": null,
                                         "condition": {
                                             "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "date-d-enregistrement",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": true,
-                                                    "target": "2016-12-07",
-                                                    "type": "LITTLER"
-                                                },
                                                 {
                                                     "parameter": {
                                                         "id": "rubrique",
@@ -1565,8 +1556,17 @@
                                                         "id": "alinea",
                                                         "type": "STRING"
                                                     },
-                                                    "target": "2",
+                                                    "target": "2-b",
                                                     "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "date-d-enregistrement",
+                                                        "type": "DATE"
+                                                    },
+                                                    "strict": true,
+                                                    "target": "2016-12-07",
+                                                    "type": "LITTLER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -1576,14 +1576,6 @@
                                         "alineas": null,
                                         "condition": {
                                             "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2111",
-                                                    "type": "EQUAL"
-                                                },
                                                 {
                                                     "parameter": {
                                                         "id": "date-d-enregistrement",
@@ -1592,6 +1584,14 @@
                                                     "strict": true,
                                                     "target": "2015-10-02",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2111",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -1603,20 +1603,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2102",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-enregistrement",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2014-01-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2102",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -1909,6 +1909,14 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2101",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-enregistrement",
                                                         "type": "DATE"
                                                     },
@@ -1918,28 +1926,20 @@
                                                 },
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2101",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "2",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "quantite-rubrique",
                                                         "type": "REAL_NUMBER"
                                                     },
                                                     "strict": true,
                                                     "target": 200.0,
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "2-b",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -1949,15 +1949,6 @@
                                         "alineas": null,
                                         "condition": {
                                             "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "date-d-enregistrement",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": true,
-                                                    "target": "2016-12-07",
-                                                    "type": "LITTLER"
-                                                },
                                                 {
                                                     "parameter": {
                                                         "id": "rubrique",
@@ -1980,8 +1971,17 @@
                                                         "id": "alinea",
                                                         "type": "STRING"
                                                     },
-                                                    "target": "2",
+                                                    "target": "2-b",
                                                     "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "date-d-enregistrement",
+                                                        "type": "DATE"
+                                                    },
+                                                    "strict": true,
+                                                    "target": "2016-12-07",
+                                                    "type": "LITTLER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -1991,14 +1991,6 @@
                                         "alineas": null,
                                         "condition": {
                                             "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2111",
-                                                    "type": "EQUAL"
-                                                },
                                                 {
                                                     "parameter": {
                                                         "id": "date-d-enregistrement",
@@ -2007,6 +1999,14 @@
                                                     "strict": true,
                                                     "target": "2015-10-02",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2111",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2018,20 +2018,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2102",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-enregistrement",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2014-01-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2102",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -3761,6 +3761,14 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2101",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-enregistrement",
                                                         "type": "DATE"
                                                     },
@@ -3770,28 +3778,20 @@
                                                 },
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2101",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "2",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "quantite-rubrique",
                                                         "type": "REAL_NUMBER"
                                                     },
                                                     "strict": true,
                                                     "target": 200.0,
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "2-b",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -3804,15 +3804,6 @@
                                         ],
                                         "condition": {
                                             "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "date-d-enregistrement",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": true,
-                                                    "target": "2016-12-07",
-                                                    "type": "LITTLER"
-                                                },
                                                 {
                                                     "parameter": {
                                                         "id": "rubrique",
@@ -3835,8 +3826,17 @@
                                                         "id": "alinea",
                                                         "type": "STRING"
                                                     },
-                                                    "target": "2",
+                                                    "target": "2-b",
                                                     "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "date-d-enregistrement",
+                                                        "type": "DATE"
+                                                    },
+                                                    "strict": true,
+                                                    "target": "2016-12-07",
+                                                    "type": "LITTLER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -3849,14 +3849,6 @@
                                         ],
                                         "condition": {
                                             "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2111",
-                                                    "type": "EQUAL"
-                                                },
                                                 {
                                                     "parameter": {
                                                         "id": "date-d-enregistrement",
@@ -3865,6 +3857,14 @@
                                                     "strict": true,
                                                     "target": "2015-10-02",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2111",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -3879,20 +3879,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2102",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-enregistrement",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2014-01-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2102",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"

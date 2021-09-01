@@ -1,17 +1,15 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/41029",
     "applicability": {
-        "conditions_of_inapplicability": [
-            {
-                "parameter": {
-                    "id": "quantite-rubrique",
-                    "type": "REAL_NUMBER"
-                },
-                "strict": true,
-                "target": 1.0,
-                "type": "LITTLER"
-            }
-        ],
+        "condition_of_inapplicability": {
+            "parameter": {
+                "id": "quantite-rubrique",
+                "type": "REAL_NUMBER"
+            },
+            "strict": true,
+            "target": 1.0,
+            "type": "LITTLER"
+        },
         "warnings": []
     },
     "classements": [

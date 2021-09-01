@@ -1,7 +1,7 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/32401",
     "applicability": {
-        "conditions_of_inapplicability": [],
+        "condition_of_inapplicability": null,
         "warnings": []
     },
     "classements": [
@@ -46,7 +46,7 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "831c2Bcf24C0",
+            "id": "E9eDCdC1702a",
             "outer_alineas": [
                 {
                     "active": true,
@@ -87,7 +87,7 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "4990e4D7fBcc",
+            "id": "ee02ce9CBCC3",
             "outer_alineas": [
                 {
                     "active": true,
@@ -148,7 +148,7 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "cd5acBbB8A16",
+            "id": "8Fe7b7C77079",
             "outer_alineas": [
                 {
                     "active": true,
@@ -204,7 +204,7 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "DF1EB40eb5f7",
+            "id": "F735d0ee7F2B",
             "outer_alineas": [
                 {
                     "active": true,
@@ -235,7 +235,7 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "2Db226c7d650",
+            "id": "56Ac0294cDf2",
             "outer_alineas": [
                 {
                     "active": true,
@@ -266,7 +266,7 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "aeA394048a5c",
+            "id": "6d2A2FFDA90b",
             "outer_alineas": [
                 {
                     "active": true,
@@ -302,7 +302,7 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "f85D5f4A51dC",
+            "id": "5302cd58f9bc",
             "outer_alineas": [
                 {
                     "active": true,
@@ -353,7 +353,7 @@
                 "previous_version": null,
                 "warnings": []
             },
-            "id": "B196b2abED6D",
+            "id": "126E3228eCf7",
             "outer_alineas": [],
             "parametrization": {
                 "potential_inapplicabilities": [],
@@ -372,7 +372,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "b2aFfD2525Ff",
+                    "id": "6CC8ca4Df4ed",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -438,7 +438,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "f774eD8cb59a",
+                    "id": "3B22f90Dca82",
                     "outer_alineas": [],
                     "parametrization": {
                         "potential_inapplicabilities": [],
@@ -457,7 +457,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "e29eBd6F532b",
+                            "id": "613755baC1Ab",
                             "outer_alineas": [],
                             "parametrization": {
                                 "potential_inapplicabilities": [],
@@ -476,7 +476,7 @@
                                         "previous_version": null,
                                         "warnings": []
                                     },
-                                    "id": "2A1E86784d28",
+                                    "id": "9ffCFA2e9c69",
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -507,7 +507,7 @@
                                         "previous_version": null,
                                         "warnings": []
                                     },
-                                    "id": "D207944B1e97",
+                                    "id": "a6f86f6fFfa5",
                                     "outer_alineas": [
                                         {
                                             "active": true,
@@ -550,7 +550,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "47DA1DafBb5c",
+                            "id": "3a9d01Ee5eEe",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -658,7 +658,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "c5c0aA27bDaC",
+                    "id": "e02d5F4c9a4e",
                     "outer_alineas": [],
                     "parametrization": {
                         "potential_inapplicabilities": [],
@@ -677,7 +677,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "b7a2abbdaFF0",
+                            "id": "EC7c65c2CE4D",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -746,7 +746,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "FDe573FD3DD3",
+                            "id": "B2636C7dE14D",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -775,32 +775,36 @@
                                                         "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
-                                                    "strict": false,
+                                                    "strict": true,
                                                     "target": "2015-01-01",
-                                                    "type": "GREATER"
+                                                    "type": "LITTLER"
                                                 },
                                                 {
                                                     "parameter": {
                                                         "id": "alinea",
                                                         "type": "STRING"
                                                     },
-                                                    "target": "3",
+                                                    "target": "3-2-a",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "3-1-a",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "3-2",
                                                     "type": "EQUAL"
                                                 }
                                             ],
-                                            "type": "AND"
-                                        }
-                                    },
-                                    {
-                                        "alineas": null,
-                                        "condition": {
-                                            "parameter": {
-                                                "id": "date-d-declaration",
-                                                "type": "DATE"
-                                            },
-                                            "strict": true,
-                                            "target": "2015-01-01",
-                                            "type": "LITTLER"
+                                            "type": "OR"
                                         }
                                     }
                                 ],
@@ -825,7 +829,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "44196c5BaFe2",
+                            "id": "B009aAd7eA0e",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -889,7 +893,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "b3BEd1d16B3c",
+                            "id": "83e1409085d9",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -910,73 +914,30 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-declaration",
-                                                        "type": "DATE"
+                                                        "id": "alinea",
+                                                        "type": "STRING"
                                                     },
-                                                    "strict": false,
-                                                    "target": "2015-01-01",
-                                                    "type": "GREATER"
+                                                    "target": "2-a",
+                                                    "type": "EQUAL"
                                                 },
                                                 {
                                                     "parameter": {
                                                         "id": "alinea",
                                                         "type": "STRING"
                                                     },
-                                                    "target": "1",
+                                                    "target": "2-b",
                                                     "type": "EQUAL"
-                                                }
-                                            ],
-                                            "type": "AND"
-                                        }
-                                    },
-                                    {
-                                        "alineas": null,
-                                        "condition": {
-                                            "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "2a",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "date-d-declaration",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": false,
-                                                    "target": "2015-01-01",
-                                                    "type": "GREATER"
-                                                }
-                                            ],
-                                            "type": "AND"
-                                        }
-                                    },
-                                    {
-                                        "alineas": null,
-                                        "condition": {
-                                            "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "date-d-declaration",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": false,
-                                                    "target": "2015-01-01",
-                                                    "type": "GREATER"
                                                 },
                                                 {
                                                     "parameter": {
                                                         "id": "alinea",
                                                         "type": "STRING"
                                                     },
-                                                    "target": "2b",
+                                                    "target": "1-b",
                                                     "type": "EQUAL"
                                                 }
                                             ],
-                                            "type": "AND"
+                                            "type": "OR"
                                         }
                                     }
                                 ],
@@ -1008,7 +969,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "E5FBbb2dccdD",
+                    "id": "62C7aE008Ae4",
                     "outer_alineas": [],
                     "parametrization": {
                         "potential_inapplicabilities": [],
@@ -1027,7 +988,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "952fD4c005f4",
+                            "id": "10b42763984d",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -1068,7 +1029,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "bEfC1cDAbeA4",
+                            "id": "ed9eEaa91aaF",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -1094,48 +1055,38 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-declaration",
-                                                        "type": "DATE"
+                                                        "id": "alinea",
+                                                        "type": "STRING"
                                                     },
-                                                    "strict": false,
-                                                    "target": "2015-01-01",
-                                                    "type": "GREATER"
+                                                    "target": "3-1-a",
+                                                    "type": "EQUAL"
                                                 },
                                                 {
                                                     "parameter": {
                                                         "id": "alinea",
                                                         "type": "STRING"
                                                     },
-                                                    "target": "1",
+                                                    "target": "1-b",
                                                     "type": "EQUAL"
-                                                }
-                                            ],
-                                            "type": "AND"
-                                        }
-                                    },
-                                    {
-                                        "alineas": null,
-                                        "condition": {
-                                            "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "date-d-declaration",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": false,
-                                                    "target": "2015-01-01",
-                                                    "type": "GREATER"
                                                 },
                                                 {
                                                     "parameter": {
                                                         "id": "alinea",
                                                         "type": "STRING"
                                                     },
-                                                    "target": "3",
+                                                    "target": "3-2",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "3-1-b",
                                                     "type": "EQUAL"
                                                 }
                                             ],
-                                            "type": "AND"
+                                            "type": "OR"
                                         }
                                     }
                                 ],
@@ -1160,7 +1111,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "0FDB0Bd337B9",
+                            "id": "e5bBBa283C8D",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -1206,7 +1157,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "c08D0f268C3D",
+                            "id": "be9d4b497f73",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -1264,7 +1215,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "dc7dcCbbfB9f",
+                    "id": "d9DFFC5e5bbd",
                     "outer_alineas": [],
                     "parametrization": {
                         "potential_inapplicabilities": [],
@@ -1283,7 +1234,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "72de402EF1bA",
+                            "id": "0b09B7542Fd6",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -1359,7 +1310,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "35dA863CcfdB",
+                            "id": "8b192EAb1aaA",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -1410,7 +1361,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "a8ce72AEAcAb",
+                            "id": "065A9Aac4C9C",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -1441,23 +1392,38 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-declaration",
-                                                        "type": "DATE"
+                                                        "id": "alinea",
+                                                        "type": "STRING"
                                                     },
-                                                    "strict": false,
-                                                    "target": "2015-01-01",
-                                                    "type": "GREATER"
+                                                    "target": "3-1-b",
+                                                    "type": "EQUAL"
                                                 },
                                                 {
                                                     "parameter": {
                                                         "id": "alinea",
                                                         "type": "STRING"
                                                     },
-                                                    "target": "1",
+                                                    "target": "3-1-a",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "3-2",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "1-b",
                                                     "type": "EQUAL"
                                                 }
                                             ],
-                                            "type": "AND"
+                                            "type": "OR"
                                         }
                                     }
                                 ],
@@ -1489,7 +1455,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "57378D0cAC8d",
+                    "id": "aA35ffD61FD1",
                     "outer_alineas": [],
                     "parametrization": {
                         "potential_inapplicabilities": [],
@@ -1508,7 +1474,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "4C42EC1FA83e",
+                            "id": "534dE60fDb53",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -1544,7 +1510,7 @@
                                 "previous_version": null,
                                 "warnings": []
                             },
-                            "id": "9ebCe7ec35d4",
+                            "id": "2E4BE5414641",
                             "outer_alineas": [
                                 {
                                     "active": true,
@@ -1590,73 +1556,46 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-declaration",
-                                                        "type": "DATE"
+                                                        "id": "alinea",
+                                                        "type": "STRING"
                                                     },
-                                                    "strict": false,
-                                                    "target": "2015-01-01",
-                                                    "type": "GREATER"
+                                                    "target": "2-b",
+                                                    "type": "EQUAL"
                                                 },
                                                 {
                                                     "parameter": {
                                                         "id": "alinea",
                                                         "type": "STRING"
                                                     },
-                                                    "target": "1",
+                                                    "target": "3-1-b",
                                                     "type": "EQUAL"
-                                                }
-                                            ],
-                                            "type": "AND"
-                                        }
-                                    },
-                                    {
-                                        "alineas": null,
-                                        "condition": {
-                                            "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "date-d-declaration",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": false,
-                                                    "target": "2015-01-01",
-                                                    "type": "GREATER"
                                                 },
                                                 {
                                                     "parameter": {
                                                         "id": "alinea",
                                                         "type": "STRING"
                                                     },
-                                                    "target": "2b",
+                                                    "target": "1-b",
                                                     "type": "EQUAL"
-                                                }
-                                            ],
-                                            "type": "AND"
-                                        }
-                                    },
-                                    {
-                                        "alineas": null,
-                                        "condition": {
-                                            "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "date-d-declaration",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": false,
-                                                    "target": "2015-01-01",
-                                                    "type": "GREATER"
                                                 },
                                                 {
                                                     "parameter": {
                                                         "id": "alinea",
                                                         "type": "STRING"
                                                     },
-                                                    "target": "3",
+                                                    "target": "3-1-a",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "3-2",
                                                     "type": "EQUAL"
                                                 }
                                             ],
-                                            "type": "AND"
+                                            "type": "OR"
                                         }
                                     }
                                 ],
@@ -1688,169 +1627,219 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "bDbA3Cb2e34e",
-                    "outer_alineas": [
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "a. L’exploitant prend toutes les mesures préventives réalisables afin d’éviter et de réduire au minimum les fuites et émissions de fluides."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "b. Pour les installations soumises à la rubrique 4802-1, les équipements utilisés pour la fabrication ou l’emploi de fluides (en dehors de l’emploi dans des équipements clos en exploitation soumis à « la rubrique 1185-2 ») font l’objet d’un premier contrôle d’étanchéité selon les modalités prévues aux articles 6 et 7 du règlement (CE) n° 1516/2007 susvisé. Le résultat de ce contrôle est tenu à la disposition de l’inspection des installations classées."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "L’exploitant élabore un plan de maîtrise des émissions de fluide, dans lequel figurent le niveau d’émission de référence de l’installation correspondant au niveau atteint si aucune mesure de réduction n’était mise en oeuvre dans l’installation, ainsi que l’identification des actions ou procédés à l’origine des émissions. L’exploitant définit dans ce plan la fréquence des contrôles d’étanchéité, à partir des résultats du premier contrôle et des actions ou procédés à l’origine des émissions."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Les fuites et émissions de fluide sont estimées annuellement. Cette estimation ainsi que les résultats des contrôles d’étanchéité à la fréquence déterminée par l’exploitant sont tenus à la disposition de l’inspection des installations classées, ainsi que le bilan des actions que l’exploitant a menées pour réduire les émissions et le programme d’actions à mettre en oeuvre pour les réduire davantage. Lorsqu’un défaut d’étanchéité est identifié, il fait l’objet d’une réparation dans les meilleurs délais."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "c. Pour les installations soumises à « la rubrique 1185-2 », les équipements clos en exploitation sont régulièrement contrôlés selon les fréquences et dispositions prévues par les règlements (CE) n° 1005/2009 et n° 517/2014 susvisés et par les articles R. 543-79 et R. 543-81 du code de l’environnement."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "\t- Présence de justificatifs attestant de la réalisation des contrôles d’étanchéité (le non-respect de ce point relève d’une non-conformité majeure)."
-                        }
-                    ],
+                    "id": "Ac7fbEcCCE60",
+                    "outer_alineas": [],
                     "parametrization": {
-                        "potential_inapplicabilities": [
-                            {
-                                "alineas": [
-                                    4
-                                ],
-                                "condition": {
-                                    "conditions": [
-                                        {
-                                            "parameter": {
-                                                "id": "date-d-declaration",
-                                                "type": "DATE"
-                                            },
-                                            "strict": false,
-                                            "target": "2015-01-01",
-                                            "type": "GREATER"
-                                        },
-                                        {
-                                            "parameter": {
-                                                "id": "alinea",
-                                                "type": "STRING"
-                                            },
-                                            "target": "1",
-                                            "type": "EQUAL"
-                                        }
-                                    ],
-                                    "type": "AND"
-                                }
-                            },
-                            {
-                                "alineas": [
-                                    1,
-                                    2,
-                                    3
-                                ],
-                                "condition": {
-                                    "conditions": [
-                                        {
-                                            "parameter": {
-                                                "id": "alinea",
-                                                "type": "STRING"
-                                            },
-                                            "target": "2a",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
-                                                "id": "date-d-declaration",
-                                                "type": "DATE"
-                                            },
-                                            "strict": false,
-                                            "target": "2015-01-01",
-                                            "type": "GREATER"
-                                        }
-                                    ],
-                                    "type": "AND"
-                                }
-                            },
-                            {
-                                "alineas": [
-                                    1,
-                                    2,
-                                    3
-                                ],
-                                "condition": {
-                                    "conditions": [
-                                        {
-                                            "parameter": {
-                                                "id": "date-d-declaration",
-                                                "type": "DATE"
-                                            },
-                                            "strict": false,
-                                            "target": "2015-01-01",
-                                            "type": "GREATER"
-                                        },
-                                        {
-                                            "parameter": {
-                                                "id": "alinea",
-                                                "type": "STRING"
-                                            },
-                                            "target": "2b",
-                                            "type": "EQUAL"
-                                        }
-                                    ],
-                                    "type": "AND"
-                                }
-                            },
-                            {
-                                "alineas": [
-                                    1,
-                                    2,
-                                    3,
-                                    4,
-                                    5,
-                                    6
-                                ],
-                                "condition": {
-                                    "conditions": [
-                                        {
-                                            "parameter": {
-                                                "id": "date-d-declaration",
-                                                "type": "DATE"
-                                            },
-                                            "strict": false,
-                                            "target": "2015-01-01",
-                                            "type": "GREATER"
-                                        },
-                                        {
-                                            "parameter": {
-                                                "id": "alinea",
-                                                "type": "STRING"
-                                            },
-                                            "target": "3",
-                                            "type": "EQUAL"
-                                        }
-                                    ],
-                                    "type": "AND"
-                                }
-                            }
-                        ],
+                        "potential_inapplicabilities": [],
                         "potential_modifications": [],
                         "warnings": []
                     },
                     "reference_str": "Annexe I 6.",
-                    "sections": [],
+                    "sections": [
+                        {
+                            "annotations": {
+                                "topic": null
+                            },
+                            "applicability": {
+                                "active": true,
+                                "modified": false,
+                                "previous_version": null,
+                                "warnings": []
+                            },
+                            "id": "3D2b3b13a8b9",
+                            "outer_alineas": [
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "L’exploitant prend toutes les mesures préventives réalisables afin d’éviter et de réduire au minimum les fuites et émissions de fluides."
+                                }
+                            ],
+                            "parametrization": {
+                                "potential_inapplicabilities": [],
+                                "potential_modifications": [],
+                                "warnings": []
+                            },
+                            "reference_str": "Annexe I 6.",
+                            "sections": [],
+                            "title": {
+                                "active": true,
+                                "table": null,
+                                "text": "a."
+                            }
+                        },
+                        {
+                            "annotations": {
+                                "topic": null
+                            },
+                            "applicability": {
+                                "active": true,
+                                "modified": false,
+                                "previous_version": null,
+                                "warnings": []
+                            },
+                            "id": "ecfa8d30f216",
+                            "outer_alineas": [
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "Pour les installations soumises à la rubrique 4802-1, les équipements utilisés pour la fabrication ou l’emploi de fluides (en dehors de l’emploi dans des équipements clos en exploitation soumis à « la rubrique 1185-2 ») font l’objet d’un premier contrôle d’étanchéité selon les modalités prévues aux articles 6 et 7 du règlement (CE) n° 1516/2007 susvisé. Le résultat de ce contrôle est tenu à la disposition de l’inspection des installations classées."
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "L’exploitant élabore un plan de maîtrise des émissions de fluide, dans lequel figurent le niveau d’émission de référence de l’installation correspondant au niveau atteint si aucune mesure de réduction n’était mise en oeuvre dans l’installation, ainsi que l’identification des actions ou procédés à l’origine des émissions. L’exploitant définit dans ce plan la fréquence des contrôles d’étanchéité, à partir des résultats du premier contrôle et des actions ou procédés à l’origine des émissions."
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "Les fuites et émissions de fluide sont estimées annuellement. Cette estimation ainsi que les résultats des contrôles d’étanchéité à la fréquence déterminée par l’exploitant sont tenus à la disposition de l’inspection des installations classées, ainsi que le bilan des actions que l’exploitant a menées pour réduire les émissions et le programme d’actions à mettre en oeuvre pour les réduire davantage. Lorsqu’un défaut d’étanchéité est identifié, il fait l’objet d’une réparation dans les meilleurs délais."
+                                }
+                            ],
+                            "parametrization": {
+                                "potential_inapplicabilities": [
+                                    {
+                                        "alineas": null,
+                                        "condition": {
+                                            "conditions": [
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "2-a",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "2-b",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "3-1-b",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "3-1-a",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "3-2",
+                                                    "type": "EQUAL"
+                                                }
+                                            ],
+                                            "type": "OR"
+                                        }
+                                    }
+                                ],
+                                "potential_modifications": [],
+                                "warnings": []
+                            },
+                            "reference_str": "Annexe I 6.",
+                            "sections": [],
+                            "title": {
+                                "active": true,
+                                "table": null,
+                                "text": "b."
+                            }
+                        },
+                        {
+                            "annotations": {
+                                "topic": null
+                            },
+                            "applicability": {
+                                "active": true,
+                                "modified": false,
+                                "previous_version": null,
+                                "warnings": []
+                            },
+                            "id": "99Afb785F171",
+                            "outer_alineas": [
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "Pour les installations soumises à « la rubrique 1185-2 », les équipements clos en exploitation sont régulièrement contrôlés selon les fréquences et dispositions prévues par les règlements (CE) n° 1005/2009 et n° 517/2014 susvisés et par les articles R. 543-79 et R. 543-81 du code de l’environnement."
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "\t- Présence de justificatifs attestant de la réalisation des contrôles d’étanchéité (le non-respect de ce point relève d’une non-conformité majeure)."
+                                }
+                            ],
+                            "parametrization": {
+                                "potential_inapplicabilities": [
+                                    {
+                                        "alineas": null,
+                                        "condition": {
+                                            "conditions": [
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "3-1-a",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "1-b",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "3-2",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "alinea",
+                                                        "type": "STRING"
+                                                    },
+                                                    "target": "3-1-b",
+                                                    "type": "EQUAL"
+                                                }
+                                            ],
+                                            "type": "OR"
+                                        }
+                                    }
+                                ],
+                                "potential_modifications": [],
+                                "warnings": []
+                            },
+                            "reference_str": "Annexe I 6.",
+                            "sections": [],
+                            "title": {
+                                "active": true,
+                                "table": null,
+                                "text": "c."
+                            }
+                        }
+                    ],
                     "title": {
                         "active": true,
                         "table": null,
@@ -1867,7 +1856,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "dfB110750f33",
+                    "id": "BfCeC3Fd1dAB",
                     "outer_alineas": [
                         {
                             "active": true,
@@ -1923,7 +1912,7 @@
                         "previous_version": null,
                         "warnings": []
                     },
-                    "id": "Ad9a1eEFffc4",
+                    "id": "bfD569eE0cF6",
                     "outer_alineas": [
                         {
                             "active": true,

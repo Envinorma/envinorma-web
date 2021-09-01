@@ -1,7 +1,7 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/41025",
     "applicability": {
-        "conditions_of_inapplicability": [],
+        "condition_of_inapplicability": null,
         "warnings": []
     },
     "classements": [
@@ -978,20 +978,20 @@
                                                 },
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-installation",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": true,
-                                                    "target": "2018-12-20",
-                                                    "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "quantite-rubrique",
                                                         "type": "REAL_NUMBER"
                                                     },
                                                     "strict": true,
                                                     "target": 2.0,
+                                                    "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "date-d-installation",
+                                                        "type": "DATE"
+                                                    },
+                                                    "strict": true,
+                                                    "target": "2018-12-20",
                                                     "type": "LITTLER"
                                                 }
                                             ],
@@ -1115,20 +1115,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -1208,20 +1208,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -1311,20 +1311,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -1398,20 +1398,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -1701,20 +1701,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -1781,21 +1781,21 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -1818,21 +1818,21 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2116,21 +2116,21 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2174,21 +2174,21 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2232,21 +2232,21 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2414,21 +2414,21 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2533,21 +2533,21 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2958,21 +2958,21 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2993,20 +2993,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -3424,21 +3424,21 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -3461,21 +3461,21 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -3498,20 +3498,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -3800,21 +3800,21 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -3835,20 +3835,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -3996,21 +3996,21 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -4031,20 +4031,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -4099,21 +4099,21 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -4134,20 +4134,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -4232,21 +4232,21 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -4269,21 +4269,21 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -4304,20 +4304,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -4372,12 +4372,12 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
+                                                                "id": "quantite-rubrique",
+                                                                "type": "REAL_NUMBER"
                                                             },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
+                                                            "strict": false,
+                                                            "target": 2.0,
+                                                            "type": "GREATER"
                                                         },
                                                         {
                                                             "parameter": {
@@ -4390,12 +4390,12 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "quantite-rubrique",
-                                                                "type": "REAL_NUMBER"
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
                                                             },
-                                                            "strict": false,
-                                                            "target": 2.0,
-                                                            "type": "GREATER"
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -4416,20 +4416,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -5690,21 +5690,21 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -5725,20 +5725,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -5803,12 +5803,12 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
+                                                                "id": "quantite-rubrique",
+                                                                "type": "REAL_NUMBER"
                                                             },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
+                                                            "strict": false,
+                                                            "target": 2.0,
+                                                            "type": "GREATER"
                                                         },
                                                         {
                                                             "parameter": {
@@ -5821,12 +5821,12 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "quantite-rubrique",
-                                                                "type": "REAL_NUMBER"
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
                                                             },
-                                                            "strict": false,
-                                                            "target": 2.0,
-                                                            "type": "GREATER"
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -5843,6 +5843,15 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
+                                                                "id": "quantite-rubrique",
+                                                                "type": "REAL_NUMBER"
+                                                            },
+                                                            "strict": false,
+                                                            "target": 2.0,
+                                                            "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
                                                                 "id": "date-d-declaration",
                                                                 "type": "DATE"
                                                             },
@@ -5857,15 +5866,6 @@
                                                             },
                                                             "strict": false,
                                                             "target": 4.0,
-                                                            "type": "GREATER"
-                                                        },
-                                                        {
-                                                            "parameter": {
-                                                                "id": "quantite-rubrique",
-                                                                "type": "REAL_NUMBER"
-                                                            },
-                                                            "strict": false,
-                                                            "target": 2.0,
                                                             "type": "GREATER"
                                                         }
                                                     ],
@@ -5887,20 +5887,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -5985,20 +5985,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -6046,20 +6046,20 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": true,
                                                             "target": 2.0,
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -6169,21 +6169,21 @@
                                                             "conditions": [
                                                                 {
                                                                     "parameter": {
-                                                                        "id": "date-d-declaration",
-                                                                        "type": "DATE"
-                                                                    },
-                                                                    "strict": true,
-                                                                    "target": "1998-01-01",
-                                                                    "type": "LITTLER"
-                                                                },
-                                                                {
-                                                                    "parameter": {
                                                                         "id": "quantite-rubrique",
                                                                         "type": "REAL_NUMBER"
                                                                     },
                                                                     "strict": false,
                                                                     "target": 2.0,
                                                                     "type": "GREATER"
+                                                                },
+                                                                {
+                                                                    "parameter": {
+                                                                        "id": "date-d-declaration",
+                                                                        "type": "DATE"
+                                                                    },
+                                                                    "strict": true,
+                                                                    "target": "1998-01-01",
+                                                                    "type": "LITTLER"
                                                                 }
                                                             ],
                                                             "type": "AND"
@@ -6204,21 +6204,21 @@
                                                                 },
                                                                 {
                                                                     "parameter": {
-                                                                        "id": "date-d-installation",
-                                                                        "type": "DATE"
-                                                                    },
-                                                                    "strict": true,
-                                                                    "target": "2018-12-20",
-                                                                    "type": "LITTLER"
-                                                                },
-                                                                {
-                                                                    "parameter": {
                                                                         "id": "quantite-rubrique",
                                                                         "type": "REAL_NUMBER"
                                                                     },
                                                                     "strict": false,
                                                                     "target": 2.0,
                                                                     "type": "GREATER"
+                                                                },
+                                                                {
+                                                                    "parameter": {
+                                                                        "id": "date-d-installation",
+                                                                        "type": "DATE"
+                                                                    },
+                                                                    "strict": true,
+                                                                    "target": "2018-12-20",
+                                                                    "type": "LITTLER"
                                                                 }
                                                             ],
                                                             "type": "AND"
@@ -7272,21 +7272,21 @@
                                                             "conditions": [
                                                                 {
                                                                     "parameter": {
-                                                                        "id": "date-d-declaration",
-                                                                        "type": "DATE"
-                                                                    },
-                                                                    "strict": true,
-                                                                    "target": "1998-01-01",
-                                                                    "type": "LITTLER"
-                                                                },
-                                                                {
-                                                                    "parameter": {
                                                                         "id": "quantite-rubrique",
                                                                         "type": "REAL_NUMBER"
                                                                     },
                                                                     "strict": false,
                                                                     "target": 2.0,
                                                                     "type": "GREATER"
+                                                                },
+                                                                {
+                                                                    "parameter": {
+                                                                        "id": "date-d-declaration",
+                                                                        "type": "DATE"
+                                                                    },
+                                                                    "strict": true,
+                                                                    "target": "1998-01-01",
+                                                                    "type": "LITTLER"
                                                                 }
                                                             ],
                                                             "type": "AND"
@@ -13626,21 +13626,21 @@
                                                             "conditions": [
                                                                 {
                                                                     "parameter": {
-                                                                        "id": "date-d-declaration",
-                                                                        "type": "DATE"
-                                                                    },
-                                                                    "strict": true,
-                                                                    "target": "1998-01-01",
-                                                                    "type": "LITTLER"
-                                                                },
-                                                                {
-                                                                    "parameter": {
                                                                         "id": "quantite-rubrique",
                                                                         "type": "REAL_NUMBER"
                                                                     },
                                                                     "strict": false,
                                                                     "target": 2.0,
                                                                     "type": "GREATER"
+                                                                },
+                                                                {
+                                                                    "parameter": {
+                                                                        "id": "date-d-declaration",
+                                                                        "type": "DATE"
+                                                                    },
+                                                                    "strict": true,
+                                                                    "target": "1998-01-01",
+                                                                    "type": "LITTLER"
                                                                 }
                                                             ],
                                                             "type": "AND"
@@ -13684,21 +13684,21 @@
                                                             "conditions": [
                                                                 {
                                                                     "parameter": {
-                                                                        "id": "date-d-declaration",
-                                                                        "type": "DATE"
-                                                                    },
-                                                                    "strict": true,
-                                                                    "target": "1998-01-01",
-                                                                    "type": "LITTLER"
-                                                                },
-                                                                {
-                                                                    "parameter": {
                                                                         "id": "quantite-rubrique",
                                                                         "type": "REAL_NUMBER"
                                                                     },
                                                                     "strict": false,
                                                                     "target": 2.0,
                                                                     "type": "GREATER"
+                                                                },
+                                                                {
+                                                                    "parameter": {
+                                                                        "id": "date-d-declaration",
+                                                                        "type": "DATE"
+                                                                    },
+                                                                    "strict": true,
+                                                                    "target": "1998-01-01",
+                                                                    "type": "LITTLER"
                                                                 }
                                                             ],
                                                             "type": "AND"
@@ -14332,20 +14332,20 @@
                                                 },
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-installation",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": true,
-                                                    "target": "2018-12-20",
-                                                    "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "quantite-rubrique",
                                                         "type": "REAL_NUMBER"
                                                     },
                                                     "strict": true,
                                                     "target": 2.0,
+                                                    "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "date-d-installation",
+                                                        "type": "DATE"
+                                                    },
+                                                    "strict": true,
+                                                    "target": "2018-12-20",
                                                     "type": "LITTLER"
                                                 }
                                             ],
@@ -14602,12 +14602,12 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
+                                                                "id": "quantite-rubrique",
+                                                                "type": "REAL_NUMBER"
                                                             },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
+                                                            "strict": false,
+                                                            "target": 2.0,
+                                                            "type": "GREATER"
                                                         },
                                                         {
                                                             "parameter": {
@@ -14620,12 +14620,12 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "quantite-rubrique",
-                                                                "type": "REAL_NUMBER"
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
                                                             },
-                                                            "strict": false,
-                                                            "target": 2.0,
-                                                            "type": "GREATER"
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -14646,21 +14646,21 @@
                                                         },
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-installation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2018-12-20",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-installation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2018-12-20",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -14709,21 +14709,21 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-declaration",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "1998-01-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "quantite-rubrique",
                                                                 "type": "REAL_NUMBER"
                                                             },
                                                             "strict": false,
                                                             "target": 2.0,
                                                             "type": "GREATER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-declaration",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "1998-01-01",
+                                                            "type": "LITTLER"
                                                         }
                                                     ],
                                                     "type": "AND"

@@ -1,7 +1,7 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/43534",
     "applicability": {
-        "conditions_of_inapplicability": [],
+        "condition_of_inapplicability": null,
         "warnings": []
     },
     "classements": [
@@ -8218,18 +8218,18 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "rubrique",
-                                                                "type": "RUBRIQUE"
-                                                            },
-                                                            "target": "3610",
-                                                            "type": "EQUAL"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "alinea",
                                                                 "type": "STRING"
                                                             },
                                                             "target": "a",
+                                                            "type": "EQUAL"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "rubrique",
+                                                                "type": "RUBRIQUE"
+                                                            },
+                                                            "target": "3610",
                                                             "type": "EQUAL"
                                                         }
                                                     ],
@@ -8242,18 +8242,18 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "rubrique",
-                                                                "type": "RUBRIQUE"
-                                                            },
-                                                            "target": "3610",
-                                                            "type": "EQUAL"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "alinea",
                                                                 "type": "STRING"
                                                             },
                                                             "target": "b",
+                                                            "type": "EQUAL"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "rubrique",
+                                                                "type": "RUBRIQUE"
+                                                            },
+                                                            "target": "3610",
                                                             "type": "EQUAL"
                                                         }
                                                     ],

@@ -1,7 +1,7 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/5275",
     "applicability": {
-        "conditions_of_inapplicability": [],
+        "condition_of_inapplicability": null,
         "warnings": []
     },
     "classements": [
@@ -365,20 +365,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "date-d-autorisation",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": true,
-                                                    "target": "2010-11-01",
-                                                    "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2011-11-01",
+                                                    "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "date-d-autorisation",
+                                                        "type": "DATE"
+                                                    },
+                                                    "strict": true,
+                                                    "target": "2010-11-01",
                                                     "type": "LITTLER"
                                                 }
                                             ],
@@ -1789,20 +1789,20 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-autorisation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2010-11-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "date-d-installation",
                                                                 "type": "DATE"
                                                             },
                                                             "strict": true,
                                                             "target": "2011-11-01",
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-autorisation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2010-11-01",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -1852,20 +1852,20 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "date-d-autorisation",
-                                                                "type": "DATE"
-                                                            },
-                                                            "strict": true,
-                                                            "target": "2010-11-01",
-                                                            "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "date-d-installation",
                                                                 "type": "DATE"
                                                             },
                                                             "strict": true,
                                                             "target": "2011-11-01",
+                                                            "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "date-d-autorisation",
+                                                                "type": "DATE"
+                                                            },
+                                                            "strict": true,
+                                                            "target": "2010-11-01",
                                                             "type": "LITTLER"
                                                         }
                                                     ],
@@ -3859,20 +3859,20 @@
                             "conditions": [
                                 {
                                     "parameter": {
-                                        "id": "date-d-autorisation",
-                                        "type": "DATE"
-                                    },
-                                    "strict": true,
-                                    "target": "2010-11-01",
-                                    "type": "LITTLER"
-                                },
-                                {
-                                    "parameter": {
                                         "id": "date-d-installation",
                                         "type": "DATE"
                                     },
                                     "strict": true,
                                     "target": "2011-11-01",
+                                    "type": "LITTLER"
+                                },
+                                {
+                                    "parameter": {
+                                        "id": "date-d-autorisation",
+                                        "type": "DATE"
+                                    },
+                                    "strict": true,
+                                    "target": "2010-11-01",
                                     "type": "LITTLER"
                                 }
                             ],

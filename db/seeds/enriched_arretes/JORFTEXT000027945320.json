@@ -1,7 +1,7 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/27126",
     "applicability": {
-        "conditions_of_inapplicability": [],
+        "condition_of_inapplicability": null,
         "warnings": []
     },
     "classements": [
@@ -283,6 +283,15 @@
                                 "condition": {
                                     "conditions": [
                                         {
+                                            "parameter": {
+                                                "id": "quantite-rubrique",
+                                                "type": "REAL_NUMBER"
+                                            },
+                                            "strict": false,
+                                            "target": 50000.0,
+                                            "type": "GREATER"
+                                        },
+                                        {
                                             "left": "2013-09-14",
                                             "left_strict": false,
                                             "parameter": {
@@ -292,15 +301,6 @@
                                             "right": "2021-01-01",
                                             "right_strict": true,
                                             "type": "RANGE"
-                                        },
-                                        {
-                                            "parameter": {
-                                                "id": "quantite-rubrique",
-                                                "type": "REAL_NUMBER"
-                                            },
-                                            "strict": false,
-                                            "target": 50000.0,
-                                            "type": "GREATER"
                                         }
                                     ],
                                     "type": "AND"
@@ -505,6 +505,15 @@
                                 "condition": {
                                     "conditions": [
                                         {
+                                            "parameter": {
+                                                "id": "quantite-rubrique",
+                                                "type": "REAL_NUMBER"
+                                            },
+                                            "strict": false,
+                                            "target": 50000.0,
+                                            "type": "GREATER"
+                                        },
+                                        {
                                             "left": "2013-09-14",
                                             "left_strict": false,
                                             "parameter": {
@@ -514,15 +523,6 @@
                                             "right": "2021-01-01",
                                             "right_strict": true,
                                             "type": "RANGE"
-                                        },
-                                        {
-                                            "parameter": {
-                                                "id": "quantite-rubrique",
-                                                "type": "REAL_NUMBER"
-                                            },
-                                            "strict": false,
-                                            "target": 50000.0,
-                                            "type": "GREATER"
                                         }
                                     ],
                                     "type": "AND"
@@ -612,6 +612,15 @@
                                 "condition": {
                                     "conditions": [
                                         {
+                                            "parameter": {
+                                                "id": "quantite-rubrique",
+                                                "type": "REAL_NUMBER"
+                                            },
+                                            "strict": false,
+                                            "target": 50000.0,
+                                            "type": "GREATER"
+                                        },
+                                        {
                                             "left": "2013-09-14",
                                             "left_strict": false,
                                             "parameter": {
@@ -621,15 +630,6 @@
                                             "right": "2021-01-01",
                                             "right_strict": true,
                                             "type": "RANGE"
-                                        },
-                                        {
-                                            "parameter": {
-                                                "id": "quantite-rubrique",
-                                                "type": "REAL_NUMBER"
-                                            },
-                                            "strict": false,
-                                            "target": 50000.0,
-                                            "type": "GREATER"
                                         }
                                     ],
                                     "type": "AND"
@@ -704,6 +704,15 @@
                                 "condition": {
                                     "conditions": [
                                         {
+                                            "parameter": {
+                                                "id": "quantite-rubrique",
+                                                "type": "REAL_NUMBER"
+                                            },
+                                            "strict": false,
+                                            "target": 50000.0,
+                                            "type": "GREATER"
+                                        },
+                                        {
                                             "left": "2013-09-14",
                                             "left_strict": false,
                                             "parameter": {
@@ -713,15 +722,6 @@
                                             "right": "2021-01-01",
                                             "right_strict": true,
                                             "type": "RANGE"
-                                        },
-                                        {
-                                            "parameter": {
-                                                "id": "quantite-rubrique",
-                                                "type": "REAL_NUMBER"
-                                            },
-                                            "strict": false,
-                                            "target": 50000.0,
-                                            "type": "GREATER"
                                         }
                                     ],
                                     "type": "AND"
@@ -1102,6 +1102,15 @@
                                                 "condition": {
                                                     "conditions": [
                                                         {
+                                                            "parameter": {
+                                                                "id": "quantite-rubrique",
+                                                                "type": "REAL_NUMBER"
+                                                            },
+                                                            "strict": false,
+                                                            "target": 50000.0,
+                                                            "type": "GREATER"
+                                                        },
+                                                        {
                                                             "left": "2013-09-14",
                                                             "left_strict": false,
                                                             "parameter": {
@@ -1111,15 +1120,6 @@
                                                             "right": "2021-01-01",
                                                             "right_strict": true,
                                                             "type": "RANGE"
-                                                        },
-                                                        {
-                                                            "parameter": {
-                                                                "id": "quantite-rubrique",
-                                                                "type": "REAL_NUMBER"
-                                                            },
-                                                            "strict": false,
-                                                            "target": 50000.0,
-                                                            "type": "GREATER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -1397,6 +1397,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -1406,15 +1415,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -1469,6 +1469,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -1478,15 +1487,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -1891,6 +1891,15 @@
                                                 "condition": {
                                                     "conditions": [
                                                         {
+                                                            "parameter": {
+                                                                "id": "quantite-rubrique",
+                                                                "type": "REAL_NUMBER"
+                                                            },
+                                                            "strict": false,
+                                                            "target": 50000.0,
+                                                            "type": "GREATER"
+                                                        },
+                                                        {
                                                             "left": "2013-09-14",
                                                             "left_strict": false,
                                                             "parameter": {
@@ -1900,15 +1909,6 @@
                                                             "right": "2021-01-01",
                                                             "right_strict": true,
                                                             "type": "RANGE"
-                                                        },
-                                                        {
-                                                            "parameter": {
-                                                                "id": "quantite-rubrique",
-                                                                "type": "REAL_NUMBER"
-                                                            },
-                                                            "strict": false,
-                                                            "target": 50000.0,
-                                                            "type": "GREATER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -1973,6 +1973,15 @@
                                                 "condition": {
                                                     "conditions": [
                                                         {
+                                                            "parameter": {
+                                                                "id": "quantite-rubrique",
+                                                                "type": "REAL_NUMBER"
+                                                            },
+                                                            "strict": false,
+                                                            "target": 50000.0,
+                                                            "type": "GREATER"
+                                                        },
+                                                        {
                                                             "left": "2013-09-14",
                                                             "left_strict": false,
                                                             "parameter": {
@@ -1982,15 +1991,6 @@
                                                             "right": "2021-01-01",
                                                             "right_strict": true,
                                                             "type": "RANGE"
-                                                        },
-                                                        {
-                                                            "parameter": {
-                                                                "id": "quantite-rubrique",
-                                                                "type": "REAL_NUMBER"
-                                                            },
-                                                            "strict": false,
-                                                            "target": 50000.0,
-                                                            "type": "GREATER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2085,6 +2085,15 @@
                                                 "condition": {
                                                     "conditions": [
                                                         {
+                                                            "parameter": {
+                                                                "id": "quantite-rubrique",
+                                                                "type": "REAL_NUMBER"
+                                                            },
+                                                            "strict": false,
+                                                            "target": 50000.0,
+                                                            "type": "GREATER"
+                                                        },
+                                                        {
                                                             "left": "2013-09-14",
                                                             "left_strict": false,
                                                             "parameter": {
@@ -2094,15 +2103,6 @@
                                                             "right": "2021-01-01",
                                                             "right_strict": true,
                                                             "type": "RANGE"
-                                                        },
-                                                        {
-                                                            "parameter": {
-                                                                "id": "quantite-rubrique",
-                                                                "type": "REAL_NUMBER"
-                                                            },
-                                                            "strict": false,
-                                                            "target": 50000.0,
-                                                            "type": "GREATER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2162,6 +2162,15 @@
                                                 "condition": {
                                                     "conditions": [
                                                         {
+                                                            "parameter": {
+                                                                "id": "quantite-rubrique",
+                                                                "type": "REAL_NUMBER"
+                                                            },
+                                                            "strict": false,
+                                                            "target": 50000.0,
+                                                            "type": "GREATER"
+                                                        },
+                                                        {
                                                             "left": "2013-09-14",
                                                             "left_strict": false,
                                                             "parameter": {
@@ -2171,15 +2180,6 @@
                                                             "right": "2021-01-01",
                                                             "right_strict": true,
                                                             "type": "RANGE"
-                                                        },
-                                                        {
-                                                            "parameter": {
-                                                                "id": "quantite-rubrique",
-                                                                "type": "REAL_NUMBER"
-                                                            },
-                                                            "strict": false,
-                                                            "target": 50000.0,
-                                                            "type": "GREATER"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2325,6 +2325,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -2334,15 +2343,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2479,6 +2479,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -2488,15 +2497,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2692,6 +2692,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -2701,15 +2710,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2800,6 +2800,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -2809,15 +2818,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -3072,6 +3072,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -3081,15 +3090,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -3189,6 +3189,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -3198,15 +3207,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -3735,6 +3735,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -3744,15 +3753,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -3864,6 +3864,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -3873,15 +3882,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -3978,6 +3978,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -3987,15 +3996,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -4060,6 +4060,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -4069,15 +4078,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -4147,6 +4147,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -4156,15 +4165,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -4261,6 +4261,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -4270,15 +4279,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -4343,6 +4343,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -4352,15 +4361,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -4415,6 +4415,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -4424,15 +4433,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -4508,6 +4508,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -4517,15 +4526,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -4580,6 +4580,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -4589,15 +4598,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -4728,6 +4728,15 @@
                                         "condition": {
                                             "conditions": [
                                                 {
+                                                    "parameter": {
+                                                        "id": "quantite-rubrique",
+                                                        "type": "REAL_NUMBER"
+                                                    },
+                                                    "strict": false,
+                                                    "target": 50000.0,
+                                                    "type": "GREATER"
+                                                },
+                                                {
                                                     "left": "2013-09-14",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -4737,15 +4746,6 @@
                                                     "right": "2021-01-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "quantite-rubrique",
-                                                        "type": "REAL_NUMBER"
-                                                    },
-                                                    "strict": false,
-                                                    "target": 50000.0,
-                                                    "type": "GREATER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -4900,6 +4900,15 @@
                                 "condition": {
                                     "conditions": [
                                         {
+                                            "parameter": {
+                                                "id": "quantite-rubrique",
+                                                "type": "REAL_NUMBER"
+                                            },
+                                            "strict": false,
+                                            "target": 50000.0,
+                                            "type": "GREATER"
+                                        },
+                                        {
                                             "left": "2013-09-14",
                                             "left_strict": false,
                                             "parameter": {
@@ -4909,15 +4918,6 @@
                                             "right": "2021-01-01",
                                             "right_strict": true,
                                             "type": "RANGE"
-                                        },
-                                        {
-                                            "parameter": {
-                                                "id": "quantite-rubrique",
-                                                "type": "REAL_NUMBER"
-                                            },
-                                            "strict": false,
-                                            "target": 50000.0,
-                                            "type": "GREATER"
                                         }
                                     ],
                                     "type": "AND"
@@ -4972,6 +4972,15 @@
                                 "condition": {
                                     "conditions": [
                                         {
+                                            "parameter": {
+                                                "id": "quantite-rubrique",
+                                                "type": "REAL_NUMBER"
+                                            },
+                                            "strict": false,
+                                            "target": 50000.0,
+                                            "type": "GREATER"
+                                        },
+                                        {
                                             "left": "2013-09-14",
                                             "left_strict": false,
                                             "parameter": {
@@ -4981,15 +4990,6 @@
                                             "right": "2021-01-01",
                                             "right_strict": true,
                                             "type": "RANGE"
-                                        },
-                                        {
-                                            "parameter": {
-                                                "id": "quantite-rubrique",
-                                                "type": "REAL_NUMBER"
-                                            },
-                                            "strict": false,
-                                            "target": 50000.0,
-                                            "type": "GREATER"
                                         }
                                     ],
                                     "type": "AND"
@@ -5070,6 +5070,15 @@
                                 "condition": {
                                     "conditions": [
                                         {
+                                            "parameter": {
+                                                "id": "quantite-rubrique",
+                                                "type": "REAL_NUMBER"
+                                            },
+                                            "strict": false,
+                                            "target": 50000.0,
+                                            "type": "GREATER"
+                                        },
+                                        {
                                             "left": "2013-09-14",
                                             "left_strict": false,
                                             "parameter": {
@@ -5079,15 +5088,6 @@
                                             "right": "2021-01-01",
                                             "right_strict": true,
                                             "type": "RANGE"
-                                        },
-                                        {
-                                            "parameter": {
-                                                "id": "quantite-rubrique",
-                                                "type": "REAL_NUMBER"
-                                            },
-                                            "strict": false,
-                                            "target": 50000.0,
-                                            "type": "GREATER"
                                         }
                                     ],
                                     "type": "AND"
@@ -5162,6 +5162,15 @@
                                 "condition": {
                                     "conditions": [
                                         {
+                                            "parameter": {
+                                                "id": "quantite-rubrique",
+                                                "type": "REAL_NUMBER"
+                                            },
+                                            "strict": false,
+                                            "target": 50000.0,
+                                            "type": "GREATER"
+                                        },
+                                        {
                                             "left": "2013-09-14",
                                             "left_strict": false,
                                             "parameter": {
@@ -5171,15 +5180,6 @@
                                             "right": "2021-01-01",
                                             "right_strict": true,
                                             "type": "RANGE"
-                                        },
-                                        {
-                                            "parameter": {
-                                                "id": "quantite-rubrique",
-                                                "type": "REAL_NUMBER"
-                                            },
-                                            "strict": false,
-                                            "target": 50000.0,
-                                            "type": "GREATER"
                                         }
                                     ],
                                     "type": "AND"

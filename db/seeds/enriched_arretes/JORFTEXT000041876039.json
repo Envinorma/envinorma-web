@@ -1,7 +1,7 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/43226",
     "applicability": {
-        "conditions_of_inapplicability": [],
+        "condition_of_inapplicability": null,
         "warnings": []
     },
     "classements": [
@@ -5202,7 +5202,7 @@
                                 "id": "alinea",
                                 "type": "STRING"
                             },
-                            "target": "1",
+                            "target": "1-a",
                             "type": "EQUAL"
                         }
                     }

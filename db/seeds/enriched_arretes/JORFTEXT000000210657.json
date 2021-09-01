@@ -1,17 +1,15 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/5571",
     "applicability": {
-        "conditions_of_inapplicability": [
-            {
-                "parameter": {
-                    "id": "date-d-declaration",
-                    "type": "DATE"
-                },
-                "strict": true,
-                "target": "1999-04-16",
-                "type": "LITTLER"
-            }
-        ],
+        "condition_of_inapplicability": {
+            "parameter": {
+                "id": "date-d-declaration",
+                "type": "DATE"
+            },
+            "strict": true,
+            "target": "1999-04-16",
+            "type": "LITTLER"
+        },
         "warnings": []
     },
     "classements": [

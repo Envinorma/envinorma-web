@@ -1,7 +1,7 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/3989",
     "applicability": {
-        "conditions_of_inapplicability": [],
+        "condition_of_inapplicability": null,
         "warnings": [
             "Applicable seulement aux installations soumises à autorisation."
         ]
@@ -12,7 +12,7 @@
     "id": "JORFTEXT000023081900",
     "is_transverse": true,
     "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000023081900",
-    "nickname": null,
+    "nickname": "Risques accidentels",
     "sections": [
         {
             "annotations": {

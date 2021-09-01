@@ -1,7 +1,7 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/35697",
     "applicability": {
-        "conditions_of_inapplicability": [],
+        "condition_of_inapplicability": null,
         "warnings": []
     },
     "classements": [
@@ -411,20 +411,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -468,20 +468,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -607,20 +607,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -710,20 +710,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -807,20 +807,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -926,20 +926,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -983,20 +983,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -1008,20 +1008,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1716",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1716",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -1090,20 +1090,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -1182,20 +1182,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -1209,20 +1209,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1716",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1716",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -1293,20 +1293,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -1318,20 +1318,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1716",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1716",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -1400,20 +1400,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -1425,20 +1425,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1716",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1716",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -1517,20 +1517,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -1574,20 +1574,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -1668,20 +1668,20 @@
                             "conditions": [
                                 {
                                     "parameter": {
-                                        "id": "rubrique",
-                                        "type": "RUBRIQUE"
-                                    },
-                                    "target": "1735",
-                                    "type": "EQUAL"
-                                },
-                                {
-                                    "parameter": {
                                         "id": "date-d-autorisation",
                                         "type": "DATE"
                                     },
                                     "strict": true,
                                     "target": "2016-01-01",
                                     "type": "LITTLER"
+                                },
+                                {
+                                    "parameter": {
+                                        "id": "rubrique",
+                                        "type": "RUBRIQUE"
+                                    },
+                                    "target": "1735",
+                                    "type": "EQUAL"
                                 }
                             ],
                             "type": "AND"
@@ -1734,20 +1734,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1716",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1716",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -1816,20 +1816,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1716",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1716",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -1959,20 +1959,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1716",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1716",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -2157,20 +2157,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "1735",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-autorisation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2016-01-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "1735",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2182,20 +2182,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "1716",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-autorisation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2016-01-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "1716",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2342,20 +2342,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -2367,20 +2367,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1716",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1716",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -2429,20 +2429,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -2491,20 +2491,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -2603,20 +2603,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "1735",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-autorisation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2016-01-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "1735",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2660,20 +2660,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "1735",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-autorisation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2016-01-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "1735",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2685,20 +2685,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "1716",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-autorisation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2016-01-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "1716",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2819,20 +2819,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1735",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1735",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -3032,20 +3032,20 @@
                             "conditions": [
                                 {
                                     "parameter": {
-                                        "id": "rubrique",
-                                        "type": "RUBRIQUE"
-                                    },
-                                    "target": "1735",
-                                    "type": "EQUAL"
-                                },
-                                {
-                                    "parameter": {
                                         "id": "date-d-autorisation",
                                         "type": "DATE"
                                     },
                                     "strict": true,
                                     "target": "2016-01-01",
                                     "type": "LITTLER"
+                                },
+                                {
+                                    "parameter": {
+                                        "id": "rubrique",
+                                        "type": "RUBRIQUE"
+                                    },
+                                    "target": "1735",
+                                    "type": "EQUAL"
                                 }
                             ],
                             "type": "AND"
@@ -3083,20 +3083,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1716",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1716",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -3307,20 +3307,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1716",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1716",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -3394,20 +3394,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1716",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1716",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -3506,20 +3506,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1716",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1716",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -3588,20 +3588,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1716",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1716",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -3700,20 +3700,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1716",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1716",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"
@@ -3822,20 +3822,20 @@
                                     "conditions": [
                                         {
                                             "parameter": {
-                                                "id": "rubrique",
-                                                "type": "RUBRIQUE"
-                                            },
-                                            "target": "1716",
-                                            "type": "EQUAL"
-                                        },
-                                        {
-                                            "parameter": {
                                                 "id": "date-d-autorisation",
                                                 "type": "DATE"
                                             },
                                             "strict": true,
                                             "target": "2016-01-01",
                                             "type": "LITTLER"
+                                        },
+                                        {
+                                            "parameter": {
+                                                "id": "rubrique",
+                                                "type": "RUBRIQUE"
+                                            },
+                                            "target": "1716",
+                                            "type": "EQUAL"
                                         }
                                     ],
                                     "type": "AND"

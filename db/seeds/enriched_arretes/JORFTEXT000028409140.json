@@ -1,17 +1,15 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/28599",
     "applicability": {
-        "conditions_of_inapplicability": [
-            {
-                "parameter": {
-                    "id": "date-d-installation",
-                    "type": "DATE"
-                },
-                "strict": true,
-                "target": "2013-12-31",
-                "type": "LITTLER"
-            }
-        ],
+        "condition_of_inapplicability": {
+            "parameter": {
+                "id": "date-d-installation",
+                "type": "DATE"
+            },
+            "strict": true,
+            "target": "2013-12-31",
+            "type": "LITTLER"
+        },
         "warnings": []
     },
     "classements": [

@@ -1,7 +1,7 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/39061",
     "applicability": {
-        "conditions_of_inapplicability": [],
+        "condition_of_inapplicability": null,
         "warnings": []
     },
     "classements": [
@@ -1641,7 +1641,7 @@
                                                                 "id": "regime",
                                                                 "type": "REGIME"
                                                             },
-                                                            "target": "E",
+                                                            "target": "A",
                                                             "type": "EQUAL"
                                                         },
                                                         {
@@ -1649,7 +1649,7 @@
                                                                 "id": "regime",
                                                                 "type": "REGIME"
                                                             },
-                                                            "target": "A",
+                                                            "target": "E",
                                                             "type": "EQUAL"
                                                         }
                                                     ],
@@ -1975,14 +1975,6 @@
                                         "condition": {
                                             "conditions": [
                                                 {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
                                                     "left": "2010-04-16",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -1992,6 +1984,14 @@
                                                     "right": "2017-07-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2010,20 +2010,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "D",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2009-04-30",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "D",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2130,14 +2130,6 @@
                                         "condition": {
                                             "conditions": [
                                                 {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
                                                     "left": "2003-07-01",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -2147,6 +2139,14 @@
                                                     "right": "2010-04-16",
                                                     "right_strict": true,
                                                     "type": "RANGE"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2273,20 +2273,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2003-07-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2445,20 +2445,20 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "regime",
-                                                                "type": "REGIME"
-                                                            },
-                                                            "target": "E",
-                                                            "type": "EQUAL"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "date-d-installation",
                                                                 "type": "DATE"
                                                             },
                                                             "strict": true,
                                                             "target": "2003-07-01",
                                                             "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "regime",
+                                                                "type": "REGIME"
+                                                            },
+                                                            "target": "E",
+                                                            "type": "EQUAL"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2470,20 +2470,20 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
+                                                                "id": "regime",
+                                                                "type": "REGIME"
+                                                            },
+                                                            "target": "D",
+                                                            "type": "EQUAL"
+                                                        },
+                                                        {
+                                                            "parameter": {
                                                                 "id": "date-d-installation",
                                                                 "type": "DATE"
                                                             },
                                                             "strict": true,
                                                             "target": "2009-04-30",
                                                             "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
-                                                                "id": "regime",
-                                                                "type": "REGIME"
-                                                            },
-                                                            "target": "D",
-                                                            "type": "EQUAL"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2585,14 +2585,6 @@
                                                 "condition": {
                                                     "conditions": [
                                                         {
-                                                            "parameter": {
-                                                                "id": "regime",
-                                                                "type": "REGIME"
-                                                            },
-                                                            "target": "E",
-                                                            "type": "EQUAL"
-                                                        },
-                                                        {
                                                             "left": "2003-07-01",
                                                             "left_strict": false,
                                                             "parameter": {
@@ -2602,6 +2594,14 @@
                                                             "right": "2010-04-16",
                                                             "right_strict": true,
                                                             "type": "RANGE"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "regime",
+                                                                "type": "REGIME"
+                                                            },
+                                                            "target": "E",
+                                                            "type": "EQUAL"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2650,14 +2650,6 @@
                                                 "condition": {
                                                     "conditions": [
                                                         {
-                                                            "parameter": {
-                                                                "id": "regime",
-                                                                "type": "REGIME"
-                                                            },
-                                                            "target": "E",
-                                                            "type": "EQUAL"
-                                                        },
-                                                        {
                                                             "left": "2010-04-16",
                                                             "left_strict": false,
                                                             "parameter": {
@@ -2667,6 +2659,14 @@
                                                             "right": "2017-07-01",
                                                             "right_strict": true,
                                                             "type": "RANGE"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "regime",
+                                                                "type": "REGIME"
+                                                            },
+                                                            "target": "E",
+                                                            "type": "EQUAL"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2837,20 +2837,20 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "regime",
-                                                                "type": "REGIME"
-                                                            },
-                                                            "target": "E",
-                                                            "type": "EQUAL"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "date-d-installation",
                                                                 "type": "DATE"
                                                             },
                                                             "strict": true,
                                                             "target": "2003-07-01",
                                                             "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "regime",
+                                                                "type": "REGIME"
+                                                            },
+                                                            "target": "E",
+                                                            "type": "EQUAL"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2862,20 +2862,20 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
+                                                                "id": "regime",
+                                                                "type": "REGIME"
+                                                            },
+                                                            "target": "D",
+                                                            "type": "EQUAL"
+                                                        },
+                                                        {
+                                                            "parameter": {
                                                                 "id": "date-d-installation",
                                                                 "type": "DATE"
                                                             },
                                                             "strict": true,
                                                             "target": "2009-04-30",
                                                             "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
-                                                                "id": "regime",
-                                                                "type": "REGIME"
-                                                            },
-                                                            "target": "D",
-                                                            "type": "EQUAL"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -2939,14 +2939,6 @@
                                                 "condition": {
                                                     "conditions": [
                                                         {
-                                                            "parameter": {
-                                                                "id": "regime",
-                                                                "type": "REGIME"
-                                                            },
-                                                            "target": "E",
-                                                            "type": "EQUAL"
-                                                        },
-                                                        {
                                                             "left": "2010-04-16",
                                                             "left_strict": false,
                                                             "parameter": {
@@ -2956,6 +2948,14 @@
                                                             "right": "2017-07-01",
                                                             "right_strict": true,
                                                             "type": "RANGE"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "regime",
+                                                                "type": "REGIME"
+                                                            },
+                                                            "target": "E",
+                                                            "type": "EQUAL"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -3400,20 +3400,20 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
-                                                                "id": "regime",
-                                                                "type": "REGIME"
-                                                            },
-                                                            "target": "E",
-                                                            "type": "EQUAL"
-                                                        },
-                                                        {
-                                                            "parameter": {
                                                                 "id": "date-d-installation",
                                                                 "type": "DATE"
                                                             },
                                                             "strict": true,
                                                             "target": "2003-07-01",
                                                             "type": "LITTLER"
+                                                        },
+                                                        {
+                                                            "parameter": {
+                                                                "id": "regime",
+                                                                "type": "REGIME"
+                                                            },
+                                                            "target": "E",
+                                                            "type": "EQUAL"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -3478,20 +3478,20 @@
                                                     "conditions": [
                                                         {
                                                             "parameter": {
+                                                                "id": "regime",
+                                                                "type": "REGIME"
+                                                            },
+                                                            "target": "D",
+                                                            "type": "EQUAL"
+                                                        },
+                                                        {
+                                                            "parameter": {
                                                                 "id": "date-d-installation",
                                                                 "type": "DATE"
                                                             },
                                                             "strict": true,
                                                             "target": "2009-04-30",
                                                             "type": "LITTLER"
-                                                        },
-                                                        {
-                                                            "parameter": {
-                                                                "id": "regime",
-                                                                "type": "REGIME"
-                                                            },
-                                                            "target": "D",
-                                                            "type": "EQUAL"
                                                         }
                                                     ],
                                                     "type": "AND"
@@ -3741,20 +3741,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2003-07-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -3766,20 +3766,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "D",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2009-04-30",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "D",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -3931,14 +3931,6 @@
                                         "condition": {
                                             "conditions": [
                                                 {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
                                                     "left": "2003-07-01",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -3948,6 +3940,14 @@
                                                     "right": "2010-04-16",
                                                     "right_strict": true,
                                                     "type": "RANGE"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -4051,14 +4051,6 @@
                                         "condition": {
                                             "conditions": [
                                                 {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
                                                     "left": "2010-04-16",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -4068,6 +4060,14 @@
                                                     "right": "2017-07-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -4424,20 +4424,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2003-07-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -4449,20 +4449,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "D",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2009-04-30",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "D",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -4594,14 +4594,6 @@
                                         "condition": {
                                             "conditions": [
                                                 {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
                                                     "left": "2003-07-01",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -4611,6 +4603,14 @@
                                                     "right": "2010-04-16",
                                                     "right_strict": true,
                                                     "type": "RANGE"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -4684,14 +4684,6 @@
                                         "condition": {
                                             "conditions": [
                                                 {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
                                                     "left": "2010-04-16",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -4701,6 +4693,14 @@
                                                     "right": "2017-07-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -5052,20 +5052,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2003-07-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -5075,14 +5075,6 @@
                                         "alineas": null,
                                         "condition": {
                                             "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
                                                 {
                                                     "left": "2010-04-16",
                                                     "left_strict": false,
@@ -5093,6 +5085,14 @@
                                                     "right": "2017-07-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -5104,20 +5104,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "D",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2009-04-30",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "D",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -5252,20 +5252,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2003-07-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -5277,20 +5277,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "D",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2009-04-30",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "D",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -5382,14 +5382,6 @@
                                         "condition": {
                                             "conditions": [
                                                 {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
                                                     "left": "2003-07-01",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -5399,6 +5391,14 @@
                                                     "right": "2010-04-16",
                                                     "right_strict": true,
                                                     "type": "RANGE"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -5442,14 +5442,6 @@
                                         "condition": {
                                             "conditions": [
                                                 {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
                                                     "left": "2010-04-16",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -5459,6 +5451,14 @@
                                                     "right": "2017-07-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -5745,20 +5745,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2003-07-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -5774,20 +5774,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "D",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2009-04-30",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "D",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -5897,20 +5897,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2003-07-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -5948,20 +5948,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "D",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2009-04-30",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "D",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -6098,20 +6098,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2003-07-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -6123,20 +6123,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "D",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2009-04-30",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "D",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -6248,14 +6248,6 @@
                                         "condition": {
                                             "conditions": [
                                                 {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
                                                     "left": "2003-07-01",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -6265,6 +6257,14 @@
                                                     "right": "2010-04-16",
                                                     "right_strict": true,
                                                     "type": "RANGE"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -6584,20 +6584,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2003-07-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -6646,14 +6646,6 @@
                                         "condition": {
                                             "conditions": [
                                                 {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
                                                     "left": "2003-07-01",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -6663,6 +6655,14 @@
                                                     "right": "2010-04-16",
                                                     "right_strict": true,
                                                     "type": "RANGE"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -6712,20 +6712,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "D",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2009-04-30",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "D",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -7200,20 +7200,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2003-07-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -7322,14 +7322,6 @@
                                         "condition": {
                                             "conditions": [
                                                 {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
                                                     "left": "2003-07-01",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -7339,6 +7331,14 @@
                                                     "right": "2010-04-16",
                                                     "right_strict": true,
                                                     "type": "RANGE"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -7448,20 +7448,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "D",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2009-04-30",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "D",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -7642,20 +7642,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2003-07-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -7671,20 +7671,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "D",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2009-04-30",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "D",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -7816,20 +7816,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2003-07-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -7844,20 +7844,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "D",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2009-04-30",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "D",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -8024,20 +8024,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2003-07-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -8049,20 +8049,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "D",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2009-04-30",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "D",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -8152,20 +8152,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2003-07-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -8177,20 +8177,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "D",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2009-04-30",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "D",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -9200,20 +9200,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2003-07-01",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -9223,14 +9223,6 @@
                                         "alineas": null,
                                         "condition": {
                                             "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
                                                 {
                                                     "left": "2003-07-01",
                                                     "left_strict": false,
@@ -9241,6 +9233,14 @@
                                                     "right": "2010-04-16",
                                                     "right_strict": true,
                                                     "type": "RANGE"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -9251,14 +9251,6 @@
                                         "condition": {
                                             "conditions": [
                                                 {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "E",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
                                                     "left": "2010-04-16",
                                                     "left_strict": false,
                                                     "parameter": {
@@ -9268,6 +9260,14 @@
                                                     "right": "2017-07-01",
                                                     "right_strict": true,
                                                     "type": "RANGE"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "E",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -11133,20 +11133,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "regime",
+                                                        "type": "REGIME"
+                                                    },
+                                                    "target": "D",
+                                                    "type": "EQUAL"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "date-d-installation",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2009-04-30",
                                                     "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "regime",
-                                                        "type": "REGIME"
-                                                    },
-                                                    "target": "D",
-                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"

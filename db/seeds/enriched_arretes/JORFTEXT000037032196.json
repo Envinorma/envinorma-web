@@ -1,7 +1,7 @@
 {
     "aida_url": "https://aida.ineris.fr/consultation_document/40992",
     "applicability": {
-        "conditions_of_inapplicability": [],
+        "condition_of_inapplicability": null,
         "warnings": []
     },
     "classements": [
@@ -595,20 +595,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2711",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2018-05-17",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2711",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -645,20 +645,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2714",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2011-03-10",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2714",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -670,20 +670,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2716",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2011-03-10",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2716",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -721,20 +721,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2711",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2018-05-17",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2711",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -771,20 +771,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2714",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2011-03-10",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2714",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -796,20 +796,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2716",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2011-03-10",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2716",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -1294,20 +1294,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2711",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2018-05-17",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2711",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -1344,20 +1344,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
+                                                        "id": "date-d-declaration",
+                                                        "type": "DATE"
+                                                    },
+                                                    "strict": true,
+                                                    "target": "2011-03-10",
+                                                    "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
                                                         "id": "rubrique",
                                                         "type": "RUBRIQUE"
                                                     },
                                                     "target": "2714",
                                                     "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "date-d-declaration",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": true,
-                                                    "target": "2011-03-10",
-                                                    "type": "LITTLER"
                                                 }
                                             ],
                                             "type": "AND"
@@ -1369,20 +1369,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2716",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2011-03-10",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2716",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -1394,20 +1394,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2716",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2011-03-10",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2716",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2382,20 +2382,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2711",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2018-05-17",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2711",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2432,20 +2432,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2714",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2011-03-10",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2714",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
@@ -2457,20 +2457,20 @@
                                             "conditions": [
                                                 {
                                                     "parameter": {
-                                                        "id": "rubrique",
-                                                        "type": "RUBRIQUE"
-                                                    },
-                                                    "target": "2716",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
                                                         "id": "date-d-declaration",
                                                         "type": "DATE"
                                                     },
                                                     "strict": true,
                                                     "target": "2011-03-10",
                                                     "type": "LITTLER"
+                                                },
+                                                {
+                                                    "parameter": {
+                                                        "id": "rubrique",
+                                                        "type": "RUBRIQUE"
+                                                    },
+                                                    "target": "2716",
+                                                    "type": "EQUAL"
                                                 }
                                             ],
                                             "type": "AND"
