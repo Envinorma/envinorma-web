@@ -93,8 +93,8 @@
       br
       | - Classements publiés dans un acte administratif
 
-  .row
-    .col
+  .row.mb-5
+    .col.mb-5
       h2.mt-5 Arrêtés ministériels associés
       - create_checkbox = lambda do |am, applicable, label_class, warnings|
         - checked = @url_am_ids.nil? ? applicable : @url_am_ids.include?(am.id)
@@ -127,16 +127,15 @@
           - label_class = applicable ? 'active' : 'inactive'
           - create_checkbox.call(am, applicable, label_class, warnings)
 
-      .mb-3.pb-3
-        = link_to 'AM transverses', '#', class: 'icon-collapse icon-collapse-mini grey-collapse',
-          data: { toggle: 'collapse', target: '#transversal_ams' }
+      = link_to 'Voir les AM transverses', '#', class: 'icon-collapse icon-collapse-mini text-secondary',
+        data: { toggle: 'collapse', target: '#transversal_ams' }
 
-        .collapse id='transversal_ams'
-          - @transversal_ams.each do |am|
-            - warnings = am.version_descriptor.applicability_warnings
-            - create_checkbox.call(am, false, 'active', warnings)
+      .collapse.border-left.p-2 id='transversal_ams'
+        - @transversal_ams.each do |am|
+          - warnings = am.version_descriptor.applicability_warnings
+          - create_checkbox.call(am, false, 'active', warnings)
 
-    .col
+    .col.mb-5
       h2.mt-5 Arrêtés préfectoraux associés
       - if @aps.empty?
         p.text-secondary Il n’y a pas d’arrêté préfectoral disponible pour cette installation.
@@ -155,7 +154,6 @@
                   small.text-secondary
                     = " - #{ap.description}"
 
-  hr.mb-5.mt-5
   - display_class_name = @ams_with_applicabilities.any? || @aps.any? ? '' : 'd-none'
   = link_to "Voir les prescriptions pour générer une fiche d'inspection",
     arretes_path(@installation),
