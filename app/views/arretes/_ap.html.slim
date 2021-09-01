@@ -28,16 +28,14 @@ section id="anchor_ap_#{ap.id}" class='anchor'
         object data=ap.url type="application/pdf" class="pdf_viewer"
       - elsif ap.ocr_version_exists? # ie. ap is too big
         .pdf_viewer
-          .alert.alert-primary
+          .alert.alert-danger
             = "Cet arrêté n'est pas affiché car il est trop volumineux et nuirait aux performances de cette page. "
             a href=ap.url target="_blank"
-              = 'Consulter dans un nouvel onglet ?'
+              = 'Consulter dans un nouvel onglet'
       - else # ie. ocr_version does not exist
         .pdf_viewer
-          .alert.alert-warning
-            = "L'analyse de caractères de cet arrêté a échoué et n'est donc pas consultable ici. "
-            = 'La version Géorisques est potentiellement disponible '
+          .alert.alert-danger
+            = "Cet arrêté n'est pas affiché car le traitement OCR (reconnaissance des caractères) a échoué. "
             a href=ap.georisques_url target="_blank"
-              = 'ici'
-            = '.'
+              = 'Consulter la version Géorisques (si disponible)'
 .splitter

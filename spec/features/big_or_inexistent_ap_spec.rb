@@ -24,7 +24,7 @@ RSpec.describe 'test AP default display', js: true do
   end
 
   it 'does not display the AP if it is too big' do
-    AP.first.update(size: 1.gigabyte)
+    AP.first.update!(size: 1.gigabyte)
 
     visit arretes_path(installation_eva_industries, ap_ids: [AP.first.id])
 
@@ -33,12 +33,12 @@ RSpec.describe 'test AP default display', js: true do
   end
 
   it 'does not display the AP if the OCR was not succesful' do
-    AP.first.update(ocr_status: 'ERROR')
+    AP.first.update!(ocr_status: 'ERROR')
 
     visit arretes_path(installation_eva_industries, ap_ids: [AP.first.id])
 
     expect(page).not_to have_css('object')
-    expect(page).to have_content("L'analyse de caractères de cet arrêté a échoué")
+    expect(page).to have_content("Cet arrêté n'est pas affiché car le traitement")
   end
 end
 # rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass
