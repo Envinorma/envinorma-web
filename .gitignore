@@ -41,7 +41,10 @@ db/seeds/documents*
 db/seeds/aps_sample.csv
 db/seeds/installations_sample.csv
 db/seeds/classements_sample.csv
+db/seeds/new_*
 backups
 
 # VSCode config
 .vscode
+.eslintrc
+.prettierrc

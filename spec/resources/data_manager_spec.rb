@@ -57,7 +57,7 @@ RSpec.describe DataManager do
     it 'deletes AP if it does not exist in file.' do
       installation = Installation.create!(name: 'test', s3ic_id: '0065.00005')
       ap = AP.create!(georisques_id: 'A/b/8acb34015a601eb2015a602221ca0004', installation_id: installation.id,
-                      installation_s3ic_id: installation.s3ic_id)
+                      installation_s3ic_id: installation.s3ic_id, ocr_status: 'SUCCESS')
       described_class.seed_installations_and_associations(validate: true, use_sample: true)
       expect(AP.where(id: ap.id).count).to be_zero
     end
@@ -65,7 +65,7 @@ RSpec.describe DataManager do
     it 'updates AP if it exists in file.' do
       installation = Installation.create!(name: 'test', s3ic_id: '0065.00005')
       ap = AP.create!(georisques_id: 'P/4/8acb34015a601eb2015a602221ca0004', installation_id: installation.id,
-                      installation_s3ic_id: installation.s3ic_id, description: 'test')
+                      installation_s3ic_id: installation.s3ic_id, description: 'test', ocr_status: 'SUCCESS')
       described_class.seed_installations_and_associations(validate: true, use_sample: true)
       expect(AP.find(ap.id).description).to eq('Nouveau document')
     end
@@ -76,7 +76,7 @@ RSpec.describe DataManager do
       described_class.seed_installations_and_associations(validate: true, use_sample: true)
       AP.last.delete
       AP.create!(georisques_id: 'A/1/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', installation_id: Installation.last.id,
-                 installation_s3ic_id: Installation.last.s3ic_id)
+                 installation_s3ic_id: Installation.last.s3ic_id, ocr_status: 'SUCCESS')
       described_class.seed_aps(use_sample: true)
       ids = Set.new(AP.pluck(:georisques_id))
       expected_ids = Set.new(
