@@ -27,6 +27,11 @@ class AM < ApplicationRecord
     @classements_with_alineas ||= JSON.parse(super.to_json, object_class: OpenStruct)
   end
 
+  def applicability
+    # Lazy argument, loaded once needed (and only once)
+    @applicability ||= JSON.parse(super.to_json, object_class: OpenStruct)
+  end
+
   def short_title
     "AM - #{date_of_signature.strftime('%d/%m/%y')}"
   end
@@ -40,14 +45,10 @@ class AM < ApplicationRecord
     topics
   end
 
-  def rank_score
-    regime_rank_score
-  end
-
   def regime_rank_score
     raise 'Expecting at least one classement' if classements_with_alineas.length.zero?
 
-    unique_regime = classements_with_alineas[0].regime
+    unique_regime = classements_with_alineas[0].regime # TODO: handle 1510
     REGIMES[unique_regime]
   end
 
@@ -62,7 +63,8 @@ class AM < ApplicationRecord
       date_of_signature: date_of_signature,
       # for fields below, we want the initial value, not the parsed one
       data: self['data'],
-      classements_with_alineas: self['classements_with_alineas']
+      classements_with_alineas: self['classements_with_alineas'],
+      applicability: self['applicability']
     }
   end
 
@@ -77,20 +79,24 @@ class AM < ApplicationRecord
         legifrance_url: am_hash['legifrance_url'],
         date_of_signature: am_hash['date_of_signature'].to_date,
         data: am_hash,
-        classements_with_alineas: am_hash['classements_with_alineas']
+        classements_with_alineas: am_hash['classements_with_alineas'],
+        applicability: am_hash['applicability']
       )
       raise "error validations #{am.cid} #{am.errors.full_messages}" unless am.validate
 
       am
     end
 
-    def from_classements(classements)
+    def from_classements(classements, match_on_alineas)
+      # Fetch all AM ids that match the classements and return
+      # the map of AM ids to matching classements
+      # match_on_alineas: if true, we match on rubrique-regime-alineas, otherwise on rubrique-regime
       all_ams = all.pluck(:cid, :classements_with_alineas)
       result = {}
       classements.each do |classement|
         all_ams.each do |cid, am_classements|
           am_classements.each do |am_classement|
-            next unless classements_match?(classement, am_classement)
+            next unless classements_match?(classement, am_classement, match_on_alineas)
 
             result[cid] = [] unless result.key?(cid)
             result[cid].append(classement)
@@ -100,12 +106,15 @@ class AM < ApplicationRecord
       result
     end
 
-    def classements_match?(installation_classement, am_classement)
-      match_rubrique = am_classement['rubrique'] == installation_classement.rubrique
-      match_regime = am_classement['regime'] == installation_classement.regime
-      # match_alinea = am_classement['alineas'].blank? ? true : am_classement['alineas'].include?(classement.alinea)
-      match_alinea = true # TODO: it is true when we want to display it in the list, false when matching with classements.
+    def classements_match?(classement, am_classement, match_on_alineas)
+      match_rubrique = am_classement['rubrique'] == classement.rubrique
+      match_regime = am_classement['regime'] == classement.regime
+      match_alinea = match_on_alineas ? alineas_match?(classement.alinea, am_classement['alineas']) : true
       match_rubrique && match_regime && match_alinea
+    end
+
+    def alineas_match?(classement_alinea, am_alineas)
+      am_alineas.blank? ? true : am_alineas.include?(classement_alinea)
     end
   end
 end

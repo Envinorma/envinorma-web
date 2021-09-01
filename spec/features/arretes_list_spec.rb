@@ -7,9 +7,7 @@ RSpec.describe 'test AM list computation', js: true do
 
   before do
     FactoryBot.create(:am, :classement_2521_E)
-    FactoryBot.create(:am, :fake_am_1_default)
-    FactoryBot.create(:am, :fake_am_1_after2010)
-    FactoryBot.create(:am, :fake_am_1_before2010)
+    FactoryBot.create(:am, :fake_am1)
   end
 
   it 'displays no AM when installation has no classement' do
@@ -25,36 +23,40 @@ RSpec.describe 'test AM list computation', js: true do
     expect(all('.js_am_checkbox').count).to eq 0
   end
 
-  it 'displays default version when several classements match the same AM' do
-    FactoryBot.create(:classement, :classement_1234_D_before2010, installation: installation_eva_industries)
+  it 'displays AM as applicable by default if there are several matching classements' do
+    FactoryBot.create(:classement, :classement_1234_D_after2010, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_1234_D_before2010, installation: installation_eva_industries)
     visit installation_path(installation_eva_industries)
 
     expect(all('.js_am_checkbox').count).to eq 1
     expect(first('.js_am_checkbox')['data-am-id']).to eq '2'
+    expect(first('.js_am_checkbox').checked?).to eq true
   end
 
-  it 'displays the applicable version when there is only one classement' do
-    # It returns version before 2010 when date is before 2010
+  it 'displays the AM with correct checkbox state when there is only one classement' do
+    # It displays unchecked AM when date is before 2010
     FactoryBot.create(:classement, :classement_1234_D_before2010, installation: installation_eva_industries)
     visit installation_path(installation_eva_industries)
 
     expect(all('.js_am_checkbox').count).to eq 1
-    expect(first('.js_am_checkbox')['data-am-id']).to eq '4'
+    expect(first('.js_am_checkbox')['data-am-id']).to eq '2'
+    expect(first('.js_am_checkbox').checked?).to eq false
 
-    # It returns default version when only classement has no date
+    # It displays checked AM when only classement has no date
     Classement.find(1).update!(date_mise_en_service: nil)
     visit installation_path(installation_eva_industries)
 
     expect(all('.js_am_checkbox').count).to eq 1
     expect(first('.js_am_checkbox')['data-am-id']).to eq '2'
+    expect(first('.js_am_checkbox').checked?).to eq true
 
-    # It returns version after 2010 when date is after 2010
+    # It displays checked AM when classement is after 2010
     Classement.find(1).update!(date_mise_en_service: 'Fri, 30 Jul 2020')
     visit installation_path(installation_eva_industries)
 
     expect(all('.js_am_checkbox').count).to eq 1
-    expect(first('.js_am_checkbox')['data-am-id']).to eq '3'
+    expect(first('.js_am_checkbox')['data-am-id']).to eq '2'
+    expect(first('.js_am_checkbox').checked?).to eq true
   end
 
   it 'displays correctly sorted AM when two AM are applicable' do
@@ -66,7 +68,7 @@ RSpec.describe 'test AM list computation', js: true do
     # First classement with regime E, then classement with regime D
     expect(all('.js_am_checkbox').count).to eq 2
     expect(first('.js_am_checkbox')['data-am-id']).to eq '1'
-    expect(all('.js_am_checkbox')[1]['data-am-id']).to eq '4'
+    expect(all('.js_am_checkbox')[1]['data-am-id']).to eq '2'
   end
 
   it 'displays unchecked AM if there is an alinea mismatch on the classement' do

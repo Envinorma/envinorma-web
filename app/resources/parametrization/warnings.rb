@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Metrics/ModuleLength
 module Parametrization
   module Warnings
     include OpenStructHelper
@@ -15,7 +16,16 @@ module Parametrization
 
     def potentially_satisfied_warning(condition, is_a_modification)
       adjective = is_a_modification ? 'modifié' : 'inapplicable'
-      "Ce paragraphe pourrait être #{adjective} si #{human_condition(condition)}"
+      "Ce paragraphe pourrait être #{adjective}. C'est le cas si #{human_condition(condition)}"
+    end
+
+    def inapplicable_arrete_warning(condition)
+      "Cet arrêté ne s'applique pas à cette installation car #{human_condition(condition)}"
+    end
+
+    def potentially_inapplicable_arrete_warning(condition)
+      "Cet arrêté pourrait ne pas être applicable. C'est le cas pour les installations "\
+        "dont #{human_condition(condition)}"
     end
 
     def human_condition(condition)
@@ -112,13 +122,9 @@ module Parametrization
     end
 
     def human_parameter(parameter)
+      return human_date_parameter(parameter.id) if parameter.type == 'DATE'
+
       case parameter.id
-      when 'date-d-autorisation', 'date-d-enregistrement'
-        "la date d'#{parameter.id.split('-').last}"
-      when 'date-d-declaration'
-        'la date de déclaration'
-      when 'date-d-installation'
-        'la date de mise en service'
       when 'regime'
         'le régime'
       when 'rubrique'
@@ -131,5 +137,19 @@ module Parametrization
         raise "Unknown parameter #{parameter.id}"
       end
     end
+
+    def human_date_parameter(parameter_id)
+      case parameter_id
+      when 'date-d-autorisation', 'date-d-enregistrement'
+        "la date d'#{parameter_id.split('-').last}"
+      when 'date-d-declaration'
+        'la date de déclaration'
+      when 'date-d-installation'
+        'la date de mise en service'
+      else
+        raise "Unknown parameter #{parameter_id}"
+      end
+    end
   end
 end
+# rubocop:enable Metrics/ModuleLength

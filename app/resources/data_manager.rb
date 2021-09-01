@@ -35,7 +35,7 @@ class DataManager
     classement_references_file = File.join(seed_folder, 'classement_references.csv')
     delete_and_reset_primary_key(ClassementReference)
     CSV.foreach(classement_references_file, headers: true) do |row|
-      ClassementReference.create(
+      ClassementReference.create!(
         rubrique: row['rubrique'],
         regime: row['regime'],
         alinea: row['alinea'],

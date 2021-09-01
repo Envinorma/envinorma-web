@@ -5,7 +5,7 @@ module FilterAMs
   include Parametrization::Parameters
 
   def compute_applicable_ams_list(classements)
-    classements_by_am_cid = AM.from_classements(classements)
+    classements_by_am_cid = AM.from_classements(classements, false)
     ams = AM.where(cid: classements_by_am_cid.keys.uniq)
     sort_ams(add_applicabilities(ams, classements_by_am_cid))
   end
@@ -13,7 +13,7 @@ module FilterAMs
   private
 
   def sort_ams(ams)
-    ams.sort_by { |am| [am.data.applicability.applicable ? 0 : 1, am.rank_score] }
+    ams.sort_by { |am| [am.applicability.applicable ? 0 : 1, am.regime_rank_score] }
   end
 
   ALINEA_WARNING = "Les alinéas auxquels cet arrêté s'applique semblent ne pas correspondre "\
@@ -24,25 +24,43 @@ module FilterAMs
   end
 
   def add_applicability(am, classements) # rubocop:disable Naming/MethodParameterName
-    # TODO: re comment this
+    # Adds applicability information to the AM.
+    # applicability.applicable is true if there is a match on alineas and on dates.
+    # applicability.warnings is the concatenation of:
+    # - the warning message if the alineas don't match
+    # - the warning message if the dates don't match
+    # - the default warning messages that are always displayed for some AM
     alinea_match = alineas_match?(am, classements)
-    date_match = date_match?(am, classements)
+    date_match, date_warning = date_match?(am, classements)
     applicable = (date_match && alinea_match)
-    am.data.applicability.warnings.append(ALINEA_WARNING) unless alinea_match
-    am.data.applicability.applicable = applicable
+    new_warnings = [date_warning, alinea_match ? nil : ALINEA_WARNING].compact
+    am.applicability.warnings.concat(new_warnings)
+    am.applicability.applicable = applicable
     am
   end
 
   def date_match?(am, classements) # rubocop:disable Naming/MethodParameterName
-    return true if am.data.applicability.conditions_of_inapplicability.empty?
+    # Computes where the AM condition of applicability is met. (Most of the time,
+    # it is a condition on the dates, because ALINEA, RUBRIQUE and REGIME are
+    # handled in classement_with_alineas
+    # Returns a pair [date_match, date_warning]
+    # date_match is true if the condition of inapplicability is not met
+    # date_warning is defined if date_match is false are if the condition of
+    # inapplicability could be met.
+    condition = am.applicability.condition_of_inapplicability
 
-    inapplicable_for_classements = classements.map do |classement|
-      parameters = parameter_dict(classement)
-      am.data.applicability.conditions_of_inapplicability.map do |condition|
-        satisfied?(condition, parameters)
-      end.any?
-    end
-    inapplicable_for_classements.none?
+    return [true, nil] if condition.blank?
+
+    return [true, potentially_inapplicable_arrete_warning(condition)] if classements.length != 1
+
+    classement = classements.first
+    parameters = parameter_dict(classement)
+
+    return [false, inapplicable_arrete_warning(condition)] if satisfied?(condition, parameters)
+
+    return [true, potentially_inapplicable_arrete_warning(condition)] if potentially_satisfied?(condition, parameters)
+
+    [true, nil]
   end
 
   def alineas_match?(am, installation_classements) # rubocop:disable Naming/MethodParameterName

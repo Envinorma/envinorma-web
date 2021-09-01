@@ -125,8 +125,8 @@
       - else
         - @ams.each do |am|
           ruby:
-            applicable = am.data.applicability.applicable
-            warnings = am.data.applicability.warnings
+            applicable = am.applicability.applicable
+            warnings = am.applicability.warnings
             label_class = applicable ? 'active' : 'inactive'
             create_checkbox.call(am, applicable, label_class, warnings)
 
@@ -136,7 +136,7 @@
 
         .collapse id='transversal_ams'
           - @transversal_ams.each do |am|
-            - warnings = am.data.applicability.warnings
+            - warnings = am.applicability.warnings
             - create_checkbox.call(am, false, 'active', warnings)
 
     .col

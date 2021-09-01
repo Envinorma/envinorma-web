@@ -6,7 +6,7 @@ module Parametrization
     include Warnings
 
     def prepare_am(ams, classements)
-      classements_by_am_cid = AM.from_classements(classements)
+      classements_by_am_cid = AM.from_classements(classements, true)
       ams.map { |am| transform(am, classements_by_am_cid.fetch(am.cid, [])) }
     end
 
@@ -51,30 +51,54 @@ module Parametrization
     end
 
     def apply_parameter_to_section(section, parameters)
-      # TODO: rewrite
+      # TODO: comment this
       warnings = section.parametrization.warnings.dup
+
+      inapplicable, inapplicability_warnings = handle_inapplicabilities(section, parameters)
+
+      if inapplicable
+        section.applicability.warnings = warnings + inapplicability_warnings
+        return section
+      end
+
+      modified, modified_warnings = handle_modifications(section, parameters)
+
+      if modified
+        section.applicability.warnings = warnings + modified_warnings
+        return section
+      end
+
+      section.sections.each do |subsection|
+        apply_parameter_to_section(subsection, parameters)
+      end
+      section.applicability.warnings = warnings + inapplicability_warnings + modified_warnings
+      section
+    end
+
+    def handle_inapplicabilities(section, parameters)
+      warnings = []
       section.parametrization.potential_inapplicabilities.each do |inapplicability|
         if satisfied?(inapplicability.condition, parameters)
           deactivate_alineas(section, inapplicability.alineas)
-          section.applicability.warnings = warnings.append(inapplicability_warning(inapplicability))
-          return section
+          return [true, [inapplicability_warning(inapplicability)]]
         elsif potentially_satisfied?(inapplicability.condition, parameters)
           warnings << potentially_satisfied_warning(inapplicability.condition, false)
         end
       end
+      [false, warnings]
+    end
+
+    def handle_modifications(section, parameters)
+      warnings = []
       section.parametrization.potential_modifications.each do |modification|
         if satisfied?(modification.condition, parameters)
           apply_modification(section, modification)
-          return section
+          return [true, [modification_warning(modification)]]
         elsif potentially_satisfied?(modification.condition, parameters)
           warnings << potentially_satisfied_warning(modification.condition, true)
         end
       end
-      section.sections.each do |subsection|
-        apply_parameter_to_section(subsection, parameters)
-      end
-      section.applicability.warnings = warnings
-      section
+      [false, warnings]
     end
 
     def apply_modification(section, modification)
@@ -83,7 +107,6 @@ module Parametrization
       section.outer_alineas = modification.new_version.outer_alineas
       section.title = modification.new_version.title
       section.applicability.modified = true
-      section.applicability.warnings = [modification_warning(modification)]
       section.applicability.previous_version = previous_version
     end
 

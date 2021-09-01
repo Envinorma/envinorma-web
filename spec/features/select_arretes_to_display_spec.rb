@@ -8,9 +8,7 @@ RSpec.describe 'select arretes to display feature', js: true do
     FactoryBot.create(:classement, :classement_2521_E, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_1234_D_before2010, installation: installation_eva_industries)
     FactoryBot.create(:am, :classement_2521_E)
-    FactoryBot.create(:am, :fake_am_1_default)
-    FactoryBot.create(:am, :fake_am_1_after2010)
-    FactoryBot.create(:am, :fake_am_1_before2010)
+    FactoryBot.create(:am, :fake_am1)
     FactoryBot.create(:ap, installation: installation_eva_industries)
     FactoryBot.create(:ap, installation: installation_eva_industries)
   end
@@ -25,24 +23,24 @@ RSpec.describe 'select arretes to display feature', js: true do
     # by default AP are checked
     expect(all('.js_checkbox').count).to eq 4
     expect(find('#am_1').checked?).to eq true
-    expect(find('#am_4').checked?).to eq false
+    expect(find('#am_2').checked?).to eq false
     suffix = 'installations/1/arretes?am_ids[]=1&ap_ids[]=1&ap_ids[]=2'
     expect(find('#arretes_link_button')[:href].end_with?(suffix)).to eq true
 
     # After clicking on the second AM checkbox, both AM will be displayed
-    find('#am_4').click
-    suffix = 'installations/1/arretes?am_ids[]=1&am_ids[]=4&ap_ids[]=1&ap_ids[]=2'
+    find('#am_2').click
+    suffix = 'installations/1/arretes?am_ids[]=1&am_ids[]=2&ap_ids[]=1&ap_ids[]=2'
     expect(find('#arretes_link_button')[:href].end_with?(suffix)).to eq true
 
     # After clicking on AP checkbox, only AM will be displayed
     execute_script("document.querySelector('#ap_1').click();") # javascript way for `find('#ap_1').click`
     execute_script("document.querySelector('#ap_2').click();") # javascript way for `find('#ap_1').click`
-    suffix = 'installations/1/arretes?am_ids[]=1&am_ids[]=4'
+    suffix = 'installations/1/arretes?am_ids[]=1&am_ids[]=2'
     expect(find('#arretes_link_button')[:href].end_with?(suffix)).to eq true
 
     # After clicking on both checkboxes, no AM or AP will be displayed and button is hidden
     find('#am_1').click
-    find('#am_4').click
+    find('#am_2').click
     page.find('#arretes_link_button', visible: :hidden)
 
     # After clicking on AP checkbox, only AP will be displayed and button is visible
@@ -62,7 +60,7 @@ RSpec.describe 'select arretes to display feature', js: true do
     click_link('< Retour à l’installation')
 
     expect(find('#am_1').checked?).to eq false
-    expect(find('#am_4').checked?).to eq false
+    expect(find('#am_2').checked?).to eq false
     expect(find('#ap_1').checked?).to eq false
     expect(find('#ap_2').checked?).to eq true
   end
