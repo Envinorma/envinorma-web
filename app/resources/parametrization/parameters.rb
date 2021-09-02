@@ -5,9 +5,11 @@ module Parametrization
     include Conditions
     include Warnings
 
-    def prepare_am(ams, classements)
-      classements_by_am_cid = AM.from_classements(classements, true)
-      ams.map { |am| transform(am, classements_by_am_cid.fetch(am.cid, [])) }
+    def prepare_ams(ams, classements)
+      # For each AM, it maps classements matching on rubrique and regime
+      # and applies the parameters of the classements to the AM.
+      classements_by_am_id = AM.from_classements(classements, true)
+      ams.map { |am| transform(am, classements_by_am_id.fetch(am.id, [])) }
     end
 
     private
@@ -18,6 +20,8 @@ module Parametrization
     end
 
     def classements_parameter_dict(classements)
+      # To avoid ambiguity, we consider that all parameters are unknown if
+      # there is not exactly one matching classement.
       return {} if classements.length != 1
 
       classement = classements[0]
@@ -51,7 +55,10 @@ module Parametrization
     end
 
     def apply_parameter_to_section(section, parameters)
-      # TODO: comment this
+      # Changes `section.applicability` depending on `parameters` and `section.parametrization`.
+      # `parameters` is a hash containing the values of the dates, rubriques, etc. if known
+      # `section.parametrization` contains conditions of inapplicability, conditions of modification,
+      # and warnings. If any condition is met by parameters, `section.applicability` is set accordingly.
       warnings = section.parametrization.warnings.dup
 
       inapplicable, inapplicability_warnings = handle_inapplicabilities(section, parameters)
@@ -68,6 +75,7 @@ module Parametrization
         return section
       end
 
+      # If no modification or inapplicability were met, we recurse in subsections
       section.sections.each do |subsection|
         apply_parameter_to_section(subsection, parameters)
       end
@@ -102,6 +110,7 @@ module Parametrization
     end
 
     def apply_modification(section, modification)
+      # Changes `section` content with `modification`.
       previous_version = section.dup
       section.sections = modification.new_version.sections
       section.outer_alineas = modification.new_version.outer_alineas
@@ -111,6 +120,9 @@ module Parametrization
     end
 
     def deactivate_alineas(section, target_alineas)
+      # Deactivates alineas in `section` whose index is in `target_alineas`.
+      # `target_alineas` is an array of alineas ids. If nil, all alineas are deactivated (also in
+      # children sections).
       section.applicability.active = false if target_alineas.blank?
       section.outer_alineas.each_with_index do |alinea, index|
         alinea.active = target_alineas.present? && target_alineas.exclude?(index)

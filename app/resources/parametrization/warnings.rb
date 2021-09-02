@@ -28,6 +28,8 @@ module Parametrization
         "dont #{human_condition(condition)}"
     end
 
+    private
+
     def human_condition(condition)
       case condition.type
       when 'AND'
@@ -107,8 +109,8 @@ module Parametrization
     def range_human_condition(condition)
       case condition.parameter.type
       when 'DATE'
-        "#{human_parameter(condition.parameter)} est postérieure au #{human_date(condition.left)} "\
-        "et antérieure au #{human_date(condition.right)}."
+        "#{human_parameter(condition.parameter)} est comprise entre le #{human_date(condition.left)} "\
+        "et le #{human_date(condition.right)}."
       when 'REAL_NUMBER'
         "#{human_parameter(condition.parameter)} est supérieure à #{condition.left} "\
         "et inférieure à #{condition.right}."

@@ -68,6 +68,8 @@ module Parametrization
     end
 
     def potentially_satisfied?(condition, parameters)
+      # a condition is potentially satisfied if the value of a parameter is not
+      # known but the parameter is used in the condition
       case condition.type
       when 'AND', 'OR'
         children = condition.conditions.map { |child| potentially_satisfied?(child, parameters) }

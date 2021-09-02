@@ -2,7 +2,6 @@
 
 class AM < ApplicationRecord
   include ApplicationHelper
-  include RegimeHelper
   include TopicHelper
 
   validates :data, :title, :cid, :aida_url, :legifrance_url, :date_of_signature, presence: true
@@ -45,13 +44,6 @@ class AM < ApplicationRecord
     topics
   end
 
-  def regime_rank_score
-    raise 'Expecting at least one classement' if classements_with_alineas.length.zero?
-
-    unique_regime = classements_with_alineas[0].regime # TODO: handle 1510
-    REGIMES[unique_regime]
-  end
-
   def to_hash
     {
       title: title,
@@ -91,15 +83,15 @@ class AM < ApplicationRecord
       # Fetch all AM ids that match the classements and return
       # the map of AM ids to matching classements
       # match_on_alineas: if true, we match on rubrique-regime-alineas, otherwise on rubrique-regime
-      all_ams = all.pluck(:cid, :classements_with_alineas)
+      all_ams = all.pluck(:id, :classements_with_alineas)
       result = {}
       classements.each do |classement|
-        all_ams.each do |cid, am_classements|
+        all_ams.each do |id, am_classements|
           am_classements.each do |am_classement|
             next unless classements_match?(classement, am_classement, match_on_alineas)
 
-            result[cid] = [] unless result.key?(cid)
-            result[cid].append(classement)
+            result[id] = [] unless result.key?(id)
+            result[id].append(classement)
           end
         end
       end

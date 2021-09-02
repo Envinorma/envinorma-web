@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class Classement < ApplicationRecord
+  include RegimeHelper
+
   belongs_to :installation
 
   validates :regime, :rubrique, :installation_id, presence: true
@@ -32,6 +34,10 @@ class Classement < ApplicationRecord
     return volume.to_f if float?(volume)
 
     volume
+  end
+
+  def regime_score
+    regime.present? ? REGIMES[regime] : REGIMES[:empty]
   end
 
   class << self

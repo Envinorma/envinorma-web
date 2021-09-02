@@ -8,7 +8,7 @@ class ArretesController < ApplicationController
 
   def index
     @url_am_ids, @url_ap_ids = url_ids
-    @ams = prepare_am((params['am_ids'].presence || []).map { |am_id| AM.find(am_id) }, @installation.classements)
+    @ams = prepare_ams((params['am_ids'].presence || []).map { |am_id| AM.find(am_id) }, @installation.classements)
     @aps = (params['ap_ids'].presence || []).map { |ap_id| AP.find(ap_id) }
     @prescription = Prescription.new
     @alinea_ids = @user.prescription_alinea_ids(@installation)

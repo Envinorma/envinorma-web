@@ -206,24 +206,24 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     click_button('Air - odeurs')
     expect(page).to have_content("Chapitre VI : Emissions dans l'air")
-    find('.select_all', match: :first).click(wait: 10)
-    expect(page).to have_selector '.counter', text: '4', wait: 10
-    expect(Prescription.count).to eq 4
+    find('.alineas_checkbox', match: :first).click
+    expect(page).to have_selector '.counter', text: '1', wait: 10
+    expect(Prescription.count).to eq 1
     expect(Prescription.last.topic).to eq 'AIR_ODEURS'
 
     click_button('Bruit - vibrations')
     expect(page).to have_content('Chapitre VII : Bruit, vibration et émissions lumineuses')
-    find('.select_all', match: :first).click(wait: 10)
-    expect(page).to have_selector '.counter', text: '8', wait: 10
-    expect(Prescription.count).to eq 8
+    find('.alineas_checkbox', match: :first).click
+    expect(page).to have_selector '.counter', text: '2'
+    expect(Prescription.count).to eq 2
     expect(Prescription.last.topic).to eq 'BRUIT_VIBRATIONS'
 
     # Create prescriptions from AP
     fill_in 'Référence', with: 'Art. 3'
     fill_in 'Contenu', with: "Prescriptions copier - coller de l'AP"
     click_button('Ajouter une prescription')
-    expect(page).to have_selector '.counter', text: '9'
-    expect(Prescription.count).to eq 9
+    expect(page).to have_selector '.counter', text: '3'
+    expect(Prescription.count).to eq 3
 
     find(class: 'circle-fixed-button').click(wait: 4)
 
@@ -241,7 +241,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     expect(page).not_to have_content('Certains arrêtés ministériels dont sont issues')
     # Simulate an update of the AM content
-    AM.first.update(content_updated_at: Time.zone.now)
+    AM.first.update!(content_updated_at: Time.zone.now)
     click_link('Grouper par arrêté')
     expect(page).to have_content('Certains arrêtés ministériels dont sont issues')
     click_link('Grouper par thème')

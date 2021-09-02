@@ -5,22 +5,29 @@ module FilterAMs
   include Parametrization::Parameters
 
   def compute_applicable_ams_list(classements)
-    classements_by_am_cid = AM.from_classements(classements, false)
-    ams = AM.where(cid: classements_by_am_cid.keys.uniq)
-    sort_ams(add_applicabilities(ams, classements_by_am_cid))
+    classements_by_am_id = AM.from_classements(classements, false)
+    ams = AM.find(classements_by_am_id.keys.uniq)
+    transformed_am = add_applicabilities(ams, classements_by_am_id)
+    sort_ams(transformed_am, classements_by_am_id)
   end
 
   private
 
-  def sort_ams(ams)
-    ams.sort_by { |am| [am.applicability.applicable ? 0 : 1, am.regime_rank_score] }
+  def sort_ams(ams, classements_by_am_id)
+    # Sort AMs by applicability. Among AMs with the same applicability, sort by
+    # the highest regime of the associated classements.
+    ams.sort_by { |am| [am.applicability.applicable ? 0 : 1, highest_regime(classements_by_am_id[am.id])] }
+  end
+
+  def highest_regime(classements)
+    classements.map(&:regime_score).min
   end
 
   ALINEA_WARNING = "Les alinéas auxquels cet arrêté s'applique semblent ne pas correspondre "\
                    'aux alinéas de classements de cette installation.'
 
-  def add_applicabilities(ams, classements_by_am_cid)
-    ams.map { |am| add_applicability(am, classements_by_am_cid[am.cid]) }
+  def add_applicabilities(ams, classements_by_am_id)
+    ams.map { |am| add_applicability(am, classements_by_am_id[am.id]) }
   end
 
   def add_applicability(am, classements) # rubocop:disable Naming/MethodParameterName

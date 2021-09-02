@@ -8,68 +8,62 @@ RSpec.configure do |c|
 end
 
 RSpec.describe FilterAMs do # rubocop:disable RSpec/FilePath
-  context 'when :date_match?' do
-    it 'returns true and no warning if several classements are matching.' do
-      am_json = <<~JSON
-        {
-          "applicability": {
-            "condition_of_inapplicability": null
-          }
+  let(:am) do
+    am_json = <<~JSON
+      {
+        "id": "1",
+        "applicability": {
+          "condition_of_inapplicability": null,
+          "applicable": true
         }
-      JSON
-      am = JSON.parse(am_json, object_class: OpenStruct)
+      }
+    JSON
+    JSON.parse(am_json, object_class: OpenStruct)
+  end
+  let(:classement_al1) { Classement.new(rubrique: '1234', regime: 'D', alinea: '1') }
+  let(:classement_al11) { Classement.new(rubrique: '1234', regime: 'D', alinea: '11') }
+  let(:classement_al_a) { Classement.new(rubrique: '1234', regime: 'D', alinea: 'a') }
+  let(:classement_enregistrement) { Classement.new(rubrique: '1234', regime: 'E', alinea: '1') }
+
+  describe 'date_match?' do
+    it 'returns true and no warning if several classements are matching.' do
       expect(date_match?(am, [])).to eq [true, nil]
     end
 
     it 'returns true and no warning if condition is null.' do
-      am_json = <<~JSON
-        {
-          "applicability": {
-            "condition_of_inapplicability": null
-          }
-        }
-      JSON
-      am = JSON.parse(am_json, object_class: OpenStruct)
       expect(date_match?(am, [Classement.new(rubrique: '1510', regime: 'A')])).to eq [true, nil]
     end
   end
 
-  context 'when :alineas_match?' do
+  describe 'alineas_match?' do
     it 'returns false if no classement are given' do
       expect(alineas_match?(FactoryBot.create(:am, :fake_am1), [])).to eq false
     end
 
     it 'returns true if one classement with matching alinea is given' do
-      classement = Classement.new(rubrique: '1234', regime: 'D', alinea: '1')
-      expect(alineas_match?(FactoryBot.create(:am, :fake_am1), [classement])).to eq true
+      expect(alineas_match?(FactoryBot.create(:am, :fake_am1), [classement_al1])).to eq true
     end
 
     it 'returns false if all given classements do not match AM alinea' do
-      classement1 = Classement.new(rubrique: '1234', regime: 'D', alinea: '11')
-      classement2 = Classement.new(rubrique: '1234', regime: 'D', alinea: 'A')
-      expect(alineas_match?(FactoryBot.create(:am, :fake_am1), [classement1, classement2])).to eq false
+      expect(alineas_match?(FactoryBot.create(:am, :fake_am1), [classement_al11, classement_al_a])).to eq false
     end
 
     it 'returns true if any given classements have matching alinea' do
-      classement1 = Classement.new(rubrique: '1234', regime: 'D', alinea: '1')
-      classement2 = Classement.new(rubrique: '1234', regime: 'D', alinea: 'A')
-      expect(alineas_match?(FactoryBot.create(:am, :fake_am1), [classement1, classement2])).to eq true
+      expect(alineas_match?(FactoryBot.create(:am, :fake_am1), [classement_al1, classement_al_a])).to eq true
     end
 
     it 'returns true if given classement matches one of the AM alineas' do
-      classement1 = Classement.new(rubrique: '1234', regime: 'D', alinea: '1')
       am = FactoryBot.create(:am, :fake_am1)
       classements_with_alineas = [{ rubrique: '1234', regime: 'D', alineas: %w[1 2] }]
       am.update!(classements_with_alineas: classements_with_alineas)
-      expect(alineas_match?(FactoryBot.create(:am, :fake_am1), [classement1])).to eq true
+      expect(alineas_match?(FactoryBot.create(:am, :fake_am1), [classement_al1])).to eq true
     end
 
     it 'returns true if am classement does not depend on alinea' do
       am = FactoryBot.create(:am, :fake_am1)
       classements_with_alineas = [{ rubrique: '1234', regime: 'E', alineas: [] }]
       am.update!(classements_with_alineas: classements_with_alineas)
-      classement1 = Classement.new(rubrique: '1234', regime: 'E', alinea: '1')
-      expect(alineas_match?(am, [classement1])).to eq true
+      expect(alineas_match?(am, [classement_enregistrement])).to eq true
     end
 
     it 'returns true if any given classements have matching alinea and AM has several classements' do
@@ -78,9 +72,23 @@ RSpec.describe FilterAMs do # rubocop:disable RSpec/FilePath
                                   { rubrique: '1234', regime: 'E', alineas: [] }]
       am.update!(classements_with_alineas: classements_with_alineas)
 
-      classement2 = Classement.new(rubrique: '1234', regime: 'D', alinea: 'A')
-      classement1 = Classement.new(rubrique: '1234', regime: 'E', alinea: '1')
-      expect(alineas_match?(am, [classement1, classement2])).to eq true
+      expect(alineas_match?(am, [classement_enregistrement, classement_al_a])).to eq true
+    end
+  end
+
+  describe 'sort_ams' do
+    it 'returns sorted AMs by applicability and associated highest classement regime' do
+      am_not_applicable = am.dup
+      am_not_applicable.id = '2'
+      am_not_applicable.applicability.applicable = false
+      am_dup = am.dup
+      am_dup.id = '3'
+      ams = [am, am_not_applicable, am_dup]
+      classements = { '1' => [classement_al1, classement_al11],
+                      '2' => [classement_al_a],
+                      '3' => [classement_enregistrement, classement_al1] }
+      sorted_ams = sort_ams(ams, classements)
+      expect(sorted_ams.map(&:id)).to eq %w[3 1 2]
     end
   end
 end
