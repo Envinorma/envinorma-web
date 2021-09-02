@@ -21,6 +21,24 @@ module Parametrization
       end
     end
 
+    def potentially_satisfied?(condition, parameters)
+      # a condition is potentially satisfied if the value of a parameter is unknown
+      # but if is was known, the condition could be satisfied
+      case condition.type
+      when 'AND', 'OR'
+        children = condition.conditions.map { |child| potentially_satisfied?(child, parameters) }
+        condition.type == 'AND' ? children.all? : children.any?
+      when 'EQUAL', 'GREATER', 'LITTLER', 'RANGE'
+        return satisfied?(condition, parameters) if parameters.key?(condition.parameter.id)
+
+        true
+      else
+        raise "Unknown condition type: #{condition.type}"
+      end
+    end
+
+    private
+
     def conditions_satified?(conditions, parameters)
       conditions.map { |condition| satisfied?(condition, parameters) }
     end
@@ -64,22 +82,6 @@ module Parametrization
         parameter_value.to_date
       else
         parameter_value
-      end
-    end
-
-    def potentially_satisfied?(condition, parameters)
-      # a condition is potentially satisfied if the value of a parameter is not
-      # known but the parameter is used in the condition
-      case condition.type
-      when 'AND', 'OR'
-        children = condition.conditions.map { |child| potentially_satisfied?(child, parameters) }
-        condition.type == 'AND' ? children.all? : children.any?
-      when 'EQUAL', 'GREATER', 'LITTLER', 'RANGE'
-        return satisfied?(condition, parameters) if parameters.key?(condition.parameter.id)
-
-        true
-      else
-        raise "Unknown condition type: #{condition.type}"
       end
     end
   end

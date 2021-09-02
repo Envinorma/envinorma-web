@@ -90,7 +90,9 @@ module Parametrization
           deactivate_alineas(section, inapplicability.alineas)
           return [true, [inapplicability_warning(inapplicability)]]
         elsif potentially_satisfied?(inapplicability.condition, parameters)
-          warnings << potentially_satisfied_warning(inapplicability.condition, false)
+          is_a_modification = inapplicability.alineas.present?
+          # if only some alineas are inapplicable, it's a modification
+          warnings << potentially_satisfied_warning(inapplicability.condition, is_a_modification)
         end
       end
       [false, warnings]
