@@ -11,12 +11,12 @@ module Parametrization
     end
 
     def modification_warning(modification)
-      "Ce paragraphe a été modifié car #{human_condition(modification.condition)}."
+      "Cette section a été modifiée car #{human_condition(modification.condition)}."
     end
 
     def potentially_satisfied_warning(condition, is_a_modification)
-      adjective = is_a_modification ? 'modifié' : 'inapplicable'
-      "Ce paragraphe pourrait être #{adjective}. C'est le cas si #{human_condition(condition)}."
+      adjective = is_a_modification ? 'modifiée' : 'inapplicable'
+      "Cette section pourrait être #{adjective}. C'est le cas si #{human_condition(condition)}."
     end
 
     def inapplicable_arrete_warning(condition)

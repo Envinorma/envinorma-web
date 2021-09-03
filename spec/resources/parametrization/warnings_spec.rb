@@ -125,7 +125,7 @@ RSpec.describe Parametrization::Warnings do
   describe 'modification_warning' do
     it 'generates modification warning with equal target' do
       modification = build_modification(condition_regime)
-      expected = 'Ce paragraphe a été modifié car '\
+      expected = 'Cette section a été modifiée car '\
                  "le régime de classement est l'enregistrement."
       expect(modification_warning(modification)).to eq(expected)
     end
@@ -133,13 +133,13 @@ RSpec.describe Parametrization::Warnings do
 
   describe 'potentially_satisfied_warning' do
     it 'generates potential modification warning with equal target' do
-      expected = "Ce paragraphe pourrait être modifié. C'est le cas si "\
+      expected = "Cette section pourrait être modifiée. C'est le cas si "\
                  "le régime de classement est l'enregistrement."
       expect(potentially_satisfied_warning(condition_regime, true)).to eq(expected)
     end
 
     it 'generates potential inapplicability warning with equal target' do
-      expected = "Ce paragraphe pourrait être inapplicable. C'est le cas si "\
+      expected = "Cette section pourrait être inapplicable. C'est le cas si "\
                  "le régime de classement est l'enregistrement."
       expect(potentially_satisfied_warning(condition_regime, false)).to eq(expected)
     end

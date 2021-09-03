@@ -7,7 +7,7 @@ module Parametrization
 
     def prepare_ams(ams, classements)
       # For each AM, it maps classements matching on rubrique and regime
-      # and applies the parameters of the classements to the AM.
+      # and transforms the AM based on the parameters of the classements.
       classements_by_am_id = AM.from_classements(classements, true)
       ams.map { |am| transform(am, classements_by_am_id.fetch(am.id, [])) }
     end
@@ -20,9 +20,17 @@ module Parametrization
     end
 
     def classements_parameter_dict(classements)
-      # To avoid ambiguity, we consider that all parameters are unknown if
-      # there is not exactly one matching classement.
-      return {} if classements.length != 1
+      return {} if classements.empty?
+
+      if classements.length > 1
+        # To avoid ambiguity, we consider that all parameters except regime are unknown if
+        # there is not exactly one matching classement.
+        regimes = classements.map(&:regime).uniq
+
+        return { 'regime' => regimes[0] } if regimes.length == 1
+
+        return {}
+      end
 
       classement = classements[0]
       parameter_dict(classement)

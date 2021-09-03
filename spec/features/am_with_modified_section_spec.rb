@@ -12,21 +12,21 @@ RSpec.describe 'test prescription selection in modified section', js: true do
 
   it 'displays modified version if classement date is before 2020' do
     visit arretes_path(Installation.first, am_ids: AM.all.pluck(:id))
-    expect(page).to have_content('Ce paragraphe a été modifié')
+    expect(page).to have_content('Cette section a été modifiée')
     expect(page).to have_content('date de déclaration est antérieure')
   end
 
   it 'displays warning if classement autorisation date is undefined' do
     Classement.first.update!(date_autorisation: nil)
     visit arretes_path(Installation.first, am_ids: AM.all.pluck(:id))
-    expect(page).to have_content('Ce paragraphe pourrait être modifié')
+    expect(page).to have_content('Cette section pourrait être modifiée')
     expect(page).to have_content('date de déclaration est antérieure')
   end
 
   it 'displays nothing if classement autorisation date is after 2020' do
     Classement.first.update!(date_autorisation: '2021-01-01'.to_date)
     visit arretes_path(Installation.first, am_ids: AM.all.pluck(:id))
-    expect(page).not_to have_content('Ce paragraphe')
+    expect(page).not_to have_content('Cette section')
     expect(page).not_to have_content('date de déclaration est antérieure')
   end
 

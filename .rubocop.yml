@@ -19,6 +19,9 @@ Metrics/BlockLength:
 Metrics/ClassLength:
   Max: 120
 
+Metrics/ModuleLength:
+  Max: 120
+
 Metrics/MethodLength:
   Enabled: false
 
