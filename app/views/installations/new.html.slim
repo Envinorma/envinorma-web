@@ -19,7 +19,7 @@
                             required: true,
                             data: { behavior: 'autocomplete-classements' }
 
-          = f.hidden_field :reference_id, value: '', id: 'classement_reference_id'
+          = c.hidden_field :reference_id, value: '', id: 'classement_reference_id'
 
         .col
           = c.input :date_autorisation, as: :date, html5: true
