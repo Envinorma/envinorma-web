@@ -17,7 +17,6 @@ end
 
 Capybara.javascript_driver = :selenium_chrome_headless
 
-
 # Chrome setup without headless for debugging
 
 # Capybara.register_driver :selenium_chrome do |app|

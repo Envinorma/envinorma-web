@@ -3,7 +3,6 @@
 require 'rails_helper'
 # rubocop:disable RSpec/MultipleExpectations, RSpec/DescribeClass
 RSpec.describe 'new installations test features', js: true do
-
   before do
     ClassementReference.create(rubrique: 1510, alinea: '2b', regime: 'E', description: 'Entrepôt')
   end

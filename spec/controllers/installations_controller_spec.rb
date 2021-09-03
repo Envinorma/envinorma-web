@@ -44,15 +44,17 @@ RSpec.describe InstallationsController, type: :controller do
       ClassementReference.create(rubrique: 1510, alinea: '2b', regime: 'E', description: 'Entrepôt')
 
       expect do
-        get :create, params: { installation: {name: "Test", classement: {reference_id: "1", date_autorisation: "2021-09-09"}}}
+        get :create,
+            params: { installation: { name: 'Test',
+                                      classement: { reference_id: '1', date_autorisation: '2021-09-09' } } }
       end.to change(Installation, :count).from(0).to(1)
 
       expect(cookies[:user_id]).to eq User.last.id.to_s
 
       expect(Installation.last.user_id).to eq User.last.id
-      expect(Installation.last.name).to eq "Test"
-      expect(Installation.last.classements.first.rubrique).to eq "1510"
-      expect(Installation.last.classements.first.date_autorisation).to eq "2021-09-09".to_date
+      expect(Installation.last.name).to eq 'Test'
+      expect(Installation.last.classements.first.rubrique).to eq '1510'
+      expect(Installation.last.classements.first.date_autorisation).to eq '2021-09-09'.to_date
       expect(response).to redirect_to(installation_path(Installation.last))
     end
   end
