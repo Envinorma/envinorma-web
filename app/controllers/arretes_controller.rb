@@ -27,9 +27,9 @@ class ArretesController < ApplicationController
   private
 
   def url_ids
-    # -1 is there to avoid default behavior of checking all arretes
-    url_am_ids = params['am_ids'].presence || [-1]
-    url_ap_ids = params['ap_ids'].presence || [-1]
+    # 'empty' is there to avoid default behavior of checking all arretes
+    url_am_ids = params['am_ids'].presence || ['empty']
+    url_ap_ids = params['ap_ids'].presence || ['empty']
     [url_am_ids, url_ap_ids]
   end
 

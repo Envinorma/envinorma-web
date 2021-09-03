@@ -45,16 +45,10 @@
                         },
                         "new_version": {
                             "title": {
-                                "active": true,
-                                "id": "oBsMQcOuTQLf",
-                                "table": null,
                                 "text": "Article 1"
                             },
                             "outer_alineas": [
                                 {
-                                    "active": true,
-                                    "id": "MRPoxuTZSSuM",
-                                    "table": null,
                                     "text": "Ceci est un alinea modifié."
                                 }
                             ],
@@ -66,18 +60,12 @@
             "id": "941cf0d1bA08",
             "outer_alineas": [
                 {
-                    "active": true,
-                    "id": "MRPoxuTZSSuM",
-                    "table": null,
                     "text": "Le présent arrêté fixe les prescriptions applicables aux installations classées soumises à enregistrement sous la rubrique n° 2521."
                 }
             ],
             "reference_str": "Art. 1",
             "sections": [],
             "title": {
-                "active": true,
-                "id": "oBsMQcOuTQLf",
-                "table": null,
                 "text": "Article 1"
             }
         }
