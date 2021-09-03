@@ -24,6 +24,7 @@ RSpec.describe 'installations test features', js: true do
 
     # add new classement
     click_link('Ajouter un nouveau classement')
+    expect(page).to have_button 'Ajouter le classement', disabled: true
     fill_in('autocomplete-classements', with: '1510')
     find('li', text: 'E 2b - Entrepôt').click
     fill_in "Date d'autorisation", match: :first, with: '03/11/2020'

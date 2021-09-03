@@ -35,6 +35,14 @@ class Classement < ApplicationRecord
   end
 
   class << self
+    def create_from(installation_id, reference, params)
+      Classement.create(installation_id: installation_id, rubrique: reference.rubrique,
+                        regime: reference.regime, alinea: reference.alinea,
+                        activite: reference.description,
+                        date_autorisation: params[:date_autorisation],
+                        date_mise_en_service: params[:date_mise_en_service])
+    end
+
     def create_hash_from_csv_row(classement_raw)
       {
         'rubrique' => classement_raw['rubrique'],

@@ -32,6 +32,7 @@ class InstallationsController < ApplicationController
 
   def new
     @installation = Installation.new(name: 'Mon installation')
+    @classement = Classement.new
   end
 
   def create
@@ -42,6 +43,10 @@ class InstallationsController < ApplicationController
       s3ic_id: '0000.00000',
       user_id: @user.id
     )
+
+    form_params = params[:installation][:classement]
+    reference = ClassementReference.find(form_params[:reference_id])
+    @classement = Classement.create_from(@installation.id, reference, form_params)
 
     redirect_to installation_path(@installation)
   end
