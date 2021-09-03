@@ -5,7 +5,7 @@ FactoryBot.define do
     trait :classement_2521_E do
       path = Rails.root.join('spec/fixtures/ams/JORFTEXT000038358856.json')
       am = JSON.parse(File.read(path))
-      data { am }
+      data { { 'sections' => am['sections'] } }
       cid { am['id'] }
       is_transverse { am['is_transverse'] }
       nickname { '' }
@@ -20,7 +20,7 @@ FactoryBot.define do
     trait :fake_am1 do
       path = Rails.root.join('spec/fixtures/ams/fake_am_1.json')
       am = JSON.parse(File.read(path))
-      data { am }
+      data { { 'sections' => am['sections'] } }
       cid { am['id'] }
       is_transverse { am['is_transverse'] }
       nickname { '' }
@@ -35,7 +35,7 @@ FactoryBot.define do
     trait :fake_am2 do
       path = Rails.root.join('spec/fixtures/ams/am_with_modified_section.json')
       am = JSON.parse(File.read(path))
-      data { am }
+      data { { 'sections' => am['sections'] } }
       cid { am['id'] }
       is_transverse { am['is_transverse'] }
       nickname { '' }

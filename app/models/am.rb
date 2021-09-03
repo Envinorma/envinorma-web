@@ -70,7 +70,7 @@ class AM < ApplicationRecord
         aida_url: am_hash['aida_url'],
         legifrance_url: am_hash['legifrance_url'],
         date_of_signature: am_hash['date_of_signature'].to_date,
-        data: am_hash,
+        data: { 'sections' => am_hash['sections'] }, # only sections is used, parsing is faster this way
         classements_with_alineas: am_hash['classements_with_alineas'],
         applicability: am_hash['applicability']
       )
