@@ -11,11 +11,8 @@ class ClassementsController < ApplicationController
   def create
     form_params = params[:classement]
     reference = ClassementReference.find(form_params[:reference_id])
-    @classement = Classement.create(installation_id: @installation.id, rubrique: reference.rubrique,
-                                    regime: reference.regime, alinea: reference.alinea,
-                                    activite: reference.description,
-                                    date_autorisation: form_params[:date_autorisation],
-                                    date_mise_en_service: form_params[:date_mise_en_service])
+
+    @classement = Classement.create_from(@installation.id, reference, form_params)
 
     if @classement.save
       flash[:notice] = 'Le classement a été ajouté'
