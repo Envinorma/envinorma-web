@@ -18,6 +18,12 @@ class Classement < ApplicationRecord
     "#{volume_number} #{volume_unit}".strip
   end
 
+  def float_volume
+    volume_string = (volume || '').split.first
+
+    return volume.to_f if float?(volume_string)
+  end
+
   def float?(string)
     true if Float(string)
   rescue StandardError

@@ -23,6 +23,7 @@ RSpec.describe Parametrization::Parameters do
         FactoryBot.create(:classement, :classement_2521_E, alinea: '2', rubrique: '2522')
       ]
       expected = { 'regime' => 'E',
+                   'quantite-rubrique' => 150_000.0,
                    'date-d-enregistrement' => 'Tue, 07 May 1974'.to_date,
                    'date-d-installation' => 'Tue, 07 May 1974'.to_date }
       expect(classements_parameter_hash(classements)).to eq(expected)

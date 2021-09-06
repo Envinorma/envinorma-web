@@ -7,33 +7,53 @@ RSpec.configure do |c|
 end
 
 RSpec.describe Parametrization::Conditions do
-  let(:condition_less_than) do
+  def equal_condition(type, id, target)
     json = <<~JSON
       {
-        "type": "LITTLER",
+        "type": "EQUAL",
         "parameter": {
-          "id": "date-d-declaration",
-          "type": "DATE"
+          "id": "#{id}",
+          "type": "#{type}"
         },
-        "target": "2020-01-01",
+        "target": "#{target}"
+      }
+    JSON
+    JSON.parse(json, object_class: OpenStruct)
+  end
+
+  def littler_greater_condition(condition_type, parameter_type, id, target)
+    json = <<~JSON
+      {
+        "type": "#{condition_type}",
+        "parameter": {
+          "id": "#{id}",
+          "type": "#{parameter_type}"
+        },
+        "target": "#{target}",
         "strict": true
       }
     JSON
     JSON.parse(json, object_class: OpenStruct)
   end
 
-  let(:condition_regime) do
+  def merge_conditions(type, conditions)
     json = <<~JSON
       {
-        "type": "EQUAL",
-        "parameter": {
-          "id": "regime",
-          "type": "REGIME"
-        },
-        "target": "E"
+        "type": "#{type}",
+        "conditions": []
       }
     JSON
-    JSON.parse(json, object_class: OpenStruct)
+    condition = JSON.parse(json, object_class: OpenStruct)
+    condition.conditions = conditions
+    condition
+  end
+
+  let(:condition_less_than) do
+    littler_greater_condition('LITTLER', 'DATE', 'date-d-declaration', '2020-01-01')
+  end
+
+  let(:condition_regime) do
+    return equal_condition('REGIME', 'regime', 'E')
   end
 
   let(:condition_range) do
@@ -54,27 +74,11 @@ RSpec.describe Parametrization::Conditions do
   end
 
   let(:condition_and) do
-    json = <<~JSON
-      {
-        "type": "AND",
-        "conditions": []
-      }
-    JSON
-    condition = JSON.parse(json, object_class: OpenStruct)
-    condition.conditions = [condition_less_than, condition_regime, condition_range]
-    condition
+    merge_conditions('AND', [condition_less_than, condition_regime, condition_range])
   end
 
   let(:condition_or) do
-    json = <<~JSON
-      {
-        "type": "OR",
-        "conditions": []
-      }
-    JSON
-    condition = JSON.parse(json, object_class: OpenStruct)
-    condition.conditions = [condition_less_than, condition_regime, condition_range]
-    condition
+    merge_conditions('OR', [condition_less_than, condition_regime, condition_range])
   end
 
   describe 'satisfied?' do
@@ -122,11 +126,21 @@ RSpec.describe Parametrization::Conditions do
                      'date-d-installation' => '2000-01-01'.to_date }
       expect(satisfied?(condition_and, parameters)).to be false
     end
+
+    it 'handles real value targets' do
+      condition = littler_greater_condition('LITTLER', 'REAL_NUMBER', 'quantity', '10.5')
+      result = [0, 10.4, 10.5, 10.6, 100].map { |value| satisfied?(condition, { 'quantity' => value }) }
+      expect(result).to eq [true, true, false, false, false]
+    end
   end
 
   describe 'parse_parameter' do
     it 'returns parsed date if parameter_type is DATE' do
       expect(parse_parameter('2000-01-01', 'DATE')).to eq('2000-01-01'.to_date)
+    end
+
+    it 'returns parsed date if parameter_type is REAL_NUMBER' do
+      expect(parse_parameter('100.050', 'REAL_NUMBER')).to eq(100.05)
     end
 
     it 'returns unchanged value if parameter_type is not DATE' do

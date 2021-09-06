@@ -80,6 +80,8 @@ module Parametrization
       case parameter_type
       when 'DATE'
         parameter_value.to_date
+      when 'REAL_NUMBER'
+        parameter_value.to_f
       else
         parameter_value
       end
