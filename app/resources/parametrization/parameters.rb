@@ -94,13 +94,12 @@ module Parametrization
     def handle_inapplicabilities(section, parameters)
       warnings = []
       section.parametrization.potential_inapplicabilities.each do |inapplicability|
-        if satisfied?(inapplicability.condition, parameters)
+        condition = inapplicability.condition
+        if satisfied?(condition, parameters)
           deactivate_alineas(section, inapplicability.alineas)
           return [true, [inapplicability_warning(inapplicability)]]
-        elsif potentially_satisfied?(inapplicability.condition, parameters)
-          is_a_modification = inapplicability.alineas.present?
-          # if only some alineas are inapplicable, it's a modification
-          warnings << potentially_satisfied_warning(inapplicability.condition, is_a_modification)
+        elsif potentially_satisfied?(condition, parameters)
+          warnings << potentially_satisfied_warning(condition, false, inapplicability.alineas)
         end
       end
       [false, warnings]

@@ -14,9 +14,15 @@ module Parametrization
       "Cette section a été modifiée car #{human_condition(modification.condition)}."
     end
 
-    def potentially_satisfied_warning(condition, is_a_modification)
-      adjective = is_a_modification ? 'modifiée' : 'inapplicable'
-      "Cette section pourrait être #{adjective}. C'est le cas si #{human_condition(condition)}."
+    def potentially_satisfied_warning(condition, is_a_modification, alineas = nil)
+      first_sentence = if is_a_modification
+                         'Cette section pourrait être modifiée'
+                       elsif alineas.blank?
+                         'Cette section pourrait être inapplicable'
+                       else
+                         potentially_inapplicable_alineas_sentence(alineas)
+                       end
+      "#{first_sentence}. C'est le cas si #{human_condition(condition)}."
     end
 
     def inapplicable_arrete_warning(condition)
@@ -172,6 +178,24 @@ module Parametrization
       else
         raise "Unknown parameter #{parameter_id}"
       end
+    end
+
+    def potentially_inapplicable_alineas_sentence(alineas)
+      raise ArgumentError, 'No alineas' if alineas.empty?
+
+      alineas = alineas.map { |alinea| alinea + 1 }.sort # For human readability
+
+      return "L'alinéa #{alineas[0]} pourrait être inapplicable" if alineas.size == 1
+
+      if range_of_size_three_at_least?(alineas)
+        return "Les alinéas #{alineas.min} à #{alineas.max} pourraient être inapplicables"
+      end
+
+      "Les alinéas #{join_with_comma_and_separator(alineas, ' et ')} pourraient être inapplicables"
+    end
+
+    def range_of_size_three_at_least?(alineas)
+      alineas.size >= 3 && alineas.length == alineas.uniq.max - alineas.min + 1
     end
   end
 end
