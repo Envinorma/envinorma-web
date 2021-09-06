@@ -7,6 +7,60 @@ RSpec.configure do |c|
 end
 
 RSpec.describe Parametrization::Warnings do
+  def build_inapplicability(condition, alineas)
+    json = <<~JSON
+      {
+        "condition": null,
+        "alineas": #{alineas}
+      }
+    JSON
+    inapplicability = JSON.parse(json, object_class: OpenStruct)
+    inapplicability.condition = condition
+    inapplicability
+  end
+
+  def build_modification(condition)
+    json = <<~JSON
+      {
+        "condition": null,
+        "new_version": {
+          "title": {"text": "Nouveau titre"},
+          "sections": [],
+          "outer_alineas": []
+        }
+      }
+    JSON
+    modification = JSON.parse(json, object_class: OpenStruct)
+    modification.condition = condition
+    modification
+  end
+
+  def equal_condition(type, id, target)
+    json = <<~JSON
+      {
+        "type": "EQUAL",
+        "parameter": {
+          "id": "#{id}",
+          "type": "#{type}"
+        },
+        "target": "#{target}"
+      }
+    JSON
+    JSON.parse(json, object_class: OpenStruct)
+  end
+
+  def merge_conditions(type, conditions)
+    json = <<~JSON
+      {
+        "type": "#{type}",
+        "conditions": []
+      }
+    JSON
+    condition = JSON.parse(json, object_class: OpenStruct)
+    condition.conditions = conditions
+    condition
+  end
+
   let(:condition_less_than) do
     json = <<~JSON
       {
@@ -22,18 +76,8 @@ RSpec.describe Parametrization::Warnings do
     JSON.parse(json, object_class: OpenStruct)
   end
 
-  let(:condition_regime) do
-    json = <<~JSON
-      {
-        "type": "EQUAL",
-        "parameter": {
-          "id": "regime",
-          "type": "REGIME"
-        },
-        "target": "E"
-      }
-    JSON
-    JSON.parse(json, object_class: OpenStruct)
+  let(:regime_enregistrement) do
+    equal_condition('REGIME', 'regime', 'E')
   end
 
   let(:condition_range) do
@@ -54,39 +98,11 @@ RSpec.describe Parametrization::Warnings do
   end
 
   let(:condition_and) do
-    json = <<~JSON
-      {
-        "type": "AND",
-        "conditions": []
-      }
-    JSON
-    condition = JSON.parse(json, object_class: OpenStruct)
-    condition.conditions = [condition_less_than, condition_regime, condition_range]
-    condition
+    merge_conditions('AND', [condition_less_than, regime_enregistrement, condition_range])
   end
 
   let(:condition_or) do
-    json = <<~JSON
-      {
-        "type": "OR",
-        "conditions": []
-      }
-    JSON
-    condition = JSON.parse(json, object_class: OpenStruct)
-    condition.conditions = [condition_less_than, condition_regime, condition_range]
-    condition
-  end
-
-  def build_inapplicability(condition, alineas)
-    json = <<~JSON
-      {
-        "condition": null,
-        "alineas": #{alineas}
-      }
-    JSON
-    inapplicability = JSON.parse(json, object_class: OpenStruct)
-    inapplicability.condition = condition
-    inapplicability
+    merge_conditions('OR', [condition_less_than, regime_enregistrement, condition_range])
   end
 
   describe 'inapplicability_warning' do
@@ -106,25 +122,9 @@ RSpec.describe Parametrization::Warnings do
     end
   end
 
-  def build_modification(condition)
-    json = <<~JSON
-      {
-        "condition": null,
-        "new_version": {
-          "title": {"text": "Nouveau titre"},
-          "sections": [],
-          "outer_alineas": []
-        }
-      }
-    JSON
-    modification = JSON.parse(json, object_class: OpenStruct)
-    modification.condition = condition
-    modification
-  end
-
   describe 'modification_warning' do
     it 'generates modification warning with equal target' do
-      modification = build_modification(condition_regime)
+      modification = build_modification(regime_enregistrement)
       expected = 'Cette section a été modifiée car '\
                  "le régime de classement est l'enregistrement."
       expect(modification_warning(modification)).to eq(expected)
@@ -135,13 +135,13 @@ RSpec.describe Parametrization::Warnings do
     it 'generates potential modification warning with equal target' do
       expected = "Cette section pourrait être modifiée. C'est le cas si "\
                  "le régime de classement est l'enregistrement."
-      expect(potentially_satisfied_warning(condition_regime, true)).to eq(expected)
+      expect(potentially_satisfied_warning(regime_enregistrement, true)).to eq(expected)
     end
 
     it 'generates potential inapplicability warning with equal target' do
       expected = "Cette section pourrait être inapplicable. C'est le cas si "\
                  "le régime de classement est l'enregistrement."
-      expect(potentially_satisfied_warning(condition_regime, false)).to eq(expected)
+      expect(potentially_satisfied_warning(regime_enregistrement, false)).to eq(expected)
     end
   end
 
@@ -158,7 +158,7 @@ RSpec.describe Parametrization::Warnings do
 
     it 'generates human condition from equal condition' do
       expected = 'le régime de classement est l\'enregistrement'
-      expect(human_condition(condition_regime)).to eq(expected)
+      expect(human_condition(regime_enregistrement)).to eq(expected)
     end
 
     it 'generates human condition from and condition' do
@@ -176,11 +176,43 @@ RSpec.describe Parametrization::Warnings do
     end
   end
 
-  describe 'and_human_condition' do
+  describe 'humanize_and_aggregate' do
     it 'generates warning from child only when there is only one child condition' do
-      condition_and.dup.conditions = [condition_range]
       expected = 'la date de mise en service est comprise entre le 01/01/2020 et le 31/12/2020'
-      expect(human_condition(condition_range)).to eq(expected)
+      expect(humanize_and_aggregate([condition_range], ' et ')).to eq(expected)
+    end
+
+    it 'generates warning with simplified targets if all conditions have the same type' do
+      expected = 'l\'alinéa de classement est 1-a, 1-b ou 3'
+      conditions = [equal_condition('ALINEA', 'alinea', '3'),
+                    equal_condition('ALINEA', 'alinea', '1-b'),
+                    equal_condition('ALINEA', 'alinea', '1-a')]
+      expect(humanize_and_aggregate(conditions, ' ou ')).to eq(expected)
+    end
+
+    it 'generates warning without simplification if conditions are of different types' do
+      expected = 'l\'alinéa de classement est 1-b, l\'alinéa de classement est 3 ou le régime'\
+                 ' de classement est l\'enregistrement'
+      condition = [equal_condition('ALINEA', 'alinea', '3'),
+                   equal_condition('ALINEA', 'alinea', '1-b'),
+                   regime_enregistrement]
+      expect(humanize_and_aggregate(condition, ' ou ')).to eq(expected)
+    end
+  end
+
+  describe 'join_with_comma_and_separator' do
+    it 'does nothing if there is only one element' do
+      expect(join_with_comma_and_separator(['this is a cat'], ' and ')).to eq('this is a cat')
+    end
+
+    it 'joins two elements with separator' do
+      expected = 'this is a cat and this is a dog'
+      expect(join_with_comma_and_separator(['this is a cat', 'this is a dog'], ' and ')).to eq(expected)
+    end
+
+    it 'joins three elements with comma and separator' do
+      merged_sentence = join_with_comma_and_separator(['this is a cat', 'this is a dog', 'this is a mouse'], ' and ')
+      expect(merged_sentence).to eq('this is a cat, this is a dog and this is a mouse')
     end
   end
 end
