@@ -23,13 +23,23 @@ RSpec.describe 'test consult AM with inapplicability', js: true do
     expect(page).to have_content('date de mise en service est antérieure')
   end
 
-  it 'displays potentially inapplicable paragraph if there are two classements' do
+  it 'displays potentially inapplicable paragraph if there are two classements with different dates' do
+    FactoryBot.create(:classement, :classement_2521_E,
+                      installation: Installation.first, date_mise_en_service: '2000-01-02'.to_date)
+    FactoryBot.create(:classement, :classement_2521_E,
+                      installation: Installation.first, date_mise_en_service: '2000-01-01'.to_date)
+    visit arretes_path(Installation.first, am_ids: AM.all.pluck(:id))
+    expect(page).to have_content('Cette section pourrait être inapplicable')
+    expect(page).to have_content('date de mise en service est antérieure')
+  end
+
+  it 'displays inapplicable paragraph if there are two classements with the same date' do
     FactoryBot.create(:classement, :classement_2521_E,
                       installation: Installation.first, date_mise_en_service: '2000-01-01'.to_date)
     FactoryBot.create(:classement, :classement_2521_E,
                       installation: Installation.first, date_mise_en_service: '2000-01-01'.to_date)
     visit arretes_path(Installation.first, am_ids: AM.all.pluck(:id))
-    expect(page).to have_content('Cette section pourrait être inapplicable')
+    expect(page).to have_content('Cette section est inapplicable')
     expect(page).to have_content('date de mise en service est antérieure')
   end
 end
