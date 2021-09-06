@@ -16,11 +16,6 @@ class AM < ApplicationRecord
   validates :legifrance_url,
             format: { with: %r{\Ahttps://www\.legifrance\.gouv\.fr/loda/id/.*\z} }
 
-  def data
-    # Lazy argument, loaded once needed (and only once)
-    @data ||= JSON.parse(super.to_json, object_class: OpenStruct)
-  end
-
   def classements_with_alineas
     # Lazy argument, loaded once needed (and only once)
     @classements_with_alineas ||= JSON.parse(super.to_json, object_class: OpenStruct)
@@ -38,7 +33,7 @@ class AM < ApplicationRecord
   def topics_by_section
     # Hash which associates each section id to the list of topics of its descendant.
     topics = {}
-    data.sections.each do |section|
+    data['sections'].each do |section|
       topics.update(section_topics(section))
     end
     topics

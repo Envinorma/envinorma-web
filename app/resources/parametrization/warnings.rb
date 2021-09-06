@@ -6,12 +6,12 @@ module Parametrization
     include OpenStructHelper
 
     def inapplicability_warning(inapplicability)
-      prefix = inapplicability.alineas.blank? ? 'Cette section est inapplicable' : 'Certains alinéas sont inapplicables'
-      "#{prefix} car #{human_condition(inapplicability.condition)}."
+      prefix = inapplicability['alineas'].blank? ? 'Cette section est inapplicable' : 'Certains alinéas sont inapplicables'
+      "#{prefix} car #{human_condition(inapplicability['condition'])}."
     end
 
     def modification_warning(modification)
-      "Cette section a été modifiée car #{human_condition(modification.condition)}."
+      "Cette section a été modifiée car #{human_condition(modification['condition'])}."
     end
 
     def potentially_satisfied_warning(condition, is_a_modification)
@@ -31,7 +31,7 @@ module Parametrization
     private
 
     def human_condition(condition)
-      case condition.type
+      case condition['type']
       when 'AND'
         and_human_condition(condition)
       when 'OR'
@@ -45,24 +45,24 @@ module Parametrization
       when 'RANGE'
         range_human_condition(condition)
       else
-        raise "Unknown condition type #{condition.type}"
+        raise "Unknown condition type #{condition['type']}"
       end
     end
 
     def and_human_condition(condition)
-      child_conditions = condition.conditions.map { |child| human_condition(child) }.sort
+      child_conditions = condition['conditions'].map { |child| human_condition(child) }.sort
       [child_conditions[..-2].join(', '), child_conditions[-1]].join(' et ')
     end
 
     def or_human_condition(condition)
-      child_conditions = condition.conditions.map { |child| human_condition(child) }.sort
+      child_conditions = condition['conditions'].map { |child| human_condition(child) }.sort
       [child_conditions[..-2].join(', '), child_conditions[-1]].join(' ou ')
     end
 
     def equal_human_condition(condition)
-      return equal_regime_human_condition(condition.target) if condition.parameter.type == 'REGIME'
+      return equal_regime_human_condition(condition['target']) if condition['parameter']['type'] == 'REGIME'
 
-      "#{human_parameter(condition.parameter)} est #{condition.target}"
+      "#{human_parameter(condition['parameter'])} est #{condition['target']}"
     end
 
     def equal_regime_human_condition(regime)
@@ -83,37 +83,37 @@ module Parametrization
     end
 
     def littler_human_condition(condition)
-      case condition.parameter.type
+      case condition['parameter']['type']
       when 'DATE'
-        "#{human_parameter(condition.parameter)} est antérieure au #{human_date(condition.target)}"
+        "#{human_parameter(condition['parameter'])} est antérieure au #{human_date(condition['target'])}"
       when 'REAL_NUMBER'
-        "#{human_parameter(condition.parameter)} est inférieure à #{condition.target}"
+        "#{human_parameter(condition['parameter'])} est inférieure à #{condition['target']}"
       else
-        raise "Not implemented for parameter type #{condition.parameter.type}"
+        raise "Not implemented for parameter type #{condition['parameter']['type']}"
       end
     end
 
     def greater_human_condition(condition)
-      case condition.parameter.type
+      case condition['parameter']['type']
       when 'DATE'
-        "#{human_parameter(condition.parameter)} est postérieure au #{human_date(condition.target)}"
+        "#{human_parameter(condition['parameter'])} est postérieure au #{human_date(condition['target'])}"
       when 'REAL_NUMBER'
-        "#{human_parameter(condition.parameter)} est supérieure à #{condition.target}"
+        "#{human_parameter(condition['parameter'])} est supérieure à #{condition['target']}"
       else
-        raise "Not implemented for parameter type #{condition.parameter.type}"
+        raise "Not implemented for parameter type #{condition['parameter']['type']}"
       end
     end
 
     def range_human_condition(condition)
-      case condition.parameter.type
+      case condition['parameter']['type']
       when 'DATE'
-        "#{human_parameter(condition.parameter)} est comprise entre le #{human_date(condition.left)} "\
-        "et le #{human_date(condition.right)}"
+        "#{human_parameter(condition['parameter'])} est comprise entre le #{human_date(condition['left'])} "\
+        "et le #{human_date(condition['right'])}"
       when 'REAL_NUMBER'
-        "#{human_parameter(condition.parameter)} est supérieure à #{condition.left} "\
-        "et inférieure à #{condition.right}"
+        "#{human_parameter(condition['parameter'])} est supérieure à #{condition['left']} "\
+        "et inférieure à #{condition['right']}"
       else
-        raise "Not implemented for parameter type #{condition.parameter.type}"
+        raise "Not implemented for parameter type #{condition['parameter']['type']}"
       end
     end
 
@@ -122,9 +122,9 @@ module Parametrization
     end
 
     def human_parameter(parameter)
-      return human_date_parameter(parameter.id) if parameter.type == 'DATE'
+      return human_date_parameter(parameter['id']) if parameter['type'] == 'DATE'
 
-      case parameter.id
+      case parameter['id']
       when 'regime'
         'le régime'
       when 'rubrique'
@@ -134,7 +134,7 @@ module Parametrization
       when 'alinea'
         "l'alinea de classement"
       else
-        raise "Unknown parameter #{parameter.id}"
+        raise "Unknown parameter #{parameter['id']}"
       end
     end
 

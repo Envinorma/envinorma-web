@@ -1,23 +1,23 @@
 ruby:
   def extract_prescription_content(alinea)
-    return alinea.text if alinea.text.present?
+    return alinea['text'] if alinea['text'].present?
 
-    return open_struct_to_hash(alinea.table).to_json if alinea.table.present?
+    return open_struct_to_hash(alinea['table']).to_json if alinea['table'].present?
 
     ''
   end
 
   def create_alinea_content(alinea)
-    return alinea.text if alinea.text.present?
+    return alinea['text'] if alinea['text'].present?
 
-    return create_table(alinea.table) if alinea.table.present?
+    return create_table(alinea['table']) if alinea['table'].present?
 
     ''
   end
 
 - suffix = modification ? '_modif' : ''
 
-- subsection.outer_alineas.each_with_index do |alinea, alinea_index|
+- subsection['outer_alineas'].each_with_index do |alinea, alinea_index|
   - alinea_id = "#{subsection_id}_#{alinea_index}#{suffix}"
   .form-group.row
     .col-sm-12
@@ -30,7 +30,7 @@ ruby:
             class: "form-check-input select_all_#{subsection_id} alineas_checkbox",
             data: { alinea_id: alinea_id }
           / alinea is active except if it is explicitly marked as active: false
-          - class_name = alinea.active.nil? || alinea.active ? '' : 'inactive'
+          - class_name = alinea['active'].nil? || alinea['active'] ? '' : 'inactive'
           = label_tag "prescription_checkbox_#{alinea_id}", class: class_name
             - create_alinea_content(alinea)
           = f.hidden_field :content, value: extract_prescription_content(alinea), namespace: alinea_id
@@ -40,4 +40,4 @@ ruby:
           = f.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}", namespace: alinea_id
           = f.hidden_field :from_am_id, value: am_id, namespace: alinea_id
           = f.hidden_field :topic, value: topic, namespace: alinea_id
-          = f.hidden_field :is_table, value: alinea.text.blank? && alinea.table.present?, namespace: alinea_id
+          = f.hidden_field :is_table, value: alinea['text'].blank? && alinea['table'].present?, namespace: alinea_id

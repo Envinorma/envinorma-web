@@ -21,6 +21,6 @@ class Prescription < ApplicationRecord
   def table
     raise 'Cannot read table' unless is_table?
 
-    JSON.parse(content, object_class: OpenStruct)
+    JSON.parse(content)
   end
 end

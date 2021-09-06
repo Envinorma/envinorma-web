@@ -86,7 +86,7 @@ class AMManager
   def self.same_content?(am1, am2)
     return false if am1.title != am2.title
 
-    sections_lists_have_same_content?(am1.data.sections, am2.data.sections)
+    sections_lists_have_same_content?(am1.data['sections'], am2.data['sections'])
   end
 
   def self.sections_lists_have_same_content?(sections1, sections2)
@@ -99,11 +99,11 @@ class AMManager
   end
 
   def self.sections_have_same_content?(section1, section2)
-    return false if section1.title.text != section2.title.text
+    return false if section1.dig('title', 'text') != section2.dig('title', 'text')
 
-    return false unless sections_lists_have_same_content?(section1.sections, section2.sections)
+    return false unless sections_lists_have_same_content?(section1['sections'], section2['sections'])
 
-    alineas_lists_have_same_content?(section1.outer_alineas, section2.outer_alineas)
+    alineas_lists_have_same_content?(section1['outer_alineas'], section2['outer_alineas'])
   end
 
   def self.alineas_lists_have_same_content?(alineas1, alineas2)
@@ -116,32 +116,32 @@ class AMManager
   end
 
   def self.alineas_have_same_content?(alinea1, alinea2)
-    return false if alinea1.text != alinea2.text
+    return false if alinea1['text'] != alinea2['text']
 
-    return alinea1.table.blank? && alinea2.table.blank? if alinea1.table.blank? || alinea2.table.blank?
+    return alinea1['table'].blank? && alinea2['table'].blank? if alinea1['table'].blank? || alinea2['table'].blank?
 
-    tables_have_same_content?(alinea1.table, alinea2.table)
+    tables_have_same_content?(alinea1['table'], alinea2['table'])
   end
 
   def self.tables_have_same_content?(table1, table2)
-    return false if table1.rows.count != table2.rows.count
+    return false if table1['rows'].count != table2['rows'].count
 
-    table1.rows.zip(table2.rows).each do |row1, row2|
+    table1['rows'].zip(table2['rows']).each do |row1, row2|
       return false unless rows_have_same_content?(row1, row2)
     end
     true
   end
 
   def self.rows_have_same_content?(row1, row2)
-    return false if row1.cells.count != row2.cells.count
+    return false if row1['cells'].count != row2['cells'].count
 
-    row1.cells.zip(row2.cells).each do |cell1, cell2|
+    row1['cells'].zip(row2['cells']).each do |cell1, cell2|
       return false unless cells_have_same_content?(cell1, cell2)
     end
     true
   end
 
   def self.cells_have_same_content?(cell1, cell2)
-    cell1.content.text == cell2.content.text
+    cell1.dig('content', 'text') == cell2.dig('content', 'text')
   end
 end
