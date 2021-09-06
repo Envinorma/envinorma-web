@@ -29,7 +29,8 @@ ruby:
             '1', prescription_checked?(@alinea_ids, alinea_id),
             class: "form-check-input select_all_#{subsection_id} alineas_checkbox",
             data: { alinea_id: alinea_id }
-          - class_name = alinea.active ? '' : 'inactive'
+          / alinea is active except if it is explicitly marked as active: false
+          - class_name = alinea.active.nil? || alinea.active ? '' : 'inactive'
           = label_tag "prescription_checkbox_#{alinea_id}", class: class_name
             - create_alinea_content(alinea)
           = f.hidden_field :content, value: extract_prescription_content(alinea), namespace: alinea_id

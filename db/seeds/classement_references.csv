@@ -5,7 +5,7 @@ rubrique,alinea,description,regime
 1185,3-1-a,Quantité de fluide susceptible d'être présente,D
 1185,3-1-b,Quantité de fluide susceptible d'être présente,D
 1185,3-2,Quantité de fluide susceptible d'être présente,D
-1185,2-a,Quantité susceptible d'être présente,DC
+1185,2-a,Quantité susceptible d'être présente,D
 1185,1,Libellé court à définir,NC
 1185,2,,NC
 1185,3,"Stockage de fluides vierges, recyclés ou régénérés, à l'exception du stockage temporaire.",NC
@@ -14,8 +14,8 @@ rubrique,alinea,description,regime
 1312,,Mise en oeuvre de produits explosifs à des fins industrielles,A
 1413,1-a,Installation de remplissage de gaz naturel - débit > 2000 m3/h,A
 1413,2-a,Installation de remplissage de gaz naturel - masse de gaz > 10 t,A
-1413,1-b,Installation de remplissage de gaz naturel - débit compris entre 80 et  2000 m3/h,DC
-1413,2-b,Installation de remplissage de gaz naturel - masse de gaz comprise entre 1 et 10 t,DC
+1413,1-b,Installation de remplissage de gaz naturel - débit compris entre 80 et  2000 m3/h,D
+1413,2-b,Installation de remplissage de gaz naturel - masse de gaz comprise entre 1 et 10 t,D
 1413,1,Gaz naturel ou biogaz sous pression (remplissage réservoirs alimentant moteurs ou autres appareils),NC
 1413,2,Installation de remplissage de gaz naturel ,NC
 1413,Nota,Libellé court à définir,NC
@@ -25,25 +25,25 @@ rubrique,alinea,description,regime
 1414,2-b,Gaz inflammables liquéfiés,A
 1414,2-c,Gaz inflammables liquéfiés,A
 1414,4,Gaz inflammables liquéfiés,A
-1414,2-d,Gaz inflammables liquéfiés,DC
-1414,3,Gaz inflammables liquéfiés (remplissage ou distribution),DC
+1414,2-d,Gaz inflammables liquéfiés,D
+1414,3,Gaz inflammables liquéfiés (remplissage ou distribution),D
 1414,2,Gaz inflammables liquéfiés (remplissage ou distribution),NC
 1414,,Installations de remplissage ou de distribution de gaz inflammables liquéfiés,NC
-1416,,Stations-service à hydrogène,DC
+1416,,Stations-service à hydrogène,D
 1421,1,Remplissage d'aérosols inflammables,A
 1421,2,Remplissage d'aérosols inflammables,A
 1421,,Installation de remplissage d’aérosols inflammables,NC
 1434,1-a,Liquides inflammables (remplissage ou distribution) autres que 1435,A
 1434,2,Liquides inflammables (remplissage ou distribution) autres que 1435,A
-1434,1-b,Liquides inflammables (remplissage ou distribution) autres que 1435,DC
+1434,1-b,Liquides inflammables (remplissage ou distribution) autres que 1435,D
 1434,1,Liquides inflammables (remplissage ou distribution) autres que 1435,NC
 1434,,Installations de remplissage ou de distribution de liquides inflammables,NC
-1435,2,Stations-service,DC
+1435,2,Stations-service,D
 1435,1,Stations-service,E
 1435,Nota,Stations-service,NC
 1435,,Stations service,NC
 1436,1,Liquides combustibles de point éclair compris entre 60° C et 93° C (stockage ou emploi de),A
-1436,2,Liquides combustibles de point éclair compris entre 60° C et 93° C (stockage ou emploi de),DC
+1436,2,Liquides combustibles de point éclair compris entre 60° C et 93° C (stockage ou emploi de),D
 1436,,Liquides combustibles,NC
 1450,1,Solides inflammables,A
 1450,2,Solides inflammables,D
@@ -51,16 +51,16 @@ rubrique,alinea,description,regime
 1455,,Stockage de carbure de calcium,D
 1510,1,Entrepôts couverts soumis à EE systématique,A
 1510,2-a,Entrepot autorisé,A
-1510,2-c,Entrepot déclaré,DC
+1510,2-c,Entrepot déclaré,D
 1510,2-b,Entrepot enregistré,E
 1510,2,Entrepôts couverts autres que EE systématique,NC
 1510,NOTA,,NC
 1510,,Entrepôts couverts,NC
-1511,2,Entrepôts frigorifiques,DC
+1511,2,Entrepôts frigorifiques,D
 1511,1,Entrepôts frigorifiques,E
 1511,NOTA,,NC
 1511,,Entrepôts frigorifiques,NC
-1530,2,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",DC
+1530,2,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",D
 1530,1,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",E
 1530,,"Dépôts de papiers, cartons ou analogues",NC
 1531,,"Stockages, par voie humide (immersion ou aspersion), de bois non traité chimiquement",D
@@ -141,14 +141,14 @@ rubrique,alinea,description,regime
 2140,NOTA,Animaux d'espèces non domestiques (présentation au public) sauf exclusions,NC
 2150,1-a,Supérieure à 150 kg/j,A
 2150,2-a,Supérieure à 15 t/j,A
-2150,1-b,Supérieure à 1 kg/j et inférieure ou égale à 150 kg/j,DC
-2150,2-b,Supérieure à 100 kg/j et inférieure ou égale à 15 t/j,DC
+2150,1-b,Supérieure à 1 kg/j et inférieure ou égale à 150 kg/j,D
+2150,2-b,Supérieure à 100 kg/j et inférieure ou égale à 15 t/j,D
 2150,1,Substrat contenant des sous-produits animaux,NC
 2150,2,Autres substrats,NC
 2150,,"Elevage de coléoptères, diptères ou orthoptères",NC
 2160,2-a,Silos autres que plats autorisés,A
-2160,1-b,Silos plats DC,DC
-2160,2-b,silos autres que plats DC,DC
+2160,1-b,Silos plats DC,D
+2160,2-b,silos autres que plats DC,D
 2160,1-a,Silos plats enregistré,E
 2160,1,Silos plats,NC
 2160,2,Silos autres que plats,NC
@@ -165,22 +165,22 @@ rubrique,alinea,description,regime
 2210,NOTA,,NC
 2210,,Abattoirs,NC
 2220,1-b,"Supérieure à 2 t/j, mais inférieure ou égale à 20 t/j ",D
-2220,2-b,"Supérieure à 2 t/j, mais inférieure ou égale à 10 t/j",DC
+2220,2-b,"Supérieure à 2 t/j, mais inférieure ou égale à 10 t/j",D
 2220,1-a,Supérieure à 20 t/j ,E
 2220,2-a,Supérieure à 10 t/j ,E
 2220,1,Lorsque l'installation fonctionne pendant une durée maximale de 90 jours consécutifs en un an :,NC
 2220,2,Autres installations  :,NC
 2220,,Préparation de produits alimentaires d'origine végétale,NC
-2221,2,"Supérieure à 500 kg/j, mais inférieure ou égale à 4 t/j",DC
+2221,2,"Supérieure à 500 kg/j, mais inférieure ou égale à 4 t/j",D
 2221,1,Supérieure à 4t/j,E
 2221,,Préparation de produits alimentaires d'origine animale,NC
-2230,2,"Supérieure à 7 000 l/j, mais inférieure ou égale à 70 000 l/j ",DC
+2230,2,"Supérieure à 7 000 l/j, mais inférieure ou égale à 70 000 l/j ",D
 2230,1,Supérieure à 70 000 l/j,E
 2230,Nota,"Lait (réception, stockage, traitement, transformation,etc) ou produits issus du lait",NC
 2230,,Traitement et transformation du lait,NC
 2240,A,"Extraction et traitement des huiles végétales,huiles animales et corps gras",A
 2240,B-1-b,"Supérieure à 200 kg/j, mais inférieure ou égale à 20 t/j",D
-2240,B-2-b,"Supérieure à 200 kg/j, mais inférieure ou égale à 10 t/j",DC
+2240,B-2-b,"Supérieure à 200 kg/j, mais inférieure ou égale à 10 t/j",D
 2240,B-1-a,Supérieure à 20 t/j,E
 2240,B-2-a,Supérieure à 10 t/j,E
 2240,B,"Autres installations d'extraction et de traitement des huiles végétales,huiles animales et corps gras",NC
@@ -198,8 +198,8 @@ rubrique,alinea,description,regime
 2251,B-1,"Vins (préparation, conditionnement)",E
 2251,B,"Vins (préparation, conditionnement)",NC
 2251,,"Préparation, conditionnement de vins",NC
-2260,1-b,Supérieure à 100 kW mais inférieure ou égale à 500 kW,DC
-2260,2-b,Supérieure à 1 MW mais inférieure à 20 MW,DC
+2260,1-b,Supérieure à 100 kW mais inférieure ou égale à 500 kW,D
+2260,2-b,Supérieure à 1 MW mais inférieure à 20 MW,D
 2260,1-a,Supérieure à 500 kW,E
 2260,2-a,Supérieure ou égale à 20 MW,E
 2260,1,"Broyage, concassage, criblage ... des substances végétales et produits organiques naturels",NC
@@ -209,7 +209,7 @@ rubrique,alinea,description,regime
 2265,2,Fermentation acétique liquide (procédé),D
 2265,,Fermentation acétique en milieu liquide,NC
 2275,1,Supérieure à  à 2 t/j ,A
-2275,2,"Supérieure à 200 kg/j, mais inférieure ou égale à 2 t/j ",DC
+2275,2,"Supérieure à 200 kg/j, mais inférieure ou égale à 2 t/j ",D
 2275,,Fabrication de levure ou autre production fongique,NC
 2311,1,"Traitement de fibres (battage, cardage, lavage, etc.)",A
 2311,2,"Traitement de fibres (battage, cardage, lavage, etc.)",D
@@ -223,14 +223,14 @@ rubrique,alinea,description,regime
 2340,1,"Blanchisseries, laveries de linge",E
 2340,,"Blanchisserie, laverie de linge",NC
 2345,1,NETTOYAGE A SEC DES TEXTILES OU VETEMENTS,A
-2345,2,NETTOYAGE A SEC DES TEXTILES OU VETEMENTS,DC
+2345,2,NETTOYAGE A SEC DES TEXTILES OU VETEMENTS,D
 2345,NOTA,NETTOYAGE A SEC DES TEXTILES OU VETEMENTS,NC
 2345,,Utilisation de solvants pour le nettoyage à sec et le traitement de textiles ou vêtements,NC
 2350,a,Supérieure à 5t/j,A
-2350,b,"Supérieure à  100 kg /j, mais inférieure ou égale à 5t/j",DC
+2350,b,"Supérieure à  100 kg /j, mais inférieure ou égale à 5t/j",D
 2350,,"Tanneries, mégisseries, …",NC
 2351,1,Teinture et pigmentation de peaux,A
-2351,2,Teinture et pigmentation de peaux,DC
+2351,2,Teinture et pigmentation de peaux,D
 2351,,Teintureries et pigmentation de peaux,NC
 2355,,Dépôts de peaux,D
 2360,1,"Fabrication de chaussures, maroquinerie, travail cuirs peaux",A
@@ -240,7 +240,7 @@ rubrique,alinea,description,regime
 2410,1,Supérieur à 250 kW,E
 2410,,Travail du bois et matériaux combustibles analogues,NC
 2415,1,Mise en oeuvre de produits de préservation du bois et dérivés,A
-2415,2,Mise en oeuvre de produits de préservation du bois et dérivés,DC
+2415,2,Mise en oeuvre de produits de préservation du bois et dérivés,D
 2415,,Mise en oeuvre de produits de préservation de bois et matériaux dérivés,NC
 2420,1,Charbon de bois (fabrication du),A
 2420,2-a,Charbon de bois (fabrication du),A
@@ -248,9 +248,9 @@ rubrique,alinea,description,regime
 2420,2,Charbon de bois (fabrication du),NC
 2420,,Fabrication de charbon de bois,NC
 2430,a,Supérieure à 10 t/j,A
-2430,b,Supérieure à 1 t/j et inférieure ou égale à 10 t/j,DC
+2430,b,Supérieure à 1 t/j et inférieure ou égale à 10 t/j,D
 2430,,Préparation de la pâte à papier,NC
-2440,,Fabrication de papier carton,DC
+2440,,Fabrication de papier carton,D
 2445,1,"Transformation du papier, carton",A
 2445,2,"Transformation du papier, carton",D
 2445,,"Transformation du papier, carton",NC
@@ -266,7 +266,7 @@ rubrique,alinea,description,regime
 2510,3,Carrières (exploitation de),A
 2510,4,Carrières (exploitation de),A
 2510,5,Carrières (exploitation de),D
-2510,6,Carrières (exploitation de),DC
+2510,6,Carrières (exploitation de),D
 2510,2,Carrières (exploitation de),NC
 2510,,Exploitation de carrières,NC
 2515,1-b,"Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes",D
@@ -312,37 +312,37 @@ rubrique,alinea,description,regime
 2541,,"Agglomération de houille, minerai de fer, fabrication de graphite artificiel - Grillage ou frittage de minerai métallique",NC
 2545,,"Fabrication d'acier, fer, fonte, ferro-alliage",A
 2546,a,Supérieure à 2t/j,A
-2546,b,Supérieure à 100 kg/j mais inférieure ou égale à 2t/j,DC
+2546,b,Supérieure à 100 kg/j mais inférieure ou égale à 2t/j,D
 2546,,"Traitement industriel des minerais non ferreux, élaboration des métaux et alliages non ferreux",NC
 2547,,Fabrication de silico-alliages ou carbure de silicium,A
 2550,1,Fonderie (fabrication produits moulés) de plomb et alliages,A
-2550,2,Fonderie (fabrication produits moulés) de plomb et alliages,DC
+2550,2,Fonderie (fabrication produits moulés) de plomb et alliages,D
 2550,,Fonderie de produits moulés ... contenant du plomb,NC
 2551,1,Fonderie (fabrication produits moulés) métaux et alliages ferreux,A
-2551,2,Fonderie (fabrication produits moulés) métaux et alliages ferreux,DC
+2551,2,Fonderie (fabrication produits moulés) métaux et alliages ferreux,D
 2551,,Fonderie de métaux et alliages ferreux,NC
 2552,1,Fonderie (fabrication de produits moulés) métaux et alliages non ferreux,A
-2552,2,Fonderie (fabrication de produits moulés) métaux et alliages non ferreux,DC
+2552,2,Fonderie (fabrication de produits moulés) métaux et alliages non ferreux,D
 2552,,Fonderie de métaux et alliages non-ferreux,NC
-2560,2,"Supérieure à 150 kW, mais inférieure ou égale à 1 000 kW",DC
+2560,2,"Supérieure à 150 kW, mais inférieure ou égale à 1 000 kW",D
 2560,1,Supérieure à 1 000 kW,E
 2560,,Travail mécanique des métaux et alliages,NC
-2561,,"Trempé recuit, revenu des métaux et alliages",DC
+2561,,"Trempé recuit, revenu des métaux et alliages",D
 2562,1,Chauffage et traitement industriels par l’intermédiaire de bains de sels fondus ,A
-2562,2,Chauffage et traitement industriels par l’intermédiaire de bains de sels fondus ,DC
+2562,2,Chauffage et traitement industriels par l’intermédiaire de bains de sels fondus ,D
 2562,,Chauffage et traitement industriels par bains de sels fondus,NC
-2563,2,"Supérieure à 500 l, mais inférieure ou égale à 7500 l",DC
+2563,2,"Supérieure à 500 l, mais inférieure ou égale à 7500 l",D
 2563,1,Supérieure à 7500 l,E
 2563,,Nettoyage lessiviel,NC
-2564,1-b,"Supérieur à 20 l, mais inférieur ou égal à 1500 l ",DC
-2564,1-c,"Supérieur à 200 l, mais inférieur ou égal à 1500 l",DC
-2564,2,Procédés sous vide de plus de 200 l,DC
+2564,1-b,"Supérieur à 20 l, mais inférieur ou égal à 1500 l ",D
+2564,1-c,"Supérieur à 200 l, mais inférieur ou égal à 1500 l",D
+2564,2,Procédés sous vide de plus de 200 l,D
 2564,1-a,Supérieur à 1 500 l,E
 2564,1,"Hors procédé sous vide, volume des cuves",NC
 2564,,"Nettoyage, dégraissage, décapage de surfaces utilisant des liquides organohalogénés ou des solvants organiques",NC
-2565,2-b,Traitement de surface,DC
-2565,3,Traitement de surface en phase gazeuse,DC
-2565,4,Traitement de surface par vibro-abrasion,DC
+2565,2-b,Traitement de surface,D
+2565,3,Traitement de surface en phase gazeuse,D
+2565,4,Traitement de surface par vibro-abrasion,D
 2565,1-a,Cadmium,E
 2565,1-b,"Cyanures, volume des cuves supérieur à 200 l",E
 2565,2-a,Traitement de surface,E
@@ -351,19 +351,19 @@ rubrique,alinea,description,regime
 2565,,Traitement de surface,NC
 2566,1-a,Supérieure à 2000 l,A
 2566,2,"En absence de four, la puissance étant supérieure ou égale à 3000 W",A
-2566,1-b,"Supérieure à 500 l, mais inférieure ou égale à 2000 l",DC
+2566,1-b,"Supérieure à 500 l, mais inférieure ou égale à 2000 l",D
 2566,1,La capacité volumique du four,NC
 2566,,Décapage des métaux par traitement thermique,NC
 2567,1-a,Supérieur à 1000 l,A
 2567,2-a,Supérieure à 200 kg/jour,A
-2567,1-b,"Supérieur à 100 l, mais inférieur ou égal à 1000 l",DC
-2567,2-b,Supérieure à 20 kg/jour mais inférieure ou égale à 200 kg/jour,DC
+2567,1-b,"Supérieur à 100 l, mais inférieur ou égal à 1000 l",D
+2567,2-b,Supérieure à 20 kg/jour mais inférieure ou égale à 200 kg/jour,D
 2567,1,"Procédés par immersion dans métal fondu, le volume des cuves ",NC
 2567,2,"Galvanisation, étamage de métaux ou revêtement métallique d’un matériau ",NC
 2567,,"Galvanisation, étamage de métaux",NC
 2570,1-a,Email,A
-2570,1-b,Email,DC
-2570,2,Email,DC
+2570,1-b,Email,D
+2570,2,Email,D
 2570,1,Email,NC
 2570,,Email,NC
 2575,,Emploi de matières abrasives,D
@@ -407,13 +407,13 @@ rubrique,alinea,description,regime
 2690,1,Produits opothérapiques (préparation de),D
 2690,,Préparations de produits opothérapiques,NC
 2710,1-a,collecte de déchets dangereux-A,A
-2710,1-b,collecte de déchets dangereux-DC,DC
-2710,2-b,collecte de déchets non dangereux-DC,DC
+2710,1-b,collecte de déchets dangereux-DC,D
+2710,2-b,collecte de déchets non dangereux-DC,D
 2710,2-a,collecte de déchets non dangereux-E,E
 2710,1,Installations de collecte de déchets,NC
 2710,2,Installations de collecte de déchets,NC
 2710,,Collecte de déchets apportés par le producteur initial,NC
-2711,2,"Transit, regroupement, tri, ...équipements électriques mis au rebut",DC
+2711,2,"Transit, regroupement, tri, ...équipements électriques mis au rebut",D
 2711,1,"Transit, regroupement, tri, ...équipements électriques mis au rebut",E
 2711,,"Transit, regroupement ou tri de déchets d’équipements électriques et électroniques",NC
 2712,2,"Stockage, dépollution, démontage,… de VHU",A
@@ -429,11 +429,11 @@ rubrique,alinea,description,regime
 2714,1,"déchets non dangereux de papiers, plastiques, bois,… (transit) hors 2710,2711 et 2719",E
 2714,,"Transit, regroupement ou tri de déchets non dangereux de papiers/cartons, plastiques, caoutchouc, textiles, bois",NC
 2715,,"Transit, regroupement ou tri de déchets non dangereux de verre",D
-2716,2,déchets non dangereux non inertes (transit),DC
+2716,2,déchets non dangereux non inertes (transit),D
 2716,1,déchets non dangereux non inertes (transit),E
 2716,,"Transit, regroupement ou tri de déchets non dangereux non inertes",NC
 2718,1,Déchets dangereux ou contenant des substances ou préparations dangereuses (transit ou tri),A
-2718,2,Déchets dangereux ou contenant des substances ou préparations dangereuses (transit ou tri),DC
+2718,2,Déchets dangereux ou contenant des substances ou préparations dangereuses (transit ou tri),D
 2718,,"Transit, regroupement ou tri de déchet dangereux",NC
 2719,,Installation temporaire de transit de déchets issus de pollutions accidentelles marines ou fluviales ou de catastrophes naturelles,D
 2720,1,"Déchets de l'extraction, ,,, de ressources minérales (stockage)",A
@@ -470,7 +470,7 @@ rubrique,alinea,description,regime
 2780,,Compostage de déchets non dangereux ou matière végétale,NC
 2781,1-a,Installations de méthanisation de déchets non dangereux,A
 2781,2-a,Installations de méthanisation de déchets non dangereux,A
-2781,1-c,Installations de méthanisation de déchets non dangereux,DC
+2781,1-c,Installations de méthanisation de déchets non dangereux,D
 2781,1-b,Installations de méthanisation de déchets non dangereux,E
 2781,2-b,Installations de méthanisation de déchets non dangereux,E
 2781,1,Installations de méthanisation de déchets non dangereux,NC
@@ -479,11 +479,11 @@ rubrique,alinea,description,regime
 2782,,Autres traitements biologiques de déchets non dangereux,A
 2790,,Traitement de déchets dangereux,A
 2791,1,Déchets non dangereux (traitement),A
-2791,2,Déchets non dangereux (traitement),DC
+2791,2,Déchets non dangereux (traitement),D
 2791,,Traitement de déchets non dangereux,NC
 2792,1-a,"Déchets PCB/PCT (transit, tri, regroupement)",A
 2792,2,Déchets PCB/PCT (traitement),A
-2792,1-b,"Déchets PCB/PCT (transit, tri, regroupement)",DC
+2792,1-b,"Déchets PCB/PCT (transit, tri, regroupement)",D
 2792,1,"Déchets PCB/PCT (transit, tri, regroupement)",NC
 2792,NOTA,Déchets PCB/PCT,NC
 2792,,Traitement de déchets contenant des PCB,NC
@@ -491,9 +491,9 @@ rubrique,alinea,description,regime
 2793,2-a,Supérieure ou égale à 100 kg,A
 2793,3-b,Dans les autres cas,A
 2793,3-a,Installation de destruction,D
-2793,1-b,Supérieure à 30 kg mais inférieure à 100 kg lorsque seuls des déchets relevant des divisions de risque 1.3 et 1.4 sont stockés dans l'installation,DC
-2793,1-c,Inférieure à 100 kg dans les autres cas,DC
-2793,2-b,Inférieure à 100 kg,DC
+2793,1-b,Supérieure à 30 kg mais inférieure à 100 kg lorsque seuls des déchets relevant des divisions de risque 1.3 et 1.4 sont stockés dans l'installation,D
+2793,1-c,Inférieure à 100 kg dans les autres cas,D
+2793,2-b,Inférieure à 100 kg,D
 2793,1,Collecte de déchets de produits explosifs,NC
 2793,2,"Transit, regroupement ou tri de déchets de produits explosifs",NC
 2793,3,Autre installation de traitement de déchets de produits explosifs,NC
@@ -503,7 +503,7 @@ rubrique,alinea,description,regime
 2794,1,Broyage de déchets verts,E
 2794,,Broyage de déchets verts,NC
 2795,1,"Lavage de fûts, conteneurs,... de substances ou mélanges ou de déchets dangereux",A
-2795,2,"Lavage de fûts, conteneurs,... de substances ou mélanges ou de déchets dangereux",DC
+2795,2,"Lavage de fûts, conteneurs,... de substances ou mélanges ou de déchets dangereux",D
 2795,,"Lavage de fûts, conteneurs et citernes de transport de matières alimentaires, de matières dangereuses ou de déchets dangereux",NC
 2797,1,Gestion des déchets radioactifs,A
 2797,2,Stockage des déchets radioactifs,A
@@ -511,7 +511,7 @@ rubrique,alinea,description,regime
 2797,,Gestion des déchets radioactifs,NC
 2798,,Installation temporaire de transit de déchets radioactifs,D
 2910,B-2,Combustion,A
-2910,A-2,Combustion,DC
+2910,A-2,Combustion,D
 2910,A-1,Combustion,E
 2910,B-1,Combustion,E
 2910,A,Combustion,NC
@@ -523,15 +523,15 @@ rubrique,alinea,description,regime
 2915,1-a,Chauffage (procédé de) fluide caloporteur organique combustible,E
 2915,1,Chauffage (procédé de) fluide caloporteur organique combustible,NC
 2915,,Procédés de chauffage,NC
-2921,b,La puissance thermique évacuée maximale étant inférieure à 3 000 kW,DC
+2921,b,La puissance thermique évacuée maximale étant inférieure à 3 000 kW,D
 2921,a,La puissance thermique évacuée maximale étant supérieure ou égale à 3000 kW,E
 2921,,Refroidissement évaporatif par dispersion d’eau dans un flux d’air,NC
 2925,1,Charge d'accumulateurs dégageant de l'hydrogène,D
 2925,2,Charge d'accumulateurs ne dégageant pas d''hydrogène,D
 2925,NOTA,,NC
 2925,,Charge d'accumulateurs,NC
-2930,1-b,Ateliers de réparation et entretien de véhicules à moteur,DC
-2930,2-b,Ateliers de réparation et entretien de véhicules à moteur,DC
+2930,1-b,Ateliers de réparation et entretien de véhicules à moteur,D
+2930,2-b,Ateliers de réparation et entretien de véhicules à moteur,D
 2930,1-a,Ateliers de réparation et entretien de véhicules à moteur,E
 2930,2-a,Ateliers de réparation et entretien de véhicules à moteur,E
 2930,1,Ateliers de réparation et entretien de véhicules à moteur,NC
@@ -541,9 +541,9 @@ rubrique,alinea,description,regime
 2931,2,Ateliers d’essais sur banc de moteurs de poussée > à 1.5 kN,A
 2931,Nota,,NC
 2931,,Ateliers d’essais sur banc de moteurs,NC
-2940,1-b,"Vernis, peinture, colle, ... (application, cuisson, séchage)",DC
-2940,2-b,"Vernis, peinture, colle, ... (application, cuisson, séchage)",DC
-2940,3-b,"Vernis, peinture, colle, ... (application, cuisson, séchage)",DC
+2940,1-b,"Vernis, peinture, colle, ... (application, cuisson, séchage)",D
+2940,2-b,"Vernis, peinture, colle, ... (application, cuisson, séchage)",D
+2940,3-b,"Vernis, peinture, colle, ... (application, cuisson, séchage)",D
 2940,1-a,"Vernis, peinture, colle, ... (application, cuisson, séchage)",E
 2940,2-a,"Vernis, peinture, colle, ... (application, cuisson, séchage)",E
 2940,3-a,"Vernis, peinture, colle, ... (application, cuisson, séchage)",E
@@ -554,8 +554,8 @@ rubrique,alinea,description,regime
 2940,,"Application, cuisson, séchage de vernis, peinture, apprêt, colle, enduit, etc.",NC
 2950,1-a,Traitement et développement des surfaces photosensibles,A
 2950,2-a,Traitement et développement des surfaces photosensibles,A
-2950,1-b,Traitement et développement des surfaces photosensibles,DC
-2950,2-b,Traitement et développement des surfaces photosensibles,DC
+2950,1-b,Traitement et développement des surfaces photosensibles,D
+2950,2-b,Traitement et développement des surfaces photosensibles,D
 2950,1,Traitement et développement des surfaces photosensibles,NC
 2950,2,Traitement et développement des surfaces photosensibles,NC
 2950,,Traitement et développement des surfaces photosensibles,NC
@@ -671,9 +671,9 @@ rubrique,alinea,description,regime
 4110,1-a,Toxicité aiguë catégorie 1,A
 4110,2-a,Toxicité aiguë catégorie 1,A
 4110,3-a,Toxicité aiguë catégorie 1,A
-4110,1-b,Toxicité aiguë catégorie 1,DC
-4110,2-b,Toxicité aiguë catégorie 1,DC
-4110,3-b,Toxicité aiguë catégorie 1,DC
+4110,1-b,Toxicité aiguë catégorie 1,D
+4110,2-b,Toxicité aiguë catégorie 1,D
+4110,3-b,Toxicité aiguë catégorie 1,D
 4110,1,Toxicité aiguë catégorie 1,NC
 4110,2,Toxicité aiguë catégorie 1,NC
 4110,3,Toxicité aiguë catégorie 1,NC
@@ -714,14 +714,14 @@ rubrique,alinea,description,regime
 4210,1-a,"Produits explosifs (fabrication, chargement, encartouchage, conditionnement...)",A
 4210,2-a,"Produits explosifs (fabrication, chargement, encartouchage, conditionnement...)",A
 4210,2-b,"Produits explosifs (fabrication, chargement, encartouchage, conditionnement...)",D
-4210,1-b,"Produits explosifs (fabrication, chargement, encartouchage, conditionnement...)",DC
+4210,1-b,"Produits explosifs (fabrication, chargement, encartouchage, conditionnement...)",D
 4210,1,"Produits explosifs (fabrication, chargement, encartouchage, conditionnement...)",NC
 4210,2,"Produits explosifs (fabrication, chargement, encartouchage, conditionnement...)",NC
 4210,Nota,"Produits explosifs (fabrication, chargement, encartouchage, conditionnement...)",NC
 4210,,Produits explosifs,NC
 4220,1,Produits explosifs (stockage de),A
-4220,3,Produits explosifs (stockage de),DC
-4220,4,Produits explosifs (stockage de),DC
+4220,3,Produits explosifs (stockage de),D
+4220,4,Produits explosifs (stockage de),D
 4220,2,Produits explosifs (stockage de),E
 4220,Nota,Produits explosifs (stockage de),NC
 4220,,Produits explosifs (stockage de),NC
@@ -729,7 +729,7 @@ rubrique,alinea,description,regime
 4240,2,"Produits explosibles, à l'exclusion des produits explosifs",A
 4240,,Produits explosibles,NC
 4310,1,Gaz inflammables catégorie 1 et 2,A
-4310,2,Gaz inflammables catégorie 1 et 2,DC
+4310,2,Gaz inflammables catégorie 1 et 2,D
 4310,,Gaz inflammables catégorie 1 et 2.,NC
 4320,1,Aérosols extrêmement inflammables ou inflammables de catégorie 1 ou 2,A
 4320,2,Aérosols extrêmement inflammables ou inflammables de catégorie 1 ou 2,D
@@ -740,10 +740,10 @@ rubrique,alinea,description,regime
 4321,Nota,Aérosols extrêmement inflammables ou inflammables de catégorie 1 ou 2,NC
 4321,,Aérosols extrêmement inflammables ou inflammables,NC
 4330,1,Liquides inflammables de catégorie 1,A
-4330,2,Liquides inflammables de catégorie 1,DC
+4330,2,Liquides inflammables de catégorie 1,D
 4330,,Liquides inflammables de catégorie 1,NC
 4331,1,Liquides inflammables de catégorie 2 ou catégorie 3,A
-4331,3,Liquides inflammables de catégorie 2 ou catégorie 3,DC
+4331,3,Liquides inflammables de catégorie 2 ou catégorie 3,D
 4331,2,Liquides inflammables de catégorie 2 ou catégorie 3,E
 4331,,Liquides inflammables de catégorie 2 ou catégorie 3,NC
 4410,1,Substances et mélanges autoréactifs type A ou type B,A
@@ -773,13 +773,13 @@ rubrique,alinea,description,regime
 4442,2,Gaz comburants catégorie 1,D
 4442,,Gaz comburants catégorie 1.,NC
 4510,1,Dangereux pour l'environnement aquatique de catégorie aiguë 1 ou chronique 1,A
-4510,2,Dangereux pour l'environnement aquatique de catégorie aiguë 1 ou chronique 1,DC
+4510,2,Dangereux pour l'environnement aquatique de catégorie aiguë 1 ou chronique 1,D
 4510,,Dangereux pour l’environnement aquatique 1,NC
 4511,1,Dangereux pour l'environnement aquatique de catégorie chronique 2,A
-4511,2,Dangereux pour l'environnement aquatique de catégorie chronique 2,DC
+4511,2,Dangereux pour l'environnement aquatique de catégorie chronique 2,D
 4511,,Dangereux pour l’environnement aquatique 2,NC
 4610,1,Substances ou mélanges auxquels est attribuée la mention de danger EUH014,A
-4610,2,Substances ou mélanges auxquels est attribuée la mention de danger EUH014,DC
+4610,2,Substances ou mélanges auxquels est attribuée la mention de danger EUH014,D
 4610,,Substances ou mélanges auxquels est attribuée la mention de danger EUH014,NC
 4620,1,"Substances et mélanges qui, au contact de l'eau, dégagent des gaz inflammables, catégorie 1",A
 4620,2,"Substances et mélanges qui, au contact de l'eau, dégagent des gaz inflammables, catégorie 1",D
@@ -789,15 +789,15 @@ rubrique,alinea,description,regime
 4630,,Substances ou mélanges auxquels est attribuée la mention de danger EUH029,NC
 4701,1-a,Nitrate d'ammonium,A
 4701,2-a,Nitrate d'ammonium,A
-4701,1-b,Nitrate d'ammonium,DC
-4701,2-b,Nitrate d'ammonium,DC
+4701,1-b,Nitrate d'ammonium,D
+4701,2-b,Nitrate d'ammonium,D
 4701,1,Nitrate d'ammonium,NC
 4701,2,Nitrate d'ammonium,NC
 4701,,Nitrate d’ammonium.,NC
 4702,IIIIIIa,Engrais solides,A
-4702,IIIIIIb,Engrais solides,DC
-4702,IIIIIIc,Engrais solides,DC
-4702,IV,Engrais solides,DC
+4702,IIIIIIb,Engrais solides,D
+4702,IIIIIIc,Engrais solides,D
+4702,IV,Engrais solides,D
 4702,IIIIII,Engrais solides,NC
 4702,Nota,Engrais solides,NC
 4702,,Engrais solides simples et composés à base de nitrate d'ammonium,NC
@@ -816,7 +816,7 @@ rubrique,alinea,description,regime
 4709,2,Brome (numéro CAS 7726-95-6),D
 4709,,Brome (numéro CAS 7726-95-6),NC
 4710,1,Chlore (numéro CAS 7782-50-5),A
-4710,2,Chlore (numéro CAS 7782-50-5),DC
+4710,2,Chlore (numéro CAS 7782-50-5),D
 4710,,Chlore (numéro CAS 7782-50-5),NC
 4711,1,Composés de nickel sous forme pulvérulente inhalable,A
 4711,2,Composés de nickel sous forme pulvérulente inhalable,D
@@ -826,7 +826,7 @@ rubrique,alinea,description,regime
 4713,2,Fluor (numéro CAS 7782-41-4),D
 4713,,Fluor (numéro CAS 7782-41-4),NC
 4714,1,Formaldéhyde (concentration > 90 %) (numéro CAS 50-00-0),A
-4714,2,Formaldéhyde (concentration > 90 %) (numéro CAS 50-00-0),DC
+4714,2,Formaldéhyde (concentration > 90 %) (numéro CAS 50-00-0),D
 4714,,Formaldéhyde (concentration > 90 %) (numéro CAS 50-00-0),NC
 4715,1,Hydrogène (numéro CAS 133-74-0),A
 4715,2,Hydrogène (numéro CAS 133-74-0),D
@@ -839,8 +839,8 @@ rubrique,alinea,description,regime
 4717,,Plombs alkyls,NC
 4718,1-a,Supérieure ou égale à 35 t,A
 4718,2-a,Supérieure ou égale à 50 t,A
-4718,1-b,Supérieure ou égale à 6 t mais inférieure à 35 t,DC
-4718,2-b,Supérieure ou égale à 6 t mais inférieure à 50 t,DC
+4718,1-b,Supérieure ou égale à 6 t mais inférieure à 35 t,D
+4718,2-b,Supérieure ou égale à 6 t mais inférieure à 50 t,D
 4718,1,Pour le stockage en récipients à pression transportables :,NC
 4718,2,Pour les autres installations :,NC
 4718,NOTA,nota,NC
@@ -892,8 +892,8 @@ rubrique,alinea,description,regime
 4733,,Cancérogènes spécifiques ou les mélanges contenant les cancérogènes,NC
 4734,1-a,Produits pétroliers spécifiques et carburants de substitution,A
 4734,2-a,Produits pétroliers spécifiques et carburants de substitution,A
-4734,1-c,Produits pétroliers spécifiques et carburants de substitution,DC
-4734,2-c,Produits pétroliers spécifiques et carburants de substitution,DC
+4734,1-c,Produits pétroliers spécifiques et carburants de substitution,D
+4734,2-c,Produits pétroliers spécifiques et carburants de substitution,D
 4734,1-b,Produits pétroliers spécifiques et carburants de substitution,E
 4734,2-b,Produits pétroliers spécifiques et carburants de substitution,E
 4734,1,Produits pétroliers spécifiques et carburants de substitution,NC
@@ -901,28 +901,28 @@ rubrique,alinea,description,regime
 4734,,Produits pétroliers spécifiques et carburants de substitution,NC
 4735,1-a,Ammoniac,A
 4735,2-a,Ammoniac,A
-4735,1-b,Ammoniac,DC
-4735,2-b,Ammoniac,DC
+4735,1-b,Ammoniac,D
+4735,2-b,Ammoniac,D
 4735,1,Ammoniac,NC
 4735,2,Ammoniac,NC
 4735,,Ammoniac,NC
 4736,1,Trifluorure de bore (numéro CAS 7637-07-2),A
-4736,2,Trifluorure de bore (numéro CAS 7637-07-2),DC
+4736,2,Trifluorure de bore (numéro CAS 7637-07-2),D
 4736,,Trifluorure de bore (numéro CAS 7637-07-2),NC
 4737,1,Sulfure d'hydrogène (numéro CAS 7783-06-4),A
 4737,2,Sulfure d'hydrogène (numéro CAS 7783-06-4),D
 4737,,Sulfure d'hydrogène (numéro CAS 7783-06-4),NC
 4738,1,Pipéridine (numéro CAS 110-89-4),A
-4738,2,Pipéridine (numéro CAS 110-89-4),DC
+4738,2,Pipéridine (numéro CAS 110-89-4),D
 4738,,Pipéridine (numéro CAS 110-89-4),NC
 4739,1,Bis (2-dimethylaminoéthyl) (méthyl) amine (numéro CAS 3030-47-5),A
-4739,2,Bis (2-dimethylaminoéthyl) (méthyl) amine (numéro CAS 3030-47-5),DC
+4739,2,Bis (2-dimethylaminoéthyl) (méthyl) amine (numéro CAS 3030-47-5),D
 4739,,Bis (2-dimethylaminoéthyl) (méthyl) amine (numéro CAS 3030-47-5),NC
 4740,1,3-(2-Ethylhexyloxy) propylamine (numéro CAS 5397-31-9),A
-4740,2,3-(2-Ethylhexyloxy) propylamine (numéro CAS 5397-31-9),DC
+4740,2,3-(2-Ethylhexyloxy) propylamine (numéro CAS 5397-31-9),D
 4740,,3-(2-Ethylhexyloxy) propylamine (numéro CAS 5397-31-9),NC
 4741,1,Mélanges d'hypochlorite de sodium classés dans la catégorie de toxicité aquatique aiguë 1,A
-4741,2,Mélanges d'hypochlorite de sodium classés dans la catégorie de toxicité aquatique aiguë 1,DC
+4741,2,Mélanges d'hypochlorite de sodium classés dans la catégorie de toxicité aquatique aiguë 1,D
 4741,,Mélanges d'hypochlorite de sodium classés dans la catégorie de toxicité aquatique aiguë 1,NC
 4742,1,Propylamine (numéro CAS 107-10-8),A
 4742,2,Propylamine (numéro CAS 107-10-8),D
@@ -934,7 +934,7 @@ rubrique,alinea,description,regime
 4744,2,2-méthyl-3-butènenitrile (numéro CAS 16529-56-9),D
 4744,,2-méthyl-3-butènenitrile (numéro CAS 16529-56-9),NC
 4745,1,"Tétrahydro-3,5-diméthyl-1,3,5, thiadiazine-2-thione (dazomet) (numéro CAS 533-74-4)",A
-4745,2,"Tétrahydro-3,5-diméthyl-1,3,5, thiadiazine-2-thione (dazomet) (numéro CAS 533-74-4)",DC
+4745,2,"Tétrahydro-3,5-diméthyl-1,3,5, thiadiazine-2-thione (dazomet) (numéro CAS 533-74-4)",D
 4745,,"Tétrahydro-3,5-diméthyl-1,3,5, thiadiazine-2-thione (dazomet) (numéro CAS 533-74-4)",NC
 4746,1,Acrylate de méthyle (numéro CAS 96-33-3),A
 4746,2,Acrylate de méthyle (numéro CAS 96-33-3),D
@@ -948,7 +948,7 @@ rubrique,alinea,description,regime
 4749,,Perchlorate d'ammonium (numéro CAS 7790-98-9),A
 4755,1,Alcools de bouche d'origine agricole et leurs constituants (inflammables),A
 4755,2-a,Alcools de bouche d'origine agricole et leurs constituants (inflammables),A
-4755,2-b,Alcools de bouche d'origine agricole et leurs constituants (inflammables),DC
+4755,2-b,Alcools de bouche d'origine agricole et leurs constituants (inflammables),D
 4755,2,Alcools de bouche d'origine agricole et leurs constituants (inflammables),NC
 4755,,Alcools de bouche d'origine agricole et leurs constituants (inflammables),NC
 4801,1,"Houille, coke, lignite, charbon de bois, goudron, asphalte, brais et matières bitumineuses",A

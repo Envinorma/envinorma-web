@@ -2,13 +2,13 @@
 
 class ArretesController < ApplicationController
   include TopicHelper
-  include FilterAMs
+  include Parametrization::Parameters
   include FicheInspectionHelper
   before_action :set_installation
 
   def index
     @url_am_ids, @url_ap_ids = url_ids
-    @ams = (params['am_ids'].presence || []).map { |am_id| AM.find(am_id) }
+    @ams = prepare_ams((params['am_ids'].presence || []).map { |am_id| AM.find(am_id) }, @installation.classements)
     @aps = (params['ap_ids'].presence || []).map { |ap_id| AP.find(ap_id) }
     @prescription = Prescription.new
     @alinea_ids = @user.prescription_alinea_ids(@installation)
@@ -27,9 +27,9 @@ class ArretesController < ApplicationController
   private
 
   def url_ids
-    # -1 is there to avoid default behavior of checking all arretes
-    url_am_ids = params['am_ids'].presence || [-1]
-    url_ap_ids = params['ap_ids'].presence || [-1]
+    # 'empty' is there to avoid default behavior of checking all arretes
+    url_am_ids = params['am_ids'].presence || ['empty']
+    url_ap_ids = params['ap_ids'].presence || ['empty']
     [url_am_ids, url_ap_ids]
   end
 

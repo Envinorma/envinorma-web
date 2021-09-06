@@ -2,7 +2,6 @@
 
 class InstallationsController < ApplicationController
   include FilterAMs
-  include RegimeHelper
   before_action :force_json, only: :search
   before_action :set_installation, only: %i[show edit edit_name update destroy]
   before_action :user_can_modify_installation, only: %i[edit edit_name update destroy]
@@ -15,11 +14,9 @@ class InstallationsController < ApplicationController
   def show
     @aps = @installation.retrieve_aps
 
-    @classements = @installation.classements.sort_by do |classement|
-      classement.regime.present? ? REGIMES[classement.regime.to_sym] : REGIMES[:empty]
-    end
+    @classements = @installation.classements.sort_by(&:regime_score)
 
-    @ams_with_applicabilities = compute_applicable_ams_list(@classements)
+    @ams = compute_applicable_ams_list(@classements)
     @transversal_ams = AM.where(is_transverse: true)
 
     @url_am_ids = params.key?('am_ids') ? Set.new(params['am_ids'].map(&:to_i)) : nil

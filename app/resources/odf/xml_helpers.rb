@@ -21,7 +21,7 @@ module Odf
 
     def replace_in_xml(xml, placeholder, value, sanitize)
       txt = xml.inner_html
-      txt.gsub!(placeholder, sanitize ? sanitize(value) : value)
+      txt.gsub!(placeholder, sanitize ? sanitize_odt_xml(value) : value)
       xml.inner_html = txt
     end
 

@@ -1,0 +1,151 @@
+{
+    "applicability": {
+        "active": true,
+        "modified": false,
+        "previous_version": null,
+        "warnings": []
+    },
+    "outer_alineas": [
+        {
+            "active": true,
+            "table": null,
+            "text": "Alinea principal"
+        }
+    ],
+    "parametrization": {
+        "potential_inapplicabilities": [
+            {
+                "condition": {
+                    "type": "LITTLER",
+                    "parameter": {
+                        "id": "date-d-enregistrement",
+                        "type": "DATE"
+                    },
+                    "target": "2020-01-01",
+                    "strict": true
+                },
+                "target_alineas": null
+            },
+            {
+                "condition": {
+                    "type": "LITTLER",
+                    "parameter": {
+                        "id": "date-d-installation",
+                        "type": "DATE"
+                    },
+                    "target": "2020-01-02",
+                    "strict": true
+                },
+                "target_alineas": null
+            }
+        ],
+        "potential_modifications": [],
+        "warnings": [
+            "Cette section n'est pas applicable si l'exploitant n'en fait pas la demande."
+        ]
+    },
+    "sections": [
+        {
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "outer_alineas": [
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "Alinea 1 sous-section 1."
+                },
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "Alinea 2 sous-section 1."
+                }
+            ],
+            "parametrization": {
+                "potential_inapplicabilities": [
+                    {
+                        "condition": {
+                            "type": "GREATER",
+                            "parameter": {
+                                "id": "date-d-enregistrement",
+                                "type": "DATE"
+                            },
+                            "target": "2021-01-01",
+                            "strict": false
+                        },
+                        "target_alineas": [
+                            0
+                        ]
+                    }
+                ],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "Art. 1",
+            "sections": [],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Article 1"
+            }
+        },
+        {
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "outer_alineas": [
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "Alinea 1 sous-section 2."
+                },
+                {
+                    "active": true,
+                    "table": null,
+                    "text": "Alinea 2 sous-section 2."
+                }
+            ],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [
+                    {
+                        "condition": {
+                            "type": "EQUAL",
+                            "parameter": {
+                                "id": "regime",
+                                "type": "REGIME"
+                            },
+                            "target": "E"
+                        },
+                        "new_version": {
+                            "title": {
+                                "text": "Nouveau titre"
+                            },
+                            "sections": [],
+                            "outer_alineas": []
+                        }
+                    }
+                ],
+                "warnings": []
+            },
+            "reference_str": "Art. 2",
+            "sections": [],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Article 2"
+            }
+        }
+    ],
+    "title": {
+        "active": true,
+        "table": null,
+        "text": "Chapitre Ier : Dispositions générales"
+    }
+}

@@ -2,13 +2,11 @@
 
 class AM < ApplicationRecord
   include ApplicationHelper
-  include RegimeHelper
   include TopicHelper
 
-  validates :data, :title, :cid, :aida_url, :legifrance_url, :date_of_signature, :version_descriptor, presence: true
+  validates :data, :title, :cid, :aida_url, :legifrance_url, :date_of_signature, presence: true
   validates :title, length: { minimum: 10 }
 
-  validates :default_version, inclusion: { in: [true, false] }
   validates :is_transverse, inclusion: { in: [true, false] }
   validates :cid, format: { with: /\A(JORF|LEGI)TEXT[0-9]{12}.*\z/ }
 
@@ -28,21 +26,9 @@ class AM < ApplicationRecord
     @classements_with_alineas ||= JSON.parse(super.to_json, object_class: OpenStruct)
   end
 
-  def version_descriptor
+  def applicability
     # Lazy argument, loaded once needed (and only once)
-    @version_descriptor ||= JSON.parse(super.to_json, object_class: OpenStruct)
-  end
-
-  def version_identifier
-    # string which identifies the version of the AM by combining cid and version_descriptor
-    aed_date_identifier = date_parameter_identifier(version_descriptor.aed_date)
-    date_de_mise_en_service_identifier = date_parameter_identifier(version_descriptor.date_de_mise_en_service)
-    "#{cid}-#{aed_date_identifier}-#{date_de_mise_en_service_identifier}"
-  end
-
-  def date_parameter_identifier(date_parameter)
-    [date_parameter.is_used_in_parametrization, date_parameter.left_value,
-     date_parameter.right_value, date_parameter.unknown_classement_date_version].join('-')
+    @applicability ||= JSON.parse(super.to_json, object_class: OpenStruct)
   end
 
   def short_title
@@ -58,21 +44,6 @@ class AM < ApplicationRecord
     topics
   end
 
-  def rank_score
-    [applicable_rank_score, regime_rank_score]
-  end
-
-  def applicable_rank_score
-    version_descriptor.applicable ? 0 : 1
-  end
-
-  def regime_rank_score
-    raise 'Expecting at least one classement' if classements_with_alineas.length.zero?
-
-    unique_regime = classements_with_alineas[0].regime
-    REGIMES[unique_regime]
-  end
-
   def to_hash
     {
       title: title,
@@ -82,10 +53,10 @@ class AM < ApplicationRecord
       aida_url: aida_url,
       legifrance_url: legifrance_url,
       date_of_signature: date_of_signature,
-      version_descriptor: self['version_descriptor'], # we want the initial value, not the one from the wrapper
-      data: self['data'], # identical to version_descriptor
-      classements_with_alineas: self['classements_with_alineas'], # identical to version_descriptor
-      default_version: default_version
+      # for fields below, we want the initial value, not the parsed one
+      data: self['data'],
+      classements_with_alineas: self['classements_with_alineas'],
+      applicability: self['applicability']
     }
   end
 
@@ -99,32 +70,43 @@ class AM < ApplicationRecord
         aida_url: am_hash['aida_url'],
         legifrance_url: am_hash['legifrance_url'],
         date_of_signature: am_hash['date_of_signature'].to_date,
-        version_descriptor: am_hash['version_descriptor'],
-        data: am_hash,
+        data: { 'sections' => am_hash['sections'] }, # only sections is used, parsing is faster this way
         classements_with_alineas: am_hash['classements_with_alineas'],
-        default_version: default_version?(am_hash['version_descriptor'])
+        applicability: am_hash['applicability']
       )
       raise "error validations #{am.cid} #{am.errors.full_messages}" unless am.validate
 
       am
     end
 
-    def default_version?(version_descriptor)
-      default1 = default_version_for_date?(version_descriptor['aed_date'])
-      default2 = default_version_for_date?(version_descriptor['date_de_mise_en_service'])
-      default1 && default2
+    def from_classements(classements, match_on_alineas)
+      # Fetch all AM ids that match the classements and return
+      # the map of AM ids to matching classements
+      # match_on_alineas: if true, we match on rubrique-regime-alineas, otherwise on rubrique-regime
+      all_ams = all.pluck(:id, :classements_with_alineas)
+      result = {}
+      classements.each do |classement|
+        all_ams.each do |id, am_classements|
+          am_classements.each do |am_classement|
+            next unless classements_match?(classement, am_classement, match_on_alineas)
+
+            result[id] = [] unless result.key?(id)
+            result[id].append(classement)
+          end
+        end
+      end
+      result
     end
 
-    def default_version_for_date?(date_descriptor)
-      raise 'Expecting non nil date_descriptor' if date_descriptor.nil?
+    def classements_match?(classement, am_classement, match_on_alineas)
+      match_rubrique = am_classement['rubrique'] == classement.rubrique
+      match_regime = am_classement['regime'] == classement.regime
+      match_alinea = match_on_alineas ? alineas_match?(classement.alinea, am_classement['alineas']) : true
+      match_rubrique && match_regime && match_alinea
+    end
 
-      %w[unknown_classement_date_version is_used_in_parametrization].each do |key|
-        raise "Expecting key #{key} in date_descriptor" unless date_descriptor.key?(key)
-      end
-
-      return true if date_descriptor['is_used_in_parametrization'] == false
-
-      date_descriptor['unknown_classement_date_version'] == true
+    def alineas_match?(classement_alinea, am_alineas)
+      am_alineas.blank? ? true : am_alineas.include?(classement_alinea)
     end
   end
 end

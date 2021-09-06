@@ -119,20 +119,23 @@
               li.tooltip-right.tooltip-warning data-tooltip=warnings
                 i.fas.fa-exclamation-triangle
 
-      - if @ams_with_applicabilities.empty?
+      - if @ams.empty?
         p.text-secondary Il n’y a pas d’arrêté ministériel associé aux classements de cette installation.
 
       - else
-        - @ams_with_applicabilities.each do |am, applicable, warnings|
-          - label_class = applicable ? 'active' : 'inactive'
-          - create_checkbox.call(am, applicable, label_class, warnings)
+        - @ams.each do |am|
+          ruby:
+            applicable = am.applicability.applicable
+            warnings = am.applicability.warnings
+            label_class = applicable ? 'active' : 'inactive'
+            create_checkbox.call(am, applicable, label_class, warnings)
 
       = link_to 'Voir les AM transverses', '#', class: 'icon-collapse icon-collapse-mini text-secondary',
         data: { toggle: 'collapse', target: '#transversal_ams' }
 
       .collapse.border-left.p-2 id='transversal_ams'
         - @transversal_ams.each do |am|
-          - warnings = am.version_descriptor.applicability_warnings
+          - warnings = am.applicability.warnings
           - create_checkbox.call(am, false, 'active', warnings)
 
     .col.mb-5
@@ -154,7 +157,7 @@
                   small.text-secondary
                     = " - #{ap.description}"
 
-  - display_class_name = @ams_with_applicabilities.any? || @aps.any? ? '' : 'd-none'
+  - display_class_name = @ams.any? || @aps.any? ? '' : 'd-none'
   = link_to "Voir les prescriptions pour générer une fiche d'inspection",
     arretes_path(@installation),
     data: { disable_with: "Voir les prescriptions pour générer une fiche d'inspection" },

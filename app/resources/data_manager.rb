@@ -4,7 +4,7 @@ ActiveRecord::Base.logger.level = 1
 
 class DataManager
   def self.seed_ams_and_associations
-    ams_files = Dir.glob(Rails.root.join('db/seeds/enriched_arretes/*.json'))
+    ams_files = Dir.glob(Rails.root.join('db/seeds/ams/*.json'))
     AMManager.validate_then_recreate(ams_files)
   end
 
@@ -35,7 +35,7 @@ class DataManager
     classement_references_file = File.join(seed_folder, 'classement_references.csv')
     delete_and_reset_primary_key(ClassementReference)
     CSV.foreach(classement_references_file, headers: true) do |row|
-      ClassementReference.create(
+      ClassementReference.create!(
         rubrique: row['rubrique'],
         regime: row['regime'],
         alinea: row['alinea'],
