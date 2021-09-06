@@ -11,6 +11,12 @@
       ul.nav
         - if @ams.any?
           em.text-secondary.small Arrêtés ministériels
+          = link_to '#', class: 'smaller text-secondary w-100 content_not_for_print',
+            onclick: 'window.print();return false;' do
+            i.fas.fa-print
+            '
+            |(imprimer)
+
           hr.mb-3
           - @ams.each do |am|
             - am_infos = am_infos(am, @installation)
