@@ -51,7 +51,7 @@ RSpec.describe 'test prescription selection in modified section', js: true do
     expect(all('.alineas_checkbox')[1][:name]).to eq 'prescription_checkbox_941cf0d1bA08_0'
 
     # We expect to have both Prescriptions in db after clicking both checkboxes
-    all('.alineas_checkbox')[1].click
+    execute_script("document.querySelectorAll('.alineas_checkbox')[1].click();")
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
     expect(page).to have_selector '.counter', text: '1'
     expect(Prescription.all.pluck(:alinea_id)).to eq ['941cf0d1bA08_0']
