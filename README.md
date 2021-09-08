@@ -4,10 +4,10 @@ Envinorma facilite la préparation des inspections en simplifiant l'accès à la
 
 Ce projet a été lancé dans le cadre du programme [EIG](https://entrepreneur-interet-general.etalab.gouv.fr/).
 
-Liens utiles :
+#### Liens utiles :
 - [la page du projet](https://entrepreneur-interet-general.etalab.gouv.fr/defis/2020/envinorma.html)
 - [la documentation technique](https://envinorma.github.io/)
-- [l'url de l'application](http://envinorma.herokuapp.com/).
+- [l'url de l'application](http://envinorma.herokuapp.com/)
 
 ![l'application envinorma.herokuapp.com](app/javascript/images/cover.png)
 
@@ -41,3 +41,19 @@ slim-lint app/views/ #linter slim
 ```
 
 > Pour mettre en place des "git hooks" afin de lancer ces tests à chaque push, exécuter `$ ./scripts/install-hooks.bash`
+
+## Déployer sur Heroku
+Installer la CLI heroku : https://devcenter.heroku.com/articles/heroku-cli
+
+S'identifier
+
+```
+heroku login
+```
+
+Se connecter avec le dépôt distant et déployer
+
+```
+git remote add heroku https://git.heroku.com/envinorma.git
+git push heroku master
+```
