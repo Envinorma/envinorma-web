@@ -1,0 +1,1614 @@
+{
+    "aida_url": "https://aida.ineris.fr/consultation_document/42632",
+    "applicability": {
+        "condition_of_inapplicability": null,
+        "warnings": []
+    },
+    "classements": [
+        {
+            "alinea": "3",
+            "regime": "D",
+            "rubrique": "2210",
+            "state": "ACTIVE"
+        }
+    ],
+    "classements_with_alineas": [
+        {
+            "alineas": [
+                "3"
+            ],
+            "regime": "D",
+            "rubrique": "2210"
+        }
+    ],
+    "date_of_signature": "2019-10-30",
+    "id": "JORFTEXT000039397758",
+    "is_transverse": false,
+    "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000039397758",
+    "nickname": null,
+    "sections": [
+        {
+            "annotations": {
+                "topic": "DISPOSITIONS_GENERALES"
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "BDBb48A1daa9",
+            "outer_alineas": [],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "",
+            "sections": [
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "BECbeeA3c195",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Les installations classées soumises à déclaration sous la rubrique n° 2210-3 de la nomenclature des installations classées sont soumises aux dispositions du présent arrêté."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Les dispositions sont également applicables aux installations classées soumises à déclaration incluses dans un établissement qui comporte au moins une installation soumise au régime de l'autorisation dès lors que ces installations ne sont pas régies par l'arrêté préfectoral d'autorisation."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Le présent arrêté s'applique aux installations déclarées à compter de la date d'entrée en vigueur du présent arrêté."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 1",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 1"
+                    }
+                },
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "969cd69E3BB1",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Le préfet peut, en application de l'article L. 512-10 du code de l'environnement et dans les conditions prévues à l'article R. 512-52 du code de l'environnement, adapter par arrêté préfectoral aux circonstances locales, installation par installation, les prescriptions du présent arrêté."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 2",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 2 - Aménagement"
+                    }
+                },
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "BbdB2fe5D207",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Au sens du présent arrêté, on entend par :"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "« Installation » : les dispositifs d'abattoirs mobiles dans lesquels se déroulent une partie ou l'ensemble des opérations de réception et d'abattage des animaux ainsi que de refroidissement et de conservation des viandes, y compris leurs annexes."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "« Annexes » : tout dispositif nécessaire à l'activité utilisé notamment pour :"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- l'entreposage des cadavres, sous-produits animaux et issues non destinés à la consommation humaine y compris des cuirs ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- l'entreposage des déjections (lisier, fumier, contenu de l'appareil digestif) ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- le stationnement des véhicules de transport des animaux et des viandes ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- le cas échéant le prétraitement des effluents ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- la manipulation, le conditionnement et, le cas échéant, la transformation des sous-produits animaux dont la destruction n'est pas réglementairement obligatoire."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "« Sous-produits animaux » : cadavres ou parties d'animaux, les produits d'origine animale ou d'autres produits obtenus à partir d'animaux, qui ne sont pas destinés à la consommation humaine, au sens de la définition du règlement CE 1069/2009 du Parlement européen et du Conseil du 21 octobre 2009."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "« Niveau d'une odeur ou concentration d'un mélange odorant » : conventionnellement, le facteur de dilution qu'il faut appliquer à un effluent pour qu'il ne soit plus ressenti comme odorant par 50 % des personnes constituant un échantillon de population."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "« Emergence » : la différence entre les niveaux de pression continus équivalents pondérés A du bruit ambiant (installation en fonctionnement) et du bruit résiduel (en l'absence du bruit généré par l'installation)."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "« Zones à émergence réglementée » :"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- l'intérieur des immeubles habités ou occupés par des tiers, existant à la date de la déclaration, et leurs parties extérieures éventuelles les plus proches (cour, jardin, terrasse) à l'exclusion de celles des immeubles implantés dans les zones destinées à recevoir des activités artisanales ou industrielles ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- les zones constructibles définies par des documents d'urbanisme opposables aux tiers et publiés à la date de la déclaration ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- l'intérieur des immeubles habités ou occupés par des tiers qui ont été implantés après la date de la déclaration dans les zones constructibles définies ci-dessus, et leurs parties extérieures éventuelles les plus proches (cour, jardin, terrasse), à l'exclusion de celles des immeubles implantés dans les zones destinées à recevoir des activités artisanales ou industrielles."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 3",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 3 - Définitions"
+                    }
+                },
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "a5bAb03A6f3a",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "L'installation est implantée, réalisée et exploitée conformément aux éléments joints à la déclaration, sous réserve du respect des prescriptions ci-dessous."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 4",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 4 - Conformité de l'installation à la déclaration"
+                    }
+                },
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "9EF5f953BFC7",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "L'exploitant établit et tient à jour un dossier comportant les documents suivants :"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- la preuve du dépôt de déclaration et les prescriptions générales ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- les arrêtés préfectoraux relatifs à l'installation concernée, pris en application de la législation relative aux installations classées pour la protection de l'environnement, s'il y en a."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Ce dossier est tenu à la disposition de l'inspection des installations classées."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 5",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 5 - Dossier installation classée"
+                    }
+                }
+            ],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Chapitre Ier : Dispositions générales"
+            }
+        },
+        {
+            "annotations": {
+                "topic": "IMPLANTATION_AMENAGEMENT"
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "B3BAaE2FeA3b",
+            "outer_alineas": [],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "",
+            "sections": [
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "C6d815adDCCc",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "L'installation est implantée à une distance minimale :"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- de 35 m des puits et forages, des sources, des aqueducs en écoulement libre, de toute installation souterraine ou semi-enterrée utilisée pour le stockage des eaux, que les eaux soient destinées à l'alimentation en eau potable ou à l'arrosage des cultures maraîchères, des rivages et des berges des cours d'eau ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- de 50 m des habitations et des locaux habituellement occupés par des tiers (les propriétaires des animaux élevés ne sont pas considérés comme des tiers) ; les installations relevant de la rubrique 2221 de la nomenclature des installations classées pour la protection de l'environnement ne sont pas concernées par cette distance ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- de 50 m des zones destinées à l'habitation par des documents d'urbanisme opposables aux tiers, des stades ou des terrains de camping agréés, des lieux publics de baignade, des plages."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 6",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 6 - Règles d'implantation"
+                    }
+                },
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "abBA37Dd42D1",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "L'exploitant tient à la disposition de l'inspection des installations classées les éléments justifiant que ses installations électriques sont réalisées, entretenues et vérifiées conformément aux règles en vigueur."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 7",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 7 - Installations électriques"
+                    }
+                }
+            ],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Chapitre II : Implantation - aménagement"
+            }
+        },
+        {
+            "annotations": {
+                "topic": "EXPLOITATION"
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "CfF2B3dB0F1e",
+            "outer_alineas": [],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "",
+            "sections": [
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "a9fc2FaAEA3A",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "L'exploitation se fait sous la surveillance, directe ou indirecte, d'une personne nommément désignée par l'exploitant et ayant une connaissance de la conduite de l'installation et des dangers et inconvénients des produits utilisés ou stockés dans l'installation."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 8",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 8 - Surveillance de l'exploitation"
+                    }
+                },
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "43Ce9fF66Faa",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "La présence dans l'installation de matières dangereuses ou combustibles est limitée aux nécessités de l'exploitation et n'excède pas 5 L par contenant et 100 L au total. Le liquide inflammable contenu dans le réservoir du véhicule tracteur et des groupes électrogènes éventuels n'est pas concerné."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "L'exploitant dispose des documents lui permettant de connaître la nature et les risques des produits dangereux présents dans l'installation, en particulier les fiches de données de sécurité. Il prend les dispositions nécessaires pour respecter les préconisations desdites fiches."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 9",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 9 - Gestion des produits"
+                    }
+                },
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "B304353C66a1",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Toutes les opérations d'abattage sont réalisées dans des installations étanches permettant la récupération intégrale de tous les sous-produits, effluents et déchets susceptibles d'être produits."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Le sol des aires de stockage ou de manipulation des matières dangereuses pour l'homme ou susceptibles de créer une pollution de l'eau ou du sol est étanche et équipé de façon à pouvoir recueillir les eaux de lavage et les matières répandues accidentellement."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 10",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 10 - Abattage"
+                    }
+                }
+            ],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Chapitre III : Exploitation"
+            }
+        },
+        {
+            "annotations": {
+                "topic": "RISQUES"
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "ABD6b9eDAc2b",
+            "outer_alineas": [],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "",
+            "sections": [
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "F2CA6Fb5a208",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "L'installation est équipée de moyens de lutte contre l'incendie appropriés aux risques notamment :"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- d'extincteurs répartis à l'intérieur de l'installation et les lieux présentant des risques spécifiques, à proximité des dégagements, bien visibles et facilement accessibles. Les agents d'extinction sont appropriés aux risques à combattre et compatibles avec les produits stockés ;"
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "- d'un moyen permettant d'alerter les services d'incendie et de secours."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Ces matériels sont maintenus en bon état et vérifiés au moins une fois par an."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Ces installations sont conçues, installées et entretenues régulièrement conformément aux référentiels reconnus."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 11",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 11 - Moyens de lutte contre l'incendie"
+                    }
+                }
+            ],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Chapitre IV : Risques"
+            }
+        },
+        {
+            "annotations": {
+                "topic": "EAU"
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "dCC4C5f87bbb",
+            "outer_alineas": [],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "",
+            "sections": [
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "AcA793ca8eAc",
+                    "outer_alineas": [],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 12",
+                    "sections": [
+                        {
+                            "annotations": {
+                                "topic": null
+                            },
+                            "applicability": {
+                                "active": true,
+                                "modified": false,
+                                "previous_version": null,
+                                "warnings": []
+                            },
+                            "id": "b3B8cebcbcA0",
+                            "outer_alineas": [
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "Les installations de prélèvement d'eau dans le milieu naturel sont munies de dispositifs de mesure totalisateurs de la quantité d'eau prélevée. La quantité d'eau prélevée est inférieure à 8 m3/h."
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "Le raccordement à une nappe d'eau ou au réseau public de distribution d'eau destiné à la consommation humaine est muni d'un dispositif de protection visant à prévenir d'éventuelles contaminations par le retour d'eau pouvant être polluée."
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "L'usage du réseau d'eau incendie est strictement réservé aux sinistres et aux exercices de secours, et aux opérations d'entretien ou de maintien hors gel de ce réseau."
+                                }
+                            ],
+                            "parametrization": {
+                                "potential_inapplicabilities": [],
+                                "potential_modifications": [],
+                                "warnings": []
+                            },
+                            "reference_str": "Art. 12 5.1.2.",
+                            "sections": [],
+                            "title": {
+                                "active": true,
+                                "table": null,
+                                "text": "5.1.2. Prélèvements"
+                            }
+                        }
+                    ],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 12 - Dispositions générales"
+                    }
+                },
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "FD2F0Db2829D",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Toutes dispositions sont prises pour limiter la consommation d'eau. La réfrigération des carcasses par immersion n'est pas autorisée dans l'installation."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 13",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 13 - Consommation"
+                    }
+                },
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "C10CABC6Af3E",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Tous les effluents générés par l'activité, ainsi que les eaux résultant du nettoyage des installations et des annexes sont collectés, confinés et éliminés à l'extérieur du site dans des installations appropriées."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 14",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 14 - Réseau de collecte"
+                    }
+                },
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "8eCaC6550CeF",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "La quantité d'effluents collectés est mesurée journellement ou à défaut, évaluée à partir d'un bilan matière sur l'eau, tenant compte notamment de la mesure des quantités d'eau prélevées dans le réseau de distribution publique ou dans le milieu naturel."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 15",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 15 - Mesure des volumes rejetés"
+                    }
+                },
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "4aCf5f5eFbec",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Les rejets directs ou indirects même après épuration des effluents industriels sont interdits sur le site."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 16",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 16 - Interdiction de rejets"
+                    }
+                }
+            ],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Chapitre V : Eau"
+            }
+        },
+        {
+            "annotations": {
+                "topic": "AIR_ODEURS"
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "9EaD7Ad12e31",
+            "outer_alineas": [],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "",
+            "sections": [
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "c3c67cE902f3",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Les installations susceptibles de dégager des fumées, gaz, poussières ou odeurs sont munies de dispositifs permettant de collecter à la source et canaliser autant que possible les émissions. Ces dispositifs, après épuration des gaz collectés en tant que de besoin, sont munis d'orifices obturables et accessibles aux fins de prélèvements en vue d'analyse ou de mesure."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "La dilution des effluents est interdite."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 17",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 17 - Captage et épuration des rejets à l'atmosphère"
+                    }
+                },
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "E2552C426e9a",
+                    "outer_alineas": [],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 18",
+                    "sections": [
+                        {
+                            "annotations": {
+                                "topic": null
+                            },
+                            "applicability": {
+                                "active": true,
+                                "modified": false,
+                                "previous_version": null,
+                                "warnings": []
+                            },
+                            "id": "7a46495fdc80",
+                            "outer_alineas": [
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "Les installations pouvant dégager des émissions d'odeurs sont aménagés dans des espaces confinés et si besoin ventilés."
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "Le débit d'odeur des gaz émis à l'atmosphère par l'ensemble des sources odorantes canalisées, canalisables et diffuses, ne dépasse pas les valeurs suivantes :"
+                                },
+                                {
+                                    "active": true,
+                                    "table": {
+                                        "rows": [
+                                            {
+                                                "cells": [
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\nHauteur d'émission (en m)"
+                                                        },
+                                                        "rowspan": 1
+                                                    },
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\nDébit d'odeur (en uoE /h)"
+                                                        },
+                                                        "rowspan": 1
+                                                    }
+                                                ],
+                                                "is_header": true,
+                                                "text_in_inspection_sheet": null
+                                            },
+                                            {
+                                                "cells": [
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n0"
+                                                        },
+                                                        "rowspan": 1
+                                                    },
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n1 x 106"
+                                                        },
+                                                        "rowspan": 1
+                                                    }
+                                                ],
+                                                "is_header": false,
+                                                "text_in_inspection_sheet": "Hauteur d'émission (en m)\n0\nDébit d'odeur (en uoE /h)\n1 x 106"
+                                            },
+                                            {
+                                                "cells": [
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n5"
+                                                        },
+                                                        "rowspan": 1
+                                                    },
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n3,6 x 106"
+                                                        },
+                                                        "rowspan": 1
+                                                    }
+                                                ],
+                                                "is_header": false,
+                                                "text_in_inspection_sheet": "Hauteur d'émission (en m)\n5\nDébit d'odeur (en uoE /h)\n3,6 x 106"
+                                            },
+                                            {
+                                                "cells": [
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n10"
+                                                        },
+                                                        "rowspan": 1
+                                                    },
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n21 x 106"
+                                                        },
+                                                        "rowspan": 1
+                                                    }
+                                                ],
+                                                "is_header": false,
+                                                "text_in_inspection_sheet": "Hauteur d'émission (en m)\n10\nDébit d'odeur (en uoE /h)\n21 x 106"
+                                            },
+                                            {
+                                                "cells": [
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n20"
+                                                        },
+                                                        "rowspan": 1
+                                                    },
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n180 x 106"
+                                                        },
+                                                        "rowspan": 1
+                                                    }
+                                                ],
+                                                "is_header": false,
+                                                "text_in_inspection_sheet": "Hauteur d'émission (en m)\n20\nDébit d'odeur (en uoE /h)\n180 x 106"
+                                            },
+                                            {
+                                                "cells": [
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n30"
+                                                        },
+                                                        "rowspan": 1
+                                                    },
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n720 x 106"
+                                                        },
+                                                        "rowspan": 1
+                                                    }
+                                                ],
+                                                "is_header": false,
+                                                "text_in_inspection_sheet": "Hauteur d'émission (en m)\n30\nDébit d'odeur (en uoE /h)\n720 x 106"
+                                            },
+                                            {
+                                                "cells": [
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n50"
+                                                        },
+                                                        "rowspan": 1
+                                                    },
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n3 600 x 106"
+                                                        },
+                                                        "rowspan": 1
+                                                    }
+                                                ],
+                                                "is_header": false,
+                                                "text_in_inspection_sheet": "Hauteur d'émission (en m)\n50\nDébit d'odeur (en uoE /h)\n3 600 x 106"
+                                            },
+                                            {
+                                                "cells": [
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n80"
+                                                        },
+                                                        "rowspan": 1
+                                                    },
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n18 000 x 106"
+                                                        },
+                                                        "rowspan": 1
+                                                    }
+                                                ],
+                                                "is_header": false,
+                                                "text_in_inspection_sheet": "Hauteur d'émission (en m)\n80\nDébit d'odeur (en uoE /h)\n18 000 x 106"
+                                            },
+                                            {
+                                                "cells": [
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n100"
+                                                        },
+                                                        "rowspan": 1
+                                                    },
+                                                    {
+                                                        "colspan": 1,
+                                                        "content": {
+                                                            "active": true,
+                                                            "links": [],
+                                                            "table": null,
+                                                            "text": "\n36 000 x 106"
+                                                        },
+                                                        "rowspan": 1
+                                                    }
+                                                ],
+                                                "is_header": false,
+                                                "text_in_inspection_sheet": "Hauteur d'émission (en m)\n100\nDébit d'odeur (en uoE /h)\n36 000 x 106"
+                                            }
+                                        ]
+                                    },
+                                    "text": ""
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "Le niveau d'une odeur ou concentration d'un mélange odorant est défini conventionnellement comme étant le facteur de dilution qu'il faut appliquer à un effluent pour qu'il ne soit plus ressenti comme odorant par 50 % des personnes constituant un échantillon de population. Le débit d'odeur est défini conventionnellement comme étant le produit du débit d'air rejeté, exprimé en m3/h, par le facteur de dilution au seuil de perception."
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "Que les composés soient sous forme gazeuse, particulaire ou vésiculaire, les conditions de prélèvement, d'échantillonnage et d'analyse doivent être fiables et reproductibles. Le respect de la norme NF X44-052 est présumé répondre à ces deux obligations."
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "Ces mesures sont effectuées sur une durée voisine d'une demi-heure, dans des conditions représentatives du fonctionnement de l'installation."
+                                },
+                                {
+                                    "active": true,
+                                    "table": null,
+                                    "text": "En cas d'impossibilité, liée à l'activité ou aux équipements, d'effectuer une mesure représentative des rejets, une évaluation des conditions de fonctionnement et des capacités des équipements d'épuration à respecter les valeurs limites est réalisée."
+                                }
+                            ],
+                            "parametrization": {
+                                "potential_inapplicabilities": [],
+                                "potential_modifications": [],
+                                "warnings": []
+                            },
+                            "reference_str": "Art. 18 e)",
+                            "sections": [],
+                            "title": {
+                                "active": true,
+                                "table": null,
+                                "text": "e) Odeurs"
+                            }
+                        }
+                    ],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 18 - Valeurs limites et conditions de rejet"
+                    }
+                }
+            ],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Chapitre VI : Air - odeurs"
+            }
+        },
+        {
+            "annotations": {
+                "topic": "DECHETS"
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "D54EFDaeaf6c",
+            "outer_alineas": [],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "",
+            "sections": [
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "e13af9bAb942",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Tous les sous-produits et déchets produits par l'installation sont entreposés dans des contenants étanches et dans des conditions prévenant toute dégradation qui remettrait en cause leur valorisation ou élimination appropriée."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Les effluents collectés et confinés sur place sont transportés hors site chaque jour dans des installations dûment appropriées pour leur traitement."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 19",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 19 - Gestion des sous-produits et des déchets"
+                    }
+                },
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "C4c0b6dd513E",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Le brûlage des déchets liquides, solides et gazeux est interdit sur le site."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 20",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 20 - Brûlage"
+                    }
+                }
+            ],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Chapitre VII : Sous-produits et déchets"
+            }
+        },
+        {
+            "annotations": {
+                "topic": "BRUIT_VIBRATIONS"
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "6Ab293AaA4a8",
+            "outer_alineas": [],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "",
+            "sections": [
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "F8cF2cCBDFcE",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "L'installation est construite, équipée et exploitée de façon telle que son fonctionnement ne puisse être à l'origine de bruits transmis par voie aérienne ou solidienne susceptibles de compromettre la santé ou la sécurité du voisinage ou de constituer une nuisance pour celui-ci."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Les émissions sonores émises par l'installation ne sont pas à l'origine, dans les zones à émergence réglementée, d'une émergence supérieure aux valeurs admissibles définies dans le tableau suivant."
+                        },
+                        {
+                            "active": true,
+                            "table": {
+                                "rows": [
+                                    {
+                                        "cells": [
+                                            {
+                                                "colspan": 1,
+                                                "content": {
+                                                    "active": true,
+                                                    "links": [],
+                                                    "table": null,
+                                                    "text": "\nNiveau de bruit ambiant existant dans les zones à émergence réglementée\n(incluant le bruit de l'installation)"
+                                                },
+                                                "rowspan": 1
+                                            },
+                                            {
+                                                "colspan": 1,
+                                                "content": {
+                                                    "active": true,
+                                                    "links": [],
+                                                    "table": null,
+                                                    "text": "\nEmergence admissible pour la période\nallant de 7 h à 22 h,\nsauf dimanches et jours fériés"
+                                                },
+                                                "rowspan": 1
+                                            },
+                                            {
+                                                "colspan": 1,
+                                                "content": {
+                                                    "active": true,
+                                                    "links": [],
+                                                    "table": null,
+                                                    "text": "\nEmergence admissible pour la période\nallant de 22 h à 7 h, ainsi que les dimanches\net jours fériés"
+                                                },
+                                                "rowspan": 1
+                                            }
+                                        ],
+                                        "is_header": true,
+                                        "text_in_inspection_sheet": null
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "colspan": 1,
+                                                "content": {
+                                                    "active": true,
+                                                    "links": [],
+                                                    "table": null,
+                                                    "text": "\nsupérieur à 35 et inférieur ou égal à 45 dB(A)"
+                                                },
+                                                "rowspan": 1
+                                            },
+                                            {
+                                                "colspan": 1,
+                                                "content": {
+                                                    "active": true,
+                                                    "links": [],
+                                                    "table": null,
+                                                    "text": "\n6 dB(A)"
+                                                },
+                                                "rowspan": 1
+                                            },
+                                            {
+                                                "colspan": 1,
+                                                "content": {
+                                                    "active": true,
+                                                    "links": [],
+                                                    "table": null,
+                                                    "text": "\n4 dB(A)"
+                                                },
+                                                "rowspan": 1
+                                            }
+                                        ],
+                                        "is_header": false,
+                                        "text_in_inspection_sheet": "Niveau de bruit ambiant existant dans les zones à émergence réglementée\n(incluant le bruit de l'installation)\nsupérieur à 35 et inférieur ou égal à 45 dB(A)\nEmergence admissible pour la période\nallant de 7 h à 22 h,\nsauf dimanches et jours fériés\n6 dB(A)\nEmergence admissible pour la période\nallant de 22 h à 7 h, ainsi que les dimanches\net jours fériés\n4 dB(A)"
+                                    },
+                                    {
+                                        "cells": [
+                                            {
+                                                "colspan": 1,
+                                                "content": {
+                                                    "active": true,
+                                                    "links": [],
+                                                    "table": null,
+                                                    "text": "\nsupérieur à 45 dB(A)"
+                                                },
+                                                "rowspan": 1
+                                            },
+                                            {
+                                                "colspan": 1,
+                                                "content": {
+                                                    "active": true,
+                                                    "links": [],
+                                                    "table": null,
+                                                    "text": "\n5 dB(A)"
+                                                },
+                                                "rowspan": 1
+                                            },
+                                            {
+                                                "colspan": 1,
+                                                "content": {
+                                                    "active": true,
+                                                    "links": [],
+                                                    "table": null,
+                                                    "text": "\n3 dB(A)"
+                                                },
+                                                "rowspan": 1
+                                            }
+                                        ],
+                                        "is_header": false,
+                                        "text_in_inspection_sheet": "Niveau de bruit ambiant existant dans les zones à émergence réglementée\n(incluant le bruit de l'installation)\nsupérieur à 45 dB(A)\nEmergence admissible pour la période\nallant de 7 h à 22 h,\nsauf dimanches et jours fériés\n5 dB(A)\nEmergence admissible pour la période\nallant de 22 h à 7 h, ainsi que les dimanches\net jours fériés\n3 dB(A)"
+                                    }
+                                ]
+                            },
+                            "text": ""
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "De plus, le niveau de bruit en limite de propriété dans laquelle les animaux sont abattus ne dépasse pas, lorsqu'elle est en fonctionnement, 70 dB(A) pour la période de jour et 60 dB(A) pour la période de nuit, sauf si le bruit résiduel pour la période considérée est supérieur à cette limite."
+                        },
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Lorsque plusieurs installations classées, soumises à déclaration au titre de rubriques différentes, sont situées au sein d'un même établissement, le niveau de bruit global émis par ces installations devra respecter les valeurs limites ci-dessus."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 21",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 21 - Valeurs limites de bruit"
+                    }
+                }
+            ],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Chapitre VIII : Bruit et vibrations"
+            }
+        },
+        {
+            "annotations": {
+                "topic": null
+            },
+            "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+            },
+            "id": "dBCc41BAE171",
+            "outer_alineas": [],
+            "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+            },
+            "reference_str": "",
+            "sections": [
+                {
+                    "annotations": {
+                        "topic": null
+                    },
+                    "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                    },
+                    "id": "102BD8cEdE1b",
+                    "outer_alineas": [
+                        {
+                            "active": true,
+                            "table": null,
+                            "text": "Le directeur général de la prévention des risques est chargé de l'exécution du présent arrêté, qui sera publié au Journal officiel de la République française."
+                        }
+                    ],
+                    "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                    },
+                    "reference_str": "Art. 22",
+                    "sections": [],
+                    "title": {
+                        "active": true,
+                        "table": null,
+                        "text": "Article 22 - Exécution"
+                    }
+                }
+            ],
+            "title": {
+                "active": true,
+                "table": null,
+                "text": "Chapitre IX : Exécution"
+            }
+        }
+    ],
+    "title": {
+        "active": true,
+        "table": null,
+        "text": "Arrêté du 30/10/19 relatif aux prescriptions générales applicables aux installations relevant du régime de la déclaration sous la rubrique n° 2210-3 de la nomenclature des installations classées pour la protection de l'environnement"
+    },
+    "version_descriptor": null,
+    "visa": [
+        {
+            "active": true,
+            "table": null,
+            "text": "Vu le règlement (CE) n° 1069/2009 du Parlement européen et du Conseil du 21 octobre 2009 établissant des règles sanitaires applicables aux sous-produits animaux et produits dérivés non destinés à la consommation humaine et abrogeant le règlement (CE) n° 1774/2002 (règlement relatif aux sous-produits animaux) ;"
+        },
+        {
+            "active": true,
+            "table": null,
+            "text": "Vu le règlement (UE) 142/2011 de la Commission du 25 février 2011 portant application du règlement n° 1069/2009 du Parlement européen et du Conseil du 21 octobre 2009 établissant des règles sanitaires applicables aux sous-produits animaux et produits dérivés non destinés à la consommation humaine et portant application de la directive 97/78/CE du Conseil en ce qui concerne certains échantillons et articles exemptés des contrôles vétérinaires effectués aux frontières en vertu de cette directive ;"
+        },
+        {
+            "active": true,
+            "links": [
+                {
+                    "content_size": 23,
+                    "position": 6,
+                    "target": "https://www.legifrance.gouv.fr/affichCode.do?cidTexte=LEGITEXT000006074220&dateTexte=29990101&categorieLien=cid"
+                }
+            ],
+            "table": null,
+            "text": "Vu le code de l'environnement, et notamment le titre Ier du livre V ;"
+        },
+        {
+            "active": true,
+            "table": null,
+            "text": "Vu l'avis des organisations professionnelles intéressées ;"
+        },
+        {
+            "active": true,
+            "table": null,
+            "text": "Vu l'avis des ministres intéressés ;"
+        },
+        {
+            "active": true,
+            "links": [
+                {
+                    "content_size": 46,
+                    "position": 125,
+                    "target": "https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006074220&idArticle=LEGIARTI000032975869&dateTexte=29990101&categorieLien=cid"
+                }
+            ],
+            "table": null,
+            "text": "Vu les observations formulées lors de la consultation publique réalisée du 30 avril 2019 au 22 mai 2019, en application de l'article L. 123-19-1 du code de l'environnement ;"
+        },
+        {
+            "active": true,
+            "table": null,
+            "text": "Vu l'avis du Conseil supérieur de la prévention des risques technologiques du 28 mai 2019,"
+        }
+    ]
+}

@@ -1,10 +1,17 @@
 .section-blue
-  .container
+  .container.mt-5.mb-5
     .row.justify-content-center.align-items-center
       .col-8
         = image_pack_tag('factory-illu.svg', class: 'illu-factory')
 
-        input type="search" placeholder="Entrer le nom d'une installation" data-behavior="autocomplete" id="autocomplete"
+        input(
+          type="search" placeholder="Entrer le nom d'une installation"
+          data-behavior="autocomplete-installation" id="autocomplete"
+        )
+
+        .text-center
+          p.mt-5.mb-0 Vous ne trouvez pas votre installation ou elle n’existe pas encore ?
+          = link_to 'Créer une installation fictive', new_installation_path
 
 footer
   p
@@ -12,11 +19,13 @@ footer
     =< link_to 'consulter la FAQ',
        'https://www.notion.so/FAQ-Envinorma-34a3e5a5b8e94c72b63a67614dc7b122',
        class: 'btn-link',
-       target: '_blank'
+       target: '_blank',
+       rel: 'noopener'
 
     br
 
     | Envie d'en savoir plus :
     =< link_to 'consulter la page À propos',
        page_path('about'),
-       class: 'btn-link'
+       class: 'btn-link',
+       rel: 'noopener'

@@ -1,11 +1,14 @@
 fr:
   activerecord:
     attributes:
+      installation:
+        name: Nom de l'installation
       prescription:
         reference: "Référence"
         content: "Contenu"
       classement:
         regime: "Régime"
+        alinea: "Alinéa"
         date_autorisation: "Date d'autorisation"
         date_mise_en_service: "Date de mise en service"
     errors:
@@ -229,3 +232,7 @@ fr:
   regime:
     NC: NC
     unknown: inconnu
+  seveso:
+    NS: "Non Seveso"
+    SH: "Seuil haut"
+    SB: "Seuil bas"

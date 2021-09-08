@@ -14,65 +14,47 @@ require 'rails_helper'
 # end
 RSpec.describe SearchHelper, type: :helper do
   describe 'split_sentence_on_last_space' do
-    it 'should split on last word' do
+    it 'splits on last word' do
       expect(split_sentence_on_last_space('Foo bar foo')).to eq ['Foo bar', 'foo']
     end
 
-    it 'should split on last word' do
+    it 'splits words when there are two words' do
       expect(split_sentence_on_last_space('Foo bar')).to eq %w[Foo bar]
     end
 
-    it 'should leave last word nil when only one word' do
+    it 'leaves last word nil when only one word' do
       expect(split_sentence_on_last_space('Foo')).to eq ['Foo', '']
     end
 
-    it 'should leave last word nil when no words' do
+    it 'leaves last word nil when no words' do
       expect(split_sentence_on_last_space('')).to eq ['', '']
     end
   end
 
   describe 'build_query' do
-    it 'should build simple query when one word' do
+    it 'builds simple query when one word' do
       result = ['name ILIKE ? or s3ic_id ILIKE ? or city ILIKE ? or zipcode ILIKE ?',
-                '%foo%',
-                '%foo%',
-                '%foo%',
-                '%foo%']
+                '%foo%', '%foo%', '%foo%', '%foo%']
       expect(build_query('foo')).to eq result
     end
 
-    it 'should build simple query when one word, using lowercase version of query' do
+    it 'builds simple query when one word, using lowercase version of query' do
       result = ['name ILIKE ? or s3ic_id ILIKE ? or city ILIKE ? or zipcode ILIKE ?',
-                '%foobar%',
-                '%foobar%',
-                '%foobar%',
-                '%foobar%']
+                '%foobar%', '%foobar%', '%foobar%', '%foobar%']
       expect(build_query('Foobar')).to eq result
     end
-    it 'should build complex query when several words' do
+
+    it 'builds complex query when several words' do
       query = 'name ILIKE ? or s3ic_id ILIKE ? or city ILIKE ? or zipcode ILIKE ?'
-      result = ["(#{query}) and (#{query})",
-                '%foo bar%',
-                '%foo bar%',
-                '%foo bar%',
-                '%foo bar%',
-                '%foo%',
-                '%foo%',
-                '%foo%',
-                '%foo%']
+      result = ["(#{query}) and (#{query})", '%foo bar%', '%foo bar%', '%foo bar%',
+                '%foo bar%', '%foo%', '%foo%', '%foo%', '%foo%']
       expect(build_query('foo bar foo')).to eq result
     end
-    it 'should build complex query when several words' do
+
+    it 'builds complex query with both words when two words' do
       query = 'name ILIKE ? or s3ic_id ILIKE ? or city ILIKE ? or zipcode ILIKE ?'
-      result = ["(#{query}) and (#{query})",
-                '%foo%',
-                '%foo%',
-                '%foo%',
-                '%foo%',
-                '%bar%',
-                '%bar%',
-                '%bar%',
-                '%bar%']
+      result = ["(#{query}) and (#{query})", '%foo%', '%foo%',
+                '%foo%', '%foo%', '%bar%', '%bar%', '%bar%', '%bar%']
       expect(build_query('foo bar')).to eq result
     end
   end

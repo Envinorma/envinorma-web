@@ -1,0 +1,30 @@
+.container.mt-5
+  h1 Créer une installation fictive
+
+  hr
+  = simple_form_for @installation do |f|
+    .row
+      .col
+        = f.input :name
+
+    = f.simple_fields_for @classement do |c|
+      .row
+        .col-6
+          = label_tag '' do
+            ' Rubrique
+            abbr title='obligatoire' *
+          = text_field_tag 'autocomplete-classements', nil,
+                            placeholder: 'Entrer le numéro ou le libellé de la rubrique',
+                            class: 'form-control',
+                            required: true,
+                            data: { behavior: 'autocomplete-classements' }
+
+          = c.hidden_field :reference_id, value: '', id: 'classement_reference_id'
+
+        .col
+          = c.input :date_autorisation, as: :date, html5: true
+        .col
+          = c.input :date_mise_en_service, as: :date, html5: true
+
+    .mb-4
+      = f.button :submit, 'Créer l\'installation', class: 'btn btn-primary', disabled: true, id: 'js_classement_submit'

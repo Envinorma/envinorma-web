@@ -1,0 +1,134 @@
+- am_short_title = am.short_title
+- am_infos = am_infos(am, @installation)
+section id="anchor_am_#{am.id}" class='anchor'
+  .row
+    .col-3
+      dl.summary
+        .display-summary id="anchor_#{am.id}_summary" class='anchor'
+          - create_summary = lambda do |sec, depth = 0|
+            - class_names = @topics_by_section[am.id][sec.id].map { |topic| "topic_#{topic}" }.join(' ')
+            dd class="#{class_names} filterable"
+              a class="level_#{depth} btn btn-sm" href="#anchor_#{sec.id}"
+                = sec.title.text.truncate(50)
+            - sec.sections.each do |subsec|
+              - create_summary.call(subsec, depth + 1)
+          - am.data.sections.each do |section|
+            - create_summary.call(section)
+    .col-9.pt-4.content_for_print
+      .am-header
+        .d-flex.align-items-start
+          h1.h3.mr-auto
+            = am.short_title
+            span.text-secondary
+              =  am_infos.blank? ? '' : " - #{am_infos}"
+
+          = link_to am.aida_url,
+                    target: '_blank',
+                    class: 'btn btn-light btn-sm',
+                    rel: 'noopener' do
+                    i.fas.fa-link
+                    '
+                    | Aida
+
+          = link_to am.legifrance_url,
+                    target: '_blank',
+                    class: 'btn btn-light btn-sm ml-1',
+                    rel: 'noopener' do
+
+                    i.fas.fa-link
+                    '
+                    | Légifrance
+
+        p.content_not_for_print
+          = link_to "https://envinorma-back-office.herokuapp.com/am/#{am.cid}/5",
+            target: '_blank',
+            class: 'small text-secondary',
+            rel: 'noopener' do
+            i.fas.fa-info-circle
+            '
+            | En savoir + sur la configuration de cet arrêté
+
+        p
+          strong = am.title
+
+        - am.applicability.warnings.each do |warning|
+          .alert.alert-secondary.small
+            = warning
+
+        .border-bottom.mb-3.pb-3
+
+      .am-content
+        .empty-illu.text-secondary.d-none
+          i.far.fa-times-circle
+          '
+          | Cet arrêté ne contient pas de prescriptions correspondant au thème choisi
+
+        - am.data.sections.each_with_index do |section, section_index|
+          - extract_sections = lambda do |subsection, subsection_rank, level = 4|
+            ruby:
+              topics = @topics_by_section[am.id][subsection.id]
+              main_topic = topics.length == 1 ? topics[0] : TopicHelper::AUCUN
+              class_names = topics.map { |topic| "topic_#{topic}" }.join(' ')
+            div id="anchor_#{subsection.id}" class='anchor anchor-summary filterable #{class_names}'
+
+              / display title
+              - class_name = subsection.applicability.active ? '' : 'inactive'
+              *{ tag: "h#{level}", class: class_name } = subsection.title.text
+
+              / display warning
+              - subsection.applicability.warnings.each do |warning|
+                .alert.alert-secondary
+                  = simple_format(warning)
+
+              / display outeralineas
+              - if subsection.outer_alineas.present?
+                - am_ref = am_infos.blank? ? am_short_title : "#{am_short_title} - #{am_infos}"
+
+                / display button and collapse original text version if modified
+                - if subsection.applicability.modified
+                  small
+                    .border-bottom.mb-3.pb-3
+                      = link_to "voir le texte d'origine", '#',
+                        class: 'icon-collapse icon-collapse-mini',
+                        data: { toggle: 'collapse', target: "#modified_collapse_#{subsection.id}" }
+
+                      .inactive
+                        .collapse id="modified_collapse_#{subsection.id}"
+                          = render partial: 'outer_alineas',
+                            locals: { subsection: subsection.applicability.previous_version,
+                                      level: level,
+                                      subsection_id: subsection.id,
+                                      ref: subsection.reference_str,
+                                      am_ref: am_ref,
+                                      am_id: am.id,
+                                      subsection_rank: subsection_rank,
+                                      modification: true,
+                                      topic: main_topic }
+
+                - if subsection.applicability.active && subsection.outer_alineas.count > 1
+                  .border-bottom.mb-3.pb-3
+                    .form-group.row
+                      .col-sm-12
+                        .form-check
+                          = check_box_tag "select_all_#{subsection.id}",
+                            '1', false, class: 'form-check-input select_all',
+                            data: { section_id: subsection.id }
+
+                = render partial: 'outer_alineas',
+                  locals: { subsection: subsection,
+                            level: level,
+                            subsection_id: subsection.id,
+                            ref: subsection.reference_str,
+                            am_ref: am_ref,
+                            am_id: am.id,
+                            subsection_rank: subsection_rank,
+                            modification: false,
+                            topic: main_topic }
+
+            / iterate on sections and increment level
+            - subsection.sections.each_with_index do |item, item_index|
+              - extract_sections.call(item, "#{subsection_rank}.#{item_index}", level + 1)
+
+          - extract_sections.call(section, section_index.to_s)
+
+.splitter

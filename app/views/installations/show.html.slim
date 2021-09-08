@@ -1,38 +1,55 @@
 - content_for :meta_title, "Envinorma - #{@installation.name} - #{@installation.city}"
 
-.container
-  h1.display-4.mb-4.mt-5
+.container.mt-5
+  - if @installation.duplicated_by_user?(cookies[:user_id])
+    .alert.alert-secondary.small
+      ' Cette installation a été créée par vos soins, vous la retrouverez dans l’onglet «
+      = link_to 'Mes installations ', user_path, class: 'text-secondary'
+      | ». Elle n’est pas accessible aux autres utilisateurs.
+
+  h1.display-4
     => @installation.name
+  - if @user.owned?(@installation)
+    p
+      = link_to "Modifier le nom de l'installation",
+        edit_name_path(@installation)
 
-    - if @installation.duplicated_by_user?(cookies[:user_id])
-      sup
-        span.badge.badge-secondary.badge-mini version modifiée
-  .row
-    .col
-      h2.h5 Localisation
-      p = "#{@installation.zipcode} #{@installation.city}"
-      p = "#{@installation.department} - #{@installation.region}"
+  - unless @installation.fictive?
+    .row.mt-5
+      .col
+        h2.h5 Localisation
+        p = "#{@installation.zipcode} #{@installation.city}"
+        p = "#{@installation.department} - #{@installation.region}"
 
-    .col
-      h2.h5 Activités
-      p = "N° inspection : #{@installation.s3ic_id}"
-      p = "Dernière inspection : #{@installation.last_inspection&.strftime('%d/%m/%Y')}"
-      p = "État d'activité : #{@installation.state}"
+      .col
+        h2.h5 Activités
+        p = "N° inspection : #{@installation.s3ic_id}"
+        p = "Dernière inspection : #{@installation.last_inspection&.strftime('%d/%m/%Y')}"
+        p = "État d'activité : #{@installation.state}"
 
-    .col
-      h2.h5 Informations complémentaires
-      p = "Régime en vigueur de l'établissement : #{@installation.regime}"
-      p = "Statut SEVESO : #{@installation.seveso}"
+      .col
+        h2.h5 Informations complémentaires
+        p = "Régime en vigueur de l'établissement : #{@installation.regime}"
+        - seveso_status = t("seveso.#{@installation.seveso}")
+        p = "Statut SEVESO : #{seveso_status}"
 
   h2.mt-5 Classements
 
-  p.text-right
-    - if @user.already_duplicated_installation?(@installation)
-      = link_to 'Consulter votre version modifiée',
-        installation_path(@user.retrieve_duplicated_installation(@installation))
+  p
+    - if @user.owned?(@installation)
+      - if @installation.classements.any?
+        = link_to 'Modifier les classements',
+          edit_installation_path(@installation)
+      = link_to 'Ajouter un nouveau classement', new_installation_classement_path(@installation), class: 'ml-3'
+    - elsif @user.already_duplicated?(@installation)
+      ' Vous souhaitez modifier ces classements ?
+      = link_to 'Consulter votre version de l’installation.',
+        installation_path(@user.retrieve_duplicated(@installation))
     - else
-      = link_to 'Modifier cette installation',
-        edit_installation_path(@installation)
+      ' Vous souhaitez modifier ces classements ?
+      = link_to 'Créer une copie de l’installation (accessible par vous seul).',
+        installations_path(id: @installation.id),
+        method: :post
 
   table.table
     thead
@@ -68,61 +85,81 @@
           td = classement.date_mise_en_service&.strftime('%d/%m/%Y')
           td = classement.human_readable_volume
 
-  .small.text-secondary
-    | Sur chaque ligne
-    br
-    | - Classements en vigueur estimés à partir des évolutions de la nomenclature
-    br
-    | - Classements publiés dans un acte administratif
+  - unless @installation.fictive?
+    .small.text-secondary
+      | Sur chaque ligne
+      br
+      | - Classements en vigueur estimés à partir des évolutions de la nomenclature
+      br
+      | - Classements publiés dans un acte administratif
 
-  .row
-    .col
+  .row.mb-5
+    .col.mb-5
       h2.mt-5 Arrêtés ministériels associés
-      - if @arretes.empty?
-        p.text-secondary Il n’y a pas d’arrêté ministériel disponible pour cette installation.
-
-      - else
-        - @arretes.each do |arrete|
-          .form-group.row
-            .col
-              .form-check.checkbox-custom
-                = check_box_tag "arrete_#{arrete.id}",
-                  '1', arrete.version_descriptor.applicable,
-                  class: 'form-check-input js_arrete_checkbox',
-                  'data-arrete-id': arrete.id
-                = label_tag "arrete_#{arrete.id}",
-                  class: arrete.version_descriptor.applicable ? 'active' : 'inactive',
-                  title: arrete.title
-                  = arrete.short_title
+      - create_checkbox = lambda do |am, applicable, label_class, warnings|
+        - checked = @url_am_ids.nil? ? applicable : @url_am_ids.include?(am.id)
+        .form-group.row
+          .col
+            .form-check.checkbox-custom
+              = check_box_tag "am_#{am.id}", '1', checked,
+                class: 'form-check-input js_am_checkbox js_checkbox', 'data-am-id': am.id
+              = label_tag "am_#{am.id}", class: label_class
+                span.tooltip-underline data-tooltip=am.title
+                  = am.short_title
+                - infos = am_infos(am, @installation)
+                - if infos.present?
                   small.text-secondary
-                    = " - #{classement_infos(arrete, @installation)}"
-
-            - if arrete.version_descriptor.applicability_warnings.present?
-              - warnings = arrete.version_descriptor.applicability_warnings.join(' - ')
-              li data-tooltip=warnings
+                    = " - #{infos}"
+          - if warnings.present?
+            - warnings = warnings.join(' - ')
+            - if am.is_transverse
+              li.tooltip-right.tooltip-secondary data-tooltip=warnings
+                i.fas.fa-question-circle
+            - else
+              li.tooltip-right.tooltip-warning data-tooltip=warnings
                 i.fas.fa-exclamation-triangle
 
-    .col
+      - if @ams.empty?
+        p.text-secondary Il n’y a pas d’arrêté ministériel associé aux classements de cette installation.
+
+      - else
+        - @ams.each do |am|
+          ruby:
+            applicable = am.applicability.applicable
+            warnings = am.applicability.warnings
+            label_class = applicable ? 'active' : 'inactive'
+            create_checkbox.call(am, applicable, label_class, warnings)
+
+      = link_to 'Voir les AM transverses', '#', class: 'icon-collapse icon-collapse-mini text-secondary',
+        data: { toggle: 'collapse', target: '#transversal_ams' }
+
+      .collapse.border-left.p-2 id='transversal_ams'
+        - @transversal_ams.each do |am|
+          - warnings = am.applicability.warnings
+          - create_checkbox.call(am, false, 'active', warnings)
+
+    .col.mb-5
       h2.mt-5 Arrêtés préfectoraux associés
       - if @aps.empty?
         p.text-secondary Il n’y a pas d’arrêté préfectoral disponible pour cette installation.
       - else
         - @aps.each do |ap|
+          - checked = @url_ap_ids.nil? ? true : @url_ap_ids.include?(ap.id)
           .form-group.row
             .col
               .form-check.checkbox-custom
-                = check_box_tag "ap_#{ap.id}",
-                  '1', true, disabled: true,
-                  class: 'form-check-input'
+                = check_box_tag "ap_#{ap.id}", '1', checked,
+                  class: 'form-check-input js_ap_checkbox js_checkbox',
+                  'data-ap-id': ap.id
                 = label_tag "ap_#{ap.id}"
                   = ap.short_title
 
                   small.text-secondary
                     = " - #{ap.description}"
 
-  hr.mb-5.mt-5
-  - if @arretes.any? || @aps.any?
-      = link_to "Voir les prescriptions pour générer une fiche d'inspection",
-            arretes_path(@installation, arrete_ids: @arretes.pluck(:id)),
-            class: 'btn btn-primary mb-4 btn-fixed-bottom js_loader__link',
-            id: 'arretes_link_button'
+  - display_class_name = @ams.any? || @aps.any? ? '' : 'd-none'
+  = link_to "Voir les prescriptions pour générer une fiche d'inspection",
+    arretes_path(@installation),
+    data: { disable_with: "Voir les prescriptions pour générer une fiche d'inspection" },
+    class: "btn btn-primary mb-4 btn-fixed-bottom #{display_class_name}",
+    id: 'arretes_link_button'

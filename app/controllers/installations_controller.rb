@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
 class InstallationsController < ApplicationController
-  include FilterArretes
-  include ApplicationHelper
-  before_action :set_installation, except: %i[index search]
+  include FilterAMs
   before_action :force_json, only: :search
-  before_action :check_if_authorized_user, only: %i[show edit update]
+  before_action :set_installation, only: %i[show edit edit_name update destroy]
+  before_action :user_can_modify_installation, only: %i[edit edit_name update destroy]
+  before_action :user_can_visit_installation, only: %i[show]
 
   def index
     @installations = Installation.not_attached_to_user
@@ -14,22 +14,44 @@ class InstallationsController < ApplicationController
   def show
     @aps = @installation.retrieve_aps
 
-    @classements = @installation.classements.sort_by do |classement|
-      classement.regime.present? ? REGIMES[classement.regime.to_sym] : REGIMES[:empty]
-    end
+    @classements = @installation.classements.sort_by(&:regime_score)
 
-    @arretes = compute_applicable_arretes_list(@classements)
+    @ams = compute_applicable_ams_list(@classements)
+    @transversal_ams = AM.where(is_transverse: true)
+
+    @url_am_ids = params.key?('am_ids') ? Set.new(params['am_ids'].map(&:to_i)) : nil
+    @url_ap_ids = params.key?('ap_ids') ? Set.new(params['ap_ids'].map(&:to_i)) : nil
   end
 
-  def edit
-    return if @installation.user_id == @user.id
+  def edit; end
 
-    if @user.already_duplicated_installation?(@installation)
-      redirect_to edit_installation_path(@user.retrieve_duplicated_installation(@installation))
-    else
-      installation_duplicated = @installation.duplicate!(@user)
-      redirect_to edit_installation_path(installation_duplicated)
-    end
+  def edit_name; end
+
+  def new
+    @installation = Installation.new(name: 'Mon installation')
+    @classement = Classement.new
+  end
+
+  def create
+    return create_from_existing_installation if params[:id].present?
+
+    @installation = Installation.create(
+      name: params[:installation][:name],
+      s3ic_id: '0000.00000',
+      user_id: @user.id
+    )
+
+    form_params = params[:installation][:classement]
+    reference = ClassementReference.find(form_params[:reference_id])
+    @classement = Classement.create_from(@installation.id, reference, form_params)
+
+    redirect_to installation_path(@installation)
+  end
+
+  def create_from_existing_installation
+    set_installation
+    installation_duplicated = @installation.duplicate!(@user)
+    redirect_to installation_path(installation_duplicated)
   end
 
   def update
@@ -39,6 +61,17 @@ class InstallationsController < ApplicationController
     else
       flash[:alert] = "L'installation n'a pas été mise à jour"
       render :edit
+    end
+  end
+
+  def destroy
+    @installation.destroy
+    if @user.installations.present?
+      flash[:notice] = "L'installation a bien été supprimée"
+      redirect_to user_path
+    else
+      flash[:notice] = "L'installation a bien été supprimée. Vous n'avez plus d'installation"
+      redirect_to root_path
     end
   end
 
@@ -58,8 +91,8 @@ class InstallationsController < ApplicationController
   end
 
   def classement_params
-    params.require(:installation).permit(
-      classements_attributes: %i[id regime rubrique date_autorisation date_mise_en_service _destroy]
-    )
+    params.require(:installation).permit(:name,
+                                         classements_attributes: %i[id regime rubrique alinea date_autorisation
+                                                                    date_mise_en_service _destroy])
   end
 end

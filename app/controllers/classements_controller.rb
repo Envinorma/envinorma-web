@@ -2,14 +2,17 @@
 
 class ClassementsController < ApplicationController
   before_action :set_installation
-  before_action :check_if_authorized_user, only: %i[new create]
+  before_action :user_can_modify_installation, only: %i[new create]
 
   def new
     @classement = Classement.new
   end
 
   def create
-    @classement = Classement.create(classement_params)
+    form_params = params[:classement]
+    reference = ClassementReference.find(form_params[:reference_id])
+
+    @classement = Classement.create_from(@installation.id, reference, form_params)
 
     if @classement.save
       flash[:notice] = 'Le classement a été ajouté'
@@ -26,11 +29,5 @@ class ClassementsController < ApplicationController
 
   def set_installation
     @installation = Installation.find(params[:installation_id])
-  end
-
-  def classement_params
-    params.require(:classement).permit(
-      :rubrique, :regime, :date_autorisation, :date_mise_en_service
-    ).merge!(installation_id: @installation.id)
   end
 end

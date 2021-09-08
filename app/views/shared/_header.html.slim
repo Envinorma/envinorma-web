@@ -1,7 +1,7 @@
 .header
-  .container
+  .container-fluid
     .main_nav
-      = link_to root_path, class: 'logo  js_loader__link' do
+      = link_to root_path, class: 'logo' do
         = image_pack_tag('logo-envinorma.svg')
 
       ul.nav
@@ -10,7 +10,7 @@
 
         - if @user && @user.installations.present?
           li.nav-item
-            = link_to 'Mes installations modifiées', user_path, class: 'nav-link'
+            = link_to 'Mes installations', user_path, class: 'nav-link'
 
         .item-right
           li.nav-item
@@ -23,7 +23,8 @@
           li.nav-item
             = link_to 'https://www.notion.so/FAQ-Envinorma-34a3e5a5b8e94c72b63a67614dc7b122',
               class: 'nav-link',
-              target: '_blank' do
+              target: '_blank',
+              rel: 'noopener' do
                 i.far.fa-question-circle
                 '
                 | FAQ

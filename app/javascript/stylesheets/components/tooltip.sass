@@ -1,10 +1,5 @@
 [data-tooltip]
-  position: absolute
-  display: inline-flex
   cursor: help
-  align-self: center
-  color: $warning
-  right: 25px
 
 [data-tooltip]:before
   content: attr(data-tooltip)
@@ -33,3 +28,19 @@
   opacity: 1
   bottom: 100%
   transform: translate(-50%, -10px)
+
+.tooltip-right
+  right: 25px
+  position: absolute
+  display: inline-flex
+  align-self: center
+
+.tooltip-warning
+  color: $warning
+
+.tooltip-secondary
+  color: $secondary
+
+.tooltip-underline
+  text-decoration: underline dotted 2px #5FACFF
+  text-underline-offset: 4px

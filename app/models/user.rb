@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class User < ApplicationRecord
+  include PrescriptionsGroupingHelper
+
   has_many :installations, dependent: :destroy
   has_many :prescriptions, dependent: :destroy
 
@@ -16,17 +18,25 @@ class User < ApplicationRecord
     group_prescriptions(prescriptions_for(installation))
   end
 
-  def already_duplicated_installation?(installation)
+  def owned?(installation)
+    present? && installation.user_id == id
+  end
+
+  def already_duplicated?(installation)
     present? && installations.pluck(:duplicated_from_id).include?(installation.id)
   end
 
-  def retrieve_duplicated_installation(installation)
-    installations.where(duplicated_from_id: installation.id).first
+  def retrieve_duplicated(installation)
+    installations.find_by(duplicated_from_id: installation.id)
+  end
+
+  def toggle_grouping
+    toggle! :consults_precriptions_by_topics # rubocop:disable Rails/SkipsModelValidations
   end
 
   private
 
   def group_prescriptions(prescriptions)
-    FilterHelper.sort_and_group(prescriptions)
+    sort_and_group(prescriptions, consults_precriptions_by_topics?)
   end
 end

@@ -19,8 +19,18 @@ Metrics/BlockLength:
 Metrics/ClassLength:
   Max: 120
 
+Metrics/ModuleLength:
+  Max: 120
+
 Metrics/MethodLength:
   Enabled: false
 
 Style/Documentation:
   Enabled: false
+
+RSpec/ExampleLength:
+  Max: 15
+
+require:
+  - rubocop-rspec
+  - rubocop-rails

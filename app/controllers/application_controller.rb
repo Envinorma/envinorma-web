@@ -21,11 +21,16 @@ class ApplicationController < ActionController::Base
     cookies[:user_id] = { value: @user.id, expires: 5.years.from_now }
   end
 
-  def check_if_authorized_user
-    return if @installation.user_id.nil?
+  def user_can_modify_installation
     return if @user.present? && @installation.user_id == @user.id
 
     flash[:alert] = 'Désolé, vous n’êtes pas autorisé à accéder à cette page'
     redirect_to root_path
+  end
+
+  def user_can_visit_installation
+    return if @installation.user_id.nil?
+
+    user_can_modify_installation
   end
 end

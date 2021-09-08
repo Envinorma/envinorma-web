@@ -1,17 +1,8 @@
 # frozen_string_literal: true
 
 module ApplicationHelper
-  REGIMES = {
-    A: 0,
-    E: 1,
-    D: 2,
-    NC: 3,
-    unknown: 4,
-    empty: 5
-  }.freeze
-
-  def common_classements(arrete_classements, installation_classement)
-    classements = arrete_classements.filter do |classement|
+  def common_classements(am_classements, installation_classement)
+    classements = am_classements.filter do |classement|
       installation_classement.pluck(:rubrique, :regime).include?([classement.rubrique, classement.regime])
     end
 
@@ -25,8 +16,12 @@ module ApplicationHelper
     end.join(' - ')
   end
 
-  def classement_infos(arrete, installation)
-    common_classements(arrete.classements_with_alineas, installation.classements)
+  def am_infos(am, installation) # rubocop:disable Naming/MethodParameterName
+    # AM infos returns relevant infos given an AM and an installation
+    # if the AM is transverse, it returns the nickname, otherwise it returns the relevant AM classements.
+    return am.nickname if am.is_transverse
+
+    common_classements(am.classements_with_alineas, installation.classements)
   end
 
   def prescription_checked?(alinea_ids, alinea_id)

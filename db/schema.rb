@@ -10,21 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_03_160431) do
+ActiveRecord::Schema.define(version: 2021_09_01_124805) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "aps", force: :cascade do |t|
-    t.string "installation_s3ic_id"
-    t.string "description"
-    t.date "date"
-    t.string "georisques_id"
-    t.bigint "installation_id", null: false
-    t.index ["installation_id"], name: "index_aps_on_installation_id"
-  end
-
-  create_table "arretes", force: :cascade do |t|
+  create_table "ams", force: :cascade do |t|
     t.jsonb "data"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -36,6 +27,28 @@ ActiveRecord::Schema.define(version: 2021_06_03_160431) do
     t.date "date_of_signature"
     t.jsonb "version_descriptor"
     t.boolean "default_version"
+    t.datetime "content_updated_at", default: "2021-01-01 00:00:00", null: false
+    t.boolean "is_transverse", default: false, null: false
+    t.string "nickname"
+    t.jsonb "applicability"
+  end
+
+  create_table "aps", force: :cascade do |t|
+    t.string "installation_s3ic_id"
+    t.string "description"
+    t.date "date"
+    t.string "georisques_id"
+    t.bigint "installation_id", null: false
+    t.integer "size"
+    t.string "ocr_status"
+    t.index ["installation_id"], name: "index_aps_on_installation_id"
+  end
+
+  create_table "classement_references", force: :cascade do |t|
+    t.string "rubrique"
+    t.string "regime"
+    t.string "alinea"
+    t.string "description"
   end
 
   create_table "classements", force: :cascade do |t|
@@ -85,6 +98,8 @@ ActiveRecord::Schema.define(version: 2021_06_03_160431) do
     t.string "text_reference"
     t.string "rank"
     t.bigint "installation_id"
+    t.string "topic"
+    t.boolean "is_table", default: false, null: false
     t.index ["installation_id"], name: "index_prescriptions_on_installation_id"
     t.index ["user_id"], name: "index_prescriptions_on_user_id"
   end
@@ -96,6 +111,7 @@ ActiveRecord::Schema.define(version: 2021_06_03_160431) do
   create_table "users", force: :cascade do |t|
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.boolean "consults_precriptions_by_topics", default: false, null: false
   end
 
   add_foreign_key "aps", "installations"

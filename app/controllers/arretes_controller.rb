@@ -1,27 +1,37 @@
 # frozen_string_literal: true
 
 class ArretesController < ApplicationController
-  include FilterArretes
+  include TopicHelper
+  include Parametrization::Parameters
+  include FicheInspectionHelper
   before_action :set_installation
 
   def index
-    @arretes = []
-    params['arrete_ids']&.each do |arrete_id|
-      @arretes << Arrete.find(arrete_id)
+    @url_am_ids, @url_ap_ids = url_ids
+    @ams = prepare_ams((params['am_ids'].presence || []).map { |am_id| AM.find(am_id) }, @installation.classements)
+    @aps = (params['ap_ids'].presence || []).map { |ap_id| AP.find(ap_id) }
+    @prescription = Prescription.new
+    @alinea_ids = @user.prescription_alinea_ids(@installation)
+    @topics_by_section = {}
+    @ams.each do |am|
+      @topics_by_section[am.id] = am.topics_by_section
     end
 
-    @prescription = Prescription.new
-    @prescriptions = @user.prescriptions_grouped_for(@installation)
-    @aps = @installation.retrieve_aps
-    @alinea_ids = @user.prescription_alinea_ids(@installation)
+    @topics = TOPICS
   end
 
-  def generate_doc_with_prescriptions
-    groups = helpers.merge_prescriptions_with_same_ref(@user.prescriptions)
-    generate_doc(groups)
+  def generate_fiche_inspection
+    send_fiche_inspection(@user.prescriptions_for(@installation), @user.consults_precriptions_by_topics?)
   end
 
   private
+
+  def url_ids
+    # 'empty' is there to avoid default behavior of checking all arretes
+    url_am_ids = params['am_ids'].presence || ['empty']
+    url_ap_ids = params['ap_ids'].presence || ['empty']
+    [url_am_ids, url_ap_ids]
+  end
 
   def set_installation
     @installation = Installation.find(params[:id])
@@ -29,21 +39,5 @@ class ArretesController < ApplicationController
 
   def prescriptions_params
     params['prescriptions'].permit!
-  end
-
-  def generate_doc(prescriptions)
-    template_path = File.join(File.dirname(__FILE__), '../../db/templates/template.odt')
-
-    fiche_inspection = ODFReport::Report.new(template_path) do |r|
-      r.add_table('Tableau', prescriptions, header: true) do |t|
-        t.add_column(:ref, &:first)
-        t.add_column(:prescription, &:last)
-      end
-    end
-
-    send_data fiche_inspection.generate,
-              type: 'application/vnd.oasis.opendocument.text',
-              disposition: 'inline',
-              filename: 'fiche_inspection.odt'
   end
 end

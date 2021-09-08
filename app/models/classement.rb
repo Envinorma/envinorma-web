@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class Classement < ApplicationRecord
+  include RegimeHelper
+
   belongs_to :installation
 
   validates :regime, :rubrique, :installation_id, presence: true
@@ -34,14 +36,20 @@ class Classement < ApplicationRecord
     volume
   end
 
-  class << self
-    def create_hash_from_csv_row(classement_raw, s3ic_id_to_envinorma_id)
-      installation_id = if s3ic_id_to_envinorma_id.key?(classement_raw['s3ic_id'])
-                          s3ic_id_to_envinorma_id[classement_raw['s3ic_id']]
-                        else
-                          1
-                        end
+  def regime_score
+    regime.present? ? REGIMES[regime] : REGIMES[:empty]
+  end
 
+  class << self
+    def create_from(installation_id, reference, params)
+      Classement.create(installation_id: installation_id, rubrique: reference.rubrique,
+                        regime: reference.regime, alinea: reference.alinea,
+                        activite: reference.description,
+                        date_autorisation: params[:date_autorisation],
+                        date_mise_en_service: params[:date_mise_en_service])
+    end
+
+    def create_hash_from_csv_row(classement_raw)
       {
         'rubrique' => classement_raw['rubrique'],
         'regime' => classement_raw['regime'],
@@ -53,7 +61,6 @@ class Classement < ApplicationRecord
         'date_autorisation' => classement_raw['date_autorisation']&.to_date,
         'date_mise_en_service' => classement_raw['date_mise_en_service']&.to_date,
         'volume' => "#{classement_raw['volume']} #{classement_raw['unit']}",
-        'installation_id' => installation_id,
         'created_at' => DateTime.now,
         'updated_at' => DateTime.now
       }

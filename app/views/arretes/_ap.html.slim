@@ -1,0 +1,41 @@
+- placeholder = 'ex: Les quantités maximales qui seront stockées sont estimées à environ : 1 500.000m3'
+section id="anchor_ap_#{ap.id}" class='anchor content_not_for_print'
+  .row.pt-4
+    .col-12.js-alert-topic-ap.d-none
+      .alert.alert-secondary.text-center
+        p.js-alert-topic-ap-text
+
+    .col-3
+      h5 = ap.title
+
+      = simple_form_for @prescription,
+        url: installation_create_from_ap_path(@installation, @prescription),
+        remote: true do |f|
+        .row
+          .col-12
+            = f.input :reference, placeholder: 'ex: Art. 2'
+          .col-12
+            = f.input :content,
+                      as: :text,
+                      placeholder: placeholder,
+                      hint: 'Le copier-coller est possible depuis le PDF'
+
+          = f.hidden_field :text_reference, value: ap.short_title
+
+        = f.button :submit, 'Ajouter une prescription', class: 'btn btn-primary'
+    .col-9
+      - if ap.ocr_version_exists? && ap.small_enough?
+        object data=ap.url type="application/pdf" class="pdf_viewer"
+      - elsif ap.ocr_version_exists? # ie. ap is too big
+        .pdf_viewer
+          .alert.alert-danger
+            = "Cet arrêté n'est pas affiché car il est trop volumineux et nuirait aux performances de cette page. "
+            a href=ap.url target="_blank"
+              = 'Consulter dans un nouvel onglet'
+      - else # ie. ocr_version does not exist
+        .pdf_viewer
+          .alert.alert-danger
+            = "Cet arrêté n'est pas affiché car le traitement OCR (reconnaissance des caractères) a échoué. "
+            a href=ap.georisques_url target="_blank"
+              = 'Consulter la version Géorisques (si disponible)'
+.splitter

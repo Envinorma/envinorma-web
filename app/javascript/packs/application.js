@@ -25,3 +25,4 @@ import "@fortawesome/fontawesome-free/js/all"
 require.context('../images', true)
 require('../components');
 import 'stylesheets/application'
+import 'stylesheets/print'
