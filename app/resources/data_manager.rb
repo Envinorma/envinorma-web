@@ -3,7 +3,7 @@
 ActiveRecord::Base.logger.level = 1
 
 class DataManager
-  def self.seed_ams_and_associations
+  def self.seed_ams
     ams_files = Dir.glob(Rails.root.join('db/seeds/ams/*.json'))
     AMManager.validate_then_recreate(ams_files)
   end
