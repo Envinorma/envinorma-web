@@ -7,8 +7,8 @@ module FilterAMs
   def compute_applicable_ams_list(classements)
     classements_by_am_id = AM.from_classements(classements, match_on_alineas: false)
     ams = AM.find(classements_by_am_id.keys.uniq)
-    transformed_am = add_applicabilities(ams, classements_by_am_id)
-    sort_ams(transformed_am, classements_by_am_id)
+    am_with_applicabilities = add_applicabilities(ams, classements_by_am_id)
+    sort_ams(am_with_applicabilities, classements_by_am_id)
   end
 
   private
@@ -32,27 +32,27 @@ module FilterAMs
 
   def add_applicability(am, classements) # rubocop:disable Naming/MethodParameterName
     # Adds applicability information to the AM.
-    # applicability.applicable is true if there is a match on alineas and on dates.
+    # applicability.applicable is true if there is a match on alineas and on other criteria (dates, volume…).
     # applicability.warnings is the concatenation of:
     # - the warning message if the alineas don't match
-    # - the warning message if the dates don't match
+    # - the warning message if the other criteria don't match
     # - the default warning messages that are always displayed for some AM
     alinea_match = alineas_match?(am, classements)
-    date_match, date_warning = date_match?(am, classements)
-    applicable = (date_match && alinea_match)
-    new_warnings = [date_warning, alinea_match ? nil : ALINEA_WARNING].compact
+    other_criteria_match, other_criteria_warning = other_criteria_match?(am, classements)
+    applicable = (other_criteria_match && alinea_match)
+    new_warnings = [other_criteria_warning, alinea_match ? nil : ALINEA_WARNING].compact
     am.applicability.warnings.concat(new_warnings)
     am.applicability.applicable = applicable
     am
   end
 
-  def date_match?(am, classements) # rubocop:disable Naming/MethodParameterName
+  def other_criteria_match?(am, classements) # rubocop:disable Naming/MethodParameterName
     # Computes where the AM condition of applicability is met. (Most of the time,
     # it is a condition on the dates, because ALINEA, RUBRIQUE and REGIME are
     # handled in classement_with_alineas
-    # Returns a pair [date_match, date_warning]
-    # date_match is true if the condition of inapplicability is not met
-    # date_warning is defined if date_match is false are if the condition of
+    # Returns a pair [other_criteria_match, other_criteria_warning]
+    # other_criteria_match is true if the condition of inapplicability is not met
+    # other_criteria_warning is defined if other_criteria_match is false and if the condition of
     # inapplicability could be met.
     condition = am.applicability.condition_of_inapplicability
 

@@ -25,13 +25,13 @@ RSpec.describe FilterAMs do # rubocop:disable RSpec/FilePath
   let(:classement_al_a) { Classement.new(rubrique: '1234', regime: 'D', alinea: 'a') }
   let(:classement_enregistrement) { Classement.new(rubrique: '1234', regime: 'E', alinea: '1') }
 
-  describe 'date_match?' do
+  describe 'other_criteria_match?' do
     it 'returns true and no warning if several classements are matching.' do
-      expect(date_match?(am, [])).to eq [true, nil]
+      expect(other_criteria_match?(am, [])).to eq [true, nil]
     end
 
     it 'returns true and no warning if condition is null.' do
-      expect(date_match?(am, [Classement.new(rubrique: '1510', regime: 'A')])).to eq [true, nil]
+      expect(other_criteria_match?(am, [Classement.new(rubrique: '1510', regime: 'A')])).to eq [true, nil]
     end
   end
 
