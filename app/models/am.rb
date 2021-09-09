@@ -79,7 +79,7 @@ class AM < ApplicationRecord
       am
     end
 
-    def from_classements(classements, match_on_alineas)
+    def from_classements(classements, match_on_alineas:)
       # Fetch all AM ids that match the classements and return
       # the map of AM ids to matching classements
       # match_on_alineas: if true, we match on rubrique-regime-alineas, otherwise on rubrique-regime

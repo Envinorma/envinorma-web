@@ -5,7 +5,7 @@ module FilterAMs
   include Parametrization::Parameters
 
   def compute_applicable_ams_list(classements)
-    classements_by_am_id = AM.from_classements(classements, false)
+    classements_by_am_id = AM.from_classements(classements, match_on_alineas: false)
     ams = AM.find(classements_by_am_id.keys.uniq)
     transformed_am = add_applicabilities(ams, classements_by_am_id)
     sort_ams(transformed_am, classements_by_am_id)

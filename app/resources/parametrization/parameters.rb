@@ -8,7 +8,7 @@ module Parametrization
     def prepare_ams(ams, classements)
       # For each AM, it maps classements matching on rubrique and regime
       # and transforms the AM based on the parameters of the classements.
-      classements_by_am_id = AM.from_classements(classements, true)
+      classements_by_am_id = AM.from_classements(classements, match_on_alineas: true)
       ams.map { |am| transform(am, classements_by_am_id.fetch(am.id, [])) }
     end
 
