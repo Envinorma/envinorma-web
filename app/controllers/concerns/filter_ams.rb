@@ -32,7 +32,7 @@ module FilterAMs
 
   def add_applicability(am, classements) # rubocop:disable Naming/MethodParameterName
     # Adds applicability information to the AM.
-    # applicability.applicable is true if there is a match on alineas and on other criteria (dates, volume…).
+    # applicability.applicable is true if there is a match on alineas and on other criteria (dates, volume).
     # applicability.warnings is the concatenation of:
     # - the warning message if the alineas don't match
     # - the warning message if the other criteria don't match
