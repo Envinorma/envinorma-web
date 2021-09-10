@@ -141,7 +141,7 @@ module Parametrization
 
       return if target_alineas.present?
 
-      section.sections.each { |subsection| deactivate_alineas(subsection, target_alineas) }
+      section.sections.each { |subsection| deactivate_alineas(subsection, nil) }
     end
   end
 end
