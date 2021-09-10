@@ -138,6 +138,12 @@ RSpec.describe Parametrization::Warnings do
       expect(potentially_satisfied_warning(regime_enregistrement, true)).to eq(expected)
     end
 
+    it 'generates potential alinea inapplicability warning with equal target' do
+      expected = "L'alinéa 1 pourrait être inapplicable. C'est le cas si "\
+                 "le régime de classement est l'enregistrement."
+      expect(potentially_satisfied_warning(regime_enregistrement, false, [0])).to eq(expected)
+    end
+
     it 'generates potential inapplicability warning with equal target' do
       expected = "Cette section pourrait être inapplicable. C'est le cas si "\
                  "le régime de classement est l'enregistrement."
@@ -213,6 +219,45 @@ RSpec.describe Parametrization::Warnings do
     it 'joins three elements with comma and separator' do
       merged_sentence = join_with_comma_and_separator(['this is a cat', 'this is a dog', 'this is a mouse'], ' and ')
       expect(merged_sentence).to eq('this is a cat, this is a dog and this is a mouse')
+    end
+  end
+
+  describe 'potentially_inapplicable_alineas_sentence' do
+    it 'raises error if called with empty list' do
+      expect { potentially_inapplicable_alineas_sentence([]) }.to raise_error(ArgumentError)
+    end
+
+    it 'returns sentence with targeted alinea if there is only one alinea' do
+      expected = 'L\'alinéa 3 pourrait être inapplicable'
+      expect(potentially_inapplicable_alineas_sentence([2])).to eq(expected)
+    end
+
+    it 'returns sentence with index list if there is a non-mergeable list of alineas' do
+      expected = 'Les alinéas 3, 4 et 7 pourraient être inapplicables'
+      expect(potentially_inapplicable_alineas_sentence([6, 2, 3])).to eq(expected)
+    end
+
+    it 'returns sentence with merged index list if there is a mergeable list of alineas' do
+      expected = 'Les alinéas 3 à 7 pourraient être inapplicables'
+      expect(potentially_inapplicable_alineas_sentence([6, 2, 3, 4, 5])).to eq(expected)
+    end
+  end
+
+  describe 'range_of_size_three_at_least?' do
+    it 'returns false if there is only one element' do
+      expect(range_of_size_three_at_least?([1])).to be false
+    end
+
+    it 'returns false if there are two elements' do
+      expect(range_of_size_three_at_least?([1, 2])).to be false
+    end
+
+    it 'returns true if there are three consecutive elements' do
+      expect(range_of_size_three_at_least?([1, 3, 2])).to be true
+    end
+
+    it 'returns false if there are three non consecutive elements' do
+      expect(range_of_size_three_at_least?([6, 3, 4])).to be false
     end
   end
 end
