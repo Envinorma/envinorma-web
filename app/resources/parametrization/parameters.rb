@@ -15,28 +15,30 @@ module Parametrization
     private
 
     def transform(arrete_ministeriel, classements)
-      parameters = classements_parameter_dict(classements)
+      parameters = classements_parameter_hash(classements)
       apply_parameter_values_to_am(arrete_ministeriel, parameters)
     end
 
-    def classements_parameter_dict(classements)
+    def classements_parameter_hash(classements)
       return {} if classements.empty?
 
       if classements.length > 1
-        # To avoid ambiguity, we consider that all parameters except regime are unknown if
-        # there is not exactly one matching classement.
-        regimes = classements.map(&:regime).uniq
-
-        return { 'regime' => regimes[0] } if regimes.length == 1
-
-        return {}
+        # To avoid ambiguity, we only keep parameters that have the same values.
+        hashes = classements.map { |classement| parameter_hash(classement) }
+        return keep_identical_values(hashes)
       end
 
       classement = classements[0]
-      parameter_dict(classement)
+      parameter_hash(classement)
     end
 
-    def parameter_dict(classement)
+    def keep_identical_values(hashes)
+      # builds merged hash with all keys and values of the first hash if
+      # all hashes have the same value for the key.
+      hashes.reduce { |merged, hash| merged.keys.index_with { |k| merged[k] == hash[k] ? merged[k] : nil }.compact }
+    end
+
+    def parameter_hash(classement)
       date = date_key(classement.regime)
       {
         'regime' => classement.regime,

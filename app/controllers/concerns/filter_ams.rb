@@ -61,7 +61,7 @@ module FilterAMs
     return [true, potentially_inapplicable_arrete_warning(condition)] if classements.length != 1
 
     classement = classements.first
-    parameters = parameter_dict(classement)
+    parameters = parameter_hash(classement)
 
     return [false, inapplicable_arrete_warning(condition)] if satisfied?(condition, parameters)
 
