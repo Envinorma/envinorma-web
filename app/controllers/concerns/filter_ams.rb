@@ -49,25 +49,25 @@ module FilterAMs
   def other_criteria_match?(am, classements) # rubocop:disable Naming/MethodParameterName
     # Computes where the AM condition of applicability is met. (Most of the time,
     # it is a condition on the dates, because ALINEA, RUBRIQUE and REGIME are
-    # handled in classement_with_alineas
+    # handled in classement_with_alineas).
     # Returns a pair [other_criteria_match, other_criteria_warning]
     # other_criteria_match is true if the condition of inapplicability is not met
     # other_criteria_warning is defined if other_criteria_match is false and if the condition of
     # inapplicability could be met.
     condition = am.applicability.condition_of_inapplicability
 
-    return [true, nil] if condition.blank?
+    return [true, nil] if condition.nil? # always applicable
 
-    return [true, potentially_inapplicable_arrete_warning(condition)] if classements.length != 1
+    classements_parameters = classements_parameter_hash(classements)
 
-    classement = classements.first
-    parameters = parameter_hash(classement)
-
-    return [false, inapplicable_arrete_warning(condition)] if satisfied?(condition, parameters)
-
-    return [true, potentially_inapplicable_arrete_warning(condition)] if potentially_satisfied?(condition, parameters)
-
-    [true, nil]
+    applicable, warning = if satisfied?(condition, classements_parameters)
+                            [false, inapplicable_arrete_warning(condition)]
+                          elsif potentially_satisfied?(condition, classements_parameters)
+                            [true, potentially_inapplicable_arrete_warning(condition)]
+                          else
+                            [true, nil]
+                          end
+    [applicable, warning]
   end
 
   def alineas_match?(am, installation_classements) # rubocop:disable Naming/MethodParameterName
