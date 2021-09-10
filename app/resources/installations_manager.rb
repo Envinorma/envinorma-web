@@ -49,8 +49,8 @@ class InstallationsManager
   end
 
   def self.delete_classements
-    Rails.logger.info 'Deleting existing classements (except those of duplicated installations)...'
-    installation_ids = Installation.where(duplicated_from_id: nil).pluck(:id)
+    Rails.logger.info 'Deleting existing classements (except those of duplicated and fictive installations)...'
+    installation_ids = Installation.where_not_fictive_nor_duplicated.pluck(:id)
     nb_classements = Classement.where(installation_id: installation_ids).delete_all
     Rails.logger.info "...deleted #{nb_classements} classements. #{Classement.count} classements left in db."
     ActiveRecord::Base.connection.reset_pk_sequence!(Classement.table_name)
@@ -72,7 +72,7 @@ class InstallationsManager
     Rails.logger.info("Deleting #{s3ic_ids_to_delete.count} installations and corresponding "\
                       'AP and prescriptions...')
 
-    ids = Installation.where(s3ic_id: s3ic_ids_to_delete).where(duplicated_from_id: nil).pluck(:id)
+    ids = Installation.where(s3ic_id: s3ic_ids_to_delete).where_not_fictive_nor_duplicated.pluck(:id)
     nb_prescriptions = Prescription.where(installation_id: ids).delete_all
     nb_aps = AP.where(installation_id: ids).delete_all
     nb_installations = Installation.where(id: ids).delete_all
@@ -163,7 +163,7 @@ class InstallationsManager
   end
 
   def self.load_s3ic_id_to_envinorma_id
-    # We load the id mapping, ignoring duplicated installations which are not updated
-    Installation.where(duplicated_from_id: nil).pluck(:s3ic_id, :id).to_h
+    # We load the id mapping, ignoring fictive or duplicated installations which are not updated
+    Installation.where_not_fictive_nor_duplicated.pluck(:s3ic_id, :id).to_h
   end
 end

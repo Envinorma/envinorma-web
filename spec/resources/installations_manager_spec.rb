@@ -33,6 +33,19 @@ RSpec.describe InstallationsManager do
     end
   end
 
+  context 'when #delete_classements' do
+    it 'deletes all classements mapped to non fictive nor duplicated installations' do
+      installation = FactoryBot.create(:installation)
+      FactoryBot.create(:classement, :classement_2521_E, installation: installation)
+      installation_duplicated = FactoryBot.create(:installation, duplicated_from_id: installation.id)
+      classement2 = FactoryBot.create(:classement, :classement_2521_E, installation: installation_duplicated)
+      installation_fictive = FactoryBot.create(:installation, s3ic_id: '0000.00000')
+      classement3 = FactoryBot.create(:classement, :classement_2521_E, installation: installation_fictive)
+      described_class.delete_classements
+      expect(Classement.pluck(:id)).to eq([classement2.id, classement3.id])
+    end
+  end
+
   context 'when #find_id_in_db' do
     it 'returns nil for Installation if the object does not exist in db' do
       hash = { 's3ic_id' => '0065.00005' }
