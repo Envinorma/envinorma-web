@@ -44,6 +44,7 @@ module Parametrization
         'regime' => classement.regime,
         'alinea' => classement.alinea,
         'rubrique' => classement.rubrique,
+        'quantite-rubrique' => classement.float_volume,
         'date-d-installation' => classement.date_mise_en_service,
         date => classement.date_autorisation
       }.compact
