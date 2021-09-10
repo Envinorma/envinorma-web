@@ -2,6 +2,7 @@
 
 require 'rails_helper'
 
+# rubocop:disable RSpec/MultipleExpectations
 RSpec.describe DataManager do
   context 'when #seed_installations_and_associations' do
     it 'creates 3 installations, 21 classements and 5 AP from sample files.' do
@@ -16,10 +17,12 @@ RSpec.describe DataManager do
       ).from(0).to(5)
     end
 
-    it 'removes installation when it does not exist in files.' do
-      installation = Installation.create!(name: 'test', s3ic_id: '0000.00000')
+    it 'removes installation with its classements when it does not exist in files.' do
+      installation = Installation.create!(name: 'test', s3ic_id: '0123.45678')
+      classement = Classement.create!(regime: 'A', rubrique: '1419', installation_id: installation.id)
       described_class.seed_installations_and_associations(validate: true, use_sample: true)
       expect(Installation.where(id: installation.id).count).to be_zero
+      expect(Classement.where(id: classement.id).count).to be_zero
     end
 
     it 'updates installation when it exists in file.' do
@@ -28,10 +31,20 @@ RSpec.describe DataManager do
       expect(Installation.find(installation.id).name).to eq('ACOLYANCE')
     end
 
-    it 'does not remove duplicated installations.' do
-      installation = Installation.create!(name: 'test', s3ic_id: '0000.00000', duplicated_from_id: 3)
+    it 'does not remove duplicated installations and classements.' do
+      installation = Installation.create!(name: 'test', s3ic_id: '0123.45678', duplicated_from_id: 3)
+      classement = Classement.create!(regime: 'A', rubrique: '1419', installation_id: installation.id)
       described_class.seed_installations_and_associations(validate: true, use_sample: true)
       expect(Installation.find(installation.id)).to be_present
+      expect(Classement.find(classement.id)).to be_present
+    end
+
+    it 'does not remove fictive installations and classements.' do
+      installation = Installation.create!(name: 'test', s3ic_id: '0000.00000')
+      classement = Classement.create!(regime: 'A', rubrique: '1419', installation_id: installation.id)
+      described_class.seed_installations_and_associations(validate: true, use_sample: true)
+      expect(Installation.find(installation.id)).to be_present
+      expect(Classement.find(classement.id)).to be_present
     end
 
     it 'does not update duplicated installation when it exists in file.' do
@@ -90,3 +103,4 @@ RSpec.describe DataManager do
     end
   end
 end
+# rubocop:enable RSpec/MultipleExpectations

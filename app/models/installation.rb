@@ -89,5 +89,9 @@ class Installation < ApplicationRecord
         'updated_at' => DateTime.now
       }
     end
+
+    def where_not_fictive_nor_duplicated
+      where(duplicated_from_id: nil).where.not(s3ic_id: '0000.00000')
+    end
   end
 end
