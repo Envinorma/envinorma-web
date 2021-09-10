@@ -27,7 +27,7 @@ ruby:
         .form-check.checkbox-custom
           = check_box_tag "prescription_checkbox_#{alinea_id}",
             '1', prescription_checked?(@alinea_ids, alinea_id),
-            class: "form-check-input select_all_#{subsection_id} alineas_checkbox",
+            class: "form-check-input select_all_#{subsection_id}#{suffix} alineas_checkbox",
             data: { alinea_id: alinea_id }
           / alinea is active except if it is explicitly marked as active: false
           - class_name = alinea.active.nil? || alinea.active ? '' : 'inactive'

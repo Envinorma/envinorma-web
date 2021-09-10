@@ -15,33 +15,36 @@ module Parametrization
     private
 
     def transform(arrete_ministeriel, classements)
-      parameters = classements_parameter_dict(classements)
+      parameters = classements_parameter_hash(classements)
       apply_parameter_values_to_am(arrete_ministeriel, parameters)
     end
 
-    def classements_parameter_dict(classements)
+    def classements_parameter_hash(classements)
       return {} if classements.empty?
 
       if classements.length > 1
-        # To avoid ambiguity, we consider that all parameters except regime are unknown if
-        # there is not exactly one matching classement.
-        regimes = classements.map(&:regime).uniq
-
-        return { 'regime' => regimes[0] } if regimes.length == 1
-
-        return {}
+        # To avoid ambiguity, we only keep parameters that have the same values.
+        hashes = classements.map { |classement| parameter_hash(classement) }
+        return keep_identical_values(hashes)
       end
 
       classement = classements[0]
-      parameter_dict(classement)
+      parameter_hash(classement)
     end
 
-    def parameter_dict(classement)
+    def keep_identical_values(hashes)
+      # builds merged hash with all keys and values of the first hash if
+      # all hashes have the same value for the key.
+      hashes.reduce { |merged, hash| merged.keys.index_with { |k| merged[k] == hash[k] ? merged[k] : nil }.compact }
+    end
+
+    def parameter_hash(classement)
       date = date_key(classement.regime)
       {
         'regime' => classement.regime,
         'alinea' => classement.alinea,
         'rubrique' => classement.rubrique,
+        'quantite-rubrique' => classement.float_volume,
         'date-d-installation' => classement.date_mise_en_service,
         date => classement.date_autorisation
       }.compact
@@ -94,13 +97,12 @@ module Parametrization
     def handle_inapplicabilities(section, parameters)
       warnings = []
       section.parametrization.potential_inapplicabilities.each do |inapplicability|
-        if satisfied?(inapplicability.condition, parameters)
+        condition = inapplicability.condition
+        if satisfied?(condition, parameters)
           deactivate_alineas(section, inapplicability.alineas)
           return [true, [inapplicability_warning(inapplicability)]]
-        elsif potentially_satisfied?(inapplicability.condition, parameters)
-          is_a_modification = inapplicability.alineas.present?
-          # if only some alineas are inapplicable, it's a modification
-          warnings << potentially_satisfied_warning(inapplicability.condition, is_a_modification)
+        elsif potentially_satisfied?(condition, parameters)
+          warnings << potentially_satisfied_warning(condition, false, inapplicability.alineas)
         end
       end
       [false, warnings]
@@ -140,7 +142,7 @@ module Parametrization
 
       return if target_alineas.present?
 
-      section.sections.each { |subsection| deactivate_alineas(subsection, target_alineas) }
+      section.sections.each { |subsection| deactivate_alineas(subsection, nil) }
     end
   end
 end

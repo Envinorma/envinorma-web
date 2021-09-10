@@ -12,25 +12,21 @@ RSpec.describe Parametrization::Parameters do
     JSON.parse(File.read(path), object_class: OpenStruct)
   end
 
-  describe 'classements_parameter_dict' do
-    it 'returns empty dict for no classements' do
-      expect(classements_parameter_dict([])).to eq({})
+  describe 'classements_parameter_hash' do
+    it 'returns empty hash for no classements' do
+      expect(classements_parameter_hash([])).to eq({})
     end
 
-    it 'returns empty dict if several classements with different regime' do
+    it 'returns hash with common parameters' do
       classements = [
-        FactoryBot.create(:classement, :classement_2521_E, regime: 'E'),
-        FactoryBot.create(:classement, :classement_2521_E, regime: 'A')
+        FactoryBot.create(:classement, :classement_2521_E),
+        FactoryBot.create(:classement, :classement_2521_E, alinea: '2', rubrique: '2522')
       ]
-      expect(classements_parameter_dict(classements)).to eq({})
-    end
-
-    it 'returns dict with regime if several classements with same regime' do
-      classements = [
-        FactoryBot.create(:classement, :classement_2521_E, regime: 'E'),
-        FactoryBot.create(:classement, :classement_2521_E, regime: 'E')
-      ]
-      expect(classements_parameter_dict(classements)).to eq({ 'regime' => 'E' })
+      expected = { 'regime' => 'E',
+                   'quantite-rubrique' => 150_000.0,
+                   'date-d-enregistrement' => 'Tue, 07 May 1974'.to_date,
+                   'date-d-installation' => 'Tue, 07 May 1974'.to_date }
+      expect(classements_parameter_hash(classements)).to eq(expected)
     end
   end
 
@@ -65,6 +61,21 @@ RSpec.describe Parametrization::Parameters do
       deactivate_alineas(section, [0])
       children_alineas = section.sections.map(&:outer_alineas).flatten.map(&:active)
       expect(children_alineas).to all(be(true))
+    end
+  end
+
+  describe 'keep_identical_values' do
+    it 'returns input hash if only one hash is in list' do
+      expect(keep_identical_values([{ 'regime' => 'E', 'alinea' => '1' }])).to eq({ 'regime' => 'E', 'alinea' => '1' })
+    end
+
+    it 'returns merged hash on identical values' do
+      hashes = [
+        { 'regime' => 'E', 'alinea' => '1', 'rubrique' => '1510' },
+        { 'regime' => 'E', 'alinea' => '2' },
+        { 'regime' => 'E', 'rubrique' => '1510' }
+      ]
+      expect(keep_identical_values(hashes)).to eq({ 'regime' => 'E' })
     end
   end
 

@@ -11,11 +11,17 @@ class Classement < ApplicationRecord
 
   def human_readable_volume
     words = (volume || '').split
-    return volume if words.length > 2 || words.length.zero?
+    return volume if words.length.zero?
 
     volume_number = simplify_volume(words.first || '')
-    volume_unit = words.length == 1 ? '' : words.last
-    volume_unit.empty? ? volume_number.to_s : "#{volume_number} #{volume_unit}"
+    volume_unit = words[1..].join(' ')
+    "#{volume_number} #{volume_unit}".strip
+  end
+
+  def float_volume
+    volume_string = (volume || '').split.first
+
+    return volume.to_f if float?(volume_string)
   end
 
   def float?(string)

@@ -14,9 +14,15 @@ module Parametrization
       "Cette section a été modifiée car #{human_condition(modification.condition)}."
     end
 
-    def potentially_satisfied_warning(condition, is_a_modification)
-      adjective = is_a_modification ? 'modifiée' : 'inapplicable'
-      "Cette section pourrait être #{adjective}. C'est le cas si #{human_condition(condition)}."
+    def potentially_satisfied_warning(condition, is_a_modification, alineas = nil)
+      first_sentence = if is_a_modification
+                         'Cette section pourrait être modifiée'
+                       elsif alineas.blank?
+                         'Cette section pourrait être inapplicable'
+                       else
+                         potentially_inapplicable_alineas_sentence(alineas)
+                       end
+      "#{first_sentence}. C'est le cas si #{human_condition(condition)}."
     end
 
     def inapplicable_arrete_warning(condition)
@@ -50,23 +56,46 @@ module Parametrization
     end
 
     def and_human_condition(condition)
-      child_conditions = condition.conditions.map { |child| human_condition(child) }.sort
-      [child_conditions[..-2].join(', '), child_conditions[-1]].join(' et ')
+      humanize_and_aggregate(condition.conditions, ' et ')
     end
 
     def or_human_condition(condition)
-      child_conditions = condition.conditions.map { |child| human_condition(child) }.sort
-      [child_conditions[..-2].join(', '), child_conditions[-1]].join(' ou ')
+      humanize_and_aggregate(condition.conditions, ' ou ')
+    end
+
+    def humanize_and_aggregate(conditions, separator)
+      return humanize_similar_equal_conditions(conditions, separator) if similar_equal_conditions?(conditions)
+
+      child_conditions = conditions.map { |child| human_condition(child) }.sort
+      join_with_comma_and_separator(child_conditions, separator)
+    end
+
+    def similar_equal_conditions?(conditions)
+      return false unless conditions.all? { |child| child.type == 'EQUAL' }
+
+      conditions.map(&:parameter).map(&:id).uniq.size == 1
+    end
+
+    def humanize_similar_equal_conditions(conditions, separator)
+      parameter = conditions.first.parameter
+      targets = conditions.map(&:target).map { |target| human_parameter_value(parameter.id, target) }.sort
+      "#{human_parameter(parameter)} est #{join_with_comma_and_separator(targets, separator)}"
+    end
+
+    def join_with_comma_and_separator(strings, separator)
+      return strings.first if strings.length == 1
+
+      [strings[..-2].join(', '), strings[-1]].join(separator)
     end
 
     def equal_human_condition(condition)
-      return equal_regime_human_condition(condition.target) if condition.parameter.type == 'REGIME'
-
-      "#{human_parameter(condition.parameter)} est #{condition.target}"
+      "#{human_parameter(condition.parameter)} est #{human_parameter_value(condition.parameter.id, condition.target)}"
     end
 
-    def equal_regime_human_condition(regime)
-      "le régime de classement est #{human_regime(regime)}"
+    def human_parameter_value(parameter_id, value)
+      return human_regime(value) if parameter_id == 'regime'
+
+      value
     end
 
     def human_regime(regime)
@@ -126,13 +155,13 @@ module Parametrization
 
       case parameter.id
       when 'regime'
-        'le régime'
+        'le régime de classement'
       when 'rubrique'
         'la rubrique'
       when 'quantite-rubrique'
         'la quantité associée à la rubrique'
       when 'alinea'
-        "l'alinea de classement"
+        "l'alinéa de classement"
       else
         raise "Unknown parameter #{parameter.id}"
       end
@@ -149,6 +178,24 @@ module Parametrization
       else
         raise "Unknown parameter #{parameter_id}"
       end
+    end
+
+    def potentially_inapplicable_alineas_sentence(alineas)
+      raise ArgumentError, 'No alineas' if alineas.empty?
+
+      alineas = alineas.map { |alinea| alinea + 1 }.sort # For human readability
+
+      return "L'alinéa #{alineas[0]} pourrait être inapplicable" if alineas.size == 1
+
+      if range_of_size_three_at_least?(alineas)
+        return "Les alinéas #{alineas.min} à #{alineas.max} pourraient être inapplicables"
+      end
+
+      "Les alinéas #{join_with_comma_and_separator(alineas, ' et ')} pourraient être inapplicables"
+    end
+
+    def range_of_size_three_at_least?(alineas)
+      alineas.size >= 3 && alineas.length == alineas.uniq.max - alineas.min + 1
     end
   end
 end
