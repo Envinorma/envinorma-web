@@ -82,9 +82,10 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     # Generate Fiche d'inspection
     click_link('Télécharger la fiche')
-    expect(DownloadHelpers.download_content).to have_content "les dispositions du présent arrêté s'appliquent"
-    expect(DownloadHelpers.download_content).to have_content '500 mg/m3'
-    expect(DownloadHelpers.download_content).to have_content "Prescriptions copier - coller de l'AP"
+    fiche_content = DownloadHelpers.download_content('fiche_inspection.odt')
+    expect(fiche_content).to have_content "les dispositions du présent arrêté s'appliquent"
+    expect(fiche_content).to have_content '500 mg/m3'
+    expect(fiche_content).to have_content "Prescriptions copier - coller de l'AP"
 
     # After download prescriptions are still present
     page.find('#modalPrescriptions', visible: true)
@@ -140,8 +141,8 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     # Generate Fiche d'inspection
     click_link('Télécharger la fiche')
-    expect(DownloadHelpers.download_content).to have_content '500 mg/m3'
-    expect(DownloadHelpers.download_content).not_to have_content 'other user'
+    expect(DownloadHelpers.download_content('fiche_inspection.odt')).to have_content '500 mg/m3'
+    expect(DownloadHelpers.download_content('fiche_inspection.odt')).not_to have_content 'other user'
   end
 
   it 'saves prescriptions for an installation and a user' do
@@ -247,8 +248,8 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     click_link('Grouper par thème')
 
     click_link('Télécharger la fiche')
-    expect(DownloadHelpers.download_content).to have_content 'Air - odeurs'
-    expect(DownloadHelpers.download_content).not_to have_content 'Dispositions générales'
+    expect(DownloadHelpers.download_content('fiche_inspection.odt')).to have_content 'Air - odeurs'
+    expect(DownloadHelpers.download_content('fiche_inspection.odt')).not_to have_content 'Dispositions générales'
 
     click_link('Grouper par arrêté')
     expect(page).not_to have_content('Thème : Air - odeurs')
@@ -290,7 +291,32 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     click_link('Télécharger la fiche')
     # Expect download to have a table in addition to the base table (so 2 table tags)
-    expect(DownloadHelpers.raw_download_content.split('<table:table ').length - 1).to eq 2
+    expect(DownloadHelpers.raw_download_content('fiche_inspection.odt').split('<table:table ').length - 1).to eq 2
+  end
+
+  it 'generates fiche based on GUNenv template' do
+    visit_eva_industries_prescriptions_page
+
+    expect(page).to have_content('Chapitre VII : Bruit, vibration et émissions lumineuses')
+    # Check the first 4 checkboxes with class alineas_checkbox
+    find('.alineas_checkbox', match: :first).click
+
+    fill_in 'Référence', with: 'Art. 3'
+    fill_in 'Contenu', with: "Prescriptions copier - coller de l'AP"
+    click_button('Ajouter une prescription')
+
+    expect(page).to have_selector '.counter', text: '2'
+    expect(Prescription.count).to eq 2
+    find(class: 'circle-fixed-button').click(wait: 4)
+
+    click_link('Télécharger le modèle GUN')
+    # Expect download to have content
+
+    fiche_content = DownloadHelpers.download_content('fiche_GUN.ods')
+    expect(fiche_content).to have_content '27/04/2021'
+    expect(fiche_content).to have_content "Prescriptions copier - coller de l'AP"
+    expect(fiche_content).to have_content Prescription.first.content
+    expect(DownloadHelpers.raw_download_content('fiche_GUN.ods')).to include('2021-04-27')
   end
 end
 

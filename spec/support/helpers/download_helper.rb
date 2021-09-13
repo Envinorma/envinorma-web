@@ -20,14 +20,14 @@ module DownloadHelpers
     downloads.first
   end
 
-  def download_content
+  def download_content(filename)
     wait_for_download
-    parse
+    parse(DOWNLOAD_DIR.join(filename))
   end
 
-  def raw_download_content
+  def raw_download_content(filename)
     wait_for_download
-    unzip_file
+    unzip_file(DOWNLOAD_DIR.join(filename))
     File.open(OUTPUT_DIR.join('content.xml')).read.force_encoding(Encoding::UTF_8)
   end
 
@@ -50,10 +50,10 @@ module DownloadHelpers
     FileUtils.rm_r(output)
   end
 
-  INPUT_FILE = Rails.root.join('tmp/downloads/fiche_inspection.odt')
-  OUTPUT_DIR = Rails.root.join('tmp/downloads/output')
+  DOWNLOAD_DIR = Rails.root.join('tmp/downloads')
+  OUTPUT_DIR = DOWNLOAD_DIR.join('output')
 
-  def unzip_file(file = INPUT_FILE, destination = OUTPUT_DIR)
+  def unzip_file(file, destination = OUTPUT_DIR)
     Zip::File.open(file) do |zip_file|
       zip_file.each do |f|
         f_path = File.join(destination, f.name)
@@ -63,8 +63,8 @@ module DownloadHelpers
     end
   end
 
-  def parse
-    unzip_file
+  def parse(file)
+    unzip_file(file)
     OUTPUT_DIR.join('content.xml')
     a = ActionController::Base.new
     a.append_view_path OUTPUT_DIR

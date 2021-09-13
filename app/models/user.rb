@@ -7,7 +7,7 @@ class User < ApplicationRecord
   has_many :prescriptions, dependent: :destroy
 
   def prescription_alinea_ids(installation)
-    prescriptions.where(installation_id: installation.id).map(&:alinea_id)
+    prescriptions.where(installation_id: installation.id).pluck(:alinea_id)
   end
 
   def prescriptions_for(installation)

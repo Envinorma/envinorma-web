@@ -40,4 +40,25 @@ RSpec.describe FicheInspectionHelper do
       expect(merge_prescriptions_having_same_ref(prescriptions)[1][1][0].to_h).to eq expected
     end
   end
+
+  def build_simple_prescription(content, reference, text_reference)
+    Prescription.new(
+      reference: reference, content: content, from_am_id: 'id', text_reference: text_reference, rank: '1'
+    )
+  end
+
+  context 'when #prepare_gun_env_rows' do
+    it 'groups prescriptions with same text_reference and reference and creates variables' do
+      prescriptions = [
+        build_simple_prescription('line 1', 'ref', 'am-id'),
+        build_simple_prescription('line 2', 'ref', 'am-id'),
+        build_simple_prescription('line 3', 'ref', 'am-id-2'),
+        build_simple_prescription('line 4', 'ref-2', 'am-id-2')
+      ]
+      all_variables = prepare_gun_env_rows(prescriptions).row_variables.flatten
+      expect(
+        all_variables.filter { |v| v.placeholder == '[PRESCRIPTION]' }.map(&:value_list)
+      ).to eq [["line 1\nline 2"], ['line 3'], ['line 4']]
+    end
+  end
 end

@@ -15,7 +15,9 @@ Rails.application.routes.draw do
   get '/installations/new', to: 'installations#new', as: 'new'
   get '/installations/:id/edit_name', to: 'installations#edit_name', as: 'edit_name'
   get '/installations/:id/arretes', to: 'arretes#index', as: 'arretes'
-  post '/installations/:id/arretes', to: 'arretes#generate_fiche_inspection', as: 'generate_fiche_inspection'
+  post '/installations/:id/arretes/fiche_inspection', to: 'arretes#generate_fiche_inspection',
+                                                      as: 'generate_fiche_inspection'
+  post '/installations/:id/arretes/fiche_gun', to: 'arretes#generate_fiche_gun', as: 'generate_fiche_gun'
 
   get '/user', to: 'users#show'
 

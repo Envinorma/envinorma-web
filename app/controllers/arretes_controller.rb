@@ -21,7 +21,13 @@ class ArretesController < ApplicationController
   end
 
   def generate_fiche_inspection
-    send_fiche_inspection(@user.prescriptions_for(@installation), @user.consults_precriptions_by_topics?)
+    prescriptions = @user.prescriptions_for(@installation)
+    send_fiche_inspection(prescriptions, group_by_topics: @user.consults_precriptions_by_topics?, gun_env: false)
+  end
+
+  def generate_fiche_gun
+    prescriptions = @user.prescriptions_for(@installation)
+    send_fiche_inspection(prescriptions, group_by_topics: false, gun_env: true)
   end
 
   private
