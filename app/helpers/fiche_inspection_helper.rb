@@ -12,7 +12,7 @@ module FicheInspectionHelper
     Tempfile.create do |file|
       if gun_env
         output_filename = 'fiche_GUN.ods'
-        generate_gun_env_odt(file.path, prescriptions)
+        generate_gun_env_ods(file.path, prescriptions)
       else
         output_filename = 'fiche_inspection.odt'
         generate_envinorma_odt(file.path, prescriptions, group_by_topics)
@@ -33,20 +33,18 @@ module FicheInspectionHelper
     input_template = template_path(group_by_topics)
     sections = group_by_topics && !prescriptions.empty? ? prepare_topic_sections(prescriptions) : []
     tables_from_rows = group_by_topics || prescriptions.empty? ? [] : prepare_prescription_rows([prescriptions])[0]
-    generate_odt(sections, tables_from_rows, input_template, output_file)
+    generate_open_document_file(sections, tables_from_rows, input_template, output_file)
   end
 
-  def generate_gun_env_odt(output_file, prescriptions)
-    raise 'No prescriptions' if prescriptions.empty?
-
+  def generate_gun_env_ods(output_file, prescriptions)
     input_template = TEMPLATES_FOLDER.join('gun_env_template.ods')
-    table_from_rows = prepare_gun_env_rows(prescriptions)
-    generate_odt([], [table_from_rows], input_template, output_file)
+    tables = prescriptions.empty? ? [] : [prepare_gun_env_rows(prescriptions)]
+    generate_open_document_file([], tables, input_template, output_file)
   end
 
   private
 
-  def generate_odt(sections, tables_from_rows, input_file, output_file)
+  def generate_open_document_file(sections, tables_from_rows, input_file, output_file)
     generator = Odf::GenerateOdf::OdfGenerator.new(sections, tables_from_rows)
     generator.fill_template(input_file, output_file)
   end
