@@ -3,8 +3,9 @@
 require 'zip'
 
 module DownloadHelpers
-  TIMEOUT = 1
-  PATH    = Rails.root.join('tmp/downloads')
+  TIMEOUT    = 3
+  PATH       = Rails.root.join('tmp/downloads')
+  OUTPUT_DIR = PATH.join('output')
 
   module_function
 
@@ -22,12 +23,12 @@ module DownloadHelpers
 
   def download_content(filename)
     wait_for_download
-    parse(DOWNLOAD_DIR.join(filename))
+    parse(PATH.join(filename))
   end
 
   def raw_download_content(filename)
     wait_for_download
-    unzip_file(DOWNLOAD_DIR.join(filename))
+    unzip_file(PATH.join(filename))
     File.open(OUTPUT_DIR.join('content.xml')).read.force_encoding(Encoding::UTF_8)
   end
 
@@ -49,9 +50,6 @@ module DownloadHelpers
     FileUtils.rm_f(downloads)
     FileUtils.rm_r(output)
   end
-
-  DOWNLOAD_DIR = Rails.root.join('tmp/downloads')
-  OUTPUT_DIR = DOWNLOAD_DIR.join('output')
 
   def unzip_file(file, destination = OUTPUT_DIR)
     Zip::File.open(file) do |zip_file|
