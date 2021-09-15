@@ -98,11 +98,12 @@
       h2.mt-5 Arrêtés ministériels associés
       - create_checkbox = lambda do |am, applicable, label_class, warnings|
         - checked = @url_am_ids.nil? ? applicable : @url_am_ids.include?(am.id)
+        - select_all_class = am.is_transverse? ? '' : 'select_all_am'
         .form-group.row
           .col
             .form-check.checkbox-custom
               = check_box_tag "am_#{am.id}", '1', checked,
-                class: 'form-check-input js_am_checkbox js_checkbox', 'data-am-id': am.id
+                class: "form-check-input js_am_checkbox js_checkbox #{select_all_class}", 'data-am-id': am.id
               = label_tag "am_#{am.id}", class: label_class
                 span.tooltip-underline data-tooltip=am.title
                   = am.short_title
@@ -123,6 +124,13 @@
         p.text-secondary Il n’y a pas d’arrêté ministériel associé aux classements de cette installation.
 
       - else
+        .border-bottom.mb-3.pb-3
+          .form-group.row
+            .col-sm-12
+              .form-check
+                = check_box_tag 'select_all_am',
+                  '1', false, class: 'form-check-input select_all'
+
         - @ams.each do |am|
           ruby:
             applicable = am.applicability.applicable
@@ -143,13 +151,20 @@
       - if @aps.empty?
         p.text-secondary Il n’y a pas d’arrêté préfectoral disponible pour cette installation.
       - else
+        .border-bottom.mb-3.pb-3
+          .form-group.row
+            .col-sm-12
+              .form-check
+                = check_box_tag 'select_all_ap',
+                  '1', false, class: 'form-check-input select_all'
+
         - @aps.each do |ap|
           - checked = @url_ap_ids.nil? ? true : @url_ap_ids.include?(ap.id)
           .form-group.row
             .col
               .form-check.checkbox-custom
                 = check_box_tag "ap_#{ap.id}", '1', checked,
-                  class: 'form-check-input js_ap_checkbox js_checkbox',
+                  class: 'form-check-input select_all_ap js_ap_checkbox js_checkbox',
                   'data-ap-id': ap.id
                 = label_tag "ap_#{ap.id}"
                   = ap.short_title
