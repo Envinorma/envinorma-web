@@ -20,6 +20,7 @@ RSpec.describe 'test prescription selection in modified section', js: true do
     visit arretes_path(Installation.first, am_ids: AM.all.pluck(:id))
     expect(page).to have_content('Ceci est un alinea modifié')
     find('.select_all', match: :first).click(wait: 4)
+    expect(find('input.select_all')).to be_checked
     expect(find('.counter')).to have_content('2')
     expect(Prescription.count).to eq(2)
     expect(Prescription.all.map(&:content)).to include('Ceci est un alinea modifié.')
