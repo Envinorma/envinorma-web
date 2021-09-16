@@ -89,7 +89,7 @@ Le coeur de l'application consiste à retrouver les AMs qui s'appliquent à une 
 
 Pour que cela fonctionne, les AMs sont au préalable structurés et encodés au format .json. Des critères d'applicabilités y sont ajoutés si cela est pertinent (ex: un paragraphe ne s'applique si la date de mise en service est ultérieur au 1er septembre 2010). Toutes ces opérations de préparation des AM se font manuellement par un agent au niveau du [Back-office](https://envinorma-back-office.herokuapp.com/).
 
-> Pour en savoir +, (QUEL LIEN ?)
+> Pour en savoir + sur [la manipulation des AMs](https://github.com/Envinorma/envinorma-data)
 
 #### Récupérer la liste des AMs applicables
 
