@@ -7,84 +7,22 @@
 
       h2 L'équipe
       p
-        | Le projet est porté par la
-        =<> link_to 'DRIEE Île-de-France',
+        | Le projet a été lancé par la
+        =<> link_to 'DRIEAT Île-de-France',
             'http://www.driee.ile-de-france.developpement-durable.gouv.fr/',
-            class: 'btn-link'
+            class: 'btn-link',
+            target: '_blank',
+            rel: 'noopener'
         | dans le cadre du programme
         =< link_to "Entrepreneur d'intérêt général",
             'https://entrepreneur-interet-general.etalab.gouv.fr/',
-            class: 'btn-link'
+            class: 'btn-link',
+            target: '_blank',
+            rel: 'noopener'
         |.
-
-      ul.list-unstyled
-        li Lisa Durand - EIG - Développeuse
-        li Rémi Delbouys - EIG - Data scientist
-        li Alexandre Leonardi - DRIEE - Mentor
-        li Alain Thivone - DRIEE - Chargé de mission
-        li Félix Boilève - DRIEE - Mentor
 
     .col
       = image_pack_tag('team-illu.svg', class: 'illu-about')
-
-.section-blue
-  .container
-    .row.align-items-center
-      .col
-        = image_pack_tag('roadmap-illu.svg', class: 'illu-about')
-      .col
-        h2 Un projet "centré utilisateur"
-        p
-          | Nous nous ancrons dans une démarche centrée sur l'utilisateur
-            pour créer un outil qui réponde à des besoins réels. Pour savoir où en est le projet, découvrez :
-        ul.list-unstyled
-          li
-            => link_to 'https://www.notion.so/Documentation-Envinorma-724466919227416b8a6dbe0abd76d3d2',
-              class: 'btn-link',
-              target: '_blank',
-              rel: 'noopener' do
-              i.fas.fa-arrow-right
-              '
-              | Notre feuille de route
-          li
-            => link_to 'https://www.notion.so/Documentation-Envinorma-724466919227416b8a6dbe0abd76d3d2',
-              class: 'btn-link',
-              target: '_blank',
-              rel: 'noopener' do
-              i.fas.fa-arrow-right
-              '
-              | Les retours des utilisateur·ices déja collectés
-          li
-            => link_to 'https://www.notion.so/Documentation-Envinorma-724466919227416b8a6dbe0abd76d3d2',
-              class: 'btn-link',
-              target: '_blank',
-              rel: 'noopener' do
-              i.fas.fa-arrow-right
-              '
-              | Nos indicateurs chiffrés
-
-.container
-  .row.align-items-center.mt-5.mb-5
-    .col
-      h2 Code source
-      p
-        | L'organisation github du projet est accessible
-        =< link_to 'ici', 'https://github.com/Envinorma', class: 'btn-link'
-
-      p
-        | Le code source de l'
-        => link_to 'application principale', 'https://envinorma.herokuapp.com/', class: 'btn-link'
-        | à destination des inspecteurs est accessible
-        =< link_to 'ici', 'https://github.com/Envinorma/envinorma-web', class: 'btn-link'
-
-      p
-        | Le code source de l'
-        => link_to 'application', 'https://envinorma-back-office.herokuapp.com', class: 'btn-link'
-        | permettant de manipuler les données et enrichir la réglementation est accessible
-        =< link_to 'ici', 'https://github.com/Envinorma/envinorma-data', class: 'btn-link'
-        | .
-    .col
-      = image_pack_tag('code-illu.svg', class: 'illu-about')
 
 .section-blue
   .container
@@ -98,3 +36,30 @@
             i.far.fa-envelope
             '
             | drieat-if.envinorma@developpement-durable.gouv.fr
+
+.container
+  .row.align-items-center.mt-5.mb-5
+    .col
+      h2 En coulisse
+
+      p
+        | Pour connaitre les dessous du projet :
+      ul.list-unstyled
+        li
+          => link_to 'https://envinorma.github.io/',
+            class: 'btn-link',
+            target: '_blank',
+            rel: 'noopener' do
+            i.fas.fa-arrow-right
+            '
+            | la documentation technique
+        li
+          => link_to 'https://github.com/Envinorma/envinorma-web',
+            class: 'btn-link',
+            target: '_blank',
+            rel: 'noopener' do
+            i.fas.fa-arrow-right
+            '
+            | le code source
+    .col
+      = image_pack_tag('code-illu.svg', class: 'illu-about')
