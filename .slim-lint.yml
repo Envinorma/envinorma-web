@@ -1,5 +1,6 @@
 exclude:
   - 'app/views/layouts/application.html.slim'
+  - 'app/views/pages/faq_blocs/*'
 linters:
   LineLength:
     max: 125

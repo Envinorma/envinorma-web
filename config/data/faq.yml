@@ -1,0 +1,11 @@
+questions:
+  - titre: Comment utiliser Envinorma ?
+    partial : bloc_1
+  - titre: Les établissements présents sur Envinorma
+    partial : bloc_2
+  - titre: Les arrêtés ministériels affichés
+    partial : bloc_3
+  - titre: Les arrêtés préfectoraux
+    partial: bloc_4
+  - titre: Pour aller plus loin
+    partial: bloc_5
