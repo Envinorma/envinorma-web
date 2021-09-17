@@ -1,0 +1,115 @@
+.container-fluid
+  .row
+    .col-2.sidebar-sticky
+      ul.nav
+        li
+          a.btn.btn-sm.btn-light href="#anchor_titre_1"
+            | Comment utiliser Envinorma ?
+
+        li
+          a.btn.btn-sm.btn-light href="#anchor_titre_2"
+            | Les établissements présents sur Envinorma
+
+        li
+          a.btn.btn-sm.btn-light href="#anchor_titre_3"
+            | Les arrêtés ministériels affichés
+
+        li
+          a.btn.btn-sm.btn-light href="#anchor_titre_4"
+            | Les arrêtés préfectoraux
+
+        li
+          a.btn.btn-sm.btn-light href="#anchor_titre_5"
+            | Pour aller plus loin
+
+
+    .col-6.offset-2
+      .container-fluid
+        h1.display-4.mb-4.mt-5 Foire aux questions
+
+        section id="anchor_titre_1" class='anchor'
+          h2 Comment utiliser Envinorma ?
+          .row
+            .col-12
+              h3.h5.mt-3 Envinorma en 3 étapes pour préparer mon inspection
+              ol
+                li Sur la page d'accueil, j'entre le nom de l'installation, son code S3IC ou sa localisation et je sélectionne mon ICPE.
+                li J'arrive sur un récapitulatif des données de l'installation et des arrêtés ministériels et préfectoraux applicables. Je clique sur "Voir les prescriptions pour générer une fiche d'inspection"
+                li Je peux naviguer dans les différents AM et sélectionner en les cochant les prescriptions que je veux mettre dans ma fiche d'inspection. A la suite des AM, je peux consulter les AP et extraire des éléments des PDF via le formulaire. Quand j'ai fini, le bouton en bas à droite me permet de voir un récapitulatif et de télécharger une fiche d'inspection en format LibreOffice.
+
+        hr
+        section id="anchor_titre_2" class='anchor'
+          h2 Les établissements présents sur Envinorma
+          .row
+            .col-12
+              h3.h5.mt-3 Je cherche une ICPE mais elle n'apparaît pas. Pourquoi ?
+
+              p Pour qu'un établissement soit visible, il faut qu'il ait au moins une rubrique à autorisation ou enregistrement et en fonctionnement. Un site entièrement à déclaration n'apparaîtra pas.
+
+              p N'hésitez pas à essayer divers moyens de recherche, par exemple le code S3IC du site, son nom, sa localisation, son code postal. Et enlevez les accents !
+
+              p Si vous pensez qu'il manque une ICPE, écrivez-nous à drieat-if.envinorma@developpement-durable.gouv.fr !
+
+              h3.h5.mt-3 Est-ce que l'application Envinorma est connectée à S3IC ?
+              p Actuellement, la connexion avec S3IC n'est pas permanente : la mise à jour se fait de façon occasionnelle.
+
+              p A terme, une connexion automatique sera faite et permettra d'avoir un outil à jour avec un retard très faible sur Gun-S3IC.
+
+              p En revanche, il est possible de modifier le classement, de modifier les dates de la rubrique ou de supprimer une rubrique en cliquant sur "Créer une copie de l’installation" puis "Modifier les classements".
+
+              h3.h5.mt-3 Les classements sont-ils exactement les mêmes que sur S3IC ?
+              p L'interface étant publique, les classements en 47xx sont pour le moment supprimés et remplacés par la chaîne de caractères `47xx`. De même, les volumes des substances pour les rubriques en 4xxx ne sont pas accessibles.
+
+              p Suite aux dernières instructions transmises par la DGPR, ces critères vont être assouplis (classements affichés pour les rubriques 47xx, volumes autorisés affichés pour les rubriques 4xxx non 47xx).
+
+              h3.h5.mt-3 Les informations affichées sont fausses. Je peux les modifier ?
+              p Oui ! Vous pouvez modifier le classement ou les dates de la rubrique ou supprimer une rubrique en cliquant sur "Créer une copie de l’installation" puis "Modifier les classements". Ces modifications sont enregistrées dans la "session" de votre navigateur, donc uniquement sur le navigateur de votre ordinateur (elles sont conservées même si vous fermez votre navigateur et éteignez l'ordinateur, mais pas si vous supprimez historique/cookies). En revanche, ces modifications ne sont enregistrées ni sur une base Envinorma, ni sur Gun ou S3IC.
+
+        hr
+        section id="anchor_titre_3" class='anchor'
+          h2 Les arrêtés ministériels affichés
+          .row
+            .col-12
+              h3.h5.mt-3 Que se passe-t-il si plusieurs installations de l'établissement rendent applicables le même arrêté ministériel mais ont des dates d'installation différentes ?
+              p Dans ce cas, l'arrêté ministériel est présent une seule fois avec l'une des 3 dates d'installation. En attendant d'améliorer la prise en compte de ce cas là, il peut être préférable de supprimer les dates d'installations de ces installations.
+
+              h3.h5.mt-3 Quels paramètres sont pris en compte lors de l'affichage d'un arrêté ministériel ?
+              p La grande majorité des arrêtés ministériels disponibles sur Envinorma sont dit "enrichis", c'est à dire structurés (en articles et paragraphes) et paramétrés manuellement une fois pour toutes pour prendre en compte les conditions d'application des articles. Pour l'instant, le paramètre "Date de mise en service" est le seul pour lequel les prescriptions sont automatiquement rayées. Pour les autres paramètres, un avertissement est proposé : il vous évite de vous reporter systématiquement à l'annexe.
+
+              h3.h5.mt-3 Puis-je filtrer par thème ?
+              p Cette fonctionnalité n'existe pas encore, mais on y réfléchit. Pour l'instant, vous pouvez faire un bon vieux Ctrl+F pour rechercher un terme précis dans les arrêtés ministériels.
+
+        hr
+        section id="anchor_titre_4" class='anchor'
+          h2 Les arrêtés préfectoraux
+          .row
+            .col-12
+              h3.h5.mt-3 Quels sont les arrêtés préfectoraux affichés ?
+              p Les arrêtés préfectoraux sont ceux qui viennent de la base de Géorisques. Si vous ne trouvez pas un arrêté, ou que son nom est étrange, à vous de modifier le site dans Gun-S3IC.
+              h3.h5.mt-3 On ne peut pas faire mieux que les PDF ?
+              p Comme les AP géorisques sont au format PDF, il est très difficile d'en extraire le texte et la structure de manière suffisamment fiable. En revanche, tous les AP ont été traités par un programme de reconnaissance de caractères. Il est donc possible de faire des recherches dans les documents et de copier-coller leur contenu.
+              h3.h5.mt-3 Comment extraire des prescriptions des arrêtés préfectoraux ?
+              p À l'aide d'un simple copier-coller. À chaque AP est associé un formulaire permettant de créer des prescriptions à partir du texte. Les éléments ainsi extraits sont ajoutés à la fiche d'inspection en cours de création.
+
+              h3.h5.mt-3 A quelle fréquence les AP sont-ils mis à jour ?
+              p Pour l'instant, les AP ont tous été traités fin avril. On travaille à implémenter des algorithmes pour faire automatiquement et régulièrement une mise à jour.
+
+              h3.h5.mt-3 Sous Firefox, le visionneur pdf d'AP n'apparaît pas. Comment faire ?
+              p
+                | C'est peut-être simplement la configuration du navigateur qui pose problème. Il faut définir les PDF comme "ouvrir par défaut dans Firefox". Cf. ce lien:
+                =< link_to 'https://support.mozilla.org/en-US/questions/1229226', 'https://support.mozilla.org/en-US/questions/1229226'
+
+              h3.h5.mt-3 Envinorma peut-il m'aider à rédiger un arrêté préfectoral "svelte" ?
+              p Envinorma est plutôt conçu pour faciliter l'inspection des sites, mais vous pouvez tout de même vous en servir pour rédiger un AP svelte. Vous pouvez créer une installation fictive et y ajouter des classements. Vous aurez ensuite accès aux prescriptions qui s'appliquent par le seul droit national; à vous ensuite de compléter avec le canevas d'AP svelte !
+
+
+        hr
+        section id="anchor_titre_5" class='anchor'
+          h2 Pour aller plus loin
+          h3.h5.mt-3 J'ai une idée de fonctionnalité, puis-je la soumettre ?
+          p Oui avec plaisir, soit via le formulaire de retour (bouton rouge à droite), soit en nous contactant par email à drieat-if.envinorma@developpement-durable.gouv.fr
+
+          h3.h5.mt-3 Je trouve qu'un mot est mal choisi/peu clair, puis-je vous le signaler
+          p Bien sûr ! Chaque détail compte. Le formulaire de retour (bouton rouge à droite) permet de faire des retours ciblés sur un élément, comme sur l'image ci-dessous
+
+          = image_pack_tag('faq.png', class: 'faq')
