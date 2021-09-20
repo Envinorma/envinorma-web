@@ -24,7 +24,8 @@
                     "target": "2020-01-01",
                     "strict": true
                 },
-                "target_alineas": null
+                "target_alineas": null,
+                "subsections_are_inapplicable": true
             },
             {
                 "condition": {
@@ -36,7 +37,8 @@
                     "target": "2020-01-02",
                     "strict": true
                 },
-                "target_alineas": null
+                "target_alineas": null,
+                "subsections_are_inapplicable": true
             }
         ],
         "potential_modifications": [],
@@ -78,7 +80,8 @@
                         },
                         "target_alineas": [
                             0
-                        ]
+                        ],
+                        "subsections_are_inapplicable": true
                     }
                 ],
                 "potential_modifications": [],
