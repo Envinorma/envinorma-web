@@ -43,7 +43,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Dispositions générales",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -78,7 +81,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1",
+          "reference": {
+            "name": "Dispositions générales",
+            "nb": "Article 1"
+          },
           "sections": [],
           "title": {
             "text": "Article 1"
@@ -120,7 +126,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1.1",
+          "reference": {
+            "name": "Définitions.",
+            "nb": "Article 1.1"
+          },
           "sections": [],
           "title": {
             "text": "Article 1.1 - Définitions."
@@ -147,7 +156,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1.2",
+          "reference": {
+            "name": "Conformité de l'installation à la déclaration.",
+            "nb": "Article 1.2"
+          },
           "sections": [],
           "title": {
             "text": "Article 1.2 - Conformité de l'installation à la déclaration."
@@ -213,7 +225,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1.3",
+          "reference": {
+            "name": "Dossier installation classée.",
+            "nb": "Article 1.3"
+          },
           "sections": [],
           "title": {
             "text": "Article 1.3 - Dossier installation classée."
@@ -240,7 +255,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1.4",
+          "reference": {
+            "name": "Contrôle aux frais de l'exploitant.",
+            "nb": "Article 1.4"
+          },
           "sections": [],
           "title": {
             "text": "Article 1.4 - Contrôle aux frais de l'exploitant."
@@ -279,7 +297,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1.5",
+          "reference": {
+            "name": "Contrôle périodique.",
+            "nb": "Article 1.5"
+          },
           "sections": [],
           "title": {
             "text": "Article 1.5 - Contrôle périodique."
@@ -307,7 +328,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Implantation - aménagement",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -339,7 +363,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.1",
+          "reference": {
+            "name": "Conception de l'installation.",
+            "nb": "Article 2.1"
+          },
           "sections": [],
           "title": {
             "text": "Article 2.1 - Conception de l'installation."
@@ -376,7 +403,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.2",
+          "reference": {
+            "name": "Règles d'implantation.",
+            "nb": "Article 2.2"
+          },
           "sections": [
             {
               "annotations": {
@@ -420,7 +450,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.2",
+              "reference": {
+                "name": "Règles d'implantation.",
+                "nb": "Article 2.2 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I."
@@ -456,7 +489,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.2",
+              "reference": {
+                "name": "Règles d'implantation.",
+                "nb": "Article 2.2 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II."
@@ -486,7 +522,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.2",
+              "reference": {
+                "name": "Règles d'implantation.",
+                "nb": "Article 2.2 > III."
+              },
               "sections": [],
               "title": {
                 "text": "III."
@@ -525,7 +564,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.2",
+              "reference": {
+                "name": "Règles d'implantation.",
+                "nb": "Article 2.2 > IV."
+              },
               "sections": [],
               "title": {
                 "text": "IV."
@@ -566,7 +608,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.3",
+          "reference": {
+            "name": "Règles relatives aux stations multicarburants.",
+            "nb": "Article 2.3"
+          },
           "sections": [],
           "title": {
             "text": "Article 2.3 - Règles relatives aux stations multicarburants."
@@ -599,7 +644,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.4",
+          "reference": {
+            "name": "Interdiction d'habitations.",
+            "nb": "Article 2.4"
+          },
           "sections": [],
           "title": {
             "text": "Article 2.4 - Interdiction d'habitations."
@@ -640,7 +688,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.5",
+          "reference": {
+            "name": "Intégration dans le paysage.",
+            "nb": "Article 2.5"
+          },
           "sections": [],
           "title": {
             "text": "Article 2.5 - Intégration dans le paysage."
@@ -663,7 +714,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.6",
+          "reference": {
+            "name": "Aire de stockage et de production.",
+            "nb": "Article 2.6"
+          },
           "sections": [
             {
               "annotations": {
@@ -689,7 +743,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.6",
+              "reference": {
+                "name": "Aire de stockage et de production.",
+                "nb": "Article 2.6 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I."
@@ -734,7 +791,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.6",
+              "reference": {
+                "name": "Aire de stockage et de production.",
+                "nb": "Article 2.6 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II."
@@ -773,7 +833,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.6",
+              "reference": {
+                "name": "Aire de stockage et de production.",
+                "nb": "Article 2.6 > III."
+              },
               "sections": [],
               "title": {
                 "text": "III."
@@ -815,7 +878,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.7",
+          "reference": {
+            "name": "Aire de distribution.",
+            "nb": "Article 2.7"
+          },
           "sections": [],
           "title": {
             "text": "Article 2.7 - Aire de distribution."
@@ -838,7 +904,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.7.1",
+          "reference": {
+            "name": "Aménagement de l'aire de distribution.",
+            "nb": "Article 2.7.1"
+          },
           "sections": [
             {
               "annotations": {
@@ -870,7 +939,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.7.1",
+              "reference": {
+                "name": "Aménagement de l'aire de distribution.",
+                "nb": "Article 2.7.1 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I."
@@ -921,7 +993,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.7.1",
+              "reference": {
+                "name": "Aménagement de l'aire de distribution.",
+                "nb": "Article 2.7.1 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II."
@@ -949,7 +1024,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.7.2",
+          "reference": {
+            "name": "Conception des équipements de l'aire de distribution.",
+            "nb": "Article 2.7.2"
+          },
           "sections": [
             {
               "annotations": {
@@ -984,7 +1062,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.7.2",
+              "reference": {
+                "name": "Conception des équipements de l'aire de distribution.",
+                "nb": "Article 2.7.2 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I."
@@ -1032,7 +1113,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.7.2",
+              "reference": {
+                "name": "Conception des équipements de l'aire de distribution.",
+                "nb": "Article 2.7.2 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II."
@@ -1068,7 +1152,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.7.2",
+              "reference": {
+                "name": "Conception des équipements de l'aire de distribution.",
+                "nb": "Article 2.7.2 > III."
+              },
               "sections": [],
               "title": {
                 "text": "III."
@@ -1095,7 +1182,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.7.2",
+              "reference": {
+                "name": "Conception des équipements de l'aire de distribution.",
+                "nb": "Article 2.7.2 > IV."
+              },
               "sections": [],
               "title": {
                 "text": "IV."
@@ -1149,7 +1239,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.7.2",
+              "reference": {
+                "name": "Conception des équipements de l'aire de distribution.",
+                "nb": "Article 2.7.2 > V."
+              },
               "sections": [],
               "title": {
                 "text": "V."
@@ -1262,7 +1355,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.8",
+          "reference": {
+            "name": "Dispositif d'urgence et systèmes de sécurité.",
+            "nb": "Article 2.8"
+          },
           "sections": [],
           "title": {
             "text": "Article 2.8 - Dispositif d'urgence et systèmes de sécurité."
@@ -1285,7 +1381,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.9",
+          "reference": {
+            "name": "Conception des équipements de la station.",
+            "nb": "Article 2.9"
+          },
           "sections": [],
           "title": {
             "text": "Article 2.9 - Conception des équipements de la station."
@@ -1333,7 +1432,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.9.1",
+          "reference": {
+            "name": "Protection des équipements.",
+            "nb": "Article 2.9.1"
+          },
           "sections": [],
           "title": {
             "text": "Article 2.9.1 - Protection des équipements."
@@ -1356,7 +1458,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.9.2",
+          "reference": {
+            "name": "Tuyauteries et flexibles.",
+            "nb": "Article 2.9.2"
+          },
           "sections": [
             {
               "annotations": {
@@ -1400,7 +1505,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.9.2",
+              "reference": {
+                "name": "Tuyauteries et flexibles.",
+                "nb": "Article 2.9.2 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I."
@@ -1427,7 +1535,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.9.2",
+              "reference": {
+                "name": "Tuyauteries et flexibles.",
+                "nb": "Article 2.9.2 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II."
@@ -1493,7 +1604,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2.9.2",
+              "reference": {
+                "name": "Tuyauteries et flexibles.",
+                "nb": "Article 2.9.2 > III."
+              },
               "sections": [],
               "title": {
                 "text": "III."
@@ -1543,7 +1657,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.9.3",
+          "reference": {
+            "name": "Events et ventilations.",
+            "nb": "Article 2.9.3"
+          },
           "sections": [],
           "title": {
             "text": "Article 2.9.3 - Events et ventilations."
@@ -1579,7 +1696,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.1.0",
+          "reference": {
+            "name": "Accessibilité.",
+            "nb": "Article 2.1.0"
+          },
           "sections": [],
           "title": {
             "text": "Article 2.1.0 - Accessibilité."
@@ -1615,7 +1735,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.1.1",
+          "reference": {
+            "name": "Installations électriques.",
+            "nb": "Article 2.1.1"
+          },
           "sections": [],
           "title": {
             "text": "Article 2.1.1 - Installations électriques."
@@ -1671,7 +1794,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2.1.2",
+          "reference": {
+            "name": "Mise à la terre des équipements.",
+            "nb": "Article 2.1.2"
+          },
           "sections": [],
           "title": {
             "text": "Article 2.1.2 - Mise à la terre des équipements."
@@ -1699,7 +1825,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Exploitation",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -1718,7 +1847,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3.1",
+          "reference": {
+            "name": "Surveillance de l'exploitation.",
+            "nb": "Article 3.1"
+          },
           "sections": [],
           "title": {
             "text": "Article 3.1 - Surveillance de l'exploitation."
@@ -1741,7 +1873,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3.1.1",
+          "reference": {
+            "name": "Dispositions générales.",
+            "nb": "Article 3.1.1"
+          },
           "sections": [
             {
               "annotations": {
@@ -1764,7 +1899,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3.1.1",
+              "reference": {
+                "name": "Dispositions générales.",
+                "nb": "Article 3.1.1 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I."
@@ -1791,7 +1929,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3.1.1",
+              "reference": {
+                "name": "Dispositions générales.",
+                "nb": "Article 3.1.1 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II."
@@ -1836,7 +1977,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3.1.1",
+              "reference": {
+                "name": "Dispositions générales.",
+                "nb": "Article 3.1.1 > III."
+              },
               "sections": [],
               "title": {
                 "text": "III."
@@ -1864,7 +2008,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3.1.2",
+          "reference": {
+            "name": "Contrôles de sécurité.",
+            "nb": "Article 3.1.2"
+          },
           "sections": [
             {
               "annotations": {
@@ -1890,7 +2037,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3.1.2",
+              "reference": {
+                "name": "Contrôles de sécurité.",
+                "nb": "Article 3.1.2 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I."
@@ -1920,7 +2070,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3.1.2",
+              "reference": {
+                "name": "Contrôles de sécurité.",
+                "nb": "Article 3.1.2 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II."
@@ -1947,7 +2100,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3.1.2",
+              "reference": {
+                "name": "Contrôles de sécurité.",
+                "nb": "Article 3.1.2 > III."
+              },
               "sections": [],
               "title": {
                 "text": "III."
@@ -1974,7 +2130,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3.1.2",
+              "reference": {
+                "name": "Contrôles de sécurité.",
+                "nb": "Article 3.1.2 > IV."
+              },
               "sections": [],
               "title": {
                 "text": "IV."
@@ -2010,7 +2169,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3.1.2",
+              "reference": {
+                "name": "Contrôles de sécurité.",
+                "nb": "Article 3.1.2 > V."
+              },
               "sections": [],
               "title": {
                 "text": "V."
@@ -2054,7 +2216,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3.2",
+          "reference": {
+            "name": "Contrôle de l'accès.",
+            "nb": "Article 3.2"
+          },
           "sections": [],
           "title": {
             "text": "Article 3.2 - Contrôle de l'accès."
@@ -2077,7 +2242,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3.3",
+          "reference": {
+            "name": "Règles d'exploitation.",
+            "nb": "Article 3.3"
+          },
           "sections": [],
           "title": {
             "text": "Article 3.3 - Règles d'exploitation."
@@ -2143,7 +2311,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3.3.1",
+          "reference": {
+            "name": "Approvisionnement en hydrogène gazeux.",
+            "nb": "Article 3.3.1"
+          },
           "sections": [],
           "title": {
             "text": "Article 3.3.1 - Approvisionnement en hydrogène gazeux."
@@ -2197,7 +2368,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3.3.2",
+          "reference": {
+            "name": "Remplissage des véhicules.",
+            "nb": "Article 3.3.2"
+          },
           "sections": [],
           "title": {
             "text": "Article 3.3.2 - Remplissage des véhicules."
@@ -2233,7 +2407,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3.4",
+          "reference": {
+            "name": "Connaissance des produits - Etiquetage.",
+            "nb": "Article 3.4"
+          },
           "sections": [],
           "title": {
             "text": "Article 3.4 - Connaissance des produits - Etiquetage."
@@ -2260,7 +2437,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3.5",
+          "reference": {
+            "name": "Propreté.",
+            "nb": "Article 3.5"
+          },
           "sections": [],
           "title": {
             "text": "Article 3.5 - Propreté."
@@ -2305,7 +2485,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3.6",
+          "reference": {
+            "name": "Etat des stocks de produits dangereux.",
+            "nb": "Article 3.6"
+          },
           "sections": [],
           "title": {
             "text": "Article 3.6 - Etat des stocks de produits dangereux."
@@ -2333,7 +2516,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Risques",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -2397,7 +2583,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4.1",
+          "reference": {
+            "name": "Moyens de lutte contre l'incendie.",
+            "nb": "Article 4.1"
+          },
           "sections": [],
           "title": {
             "text": "Article 4.1 - Moyens de lutte contre l'incendie."
@@ -2439,7 +2628,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4.2",
+          "reference": {
+            "name": "Localisation des risques.",
+            "nb": "Article 4.2"
+          },
           "sections": [],
           "title": {
             "text": "Article 4.2 - Localisation des risques."
@@ -2472,7 +2664,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4.3",
+          "reference": {
+            "name": "Matériels utilisables en atmosphères explosibles.",
+            "nb": "Article 4.3"
+          },
           "sections": [],
           "title": {
             "text": "Article 4.3 - Matériels utilisables en atmosphères explosibles."
@@ -2532,7 +2727,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4.4",
+          "reference": {
+            "name": "« Permis de travaux ».",
+            "nb": "Article 4.4"
+          },
           "sections": [],
           "title": {
             "text": "Article 4.4 - « Permis de travaux »."
@@ -2598,7 +2796,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4.5",
+          "reference": {
+            "name": "Consignes de sécurité.",
+            "nb": "Article 4.5"
+          },
           "sections": [],
           "title": {
             "text": "Article 4.5 - Consignes de sécurité."
@@ -2621,7 +2822,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4.6",
+          "reference": {
+            "name": "Consignes d'exploitation.",
+            "nb": "Article 4.6"
+          },
           "sections": [
             {
               "annotations": {
@@ -2644,7 +2848,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 4.6",
+              "reference": {
+                "name": "Consignes d'exploitation.",
+                "nb": "Article 4.6 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I."
@@ -2686,7 +2893,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 4.6",
+              "reference": {
+                "name": "Consignes d'exploitation.",
+                "nb": "Article 4.6 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II."
@@ -2736,7 +2946,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4.7",
+          "reference": {
+            "name": "Consignes d'utilisation et de sécurité à destination des usagers.",
+            "nb": "Article 4.7"
+          },
           "sections": [],
           "title": {
             "text": "Article 4.7 - Consignes d'utilisation et de sécurité à destination des usagers."
@@ -2764,7 +2977,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Eau",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -2783,7 +2999,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5.1",
+          "reference": {
+            "name": "Dispositions générales.",
+            "nb": "Article 5.1"
+          },
           "sections": [],
           "title": {
             "text": "Article 5.1 - Dispositions générales."
@@ -2824,7 +3043,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5.1.1",
+          "reference": {
+            "name": "Compatibilité avec le Schéma Directeur d'Aménagement et de Gestion des Eaux (SDAGE).",
+            "nb": "Article 5.1.1"
+          },
           "sections": [],
           "title": {
             "text": "Article 5.1.1 - Compatibilité avec le Schéma Directeur d'Aménagement et de Gestion des Eaux (SDAGE)."
@@ -2857,7 +3079,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5.1.2",
+          "reference": {
+            "name": "Prélèvements.",
+            "nb": "Article 5.1.2"
+          },
           "sections": [],
           "title": {
             "text": "Article 5.1.2 - Prélèvements."
@@ -2884,7 +3109,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5.2",
+          "reference": {
+            "name": "Consommation.",
+            "nb": "Article 5.2"
+          },
           "sections": [],
           "title": {
             "text": "Article 5.2 - Consommation."
@@ -2920,7 +3148,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5.3",
+          "reference": {
+            "name": "Réseau de collecte, eaux pluviales.",
+            "nb": "Article 5.3"
+          },
           "sections": [],
           "title": {
             "text": "Article 5.3 - Réseau de collecte, eaux pluviales."
@@ -2947,7 +3178,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5.4",
+          "reference": {
+            "name": "Interdiction des rejets en nappe.",
+            "nb": "Article 5.4"
+          },
           "sections": [],
           "title": {
             "text": "Article 5.4 - Interdiction des rejets en nappe."
@@ -2988,7 +3222,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5.5",
+          "reference": {
+            "name": "Prévention des pollutions accidentelles.",
+            "nb": "Article 5.5"
+          },
           "sections": [],
           "title": {
             "text": "Article 5.5 - Prévention des pollutions accidentelles."
@@ -3016,7 +3253,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Déchets",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -3060,7 +3300,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 6.1",
+          "reference": {
+            "name": "Gestion des déchets.",
+            "nb": "Article 6.1"
+          },
           "sections": [],
           "title": {
             "text": "Article 6.1 - Gestion des déchets."
@@ -3102,7 +3345,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Bruit et vibrations",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -3246,7 +3492,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 7.1",
+          "reference": {
+            "name": "Bruit et vibrations",
+            "nb": "Article 7.1"
+          },
           "sections": [],
           "title": {
             "text": "Article 7.1 -"
@@ -3276,7 +3525,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 7.2",
+          "reference": {
+            "name": "Véhicules engins de chantier.",
+            "nb": "Article 7.2"
+          },
           "sections": [],
           "title": {
             "text": "Article 7.2 - Véhicules engins de chantier."
@@ -3303,7 +3555,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 7.3",
+          "reference": {
+            "name": "Vibrations.",
+            "nb": "Article 7.3"
+          },
           "sections": [
             {
               "annotations": {
@@ -3474,7 +3729,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7.3 7.3.1.",
+              "reference": {
+                "name": "Sources continues ou assimilées",
+                "nb": "Article 7.3 > 7.3.1."
+              },
               "sections": [],
               "title": {
                 "text": "7.3.1. Sources continues ou assimilées :"
@@ -3646,7 +3904,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7.3 7.3.2.",
+              "reference": {
+                "name": "Sources impulsionnelles",
+                "nb": "Article 7.3 > 7.3.2."
+              },
               "sections": [],
               "title": {
                 "text": "7.3.2. Sources impulsionnelles :"
@@ -3679,7 +3940,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Dispositions spécifiques",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -3708,7 +3972,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 8.1",
+          "reference": {
+            "name": "Dispositions spécifiques",
+            "nb": "Article 8.1"
+          },
           "sections": [],
           "title": {
             "text": "Article 8.1"
@@ -3750,7 +4017,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 8.2",
+          "reference": {
+            "name": "Dispositions spécifiques",
+            "nb": "Article 8.2"
+          },
           "sections": [],
           "title": {
             "text": "Article 8.2"
@@ -3778,7 +4048,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Exécution",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -3801,7 +4074,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 9.1",
+          "reference": {
+            "name": "Entrée en vigueur.",
+            "nb": "Article 9.1"
+          },
           "sections": [],
           "title": {
             "text": "Article 9.1 - Entrée en vigueur."
@@ -3828,7 +4104,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 9.2",
+          "reference": {
+            "name": "Exécution.",
+            "nb": "Article 9.2"
+          },
           "sections": [],
           "title": {
             "text": "Article 9.2 - Exécution."
@@ -3856,7 +4135,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -3969,7 +4251,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe I",
+          "reference": {
+            "name": "DISPOSITIONS APPLICABLES AUX INSTALLATIONS EXISTANTES",
+            "nb": "Annexe I"
+          },
           "sections": [],
           "title": {
             "text": "Annexe I - DISPOSITIONS APPLICABLES AUX INSTALLATIONS EXISTANTES"
@@ -3996,7 +4281,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II",
+          "reference": {
+            "name": "",
+            "nb": "Annexe II"
+          },
           "sections": [],
           "title": {
             "text": "Annexe II"

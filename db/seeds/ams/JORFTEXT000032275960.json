@@ -45,7 +45,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DÉFINITIONS ET CHAMP D'APPLICATION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -155,7 +158,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1",
+          "reference": {
+            "name": "DÉFINITIONS ET CHAMP D'APPLICATION",
+            "nb": "Article 1"
+          },
           "sections": [],
           "title": {
             "text": "Article 1"
@@ -218,7 +224,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2",
+          "reference": {
+            "name": "DÉFINITIONS ET CHAMP D'APPLICATION",
+            "nb": "Article 2"
+          },
           "sections": [],
           "title": {
             "text": "Article 2"
@@ -272,7 +281,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3",
+          "reference": {
+            "name": "DÉFINITIONS ET CHAMP D'APPLICATION",
+            "nb": "Article 3"
+          },
           "sections": [],
           "title": {
             "text": "Article 3"
@@ -347,7 +359,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4",
+          "reference": {
+            "name": "DÉFINITIONS ET CHAMP D'APPLICATION",
+            "nb": "Article 4"
+          },
           "sections": [],
           "title": {
             "text": "Article 4"
@@ -375,7 +390,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "CONCEPTION ET CONSTRUCTION DE L'INSTALLATION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -394,7 +412,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Localisation de l'installation et maîtrise foncière",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -420,7 +441,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 5",
+              "reference": {
+                "name": "Localisation de l'installation et maîtrise foncière",
+                "nb": "Article 5"
+              },
               "sections": [],
               "title": {
                 "text": "Article 5"
@@ -456,7 +480,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 6",
+              "reference": {
+                "name": "Localisation de l'installation et maîtrise foncière",
+                "nb": "Article 6"
+              },
               "sections": [],
               "title": {
                 "text": "Article 6"
@@ -513,7 +540,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7",
+              "reference": {
+                "name": "Localisation de l'installation et maîtrise foncière",
+                "nb": "Article 7"
+              },
               "sections": [],
               "title": {
                 "text": "Article 7"
@@ -541,7 +571,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Exigences relatives à l'étanchéité, au drainage et à la stabilité",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -579,7 +612,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 8",
+              "reference": {
+                "name": "Exigences relatives à l'étanchéité, au drainage et à la stabilité",
+                "nb": "Article 8"
+              },
               "sections": [],
               "title": {
                 "text": "Article 8"
@@ -602,7 +638,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 9",
+              "reference": {
+                "name": "Exigences relatives à l'étanchéité, au drainage et à la stabilité",
+                "nb": "Article 9"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -634,7 +673,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 9",
+                  "reference": {
+                    "name": "Exigences relatives à l'étanchéité, au drainage et à la stabilité",
+                    "nb": "Article 9 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -664,7 +706,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 9",
+                  "reference": {
+                    "name": "Exigences relatives à l'étanchéité, au drainage et à la stabilité",
+                    "nb": "Article 9 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -694,7 +739,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 9",
+                  "reference": {
+                    "name": "Exigences relatives à l'étanchéité, au drainage et à la stabilité",
+                    "nb": "Article 9 > III."
+                  },
                   "sections": [],
                   "title": {
                     "text": "III."
@@ -729,7 +777,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 10",
+              "reference": {
+                "name": "Exigences relatives à l'étanchéité, au drainage et à la stabilité",
+                "nb": "Article 10"
+              },
               "sections": [],
               "title": {
                 "text": "Article 10"
@@ -757,7 +808,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Exigences relatives à la collecte et au traitement des lixiviats, rejets gazeux, eaux de ruissellement et surveillance des eaux souterraines",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -790,7 +844,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 11",
+              "reference": {
+                "name": "Exigences relatives à la collecte et au traitement des lixiviats, rejets gazeux, eaux de ruissellement et surveillance des eaux souterraines",
+                "nb": "Article 11"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -828,7 +885,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 11",
+                  "reference": {
+                    "name": "Exigences relatives à la collecte et au traitement des lixiviats, rejets gazeux, eaux de ruissellement et surveillance des eaux souterraines",
+                    "nb": "Article 11 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -876,7 +936,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 11",
+                  "reference": {
+                    "name": "Exigences relatives à la collecte et au traitement des lixiviats, rejets gazeux, eaux de ruissellement et surveillance des eaux souterraines",
+                    "nb": "Article 11 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -924,7 +987,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 11",
+                  "reference": {
+                    "name": "Exigences relatives à la collecte et au traitement des lixiviats, rejets gazeux, eaux de ruissellement et surveillance des eaux souterraines",
+                    "nb": "Article 11 > III."
+                  },
                   "sections": [],
                   "title": {
                     "text": "III."
@@ -960,7 +1026,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 11",
+                  "reference": {
+                    "name": "Exigences relatives à la collecte et au traitement des lixiviats, rejets gazeux, eaux de ruissellement et surveillance des eaux souterraines",
+                    "nb": "Article 11 > IV."
+                  },
                   "sections": [],
                   "title": {
                     "text": "IV."
@@ -1002,7 +1071,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 12",
+              "reference": {
+                "name": "Exigences relatives à la collecte et au traitement des lixiviats, rejets gazeux, eaux de ruissellement et surveillance des eaux souterraines",
+                "nb": "Article 12"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1034,7 +1106,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 12",
+                  "reference": {
+                    "name": "Exigences relatives à la collecte et au traitement des lixiviats, rejets gazeux, eaux de ruissellement et surveillance des eaux souterraines",
+                    "nb": "Article 12 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -1076,7 +1151,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 12",
+                  "reference": {
+                    "name": "Exigences relatives à la collecte et au traitement des lixiviats, rejets gazeux, eaux de ruissellement et surveillance des eaux souterraines",
+                    "nb": "Article 12 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -1125,7 +1203,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 13",
+              "reference": {
+                "name": "Exigences relatives à la collecte et au traitement des lixiviats, rejets gazeux, eaux de ruissellement et surveillance des eaux souterraines",
+                "nb": "Article 13"
+              },
               "sections": [],
               "title": {
                 "text": "Article 13"
@@ -1162,7 +1243,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 14",
+              "reference": {
+                "name": "Exigences relatives à la collecte et au traitement des lixiviats, rejets gazeux, eaux de ruissellement et surveillance des eaux souterraines",
+                "nb": "Article 14"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1197,7 +1281,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 14",
+                  "reference": {
+                    "name": "Exigences relatives à la collecte et au traitement des lixiviats, rejets gazeux, eaux de ruissellement et surveillance des eaux souterraines",
+                    "nb": "Article 14 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -1239,7 +1326,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 14",
+                  "reference": {
+                    "name": "Exigences relatives à la collecte et au traitement des lixiviats, rejets gazeux, eaux de ruissellement et surveillance des eaux souterraines",
+                    "nb": "Article 14 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -1272,7 +1362,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Dispositions diverses",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -1322,7 +1415,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 15",
+              "reference": {
+                "name": "Dispositions diverses",
+                "nb": "Article 15"
+              },
               "sections": [],
               "title": {
                 "text": "Article 15"
@@ -1345,7 +1441,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 16",
+              "reference": {
+                "name": "Dispositions diverses",
+                "nb": "Article 16"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1368,7 +1467,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 16",
+                  "reference": {
+                    "name": "Dispositions diverses",
+                    "nb": "Article 16 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -1398,7 +1500,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 16",
+                  "reference": {
+                    "name": "Dispositions diverses",
+                    "nb": "Article 16 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -1425,7 +1530,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 16",
+                  "reference": {
+                    "name": "Dispositions diverses",
+                    "nb": "Article 16 > III."
+                  },
                   "sections": [],
                   "title": {
                     "text": "III."
@@ -1458,7 +1566,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 16",
+                  "reference": {
+                    "name": "Dispositions diverses",
+                    "nb": "Article 16 > IV."
+                  },
                   "sections": [],
                   "title": {
                     "text": "IV."
@@ -1505,7 +1616,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 16",
+                  "reference": {
+                    "name": "Dispositions diverses",
+                    "nb": "Article 16 > V."
+                  },
                   "sections": [],
                   "title": {
                     "text": "V."
@@ -1543,7 +1657,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "EXPLOITATION DE L'INSTALLATION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -1562,7 +1679,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Etat initial",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -1623,7 +1743,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 17",
+              "reference": {
+                "name": "Etat initial",
+                "nb": "Article 17"
+              },
               "sections": [],
               "title": {
                 "text": "Article 17"
@@ -1651,7 +1774,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Contrôles préalables à la mise en service des équipements",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -1683,7 +1809,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 18",
+              "reference": {
+                "name": "Contrôles préalables à la mise en service des équipements",
+                "nb": "Article 18"
+              },
               "sections": [],
               "title": {
                 "text": "Article 18"
@@ -1716,7 +1845,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 19",
+              "reference": {
+                "name": "Contrôles préalables à la mise en service des équipements",
+                "nb": "Article 19"
+              },
               "sections": [],
               "title": {
                 "text": "Article 19"
@@ -1739,7 +1871,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 20",
+              "reference": {
+                "name": "Contrôles préalables à la mise en service des équipements",
+                "nb": "Article 20"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1797,7 +1932,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 20",
+                  "reference": {
+                    "name": "Contrôles préalables à la mise en service des équipements",
+                    "nb": "Article 20 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -1847,7 +1985,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 20",
+                  "reference": {
+                    "name": "Contrôles préalables à la mise en service des équipements",
+                    "nb": "Article 20 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -1874,7 +2015,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 20",
+                  "reference": {
+                    "name": "Contrôles préalables à la mise en service des équipements",
+                    "nb": "Article 20 > III."
+                  },
                   "sections": [],
                   "title": {
                     "text": "III."
@@ -1904,7 +2048,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 20",
+                  "reference": {
+                    "name": "Contrôles préalables à la mise en service des équipements",
+                    "nb": "Article 20 > IV."
+                  },
                   "sections": [],
                   "title": {
                     "text": "IV."
@@ -1937,7 +2084,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Contrôles périodiques en cours d'exploitation",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -1956,7 +2106,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 21",
+              "reference": {
+                "name": "Contrôles périodiques en cours d'exploitation",
+                "nb": "Article 21"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1988,7 +2141,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 21",
+                  "reference": {
+                    "name": "Contrôles périodiques en cours d'exploitation",
+                    "nb": "Article 21 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -2021,7 +2177,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 21",
+                  "reference": {
+                    "name": "Contrôles périodiques en cours d'exploitation",
+                    "nb": "Article 21 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -2066,7 +2225,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 21",
+                  "reference": {
+                    "name": "Contrôles périodiques en cours d'exploitation",
+                    "nb": "Article 21 > III."
+                  },
                   "sections": [],
                   "title": {
                     "text": "III."
@@ -2099,7 +2261,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 21",
+                  "reference": {
+                    "name": "Contrôles périodiques en cours d'exploitation",
+                    "nb": "Article 21 > IV."
+                  },
                   "sections": [],
                   "title": {
                     "text": "IV."
@@ -2127,7 +2292,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 22",
+              "reference": {
+                "name": "Contrôles périodiques en cours d'exploitation",
+                "nb": "Article 22"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -2153,7 +2321,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 22",
+                  "reference": {
+                    "name": "Contrôles périodiques en cours d'exploitation",
+                    "nb": "Article 22 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -2195,7 +2366,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 22",
+                  "reference": {
+                    "name": "Contrôles périodiques en cours d'exploitation",
+                    "nb": "Article 22 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -2222,7 +2396,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 22",
+                  "reference": {
+                    "name": "Contrôles périodiques en cours d'exploitation",
+                    "nb": "Article 22 > III."
+                  },
                   "sections": [],
                   "title": {
                     "text": "III."
@@ -2255,7 +2432,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 22",
+                  "reference": {
+                    "name": "Contrôles périodiques en cours d'exploitation",
+                    "nb": "Article 22 > IV."
+                  },
                   "sections": [],
                   "title": {
                     "text": "IV."
@@ -2308,7 +2488,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 23",
+              "reference": {
+                "name": "Contrôles périodiques en cours d'exploitation",
+                "nb": "Article 23"
+              },
               "sections": [],
               "title": {
                 "text": "Article 23"
@@ -2362,7 +2545,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 24",
+              "reference": {
+                "name": "Contrôles périodiques en cours d'exploitation",
+                "nb": "Article 24"
+              },
               "sections": [],
               "title": {
                 "text": "Article 24"
@@ -2389,7 +2575,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 25",
+              "reference": {
+                "name": "Contrôles périodiques en cours d'exploitation",
+                "nb": "Article 25"
+              },
               "sections": [],
               "title": {
                 "text": "Article 25"
@@ -2422,7 +2611,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 26",
+              "reference": {
+                "name": "Contrôles périodiques en cours d'exploitation",
+                "nb": "Article 26"
+              },
               "sections": [],
               "title": {
                 "text": "Article 26"
@@ -2450,7 +2642,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Admission des déchets",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -2485,7 +2680,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 27",
+              "reference": {
+                "name": "Admission des déchets",
+                "nb": "Article 27"
+              },
               "sections": [],
               "title": {
                 "text": "Article 27"
@@ -2521,7 +2719,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 28",
+              "reference": {
+                "name": "Admission des déchets",
+                "nb": "Article 28"
+              },
               "sections": [],
               "title": {
                 "text": "Article 28"
@@ -2560,7 +2761,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 29",
+              "reference": {
+                "name": "Admission des déchets",
+                "nb": "Article 29"
+              },
               "sections": [],
               "title": {
                 "text": "Article 29"
@@ -2583,7 +2787,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 30",
+              "reference": {
+                "name": "Admission des déchets",
+                "nb": "Article 30"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -2621,7 +2828,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 30",
+                  "reference": {
+                    "name": "Admission des déchets",
+                    "nb": "Article 30 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -2651,7 +2861,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 30",
+                  "reference": {
+                    "name": "Admission des déchets",
+                    "nb": "Article 30 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -2678,7 +2891,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 30",
+                  "reference": {
+                    "name": "Admission des déchets",
+                    "nb": "Article 30 > III."
+                  },
                   "sections": [],
                   "title": {
                     "text": "III."
@@ -2752,7 +2968,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 31",
+              "reference": {
+                "name": "Admission des déchets",
+                "nb": "Article 31"
+              },
               "sections": [],
               "title": {
                 "text": "Article 31"
@@ -2788,7 +3007,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 32",
+              "reference": {
+                "name": "Admission des déchets",
+                "nb": "Article 32"
+              },
               "sections": [],
               "title": {
                 "text": "Article 32"
@@ -2816,7 +3038,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Conduite d'exploitation",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -2835,7 +3060,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 33",
+              "reference": {
+                "name": "Conduite d'exploitation",
+                "nb": "Article 33"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -2858,7 +3086,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 33",
+                  "reference": {
+                    "name": "Conduite d'exploitation",
+                    "nb": "Article 33 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -2891,7 +3122,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 33",
+                  "reference": {
+                    "name": "Conduite d'exploitation",
+                    "nb": "Article 33 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -2924,7 +3158,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 33",
+                  "reference": {
+                    "name": "Conduite d'exploitation",
+                    "nb": "Article 33 > III."
+                  },
                   "sections": [],
                   "title": {
                     "text": "III."
@@ -2951,7 +3188,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 33",
+                  "reference": {
+                    "name": "Conduite d'exploitation",
+                    "nb": "Article 33 > IV."
+                  },
                   "sections": [],
                   "title": {
                     "text": "IV."
@@ -2978,7 +3218,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 33",
+                  "reference": {
+                    "name": "Conduite d'exploitation",
+                    "nb": "Article 33 > V."
+                  },
                   "sections": [],
                   "title": {
                     "text": "V."
@@ -3005,7 +3248,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 33",
+                  "reference": {
+                    "name": "Conduite d'exploitation",
+                    "nb": "Article 33 > VI."
+                  },
                   "sections": [],
                   "title": {
                     "text": "VI."
@@ -3035,7 +3281,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 33",
+                  "reference": {
+                    "name": "Conduite d'exploitation",
+                    "nb": "Article 33 > VII."
+                  },
                   "sections": [],
                   "title": {
                     "text": "VII."
@@ -3073,7 +3322,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "FIN D'EXPLOITATION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -3096,7 +3348,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 34",
+          "reference": {
+            "name": "FIN D'EXPLOITATION",
+            "nb": "Article 34"
+          },
           "sections": [],
           "title": {
             "text": "Article 34"
@@ -3147,7 +3402,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 35",
+          "reference": {
+            "name": "FIN D'EXPLOITATION",
+            "nb": "Article 35"
+          },
           "sections": [],
           "title": {
             "text": "Article 35"
@@ -3180,7 +3438,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 36",
+          "reference": {
+            "name": "FIN D'EXPLOITATION",
+            "nb": "Article 36"
+          },
           "sections": [],
           "title": {
             "text": "Article 36"
@@ -3285,7 +3546,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 37",
+          "reference": {
+            "name": "FIN D'EXPLOITATION",
+            "nb": "Article 37"
+          },
           "sections": [],
           "title": {
             "text": "Article 37"
@@ -3318,7 +3582,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 38",
+          "reference": {
+            "name": "FIN D'EXPLOITATION",
+            "nb": "Article 38"
+          },
           "sections": [],
           "title": {
             "text": "Article 38"
@@ -3346,7 +3613,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DISPOSITIONS RELATIVES À CERTAINS CASIERS",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -3365,7 +3635,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Dispositions spécifiques aux casiers dédiés aux déchets de matériaux de construction contenant de l'amiante",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -3394,7 +3667,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 39",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers dédiés aux déchets de matériaux de construction contenant de l'amiante",
+                "nb": "Article 39"
+              },
               "sections": [],
               "title": {
                 "text": "Article 39"
@@ -3433,7 +3709,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 40",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers dédiés aux déchets de matériaux de construction contenant de l'amiante",
+                "nb": "Article 40"
+              },
               "sections": [],
               "title": {
                 "text": "Article 40"
@@ -3472,7 +3751,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 41",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers dédiés aux déchets de matériaux de construction contenant de l'amiante",
+                "nb": "Article 41"
+              },
               "sections": [],
               "title": {
                 "text": "Article 41"
@@ -3514,7 +3796,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 42",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers dédiés aux déchets de matériaux de construction contenant de l'amiante",
+                "nb": "Article 42"
+              },
               "sections": [],
               "title": {
                 "text": "Article 42"
@@ -3537,7 +3822,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 43",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers dédiés aux déchets de matériaux de construction contenant de l'amiante",
+                "nb": "Article 43"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3560,7 +3848,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 43",
+                  "reference": {
+                    "name": "Dispositions spécifiques aux casiers dédiés aux déchets de matériaux de construction contenant de l'amiante",
+                    "nb": "Article 43 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -3587,7 +3878,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 43",
+                  "reference": {
+                    "name": "Dispositions spécifiques aux casiers dédiés aux déchets de matériaux de construction contenant de l'amiante",
+                    "nb": "Article 43 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -3619,7 +3913,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 44",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers dédiés aux déchets de matériaux de construction contenant de l'amiante",
+                "nb": "Article 44"
+              },
               "sections": [],
               "title": {
                 "text": "Article 44"
@@ -3642,7 +3939,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 45",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers dédiés aux déchets de matériaux de construction contenant de l'amiante",
+                "nb": "Article 45"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3686,7 +3986,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 45",
+                  "reference": {
+                    "name": "Dispositions spécifiques aux casiers dédiés aux déchets de matériaux de construction contenant de l'amiante",
+                    "nb": "Article 45 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -3713,7 +4016,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 45",
+                  "reference": {
+                    "name": "Dispositions spécifiques aux casiers dédiés aux déchets de matériaux de construction contenant de l'amiante",
+                    "nb": "Article 45 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -3746,7 +4052,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Dispositions spécifiques aux casiers mono-déchets autres que ceux visés au chapitre Ier de ce présent titre",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -3769,7 +4078,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 46",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers mono-déchets autres que ceux visés au chapitre Ier de ce présent titre",
+                "nb": "Article 46"
+              },
               "sections": [],
               "title": {
                 "text": "Article 46"
@@ -3817,7 +4129,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 47",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers mono-déchets autres que ceux visés au chapitre Ier de ce présent titre",
+                "nb": "Article 47"
+              },
               "sections": [],
               "title": {
                 "text": "Article 47"
@@ -3844,7 +4159,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 48",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers mono-déchets autres que ceux visés au chapitre Ier de ce présent titre",
+                "nb": "Article 48"
+              },
               "sections": [],
               "title": {
                 "text": "Article 48"
@@ -3871,7 +4189,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 49",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers mono-déchets autres que ceux visés au chapitre Ier de ce présent titre",
+                "nb": "Article 49"
+              },
               "sections": [],
               "title": {
                 "text": "Article 49"
@@ -3894,7 +4215,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 50",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers mono-déchets autres que ceux visés au chapitre Ier de ce présent titre",
+                "nb": "Article 50"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3935,7 +4259,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 50",
+                  "reference": {
+                    "name": "Dispositions spécifiques aux casiers mono-déchets autres que ceux visés au chapitre Ier de ce présent titre",
+                    "nb": "Article 50 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -3962,7 +4289,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 50",
+                  "reference": {
+                    "name": "Dispositions spécifiques aux casiers mono-déchets autres que ceux visés au chapitre Ier de ce présent titre",
+                    "nb": "Article 50 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -3995,7 +4325,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Dispositions spécifiques aux déchets de plâtre",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -4097,7 +4430,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 51",
+              "reference": {
+                "name": "Dispositions spécifiques aux déchets de plâtre",
+                "nb": "Article 51"
+              },
               "sections": [],
               "title": {
                 "text": "Article 51"
@@ -4125,7 +4461,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Dispositions spécifiques aux casiers exploités en mode bioréacteur",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -4172,7 +4511,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 52",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers exploités en mode bioréacteur",
+                "nb": "Article 52"
+              },
               "sections": [],
               "title": {
                 "text": "Article 52"
@@ -4202,7 +4544,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 53",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers exploités en mode bioréacteur",
+                "nb": "Article 53"
+              },
               "sections": [],
               "title": {
                 "text": "Article 53"
@@ -4225,7 +4570,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 54",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers exploités en mode bioréacteur",
+                "nb": "Article 54"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -4248,7 +4596,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 54",
+                  "reference": {
+                    "name": "Dispositions spécifiques aux casiers exploités en mode bioréacteur",
+                    "nb": "Article 54 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -4275,7 +4626,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 54",
+                  "reference": {
+                    "name": "Dispositions spécifiques aux casiers exploités en mode bioréacteur",
+                    "nb": "Article 54 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -4307,7 +4661,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 55",
+              "reference": {
+                "name": "Dispositions spécifiques aux casiers exploités en mode bioréacteur",
+                "nb": "Article 55"
+              },
               "sections": [],
               "title": {
                 "text": "Article 55"
@@ -4335,7 +4692,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Dispositions spécifiques aux installations recevant des déchets à radioactivité naturelle renforcée",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -4361,7 +4721,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 56",
+              "reference": {
+                "name": "Dispositions spécifiques aux installations recevant des déchets à radioactivité naturelle renforcée",
+                "nb": "Article 56"
+              },
               "sections": [],
               "title": {
                 "text": "Article 56"
@@ -4391,7 +4754,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 57",
+              "reference": {
+                "name": "Dispositions spécifiques aux installations recevant des déchets à radioactivité naturelle renforcée",
+                "nb": "Article 57"
+              },
               "sections": [],
               "title": {
                 "text": "Article 57"
@@ -4418,7 +4784,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 58",
+              "reference": {
+                "name": "Dispositions spécifiques aux installations recevant des déchets à radioactivité naturelle renforcée",
+                "nb": "Article 58"
+              },
               "sections": [],
               "title": {
                 "text": "Article 58"
@@ -4463,7 +4832,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 59",
+              "reference": {
+                "name": "Dispositions spécifiques aux installations recevant des déchets à radioactivité naturelle renforcée",
+                "nb": "Article 59"
+              },
               "sections": [],
               "title": {
                 "text": "Article 59"
@@ -4493,7 +4865,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 60",
+              "reference": {
+                "name": "Dispositions spécifiques aux installations recevant des déchets à radioactivité naturelle renforcée",
+                "nb": "Article 60"
+              },
               "sections": [],
               "title": {
                 "text": "Article 60"
@@ -4520,7 +4895,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 61",
+              "reference": {
+                "name": "Dispositions spécifiques aux installations recevant des déchets à radioactivité naturelle renforcée",
+                "nb": "Article 61"
+              },
               "sections": [],
               "title": {
                 "text": "Article 61"
@@ -4571,7 +4949,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 62",
+              "reference": {
+                "name": "Dispositions spécifiques aux installations recevant des déchets à radioactivité naturelle renforcée",
+                "nb": "Article 62"
+              },
               "sections": [],
               "title": {
                 "text": "Article 62"
@@ -4604,7 +4985,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "MODALITÉS D'APPLICATION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -4651,7 +5035,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 63",
+          "reference": {
+            "name": "MODALITÉS D'APPLICATION",
+            "nb": "Article 63"
+          },
           "sections": [],
           "title": {
             "text": "Article 63"
@@ -4678,7 +5065,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 64",
+          "reference": {
+            "name": "MODALITÉS D'APPLICATION",
+            "nb": "Article 64"
+          },
           "sections": [],
           "title": {
             "text": "Article 64"
@@ -4706,7 +5096,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "MISES À JOUR RÉGLEMENTAIRES",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -4735,7 +5128,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 65",
+          "reference": {
+            "name": "MISES À JOUR RÉGLEMENTAIRES",
+            "nb": "Article 65"
+          },
           "sections": [],
           "title": {
             "text": "Article 65"
@@ -4768,7 +5164,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 66",
+          "reference": {
+            "name": "MISES À JOUR RÉGLEMENTAIRES",
+            "nb": "Article 66"
+          },
           "sections": [],
           "title": {
             "text": "Article 66"
@@ -4796,7 +5195,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "EXÉCUTION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -4828,7 +5230,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 67",
+          "reference": {
+            "name": "EXÉCUTION",
+            "nb": "Article 67"
+          },
           "sections": [],
           "title": {
             "text": "Article 67"
@@ -4855,7 +5260,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 68",
+          "reference": {
+            "name": "EXÉCUTION",
+            "nb": "Article 68"
+          },
           "sections": [],
           "title": {
             "text": "Article 68"
@@ -4883,7 +5291,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -6027,7 +6438,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe I",
+          "reference": {
+            "name": "",
+            "nb": "Annexe I"
+          },
           "sections": [],
           "title": {
             "text": "Annexe I"
@@ -6050,7 +6464,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II",
+          "reference": {
+            "name": "DISPOSITIONS RELATIVES AU CONTRÔLE DES EAUX, DES LIXIVIATS ET DES GAZ",
+            "nb": "Annexe II"
+          },
           "sections": [
             {
               "annotations": {
@@ -6254,7 +6671,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 1.",
+              "reference": {
+                "name": "Données relatives aux rejets",
+                "nb": "Annexe II > 1."
+              },
               "sections": [],
               "title": {
                 "text": "1. Données relatives aux rejets"
@@ -6293,7 +6713,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 2.",
+              "reference": {
+                "name": "Surveillance des eaux souterraines",
+                "nb": "Annexe II > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Surveillance des eaux souterraines"
@@ -6321,7 +6744,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III",
+          "reference": {
+            "name": "LES NIVEAUX DE VÉRIFICATION",
+            "nb": "Annexe III"
+          },
           "sections": [
             {
               "annotations": {
@@ -6344,7 +6770,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 1.",
+              "reference": {
+                "name": "Caractérisation de base",
+                "nb": "Annexe III > 1."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -6385,7 +6814,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 1. a)",
+                  "reference": {
+                    "name": "Informations à fournir",
+                    "nb": "Annexe III > 1. a)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "a) Informations à fournir :"
@@ -6427,7 +6859,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 1. b)",
+                  "reference": {
+                    "name": "Essais à réaliser",
+                    "nb": "Annexe III > 1. b)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "b) Essais à réaliser :"
@@ -6460,7 +6895,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 1. c)",
+                  "reference": {
+                    "name": "Dispositions particulières",
+                    "nb": "Annexe III > 1. c)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "c) Dispositions particulières :"
@@ -6493,7 +6931,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 1. d)",
+                  "reference": {
+                    "name": "Caractérisation de base et vérification de la conformité",
+                    "nb": "Annexe III > 1. d)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "d) Caractérisation de base et vérification de la conformité :"
@@ -6543,7 +6984,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 2.",
+              "reference": {
+                "name": "Vérification de la conformité",
+                "nb": "Annexe III > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Vérification de la conformité"
@@ -6570,7 +7014,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 3.",
+              "reference": {
+                "name": "Attestation du producteur",
+                "nb": "Annexe III > 3."
+              },
               "sections": [],
               "title": {
                 "text": "3. Attestation du producteur"
@@ -6602,7 +7049,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV",
+          "reference": {
+            "name": "MODALITÉS D'ACCEPTATION DE DÉCHETS À RADIOACTIVITÉ NATURELLE RENFORCÉE DANS UNE INSTALLATION DE STOCKAGE DE DÉCHETS NON DANGEREUX",
+            "nb": "Annexe IV"
+          },
           "sections": [
             {
               "annotations": {
@@ -6631,7 +7081,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 1.",
+              "reference": {
+                "name": "Etude d'acceptabilité",
+                "nb": "Annexe IV > 1."
+              },
               "sections": [],
               "title": {
                 "text": "1. Etude d'acceptabilité"
@@ -6664,7 +7117,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 2.",
+              "reference": {
+                "name": "Le producteur du déchet est responsable de sa caractérisation physico-chimique et radiologique",
+                "nb": "Annexe IV > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Le producteur du déchet est responsable de sa caractérisation physico-chimique et radiologique"
@@ -6691,7 +7147,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 3.",
+              "reference": {
+                "name": "Evaluation de l'acceptabilité du déchet",
+                "nb": "Annexe IV > 3."
+              },
               "sections": [],
               "title": {
                 "text": "3. Evaluation de l'acceptabilité du déchet"

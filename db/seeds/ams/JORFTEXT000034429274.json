@@ -75,7 +75,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 1",
+      "reference": {
+        "name": "",
+        "nb": "Article 1"
+      },
       "sections": [],
       "title": {
         "text": "Article 1"
@@ -126,7 +129,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 2",
+      "reference": {
+        "name": "",
+        "nb": "Article 2"
+      },
       "sections": [],
       "title": {
         "text": "Article 2"
@@ -153,7 +159,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 3",
+      "reference": {
+        "name": "",
+        "nb": "Article 3"
+      },
       "sections": [],
       "title": {
         "text": "Article 3"
@@ -186,7 +195,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 4",
+      "reference": {
+        "name": "",
+        "nb": "Article 4"
+      },
       "sections": [],
       "title": {
         "text": "Article 4"
@@ -225,7 +237,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 5",
+      "reference": {
+        "name": "",
+        "nb": "Article 5"
+      },
       "sections": [],
       "title": {
         "text": "Article 5"
@@ -279,7 +294,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 6",
+      "reference": {
+        "name": "",
+        "nb": "Article 6"
+      },
       "sections": [],
       "title": {
         "text": "Article 6"
@@ -306,7 +324,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 7",
+      "reference": {
+        "name": "",
+        "nb": "Article 7"
+      },
       "sections": [],
       "title": {
         "text": "Article 7"
@@ -333,7 +354,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 8",
+      "reference": {
+        "name": "",
+        "nb": "Article 8"
+      },
       "sections": [],
       "title": {
         "text": "Article 8"
@@ -356,7 +380,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -553,7 +580,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe I",
+          "reference": {
+            "name": "DÉFINITIONS",
+            "nb": "Annexe I"
+          },
           "sections": [],
           "title": {
             "text": "Annexe I - DÉFINITIONS"
@@ -576,7 +606,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II",
+          "reference": {
+            "name": "PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES POUR LA PROTECTION DE L'ENVIRONNEMENT SOUMISES À LA RUBRIQUE 1510",
+            "nb": "Annexe II"
+          },
           "sections": [
             {
               "annotations": {
@@ -595,7 +628,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 1.",
+              "reference": {
+                "name": "Dispositions générales",
+                "nb": "Annexe II > 1."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -618,7 +654,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 1.1.",
+                  "reference": {
+                    "name": "Conformité de l'installation",
+                    "nb": "Annexe II > 1.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.1. Conformité de l'installation"
@@ -666,7 +705,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 1.2.",
+                  "reference": {
+                    "name": "Contenu du dossier",
+                    "nb": "Annexe II > 1.2."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -689,7 +731,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.2.1.",
+                      "reference": {
+                        "name": "Informations minimales contenues dans les études de dangers",
+                        "nb": "Annexe II > 1.2.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.2.1. Informations minimales contenues dans les études de dangers"
@@ -727,7 +772,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 1.3.",
+                  "reference": {
+                    "name": "Intégration dans le paysage",
+                    "nb": "Annexe II > 1.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.3. Intégration dans le paysage"
@@ -750,7 +798,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 1.4.",
+                  "reference": {
+                    "name": "Etat des matières stockées",
+                    "nb": "Annexe II > 1.4."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -809,7 +860,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.4. I.",
+                      "reference": {
+                        "name": "Dispositions applicables aux installations à enregistrement et autorisation",
+                        "nb": "Annexe II > 1.4. I."
+                      },
                       "sections": [],
                       "title": {
                         "text": "I. - Dispositions applicables aux installations à enregistrement et autorisation :"
@@ -842,7 +896,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.4. II.",
+                      "reference": {
+                        "name": "Dispositions applicables aux installations à déclaration",
+                        "nb": "Annexe II > 1.4. II."
+                      },
                       "sections": [],
                       "title": {
                         "text": "II. - Dispositions applicables aux installations à déclaration :"
@@ -874,7 +931,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 1.5.",
+                  "reference": {
+                    "name": "En cas de sinistre, l'exploitant prend les dispositions nécessaires pour assurer la sécurité des personnes et réaliser les premières mesures de sécurité. Il met en œuvre les actions prévues par le plan de défense incendie défini au point 23 de la présente annexe et par son plan d'opération interne, lorsqu'il existe.",
+                    "nb": "Annexe II > 1.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.5. En cas de sinistre, l'exploitant prend les dispositions nécessaires pour assurer la sécurité des personnes et réaliser les premières mesures de sécurité. Il met en œuvre les actions prévues par le plan de défense incendie défini au point 23 de la présente annexe et par son plan d'opération interne, lorsqu'il existe."
@@ -897,7 +957,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 1.6.",
+                  "reference": {
+                    "name": "Eau",
+                    "nb": "Annexe II > 1.6."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -944,7 +1007,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.6.1.",
+                      "reference": {
+                        "name": "Plan des réseaux",
+                        "nb": "Annexe II > 1.6.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.6.1. Plan des réseaux"
@@ -977,7 +1043,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.6.2.",
+                      "reference": {
+                        "name": "Entretien et surveillance",
+                        "nb": "Annexe II > 1.6.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.6.2. Entretien et surveillance"
@@ -1013,7 +1082,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.6.3.",
+                      "reference": {
+                        "name": "Caractéristiques générales de l'ensemble des rejets",
+                        "nb": "Annexe II > 1.6.3."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.6.3. Caractéristiques générales de l'ensemble des rejets"
@@ -1073,7 +1145,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.6.4.",
+                      "reference": {
+                        "name": "Eaux pluviales",
+                        "nb": "Annexe II > 1.6.4."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.6.4. Eaux pluviales"
@@ -1103,7 +1178,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.6.5.",
+                      "reference": {
+                        "name": "Eaux domestiques",
+                        "nb": "Annexe II > 1.6.5."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.6.5. Eaux domestiques"
@@ -1131,7 +1209,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 1.7.",
+                  "reference": {
+                    "name": "Déchets",
+                    "nb": "Annexe II > 1.7."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -1166,7 +1247,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.7.1.",
+                      "reference": {
+                        "name": "Généralités",
+                        "nb": "Annexe II > 1.7.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.7.1. Généralités"
@@ -1196,7 +1280,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.7.2.",
+                      "reference": {
+                        "name": "Stockage des déchets",
+                        "nb": "Annexe II > 1.7.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.7.2. Stockage des déchets"
@@ -1226,7 +1313,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.7.3.",
+                      "reference": {
+                        "name": "Gestion des déchets",
+                        "nb": "Annexe II > 1.7.3."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.7.3. Gestion des déchets"
@@ -1284,7 +1374,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 1.8.",
+                  "reference": {
+                    "name": "Dispositions générales pour les installations soumises à déclaration",
+                    "nb": "Annexe II > 1.8."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -1316,7 +1409,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.8.1.",
+                      "reference": {
+                        "name": "Contrôle périodique",
+                        "nb": "Annexe II > 1.8.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.8.1. Contrôle périodique"
@@ -1343,7 +1439,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.8.2.",
+                      "reference": {
+                        "name": "Modifications",
+                        "nb": "Annexe II > 1.8.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.8.2. Modifications"
@@ -1370,7 +1469,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.8.3.",
+                      "reference": {
+                        "name": "Contenu de la déclaration",
+                        "nb": "Annexe II > 1.8.3."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.8.3. Contenu de la déclaration"
@@ -1400,7 +1502,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.8.4.",
+                      "reference": {
+                        "name": "Déclaration d'accident ou de pollution accidentelle",
+                        "nb": "Annexe II > 1.8.4."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.8.4. Déclaration d'accident ou de pollution accidentelle"
@@ -1427,7 +1532,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.8.5.",
+                      "reference": {
+                        "name": "Changement d'exploitant",
+                        "nb": "Annexe II > 1.8.5."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.8.5. Changement d'exploitant"
@@ -1454,7 +1562,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 1.8.6.",
+                      "reference": {
+                        "name": "Cessation d'activité",
+                        "nb": "Annexe II > 1.8.6."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.8.6. Cessation d'activité"
@@ -1603,14 +1714,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "D",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2009-04-30",
                           "left_strict": false,
                           "parameter": {
@@ -1620,6 +1723,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "D",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -1632,20 +1743,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -1766,7 +1877,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "2. Règles d'implantation"
@@ -1776,7 +1887,10 @@
                 ],
                 "warnings": []
               },
-              "reference_str": "Annexe II 2.",
+              "reference": {
+                "name": "Règles d'implantation",
+                "nb": "Annexe II > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Règles d'implantation"
@@ -1830,7 +1944,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 3.",
+              "reference": {
+                "name": "Accessibilité",
+                "nb": "Annexe II > 3."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1862,7 +1979,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 3.1.",
+                  "reference": {
+                    "name": "Accessibilité au site",
+                    "nb": "Annexe II > 3.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.1. Accessibilité au site"
@@ -1989,20 +2109,20 @@
                           "conditions": [
                             {
                               "parameter": {
+                                "id": "regime",
+                                "type": "REGIME"
+                              },
+                              "target": "A",
+                              "type": "EQUAL"
+                            },
+                            {
+                              "parameter": {
                                 "id": "date-d-installation",
                                 "type": "DATE"
                               },
                               "strict": true,
                               "target": "2003-01-01",
                               "type": "LITTLER"
-                            },
-                            {
-                              "parameter": {
-                                "id": "regime",
-                                "type": "REGIME"
-                              },
-                              "target": "A",
-                              "type": "EQUAL"
                             }
                           ],
                           "type": "AND"
@@ -2015,14 +2135,6 @@
                         "condition": {
                           "conditions": [
                             {
-                              "parameter": {
-                                "id": "regime",
-                                "type": "REGIME"
-                              },
-                              "target": "A",
-                              "type": "EQUAL"
-                            },
-                            {
                               "left": "2003-01-01",
                               "left_strict": false,
                               "parameter": {
@@ -2032,6 +2144,14 @@
                               "right": "2017-07-01",
                               "right_strict": true,
                               "type": "RANGE"
+                            },
+                            {
+                              "parameter": {
+                                "id": "regime",
+                                "type": "REGIME"
+                              },
+                              "target": "A",
+                              "type": "EQUAL"
                             }
                           ],
                           "type": "AND"
@@ -2059,7 +2179,7 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": null,
+                          "reference": null,
                           "sections": [],
                           "title": {
                             "text": "3.2. "
@@ -2114,7 +2234,7 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": null,
+                          "reference": null,
                           "sections": [],
                           "title": {
                             "text": "3.2. "
@@ -2166,7 +2286,7 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": null,
+                          "reference": null,
                           "sections": [],
                           "title": {
                             "text": "3.2. Voie engins"
@@ -2177,14 +2297,6 @@
                         "condition": {
                           "conditions": [
                             {
-                              "parameter": {
-                                "id": "regime",
-                                "type": "REGIME"
-                              },
-                              "target": "D",
-                              "type": "EQUAL"
-                            },
-                            {
                               "left": "2009-04-30",
                               "left_strict": false,
                               "parameter": {
@@ -2194,6 +2306,14 @@
                               "right": "2017-07-01",
                               "right_strict": true,
                               "type": "RANGE"
+                            },
+                            {
+                              "parameter": {
+                                "id": "regime",
+                                "type": "REGIME"
+                              },
+                              "target": "D",
+                              "type": "EQUAL"
                             }
                           ],
                           "type": "AND"
@@ -2242,7 +2362,7 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": null,
+                          "reference": null,
                           "sections": [],
                           "title": {
                             "text": "3.2. Voie engins"
@@ -2252,7 +2372,10 @@
                     ],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 3.2.",
+                  "reference": {
+                    "name": "Voie engins",
+                    "nb": "Annexe II > 3.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.2. Voie engins"
@@ -2330,20 +2453,20 @@
                           "conditions": [
                             {
                               "parameter": {
+                                "id": "regime",
+                                "type": "REGIME"
+                              },
+                              "target": "A",
+                              "type": "EQUAL"
+                            },
+                            {
+                              "parameter": {
                                 "id": "date-d-installation",
                                 "type": "DATE"
                               },
                               "strict": true,
                               "target": "2003-01-01",
                               "type": "LITTLER"
-                            },
-                            {
-                              "parameter": {
-                                "id": "regime",
-                                "type": "REGIME"
-                              },
-                              "target": "A",
-                              "type": "EQUAL"
                             }
                           ],
                           "type": "AND"
@@ -2455,7 +2578,7 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": null,
+                          "reference": null,
                           "sections": [],
                           "title": {
                             "text": "3.3. Aires de stationnement"
@@ -2466,14 +2589,6 @@
                         "condition": {
                           "conditions": [
                             {
-                              "parameter": {
-                                "id": "regime",
-                                "type": "REGIME"
-                              },
-                              "target": "D",
-                              "type": "EQUAL"
-                            },
-                            {
                               "left": "2009-04-30",
                               "left_strict": false,
                               "parameter": {
@@ -2483,6 +2598,14 @@
                               "right": "2017-07-01",
                               "right_strict": true,
                               "type": "RANGE"
+                            },
+                            {
+                              "parameter": {
+                                "id": "regime",
+                                "type": "REGIME"
+                              },
+                              "target": "D",
+                              "type": "EQUAL"
                             }
                           ],
                           "type": "AND"
@@ -2531,7 +2654,7 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": null,
+                          "reference": null,
                           "sections": [],
                           "title": {
                             "text": "3.3. Aires de stationnement"
@@ -2541,7 +2664,10 @@
                     ],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 3.3.",
+                  "reference": {
+                    "name": "Aires de stationnement",
+                    "nb": "Annexe II > 3.3."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -2621,7 +2747,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 3.3.1.",
+                      "reference": {
+                        "name": "Aires de mise en station des moyens aériens",
+                        "nb": "Annexe II > 3.3.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.3.1. Aires de mise en station des moyens aériens"
@@ -2669,7 +2798,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe II 3.3.2.",
+                      "reference": {
+                        "name": "Aires de stationnement des engins",
+                        "nb": "Annexe II > 3.3.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.3.2. Aires de stationnement des engins"
@@ -2745,20 +2877,20 @@
                           "conditions": [
                             {
                               "parameter": {
+                                "id": "regime",
+                                "type": "REGIME"
+                              },
+                              "target": "A",
+                              "type": "EQUAL"
+                            },
+                            {
+                              "parameter": {
                                 "id": "date-d-installation",
                                 "type": "DATE"
                               },
                               "strict": true,
                               "target": "2003-01-01",
                               "type": "LITTLER"
-                            },
-                            {
-                              "parameter": {
-                                "id": "regime",
-                                "type": "REGIME"
-                              },
-                              "target": "A",
-                              "type": "EQUAL"
                             }
                           ],
                           "type": "AND"
@@ -2832,7 +2964,7 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": null,
+                          "reference": null,
                           "sections": [],
                           "title": {
                             "text": "3.4. Accès aux issues et quais de déchargement"
@@ -2843,14 +2975,6 @@
                         "condition": {
                           "conditions": [
                             {
-                              "parameter": {
-                                "id": "regime",
-                                "type": "REGIME"
-                              },
-                              "target": "D",
-                              "type": "EQUAL"
-                            },
-                            {
                               "left": "2009-04-30",
                               "left_strict": false,
                               "parameter": {
@@ -2860,6 +2984,14 @@
                               "right": "2017-07-01",
                               "right_strict": true,
                               "type": "RANGE"
+                            },
+                            {
+                              "parameter": {
+                                "id": "regime",
+                                "type": "REGIME"
+                              },
+                              "target": "D",
+                              "type": "EQUAL"
                             }
                           ],
                           "type": "AND"
@@ -2878,7 +3010,7 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": null,
+                          "reference": null,
                           "sections": [],
                           "title": {
                             "text": "3.4. Accès aux issues et quais de déchargement"
@@ -2888,7 +3020,10 @@
                     ],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 3.4.",
+                  "reference": {
+                    "name": "Accès aux issues et quais de déchargement",
+                    "nb": "Annexe II > 3.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.4. Accès aux issues et quais de déchargement"
@@ -2924,7 +3059,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 3.5.",
+                  "reference": {
+                    "name": "Documents à disposition des services d'incendie et de secours",
+                    "nb": "Annexe II > 3.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.5. Documents à disposition des services d'incendie et de secours"
@@ -3059,20 +3197,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -3085,14 +3223,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2003-01-01",
                           "left_strict": false,
                           "parameter": {
@@ -3102,6 +3232,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -3159,7 +3297,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "4. Dispositions constructives"
@@ -3247,7 +3385,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "4. Dispositions constructives"
@@ -3371,7 +3509,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "4. Dispositions constructives"
@@ -3382,14 +3520,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "D",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2009-04-30",
                           "left_strict": false,
                           "parameter": {
@@ -3399,6 +3529,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "D",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -3459,7 +3597,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "4. Dispositions constructives"
@@ -3469,7 +3607,10 @@
                 ],
                 "warnings": []
               },
-              "reference_str": "Annexe II 4.",
+              "reference": {
+                "name": "Dispositions constructives",
+                "nb": "Annexe II > 4."
+              },
               "sections": [],
               "title": {
                 "text": "4. Dispositions constructives"
@@ -3575,20 +3716,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -3601,14 +3742,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2003-01-01",
                           "left_strict": false,
                           "parameter": {
@@ -3618,6 +3751,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -3663,7 +3804,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "5. Désenfumage"
@@ -3733,7 +3874,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "5. Désenfumage"
@@ -3803,7 +3944,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "5. Désenfumage"
@@ -3814,14 +3955,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "D",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2009-04-30",
                           "left_strict": false,
                           "parameter": {
@@ -3831,6 +3964,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "D",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -3876,7 +4017,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "5. Désenfumage"
@@ -3886,7 +4027,10 @@
                 ],
                 "warnings": []
               },
-              "reference_str": "Annexe II 5.",
+              "reference": {
+                "name": "Désenfumage",
+                "nb": "Annexe II > 5."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3965,7 +4109,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 5.1.",
+                  "reference": {
+                    "name": "Désenfumage des locaux techniques présentant un risque incendie",
+                    "nb": "Annexe II > 5.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.1. Désenfumage des locaux techniques présentant un risque incendie"
@@ -4106,14 +4253,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "D",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2009-04-30",
                           "left_strict": false,
                           "parameter": {
@@ -4123,6 +4262,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "D",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -4163,7 +4310,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 6.",
+              "reference": {
+                "name": "Compartimentage",
+                "nb": "Annexe II > 6."
+              },
               "sections": [],
               "title": {
                 "text": "6. Compartimentage"
@@ -4266,20 +4416,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -4292,14 +4442,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2003-01-01",
                           "left_strict": false,
                           "parameter": {
@@ -4309,6 +4451,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -4330,7 +4480,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "7. Dimensions des cellules"
@@ -4382,7 +4532,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "7. Dimensions des cellules"
@@ -4434,7 +4584,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "7. Dimensions des cellules"
@@ -4445,14 +4595,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "D",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2009-04-30",
                           "left_strict": false,
                           "parameter": {
@@ -4462,6 +4604,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "D",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -4483,7 +4633,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "7. Dimensions des cellules"
@@ -4493,7 +4643,10 @@
                 ],
                 "warnings": []
               },
-              "reference_str": "Annexe II 7.",
+              "reference": {
+                "name": "Dimensions des cellules",
+                "nb": "Annexe II > 7."
+              },
               "sections": [],
               "title": {
                 "text": "7. Dimensions des cellules"
@@ -4526,7 +4679,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 8.",
+              "reference": {
+                "name": "Matières dangereuses et chimiquement incompatibles",
+                "nb": "Annexe II > 8."
+              },
               "sections": [],
               "title": {
                 "text": "8. Matières dangereuses et chimiquement incompatibles"
@@ -4688,20 +4844,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -4712,7 +4868,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 9.",
+              "reference": {
+                "name": "Conditions de stockage",
+                "nb": "Annexe II > 9."
+              },
               "sections": [],
               "title": {
                 "text": "9. Conditions de stockage"
@@ -4789,20 +4948,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -4860,7 +5019,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "10. Stockage de matières susceptibles de créer une pollution du sol ou des eaux"
@@ -4870,7 +5029,10 @@
                 ],
                 "warnings": []
               },
-              "reference_str": "Annexe II 10.",
+              "reference": {
+                "name": "Stockage de matières susceptibles de créer une pollution du sol ou des eaux",
+                "nb": "Annexe II > 10."
+              },
               "sections": [],
               "title": {
                 "text": "10. Stockage de matières susceptibles de créer une pollution du sol ou des eaux"
@@ -4982,20 +5144,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -5008,14 +5170,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2003-01-01",
                           "left_strict": false,
                           "parameter": {
@@ -5025,6 +5179,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -5058,7 +5220,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "11. Eaux d'extinction incendie"
@@ -5119,7 +5281,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "11. Eaux d'extinction incendie"
@@ -5130,14 +5292,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "D",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2009-04-30",
                           "left_strict": false,
                           "parameter": {
@@ -5147,6 +5301,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "D",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -5186,7 +5348,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "11. Eaux d'extinction incendie"
@@ -5196,7 +5358,10 @@
                 ],
                 "warnings": []
               },
-              "reference_str": "Annexe II 11.",
+              "reference": {
+                "name": "Eaux d'extinction incendie",
+                "nb": "Annexe II > 11."
+              },
               "sections": [],
               "title": {
                 "text": "11. Eaux d'extinction incendie"
@@ -5235,20 +5400,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -5276,7 +5441,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "12. Détection automatique d'incendie"
@@ -5287,14 +5452,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2003-01-01",
                           "left_strict": false,
                           "parameter": {
@@ -5304,6 +5461,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -5331,7 +5496,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "12. Détection automatique d'incendie"
@@ -5384,7 +5549,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "12. Détection automatique d'incendie"
@@ -5439,7 +5604,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "12. Détection automatique d'incendie"
@@ -5492,7 +5657,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "12. Détection automatique d'incendie"
@@ -5503,14 +5668,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "D",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2009-04-30",
                           "left_strict": false,
                           "parameter": {
@@ -5520,6 +5677,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "D",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -5547,7 +5712,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "12. Détection automatique d'incendie"
@@ -5557,7 +5722,10 @@
                 ],
                 "warnings": []
               },
-              "reference_str": "Annexe II 12.",
+              "reference": {
+                "name": "Détection automatique d'incendie",
+                "nb": "Annexe II > 12."
+              },
               "sections": [],
               "title": {
                 "text": "12. Détection automatique d'incendie"
@@ -5635,20 +5803,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -5712,7 +5880,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "13. Moyens de lutte contre l'incendie"
@@ -5723,14 +5891,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2003-01-01",
                           "left_strict": false,
                           "parameter": {
@@ -5740,6 +5900,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -5803,7 +5971,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "13. Moyens de lutte contre l'incendie"
@@ -5892,7 +6060,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "13. Moyens de lutte contre l'incendie"
@@ -5983,7 +6151,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "13. Moyens de lutte contre l'incendie"
@@ -6042,7 +6210,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "12. Détection automatique d'incendie"
@@ -6053,14 +6221,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "D",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2009-04-30",
                           "left_strict": false,
                           "parameter": {
@@ -6070,6 +6230,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "D",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -6100,7 +6268,7 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": null,
+                      "reference": null,
                       "sections": [],
                       "title": {
                         "text": "13. Moyens de lutte contre l'incendie"
@@ -6110,7 +6278,10 @@
                 ],
                 "warnings": []
               },
-              "reference_str": "Annexe II 13.",
+              "reference": {
+                "name": "Moyens de lutte contre l'incendie",
+                "nb": "Annexe II > 13."
+              },
               "sections": [],
               "title": {
                 "text": "13. Moyens de lutte contre l'incendie"
@@ -6212,14 +6383,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "D",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2009-04-30",
                           "left_strict": false,
                           "parameter": {
@@ -6229,6 +6392,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "D",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -6245,20 +6416,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -6269,7 +6440,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 14.",
+              "reference": {
+                "name": "Evacuation du personnel",
+                "nb": "Annexe II > 14."
+              },
               "sections": [],
               "title": {
                 "text": "14. Evacuation du personnel"
@@ -6373,14 +6547,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "D",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2009-04-30",
                           "left_strict": false,
                           "parameter": {
@@ -6390,6 +6556,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "D",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -6405,20 +6579,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -6429,7 +6603,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 15.",
+              "reference": {
+                "name": "Installations électriques et équipements métalliques",
+                "nb": "Annexe II > 15."
+              },
               "sections": [],
               "title": {
                 "text": "15. Installations électriques et équipements métalliques"
@@ -6465,7 +6642,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 16.",
+              "reference": {
+                "name": "Eclairage",
+                "nb": "Annexe II > 16."
+              },
               "sections": [],
               "title": {
                 "text": "16. Eclairage"
@@ -6558,14 +6738,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "D",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2009-04-30",
                           "left_strict": false,
                           "parameter": {
@@ -6575,6 +6747,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "D",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -6587,20 +6767,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -6611,7 +6791,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 17.",
+              "reference": {
+                "name": "Ventilation et recharge de batteries",
+                "nb": "Annexe II > 17."
+              },
               "sections": [],
               "title": {
                 "text": "17. Ventilation et recharge de batteries"
@@ -6689,20 +6872,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -6713,7 +6896,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 18.",
+              "reference": {
+                "name": "Chauffage",
+                "nb": "Annexe II > 18."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -6748,7 +6934,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 18.1.",
+                  "reference": {
+                    "name": "Chaufferie",
+                    "nb": "Annexe II > 18.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "18.1. Chaufferie"
@@ -6817,7 +7006,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 18.2.",
+                  "reference": {
+                    "name": "Autres moyens de chauffage",
+                    "nb": "Annexe II > 18.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "18.2. Autres moyens de chauffage"
@@ -6849,7 +7041,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 19.",
+              "reference": {
+                "name": "Nettoyage des locaux",
+                "nb": "Annexe II > 19."
+              },
               "sections": [],
               "title": {
                 "text": "19. Nettoyage des locaux"
@@ -6903,7 +7098,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 20.",
+              "reference": {
+                "name": "Travaux de réparation et d'aménagement",
+                "nb": "Annexe II > 20."
+              },
               "sections": [],
               "title": {
                 "text": "20. Travaux de réparation et d'aménagement"
@@ -6966,7 +7164,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 21.",
+              "reference": {
+                "name": "Consignes",
+                "nb": "Annexe II > 21."
+              },
               "sections": [],
               "title": {
                 "text": "21. Consignes"
@@ -7002,7 +7203,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 22.",
+              "reference": {
+                "name": "Indisponibilité temporaire du système d'extinction automatique d'incendie - Maintenance",
+                "nb": "Annexe II > 22."
+              },
               "sections": [],
               "title": {
                 "text": "22. Indisponibilité temporaire du système d'extinction automatique d'incendie - Maintenance"
@@ -7113,7 +7317,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 23.",
+              "reference": {
+                "name": "Plan de défense incendie",
+                "nb": "Annexe II > 23."
+              },
               "sections": [],
               "title": {
                 "text": "23. Plan de défense incendie"
@@ -7136,7 +7343,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 24.",
+              "reference": {
+                "name": "Bruits",
+                "nb": "Annexe II > 24."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -7268,7 +7478,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 24.1.",
+                  "reference": {
+                    "name": "Valeurs limites de bruit",
+                    "nb": "Annexe II > 24.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "24.1. Valeurs limites de bruit"
@@ -7298,7 +7511,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 24.2.",
+                  "reference": {
+                    "name": "Véhicules. - Engins de chantier",
+                    "nb": "Annexe II > 24.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "24.2. Véhicules. - Engins de chantier"
@@ -7344,7 +7560,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 24.3.",
+                  "reference": {
+                    "name": "Surveillance par l'exploitant des émissions sonores",
+                    "nb": "Annexe II > 24.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "24.3. Surveillance par l'exploitant des émissions sonores"
@@ -7379,7 +7598,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 25.",
+              "reference": {
+                "name": "Surveillance et contrôle des accès",
+                "nb": "Annexe II > 25."
+              },
               "sections": [],
               "title": {
                 "text": "25. Surveillance et contrôle des accès"
@@ -7412,7 +7634,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 26.",
+              "reference": {
+                "name": "Remise en état après exploitation",
+                "nb": "Annexe II > 26."
+              },
               "sections": [],
               "title": {
                 "text": "26. Remise en état après exploitation"
@@ -7519,14 +7744,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "D",
-                          "type": "EQUAL"
-                        },
-                        {
                           "left": "2009-04-30",
                           "left_strict": false,
                           "parameter": {
@@ -7536,6 +7753,14 @@
                           "right": "2017-07-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "D",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -7548,20 +7773,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -7600,7 +7825,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 27.",
+              "reference": {
+                "name": "Dispositions spécifiques applicables aux cellules et chambres frigorifiques",
+                "nb": "Annexe II > 27."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -7635,7 +7863,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 27.1.",
+                  "reference": {
+                    "name": "Dispositions constructives",
+                    "nb": "Annexe II > 27.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "27.1. Dispositions constructives"
@@ -7674,7 +7905,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 27.2.",
+                  "reference": {
+                    "name": "Désenfumage",
+                    "nb": "Annexe II > 27.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "27.2. Désenfumage"
@@ -7704,7 +7938,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 27.3.",
+                  "reference": {
+                    "name": "Dimensions des cellules",
+                    "nb": "Annexe II > 27.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "27.3. Dimensions des cellules"
@@ -7752,7 +7989,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 27.4.",
+                  "reference": {
+                    "name": "Conditions de stockage",
+                    "nb": "Annexe II > 27.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "27.4. Conditions de stockage"
@@ -7779,7 +8019,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 27.5.",
+                  "reference": {
+                    "name": "Détection automatique d'incendie",
+                    "nb": "Annexe II > 27.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "27.5. Détection automatique d'incendie"
@@ -7806,7 +8049,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 27.6.",
+                  "reference": {
+                    "name": "Moyens de lutte incendie",
+                    "nb": "Annexe II > 27.6."
+                  },
                   "sections": [],
                   "title": {
                     "text": "27.6. Moyens de lutte incendie"
@@ -7839,7 +8085,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 27.7.",
+                  "reference": {
+                    "name": "Installations électriques",
+                    "nb": "Annexe II > 27.7."
+                  },
                   "sections": [],
                   "title": {
                     "text": "27.7. Installations électriques"
@@ -7866,7 +8115,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 27.8.",
+                  "reference": {
+                    "name": "Equipements frigorifiques",
+                    "nb": "Annexe II > 27.8."
+                  },
                   "sections": [],
                   "title": {
                     "text": "27.8. Equipements frigorifiques"
@@ -7907,20 +8159,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -7959,7 +8211,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 28.",
+              "reference": {
+                "name": "Dispositions spécifiques applicables aux cellules de liquides et solides liquéfiables combustibles",
+                "nb": "Annexe II > 28."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -7988,7 +8243,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 28.",
+                  "reference": {
+                    "name": "Dispositions spécifiques applicables aux cellules de liquides et solides liquéfiables combustibles",
+                    "nb": "Annexe II > 28.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "28.1."
@@ -8018,7 +8276,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 28.2.",
+                  "reference": {
+                    "name": "Collecte et rétention des écoulements",
+                    "nb": "Annexe II > 28.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "28.2. Collecte et rétention des écoulements"
@@ -8120,7 +8381,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 28.",
+                  "reference": {
+                    "name": "Disposition applicable en cas de rétention déportée",
+                    "nb": "Annexe II > 28.3"
+                  },
                   "sections": [],
                   "title": {
                     "text": "28.3 Disposition applicable en cas de rétention déportée"
@@ -8179,7 +8443,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III",
+          "reference": {
+            "name": "POINTS DE CONTRÔLES DES INSTALLATIONS SOUMISES À DÉCLARATION",
+            "nb": "Annexe III"
+          },
           "sections": [
             {
               "annotations": {
@@ -8198,7 +8465,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 1.",
+              "reference": {
+                "name": "Dossier installation classée",
+                "nb": "Annexe III > 1."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -8221,7 +8491,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 1.1.",
+                  "reference": {
+                    "name": "Conformité de l'installation",
+                    "nb": "Annexe III > 1.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.1. Conformité de l'installation"
@@ -8263,7 +8536,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 1.2.",
+                  "reference": {
+                    "name": "Contenu du dossier",
+                    "nb": "Annexe III > 1.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.2. Contenu du dossier"
@@ -8290,7 +8566,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 1.",
+                  "reference": {
+                    "name": "à 1.8",
+                    "nb": "Annexe III > 1.3"
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.3 à 1.8"
@@ -8328,7 +8607,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 2.",
+              "reference": {
+                "name": "Règles d'implantation",
+                "nb": "Annexe III > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Règles d'implantation"
@@ -8358,7 +8640,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 3.",
+              "reference": {
+                "name": "Accessibilité",
+                "nb": "Annexe III > 3."
+              },
               "sections": [],
               "title": {
                 "text": "3. Accessibilité"
@@ -8385,7 +8670,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 4.",
+              "reference": {
+                "name": "Dispositions constructives",
+                "nb": "Annexe III > 4."
+              },
               "sections": [],
               "title": {
                 "text": "4. Dispositions constructives"
@@ -8412,7 +8700,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 5.",
+              "reference": {
+                "name": "Désenfumage",
+                "nb": "Annexe III > 5."
+              },
               "sections": [],
               "title": {
                 "text": "5. Désenfumage"
@@ -8442,20 +8733,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "regime",
+                            "type": "REGIME"
+                          },
+                          "target": "A",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-installation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2003-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "regime",
-                            "type": "REGIME"
-                          },
-                          "target": "A",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -8466,7 +8757,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 6.",
+              "reference": {
+                "name": "Compartimentage",
+                "nb": "Annexe III > 6."
+              },
               "sections": [],
               "title": {
                 "text": "6. Compartimentage"
@@ -8493,7 +8787,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 7.",
+              "reference": {
+                "name": "Dimensions des cellules",
+                "nb": "Annexe III > 7."
+              },
               "sections": [],
               "title": {
                 "text": "7. Dimensions des cellules"
@@ -8523,7 +8820,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 8.",
+              "reference": {
+                "name": "Matières dangereuses et chimiquement incompatibles",
+                "nb": "Annexe III > 8."
+              },
               "sections": [],
               "title": {
                 "text": "8. Matières dangereuses et chimiquement incompatibles"
@@ -8550,7 +8850,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 9.",
+              "reference": {
+                "name": "Conditions de stockage",
+                "nb": "Annexe III > 9."
+              },
               "sections": [],
               "title": {
                 "text": "9. Conditions de stockage"
@@ -8577,7 +8880,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 10.",
+              "reference": {
+                "name": "Stockage de matières susceptible de créer une pollution du sol ou des eaux",
+                "nb": "Annexe III > 10."
+              },
               "sections": [],
               "title": {
                 "text": "10. Stockage de matières susceptible de créer une pollution du sol ou des eaux"
@@ -8607,7 +8913,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 11.",
+              "reference": {
+                "name": "Eaux d'extinction incendie",
+                "nb": "Annexe III > 11."
+              },
               "sections": [],
               "title": {
                 "text": "11. Eaux d'extinction incendie"
@@ -8634,7 +8943,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 12.",
+              "reference": {
+                "name": "Détection automatique d'incendie",
+                "nb": "Annexe III > 12."
+              },
               "sections": [],
               "title": {
                 "text": "12. Détection automatique d'incendie"
@@ -8667,7 +8979,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 13.",
+              "reference": {
+                "name": "Moyens de lutte contre l'incendie",
+                "nb": "Annexe III > 13."
+              },
               "sections": [],
               "title": {
                 "text": "13. Moyens de lutte contre l'incendie"
@@ -8694,7 +9009,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 14.",
+              "reference": {
+                "name": "Evacuation du personnel",
+                "nb": "Annexe III > 14."
+              },
               "sections": [],
               "title": {
                 "text": "14. Evacuation du personnel"
@@ -8730,7 +9048,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 15.",
+              "reference": {
+                "name": "Installations électriques et équipements métalliques",
+                "nb": "Annexe III > 15."
+              },
               "sections": [],
               "title": {
                 "text": "15. Installations électriques et équipements métalliques"
@@ -8760,7 +9081,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 16.",
+              "reference": {
+                "name": "Eclairage",
+                "nb": "Annexe III > 16."
+              },
               "sections": [],
               "title": {
                 "text": "16. Eclairage"
@@ -8787,7 +9111,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 17.",
+              "reference": {
+                "name": "Ventilation et recharge de batteries",
+                "nb": "Annexe III > 17."
+              },
               "sections": [],
               "title": {
                 "text": "17. Ventilation et recharge de batteries"
@@ -8826,7 +9153,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 18.",
+              "reference": {
+                "name": "Chauffage",
+                "nb": "Annexe III > 18."
+              },
               "sections": [],
               "title": {
                 "text": "18. Chauffage"
@@ -8853,7 +9183,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 19.",
+              "reference": {
+                "name": "Nettoyage des locaux",
+                "nb": "Annexe III > 19."
+              },
               "sections": [],
               "title": {
                 "text": "19. Nettoyage des locaux"
@@ -8880,7 +9213,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 20.",
+              "reference": {
+                "name": "Travaux de réparation et d'aménagement",
+                "nb": "Annexe III > 20."
+              },
               "sections": [],
               "title": {
                 "text": "20. Travaux de réparation et d'aménagement"
@@ -8907,7 +9243,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 21.",
+              "reference": {
+                "name": "Consignes",
+                "nb": "Annexe III > 21."
+              },
               "sections": [],
               "title": {
                 "text": "21. Consignes"
@@ -8934,7 +9273,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 22.",
+              "reference": {
+                "name": "Maintenance",
+                "nb": "Annexe III > 22."
+              },
               "sections": [],
               "title": {
                 "text": "22. Maintenance"
@@ -8961,7 +9303,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 23.",
+              "reference": {
+                "name": "Plan de défense incendie",
+                "nb": "Annexe III > 23."
+              },
               "sections": [],
               "title": {
                 "text": "23. Plan de défense incendie"
@@ -8988,7 +9333,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 24.",
+              "reference": {
+                "name": "Bruits et vibration",
+                "nb": "Annexe III > 24."
+              },
               "sections": [],
               "title": {
                 "text": "24. Bruits et vibration"
@@ -9015,7 +9363,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 25.",
+              "reference": {
+                "name": "Surveillance",
+                "nb": "Annexe III > 25."
+              },
               "sections": [],
               "title": {
                 "text": "25. Surveillance"
@@ -9042,7 +9393,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 26.",
+              "reference": {
+                "name": "Remise en état",
+                "nb": "Annexe III > 26."
+              },
               "sections": [],
               "title": {
                 "text": "26. Remise en état"
@@ -9099,7 +9453,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 27.",
+              "reference": {
+                "name": "Dispositions spécifiques applicables aux cellules frigorifiques",
+                "nb": "Annexe III > 27."
+              },
               "sections": [],
               "title": {
                 "text": "27. Dispositions spécifiques applicables aux cellules frigorifiques"
@@ -9144,7 +9501,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 28.",
+              "reference": {
+                "name": "Dispositions spécifiques applicables aux cellules de liquides et solides liquéfiables combustibles",
+                "nb": "Annexe III > 28."
+              },
               "sections": [],
               "title": {
                 "text": "28. Dispositions spécifiques applicables aux cellules de liquides et solides liquéfiables combustibles"
@@ -9426,7 +9786,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV",
+          "reference": {
+            "name": "DISPOSITIONS APPLICABLES AUX INSTALLATIONS EXISTANTES SOUMISES À AUTORISATION",
+            "nb": "Annexe IV"
+          },
           "sections": [],
           "title": {
             "text": "Annexe IV - DISPOSITIONS APPLICABLES AUX INSTALLATIONS EXISTANTES SOUMISES À AUTORISATION"
@@ -9846,7 +10209,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe V",
+          "reference": {
+            "name": "DISPOSITIONS APPLICABLES AUX INSTALLATIONS EXISTANTES SOUMISES À ENREGISTREMENT",
+            "nb": "Annexe V"
+          },
           "sections": [],
           "title": {
             "text": "Annexe V - DISPOSITIONS APPLICABLES AUX INSTALLATIONS EXISTANTES SOUMISES À ENREGISTREMENT"
@@ -10217,7 +10583,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe VI",
+          "reference": {
+            "name": "DISPOSITIONS APPLICABLES AUX INSTALLATIONS EXISTANTES SOUMISES À DÉCLARATION",
+            "nb": "Annexe VI"
+          },
           "sections": [],
           "title": {
             "text": "Annexe VI - DISPOSITIONS APPLICABLES AUX INSTALLATIONS EXISTANTES SOUMISES À DÉCLARATION"
@@ -10589,7 +10958,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe VII",
+          "reference": {
+            "name": "DISPOSITIONS APPLICABLES AUX INSTALLATIONS RÉGULIÈREMENT MISES EN SERVICE AU 1er JANVIER 2021 ET NOUVELLEMENT SOUMISES À DÉCLARATION, ENREGISTREMENT OU AUTORISATION EN VERTU DU DÉCRET NO 2020-1169 DU 24 SEPTEMBRE 2020 MODIFIANT LA NOMENCLATURE",
+            "nb": "Annexe VII"
+          },
           "sections": [],
           "title": {
             "text": "Annexe VII - DISPOSITIONS APPLICABLES AUX INSTALLATIONS RÉGULIÈREMENT MISES EN SERVICE AU 1er JANVIER 2021 ET NOUVELLEMENT SOUMISES À DÉCLARATION, ENREGISTREMENT OU AUTORISATION EN VERTU DU DÉCRET NO 2020-1169 DU 24 SEPTEMBRE 2020 MODIFIANT LA NOMENCLATURE"
@@ -10637,7 +11009,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe VIII",
+          "reference": {
+            "name": "DISPOSITIONS APPLICABLES AUX INSTALLATIONS À DÉCLARATION EXISTANTES DÉCLARÉES AU TITRE DE LA RUBRIQUE 1510 OU RÉGULIÈREMENT MISES EN SERVICE AVANT LE 30 AVRIL 2009, À TOUTES LES INSTALLATIONS EXISTANTES À AUTORISATION OU ENREGISTREMENT, AUX INSTALLATIONS NOUVELLES DONT LE DÉPÔT DU DOSSIER COMPLET D'ENREGISTREMENT OU D'AUTORISATION A ÉTÉ RÉALISÉ AVANT LE 1er JANVIER 2021 AINSI QU'AUX INSTALLATIONS RÉGULIÈREMENT MISES EN SERVICE AU 1er JANVIER 2021 ET NOUVELLEMENT SOUMISES À DÉCLARATION, ENREGISTREMENT OU AUTORISATION EN VERTU DU DÉCRET NO 2020-1169 DU 24 SEPTEMBRE 2020 MODIFIANT LA NOMENCLATURE",
+            "nb": "Annexe VIII"
+          },
           "sections": [
             {
               "annotations": {
@@ -10663,7 +11038,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe VIII 1.",
+              "reference": {
+                "name": "Etude des effets thermiques",
+                "nb": "Annexe VIII > 1."
+              },
               "sections": [],
               "title": {
                 "text": "1. Etude des effets thermiques"
@@ -10714,7 +11092,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe VIII 2.",
+              "reference": {
+                "name": "Mesures à prendre",
+                "nb": "Annexe VIII > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Mesures à prendre"

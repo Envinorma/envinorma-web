@@ -70,7 +70,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 1",
+      "reference": {
+        "name": "",
+        "nb": "Article 1"
+      },
       "sections": [],
       "title": {
         "text": "Article 1"
@@ -100,7 +103,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 2",
+      "reference": {
+        "name": "",
+        "nb": "Article 2"
+      },
       "sections": [],
       "title": {
         "text": "Article 2"
@@ -127,7 +133,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 3",
+      "reference": {
+        "name": "",
+        "nb": "Article 3"
+      },
       "sections": [],
       "title": {
         "text": "Article 3"
@@ -154,7 +163,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 4",
+      "reference": {
+        "name": "",
+        "nb": "Article 4"
+      },
       "sections": [],
       "title": {
         "text": "Article 4"
@@ -177,7 +189,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -227,7 +242,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe I",
+          "reference": {
+            "name": "",
+            "nb": "Annexe I"
+          },
           "sections": [
             {
               "annotations": {
@@ -246,7 +264,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 1.",
+              "reference": {
+                "name": "Dispositions générales",
+                "nb": "Annexe I > 1."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -265,7 +286,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.1.",
+                  "reference": {
+                    "name": "Conformité de l'installation",
+                    "nb": "Annexe I > 1.1."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -288,7 +312,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 1.1.1.",
+                      "reference": {
+                        "name": "Conformité de l'installation à la déclaration",
+                        "nb": "Annexe I > 1.1.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.1.1. Conformité de l'installation à la déclaration"
@@ -324,7 +351,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 1.1.2.",
+                      "reference": {
+                        "name": "Contrôle périodique",
+                        "nb": "Annexe I > 1.1.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.1.2. Contrôle périodique"
@@ -356,7 +386,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.2.",
+                  "reference": {
+                    "name": "Modifications",
+                    "nb": "Annexe I > 1.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.2. Modifications"
@@ -383,7 +416,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.3.",
+                  "reference": {
+                    "name": "Contenu de la déclaration",
+                    "nb": "Annexe I > 1.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.3. Contenu de la déclaration"
@@ -458,7 +494,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.4.",
+                  "reference": {
+                    "name": "Dossier installation classée",
+                    "nb": "Annexe I > 1.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.4. Dossier installation classée"
@@ -485,7 +524,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.5.",
+                  "reference": {
+                    "name": "Déclaration d'accident ou de pollution accidentelle",
+                    "nb": "Annexe I > 1.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.5. Déclaration d'accident ou de pollution accidentelle"
@@ -512,7 +554,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.6.",
+                  "reference": {
+                    "name": "Changement d'exploitant",
+                    "nb": "Annexe I > 1.6."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.6. Changement d'exploitant"
@@ -545,7 +590,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.7.",
+                  "reference": {
+                    "name": "Cessation d'activité",
+                    "nb": "Annexe I > 1.7."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.7. Cessation d'activité"
@@ -573,7 +621,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 2.",
+              "reference": {
+                "name": "Implantation - Aménagement",
+                "nb": "Annexe I > 2."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -592,7 +643,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.1.",
+                  "reference": {
+                    "name": "Règles d'implantation",
+                    "nb": "Annexe I > 2.1."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -714,7 +768,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.1.1.",
+                      "reference": {
+                        "name": "Stockage de récipients à pression transportables",
+                        "nb": "Annexe I > 2.1.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.1.1. Stockage de récipients à pression transportables"
@@ -1659,7 +1716,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.1.2.",
+                      "reference": {
+                        "name": "Réservoirs",
+                        "nb": "Annexe I > 2.1.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.1.2. Réservoirs"
@@ -1694,7 +1754,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.2.",
+                  "reference": {
+                    "name": "Intégration dans le paysage",
+                    "nb": "Annexe I > 2.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.2. Intégration dans le paysage"
@@ -1733,7 +1796,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.3.",
+                  "reference": {
+                    "name": "Interdiction de locaux habités ou occupés par des tiers au-dessus ou au-dessous du stockage",
+                    "nb": "Annexe I > 2.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.3. Interdiction de locaux habités ou occupés par des tiers au-dessus ou au-dessous du stockage"
@@ -1756,7 +1822,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.",
+                  "reference": {
+                    "name": "[*]",
+                    "nb": "Annexe I > 2.4"
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.4 [*]"
@@ -1810,7 +1879,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.5.",
+                  "reference": {
+                    "name": "Accessibilité au stockage",
+                    "nb": "Annexe I > 2.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.5. Accessibilité au stockage"
@@ -1840,7 +1912,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.6.",
+                  "reference": {
+                    "name": "Ventilation",
+                    "nb": "Annexe I > 2.6."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.6. Ventilation"
@@ -1867,7 +1942,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.7.",
+                  "reference": {
+                    "name": "Installations électriques",
+                    "nb": "Annexe I > 2.7."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.7. Installations électriques"
@@ -1897,7 +1975,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.8.",
+                  "reference": {
+                    "name": "Mise à la terre des équipements",
+                    "nb": "Annexe I > 2.8."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.8. Mise à la terre des équipements"
@@ -1920,7 +2001,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.",
+                  "reference": {
+                    "name": "(*)",
+                    "nb": "Annexe I > 2.9"
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.9 (*)"
@@ -1943,7 +2027,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.",
+                  "reference": {
+                    "name": "[*]",
+                    "nb": "Annexe I > 2.10"
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.10 [*]"
@@ -1979,7 +2066,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.11.",
+                  "reference": {
+                    "name": "Isolement du réseau de collecte",
+                    "nb": "Annexe I > 2.11."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.11. Isolement du réseau de collecte"
@@ -2002,7 +2092,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.12.",
+                  "reference": {
+                    "name": "Aménagement des stockages",
+                    "nb": "Annexe I > 2.12."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -2061,7 +2154,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.12. A.",
+                      "reference": {
+                        "name": "Stockage en récipients à pression transportables",
+                        "nb": "Annexe I > 2.12. A."
+                      },
                       "sections": [],
                       "title": {
                         "text": "A. Stockage en récipients à pression transportables"
@@ -2133,7 +2229,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.12. B.",
+                      "reference": {
+                        "name": "Stockage en réservoirs aériens",
+                        "nb": "Annexe I > 2.12. B."
+                      },
                       "sections": [],
                       "title": {
                         "text": "B. Stockage en réservoirs aériens"
@@ -2205,7 +2304,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.12. C.",
+                      "reference": {
+                        "name": "Stockage en réservoirs enterrés ou sous talus",
+                        "nb": "Annexe I > 2.12. C."
+                      },
                       "sections": [],
                       "title": {
                         "text": "C. Stockage en réservoirs enterrés ou sous talus"
@@ -2247,7 +2349,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.13.",
+                  "reference": {
+                    "name": "Installations annexes",
+                    "nb": "Annexe I > 2.13."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -2288,7 +2393,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.13. A.",
+                      "reference": {
+                        "name": "Pompes",
+                        "nb": "Annexe I > 2.13. A."
+                      },
                       "sections": [],
                       "title": {
                         "text": "A. Pompes"
@@ -2336,7 +2444,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.13. B.",
+                      "reference": {
+                        "name": "Vaporiseurs",
+                        "nb": "Annexe I > 2.13. B."
+                      },
                       "sections": [],
                       "title": {
                         "text": "B. Vaporiseurs"
@@ -2369,7 +2480,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 3.",
+              "reference": {
+                "name": "Exploitation - Entretien",
+                "nb": "Annexe I > 3."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -2428,7 +2542,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.1.",
+                  "reference": {
+                    "name": "Surveillance de l'exploitation",
+                    "nb": "Annexe I > 3.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.1. Surveillance de l'exploitation"
@@ -2509,7 +2626,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.2.",
+                  "reference": {
+                    "name": "Contrôle de l'accès",
+                    "nb": "Annexe I > 3.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.2. Contrôle de l'accès"
@@ -2539,7 +2659,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.3.",
+                  "reference": {
+                    "name": "Connaissance des produits - Etiquetage",
+                    "nb": "Annexe I > 3.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.3. Connaissance des produits - Etiquetage"
@@ -2575,7 +2698,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.4.",
+                  "reference": {
+                    "name": "Propreté",
+                    "nb": "Annexe I > 3.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.4. Propreté"
@@ -2611,7 +2737,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.5.",
+                  "reference": {
+                    "name": "Etat des stocks de produits dangereux",
+                    "nb": "Annexe I > 3.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.5. Etat des stocks de produits dangereux"
@@ -2644,7 +2773,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.6.",
+                  "reference": {
+                    "name": "Vérification périodique des installations électriques",
+                    "nb": "Annexe I > 3.6."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.6. Vérification périodique des installations électriques"
@@ -2672,7 +2804,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 4.",
+              "reference": {
+                "name": "Risques",
+                "nb": "Annexe I > 4."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -2691,7 +2826,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.1.",
+                  "reference": {
+                    "name": "(Supprimé)",
+                    "nb": "Annexe I > 4.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.1. (Supprimé)"
@@ -2714,7 +2852,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.2.",
+                  "reference": {
+                    "name": "Moyens de lutte contre l'incendie",
+                    "nb": "Annexe I > 4.2."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -2761,7 +2902,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 4.2.",
+                      "reference": {
+                        "name": "Moyens de lutte contre l'incendie",
+                        "nb": "Annexe I > 4.2. A."
+                      },
                       "sections": [],
                       "title": {
                         "text": "A."
@@ -2806,7 +2950,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 4.2. B.",
+                      "reference": {
+                        "name": "Stockage en récipients à pression transportables",
+                        "nb": "Annexe I > 4.2. B."
+                      },
                       "sections": [],
                       "title": {
                         "text": "B. Stockage en récipients à pression transportables"
@@ -2872,7 +3019,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 4.2. C.",
+                      "reference": {
+                        "name": "Stockage en réservoirs aériens",
+                        "nb": "Annexe I > 4.2. C."
+                      },
                       "sections": [],
                       "title": {
                         "text": "C. Stockage en réservoirs aériens"
@@ -2911,7 +3061,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 4.2. D.",
+                      "reference": {
+                        "name": "Stockage en réservoirs enterrés ou sous talus",
+                        "nb": "Annexe I > 4.2. D."
+                      },
                       "sections": [],
                       "title": {
                         "text": "D. Stockage en réservoirs enterrés ou sous talus"
@@ -2955,7 +3108,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.3.",
+                  "reference": {
+                    "name": "Localisation des risques",
+                    "nb": "Annexe I > 4.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.3. Localisation des risques"
@@ -2985,7 +3141,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.4.",
+                  "reference": {
+                    "name": "Matériel électrique de sécurité",
+                    "nb": "Annexe I > 4.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.4. Matériel électrique de sécurité"
@@ -3024,7 +3183,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.5.",
+                  "reference": {
+                    "name": "Interdiction des feux",
+                    "nb": "Annexe I > 4.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.5. Interdiction des feux"
@@ -3057,7 +3219,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.6.",
+                  "reference": {
+                    "name": "Permis de feu dans les parties de l'installation visées au point 4.3",
+                    "nb": "Annexe I > 4.6."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.6. Permis de feu dans les parties de l'installation visées au point 4.3"
@@ -3114,7 +3279,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.7.",
+                  "reference": {
+                    "name": "Consignes de sécurité",
+                    "nb": "Annexe I > 4.7."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.7. Consignes de sécurité"
@@ -3183,7 +3351,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.8.",
+                  "reference": {
+                    "name": "Consignes d'exploitation",
+                    "nb": "Annexe I > 4.8."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.8. Consignes d'exploitation"
@@ -3258,7 +3429,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.9.",
+                  "reference": {
+                    "name": "Dispositifs de sécurité",
+                    "nb": "Annexe I > 4.9."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.9. Dispositifs de sécurité"
@@ -3297,7 +3471,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.10.",
+                  "reference": {
+                    "name": "Ravitaillement des réservoirs",
+                    "nb": "Annexe I > 4.10."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.10. Ravitaillement des réservoirs"
@@ -3330,7 +3507,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.11.",
+                  "reference": {
+                    "name": "Chargement et déchargement des récipients à pression transportables",
+                    "nb": "Annexe I > 4.11."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.11. Chargement et déchargement des récipients à pression transportables"
@@ -3358,7 +3538,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 5.",
+              "reference": {
+                "name": "Eau",
+                "nb": "Annexe I > 5."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3387,7 +3570,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.1.",
+                  "reference": {
+                    "name": "Prélèvements",
+                    "nb": "Annexe I > 5.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.1. Prélèvements"
@@ -3414,7 +3600,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.2.",
+                  "reference": {
+                    "name": "Consommation",
+                    "nb": "Annexe I > 5.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.2. Consommation"
@@ -3444,7 +3633,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.3.",
+                  "reference": {
+                    "name": "Réseau de collecte",
+                    "nb": "Annexe I > 5.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.3. Réseau de collecte"
@@ -3467,7 +3659,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.4.",
+                  "reference": {
+                    "name": "[*]",
+                    "nb": "Annexe I > 5.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.4. [*]"
@@ -3490,7 +3685,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.5.",
+                  "reference": {
+                    "name": "[*]",
+                    "nb": "Annexe I > 5.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.5. [*]"
@@ -3517,7 +3715,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.6.",
+                  "reference": {
+                    "name": "Interdiction des rejets en nappe",
+                    "nb": "Annexe I > 5.6."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.6. Interdiction des rejets en nappe"
@@ -3544,7 +3745,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.7.",
+                  "reference": {
+                    "name": "Prévention des pollutions accidentelles",
+                    "nb": "Annexe I > 5.7."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.7. Prévention des pollutions accidentelles"
@@ -3567,7 +3771,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.8.",
+                  "reference": {
+                    "name": "[*]",
+                    "nb": "Annexe I > 5.8."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.8. [*]"
@@ -3590,7 +3797,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.9.",
+                  "reference": {
+                    "name": "[*]",
+                    "nb": "Annexe I > 5.9."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.9. [*]"
@@ -3618,7 +3828,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 6.",
+              "reference": {
+                "name": "[*]",
+                "nb": "Annexe I > 6."
+              },
               "sections": [],
               "title": {
                 "text": "6. [*]"
@@ -3641,7 +3854,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 7.",
+              "reference": {
+                "name": "Déchets",
+                "nb": "Annexe I > 7."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3664,7 +3880,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.1.",
+                  "reference": {
+                    "name": "Récupération - Recyclage - Valorisation",
+                    "nb": "Annexe I > 7.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.1. Récupération - Recyclage - Valorisation"
@@ -3691,7 +3910,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.2.",
+                  "reference": {
+                    "name": "Contrôles des circuits",
+                    "nb": "Annexe I > 7.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.2. Contrôles des circuits"
@@ -3721,7 +3943,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.3.",
+                  "reference": {
+                    "name": "Stockage des déchets",
+                    "nb": "Annexe I > 7.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.3. Stockage des déchets"
@@ -3744,7 +3969,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.4.",
+                  "reference": {
+                    "name": "[*]",
+                    "nb": "Annexe I > 7.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.4. [*]"
@@ -3774,7 +4002,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.5.",
+                  "reference": {
+                    "name": "Déchets dangereux",
+                    "nb": "Annexe I > 7.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.5. Déchets dangereux"
@@ -3801,7 +4032,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.6.",
+                  "reference": {
+                    "name": "Brûlage",
+                    "nb": "Annexe I > 7.6."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.6. Brûlage"
@@ -3829,7 +4063,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 8.",
+              "reference": {
+                "name": "Bruit",
+                "nb": "Annexe I > 8."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3970,7 +4207,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 8.1.",
+                  "reference": {
+                    "name": "Valeurs limites de bruit",
+                    "nb": "Annexe I > 8.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "8.1. Valeurs limites de bruit"
@@ -4003,7 +4243,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 8.2.",
+                  "reference": {
+                    "name": "Véhicules - Engins de chantier",
+                    "nb": "Annexe I > 8.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "8.2. Véhicules - Engins de chantier"
@@ -4044,7 +4287,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 9.",
+              "reference": {
+                "name": "Remise en état en fin d'exploitation",
+                "nb": "Annexe I > 9."
+              },
               "sections": [],
               "title": {
                 "text": "9. Remise en état en fin d'exploitation"
@@ -4076,7 +4322,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II",
+          "reference": {
+            "name": "",
+            "nb": "Annexe II"
+          },
           "sections": [],
           "title": {
             "text": "Annexe II"
@@ -4103,7 +4352,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III",
+          "reference": {
+            "name": "",
+            "nb": "Annexe III"
+          },
           "sections": [],
           "title": {
             "text": "Annexe III"
@@ -4130,7 +4382,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV",
+          "reference": {
+            "name": "",
+            "nb": "Annexe IV"
+          },
           "sections": [],
           "title": {
             "text": "Annexe IV"
@@ -4157,7 +4412,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe V",
+          "reference": {
+            "name": "",
+            "nb": "Annexe V"
+          },
           "sections": [],
           "title": {
             "text": "Annexe V"
@@ -4506,7 +4764,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe VI",
+          "reference": {
+            "name": "",
+            "nb": "Annexe VI"
+          },
           "sections": [],
           "title": {
             "text": "Annexe VI"

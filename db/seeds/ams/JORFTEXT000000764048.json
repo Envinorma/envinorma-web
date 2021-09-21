@@ -47,7 +47,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 1er",
+      "reference": {
+        "name": "",
+        "nb": "Article 1er"
+      },
       "sections": [],
       "title": {
         "text": "Article 1er"
@@ -77,7 +80,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 2",
+      "reference": {
+        "name": "",
+        "nb": "Article 2"
+      },
       "sections": [],
       "title": {
         "text": "Article 2"
@@ -104,7 +110,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 3",
+      "reference": {
+        "name": "",
+        "nb": "Article 3"
+      },
       "sections": [],
       "title": {
         "text": "Article 3"
@@ -146,7 +155,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 4",
+      "reference": {
+        "name": "",
+        "nb": "Article 4"
+      },
       "sections": [],
       "title": {
         "text": "Article 4"
@@ -169,7 +181,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -255,7 +270,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe A.",
+          "reference": {
+            "name": "Prescriptions générales",
+            "nb": "Annexe > A."
+          },
           "sections": [],
           "title": {
             "text": "A. Prescriptions générales"
@@ -291,7 +309,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe B.",
+          "reference": {
+            "name": "Prescriptions relatives aux stockages par immersion",
+            "nb": "Annexe > B."
+          },
           "sections": [],
           "title": {
             "text": "B. Prescriptions relatives aux stockages par immersion"
@@ -330,7 +351,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe C.",
+          "reference": {
+            "name": "Prescriptions relatives aux stockages par aspersion",
+            "nb": "Annexe > C."
+          },
           "sections": [
             {
               "annotations": {
@@ -359,7 +383,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe C.",
+              "reference": {
+                "name": "1. Stockages en circuits ouverts",
+                "nb": "Annexe > C. C."
+              },
               "sections": [],
               "title": {
                 "text": "C.1. Stockages en circuits ouverts"
@@ -395,7 +422,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe C.",
+              "reference": {
+                "name": "2. Stockage en circuits fermés",
+                "nb": "Annexe > C. C."
+              },
               "sections": [],
               "title": {
                 "text": "C.2. Stockage en circuits fermés"

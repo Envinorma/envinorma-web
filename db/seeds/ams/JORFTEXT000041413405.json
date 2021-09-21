@@ -43,7 +43,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Dispositions générales",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -75,7 +78,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1",
+          "reference": {
+            "name": "Dispositions générales",
+            "nb": "Article 1"
+          },
           "sections": [],
           "title": {
             "text": "Article 1"
@@ -108,7 +114,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2",
+          "reference": {
+            "name": "Aménagement",
+            "nb": "Article 2"
+          },
           "sections": [],
           "title": {
             "text": "Article 2 - Aménagement"
@@ -192,7 +201,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3",
+          "reference": {
+            "name": "Définitions",
+            "nb": "Article 3"
+          },
           "sections": [],
           "title": {
             "text": "Article 3 - Définitions"
@@ -219,7 +231,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4",
+          "reference": {
+            "name": "Conformité de l'installation à la déclaration",
+            "nb": "Article 4"
+          },
           "sections": [],
           "title": {
             "text": "Article 4 - Conformité de l'installation à la déclaration"
@@ -270,7 +285,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5",
+          "reference": {
+            "name": "Dossier installation classée",
+            "nb": "Article 5"
+          },
           "sections": [],
           "title": {
             "text": "Article 5 - Dossier installation classée"
@@ -298,7 +316,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Exploitation",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -321,7 +342,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 6",
+          "reference": {
+            "name": "Surveillance de l'exploitation",
+            "nb": "Article 6"
+          },
           "sections": [],
           "title": {
             "text": "Article 6 - Surveillance de l'exploitation"
@@ -627,7 +651,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 7",
+          "reference": {
+            "name": "Augmentation de l'utilisation de solvant",
+            "nb": "Article 7"
+          },
           "sections": [],
           "title": {
             "text": "Article 7 - Augmentation de l'utilisation de solvant"
@@ -655,7 +682,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Air - Odeurs",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -681,7 +711,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 8",
+          "reference": {
+            "name": "Captage et épuration des rejets à l'atmosphère",
+            "nb": "Article 8"
+          },
           "sections": [],
           "title": {
             "text": "Article 8 - Captage et épuration des rejets à l'atmosphère"
@@ -711,7 +744,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 9",
+          "reference": {
+            "name": "Valeurs limites et conditions de rejet",
+            "nb": "Article 9"
+          },
           "sections": [],
           "title": {
             "text": "Article 9 - Valeurs limites et conditions de rejet"
@@ -734,7 +770,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 9.1",
+          "reference": {
+            "name": "Composés organiques volatils (COV)",
+            "nb": "Article 9.1"
+          },
           "sections": [
             {
               "annotations": {
@@ -763,7 +802,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 9.1 I.",
+              "reference": {
+                "name": "Seuils de consommation et valeurs limites d'émissions",
+                "nb": "Article 9.1 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I. - Seuils de consommation et valeurs limites d'émissions"
@@ -799,7 +841,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 9.1 II.",
+              "reference": {
+                "name": "Composés organiques volatils à mention de danger",
+                "nb": "Article 9.1 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II. - Composés organiques volatils à mention de danger"
@@ -832,7 +877,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 9.1 III.",
+              "reference": {
+                "name": "Installations exerçant plusieurs activités",
+                "nb": "Article 9.1 > III."
+              },
               "sections": [],
               "title": {
                 "text": "III. - Installations exerçant plusieurs activités"
@@ -859,7 +907,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 9.1 IV.",
+              "reference": {
+                "name": "Opérations de démarrage et d'arrêt",
+                "nb": "Article 9.1 > IV."
+              },
               "sections": [],
               "title": {
                 "text": "IV. - Opérations de démarrage et d'arrêt"
@@ -895,7 +946,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 9.1 V.",
+              "reference": {
+                "name": "Mise en œuvre d'un schéma de maîtrise des émissions de COV",
+                "nb": "Article 9.1 > V."
+              },
               "sections": [],
               "title": {
                 "text": "V. - Mise en œuvre d'un schéma de maîtrise des émissions de COV"
@@ -925,7 +979,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 9.1 VI.",
+              "reference": {
+                "name": "Dérogations",
+                "nb": "Article 9.1 > VI."
+              },
               "sections": [],
               "title": {
                 "text": "VI. - Dérogations"
@@ -969,7 +1026,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 9.2",
+          "reference": {
+            "name": "Air - Odeurs",
+            "nb": "Article 9.2"
+          },
           "sections": [],
           "title": {
             "text": "Article 9.2"
@@ -1014,7 +1074,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 9.3",
+          "reference": {
+            "name": "Odeurs",
+            "nb": "Article 9.3"
+          },
           "sections": [],
           "title": {
             "text": "Article 9.3 - Odeurs"
@@ -1037,7 +1100,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 10",
+          "reference": {
+            "name": "Surveillance par l'exploitant de la pollution rejetée",
+            "nb": "Article 10"
+          },
           "sections": [],
           "title": {
             "text": "Article 10 - Surveillance par l'exploitant de la pollution rejetée"
@@ -1103,7 +1169,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 10.1",
+          "reference": {
+            "name": "Cas général",
+            "nb": "Article 10.1"
+          },
           "sections": [],
           "title": {
             "text": "Article 10.1 - Cas général"
@@ -1133,7 +1202,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 10.2",
+          "reference": {
+            "name": "Cas particuliers",
+            "nb": "Article 10.2"
+          },
           "sections": [],
           "title": {
             "text": "Article 10.2 - Cas particuliers"
@@ -1178,7 +1250,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 11",
+          "reference": {
+            "name": "Evaluation du respect des valeurs limites d'émission dans les gaz résiduaires",
+            "nb": "Article 11"
+          },
           "sections": [],
           "title": {
             "text": "Article 11 - Evaluation du respect des valeurs limites d'émission dans les gaz résiduaires"
@@ -1206,7 +1281,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Exécution",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -1235,7 +1313,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 12",
+          "reference": {
+            "name": "Exécution",
+            "nb": "Article 12"
+          },
           "sections": [],
           "title": {
             "text": "Article 12"
@@ -1262,7 +1343,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 13",
+          "reference": {
+            "name": "Exécution",
+            "nb": "Article 13"
+          },
           "sections": [],
           "title": {
             "text": "Article 13 - Exécution"
@@ -1290,7 +1374,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -1309,7 +1396,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe Art. -",
+          "reference": {
+            "name": "ANNEXES",
+            "nb": "Article"
+          },
           "sections": [
             {
               "annotations": {
@@ -2988,7 +3078,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe Art. - Annexe I",
+              "reference": {
+                "name": "ANNEXES",
+                "nb": "Annexe I"
+              },
               "sections": [],
               "title": {
                 "text": "ANNEXE I"
@@ -3021,7 +3114,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -3040,7 +3136,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe Art.",
+          "reference": {
+            "name": "",
+            "nb": "Article"
+          },
           "sections": [
             {
               "annotations": {
@@ -3059,7 +3158,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe Art. Annexe II",
+              "reference": {
+                "name": "VALEURS LIMITES D'ÉMISSION APPLICABLES AUX INSTALLATIONS DE L'INDUSTRIE DE REVÊTEMENT DE VÉHICULES",
+                "nb": "Annexe II"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3082,7 +3184,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe Art. Annexe II",
+                  "reference": {
+                    "name": "VALEURS LIMITES D'ÉMISSION APPLICABLES AUX INSTALLATIONS DE L'INDUSTRIE DE REVÊTEMENT DE VÉHICULES",
+                    "nb": "Annexe II > 1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1."
@@ -3124,7 +3229,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe Art. Annexe II",
+                  "reference": {
+                    "name": "VALEURS LIMITES D'ÉMISSION APPLICABLES AUX INSTALLATIONS DE L'INDUSTRIE DE REVÊTEMENT DE VÉHICULES",
+                    "nb": "Annexe II > 2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2."
@@ -3465,7 +3573,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe Art. Annexe II",
+                  "reference": {
+                    "name": "VALEURS LIMITES D'ÉMISSION APPLICABLES AUX INSTALLATIONS DE L'INDUSTRIE DE REVÊTEMENT DE VÉHICULES",
+                    "nb": "Annexe II > 3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3."
@@ -3492,7 +3603,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe Art. Annexe II",
+                  "reference": {
+                    "name": "VALEURS LIMITES D'ÉMISSION APPLICABLES AUX INSTALLATIONS DE L'INDUSTRIE DE REVÊTEMENT DE VÉHICULES",
+                    "nb": "Annexe II > 4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4."

@@ -91,7 +91,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 1",
+      "reference": {
+        "name": "",
+        "nb": "Article 1"
+      },
       "sections": [],
       "title": {
         "text": "Article 1"
@@ -118,7 +121,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 2",
+      "reference": {
+        "name": "",
+        "nb": "Article 2"
+      },
       "sections": [],
       "title": {
         "text": "Article 2"
@@ -151,7 +157,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 3",
+      "reference": {
+        "name": "",
+        "nb": "Article 3"
+      },
       "sections": [],
       "title": {
         "text": "Article 3"
@@ -178,7 +187,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 4",
+      "reference": {
+        "name": "",
+        "nb": "Article 4"
+      },
       "sections": [],
       "title": {
         "text": "Article 4"
@@ -205,7 +217,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 5",
+      "reference": {
+        "name": "",
+        "nb": "Article 5"
+      },
       "sections": [],
       "title": {
         "text": "Article 5"
@@ -228,7 +243,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -284,7 +302,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe I",
+          "reference": {
+            "name": "PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES POUR LA PROTECTION DE L'ENVIRONNEMENT SOUMISES À DÉCLARATION SOUS LES RUBRIQUES Nos 2101-1, 2101-2, 2101-3, 2102 ET 2111",
+            "nb": "Annexe I"
+          },
           "sections": [
             {
               "annotations": {
@@ -303,7 +324,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 1.",
+              "reference": {
+                "name": "Dispositions générales",
+                "nb": "Annexe I > 1."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -322,7 +346,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.1.",
+                  "reference": {
+                    "name": "Conformité de l'installation",
+                    "nb": "Annexe I > 1.1."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -345,7 +372,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 1.1.1.",
+                      "reference": {
+                        "name": "Conformité de l'installation à la déclaration",
+                        "nb": "Annexe I > 1.1.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.1.1. Conformité de l'installation à la déclaration"
@@ -375,7 +405,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 1.1.2.",
+                      "reference": {
+                        "name": "Contrôle périodique",
+                        "nb": "Annexe I > 1.1.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.1.2. Contrôle périodique"
@@ -407,7 +440,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.2.",
+                  "reference": {
+                    "name": "Modifications",
+                    "nb": "Annexe I > 1.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.2. Modifications"
@@ -437,7 +473,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.3.",
+                  "reference": {
+                    "name": "Contenu de la déclaration",
+                    "nb": "Annexe I > 1.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.3. Contenu de la déclaration"
@@ -497,7 +536,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.4.",
+                  "reference": {
+                    "name": "Dossier installation classée",
+                    "nb": "Annexe I > 1.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.4. Dossier installation classée"
@@ -524,7 +566,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.5.",
+                  "reference": {
+                    "name": "Déclaration d'accident ou de pollution accidentelle",
+                    "nb": "Annexe I > 1.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.5. Déclaration d'accident ou de pollution accidentelle"
@@ -551,7 +596,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.6.",
+                  "reference": {
+                    "name": "Changement d'exploitant",
+                    "nb": "Annexe I > 1.6."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.6. Changement d'exploitant"
@@ -587,7 +635,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.7.",
+                  "reference": {
+                    "name": "Cessation d'activité",
+                    "nb": "Annexe I > 1.7."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.7. Cessation d'activité"
@@ -615,7 +666,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 2.",
+              "reference": {
+                "name": "Implantation. - Aménagement",
+                "nb": "Annexe I > 2."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -682,7 +736,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.1.",
+                  "reference": {
+                    "name": "Règles d'implantation",
+                    "nb": "Annexe I > 2.1."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -705,7 +762,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.1.1.",
+                      "reference": {
+                        "name": "Cas des élevages de porcs en plein air",
+                        "nb": "Annexe I > 2.1.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.1.1. Cas des élevages de porcs en plein air"
@@ -750,7 +810,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.1.2.",
+                      "reference": {
+                        "name": "Cas de certains bâtiments d'élevage de volailles",
+                        "nb": "Annexe I > 2.1.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.1.2. Cas de certains bâtiments d'élevage de volailles"
@@ -782,7 +845,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.2.",
+                  "reference": {
+                    "name": "Intégration dans le paysage",
+                    "nb": "Annexe I > 2.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.2. Intégration dans le paysage"
@@ -832,7 +898,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.3.",
+                  "reference": {
+                    "name": "Aménagement des locaux et des aires de stockage",
+                    "nb": "Annexe I > 2.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.3. Aménagement des locaux et des aires de stockage"
@@ -855,7 +924,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.4.",
+                  "reference": {
+                    "name": "Gestion du pâturage des bovins et des parcours pour les porcs et les volailles",
+                    "nb": "Annexe I > 2.4."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -914,7 +986,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.4.1.",
+                      "reference": {
+                        "name": "Parcours extérieurs des porcs",
+                        "nb": "Annexe I > 2.4.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.4.1. Parcours extérieurs des porcs"
@@ -959,7 +1034,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.4.2.",
+                      "reference": {
+                        "name": "Parcours extérieurs des volailles",
+                        "nb": "Annexe I > 2.4.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.4.2. Parcours extérieurs des volailles"
@@ -992,7 +1070,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.4.3.",
+                      "reference": {
+                        "name": "Pâturage des bovins",
+                        "nb": "Annexe I > 2.4.3."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.4.3. Pâturage des bovins"
@@ -1048,7 +1129,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.5.",
+                  "reference": {
+                    "name": "Propreté de l'installation et accessibilité",
+                    "nb": "Annexe I > 2.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.5. Propreté de l'installation et accessibilité"
@@ -1146,7 +1230,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.6.",
+                  "reference": {
+                    "name": "Stockage des produits de nettoyage, de désinfection,",
+                    "nb": "Annexe I > 2.6."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.6. Stockage des produits de nettoyage, de désinfection,"
@@ -1236,7 +1323,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.7.",
+                  "reference": {
+                    "name": "Moyens de lutte contre l'incendie",
+                    "nb": "Annexe I > 2.7."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.7. Moyens de lutte contre l'incendie"
@@ -1278,7 +1368,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.8.",
+                  "reference": {
+                    "name": "Installations électriques et techniques",
+                    "nb": "Annexe I > 2.8."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.8. Installations électriques et techniques"
@@ -1306,7 +1399,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 3.",
+              "reference": {
+                "name": "Emissions dans l'eau et dans les sols",
+                "nb": "Annexe I > 3."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1325,7 +1421,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.1.",
+                  "reference": {
+                    "name": "Compatibilité avec le schéma directeur d'aménagement et de gestion des eaux (SDAGE), zones vulnérables et connexité",
+                    "nb": "Annexe I > 3.1."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -1348,7 +1447,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.1.1.",
+                      "reference": {
+                        "name": "Compatibilité avec le SDAGE",
+                        "nb": "Annexe I > 3.1.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.1.1. Compatibilité avec le SDAGE"
@@ -1375,7 +1477,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.1.2.",
+                      "reference": {
+                        "name": "Applicabilité des programmes d'actions nitrates",
+                        "nb": "Annexe I > 3.1.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.1.2. Applicabilité des programmes d'actions nitrates"
@@ -1402,7 +1507,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.1.3.",
+                      "reference": {
+                        "name": "Connexité avec des ouvrages soumis à la nomenclature eau en application des articles L. 214-1 à L. 214-3 du code de l'environnement",
+                        "nb": "Annexe I > 3.1.3."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.1.3. Connexité avec des ouvrages soumis à la nomenclature eau en application des articles L. 214-1 à L. 214-3 du code de l'environnement"
@@ -1430,7 +1538,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.2.",
+                  "reference": {
+                    "name": "Prélèvement d'eau et forage",
+                    "nb": "Annexe I > 3.2."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -1462,7 +1573,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.2.1.",
+                      "reference": {
+                        "name": "Prélèvements d'eau",
+                        "nb": "Annexe I > 3.2.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.2.1. Prélèvements d'eau"
@@ -1507,7 +1621,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.2.2.",
+                      "reference": {
+                        "name": "Forages",
+                        "nb": "Annexe I > 3.2.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.2.2. Forages"
@@ -1539,7 +1656,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.3.",
+                  "reference": {
+                    "name": "Collecte et stockage des effluents d'élevage",
+                    "nb": "Annexe I > 3.3."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -1558,7 +1678,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.3.1.",
+                      "reference": {
+                        "name": "Equipement de collecte et de stockage des effluents d'élevage",
+                        "nb": "Annexe I > 3.3.1."
+                      },
                       "sections": [
                         {
                           "annotations": {
@@ -1602,7 +1725,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 3.3.1.",
+                          "reference": {
+                            "name": "Equipement de collecte et de stockage des effluents d'élevage",
+                            "nb": "Annexe I > 3.3.1. I."
+                          },
                           "sections": [],
                           "title": {
                             "text": "I."
@@ -1632,7 +1758,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 3.3.1.",
+                          "reference": {
+                            "name": "Equipement de collecte et de stockage des effluents d'élevage",
+                            "nb": "Annexe I > 3.3.1. II."
+                          },
                           "sections": [],
                           "title": {
                             "text": "II."
@@ -1691,7 +1820,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.3.2.",
+                      "reference": {
+                        "name": "Collecte des eaux de pluie",
+                        "nb": "Annexe I > 3.3.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.3.2. Collecte des eaux de pluie"
@@ -1724,7 +1856,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 4.",
+              "reference": {
+                "name": "Epandage et traitement des effluents d'élevage",
+                "nb": "Annexe I > 4."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1768,7 +1903,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.1.",
+                  "reference": {
+                    "name": "Principes généraux",
+                    "nb": "Annexe I > 4.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.1. Principes généraux"
@@ -1791,7 +1929,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.2.",
+                  "reference": {
+                    "name": "Epandage",
+                    "nb": "Annexe I > 4.2."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -1832,7 +1973,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 4.2.1.",
+                      "reference": {
+                        "name": "Généralités",
+                        "nb": "Annexe I > 4.2.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "4.2.1. Généralités"
@@ -1855,7 +1999,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 4.2.2.",
+                      "reference": {
+                        "name": "Plan d'épandage",
+                        "nb": "Annexe I > 4.2.2."
+                      },
                       "sections": [
                         {
                           "annotations": {
@@ -1887,7 +2034,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 4.2.2. a)",
+                          "reference": {
+                            "name": "Plan d'épandage",
+                            "nb": "Annexe I > 4.2.2. a)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "a)"
@@ -1929,7 +2079,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 4.2.2. b)",
+                          "reference": {
+                            "name": "Plan d'épandage",
+                            "nb": "Annexe I > 4.2.2. b)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "b)"
@@ -1977,7 +2130,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 4.2.2. c)",
+                          "reference": {
+                            "name": "Plan d'épandage",
+                            "nb": "Annexe I > 4.2.2. c)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "c)"
@@ -2013,7 +2169,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 4.2.2. d)",
+                          "reference": {
+                            "name": "Plan d'épandage",
+                            "nb": "Annexe I > 4.2.2. d)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "d)"
@@ -2041,7 +2200,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 4.2.3.",
+                      "reference": {
+                        "name": "Interdictions d'épandage et distances",
+                        "nb": "Annexe I > 4.2.3."
+                      },
                       "sections": [
                         {
                           "annotations": {
@@ -2088,7 +2250,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 4.2.3. a)",
+                          "reference": {
+                            "name": "Généralités",
+                            "nb": "Annexe I > 4.2.3. a)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "a) Généralités :"
@@ -2252,7 +2417,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 4.2.3. b)",
+                          "reference": {
+                            "name": "Distances à respecter vis-à-vis des tiers",
+                            "nb": "Annexe I > 4.2.3. b)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "b) Distances à respecter vis-à-vis des tiers :"
@@ -2291,7 +2459,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 4.2.3. c)",
+                          "reference": {
+                            "name": "Distances vis-à-vis des autres éléments de l'environnement",
+                            "nb": "Annexe I > 4.2.3. c)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "c) Distances vis-à-vis des autres éléments de l'environnement :"
@@ -2353,7 +2524,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 4.2.4.",
+                      "reference": {
+                        "name": "Dimensionnement du plan d'épandage",
+                        "nb": "Annexe I > 4.2.4."
+                      },
                       "sections": [],
                       "title": {
                         "text": "4.2.4. Dimensionnement du plan d'épandage"
@@ -2395,7 +2569,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 4.2.5.",
+                      "reference": {
+                        "name": "Délais d'enfouissement",
+                        "nb": "Annexe I > 4.2.5."
+                      },
                       "sections": [],
                       "title": {
                         "text": "4.2.5. Délais d'enfouissement"
@@ -2483,7 +2660,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.3.",
+                  "reference": {
+                    "name": "Stations ou équipements de traitement",
+                    "nb": "Annexe I > 4.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.3. Stations ou équipements de traitement"
@@ -2519,7 +2699,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.4.",
+                  "reference": {
+                    "name": "Compostage",
+                    "nb": "Annexe I > 4.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.4. Compostage"
@@ -2549,7 +2732,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.5.",
+                  "reference": {
+                    "name": "Site de traitement spécialisé",
+                    "nb": "Annexe I > 4.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.5. Site de traitement spécialisé"
@@ -2587,7 +2773,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 5.",
+              "reference": {
+                "name": "Emissions dans l'air d'odeur, gaz ou poussière",
+                "nb": "Annexe I > 5."
+              },
               "sections": [],
               "title": {
                 "text": "5. Emissions dans l'air d'odeur, gaz ou poussière"
@@ -2765,7 +2954,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 6.",
+              "reference": {
+                "name": "Bruit",
+                "nb": "Annexe I > 6."
+              },
               "sections": [],
               "title": {
                 "text": "6. Bruit"
@@ -2801,7 +2993,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 7.",
+              "reference": {
+                "name": "Déchets et sous-produits animaux",
+                "nb": "Annexe I > 7."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -2833,7 +3028,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.1.",
+                  "reference": {
+                    "name": "Stockage des déchets et sous-produits (identique article 34 arrêté A)",
+                    "nb": "Annexe I > 7.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.1. Stockage des déchets et sous-produits (identique article 34 arrêté A)"
@@ -2896,7 +3094,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.2.",
+                  "reference": {
+                    "name": "Elimination des déchets, médicaments vétérinaires et sous-produits",
+                    "nb": "Annexe I > 7.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.2. Elimination des déchets, médicaments vétérinaires et sous-produits"
@@ -2924,7 +3125,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 8.",
+              "reference": {
+                "name": "Surveillance des émissions",
+                "nb": "Annexe I > 8."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3025,7 +3229,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 8.1.",
+                  "reference": {
+                    "name": "Cahier d'épandage",
+                    "nb": "Annexe I > 8.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "8.1. Cahier d'épandage"
@@ -3076,7 +3283,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 8.2.",
+                  "reference": {
+                    "name": "Surveillance du traitement dans une station ou un équipement de traitement",
+                    "nb": "Annexe I > 8.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "8.2. Surveillance du traitement dans une station ou un équipement de traitement"
@@ -3118,7 +3328,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 8.3.",
+                  "reference": {
+                    "name": "Surveillance du traitement par compostage",
+                    "nb": "Annexe I > 8.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "8.3. Surveillance du traitement par compostage"
@@ -3151,7 +3364,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II",
+          "reference": {
+            "name": "MODALITÉS DE CALCUL DU DIMENSIONNEMENT DU PLAN D'ÉPANDAGE",
+            "nb": "Annexe II"
+          },
           "sections": [
             {
               "annotations": {
@@ -3183,7 +3399,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 1.",
+              "reference": {
+                "name": "Calcul de la quantité d'azote issue des animaux destinée à être épandu mécaniquement ou par les animaux eux-mêmes.",
+                "nb": "Annexe II > 1."
+              },
               "sections": [],
               "title": {
                 "text": "1. Calcul de la quantité d'azote issue des animaux destinée à être épandu mécaniquement ou par les animaux eux-mêmes."
@@ -3228,7 +3447,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 2.",
+              "reference": {
+                "name": "Calcul de la quantité d'azote exportée par les végétaux cultivés.",
+                "nb": "Annexe II > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Calcul de la quantité d'azote exportée par les végétaux cultivés."
@@ -3270,7 +3492,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 3.",
+              "reference": {
+                "name": "Prise en compte de la situation des prêteurs de terre.",
+                "nb": "Annexe II > 3."
+              },
               "sections": [],
               "title": {
                 "text": "3. Prise en compte de la situation des prêteurs de terre."

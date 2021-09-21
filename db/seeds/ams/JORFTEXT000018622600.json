@@ -50,7 +50,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 1",
+      "reference": {
+        "name": "",
+        "nb": "Article 1"
+      },
       "sections": [],
       "title": {
         "text": "Article 1"
@@ -83,7 +86,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 2",
+      "reference": {
+        "name": "",
+        "nb": "Article 2"
+      },
       "sections": [],
       "title": {
         "text": "Article 2"
@@ -131,7 +137,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 3",
+      "reference": {
+        "name": "",
+        "nb": "Article 3"
+      },
       "sections": [],
       "title": {
         "text": "Article 3"
@@ -154,7 +163,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Localisation",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -200,7 +212,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4",
+          "reference": {
+            "name": "Localisation",
+            "nb": "Article 4"
+          },
           "sections": [],
           "title": {
             "text": "Article 4"
@@ -227,7 +242,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5",
+          "reference": {
+            "name": "Localisation",
+            "nb": "Article 5"
+          },
           "sections": [],
           "title": {
             "text": "Article 5"
@@ -255,7 +273,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Règles d'aménagement",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -284,7 +305,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 6",
+          "reference": {
+            "name": "Règles d'aménagement",
+            "nb": "Article 6"
+          },
           "sections": [],
           "title": {
             "text": "Article 6"
@@ -332,7 +356,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 7",
+          "reference": {
+            "name": "Règles d'aménagement",
+            "nb": "Article 7"
+          },
           "sections": [],
           "title": {
             "text": "Article 7"
@@ -374,7 +401,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 8",
+          "reference": {
+            "name": "Règles d'aménagement",
+            "nb": "Article 8"
+          },
           "sections": [],
           "title": {
             "text": "Article 8"
@@ -407,7 +437,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 9",
+          "reference": {
+            "name": "Règles d'aménagement",
+            "nb": "Article 9"
+          },
           "sections": [],
           "title": {
             "text": "Article 9"
@@ -434,7 +467,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 10",
+          "reference": {
+            "name": "Règles d'aménagement",
+            "nb": "Article 10"
+          },
           "sections": [],
           "title": {
             "text": "Article 10"
@@ -461,7 +497,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 11",
+          "reference": {
+            "name": "Règles d'aménagement",
+            "nb": "Article 11"
+          },
           "sections": [],
           "title": {
             "text": "Article 11"
@@ -491,7 +530,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 12",
+          "reference": {
+            "name": "Règles d'aménagement",
+            "nb": "Article 12"
+          },
           "sections": [],
           "title": {
             "text": "Article 12"
@@ -519,7 +561,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Règles d'exploitation",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -548,7 +593,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 13",
+          "reference": {
+            "name": "Règles d'exploitation",
+            "nb": "Article 13"
+          },
           "sections": [],
           "title": {
             "text": "Article 13"
@@ -584,7 +632,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 14",
+          "reference": {
+            "name": "Règles d'exploitation",
+            "nb": "Article 14"
+          },
           "sections": [],
           "title": {
             "text": "Article 14"
@@ -647,7 +698,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 15",
+          "reference": {
+            "name": "Règles d'exploitation",
+            "nb": "Article 15"
+          },
           "sections": [],
           "title": {
             "text": "Article 15"
@@ -755,7 +809,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 16",
+          "reference": {
+            "name": "Règles d'exploitation",
+            "nb": "Article 16"
+          },
           "sections": [],
           "title": {
             "text": "Article 16"
@@ -782,7 +839,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 17",
+          "reference": {
+            "name": "Règles d'exploitation",
+            "nb": "Article 17"
+          },
           "sections": [],
           "title": {
             "text": "Article 17"
@@ -809,7 +869,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 18",
+          "reference": {
+            "name": "Règles d'exploitation",
+            "nb": "Article 18"
+          },
           "sections": [],
           "title": {
             "text": "Article 18"
@@ -839,7 +902,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 19",
+          "reference": {
+            "name": "Règles d'exploitation",
+            "nb": "Article 19"
+          },
           "sections": [],
           "title": {
             "text": "Article 19"
@@ -872,7 +938,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 20",
+          "reference": {
+            "name": "Règles d'exploitation",
+            "nb": "Article 20"
+          },
           "sections": [],
           "title": {
             "text": "Article 20"
@@ -900,7 +969,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Autosurveillance",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -938,7 +1010,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 21",
+          "reference": {
+            "name": "Autosurveillance",
+            "nb": "Article 21"
+          },
           "sections": [],
           "title": {
             "text": "Article 21"
@@ -968,7 +1043,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 22",
+          "reference": {
+            "name": "Autosurveillance",
+            "nb": "Article 22"
+          },
           "sections": [],
           "title": {
             "text": "Article 22"
@@ -995,7 +1073,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 23",
+          "reference": {
+            "name": "Autosurveillance",
+            "nb": "Article 23"
+          },
           "sections": [],
           "title": {
             "text": "Article 23"
@@ -1037,7 +1118,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 24",
+          "reference": {
+            "name": "Autosurveillance",
+            "nb": "Article 24"
+          },
           "sections": [],
           "title": {
             "text": "Article 24"
@@ -1065,7 +1149,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Remise en état et réhabilitation",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -1106,7 +1193,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 25",
+          "reference": {
+            "name": "Remise en état et réhabilitation",
+            "nb": "Article 25"
+          },
           "sections": [],
           "title": {
             "text": "Article 25"
@@ -1133,7 +1223,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 26",
+          "reference": {
+            "name": "Remise en état et réhabilitation",
+            "nb": "Article 26"
+          },
           "sections": [],
           "title": {
             "text": "Article 26"

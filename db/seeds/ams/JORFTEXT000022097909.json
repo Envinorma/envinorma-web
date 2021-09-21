@@ -47,7 +47,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 1",
+      "reference": {
+        "name": "",
+        "nb": "Article 1"
+      },
       "sections": [],
       "title": {
         "text": "Article 1"
@@ -80,7 +83,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 2",
+      "reference": {
+        "name": "",
+        "nb": "Article 2"
+      },
       "sections": [],
       "title": {
         "text": "Article 2"
@@ -107,7 +113,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 3",
+      "reference": {
+        "name": "",
+        "nb": "Article 3"
+      },
       "sections": [],
       "title": {
         "text": "Article 3"
@@ -134,7 +143,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 4",
+      "reference": {
+        "name": "",
+        "nb": "Article 4"
+      },
       "sections": [],
       "title": {
         "text": "Article 4"
@@ -157,7 +169,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -176,7 +191,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe I",
+          "reference": {
+            "name": "PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES POUR LA PROTECTION DE L'ENVIRONNEMENT SOUMISES À ENREGISTREMENT SOUS LA RUBRIQUE N° 1530",
+            "nb": "Annexe I"
+          },
           "sections": [
             {
               "annotations": {
@@ -222,15 +240,6 @@
                     "condition": {
                       "conditions": [
                         {
-                          "parameter": {
-                            "id": "quantite-rubrique",
-                            "type": "REAL_NUMBER"
-                          },
-                          "strict": false,
-                          "target": 50000.0,
-                          "type": "GREATER"
-                        },
-                        {
                           "left": "2010-04-17",
                           "left_strict": false,
                           "parameter": {
@@ -240,6 +249,15 @@
                           "right": "2021-01-01",
                           "right_strict": true,
                           "type": "RANGE"
+                        },
+                        {
+                          "parameter": {
+                            "id": "quantite-rubrique",
+                            "type": "REAL_NUMBER"
+                          },
+                          "strict": false,
+                          "target": 50000.0,
+                          "type": "GREATER"
                         }
                       ],
                       "type": "AND"
@@ -250,7 +268,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 1.",
+              "reference": {
+                "name": "Dispositions générales",
+                "nb": "Annexe I > 1."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -276,7 +297,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.1.",
+                  "reference": {
+                    "name": "Conformité de l'installation au dossier d'enregistrement",
+                    "nb": "Annexe I > 1.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.1. Conformité de l'installation au dossier d'enregistrement"
@@ -321,7 +345,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.2.",
+                  "reference": {
+                    "name": "Dossier installation classée",
+                    "nb": "Annexe I > 1.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.2. Dossier installation classée"
@@ -357,7 +384,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.3.",
+                  "reference": {
+                    "name": "Entraînement des poussières et de boue",
+                    "nb": "Annexe I > 1.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.3. Entraînement des poussières et de boue"
@@ -390,7 +420,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.4.",
+                  "reference": {
+                    "name": "Intégration dans le paysage",
+                    "nb": "Annexe I > 1.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.4. Intégration dans le paysage"
@@ -418,7 +451,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 2.",
+              "reference": {
+                "name": "Risques",
+                "nb": "Annexe I > 2."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -489,15 +525,6 @@
                         "condition": {
                           "conditions": [
                             {
-                              "parameter": {
-                                "id": "quantite-rubrique",
-                                "type": "REAL_NUMBER"
-                              },
-                              "strict": false,
-                              "target": 50000.0,
-                              "type": "GREATER"
-                            },
-                            {
                               "left": "2010-04-17",
                               "left_strict": false,
                               "parameter": {
@@ -507,6 +534,15 @@
                               "right": "2021-01-01",
                               "right_strict": true,
                               "type": "RANGE"
+                            },
+                            {
+                              "parameter": {
+                                "id": "quantite-rubrique",
+                                "type": "REAL_NUMBER"
+                              },
+                              "strict": false,
+                              "target": 50000.0,
+                              "type": "GREATER"
                             }
                           ],
                           "type": "AND"
@@ -517,7 +553,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.1.",
+                  "reference": {
+                    "name": "Implantation",
+                    "nb": "Annexe I > 2.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.1. Implantation"
@@ -540,7 +579,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.2.",
+                  "reference": {
+                    "name": "Construction. ― Accessibilité",
+                    "nb": "Annexe I > 2.2."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -597,15 +639,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -615,6 +648,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -625,7 +667,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.1.",
+                      "reference": {
+                        "name": "Accessibilité au site",
+                        "nb": "Annexe I > 2.2.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.1. Accessibilité au site"
@@ -688,15 +733,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -706,6 +742,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -716,7 +761,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.2.",
+                      "reference": {
+                        "name": "Accessibilité des engins à proximité de l'installation",
+                        "nb": "Annexe I > 2.2.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.2. Accessibilité des engins à proximité de l'installation"
@@ -797,15 +845,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -815,6 +854,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -825,7 +873,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.3.",
+                      "reference": {
+                        "name": "Mise en station des échelles",
+                        "nb": "Annexe I > 2.2.3."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.3. Mise en station des échelles"
@@ -873,15 +924,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -891,6 +933,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -901,7 +952,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.4.",
+                      "reference": {
+                        "name": "Etablissement du dispositif hydraulique depuis les engins",
+                        "nb": "Annexe I > 2.2.4."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.4. Etablissement du dispositif hydraulique depuis les engins"
@@ -949,15 +1003,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -967,6 +1012,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -977,7 +1031,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.5.",
+                      "reference": {
+                        "name": "Accès au dépôt des secours",
+                        "nb": "Annexe I > 2.2.5."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.5. Accès au dépôt des secours"
@@ -1097,15 +1154,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -1115,6 +1163,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -1125,7 +1182,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.6.",
+                      "reference": {
+                        "name": "Structure des bâtiments",
+                        "nb": "Annexe I > 2.2.6."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.6. Structure des bâtiments"
@@ -1173,15 +1233,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -1191,6 +1242,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -1201,7 +1261,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.7.",
+                      "reference": {
+                        "name": "Cellules",
+                        "nb": "Annexe I > 2.2.7."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.7. Cellules"
@@ -1239,15 +1302,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -1257,6 +1311,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -1267,7 +1330,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.8.",
+                      "reference": {
+                        "name": "Cantonnement et désenfumage",
+                        "nb": "Annexe I > 2.2.8."
+                      },
                       "sections": [
                         {
                           "annotations": {
@@ -1299,7 +1365,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 2.2.8.",
+                          "reference": {
+                            "name": "Cantonnement",
+                            "nb": "Annexe I > 2.2.8.1."
+                          },
                           "sections": [],
                           "title": {
                             "text": "2.2.8.1. Cantonnement"
@@ -1371,7 +1440,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 2.2.8.",
+                          "reference": {
+                            "name": "Désenfumage",
+                            "nb": "Annexe I > 2.2.8.2."
+                          },
                           "sections": [],
                           "title": {
                             "text": "2.2.8.2. Désenfumage"
@@ -1401,7 +1473,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 2.2.8.",
+                          "reference": {
+                            "name": "Amenées d'air frais",
+                            "nb": "Annexe I > 2.2.8.3."
+                          },
                           "sections": [],
                           "title": {
                             "text": "2.2.8.3. Amenées d'air frais"
@@ -1451,15 +1526,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -1469,6 +1535,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -1479,7 +1554,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.9.",
+                      "reference": {
+                        "name": "Systèmes de détection incendie",
+                        "nb": "Annexe I > 2.2.9."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.9. Systèmes de détection incendie"
@@ -1534,21 +1612,21 @@
                               "conditions": [
                                 {
                                   "parameter": {
-                                    "id": "date-d-enregistrement",
-                                    "type": "DATE"
-                                  },
-                                  "strict": true,
-                                  "target": "2010-04-17",
-                                  "type": "LITTLER"
-                                },
-                                {
-                                  "parameter": {
                                     "id": "quantite-rubrique",
                                     "type": "REAL_NUMBER"
                                   },
                                   "strict": false,
                                   "target": 50000.0,
                                   "type": "GREATER"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "date-d-enregistrement",
+                                    "type": "DATE"
+                                  },
+                                  "strict": true,
+                                  "target": "2010-04-17",
+                                  "type": "LITTLER"
                                 }
                               ],
                               "type": "AND"
@@ -1559,7 +1637,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.10.",
+                      "reference": {
+                        "name": "Système d'extinction automatique",
+                        "nb": "Annexe I > 2.2.10."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.10. Système d'extinction automatique"
@@ -1589,21 +1670,21 @@
                               "conditions": [
                                 {
                                   "parameter": {
-                                    "id": "date-d-enregistrement",
-                                    "type": "DATE"
-                                  },
-                                  "strict": true,
-                                  "target": "2010-04-17",
-                                  "type": "LITTLER"
-                                },
-                                {
-                                  "parameter": {
                                     "id": "quantite-rubrique",
                                     "type": "REAL_NUMBER"
                                   },
                                   "strict": false,
                                   "target": 50000.0,
                                   "type": "GREATER"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "date-d-enregistrement",
+                                    "type": "DATE"
+                                  },
+                                  "strict": true,
+                                  "target": "2010-04-17",
+                                  "type": "LITTLER"
                                 }
                               ],
                               "type": "AND"
@@ -1614,7 +1695,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.11.",
+                      "reference": {
+                        "name": "Protection contre la foudre",
+                        "nb": "Annexe I > 2.2.11."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.11. Protection contre la foudre"
@@ -1730,7 +1814,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.12.",
+                      "reference": {
+                        "name": "Installations électriques, éclairage et chauffage",
+                        "nb": "Annexe I > 2.2.12."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.12. Installations électriques, éclairage et chauffage"
@@ -1790,15 +1877,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -1808,6 +1886,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -1818,7 +1905,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.13.",
+                      "reference": {
+                        "name": "Chaufferie et local de charge de batterie",
+                        "nb": "Annexe I > 2.2.13."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.13. Chaufferie et local de charge de batterie"
@@ -1891,15 +1981,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -1909,6 +1990,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -1919,7 +2009,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.14.",
+                      "reference": {
+                        "name": "Moyens de lutte contre l'incendie",
+                        "nb": "Annexe I > 2.2.14."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.14. Moyens de lutte contre l'incendie"
@@ -1967,7 +2060,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.15.",
+                      "reference": {
+                        "name": "Cuvettes de rétention",
+                        "nb": "Annexe I > 2.2.15."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.15. Cuvettes de rétention"
@@ -2048,15 +2144,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -2066,6 +2153,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -2076,7 +2172,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.2.16.",
+                      "reference": {
+                        "name": "Rétention des aires et locaux de travail et isolement du réseau de collecte",
+                        "nb": "Annexe I > 2.2.16."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.16. Rétention des aires et locaux de travail et isolement du réseau de collecte"
@@ -2104,7 +2203,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.3.",
+                  "reference": {
+                    "name": "Recensement des potentiels de dangers",
+                    "nb": "Annexe I > 2.3."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -2130,7 +2232,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.3.1.",
+                      "reference": {
+                        "name": "Connaissance des produits. ― Etiquetage",
+                        "nb": "Annexe I > 2.3.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.3.1. Connaissance des produits. ― Etiquetage"
@@ -2160,7 +2265,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.3.2.",
+                      "reference": {
+                        "name": "Etat des stocks",
+                        "nb": "Annexe I > 2.3.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.3.2. Etat des stocks"
@@ -2187,7 +2295,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.3.3.",
+                      "reference": {
+                        "name": "Localisation des risques",
+                        "nb": "Annexe I > 2.3.3."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.3.3. Localisation des risques"
@@ -2215,7 +2326,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.4.",
+                  "reference": {
+                    "name": "Exploitation",
+                    "nb": "Annexe I > 2.4."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -2249,15 +2363,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -2267,6 +2372,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -2277,7 +2391,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.4.1.",
+                      "reference": {
+                        "name": "Stockages",
+                        "nb": "Annexe I > 2.4.1."
+                      },
                       "sections": [
                         {
                           "annotations": {
@@ -2318,7 +2435,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 2.4.1.",
+                          "reference": {
+                            "name": "Stockages",
+                            "nb": "Annexe I > 2.4.1. A."
+                          },
                           "sections": [],
                           "title": {
                             "text": "A."
@@ -2348,7 +2468,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 2.4.1.",
+                          "reference": {
+                            "name": "Stockages",
+                            "nb": "Annexe I > 2.4.1. B."
+                          },
                           "sections": [],
                           "title": {
                             "text": "B."
@@ -2382,15 +2505,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -2400,6 +2514,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -2410,7 +2533,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.4.2.",
+                      "reference": {
+                        "name": "Matières dangereuses",
+                        "nb": "Annexe I > 2.4.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.4.2. Matières dangereuses"
@@ -2437,7 +2563,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.4.3.",
+                      "reference": {
+                        "name": "Propreté de l'installation",
+                        "nb": "Annexe I > 2.4.3."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.4.3. Propreté de l'installation"
@@ -2470,7 +2599,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.4.4.",
+                      "reference": {
+                        "name": "Travaux",
+                        "nb": "Annexe I > 2.4.4."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.4.4. Travaux"
@@ -2533,7 +2665,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.4.5.",
+                      "reference": {
+                        "name": "Consignes d'exploitation",
+                        "nb": "Annexe I > 2.4.5."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.4.5. Consignes d'exploitation"
@@ -2560,7 +2695,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.4.6.",
+                      "reference": {
+                        "name": "Vérification périodique et maintenance des équipements",
+                        "nb": "Annexe I > 2.4.6."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.4.6. Vérification périodique et maintenance des équipements"
@@ -2587,7 +2725,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.4.7.",
+                      "reference": {
+                        "name": "Brûlage",
+                        "nb": "Annexe I > 2.4.7."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.4.7. Brûlage"
@@ -2616,15 +2757,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -2634,6 +2766,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -2644,7 +2785,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.4.8.",
+                      "reference": {
+                        "name": "Surveillance du stockage",
+                        "nb": "Annexe I > 2.4.8."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.4.8. Surveillance du stockage"
@@ -2686,15 +2830,6 @@
                             "condition": {
                               "conditions": [
                                 {
-                                  "parameter": {
-                                    "id": "quantite-rubrique",
-                                    "type": "REAL_NUMBER"
-                                  },
-                                  "strict": false,
-                                  "target": 50000.0,
-                                  "type": "GREATER"
-                                },
-                                {
                                   "left": "2010-04-17",
                                   "left_strict": false,
                                   "parameter": {
@@ -2704,6 +2839,15 @@
                                   "right": "2021-01-01",
                                   "right_strict": true,
                                   "type": "RANGE"
+                                },
+                                {
+                                  "parameter": {
+                                    "id": "quantite-rubrique",
+                                    "type": "REAL_NUMBER"
+                                  },
+                                  "strict": false,
+                                  "target": 50000.0,
+                                  "type": "GREATER"
                                 }
                               ],
                               "type": "AND"
@@ -2714,7 +2858,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.4.9.",
+                      "reference": {
+                        "name": "Stationnement",
+                        "nb": "Annexe I > 2.4.9."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.4.9. Stationnement"
@@ -2747,7 +2894,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 3.",
+              "reference": {
+                "name": "Eau",
+                "nb": "Annexe I > 3."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -2793,15 +2943,6 @@
                         "condition": {
                           "conditions": [
                             {
-                              "parameter": {
-                                "id": "quantite-rubrique",
-                                "type": "REAL_NUMBER"
-                              },
-                              "strict": false,
-                              "target": 50000.0,
-                              "type": "GREATER"
-                            },
-                            {
                               "left": "2010-04-17",
                               "left_strict": false,
                               "parameter": {
@@ -2811,6 +2952,15 @@
                               "right": "2021-01-01",
                               "right_strict": true,
                               "type": "RANGE"
+                            },
+                            {
+                              "parameter": {
+                                "id": "quantite-rubrique",
+                                "type": "REAL_NUMBER"
+                              },
+                              "strict": false,
+                              "target": 50000.0,
+                              "type": "GREATER"
                             }
                           ],
                           "type": "AND"
@@ -2821,7 +2971,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.1.",
+                  "reference": {
+                    "name": "Plan des réseaux",
+                    "nb": "Annexe I > 3.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.1. Plan des réseaux"
@@ -2866,15 +3019,6 @@
                         "condition": {
                           "conditions": [
                             {
-                              "parameter": {
-                                "id": "quantite-rubrique",
-                                "type": "REAL_NUMBER"
-                              },
-                              "strict": false,
-                              "target": 50000.0,
-                              "type": "GREATER"
-                            },
-                            {
                               "left": "2010-04-17",
                               "left_strict": false,
                               "parameter": {
@@ -2884,6 +3028,15 @@
                               "right": "2021-01-01",
                               "right_strict": true,
                               "type": "RANGE"
+                            },
+                            {
+                              "parameter": {
+                                "id": "quantite-rubrique",
+                                "type": "REAL_NUMBER"
+                              },
+                              "strict": false,
+                              "target": 50000.0,
+                              "type": "GREATER"
                             }
                           ],
                           "type": "AND"
@@ -2894,7 +3047,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.2.",
+                  "reference": {
+                    "name": "Entretien et surveillance",
+                    "nb": "Annexe I > 3.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.2. Entretien et surveillance"
@@ -2930,7 +3086,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.3.",
+                  "reference": {
+                    "name": "Caractéristiques générales de l'ensemble des rejets",
+                    "nb": "Annexe I > 3.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.3. Caractéristiques générales de l'ensemble des rejets"
@@ -3027,15 +3186,6 @@
                         "condition": {
                           "conditions": [
                             {
-                              "parameter": {
-                                "id": "quantite-rubrique",
-                                "type": "REAL_NUMBER"
-                              },
-                              "strict": false,
-                              "target": 50000.0,
-                              "type": "GREATER"
-                            },
-                            {
                               "left": "2010-04-17",
                               "left_strict": false,
                               "parameter": {
@@ -3045,6 +3195,15 @@
                               "right": "2021-01-01",
                               "right_strict": true,
                               "type": "RANGE"
+                            },
+                            {
+                              "parameter": {
+                                "id": "quantite-rubrique",
+                                "type": "REAL_NUMBER"
+                              },
+                              "strict": false,
+                              "target": 50000.0,
+                              "type": "GREATER"
                             }
                           ],
                           "type": "AND"
@@ -3059,15 +3218,6 @@
                         "condition": {
                           "conditions": [
                             {
-                              "parameter": {
-                                "id": "quantite-rubrique",
-                                "type": "REAL_NUMBER"
-                              },
-                              "strict": false,
-                              "target": 50000.0,
-                              "type": "GREATER"
-                            },
-                            {
                               "left": "2010-04-17",
                               "left_strict": false,
                               "parameter": {
@@ -3077,6 +3227,15 @@
                               "right": "2021-01-01",
                               "right_strict": true,
                               "type": "RANGE"
+                            },
+                            {
+                              "parameter": {
+                                "id": "quantite-rubrique",
+                                "type": "REAL_NUMBER"
+                              },
+                              "strict": false,
+                              "target": 50000.0,
+                              "type": "GREATER"
                             }
                           ],
                           "type": "AND"
@@ -3087,7 +3246,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.4.",
+                  "reference": {
+                    "name": "Eaux pluviales",
+                    "nb": "Annexe I > 3.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.4. Eaux pluviales"
@@ -3129,15 +3291,6 @@
                         "condition": {
                           "conditions": [
                             {
-                              "parameter": {
-                                "id": "quantite-rubrique",
-                                "type": "REAL_NUMBER"
-                              },
-                              "strict": false,
-                              "target": 50000.0,
-                              "type": "GREATER"
-                            },
-                            {
                               "left": "2010-04-17",
                               "left_strict": false,
                               "parameter": {
@@ -3147,6 +3300,15 @@
                               "right": "2021-01-01",
                               "right_strict": true,
                               "type": "RANGE"
+                            },
+                            {
+                              "parameter": {
+                                "id": "quantite-rubrique",
+                                "type": "REAL_NUMBER"
+                              },
+                              "strict": false,
+                              "target": 50000.0,
+                              "type": "GREATER"
                             }
                           ],
                           "type": "AND"
@@ -3157,7 +3319,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.5.",
+                  "reference": {
+                    "name": "Eaux domestiques",
+                    "nb": "Annexe I > 3.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.5. Eaux domestiques"
@@ -3185,7 +3350,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 4.",
+              "reference": {
+                "name": "Déchets",
+                "nb": "Annexe I > 4."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3220,7 +3388,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.1.",
+                  "reference": {
+                    "name": "Généralités",
+                    "nb": "Annexe I > 4.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.1. Généralités"
@@ -3250,7 +3421,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.2.",
+                  "reference": {
+                    "name": "Stockage des déchets",
+                    "nb": "Annexe I > 4.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.2. Stockage des déchets"
@@ -3280,7 +3454,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.3.",
+                  "reference": {
+                    "name": "Elimination des déchets",
+                    "nb": "Annexe I > 4.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.3. Elimination des déchets"
@@ -3308,7 +3485,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 5.",
+              "reference": {
+                "name": "Bruit et vibrations",
+                "nb": "Annexe I > 5."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3440,7 +3620,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.1.",
+                  "reference": {
+                    "name": "Valeurs limites de bruit",
+                    "nb": "Annexe I > 5.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.1. Valeurs limites de bruit"
@@ -3470,7 +3653,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.2.",
+                  "reference": {
+                    "name": "Véhicules. ― Engins de chantier",
+                    "nb": "Annexe I > 5.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.2. Véhicules. ― Engins de chantier"
@@ -3497,7 +3683,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.3.",
+                  "reference": {
+                    "name": "Vibrations",
+                    "nb": "Annexe I > 5.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.3. Vibrations"
@@ -3527,7 +3716,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.4.",
+                  "reference": {
+                    "name": "Surveillance par l'exploitant des émissions sonores",
+                    "nb": "Annexe I > 5.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.4. Surveillance par l'exploitant des émissions sonores"
@@ -3565,7 +3757,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 6.",
+              "reference": {
+                "name": "Mise en sécurité et remise en état en fin d'exploitation",
+                "nb": "Annexe I > 6."
+              },
               "sections": [],
               "title": {
                 "text": "6. Mise en sécurité et remise en état en fin d'exploitation"
@@ -3683,7 +3878,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II",
+          "reference": {
+            "name": "DISPOSITIONS APPLICABLES AUX INSTALLATIONS EXISTANTES",
+            "nb": "Annexe II"
+          },
           "sections": [],
           "title": {
             "text": "Annexe II - DISPOSITIONS APPLICABLES AUX INSTALLATIONS EXISTANTES"
@@ -3713,7 +3911,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III",
+          "reference": {
+            "name": "RÈGLES TECHNIQUES APPLICABLES AUX VIBRATIONS",
+            "nb": "Annexe III"
+          },
           "sections": [
             {
               "annotations": {
@@ -3732,7 +3933,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 1.",
+              "reference": {
+                "name": "Valeurs limites de la vitesse particulaire",
+                "nb": "Annexe III > 1."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3903,7 +4107,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 1.1.",
+                  "reference": {
+                    "name": "Sources continues ou assimilées",
+                    "nb": "Annexe III > 1.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.1. Sources continues ou assimilées"
@@ -4075,7 +4282,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 1.2.",
+                  "reference": {
+                    "name": "Sources impulsionnelles à impulsions répétées",
+                    "nb": "Annexe III > 1.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.2. Sources impulsionnelles à impulsions répétées"
@@ -4146,7 +4356,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 2.",
+              "reference": {
+                "name": "Classification des constructions",
+                "nb": "Annexe III > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Classification des constructions"
@@ -4169,7 +4382,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 3.",
+              "reference": {
+                "name": "Méthode de mesure",
+                "nb": "Annexe III > 3."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -4195,7 +4411,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 3.1.",
+                  "reference": {
+                    "name": "Eléments de base",
+                    "nb": "Annexe III > 3.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.1. Eléments de base"
@@ -4222,7 +4441,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 3.2.",
+                  "reference": {
+                    "name": "Appareillage de mesure",
+                    "nb": "Annexe III > 3.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.2. Appareillage de mesure"
@@ -4249,7 +4471,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 3.3.",
+                  "reference": {
+                    "name": "Précautions opératoires",
+                    "nb": "Annexe III > 3.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.3. Précautions opératoires"
@@ -4376,7 +4601,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV",
+          "reference": {
+            "name": "DISPOSITIONS APPLICABLES AUX INSTALLATIONS D'UN VOLUME SUSCEPTIBLE D'ÊTRE STOCKÉ SUPÉRIEUR OU ÉGAL À 50 000 M3 AUTORISÉES ENTRE LE 17 AVRIL 2010 ET LE 1ER JANVIER 2021",
+            "nb": "Annexe IV"
+          },
           "sections": [],
           "title": {
             "text": "Annexe IV - DISPOSITIONS APPLICABLES AUX INSTALLATIONS D'UN VOLUME SUSCEPTIBLE D'ÊTRE STOCKÉ SUPÉRIEUR OU ÉGAL À 50 000 M3 AUTORISÉES ENTRE LE 17 AVRIL 2010 ET LE 1ER JANVIER 2021"

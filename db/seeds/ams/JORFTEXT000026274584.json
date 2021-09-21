@@ -50,7 +50,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 1er",
+      "reference": {
+        "name": "de l'arrêté du 30 juillet 2012",
+        "nb": "Article 1er"
+      },
       "sections": [],
       "title": {
         "text": "Article 1er de l'arrêté du 30 juillet 2012"
@@ -77,7 +80,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 2",
+      "reference": {
+        "name": "de l'arrêté du 30 juillet 2012",
+        "nb": "Article 2"
+      },
       "sections": [],
       "title": {
         "text": "Article 2 de l'arrêté du 30 juillet 2012"
@@ -104,7 +110,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 3",
+      "reference": {
+        "name": "de l'arrêté du 30 juillet 2012",
+        "nb": "Article 3"
+      },
       "sections": [],
       "title": {
         "text": "Article 3 de l'arrêté du 30 juillet 2012"
@@ -131,7 +140,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 4",
+      "reference": {
+        "name": "de l'arrêté du 30 juillet 2012",
+        "nb": "Article 4"
+      },
       "sections": [],
       "title": {
         "text": "Article 4 de l'arrêté du 30 juillet 2012"
@@ -173,7 +185,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 5",
+      "reference": {
+        "name": "de l'arrêté du 30 juillet 2012",
+        "nb": "Article 5"
+      },
       "sections": [],
       "title": {
         "text": "Article 5 de l'arrêté du 30 juillet 2012"
@@ -196,7 +211,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe I",
+      "reference": {
+        "name": "Prescriptions générales applicables aux installations classées pour la protection de l’environnement soumises à déclaration sous la rubrique n° 2719",
+        "nb": "Annexe I"
+      },
       "sections": [
         {
           "annotations": {
@@ -215,7 +233,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe I 1.",
+          "reference": {
+            "name": "Définitions",
+            "nb": "Annexe I > 1."
+          },
           "sections": [
             {
               "annotations": {
@@ -259,7 +280,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 1.1.",
+              "reference": {
+                "name": "Pollutions accidentelles marines ou fluviales",
+                "nb": "Annexe I > 1.1."
+              },
               "sections": [],
               "title": {
                 "text": "1.1. Pollutions accidentelles marines ou fluviales"
@@ -298,7 +322,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 1.2.",
+              "reference": {
+                "name": "Catastrophes naturelles",
+                "nb": "Annexe I > 1.2."
+              },
               "sections": [],
               "title": {
                 "text": "1.2. Catastrophes naturelles"
@@ -331,7 +358,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe II",
+      "reference": {
+        "name": "Prescriptions spécifiques aux sites d’entreposage primaire",
+        "nb": "Annexe II"
+      },
       "sections": [
         {
           "annotations": {
@@ -350,7 +380,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II 1.",
+          "reference": {
+            "name": "Dispositions générales",
+            "nb": "Annexe II > 1."
+          },
           "sections": [
             {
               "annotations": {
@@ -373,7 +406,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 1.1.",
+              "reference": {
+                "name": "Conformité de l’installation à la déclaration",
+                "nb": "Annexe II > 1.1."
+              },
               "sections": [],
               "title": {
                 "text": "1.1. Conformité de l’installation à la déclaration"
@@ -400,7 +436,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 1.2.",
+              "reference": {
+                "name": "Contenu de la déclaration",
+                "nb": "Annexe II > 1.2."
+              },
               "sections": [],
               "title": {
                 "text": "1.2. Contenu de la déclaration"
@@ -445,7 +484,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 1.3.",
+              "reference": {
+                "name": "Dossier installation classée",
+                "nb": "Annexe II > 1.3."
+              },
               "sections": [],
               "title": {
                 "text": "1.3. Dossier installation classée"
@@ -472,7 +514,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 1.4.",
+              "reference": {
+                "name": "Déclaration d’accident",
+                "nb": "Annexe II > 1.4."
+              },
               "sections": [],
               "title": {
                 "text": "1.4. Déclaration d’accident"
@@ -499,7 +544,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 1.5.",
+              "reference": {
+                "name": "Changement d’exploitant",
+                "nb": "Annexe II > 1.5."
+              },
               "sections": [],
               "title": {
                 "text": "1.5. Changement d’exploitant"
@@ -526,7 +574,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 1.6.",
+              "reference": {
+                "name": "Cessation d’activité",
+                "nb": "Annexe II > 1.6."
+              },
               "sections": [],
               "title": {
                 "text": "1.6. Cessation d’activité"
@@ -554,7 +605,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II 2.",
+          "reference": {
+            "name": "Implantation – Aménagement",
+            "nb": "Annexe II > 2."
+          },
           "sections": [
             {
               "annotations": {
@@ -577,7 +631,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 2.1.",
+              "reference": {
+                "name": "Implantation des installations",
+                "nb": "Annexe II > 2.1."
+              },
               "sections": [],
               "title": {
                 "text": "2.1. Implantation des installations"
@@ -616,7 +673,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 2.2.",
+              "reference": {
+                "name": "Aménagement des installations",
+                "nb": "Annexe II > 2.2."
+              },
               "sections": [],
               "title": {
                 "text": "2.2. Aménagement des installations"
@@ -643,7 +703,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 2.3.",
+              "reference": {
+                "name": "Protection des aires d’entreposage des déchets",
+                "nb": "Annexe II > 2.3."
+              },
               "sections": [],
               "title": {
                 "text": "2.3. Protection des aires d’entreposage des déchets"
@@ -671,7 +734,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II 3.",
+          "reference": {
+            "name": "Exploitation – Entretien",
+            "nb": "Annexe II > 3."
+          },
           "sections": [
             {
               "annotations": {
@@ -694,7 +760,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 3.1.",
+              "reference": {
+                "name": "Contrôle de l’accès",
+                "nb": "Annexe II > 3.1."
+              },
               "sections": [],
               "title": {
                 "text": "3.1. Contrôle de l’accès"
@@ -721,7 +790,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 3.2.",
+              "reference": {
+                "name": "Déchets acceptés et procédure d’admission",
+                "nb": "Annexe II > 3.2."
+              },
               "sections": [],
               "title": {
                 "text": "3.2. Déchets acceptés et procédure d’admission"
@@ -744,7 +816,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 3.3.",
+              "reference": {
+                "name": "Connaissance et étiquetage",
+                "nb": "Annexe II > 3.3."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -770,7 +845,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 3.3.1.",
+                  "reference": {
+                    "name": "Connaissance et étiquetage des produits",
+                    "nb": "Annexe II > 3.3.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.3.1. Connaissance et étiquetage des produits"
@@ -803,7 +881,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 3.3.2.",
+                  "reference": {
+                    "name": "Connaissance et étiquetage des déchets",
+                    "nb": "Annexe II > 3.3.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.3.2. Connaissance et étiquetage des déchets"
@@ -835,7 +916,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 3.4.",
+              "reference": {
+                "name": "Propreté",
+                "nb": "Annexe II > 3.4."
+              },
               "sections": [],
               "title": {
                 "text": "3.4. Propreté"
@@ -862,7 +946,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 3.5.",
+              "reference": {
+                "name": "Envol de déchets",
+                "nb": "Annexe II > 3.5."
+              },
               "sections": [],
               "title": {
                 "text": "3.5. Envol de déchets"
@@ -890,7 +977,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II 4.",
+          "reference": {
+            "name": "Risques",
+            "nb": "Annexe II > 4."
+          },
           "sections": [
             {
               "annotations": {
@@ -913,7 +1003,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 4.1.",
+              "reference": {
+                "name": "Localisation des risques",
+                "nb": "Annexe II > 4.1."
+              },
               "sections": [],
               "title": {
                 "text": "4.1. Localisation des risques"
@@ -943,7 +1036,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 4.2.",
+              "reference": {
+                "name": "Protection individuelle",
+                "nb": "Annexe II > 4.2."
+              },
               "sections": [],
               "title": {
                 "text": "4.2. Protection individuelle"
@@ -966,7 +1062,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 4.3.",
+              "reference": {
+                "name": "*",
+                "nb": "Annexe II > 4.3."
+              },
               "sections": [],
               "title": {
                 "text": "4.3. *"
@@ -993,7 +1092,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 4.4.",
+              "reference": {
+                "name": "Interdiction des feux",
+                "nb": "Annexe II > 4.4."
+              },
               "sections": [],
               "title": {
                 "text": "4.4. Interdiction des feux"
@@ -1032,7 +1134,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 4.5.",
+              "reference": {
+                "name": "Consignes de sécurité",
+                "nb": "Annexe II > 4.5."
+              },
               "sections": [],
               "title": {
                 "text": "4.5. Consignes de sécurité"
@@ -1060,7 +1165,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II 5.",
+          "reference": {
+            "name": "Eau",
+            "nb": "Annexe II > 5."
+          },
           "sections": [
             {
               "annotations": {
@@ -1079,7 +1187,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 5.1.",
+              "reference": {
+                "name": "*",
+                "nb": "Annexe II > 5.1."
+              },
               "sections": [],
               "title": {
                 "text": "5.1. *"
@@ -1106,7 +1217,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 5.2.",
+              "reference": {
+                "name": "Interdiction des rejets en nappe",
+                "nb": "Annexe II > 5.2."
+              },
               "sections": [],
               "title": {
                 "text": "5.2. Interdiction des rejets en nappe"
@@ -1133,7 +1247,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 5.3.",
+              "reference": {
+                "name": "Épandage",
+                "nb": "Annexe II > 5.3."
+              },
               "sections": [],
               "title": {
                 "text": "5.3. Épandage"
@@ -1161,7 +1278,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II 6.",
+          "reference": {
+            "name": "*",
+            "nb": "Annexe II > 6."
+          },
           "sections": [],
           "title": {
             "text": "6. *"
@@ -1184,7 +1304,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II 7.",
+          "reference": {
+            "name": "Déchets",
+            "nb": "Annexe II > 7."
+          },
           "sections": [
             {
               "annotations": {
@@ -1207,7 +1330,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 7.1.",
+              "reference": {
+                "name": "Déchets produits par l’installation",
+                "nb": "Annexe II > 7.1."
+              },
               "sections": [],
               "title": {
                 "text": "7.1. Déchets produits par l’installation"
@@ -1237,7 +1363,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 7.2.",
+              "reference": {
+                "name": "Déchets sortants",
+                "nb": "Annexe II > 7.2."
+              },
               "sections": [],
               "title": {
                 "text": "7.2. Déchets sortants"
@@ -1264,7 +1393,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 7.3.",
+              "reference": {
+                "name": "Registre des déchets",
+                "nb": "Annexe II > 7.3."
+              },
               "sections": [],
               "title": {
                 "text": "7.3. Registre des déchets"
@@ -1291,7 +1423,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 7.4.",
+              "reference": {
+                "name": "Brûlage",
+                "nb": "Annexe II > 7.4."
+              },
               "sections": [],
               "title": {
                 "text": "7.4. Brûlage"
@@ -1326,7 +1461,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II 8.",
+          "reference": {
+            "name": "Bruit et vibrations",
+            "nb": "Annexe II > 8."
+          },
           "sections": [],
           "title": {
             "text": "8. Bruit et vibrations"
@@ -1371,7 +1509,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II 9.",
+          "reference": {
+            "name": "Remise en état en fin d’exploitation",
+            "nb": "Annexe II > 9."
+          },
           "sections": [],
           "title": {
             "text": "9. Remise en état en fin d’exploitation"
@@ -1399,7 +1540,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe III",
+      "reference": {
+        "name": "Prescriptions spécifiques aux sites d'entreposage intermédiaire",
+        "nb": "Annexe III"
+      },
       "sections": [
         {
           "annotations": {
@@ -1418,7 +1562,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III 1.",
+          "reference": {
+            "name": "Dispositions générales",
+            "nb": "Annexe III > 1."
+          },
           "sections": [
             {
               "annotations": {
@@ -1441,7 +1588,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 1.1.",
+              "reference": {
+                "name": "Conformité de l’installation à la déclaration",
+                "nb": "Annexe III > 1.1."
+              },
               "sections": [],
               "title": {
                 "text": "1.1. Conformité de l’installation à la déclaration"
@@ -1468,7 +1618,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 1.2.",
+              "reference": {
+                "name": "Modifications",
+                "nb": "Annexe III > 1.2."
+              },
               "sections": [],
               "title": {
                 "text": "1.2. Modifications"
@@ -1495,7 +1648,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 1.3.",
+              "reference": {
+                "name": "Contenu de la déclaration",
+                "nb": "Annexe III > 1.3."
+              },
               "sections": [],
               "title": {
                 "text": "1.3. Contenu de la déclaration"
@@ -1543,7 +1699,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 1.4.",
+              "reference": {
+                "name": "Dossier installation classée",
+                "nb": "Annexe III > 1.4."
+              },
               "sections": [],
               "title": {
                 "text": "1.4. Dossier installation classée"
@@ -1570,7 +1729,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 1.5.",
+              "reference": {
+                "name": "Déclaration d’accident",
+                "nb": "Annexe III > 1.5."
+              },
               "sections": [],
               "title": {
                 "text": "1.5. Déclaration d’accident"
@@ -1597,7 +1759,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 1.6.",
+              "reference": {
+                "name": "Changement d’exploitant",
+                "nb": "Annexe III > 1.6."
+              },
               "sections": [],
               "title": {
                 "text": "1.6. Changement d’exploitant"
@@ -1624,7 +1789,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 1.7.",
+              "reference": {
+                "name": "Cessation d’activité",
+                "nb": "Annexe III > 1.7."
+              },
               "sections": [],
               "title": {
                 "text": "1.7. Cessation d’activité"
@@ -1652,7 +1820,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III 2.",
+          "reference": {
+            "name": "Implantation – Aménagement",
+            "nb": "Annexe III > 2."
+          },
           "sections": [
             {
               "annotations": {
@@ -1678,7 +1849,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 2.1.",
+              "reference": {
+                "name": "Implantation des installations",
+                "nb": "Annexe III > 2.1."
+              },
               "sections": [],
               "title": {
                 "text": "2.1. Implantation des installations"
@@ -1720,7 +1894,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 2.2.",
+              "reference": {
+                "name": "Aménagement des installations",
+                "nb": "Annexe III > 2.2."
+              },
               "sections": [],
               "title": {
                 "text": "2.2. Aménagement des installations"
@@ -1747,7 +1924,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 2.3.",
+              "reference": {
+                "name": "Accessibilité",
+                "nb": "Annexe III > 2.3."
+              },
               "sections": [],
               "title": {
                 "text": "2.3. Accessibilité"
@@ -1774,7 +1954,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 2.4.",
+              "reference": {
+                "name": "Protection des aires d’entreposage des déchets",
+                "nb": "Annexe III > 2.4."
+              },
               "sections": [],
               "title": {
                 "text": "2.4. Protection des aires d’entreposage des déchets"
@@ -1802,7 +1985,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III 3.",
+          "reference": {
+            "name": "Exploitation – Entretien",
+            "nb": "Annexe III > 3."
+          },
           "sections": [
             {
               "annotations": {
@@ -1825,7 +2011,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 3.1.",
+              "reference": {
+                "name": "Surveillance de l’exploitation",
+                "nb": "Annexe III > 3.1."
+              },
               "sections": [],
               "title": {
                 "text": "3.1. Surveillance de l’exploitation"
@@ -1855,7 +2044,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 3.2.",
+              "reference": {
+                "name": "Contrôle de l’accès",
+                "nb": "Annexe III > 3.2."
+              },
               "sections": [],
               "title": {
                 "text": "3.2. Contrôle de l’accès"
@@ -1888,7 +2080,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 3.3.",
+              "reference": {
+                "name": "Déchets acceptés et procédure d’admission",
+                "nb": "Annexe III > 3.3."
+              },
               "sections": [],
               "title": {
                 "text": "3.3. Déchets acceptés et procédure d’admission"
@@ -1911,7 +2106,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 3.4.",
+              "reference": {
+                "name": "Connaissance et étiquetage",
+                "nb": "Annexe III > 3.4."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1937,7 +2135,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 3.4.1.",
+                  "reference": {
+                    "name": "Connaissance et étiquetage des produits",
+                    "nb": "Annexe III > 3.4.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.4.1. Connaissance et étiquetage des produits"
@@ -1970,7 +2171,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 3.4.2.",
+                  "reference": {
+                    "name": "Connaissance et étiquetage des déchets",
+                    "nb": "Annexe III > 3.4.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.4.2. Connaissance et étiquetage des déchets"
@@ -2002,7 +2206,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 3.5.",
+              "reference": {
+                "name": "Propreté",
+                "nb": "Annexe III > 3.5."
+              },
               "sections": [],
               "title": {
                 "text": "3.5. Propreté"
@@ -2044,7 +2251,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 3.6.",
+              "reference": {
+                "name": "Consignes d’exploitation",
+                "nb": "Annexe III > 3.6."
+              },
               "sections": [],
               "title": {
                 "text": "3.6. Consignes d’exploitation"
@@ -2071,7 +2281,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 3.7.",
+              "reference": {
+                "name": "Envol de déchets",
+                "nb": "Annexe III > 3.7."
+              },
               "sections": [],
               "title": {
                 "text": "3.7. Envol de déchets"
@@ -2099,7 +2312,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III 4.",
+          "reference": {
+            "name": "Risques",
+            "nb": "Annexe III > 4."
+          },
           "sections": [
             {
               "annotations": {
@@ -2122,7 +2338,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 4.1.",
+              "reference": {
+                "name": "Localisation des risques",
+                "nb": "Annexe III > 4.1."
+              },
               "sections": [],
               "title": {
                 "text": "4.1. Localisation des risques"
@@ -2149,7 +2368,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 4.2.",
+              "reference": {
+                "name": "Protection individuelle",
+                "nb": "Annexe III > 4.2."
+              },
               "sections": [],
               "title": {
                 "text": "4.2. Protection individuelle"
@@ -2172,7 +2394,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 4.3.",
+              "reference": {
+                "name": "*",
+                "nb": "Annexe III > 4.3."
+              },
               "sections": [],
               "title": {
                 "text": "4.3. *"
@@ -2199,7 +2424,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 4.4.",
+              "reference": {
+                "name": "Interdiction des feux",
+                "nb": "Annexe III > 4.4."
+              },
               "sections": [],
               "title": {
                 "text": "4.4. Interdiction des feux"
@@ -2241,7 +2469,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 4.5.",
+              "reference": {
+                "name": "Consignes de sécurité",
+                "nb": "Annexe III > 4.5."
+              },
               "sections": [],
               "title": {
                 "text": "4.5. Consignes de sécurité"
@@ -2269,7 +2500,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III 5.",
+          "reference": {
+            "name": "Eau",
+            "nb": "Annexe III > 5."
+          },
           "sections": [
             {
               "annotations": {
@@ -2292,7 +2526,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 5.1.",
+              "reference": {
+                "name": "Récupération des eaux de pluie et des eaux usées",
+                "nb": "Annexe III > 5.1."
+              },
               "sections": [],
               "title": {
                 "text": "5.1. Récupération des eaux de pluie et des eaux usées"
@@ -2319,7 +2556,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 5.2.",
+              "reference": {
+                "name": "Interdiction des rejets en nappe",
+                "nb": "Annexe III > 5.2."
+              },
               "sections": [],
               "title": {
                 "text": "5.2. Interdiction des rejets en nappe"
@@ -2346,7 +2586,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 5.3.",
+              "reference": {
+                "name": "Epandage",
+                "nb": "Annexe III > 5.3."
+              },
               "sections": [],
               "title": {
                 "text": "5.3. Epandage"
@@ -2376,7 +2619,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 5.4.",
+              "reference": {
+                "name": "Valeurs limites de rejet",
+                "nb": "Annexe III > 5.4."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -2402,7 +2648,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 5.4. a)",
+                  "reference": {
+                    "name": "Dans tous les cas, avant rejet au milieu naturel ou dans un réseau d’assainissement collectif",
+                    "nb": "Annexe III > 5.4. a)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "a) Dans tous les cas, avant rejet au milieu naturel ou dans un réseau d’assainissement collectif :"
@@ -2429,7 +2678,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 5.4. b)",
+                  "reference": {
+                    "name": "Dans le cas de rejet dans le milieu naturel (ou dans un réseau d’assainissement collectif dépourvu de station d’épuration)",
+                    "nb": "Annexe III > 5.4. b)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "b) Dans le cas de rejet dans le milieu naturel (ou dans un réseau d’assainissement collectif dépourvu de station d’épuration) :"
@@ -2495,7 +2747,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III 5.4. c)",
+                  "reference": {
+                    "name": "Polluants spécifiques : avant rejet dans le milieu naturel ou dans un réseau d’assainissement collectif urbain",
+                    "nb": "Annexe III > 5.4. c)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "c) Polluants spécifiques : avant rejet dans le milieu naturel ou dans un réseau d’assainissement collectif urbain :"
@@ -2528,7 +2783,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III 6.",
+          "reference": {
+            "name": "Air – Odeurs",
+            "nb": "Annexe III > 6."
+          },
           "sections": [
             {
               "annotations": {
@@ -2554,7 +2812,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 6.1.",
+              "reference": {
+                "name": "Captage et épuration des rejets à l’atmosphère",
+                "nb": "Annexe III > 6.1."
+              },
               "sections": [],
               "title": {
                 "text": "6.1. Captage et épuration des rejets à l’atmosphère"
@@ -2584,7 +2845,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 6.2.",
+              "reference": {
+                "name": "Odeurs",
+                "nb": "Annexe III > 6.2."
+              },
               "sections": [],
               "title": {
                 "text": "6.2. Odeurs"
@@ -2612,7 +2876,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III 7.",
+          "reference": {
+            "name": "Déchets",
+            "nb": "Annexe III > 7."
+          },
           "sections": [
             {
               "annotations": {
@@ -2635,7 +2902,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 7.1.",
+              "reference": {
+                "name": "Déchets produits par l’installation",
+                "nb": "Annexe III > 7.1."
+              },
               "sections": [],
               "title": {
                 "text": "7.1. Déchets produits par l’installation"
@@ -2665,7 +2935,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 7.2.",
+              "reference": {
+                "name": "Déchets sortants",
+                "nb": "Annexe III > 7.2."
+              },
               "sections": [],
               "title": {
                 "text": "7.2. Déchets sortants"
@@ -2743,7 +3016,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 7.3.",
+              "reference": {
+                "name": "Registre des déchets",
+                "nb": "Annexe III > 7.3."
+              },
               "sections": [],
               "title": {
                 "text": "7.3. Registre des déchets"
@@ -2770,7 +3046,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 7.4.",
+              "reference": {
+                "name": "Brûlage",
+                "nb": "Annexe III > 7.4."
+              },
               "sections": [],
               "title": {
                 "text": "7.4. Brûlage"
@@ -2797,7 +3076,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III 7.5.",
+              "reference": {
+                "name": "Durée d’entreposage des déchets",
+                "nb": "Annexe III > 7.5."
+              },
               "sections": [],
               "title": {
                 "text": "7.5. Durée d’entreposage des déchets"
@@ -2832,7 +3114,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III 8.",
+          "reference": {
+            "name": "Bruit et vibrations",
+            "nb": "Annexe III > 8."
+          },
           "sections": [],
           "title": {
             "text": "8. Bruit et vibrations"
@@ -2880,7 +3165,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III 9.",
+          "reference": {
+            "name": "Remise en état en fin d’exploitation",
+            "nb": "Annexe III > 9."
+          },
           "sections": [],
           "title": {
             "text": "9. Remise en état en fin d’exploitation"
@@ -2908,7 +3196,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe IV",
+      "reference": {
+        "name": "Prescriptions spécifiques aux sites d'entreposage lourd",
+        "nb": "Annexe IV"
+      },
       "sections": [
         {
           "annotations": {
@@ -2927,7 +3218,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV 1.",
+          "reference": {
+            "name": "Dispositions générales",
+            "nb": "Annexe IV > 1."
+          },
           "sections": [
             {
               "annotations": {
@@ -2950,7 +3244,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 1.1.",
+              "reference": {
+                "name": "Conformité de l’installation à la déclaration",
+                "nb": "Annexe IV > 1.1."
+              },
               "sections": [],
               "title": {
                 "text": "1.1. Conformité de l’installation à la déclaration"
@@ -2977,7 +3274,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 1.2.",
+              "reference": {
+                "name": "Modifications",
+                "nb": "Annexe IV > 1.2."
+              },
               "sections": [],
               "title": {
                 "text": "1.2. Modifications"
@@ -3004,7 +3304,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 1.3.",
+              "reference": {
+                "name": "Contenu de la déclaration",
+                "nb": "Annexe IV > 1.3."
+              },
               "sections": [],
               "title": {
                 "text": "1.3. Contenu de la déclaration"
@@ -3052,7 +3355,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 1.4.",
+              "reference": {
+                "name": "Dossier installation classée",
+                "nb": "Annexe IV > 1.4."
+              },
               "sections": [],
               "title": {
                 "text": "1.4. Dossier installation classée"
@@ -3079,7 +3385,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 1.5.",
+              "reference": {
+                "name": "Déclaration d’accident",
+                "nb": "Annexe IV > 1.5."
+              },
               "sections": [],
               "title": {
                 "text": "1.5. Déclaration d’accident"
@@ -3106,7 +3415,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 1.6.",
+              "reference": {
+                "name": "Changement d’exploitant",
+                "nb": "Annexe IV > 1.6."
+              },
               "sections": [],
               "title": {
                 "text": "1.6. Changement d’exploitant"
@@ -3133,7 +3445,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 1.7.",
+              "reference": {
+                "name": "Cessation d’activité",
+                "nb": "Annexe IV > 1.7."
+              },
               "sections": [],
               "title": {
                 "text": "1.7. Cessation d’activité"
@@ -3161,7 +3476,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV 2.",
+          "reference": {
+            "name": "Implantation – Aménagement",
+            "nb": "Annexe IV > 2."
+          },
           "sections": [
             {
               "annotations": {
@@ -3187,7 +3505,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 2.1.",
+              "reference": {
+                "name": "Implantation des installations",
+                "nb": "Annexe IV > 2.1."
+              },
               "sections": [],
               "title": {
                 "text": "2.1. Implantation des installations"
@@ -3229,7 +3550,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 2.2.",
+              "reference": {
+                "name": "Aménagement des installations",
+                "nb": "Annexe IV > 2.2."
+              },
               "sections": [],
               "title": {
                 "text": "2.2. Aménagement des installations"
@@ -3256,7 +3580,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 2.3.",
+              "reference": {
+                "name": "Accessibilité",
+                "nb": "Annexe IV > 2.3."
+              },
               "sections": [],
               "title": {
                 "text": "2.3. Accessibilité"
@@ -3286,7 +3613,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 2.4.",
+              "reference": {
+                "name": "Protection des aires d’entreposage des déchets",
+                "nb": "Annexe IV > 2.4."
+              },
               "sections": [],
               "title": {
                 "text": "2.4. Protection des aires d’entreposage des déchets"
@@ -3319,7 +3649,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 2.5.",
+              "reference": {
+                "name": "Cuvettes de rétention",
+                "nb": "Annexe IV > 2.5."
+              },
               "sections": [],
               "title": {
                 "text": "2.5. Cuvettes de rétention"
@@ -3347,7 +3680,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV 3.",
+          "reference": {
+            "name": "Exploitation – Entretien",
+            "nb": "Annexe IV > 3."
+          },
           "sections": [
             {
               "annotations": {
@@ -3370,7 +3706,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 3.1.",
+              "reference": {
+                "name": "Surveillance de l’exploitation",
+                "nb": "Annexe IV > 3.1."
+              },
               "sections": [],
               "title": {
                 "text": "3.1. Surveillance de l’exploitation"
@@ -3397,7 +3736,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 3.2.",
+              "reference": {
+                "name": "Contrôle de l’accès",
+                "nb": "Annexe IV > 3.2."
+              },
               "sections": [],
               "title": {
                 "text": "3.2. Contrôle de l’accès"
@@ -3427,7 +3769,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 3.3.",
+              "reference": {
+                "name": "Déchets acceptés et procédure d’admission",
+                "nb": "Annexe IV > 3.3."
+              },
               "sections": [],
               "title": {
                 "text": "3.3. Déchets acceptés et procédure d’admission"
@@ -3466,7 +3811,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 3.4.",
+              "reference": {
+                "name": "Connaissance et étiquetage des produits et des déchets",
+                "nb": "Annexe IV > 3.4."
+              },
               "sections": [],
               "title": {
                 "text": "3.4. Connaissance et étiquetage des produits et des déchets"
@@ -3493,7 +3841,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 3.5.",
+              "reference": {
+                "name": "Propreté",
+                "nb": "Annexe IV > 3.5."
+              },
               "sections": [],
               "title": {
                 "text": "3.5. Propreté"
@@ -3535,7 +3886,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 3.6.",
+              "reference": {
+                "name": "Consignes d’exploitation",
+                "nb": "Annexe IV > 3.6."
+              },
               "sections": [],
               "title": {
                 "text": "3.6. Consignes d’exploitation"
@@ -3562,7 +3916,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 3.7.",
+              "reference": {
+                "name": "Envol de déchets",
+                "nb": "Annexe IV > 3.7."
+              },
               "sections": [],
               "title": {
                 "text": "3.7. Envol de déchets"
@@ -3590,7 +3947,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV 4.",
+          "reference": {
+            "name": "Risques",
+            "nb": "Annexe IV > 4."
+          },
           "sections": [
             {
               "annotations": {
@@ -3613,7 +3973,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 4.1.",
+              "reference": {
+                "name": "Localisation des risques",
+                "nb": "Annexe IV > 4.1."
+              },
               "sections": [],
               "title": {
                 "text": "4.1. Localisation des risques"
@@ -3640,7 +4003,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 4.2.",
+              "reference": {
+                "name": "Protection individuelle",
+                "nb": "Annexe IV > 4.2."
+              },
               "sections": [],
               "title": {
                 "text": "4.2. Protection individuelle"
@@ -3663,7 +4029,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 4.3.",
+              "reference": {
+                "name": "*",
+                "nb": "Annexe IV > 4.3."
+              },
               "sections": [],
               "title": {
                 "text": "4.3. *"
@@ -3690,7 +4059,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 4.4.",
+              "reference": {
+                "name": "Interdiction des feux",
+                "nb": "Annexe IV > 4.4."
+              },
               "sections": [],
               "title": {
                 "text": "4.4. Interdiction des feux"
@@ -3729,7 +4101,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 4.5.",
+              "reference": {
+                "name": "Consignes de sécurité",
+                "nb": "Annexe IV > 4.5."
+              },
               "sections": [],
               "title": {
                 "text": "4.5. Consignes de sécurité"
@@ -3757,7 +4132,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV 5.",
+          "reference": {
+            "name": "Eau",
+            "nb": "Annexe IV > 5."
+          },
           "sections": [
             {
               "annotations": {
@@ -3786,7 +4164,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 5.1.",
+              "reference": {
+                "name": "Prélèvements",
+                "nb": "Annexe IV > 5.1."
+              },
               "sections": [],
               "title": {
                 "text": "5.1. Prélèvements"
@@ -3813,7 +4194,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 5.2.",
+              "reference": {
+                "name": "Récupération des eaux de pluie et des eaux usées",
+                "nb": "Annexe IV > 5.2."
+              },
               "sections": [],
               "title": {
                 "text": "5.2. Récupération des eaux de pluie et des eaux usées"
@@ -3840,7 +4224,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 5.3.",
+              "reference": {
+                "name": "Interdiction des rejets en nappe",
+                "nb": "Annexe IV > 5.3."
+              },
               "sections": [],
               "title": {
                 "text": "5.3. Interdiction des rejets en nappe"
@@ -3867,7 +4254,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 5.4.",
+              "reference": {
+                "name": "Epandage",
+                "nb": "Annexe IV > 5.4."
+              },
               "sections": [],
               "title": {
                 "text": "5.4. Epandage"
@@ -3897,7 +4287,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 5.5.",
+              "reference": {
+                "name": "Valeurs limites de rejet",
+                "nb": "Annexe IV > 5.5."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3923,7 +4316,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe IV 5.5. a)",
+                  "reference": {
+                    "name": "Dans tous les cas, avant rejet au milieu naturel ou dans un réseau d’assainissement collectif",
+                    "nb": "Annexe IV > 5.5. a)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "a) Dans tous les cas, avant rejet au milieu naturel ou dans un réseau d’assainissement collectif :"
@@ -3950,7 +4346,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe IV 5.5. b)",
+                  "reference": {
+                    "name": "Dans le cas de rejet dans le milieu naturel (ou dans un réseau d’assainissement collectif dépourvu de station d’épuration)",
+                    "nb": "Annexe IV > 5.5. b)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "b) Dans le cas de rejet dans le milieu naturel (ou dans un réseau d’assainissement collectif dépourvu de station d’épuration) :"
@@ -4016,7 +4415,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe IV 5.5. c)",
+                  "reference": {
+                    "name": "Polluants spécifiques : avant rejet dans le milieu naturel ou dans un réseau d’assainissement collectif urbain",
+                    "nb": "Annexe IV > 5.5. c)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "c) Polluants spécifiques : avant rejet dans le milieu naturel ou dans un réseau d’assainissement collectif urbain :"
@@ -4063,7 +4465,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 5.6.",
+              "reference": {
+                "name": "Surveillance par l’exploitant de la pollution rejetée",
+                "nb": "Annexe IV > 5.6."
+              },
               "sections": [],
               "title": {
                 "text": "5.6. Surveillance par l’exploitant de la pollution rejetée"
@@ -4091,7 +4496,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV 6.",
+          "reference": {
+            "name": "Air – Odeurs",
+            "nb": "Annexe IV > 6."
+          },
           "sections": [
             {
               "annotations": {
@@ -4117,7 +4525,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 6.1.",
+              "reference": {
+                "name": "Captage et épuration des rejets à l’atmosphère",
+                "nb": "Annexe IV > 6.1."
+              },
               "sections": [],
               "title": {
                 "text": "6.1. Captage et épuration des rejets à l’atmosphère"
@@ -4147,7 +4558,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 6.2.",
+              "reference": {
+                "name": "Odeurs",
+                "nb": "Annexe IV > 6.2."
+              },
               "sections": [],
               "title": {
                 "text": "6.2. Odeurs"
@@ -4175,7 +4589,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV 7.",
+          "reference": {
+            "name": "Déchets",
+            "nb": "Annexe IV > 7."
+          },
           "sections": [
             {
               "annotations": {
@@ -4198,7 +4615,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 7.1.",
+              "reference": {
+                "name": "Déchets produits par l’installation",
+                "nb": "Annexe IV > 7.1."
+              },
               "sections": [],
               "title": {
                 "text": "7.1. Déchets produits par l’installation"
@@ -4228,7 +4648,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 7.2.",
+              "reference": {
+                "name": "Déchets sortants",
+                "nb": "Annexe IV > 7.2."
+              },
               "sections": [],
               "title": {
                 "text": "7.2. Déchets sortants"
@@ -4312,7 +4735,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 7.3.",
+              "reference": {
+                "name": "Registre des déchets",
+                "nb": "Annexe IV > 7.3."
+              },
               "sections": [],
               "title": {
                 "text": "7.3. Registre des déchets"
@@ -4339,7 +4765,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 7.4.",
+              "reference": {
+                "name": "Brûlage",
+                "nb": "Annexe IV > 7.4."
+              },
               "sections": [],
               "title": {
                 "text": "7.4. Brûlage"
@@ -4366,7 +4795,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV 7.5.",
+              "reference": {
+                "name": "Durée d’entreposage des déchets",
+                "nb": "Annexe IV > 7.5."
+              },
               "sections": [],
               "title": {
                 "text": "7.5. Durée d’entreposage des déchets"
@@ -4401,7 +4833,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV 8.",
+          "reference": {
+            "name": "Bruit et vibrations",
+            "nb": "Annexe IV > 8."
+          },
           "sections": [],
           "title": {
             "text": "8. Bruit et vibrations"
@@ -4452,7 +4887,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV 9.",
+          "reference": {
+            "name": "Remise en état en fin d’exploitation",
+            "nb": "Annexe IV > 9."
+          },
           "sections": [],
           "title": {
             "text": "9. Remise en état en fin d’exploitation"
@@ -4480,7 +4918,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe V",
+      "reference": {
+        "name": "Prescriptions spécifiques aux sites d'entreposage intermédiaire de déchets de catastrphes naturelles",
+        "nb": "Annexe V"
+      },
       "sections": [
         {
           "annotations": {
@@ -4499,7 +4940,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe V 1.",
+          "reference": {
+            "name": "Dispositions générales",
+            "nb": "Annexe V > 1."
+          },
           "sections": [
             {
               "annotations": {
@@ -4522,7 +4966,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 1.1.",
+              "reference": {
+                "name": "Conformité de l’installation à la déclaration",
+                "nb": "Annexe V > 1.1."
+              },
               "sections": [],
               "title": {
                 "text": "1.1. Conformité de l’installation à la déclaration"
@@ -4549,7 +4996,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 1.2.",
+              "reference": {
+                "name": "Modifications",
+                "nb": "Annexe V > 1.2."
+              },
               "sections": [],
               "title": {
                 "text": "1.2. Modifications"
@@ -4576,7 +5026,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 1.3.",
+              "reference": {
+                "name": "Contenu de la déclaration",
+                "nb": "Annexe V > 1.3."
+              },
               "sections": [],
               "title": {
                 "text": "1.3. Contenu de la déclaration"
@@ -4624,7 +5077,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 1.4.",
+              "reference": {
+                "name": "Dossier installation classée",
+                "nb": "Annexe V > 1.4."
+              },
               "sections": [],
               "title": {
                 "text": "1.4. Dossier installation classée"
@@ -4651,7 +5107,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 1.5.",
+              "reference": {
+                "name": "Déclaration d’accident",
+                "nb": "Annexe V > 1.5."
+              },
               "sections": [],
               "title": {
                 "text": "1.5. Déclaration d’accident"
@@ -4678,7 +5137,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 1.6.",
+              "reference": {
+                "name": "Changement d’exploitant",
+                "nb": "Annexe V > 1.6."
+              },
               "sections": [],
               "title": {
                 "text": "1.6. Changement d’exploitant"
@@ -4705,7 +5167,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 1.7.",
+              "reference": {
+                "name": "Cessation d’activité",
+                "nb": "Annexe V > 1.7."
+              },
               "sections": [],
               "title": {
                 "text": "1.7. Cessation d’activité"
@@ -4733,7 +5198,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe V 2.",
+          "reference": {
+            "name": "Implantation – Aménagement",
+            "nb": "Annexe V > 2."
+          },
           "sections": [
             {
               "annotations": {
@@ -4759,7 +5227,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 2.1.",
+              "reference": {
+                "name": "Implantation des installations",
+                "nb": "Annexe V > 2.1."
+              },
               "sections": [],
               "title": {
                 "text": "2.1. Implantation des installations"
@@ -4789,7 +5260,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 2.2.",
+              "reference": {
+                "name": "Aménagement des installations",
+                "nb": "Annexe V > 2.2."
+              },
               "sections": [],
               "title": {
                 "text": "2.2. Aménagement des installations"
@@ -4816,7 +5290,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 2.3.",
+              "reference": {
+                "name": "Accessibilité",
+                "nb": "Annexe V > 2.3."
+              },
               "sections": [],
               "title": {
                 "text": "2.3. Accessibilité"
@@ -4843,7 +5320,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 2.4.",
+              "reference": {
+                "name": "Protection des aires d’entreposage des déchets",
+                "nb": "Annexe V > 2.4."
+              },
               "sections": [],
               "title": {
                 "text": "2.4. Protection des aires d’entreposage des déchets"
@@ -4871,7 +5351,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe V 3.",
+          "reference": {
+            "name": "Exploitation – Entretien",
+            "nb": "Annexe V > 3."
+          },
           "sections": [
             {
               "annotations": {
@@ -4894,7 +5377,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 3.1.",
+              "reference": {
+                "name": "Surveillance de l’exploitation",
+                "nb": "Annexe V > 3.1."
+              },
               "sections": [],
               "title": {
                 "text": "3.1. Surveillance de l’exploitation"
@@ -4924,7 +5410,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 3.2.",
+              "reference": {
+                "name": "Contrôle de l’accès",
+                "nb": "Annexe V > 3.2."
+              },
               "sections": [],
               "title": {
                 "text": "3.2. Contrôle de l’accès"
@@ -4954,7 +5443,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 3.3.",
+              "reference": {
+                "name": "Déchets acceptés et procédure d’admission",
+                "nb": "Annexe V > 3.3."
+              },
               "sections": [],
               "title": {
                 "text": "3.3. Déchets acceptés et procédure d’admission"
@@ -4999,7 +5491,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 3.4.",
+              "reference": {
+                "name": "Connaissance et étiquetage des produits et des déchets",
+                "nb": "Annexe V > 3.4."
+              },
               "sections": [],
               "title": {
                 "text": "3.4. Connaissance et étiquetage des produits et des déchets"
@@ -5026,7 +5521,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 3.5.",
+              "reference": {
+                "name": "Propreté",
+                "nb": "Annexe V > 3.5."
+              },
               "sections": [],
               "title": {
                 "text": "3.5. Propreté"
@@ -5068,7 +5566,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 3.6.",
+              "reference": {
+                "name": "Consignes d’exploitation",
+                "nb": "Annexe V > 3.6."
+              },
               "sections": [],
               "title": {
                 "text": "3.6. Consignes d’exploitation"
@@ -5095,7 +5596,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 3.7.",
+              "reference": {
+                "name": "Envol de déchets",
+                "nb": "Annexe V > 3.7."
+              },
               "sections": [],
               "title": {
                 "text": "3.7. Envol de déchets"
@@ -5123,7 +5627,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe V 4.",
+          "reference": {
+            "name": "Risques",
+            "nb": "Annexe V > 4."
+          },
           "sections": [
             {
               "annotations": {
@@ -5146,7 +5653,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 4.1.",
+              "reference": {
+                "name": "Localisation des risques",
+                "nb": "Annexe V > 4.1."
+              },
               "sections": [],
               "title": {
                 "text": "4.1. Localisation des risques"
@@ -5173,7 +5683,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 4.2.",
+              "reference": {
+                "name": "Protection individuelle",
+                "nb": "Annexe V > 4.2."
+              },
               "sections": [],
               "title": {
                 "text": "4.2. Protection individuelle"
@@ -5196,7 +5709,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 4.3.",
+              "reference": {
+                "name": "*",
+                "nb": "Annexe V > 4.3."
+              },
               "sections": [],
               "title": {
                 "text": "4.3. *"
@@ -5223,7 +5739,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 4.4.",
+              "reference": {
+                "name": "Interdiction des feux",
+                "nb": "Annexe V > 4.4."
+              },
               "sections": [],
               "title": {
                 "text": "4.4. Interdiction des feux"
@@ -5262,7 +5781,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 4.5.",
+              "reference": {
+                "name": "Consignes de sécurité",
+                "nb": "Annexe V > 4.5."
+              },
               "sections": [],
               "title": {
                 "text": "4.5. Consignes de sécurité"
@@ -5290,7 +5812,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe V 5.",
+          "reference": {
+            "name": "Eau",
+            "nb": "Annexe V > 5."
+          },
           "sections": [
             {
               "annotations": {
@@ -5313,7 +5838,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 5.1.",
+              "reference": {
+                "name": "Récupération des eaux de pluie et des eaux usées",
+                "nb": "Annexe V > 5.1."
+              },
               "sections": [],
               "title": {
                 "text": "5.1. Récupération des eaux de pluie et des eaux usées"
@@ -5340,7 +5868,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 5.2.",
+              "reference": {
+                "name": "Interdiction des rejets en nappe",
+                "nb": "Annexe V > 5.2."
+              },
               "sections": [],
               "title": {
                 "text": "5.2. Interdiction des rejets en nappe"
@@ -5367,7 +5898,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 5.3.",
+              "reference": {
+                "name": "Epandage",
+                "nb": "Annexe V > 5.3."
+              },
               "sections": [],
               "title": {
                 "text": "5.3. Epandage"
@@ -5397,7 +5931,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 5.4.",
+              "reference": {
+                "name": "Valeurs limites de rejet",
+                "nb": "Annexe V > 5.4."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -5423,7 +5960,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe V 5.4. a)",
+                  "reference": {
+                    "name": "Dans tous les cas, avant rejet au milieu naturel ou dans un réseau d’assainissement collectif",
+                    "nb": "Annexe V > 5.4. a)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "a) Dans tous les cas, avant rejet au milieu naturel ou dans un réseau d’assainissement collectif :"
@@ -5450,7 +5990,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe V 5.4. b)",
+                  "reference": {
+                    "name": "Dans le cas de rejet dans le milieu naturel (ou dans un réseau d’assainissement collectif dépourvu de station d’épuration)",
+                    "nb": "Annexe V > 5.4. b)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "b) Dans le cas de rejet dans le milieu naturel (ou dans un réseau d’assainissement collectif dépourvu de station d’épuration) :"
@@ -5516,7 +6059,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe V 5.4. c)",
+                  "reference": {
+                    "name": "Polluants spécifiques : avant rejet dans le milieu naturel ou dans un réseau d’assainissement collectif urbain",
+                    "nb": "Annexe V > 5.4. c)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "c) Polluants spécifiques : avant rejet dans le milieu naturel ou dans un réseau d’assainissement collectif urbain :"
@@ -5549,7 +6095,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe V 6.",
+          "reference": {
+            "name": "Air – Odeurs",
+            "nb": "Annexe V > 6."
+          },
           "sections": [
             {
               "annotations": {
@@ -5575,7 +6124,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 6.1.",
+              "reference": {
+                "name": "Captage et épuration des rejets à l’atmosphère",
+                "nb": "Annexe V > 6.1."
+              },
               "sections": [],
               "title": {
                 "text": "6.1. Captage et épuration des rejets à l’atmosphère"
@@ -5605,7 +6157,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 6.2.",
+              "reference": {
+                "name": "Odeurs",
+                "nb": "Annexe V > 6.2."
+              },
               "sections": [],
               "title": {
                 "text": "6.2. Odeurs"
@@ -5633,7 +6188,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe V 7.",
+          "reference": {
+            "name": "Déchets",
+            "nb": "Annexe V > 7."
+          },
           "sections": [
             {
               "annotations": {
@@ -5656,7 +6214,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 7.1.",
+              "reference": {
+                "name": "Entreposage des déchets",
+                "nb": "Annexe V > 7.1."
+              },
               "sections": [],
               "title": {
                 "text": "7.1. Entreposage des déchets"
@@ -5683,7 +6244,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 7.2.",
+              "reference": {
+                "name": "Déchets produits par l’installation",
+                "nb": "Annexe V > 7.2."
+              },
               "sections": [],
               "title": {
                 "text": "7.2. Déchets produits par l’installation"
@@ -5713,7 +6277,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 7.3.",
+              "reference": {
+                "name": "Déchets sortants",
+                "nb": "Annexe V > 7.3."
+              },
               "sections": [],
               "title": {
                 "text": "7.3. Déchets sortants"
@@ -5794,7 +6361,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 7.4.",
+              "reference": {
+                "name": "Registre des déchets",
+                "nb": "Annexe V > 7.4."
+              },
               "sections": [],
               "title": {
                 "text": "7.4. Registre des déchets"
@@ -5821,7 +6391,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe V 7.5.",
+              "reference": {
+                "name": "Brûlage",
+                "nb": "Annexe V > 7.5."
+              },
               "sections": [],
               "title": {
                 "text": "7.5. Brûlage"
@@ -5856,7 +6429,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe V 8.",
+          "reference": {
+            "name": "Bruit et vibrations",
+            "nb": "Annexe V > 8."
+          },
           "sections": [],
           "title": {
             "text": "8. Bruit et vibrations"
@@ -5901,7 +6477,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe V 9.",
+          "reference": {
+            "name": "Remise en état en fin d’exploitation",
+            "nb": "Annexe V > 9."
+          },
           "sections": [],
           "title": {
             "text": "9. Remise en état en fin d’exploitation"

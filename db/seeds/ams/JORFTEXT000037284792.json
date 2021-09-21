@@ -54,7 +54,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DISPOSITIONS GÉNÉRALES",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -73,7 +76,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Définitions et conditions d'application",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -92,7 +98,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Définitions",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -220,7 +229,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 1",
+                  "reference": {
+                    "name": "Définitions.",
+                    "nb": "Article 1"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 1 - Définitions."
@@ -289,7 +301,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 2",
+                  "reference": {
+                    "name": "Abréviations.",
+                    "nb": "Article 2"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 2 - Abréviations."
@@ -317,7 +332,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Champ et conditions d'application",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -400,7 +418,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 3",
+                  "reference": {
+                    "name": "Champ d'application.",
+                    "nb": "Article 3"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 3 - Champ d'application."
@@ -451,7 +472,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 4",
+                  "reference": {
+                    "name": "Combustibles.",
+                    "nb": "Article 4"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 4 - Combustibles."
@@ -478,7 +502,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 5",
+                  "reference": {
+                    "name": "Modifications.",
+                    "nb": "Article 5"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 5 - Modifications."
@@ -535,7 +562,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 6",
+                  "reference": {
+                    "name": "Prescriptions supplémentaires.",
+                    "nb": "Article 6"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 6 - Prescriptions supplémentaires."
@@ -568,7 +598,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Prélèvements",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -591,7 +624,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7",
+              "reference": {
+                "name": "Contrôle.",
+                "nb": "Article 7"
+              },
               "sections": [],
               "title": {
                 "text": "Article 7 - Contrôle."
@@ -624,7 +660,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "PRÉVENTION DE LA POLLUTION ATMOSPHÉRIQUE",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -643,7 +682,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Conditions d'application",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -681,7 +723,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 8",
+              "reference": {
+                "name": "Applicabilité VLE.",
+                "nb": "Article 8"
+              },
               "sections": [],
               "title": {
                 "text": "Article 8 - Applicabilité VLE."
@@ -714,7 +759,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 9",
+              "reference": {
+                "name": "Conditions de référence.",
+                "nb": "Article 9"
+              },
               "sections": [],
               "title": {
                 "text": "Article 9 - Conditions de référence."
@@ -742,7 +790,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Valeurs limites",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -4584,7 +4635,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 10",
+              "reference": {
+                "name": "VLE installations autres que turbines et moteurs.",
+                "nb": "Article 10"
+              },
               "sections": [],
               "title": {
                 "text": "Article 10 - VLE installations autres que turbines et moteurs."
@@ -6904,7 +6958,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 11",
+              "reference": {
+                "name": "VLE Turbine.",
+                "nb": "Article 11"
+              },
               "sections": [],
               "title": {
                 "text": "Article 11 - VLE Turbine."
@@ -9204,7 +9261,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 12",
+              "reference": {
+                "name": "VLE Moteurs.",
+                "nb": "Article 12"
+              },
               "sections": [],
               "title": {
                 "text": "Article 12 - VLE Moteurs."
@@ -9384,7 +9444,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 13",
+              "reference": {
+                "name": "VLE Autres polluants que NOx, SO2, Poussières et CO.",
+                "nb": "Article 13"
+              },
               "sections": [],
               "title": {
                 "text": "Article 13 - VLE Autres polluants que NOx, SO2, Poussières et CO."
@@ -9412,7 +9475,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Conditions spécifiques de fonctionnement",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -9435,7 +9501,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 14",
+              "reference": {
+                "name": "Démarrages et arrêts.",
+                "nb": "Article 14"
+              },
               "sections": [],
               "title": {
                 "text": "Article 14 - Démarrages et arrêts."
@@ -9468,7 +9537,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 15",
+              "reference": {
+                "name": "Dérogation approvisionnement combustible.",
+                "nb": "Article 15"
+              },
               "sections": [],
               "title": {
                 "text": "Article 15 - Dérogation approvisionnement combustible."
@@ -9510,7 +9582,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 16",
+              "reference": {
+                "name": "Surveillance système de traitement des fumées.",
+                "nb": "Article 16"
+              },
               "sections": [],
               "title": {
                 "text": "Article 16 - Surveillance système de traitement des fumées."
@@ -9661,7 +9736,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 17",
+              "reference": {
+                "name": "Cas d'installations multi-combustible.",
+                "nb": "Article 17"
+              },
               "sections": [],
               "title": {
                 "text": "Article 17 - Cas d'installations multi-combustible."
@@ -9694,7 +9772,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 18",
+              "reference": {
+                "name": "Ateliers d'essais.",
+                "nb": "Article 18"
+              },
               "sections": [],
               "title": {
                 "text": "Article 18 - Ateliers d'essais."
@@ -9722,7 +9803,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Conditions de rejet à l'atmosphère",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -9745,7 +9829,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 19",
+              "reference": {
+                "name": "Champ d'application des conditions de rejet.",
+                "nb": "Article 19"
+              },
               "sections": [],
               "title": {
                 "text": "Article 19 - Champ d'application des conditions de rejet."
@@ -9775,7 +9862,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 20",
+              "reference": {
+                "name": "Généralités.",
+                "nb": "Article 20"
+              },
               "sections": [],
               "title": {
                 "text": "Article 20 - Généralités."
@@ -9802,7 +9892,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 21",
+              "reference": {
+                "name": "Échantillonnage.",
+                "nb": "Article 21"
+              },
               "sections": [],
               "title": {
                 "text": "Article 21 - Échantillonnage."
@@ -9825,7 +9918,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 22",
+              "reference": {
+                "name": "Vitesse d'éjection.",
+                "nb": "Article 22"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -9851,7 +9947,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 22 A.",
+                  "reference": {
+                    "name": "Turbines et moteurs",
+                    "nb": "Article 22 > A."
+                  },
                   "sections": [],
                   "title": {
                     "text": "A. Turbines et moteurs :"
@@ -9878,7 +9977,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 22 B.",
+                  "reference": {
+                    "name": "Autres appareils de combustion",
+                    "nb": "Article 22 > B."
+                  },
                   "sections": [],
                   "title": {
                     "text": "B. Autres appareils de combustion :"
@@ -10285,7 +10387,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 23",
+              "reference": {
+                "name": "Hauteur de cheminée.",
+                "nb": "Article 23"
+              },
               "sections": [],
               "title": {
                 "text": "Article 23 - Hauteur de cheminée."
@@ -10313,7 +10418,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Surveillance des rejets atmosphériques et de l'impact sur l'environnement",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -10332,7 +10440,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Programme de surveillance des rejets atmosphériques",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -10376,7 +10487,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 24",
+                  "reference": {
+                    "name": "Programme de surveillance.",
+                    "nb": "Article 24"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 24 - Programme de surveillance."
@@ -10403,7 +10517,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 25",
+                  "reference": {
+                    "name": "Contrôles inopinés.",
+                    "nb": "Article 25"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 25 - Contrôles inopinés."
@@ -10445,7 +10562,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 26",
+                  "reference": {
+                    "name": "Mesures périodiques.",
+                    "nb": "Article 26"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 26 - Mesures périodiques."
@@ -10475,7 +10595,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 27",
+                  "reference": {
+                    "name": "Mesure en continu pour les installations consommant des combustibles visés dans la rubrique 2910-B.",
+                    "nb": "Article 27"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 27 - Mesure en continu pour les installations consommant des combustibles visés dans la rubrique 2910-B."
@@ -10613,7 +10736,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 28",
+                  "reference": {
+                    "name": "Mesure en continu pour les installations de plus de 20 MW.",
+                    "nb": "Article 28"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 28 - Mesure en continu pour les installations de plus de 20 MW."
@@ -10655,7 +10781,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 29",
+                  "reference": {
+                    "name": "Mesure en continu des paramètres.",
+                    "nb": "Article 29"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 29 - Mesure en continu des paramètres."
@@ -10691,7 +10820,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 30",
+                  "reference": {
+                    "name": "Mesure pour les appareils fonctionnant moins de 500 h/an.",
+                    "nb": "Article 30"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 30 - Mesure pour les appareils fonctionnant moins de 500 h/an."
@@ -10719,7 +10851,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Conditions de surveillance des rejets atmosphériques",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -10751,7 +10886,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 31",
+                  "reference": {
+                    "name": "Suivi appareil de mesure en continu.",
+                    "nb": "Article 31"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 31 - Suivi appareil de mesure en continu."
@@ -10790,7 +10928,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 32",
+                  "reference": {
+                    "name": "Incertitudes de mesure.",
+                    "nb": "Article 32"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 32 - Incertitudes de mesure."
@@ -10818,7 +10959,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Conditions de respect des valeurs limites",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -10862,7 +11006,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 33",
+                  "reference": {
+                    "name": "Condition de respect des VLE pour la mesure en continu.",
+                    "nb": "Article 33"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 33 - Condition de respect des VLE pour la mesure en continu."
@@ -10898,7 +11045,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 34",
+                  "reference": {
+                    "name": "Valeurs validées.",
+                    "nb": "Article 34"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 34 - Valeurs validées."
@@ -10925,7 +11075,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 35",
+                  "reference": {
+                    "name": "Condition de respect des VLE en cas de mesure périodique.",
+                    "nb": "Article 35"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 35 - Condition de respect des VLE en cas de mesure périodique."
@@ -10963,7 +11116,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "UTILISATION RATIONNELLE DE L'ÉNERGIE ET LUTTE CONTRE LES GAZ À EFFET DE SERRE",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -10992,7 +11148,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 36",
+          "reference": {
+            "name": "Efficacité énergétique.",
+            "nb": "Article 36"
+          },
           "sections": [],
           "title": {
             "text": "Article 36 - Efficacité énergétique."
@@ -11034,7 +11193,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 37",
+          "reference": {
+            "name": "Installations visées SEQE.",
+            "nb": "Article 37"
+          },
           "sections": [],
           "title": {
             "text": "Article 37 - Installations visées SEQE."
@@ -11062,7 +11224,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DISPOSITIONS DIVERSES, ABROGATION ET EXÉCUTION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -11112,7 +11277,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 38",
+          "reference": {
+            "name": "Livret.",
+            "nb": "Article 38"
+          },
           "sections": [],
           "title": {
             "text": "Article 38 - Livret."
@@ -11145,7 +11313,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 39",
+          "reference": {
+            "name": "DISPOSITIONS DIVERSES, ABROGATION ET EXÉCUTION",
+            "nb": "Article 39"
+          },
           "sections": [],
           "title": {
             "text": "Article 39"
@@ -11172,7 +11343,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 40",
+          "reference": {
+            "name": "Exécution.",
+            "nb": "Article 40"
+          },
           "sections": [],
           "title": {
             "text": "Article 40 - Exécution."

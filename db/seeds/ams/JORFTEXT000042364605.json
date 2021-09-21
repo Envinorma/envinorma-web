@@ -186,7 +186,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "GÉNÉRALITÉS",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -242,7 +245,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. I.1",
+          "reference": {
+            "name": "Champ d'application",
+            "nb": "Article I.1"
+          },
           "sections": [],
           "title": {
             "text": "Article I.1 - Champ d'application"
@@ -440,7 +446,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. I.2",
+          "reference": {
+            "name": "Définitions",
+            "nb": "Article I.2"
+          },
           "sections": [],
           "title": {
             "text": "Article I.2 - Définitions"
@@ -488,7 +497,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. I.3",
+          "reference": {
+            "name": "Notion de proximité",
+            "nb": "Article I.3"
+          },
           "sections": [],
           "title": {
             "text": "Article I.3 - Notion de proximité"
@@ -524,7 +536,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. I.4",
+          "reference": {
+            "name": "Dispositions particulières applicables aux stockages en stockage couvert ouvert",
+            "nb": "Article I.4"
+          },
           "sections": [],
           "title": {
             "text": "Article I.4 - Dispositions particulières applicables aux stockages en stockage couvert ouvert"
@@ -552,7 +567,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "IMPLANTATION ET ACCESSIBILITÉ",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -581,7 +599,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. II.1",
+          "reference": {
+            "name": "Implantation",
+            "nb": "Article II.1"
+          },
           "sections": [],
           "title": {
             "text": "Article II.1 - Implantation"
@@ -620,7 +641,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. II.2",
+          "reference": {
+            "name": "Limitation d'accès et clôtures",
+            "nb": "Article II.2"
+          },
           "sections": [],
           "title": {
             "text": "Article II.2 - Limitation d'accès et clôtures"
@@ -668,7 +692,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. II.3",
+          "reference": {
+            "name": "Accès",
+            "nb": "Article II.3"
+          },
           "sections": [],
           "title": {
             "text": "Article II.3 - Accès"
@@ -695,7 +722,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. II.4",
+          "reference": {
+            "name": "Voie « Engins »",
+            "nb": "Article II.4"
+          },
           "sections": [
             {
               "annotations": {
@@ -727,7 +757,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. II.4 I.",
+              "reference": {
+                "name": "Stockage extérieur",
+                "nb": "Article II.4 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I. - Stockage extérieur :"
@@ -750,7 +783,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. II.4 II.",
+              "reference": {
+                "name": "Stockage couvert",
+                "nb": "Article II.4 > II."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -788,7 +824,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. II.4 II. A.",
+                  "reference": {
+                    "name": "Voies engins",
+                    "nb": "Article II.4 > II. A."
+                  },
                   "sections": [],
                   "title": {
                     "text": "A. - Voies engins"
@@ -854,7 +893,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. II.4 II. B.",
+                  "reference": {
+                    "name": "Aires de mise en station des moyens aériens",
+                    "nb": "Article II.4 > II. B."
+                  },
                   "sections": [],
                   "title": {
                     "text": "B. - Aires de mise en station des moyens aériens"
@@ -884,7 +926,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. II.4 II.",
+                  "reference": {
+                    "name": "Stockage couvert",
+                    "nb": "Article II.4 > II. C."
+                  },
                   "sections": [],
                   "title": {
                     "text": "C."
@@ -911,7 +956,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. II.4 II.",
+                  "reference": {
+                    "name": "Stockage couvert",
+                    "nb": "Article II.4 > II. D."
+                  },
                   "sections": [],
                   "title": {
                     "text": "D."
@@ -949,7 +997,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DISPOSITIONS CONSTRUCTIVES, AMÉNAGEMENT ET ÉQUIPEMENTS",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -968,7 +1019,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Généralités",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -1009,7 +1063,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.1",
+              "reference": {
+                "name": "Interdiction de stockages en contenants fusibles",
+                "nb": "Article III.1"
+              },
               "sections": [],
               "title": {
                 "text": "Article III.1 - Interdiction de stockages en contenants fusibles"
@@ -1036,7 +1093,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.2",
+              "reference": {
+                "name": "Mise à la terre",
+                "nb": "Article III.2"
+              },
               "sections": [],
               "title": {
                 "text": "Article III.2 - Mise à la terre"
@@ -1064,7 +1124,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Stockage couvert",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -1090,7 +1153,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art.",
+              "reference": {
+                "name": "Stockage couvert",
+                "nb": "Article"
+              },
               "sections": [],
               "title": {
                 "text": "Article"
@@ -1243,7 +1309,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.3",
+              "reference": {
+                "name": "Dispositions constructives",
+                "nb": "Article III.3"
+              },
               "sections": [],
               "title": {
                 "text": "Article III.3 - Dispositions constructives"
@@ -1273,7 +1342,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.4",
+              "reference": {
+                "name": "Détection incendie",
+                "nb": "Article III.4"
+              },
               "sections": [],
               "title": {
                 "text": "Article III.4 - Détection incendie"
@@ -1318,7 +1390,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.5",
+              "reference": {
+                "name": "Installation électrique / chauffage",
+                "nb": "Article III.5"
+              },
               "sections": [],
               "title": {
                 "text": "Article III.5 - Installation électrique / chauffage"
@@ -1363,7 +1438,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.6",
+              "reference": {
+                "name": "Dispositions applicables aux chaufferies et local de charge",
+                "nb": "Article III.6"
+              },
               "sections": [],
               "title": {
                 "text": "Article III.6 - Dispositions applicables aux chaufferies et local de charge"
@@ -1420,7 +1498,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.7",
+              "reference": {
+                "name": "Conditions de stockage",
+                "nb": "Article III.7"
+              },
               "sections": [],
               "title": {
                 "text": "Article III.7 - Conditions de stockage"
@@ -1450,7 +1531,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.8",
+              "reference": {
+                "name": "Dispositions particulières aux stockages couverts abritant des liquides et solides liquéfiables combustibles",
+                "nb": "Article III.8"
+              },
               "sections": [],
               "title": {
                 "text": "Article III.8 - Dispositions particulières aux stockages couverts abritant des liquides et solides liquéfiables combustibles"
@@ -1478,7 +1562,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Stockage extérieur",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -1504,7 +1591,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art.",
+              "reference": {
+                "name": "Stockage extérieur",
+                "nb": "Article"
+              },
               "sections": [],
               "title": {
                 "text": "Article"
@@ -1632,7 +1722,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.9",
+              "reference": {
+                "name": "Conditions de stockage",
+                "nb": "Article III.9"
+              },
               "sections": [],
               "title": {
                 "text": "Article III.9 - Conditions de stockage"
@@ -1671,7 +1764,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.10",
+              "reference": {
+                "name": "Détection incendie",
+                "nb": "Article III.10"
+              },
               "sections": [],
               "title": {
                 "text": "Article III.10 - Détection incendie"
@@ -1699,7 +1795,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Dispositions applicables aux rétentions",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -1718,7 +1817,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.11",
+              "reference": {
+                "name": "Dispositions générales",
+                "nb": "Article III.11"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1756,7 +1858,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. III.11 I.",
+                  "reference": {
+                    "name": "Conception des rétentions",
+                    "nb": "Article III.11 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I. - Conception des rétentions"
@@ -1786,7 +1891,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. III.11 II.",
+                  "reference": {
+                    "name": "Entretien des rétentions",
+                    "nb": "Article III.11 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II. - Entretien des rétentions"
@@ -1813,7 +1921,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. III.11",
+                  "reference": {
+                    "name": "Dispositions générales",
+                    "nb": "Article III.11 > III."
+                  },
                   "sections": [],
                   "title": {
                     "text": "III."
@@ -1840,7 +1951,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. III.11",
+                  "reference": {
+                    "name": "Dispositions générales",
+                    "nb": "Article III.11 > IV."
+                  },
                   "sections": [],
                   "title": {
                     "text": "IV."
@@ -1932,7 +2046,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.12",
+              "reference": {
+                "name": "Capacité de rétention - Cas général",
+                "nb": "Article III.12"
+              },
               "sections": [],
               "title": {
                 "text": "Article III.12 - Capacité de rétention - Cas général"
@@ -2001,7 +2118,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.13",
+              "reference": {
+                "name": "Dispositions applicables aux rétentions",
+                "nb": "Article III.13"
+              },
               "sections": [],
               "title": {
                 "text": "Article III.13"
@@ -2024,7 +2144,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.14",
+              "reference": {
+                "name": "Dispositions applicables aux rétentions déportées",
+                "nb": "Article III.14"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -2047,7 +2170,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. III.14 I.",
+                  "reference": {
+                    "name": "Zone de collecte extérieure",
+                    "nb": "Article III.14 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I. - Zone de collecte extérieure"
@@ -2074,7 +2200,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. III.14 II.",
+                  "reference": {
+                    "name": "Dispositif de drainage",
+                    "nb": "Article III.14 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II. - Dispositif de drainage"
@@ -2101,7 +2230,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. III.14 III.",
+                  "reference": {
+                    "name": "Dispositif d'extinction des effluents enflammés",
+                    "nb": "Article III.14 > III."
+                  },
                   "sections": [],
                   "title": {
                     "text": "III. - Dispositif d'extinction des effluents enflammés"
@@ -2155,7 +2287,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. III.14",
+                  "reference": {
+                    "name": "Dispositions applicables aux rétentions déportées",
+                    "nb": "Article III.14 > IV."
+                  },
                   "sections": [],
                   "title": {
                     "text": "IV."
@@ -2185,7 +2320,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. III.14",
+                  "reference": {
+                    "name": "Dispositions applicables aux rétentions déportées",
+                    "nb": "Article III.14 > V."
+                  },
                   "sections": [],
                   "title": {
                     "text": "V."
@@ -2212,7 +2350,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. III.14",
+                  "reference": {
+                    "name": "Dispositions applicables aux rétentions déportées",
+                    "nb": "Article III.14 > VI."
+                  },
                   "sections": [],
                   "title": {
                     "text": "VI."
@@ -2242,7 +2383,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. III.14",
+                  "reference": {
+                    "name": "Dispositions applicables aux rétentions déportées",
+                    "nb": "Article III.14 > VII."
+                  },
                   "sections": [],
                   "title": {
                     "text": "VII."
@@ -2278,7 +2422,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. III.14 VIII.",
+                  "reference": {
+                    "name": "Implantation des rétentions déportées",
+                    "nb": "Article III.14 > VIII."
+                  },
                   "sections": [],
                   "title": {
                     "text": "VIII. - Implantation des rétentions déportées"
@@ -2313,7 +2460,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.15",
+              "reference": {
+                "name": "Partage de rétention",
+                "nb": "Article III.15"
+              },
               "sections": [],
               "title": {
                 "text": "Article III.15 - Partage de rétention"
@@ -2355,7 +2505,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.16",
+              "reference": {
+                "name": "Evacuation des eaux des rétentions",
+                "nb": "Article III.16"
+              },
               "sections": [],
               "title": {
                 "text": "Article III.16 - Evacuation des eaux des rétentions"
@@ -2382,7 +2535,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. III.17",
+              "reference": {
+                "name": "Equipements présents dans les rétentions",
+                "nb": "Article III.17"
+              },
               "sections": [],
               "title": {
                 "text": "Article III.17 - Equipements présents dans les rétentions"
@@ -2415,7 +2571,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "EXPLOITATION ET ENTRETIEN",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -2438,7 +2597,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. IV.1",
+          "reference": {
+            "name": "Information sur les matières dangereuses",
+            "nb": "Article IV.1"
+          },
           "sections": [],
           "title": {
             "text": "Article IV.1 - Information sur les matières dangereuses"
@@ -2501,7 +2663,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. IV.2",
+          "reference": {
+            "name": "Consignes",
+            "nb": "Article IV.2"
+          },
           "sections": [],
           "title": {
             "text": "Article IV.2 - Consignes"
@@ -2540,7 +2705,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. IV.3",
+          "reference": {
+            "name": "Dispositions en cas de fuite",
+            "nb": "Article IV.3"
+          },
           "sections": [],
           "title": {
             "text": "Article IV.3 - Dispositions en cas de fuite"
@@ -2570,7 +2738,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. IV.4",
+          "reference": {
+            "name": "Analyse des événements",
+            "nb": "Article IV.4"
+          },
           "sections": [],
           "title": {
             "text": "Article IV.4 - Analyse des événements"
@@ -2621,7 +2792,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. IV.5",
+          "reference": {
+            "name": "Surveillance",
+            "nb": "Article IV.5"
+          },
           "sections": [],
           "title": {
             "text": "Article IV.5 - Surveillance"
@@ -2651,7 +2825,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. IV.6",
+          "reference": {
+            "name": "Vérifications périodiques et contrôles",
+            "nb": "Article IV.6"
+          },
           "sections": [],
           "title": {
             "text": "Article IV.6 - Vérifications périodiques et contrôles"
@@ -2679,7 +2856,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "AUTRES DISPOSITIONS DE PRÉVENTION DES RISQUES",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -2702,7 +2882,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. V.1",
+          "reference": {
+            "name": "Zones à risques",
+            "nb": "Article V.1"
+          },
           "sections": [],
           "title": {
             "text": "Article V.1 - Zones à risques"
@@ -2729,7 +2912,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. V.2",
+          "reference": {
+            "name": "Equipements à risques",
+            "nb": "Article V.2"
+          },
           "sections": [],
           "title": {
             "text": "Article V.2 - Equipements à risques"
@@ -2759,7 +2945,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. V.3",
+          "reference": {
+            "name": "Tuyauteries, robinetteries et accessoires",
+            "nb": "Article V.3"
+          },
           "sections": [],
           "title": {
             "text": "Article V.3 - Tuyauteries, robinetteries et accessoires"
@@ -2789,7 +2978,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. V.4",
+          "reference": {
+            "name": "Ventilation",
+            "nb": "Article V.4"
+          },
           "sections": [],
           "title": {
             "text": "Article V.4 - Ventilation"
@@ -2843,7 +3035,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. V.5",
+          "reference": {
+            "name": "Travaux",
+            "nb": "Article V.5"
+          },
           "sections": [],
           "title": {
             "text": "Article V.5 - Travaux"
@@ -2871,7 +3066,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DÉFENSE CONTRE L'INCENDIE",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -2945,7 +3143,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. VI.1",
+          "reference": {
+            "name": "Défense contre l'incendie",
+            "nb": "Article VI.1"
+          },
           "sections": [],
           "title": {
             "text": "Article VI.1 - Défense contre l'incendie"
@@ -3104,7 +3305,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. VI.2",
+          "reference": {
+            "name": "Moyens en équipements et en personnel",
+            "nb": "Article VI.2"
+          },
           "sections": [],
           "title": {
             "text": "Article VI.2 - Moyens en équipements et en personnel"
@@ -3140,7 +3344,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. VI.3",
+          "reference": {
+            "name": "Moyens complémentaires à la stratégie incendie",
+            "nb": "Article VI.3"
+          },
           "sections": [],
           "title": {
             "text": "Article VI.3 - Moyens complémentaires à la stratégie incendie"
@@ -3170,7 +3377,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. VI.4",
+          "reference": {
+            "name": "Dispositions applicables aux stockages extérieurs",
+            "nb": "Article VI.4"
+          },
           "sections": [],
           "title": {
             "text": "Article VI.4 - Dispositions applicables aux stockages extérieurs"
@@ -3215,7 +3425,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. VI.5",
+          "reference": {
+            "name": "Dispositions applicables aux stockages couverts",
+            "nb": "Article VI.5"
+          },
           "sections": [],
           "title": {
             "text": "Article VI.5 - Dispositions applicables aux stockages couverts"
@@ -3266,7 +3479,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. VI.6",
+          "reference": {
+            "name": "Autres moyens de lutte contre l'incendie",
+            "nb": "Article VI.6"
+          },
           "sections": [],
           "title": {
             "text": "Article VI.6 - Autres moyens de lutte contre l'incendie"
@@ -3311,7 +3527,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. VI.7",
+          "reference": {
+            "name": "Consignes incendie",
+            "nb": "Article VI.7"
+          },
           "sections": [],
           "title": {
             "text": "Article VI.7 - Consignes incendie"
@@ -3341,7 +3560,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. VI.8",
+          "reference": {
+            "name": "Exercice",
+            "nb": "Article VI.8"
+          },
           "sections": [],
           "title": {
             "text": "Article VI.8 - Exercice"
@@ -3369,7 +3591,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "PRÉVENTION DES POLLUTIONS",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -3416,7 +3641,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. VII.1",
+          "reference": {
+            "name": "Eaux pluviales susceptibles d'être polluées",
+            "nb": "Article VII.1"
+          },
           "sections": [],
           "title": {
             "text": "Article VII.1 - Eaux pluviales susceptibles d'être polluées"
@@ -3444,7 +3672,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DISPOSITIONS GÉNÉRALES",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -3470,7 +3701,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. VIII.1",
+          "reference": {
+            "name": "DISPOSITIONS GÉNÉRALES",
+            "nb": "Article VIII.1"
+          },
           "sections": [],
           "title": {
             "text": "Article VIII.1"
@@ -3497,7 +3731,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. VIII.2",
+          "reference": {
+            "name": "DISPOSITIONS GÉNÉRALES",
+            "nb": "Article VIII.2"
+          },
           "sections": [],
           "title": {
             "text": "Article VIII.2"
@@ -3529,7 +3766,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -4886,7 +5126,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe 1",
+          "reference": {
+            "name": "",
+            "nb": "Annexe 1"
+          },
           "sections": [],
           "title": {
             "text": "ANNEXE 1"
@@ -4918,7 +5161,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -6522,7 +6768,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe 2",
+          "reference": {
+            "name": "",
+            "nb": "Annexe 2"
+          },
           "sections": [],
           "title": {
             "text": "ANNEXE 2"
@@ -6554,7 +6803,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -7540,7 +7792,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe 3",
+          "reference": {
+            "name": "",
+            "nb": "Annexe 3"
+          },
           "sections": [],
           "title": {
             "text": "ANNEXE 3"
@@ -7572,7 +7827,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -7640,7 +7898,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV",
+          "reference": {
+            "name": "",
+            "nb": "Annexe IV"
+          },
           "sections": [],
           "title": {
             "text": "ANNEXE IV"
@@ -7672,7 +7933,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -7782,7 +8046,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe V",
+          "reference": {
+            "name": "",
+            "nb": "Annexe V"
+          },
           "sections": [],
           "title": {
             "text": "ANNEXE V"

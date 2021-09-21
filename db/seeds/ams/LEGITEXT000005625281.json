@@ -97,7 +97,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 1",
+      "reference": {
+        "name": "",
+        "nb": "Article 1"
+      },
       "sections": [],
       "title": {
         "text": "Article 1"
@@ -120,7 +123,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Dispositions générales.",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -146,7 +152,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2",
+          "reference": {
+            "name": "Dispositions générales.",
+            "nb": "Article 2"
+          },
           "sections": [],
           "title": {
             "text": "Article 2"
@@ -173,7 +182,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3",
+          "reference": {
+            "name": "Dispositions générales.",
+            "nb": "Article 3"
+          },
           "sections": [],
           "title": {
             "text": "Article 3"
@@ -196,7 +208,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4",
+          "reference": {
+            "name": "Dispositions générales.",
+            "nb": "Article 4"
+          },
           "sections": [
             {
               "annotations": {
@@ -246,7 +261,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 4",
+              "reference": {
+                "name": "Dispositions générales.",
+                "nb": "Article 4 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I."
@@ -279,7 +297,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 4",
+              "reference": {
+                "name": "Dispositions générales.",
+                "nb": "Article 4 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II."
@@ -311,7 +332,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5",
+          "reference": {
+            "name": "Dispositions générales.",
+            "nb": "Article 5"
+          },
           "sections": [],
           "title": {
             "text": "Article 5"
@@ -344,7 +368,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 6",
+          "reference": {
+            "name": "Dispositions générales.",
+            "nb": "Article 6"
+          },
           "sections": [],
           "title": {
             "text": "Article 6"
@@ -372,7 +399,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Prévention des accidents et des pollutions accidentelles, y compris par les eaux pluviales.",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -391,7 +421,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Rejets à l'atmosphère.",
+            "nb": ""
+          },
           "sections": [],
           "title": {
             "text": "Section 1 : Rejets à l'atmosphère."
@@ -414,7 +447,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Eaux pluviales.",
+            "nb": ""
+          },
           "sections": [],
           "title": {
             "text": "Section 2 : Eaux pluviales."
@@ -437,7 +473,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Stockages.",
+            "nb": ""
+          },
           "sections": [],
           "title": {
             "text": "Section 3 : Stockages."
@@ -460,7 +499,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Bassin de confinement.",
+            "nb": ""
+          },
           "sections": [],
           "title": {
             "text": "Section 4 : Bassin de confinement."
@@ -488,7 +530,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Prélèvements et consommation d'eau.",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -517,7 +562,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 14",
+          "reference": {
+            "name": "Prélèvements et consommation d'eau.",
+            "nb": "Article 14"
+          },
           "sections": [],
           "title": {
             "text": "Article 14"
@@ -544,7 +592,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 15",
+          "reference": {
+            "name": "Prélèvements et consommation d'eau.",
+            "nb": "Article 15"
+          },
           "sections": [],
           "title": {
             "text": "Article 15"
@@ -577,7 +628,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 16",
+          "reference": {
+            "name": "Prélèvements et consommation d'eau.",
+            "nb": "Article 16"
+          },
           "sections": [],
           "title": {
             "text": "Article 16"
@@ -610,7 +664,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 17",
+          "reference": {
+            "name": "Prélèvements et consommation d'eau.",
+            "nb": "Article 17"
+          },
           "sections": [],
           "title": {
             "text": "Article 17"
@@ -638,7 +695,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Traitement des effluents.",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -667,7 +727,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 18",
+          "reference": {
+            "name": "Traitement des effluents.",
+            "nb": "Article 18"
+          },
           "sections": [],
           "title": {
             "text": "Article 18"
@@ -694,7 +757,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 19",
+          "reference": {
+            "name": "Traitement des effluents.",
+            "nb": "Article 19"
+          },
           "sections": [],
           "title": {
             "text": "Article 19"
@@ -724,7 +790,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 20",
+          "reference": {
+            "name": "Traitement des effluents.",
+            "nb": "Article 20"
+          },
           "sections": [],
           "title": {
             "text": "Article 20"
@@ -752,7 +821,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Valeurs limites d'émissions",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -771,7 +843,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Généralités.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -790,7 +865,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 21",
+              "reference": {
+                "name": "Généralités.",
+                "nb": "Article 21"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -819,7 +897,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 21",
+                  "reference": {
+                    "name": "Généralités.",
+                    "nb": "Article 21 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -852,7 +933,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 21",
+                  "reference": {
+                    "name": "Généralités.",
+                    "nb": "Article 21 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -906,7 +990,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 21",
+                  "reference": {
+                    "name": "Généralités.",
+                    "nb": "Article 21 > III."
+                  },
                   "sections": [],
                   "title": {
                     "text": "III."
@@ -934,7 +1021,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 22",
+              "reference": {
+                "name": "Généralités.",
+                "nb": "Article 22"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -978,7 +1068,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 22 1°",
+                  "reference": {
+                    "name": "Définitions",
+                    "nb": "Article 22 > 1°"
+                  },
                   "sections": [],
                   "title": {
                     "text": "1° Définitions"
@@ -1005,7 +1098,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 22",
+                  "reference": {
+                    "name": "Généralités.",
+                    "nb": "Article 22 > 2°"
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -1028,7 +1124,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 22",
+                      "reference": {
+                        "name": "Généralités.",
+                        "nb": "Article 22 > 2° I."
+                      },
                       "sections": [],
                       "title": {
                         "text": "I."
@@ -1061,7 +1160,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 22",
+                      "reference": {
+                        "name": "Généralités.",
+                        "nb": "Article 22 > 2° II."
+                      },
                       "sections": [],
                       "title": {
                         "text": "II."
@@ -1091,7 +1193,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 22",
+                      "reference": {
+                        "name": "Pour les substances dangereuses visées par un objectif de suppression des émissions et dès lors qu'elles sont présentes dans les rejets de l'installation, la réduction maximale doit être recherchée. L'exploitant tient donc à la disposition de l'inspection les éléments attestant qu'il a mis en œuvre des solutions de réduction techniquement viables et à un coût acceptable afin de respecter l'objectif de suppression aux échéances fixées par la réglementation en vigueur.",
+                        "nb": "Article 22 > 2° III."
+                      },
                       "sections": [],
                       "title": {
                         "text": "III.Pour les substances dangereuses visées par un objectif de suppression des émissions et dès lors qu'elles sont présentes dans les rejets de l'installation, la réduction maximale doit être recherchée. L'exploitant tient donc à la disposition de l'inspection les éléments attestant qu'il a mis en œuvre des solutions de réduction techniquement viables et à un coût acceptable afin de respecter l'objectif de suppression aux échéances fixées par la réglementation en vigueur."
@@ -1134,7 +1239,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 23",
+              "reference": {
+                "name": "Généralités.",
+                "nb": "Article 23"
+              },
               "sections": [],
               "title": {
                 "text": "Article 23"
@@ -1167,7 +1275,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 24",
+              "reference": {
+                "name": "Généralités.",
+                "nb": "Article 24"
+              },
               "sections": [],
               "title": {
                 "text": "Article 24"
@@ -1194,7 +1305,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 25",
+              "reference": {
+                "name": "Généralités.",
+                "nb": "Article 25"
+              },
               "sections": [],
               "title": {
                 "text": "Article 25"
@@ -1222,7 +1336,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Pollution de l'air.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -1245,7 +1362,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 26",
+              "reference": {
+                "name": "Pollution de l'air.",
+                "nb": "Article 26"
+              },
               "sections": [],
               "title": {
                 "text": "Article 26"
@@ -1268,7 +1388,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Sous-section 1 : Cas général.",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1461,7 +1584,10 @@
                       "Les points a) à e) du point 7° ne s'appliquent pas aux installations soumises à autorisation au titre de la rubrique 1434-2"
                     ]
                   },
-                  "reference_str": "Art. 27",
+                  "reference": {
+                    "name": "Sous-section 1 : Cas général.",
+                    "nb": "Article 27"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 27"
@@ -1488,7 +1614,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 28",
+                  "reference": {
+                    "name": "Sous-section 1 : Cas général.",
+                    "nb": "Article 28"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 28"
@@ -1518,7 +1647,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 28-1",
+                  "reference": {
+                    "name": "Sous-section 1 : Cas général.",
+                    "nb": "Article 28-1"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 28-1"
@@ -1551,7 +1683,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 29",
+                  "reference": {
+                    "name": "Sous-section 1 : Cas général.",
+                    "nb": "Article 29"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 29"
@@ -1579,7 +1714,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Sous-section 2 : Pour certaines activités.",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1602,7 +1740,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 30",
+                  "reference": {
+                    "name": "Sous-section 2 : Pour certaines activités.",
+                    "nb": "Article 30"
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -1628,7 +1769,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 1°",
+                      "reference": {
+                        "name": "Cokeries",
+                        "nb": "Article 30 > 1°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "1° Cokeries"
@@ -1676,7 +1820,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 2°",
+                      "reference": {
+                        "name": "Fabrication du dioxyde de titane",
+                        "nb": "Article 30 > 2°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "2° Fabrication du dioxyde de titane :"
@@ -1715,7 +1862,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 3°",
+                      "reference": {
+                        "name": "Plates-formes de raffinage de pétrole.",
+                        "nb": "Article 30 > 3°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "3° Plates-formes de raffinage de pétrole."
@@ -1745,7 +1895,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 4°",
+                      "reference": {
+                        "name": "Traitement des gaz soufrés résiduaires sur un site pétrochimique, mais à l'extérieur d'une raffinerie de produits pétroliers",
+                        "nb": "Article 30 > 4°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "4° Traitement des gaz soufrés résiduaires sur un site pétrochimique, mais à l'extérieur d'une raffinerie de produits pétroliers :"
@@ -1784,7 +1937,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 5°",
+                      "reference": {
+                        "name": "Fabrication et régénération de dioxyde, trioxyde de soufre, acide sulfurique et oléum",
+                        "nb": "Article 30 > 5°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "5° Fabrication et régénération de dioxyde, trioxyde de soufre, acide sulfurique et oléum :"
@@ -1814,7 +1970,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 6°",
+                      "reference": {
+                        "name": "Fabrication d'acide nitrique",
+                        "nb": "Article 30 > 6°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "6° Fabrication d'acide nitrique :"
@@ -1837,7 +1996,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 7°",
+                      "reference": {
+                        "name": "Alinéa supprimé",
+                        "nb": "Article 30 > 7°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "7° Alinéa supprimé"
@@ -1903,7 +2065,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 8°",
+                      "reference": {
+                        "name": "Sidérurgie",
+                        "nb": "Article 30 > 8°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "8° Sidérurgie :"
@@ -1933,7 +2098,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 9°",
+                      "reference": {
+                        "name": "Fabrication d'aluminium par électrolyse",
+                        "nb": "Article 30 > 9°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "9° Fabrication d'aluminium par électrolyse :"
@@ -1972,7 +2140,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 10°",
+                      "reference": {
+                        "name": "Cubilots de fonderie de fonte",
+                        "nb": "Article 30 > 10°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "10° Cubilots de fonderie de fonte :"
@@ -2002,7 +2173,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 11°",
+                      "reference": {
+                        "name": "Fours à cuve de fusion de cuivre électrolytique",
+                        "nb": "Article 30 > 11°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "11° Fours à cuve de fusion de cuivre électrolytique :"
@@ -2025,7 +2199,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 12°",
+                      "reference": {
+                        "name": "Abrogé",
+                        "nb": "Article 30 > 12°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "12° Abrogé"
@@ -2073,7 +2250,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 13°",
+                      "reference": {
+                        "name": "Polymérisation du chlorure de vinyle (homopolymères et copolymères)",
+                        "nb": "Article 30 > 13°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "13° Polymérisation du chlorure de vinyle (homopolymères et copolymères) :"
@@ -2103,7 +2283,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 14°",
+                      "reference": {
+                        "name": "Installations de séchage de matériaux divers, végétaux organiques ou minéraux",
+                        "nb": "Article 30 > 14°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "14° Installations de séchage de matériaux divers, végétaux organiques ou minéraux :"
@@ -2133,7 +2316,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 15°",
+                      "reference": {
+                        "name": "Installations de manipulation, chargement et déchargement de produits pondéreux",
+                        "nb": "Article 30 > 15°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "15° Installations de manipulation, chargement et déchargement de produits pondéreux :"
@@ -2169,7 +2355,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 16°",
+                      "reference": {
+                        "name": "Installations de combustion, à l'exclusion des chaudières, turbines et moteurs relevant de la rubrique 2910 de la nomenclature des installations classées",
+                        "nb": "Article 30 > 16°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "16° Installations de combustion, à l'exclusion des chaudières, turbines et moteurs relevant de la rubrique 2910 de la nomenclature des installations classées :"
@@ -2192,7 +2381,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 17°",
+                      "reference": {
+                        "name": "Abrogé",
+                        "nb": "Article 30 > 17°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "17° Abrogé"
@@ -2225,7 +2417,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 18°",
+                      "reference": {
+                        "name": "Déshydratation de fourrage.",
+                        "nb": "Article 30 > 18°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "18° Déshydratation de fourrage."
@@ -2282,7 +2477,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 19°",
+                      "reference": {
+                        "name": "Imprimerie",
+                        "nb": "Article 30 > 19°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "19° Imprimerie :"
@@ -2321,7 +2519,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 20°",
+                      "reference": {
+                        "name": "Application de revêtement adhésif sur support quelconque",
+                        "nb": "Article 30 > 20°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "20° Application de revêtement adhésif sur support quelconque :"
@@ -2372,7 +2573,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 21°",
+                      "reference": {
+                        "name": "Application de revêtement sur un support en bois et mise en œuvre d'un produit de préservation du bois et matériaux dérivés",
+                        "nb": "Article 30 > 21°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "21° Application de revêtement sur un support en bois et mise en œuvre d'un produit de préservation du bois et matériaux dérivés :"
@@ -2408,7 +2612,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 22°",
+                      "reference": {
+                        "name": "Application de revêtement, notamment sur support métal, plastique, textile, carton, papier, à l'exception des activités couvertes par les points 19 et 20",
+                        "nb": "Article 30 > 22°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "22° Application de revêtement, notamment sur support métal, plastique, textile, carton, papier, à l'exception des activités couvertes par les points 19 et 20 :"
@@ -2450,7 +2657,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 23°",
+                      "reference": {
+                        "name": "Fabrication de mélanges, revêtements, vernis, encres et colles (fabrication de produits finis et semi-finis, réalisée par mélange de pigments, de résines et de matières adhésives à l'aide de solvants organiques ou par d'autres moyens ; la fabrication couvre la dispersion et la prédispersion, la correction de la viscosité et de la teinte et le transvasement du produit final dans son contenant)",
+                        "nb": "Article 30 > 23°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "23° Fabrication de mélanges, revêtements, vernis, encres et colles (fabrication de produits finis et semi-finis, réalisée par mélange de pigments, de résines et de matières adhésives à l'aide de solvants organiques ou par d'autres moyens ; la fabrication couvre la dispersion et la prédispersion, la correction de la viscosité et de la teinte et le transvasement du produit final dans son contenant) :"
@@ -2486,7 +2696,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 24°",
+                      "reference": {
+                        "name": "Emploi ou réemploi de caoutchouc (toute activité de mixage, de malaxage, de calandrage, d'extrusion et de vulcanisation de caoutchouc naturel ou synthétique ainsi que toute opération connexe destinée à transformer le caoutchouc naturel ou synthétique en un produit fini)",
+                        "nb": "Article 30 > 24°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "24° Emploi ou réemploi de caoutchouc (toute activité de mixage, de malaxage, de calandrage, d'extrusion et de vulcanisation de caoutchouc naturel ou synthétique ainsi que toute opération connexe destinée à transformer le caoutchouc naturel ou synthétique en un produit fini) :"
@@ -2528,7 +2741,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 25°",
+                      "reference": {
+                        "name": "Utilisation de solvants dans la chimie fine pharmaceutique (toute activité de synthèse chimique, fermentation, extraction, formulation et la présentation de produits chimiques finis ainsi que la fabrication des produits semis-finis si elle se déroule sur la même installation. Si sur l'installation une autre activité de chimie fine est exercée, phytosanitaire, vétérinaire, cosmétique, colorants, photographie, notamment, les valeurs limites d'émissions prévues au présent point s'appliquent à l'ensemble des activités de l'installation)",
+                        "nb": "Article 30 > 25°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "25° Utilisation de solvants dans la chimie fine pharmaceutique (toute activité de synthèse chimique, fermentation, extraction, formulation et la présentation de produits chimiques finis ainsi que la fabrication des produits semis-finis si elle se déroule sur la même installation. Si sur l'installation une autre activité de chimie fine est exercée, phytosanitaire, vétérinaire, cosmétique, colorants, photographie, notamment, les valeurs limites d'émissions prévues au présent point s'appliquent à l'ensemble des activités de l'installation) :"
@@ -2558,7 +2774,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 26°",
+                      "reference": {
+                        "name": "Fabrication de bois et de plastiques stratifiés (toute activité de collage de bois et de plastique en vue de produire des laminats)",
+                        "nb": "Article 30 > 26°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "26° Fabrication de bois et de plastiques stratifiés (toute activité de collage de bois et de plastique en vue de produire des laminats) :"
@@ -2588,7 +2807,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 27°",
+                      "reference": {
+                        "name": "Fabrication de chaussures",
+                        "nb": "Article 30 > 27°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "27° Fabrication de chaussures :"
@@ -2618,7 +2840,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 28°",
+                      "reference": {
+                        "name": "Nettoyage à sec",
+                        "nb": "Article 30 > 28°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "28° Nettoyage à sec :"
@@ -2648,7 +2873,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 29°",
+                      "reference": {
+                        "name": "Revêtement sur fil de bobinage (toute activité de revêtement de conducteurs métalliques utilisés pour le bobinage des transformateurs, des moteurs par exemple)",
+                        "nb": "Article 30 > 29°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "29° Revêtement sur fil de bobinage (toute activité de revêtement de conducteurs métalliques utilisés pour le bobinage des transformateurs, des moteurs par exemple) :"
@@ -2681,7 +2909,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 30°",
+                      "reference": {
+                        "name": "Laquage en continu (toute activité dans laquelle une bobine de feuillard, de l'acier inoxydable, de l'acier revêtu ou une bande en alliage de cuivre ou en aluminium est revêtu d'un ou plusieurs films dans un procédé continu)",
+                        "nb": "Article 30 > 30°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "30° Laquage en continu (toute activité dans laquelle une bobine de feuillard, de l'acier inoxydable, de l'acier revêtu ou une bande en alliage de cuivre ou en aluminium est revêtu d'un ou plusieurs films dans un procédé continu)"
@@ -2714,7 +2945,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 31°",
+                      "reference": {
+                        "name": "Atelier de réparation et d'entretien de véhicules et d'engins à moteur (toute activité industrielle ou commerciale de revêtement de surface ainsi que les activités connexes de dégraissage à appliquer)",
+                        "nb": "Article 30 > 31°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "31° Atelier de réparation et d'entretien de véhicules et d'engins à moteur (toute activité industrielle ou commerciale de revêtement de surface ainsi que les activités connexes de dégraissage à appliquer) :"
@@ -2753,7 +2987,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 32°",
+                      "reference": {
+                        "name": "Fabrication de polystyrène expansé : les dispositions du premier alinéa du a du 7° de l'article 27 sont remplacées par les dispositions suivantes",
+                        "nb": "Article 30 > 32°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "32° Fabrication de polystyrène expansé : les dispositions du premier alinéa du a du 7° de l'article 27 sont remplacées par les dispositions suivantes :"
@@ -3026,7 +3263,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 33°",
+                      "reference": {
+                        "name": "Revêtement sur véhicules",
+                        "nb": "Article 30 > 33°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "33° Revêtement sur véhicules :"
@@ -3227,7 +3467,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 34°",
+                      "reference": {
+                        "name": "Extraction d'huiles végétales et de graisses animales et activités de raffinage d'huile végétale (toute activité d'extraction d'huile végétale à partir de graines et d'autres matières végétales, le traitement de résidus secs destinés à la production d'aliments pour animaux, la purification de graisses et d'huiles végétales dérivées de graines, de matière végétale et/ou de matières animales)",
+                        "nb": "Article 30 > 34°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "34° Extraction d'huiles végétales et de graisses animales et activités de raffinage d'huile végétale (toute activité d'extraction d'huile végétale à partir de graines et d'autres matières végétales, le traitement de résidus secs destinés à la production d'aliments pour animaux, la purification de graisses et d'huiles végétales dérivées de graines, de matière végétale et/ou de matières animales) :"
@@ -3263,7 +3506,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 35°",
+                      "reference": {
+                        "name": "Travail du cuir",
+                        "nb": "Article 30 > 35°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "35° Travail du cuir :"
@@ -3302,7 +3548,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 36°",
+                      "reference": {
+                        "name": "Nettoyage de surfaces",
+                        "nb": "Article 30 > 36°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "36° Nettoyage de surfaces"
@@ -3750,7 +3999,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 30 37°",
+                      "reference": {
+                        "name": "Fabrication de panneaux à base de bois (panneaux de particules orientées, panneaux d'aggloméré ou panneaux de fibres)",
+                        "nb": "Article 30 > 37°"
+                      },
                       "sections": [],
                       "title": {
                         "text": "37° Fabrication de panneaux à base de bois (panneaux de particules orientées, panneaux d'aggloméré ou panneaux de fibres) :"
@@ -3788,7 +4040,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Pollution des eaux superficielles",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -3807,7 +4062,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Sous-section 1 : Cas général.",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3863,7 +4121,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 31",
+                  "reference": {
+                    "name": "Sous-section 1 : Cas général.",
+                    "nb": "Article 31"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 31"
@@ -3893,7 +4154,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 32",
+                  "reference": {
+                    "name": "Sous-section 1 : Cas général.",
+                    "nb": "Article 32"
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -3946,7 +4210,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 32",
+                      "reference": {
+                        "name": "1 - Matières en suspension (MES), demandes chimique et biochimique en oxygène (DCO et DBO5)",
+                        "nb": "Article 32"
+                      },
                       "sections": [],
                       "title": {
                         "text": "1 - Matières en suspension (MES), demandes chimique et biochimique en oxygène (DCO et DBO5)"
@@ -3969,7 +4236,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 32",
+                      "reference": {
+                        "name": "2 - Azote et phosphore",
+                        "nb": "Article 32"
+                      },
                       "sections": [
                         {
                           "annotations": {
@@ -4007,7 +4277,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Art. 32 a)",
+                          "reference": {
+                            "name": "Dispositions générales",
+                            "nb": "Article 32 > a)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "a) Dispositions générales"
@@ -4058,7 +4331,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Art. 32 b)",
+                          "reference": {
+                            "name": "Dispositions particulières pour les rejets dans le milieu naturel appartenant à une zone sensible telle que définie en application de l'article R. 211-94 du code de l'environnement.",
+                            "nb": "Article 32 > b)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "b) Dispositions particulières pour les rejets dans le milieu naturel appartenant à une zone sensible telle que définie en application de l'article R. 211-94 du code de l'environnement."
@@ -4091,7 +4367,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Art. 32 c)",
+                          "reference": {
+                            "name": "2 - Azote et phosphore",
+                            "nb": "Article 32 > c)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "c)"
@@ -7391,7 +7670,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 32",
+                      "reference": {
+                        "name": "3 - Substances caractéristiques des activités industrielles",
+                        "nb": "Article 32"
+                      },
                       "sections": [],
                       "title": {
                         "text": "3 - Substances caractéristiques des activités industrielles"
@@ -7424,7 +7706,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Sous-section 2 : Pour certaines activités.",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -7447,7 +7732,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 33",
+                  "reference": {
+                    "name": "Sous-section 2 : Pour certaines activités.",
+                    "nb": "Article 33"
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -7482,7 +7770,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "1 - Cokeries",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "1 - Cokeries"
@@ -7581,7 +7872,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "2 - Fabrication du dioxyde de titane",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "2 - Fabrication du dioxyde de titane"
@@ -7608,7 +7902,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "3 - Raffineries de produits pétroliers",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "3 - Raffineries de produits pétroliers"
@@ -7635,7 +7932,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "4 - Abattoirs d'animaux de boucherie",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "4 - Abattoirs d'animaux de boucherie"
@@ -7671,7 +7971,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "5 - Fonte de corps gras",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "5 - Fonte de corps gras"
@@ -7698,7 +8001,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "6 - Traitement de sous-produits animaux dans les abattoirs d'animaux de boucherie",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "6 - Traitement de sous-produits animaux dans les abattoirs d'animaux de boucherie"
@@ -7725,7 +8031,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "7 - Équarrissages",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "7 - Équarrissages"
@@ -7761,7 +8070,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "8 - Malteries",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "8 - Malteries"
@@ -7791,7 +8103,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "9 - Fabrication d'aluminium par électrolyse",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "9 - Fabrication d'aluminium par électrolyse"
@@ -7945,7 +8260,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "10 - Tanneries et mégisseries",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "10 - Tanneries et mégisseries"
@@ -7987,7 +8305,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "11 - Brasseries",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "11 - Brasseries"
@@ -8010,7 +8331,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "12 - (Supprimé)",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "12 - (Supprimé)"
@@ -8046,7 +8370,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "13 - Installations de traitement et de développement de surfaces photosensibles visées à la rubrique n° 2950",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "13 - Installations de traitement et de développement de surfaces photosensibles visées à la rubrique n° 2950"
@@ -8644,7 +8971,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "14 - Chimie",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "14 - Chimie"
@@ -8878,7 +9208,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "15 - Lavage de citernes",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "15 - Lavage de citernes"
@@ -9352,7 +9685,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "16 - Production ou transformation de métaux",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "16 - Production ou transformation de métaux"
@@ -9623,7 +9959,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "17 - Stations d'épuration mixtes (rubrique 2752)",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "17 - Stations d'épuration mixtes (rubrique 2752)"
@@ -10031,7 +10370,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 33",
+                      "reference": {
+                        "name": "18 - Installations de traitement de déchets dangereux (rubrique 2790) et installations de tri/transit/regroupement de déchets dangereux (rubriques 2717 et 2718)",
+                        "nb": "Article 33"
+                      },
                       "sections": [],
                       "title": {
                         "text": "18 - Installations de traitement de déchets dangereux (rubrique 2790) et installations de tri/transit/regroupement de déchets dangereux (rubriques 2717 et 2718)"
@@ -10064,7 +10406,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Sous-section 3 : Raccordement à une station d'épuration collective.",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -10120,7 +10465,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 34",
+                  "reference": {
+                    "name": "Sous-section 3 : Raccordement à une station d'épuration collective.",
+                    "nb": "Article 34"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 34"
@@ -10150,7 +10498,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 35",
+                  "reference": {
+                    "name": "Sous-section 3 : Raccordement à une station d'épuration collective.",
+                    "nb": "Article 35"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 35"
@@ -10183,7 +10534,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Epandage.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -10212,7 +10566,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 36",
+              "reference": {
+                "name": "Epandage.",
+                "nb": "Article 36"
+              },
               "sections": [],
               "title": {
                 "text": "Article 36"
@@ -10235,7 +10592,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 37",
+              "reference": {
+                "name": "Epandage.",
+                "nb": "Article 37"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -10270,7 +10630,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 37",
+                  "reference": {
+                    "name": "Epandage.",
+                    "nb": "Article 37 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -10312,7 +10675,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 37",
+                  "reference": {
+                    "name": "Epandage.",
+                    "nb": "Article 37 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -10339,7 +10705,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 37",
+                  "reference": {
+                    "name": "Epandage.",
+                    "nb": "Article 37 > III."
+                  },
                   "sections": [],
                   "title": {
                     "text": "III."
@@ -10369,7 +10738,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 37",
+                  "reference": {
+                    "name": "Epandage.",
+                    "nb": "Article 37 > IV."
+                  },
                   "sections": [],
                   "title": {
                     "text": "IV."
@@ -10449,7 +10821,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 38",
+              "reference": {
+                "name": "Epandage.",
+                "nb": "Article 38"
+              },
               "sections": [],
               "title": {
                 "text": "Article 38"
@@ -10472,7 +10847,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 39",
+              "reference": {
+                "name": "Epandage.",
+                "nb": "Article 39"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -10528,7 +10906,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 39",
+                  "reference": {
+                    "name": "Epandage.",
+                    "nb": "Article 39 > I"
+                  },
                   "sections": [],
                   "title": {
                     "text": "I"
@@ -10603,7 +10984,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 39",
+                  "reference": {
+                    "name": "Epandage.",
+                    "nb": "Article 39 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -10631,7 +11015,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 40",
+              "reference": {
+                "name": "Epandage.",
+                "nb": "Article 40"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -10654,7 +11041,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 40",
+                  "reference": {
+                    "name": "Epandage.",
+                    "nb": "Article 40 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -10696,7 +11086,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 40",
+                  "reference": {
+                    "name": "Epandage.",
+                    "nb": "Article 40 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -10724,7 +11117,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 41",
+              "reference": {
+                "name": "Epandage.",
+                "nb": "Article 41"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -10765,7 +11161,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 41",
+                  "reference": {
+                    "name": "Epandage.",
+                    "nb": "Article 41 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -10882,7 +11281,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 41",
+                  "reference": {
+                    "name": "Epandage.",
+                    "nb": "Article 41 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -10947,7 +11349,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 42",
+              "reference": {
+                "name": "Epandage.",
+                "nb": "Article 42"
+              },
               "sections": [],
               "title": {
                 "text": "Article 42"
@@ -10975,7 +11380,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Eaux pluviales.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -10998,7 +11406,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 43",
+              "reference": {
+                "name": "Eaux pluviales.",
+                "nb": "Article 43"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -11042,7 +11453,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 43 1°",
+                  "reference": {
+                    "name": "Les rejets d'eaux pluviales respectent les dispositions ci-après.",
+                    "nb": "Article 43 > 1°"
+                  },
                   "sections": [],
                   "title": {
                     "text": "1° Les rejets d'eaux pluviales respectent les dispositions ci-après."
@@ -11075,7 +11489,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 43",
+                  "reference": {
+                    "name": "Eaux pluviales.",
+                    "nb": "Article 43 > 2°"
+                  },
                   "sections": [],
                   "title": {
                     "text": "2°"
@@ -11108,7 +11525,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Déchets.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -11146,7 +11566,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 44",
+              "reference": {
+                "name": "Déchets.",
+                "nb": "Article 44"
+              },
               "sections": [],
               "title": {
                 "text": "Article 44"
@@ -11176,7 +11599,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 45",
+              "reference": {
+                "name": "Déchets.",
+                "nb": "Article 45"
+              },
               "sections": [],
               "title": {
                 "text": "Article 45"
@@ -11215,7 +11641,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 46",
+              "reference": {
+                "name": "Déchets.",
+                "nb": "Article 46"
+              },
               "sections": [],
               "title": {
                 "text": "Article 46"
@@ -11243,7 +11672,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Bruit et vibrations.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -11266,7 +11698,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 47",
+              "reference": {
+                "name": "Bruit et vibrations.",
+                "nb": "Article 47"
+              },
               "sections": [],
               "title": {
                 "text": "Article 47"
@@ -11296,7 +11731,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 48",
+              "reference": {
+                "name": "Bruit et vibrations.",
+                "nb": "Article 48"
+              },
               "sections": [],
               "title": {
                 "text": "Article 48"
@@ -11329,7 +11767,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Conditions de rejet",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -11348,7 +11789,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Généralités.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -11380,7 +11824,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 49",
+              "reference": {
+                "name": "Généralités.",
+                "nb": "Article 49"
+              },
               "sections": [],
               "title": {
                 "text": "Article 49"
@@ -11413,7 +11860,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 50",
+              "reference": {
+                "name": "Généralités.",
+                "nb": "Article 50"
+              },
               "sections": [],
               "title": {
                 "text": "Article 50"
@@ -11440,7 +11890,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 51",
+              "reference": {
+                "name": "Généralités.",
+                "nb": "Article 51"
+              },
               "sections": [],
               "title": {
                 "text": "Article 51"
@@ -11468,7 +11921,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Dispositions particulières aux rejets à l'atmosphère.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -11533,7 +11989,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 52",
+              "reference": {
+                "name": "Dispositions particulières aux rejets à l'atmosphère.",
+                "nb": "Article 52"
+              },
               "sections": [],
               "title": {
                 "text": "Article 52"
@@ -11910,7 +12369,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 53",
+              "reference": {
+                "name": "Dispositions particulières aux rejets à l'atmosphère.",
+                "nb": "Article 53"
+              },
               "sections": [],
               "title": {
                 "text": "Article 53"
@@ -11952,7 +12414,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 54",
+              "reference": {
+                "name": "Dispositions particulières aux rejets à l'atmosphère.",
+                "nb": "Article 54"
+              },
               "sections": [],
               "title": {
                 "text": "Article 54"
@@ -11994,7 +12459,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 55",
+              "reference": {
+                "name": "Dispositions particulières aux rejets à l'atmosphère.",
+                "nb": "Article 55"
+              },
               "sections": [],
               "title": {
                 "text": "Article 55"
@@ -12054,7 +12522,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 56",
+              "reference": {
+                "name": "Dispositions particulières aux rejets à l'atmosphère.",
+                "nb": "Article 56"
+              },
               "sections": [],
               "title": {
                 "text": "Article 56"
@@ -12081,7 +12552,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 57",
+              "reference": {
+                "name": "Dispositions particulières aux rejets à l'atmosphère.",
+                "nb": "Article 57"
+              },
               "sections": [],
               "title": {
                 "text": "Article 57"
@@ -12114,7 +12588,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Surveillance des émissions",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -12133,7 +12610,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Généralités.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -12152,7 +12632,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 58",
+              "reference": {
+                "name": "Généralités.",
+                "nb": "Article 58"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -12181,7 +12664,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 58",
+                  "reference": {
+                    "name": "Généralités.",
+                    "nb": "Article 58 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -12211,7 +12697,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 58",
+                  "reference": {
+                    "name": "Généralités.",
+                    "nb": "Article 58 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -12241,7 +12730,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 58",
+                  "reference": {
+                    "name": "Généralités.",
+                    "nb": "Article 58 > III."
+                  },
                   "sections": [],
                   "title": {
                     "text": "III."
@@ -12277,7 +12769,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 58",
+                  "reference": {
+                    "name": "Généralités.",
+                    "nb": "Article 58 > IV."
+                  },
                   "sections": [],
                   "title": {
                     "text": "IV."
@@ -12304,7 +12799,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 58",
+                  "reference": {
+                    "name": "Généralités.",
+                    "nb": "Article 58 > V."
+                  },
                   "sections": [],
                   "title": {
                     "text": "V."
@@ -12337,7 +12835,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Dispositions particulières",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -12356,7 +12857,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Sous-section 1 : Pollution de l'air.",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -12469,7 +12973,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 59",
+                  "reference": {
+                    "name": "Sous-section 1 : Pollution de l'air.",
+                    "nb": "Article 59"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 59"
@@ -12497,7 +13004,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Sous-section 2 : Pollution de l'eau.",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -13516,7 +14026,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 60",
+                  "reference": {
+                    "name": "Sous-section 2 : Pollution de l'eau.",
+                    "nb": "Article 60"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 60"
@@ -13554,7 +14067,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Surveillance des effets sur l'environnement",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -13573,7 +14089,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Surveillance de l'air.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -13647,7 +14166,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 63",
+              "reference": {
+                "name": "Surveillance de l'air.",
+                "nb": "Article 63"
+              },
               "sections": [],
               "title": {
                 "text": "Article 63"
@@ -13675,7 +14197,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Surveillance des eaux de surface.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -13728,7 +14253,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 64",
+              "reference": {
+                "name": "Surveillance des eaux de surface.",
+                "nb": "Article 64"
+              },
               "sections": [],
               "title": {
                 "text": "Article 64"
@@ -13756,7 +14284,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Surveillance des eaux souterraines.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -14142,7 +14673,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 65",
+              "reference": {
+                "name": "Surveillance des eaux souterraines.",
+                "nb": "Article 65"
+              },
               "sections": [],
               "title": {
                 "text": "Article 65"
@@ -14170,7 +14704,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Surveillance des sols.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -14193,7 +14730,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 66",
+              "reference": {
+                "name": "Surveillance des sols.",
+                "nb": "Article 66"
+              },
               "sections": [],
               "title": {
                 "text": "Article 66"
@@ -14226,7 +14766,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Modalités d'application",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -14245,7 +14788,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Modalités générales.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -14286,7 +14832,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 67",
+              "reference": {
+                "name": "Modalités générales.",
+                "nb": "Article 67"
+              },
               "sections": [],
               "title": {
                 "text": "Article 67"
@@ -14309,7 +14858,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 68",
+              "reference": {
+                "name": "Modalités générales.",
+                "nb": "Article 68"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -14335,7 +14887,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 68",
+                  "reference": {
+                    "name": "Modalités générales.",
+                    "nb": "Article 68 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -14365,7 +14920,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 68",
+                  "reference": {
+                    "name": "Modalités générales.",
+                    "nb": "Article 68 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -14392,7 +14950,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 68",
+                  "reference": {
+                    "name": "Modalités générales.",
+                    "nb": "Article 68 > III."
+                  },
                   "sections": [],
                   "title": {
                     "text": "III."
@@ -14425,7 +14986,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Modalités particulières.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -14460,7 +15024,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 69",
+              "reference": {
+                "name": "Modalités particulières.",
+                "nb": "Article 69"
+              },
               "sections": [],
               "title": {
                 "text": "Article 69"
@@ -14483,7 +15050,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 70",
+              "reference": {
+                "name": "Modalités particulières.",
+                "nb": "Article 70"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -14502,7 +15072,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 70 I.",
+                  "reference": {
+                    "name": "(Supprimé)",
+                    "nb": "Article 70 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I. - (Supprimé)"
@@ -14529,7 +15102,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 70",
+                  "reference": {
+                    "name": "Modalités particulières.",
+                    "nb": "Article 70 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II."
@@ -14568,7 +15144,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 70",
+                  "reference": {
+                    "name": "Modalités particulières.",
+                    "nb": "Article 70 > III."
+                  },
                   "sections": [],
                   "title": {
                     "text": "III."
@@ -14595,7 +15174,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 70",
+                  "reference": {
+                    "name": "Modalités particulières.",
+                    "nb": "Article 70 > IV."
+                  },
                   "sections": [],
                   "title": {
                     "text": "IV."
@@ -14625,7 +15207,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 70",
+                  "reference": {
+                    "name": "Modalités particulières.",
+                    "nb": "Article 70 > V."
+                  },
                   "sections": [],
                   "title": {
                     "text": "V."
@@ -14652,7 +15237,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 70",
+                  "reference": {
+                    "name": "Modalités particulières.",
+                    "nb": "Article 70 > VI."
+                  },
                   "sections": [],
                   "title": {
                     "text": "VI."
@@ -14706,7 +15294,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 70",
+                  "reference": {
+                    "name": "Modalités particulières.",
+                    "nb": "Article 70 > VII."
+                  },
                   "sections": [],
                   "title": {
                     "text": "VII."
@@ -14753,7 +15344,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 71",
+              "reference": {
+                "name": "Modalités particulières.",
+                "nb": "Article 71"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -14779,7 +15373,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 71 1°",
+                  "reference": {
+                    "name": "Rejets dans l'air",
+                    "nb": "Article 71 > 1°"
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -14814,7 +15411,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 71 1° 1.1.",
+                      "reference": {
+                        "name": "Surveillance des émissions",
+                        "nb": "Article 71 > 1° 1.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.1. Surveillance des émissions"
@@ -14850,7 +15450,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 71 1° 1.2.",
+                      "reference": {
+                        "name": "Valeurs limites d'émission",
+                        "nb": "Article 71 > 1° 1.2."
+                      },
                       "sections": [
                         {
                           "annotations": {
@@ -14897,7 +15500,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Art. 71 1° 1.2.1.",
+                          "reference": {
+                            "name": "Dispositions concernant l'ensemble des installations",
+                            "nb": "Article 71 > 1° 1.2.1."
+                          },
                           "sections": [],
                           "title": {
                             "text": "1.2.1. Dispositions concernant l'ensemble des installations"
@@ -14924,7 +15530,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Art. 71 1° 1.2.2.",
+                          "reference": {
+                            "name": "Installations autorisées après le 1er janvier 2006",
+                            "nb": "Article 71 > 1° 1.2.2."
+                          },
                           "sections": [
                             {
                               "annotations": {
@@ -15137,7 +15746,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Art. 71 1° 1.2.2.",
+                              "reference": {
+                                "name": "Installations autorisées après le 1er janvier 2006",
+                                "nb": "Article 71 > 1° 1.2.2. I."
+                              },
                               "sections": [],
                               "title": {
                                 "text": "I."
@@ -15164,7 +15776,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Art. 71 1° 1.2.2.",
+                              "reference": {
+                                "name": "Installations autorisées après le 1er janvier 2006",
+                                "nb": "Article 71 > 1° 1.2.2. II."
+                              },
                               "sections": [],
                               "title": {
                                 "text": "II."
@@ -15191,7 +15806,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Art. 71 1° 1.2.2.",
+                              "reference": {
+                                "name": "Installations autorisées après le 1er janvier 2006",
+                                "nb": "Article 71 > 1° 1.2.2. III."
+                              },
                               "sections": [],
                               "title": {
                                 "text": "III."
@@ -15241,7 +15859,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Art. 71 1° 1.2.3.",
+                          "reference": {
+                            "name": "Installations présentes sur la plate-forme de raffinage, autorisées avant le 1er janvier 2006",
+                            "nb": "Article 71 > 1° 1.2.3."
+                          },
                           "sections": [],
                           "title": {
                             "text": "1.2.3. Installations présentes sur la plate-forme de raffinage, autorisées avant le 1er janvier 2006"
@@ -15274,7 +15895,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 71 2°",
+                  "reference": {
+                    "name": "(abrogé)",
+                    "nb": "Article 71 > 2°"
+                  },
                   "sections": [],
                   "title": {
                     "text": "2° (abrogé)"
@@ -15297,7 +15921,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 71 3°",
+                  "reference": {
+                    "name": "Bruit : en dérogation aux dispositions de l'article 47, les bruits émis par les installations ne sont pas à l'origine d'une émergence supérieure à 5 dB(A) pour les périodes de jour et de nuit, y compris les dimanches et jours fériés.",
+                    "nb": "Article 71 > 3°"
+                  },
                   "sections": [],
                   "title": {
                     "text": "3° Bruit : en dérogation aux dispositions de l'article 47, les bruits émis par les installations ne sont pas à l'origine d'une émergence supérieure à 5 dB(A) pour les périodes de jour et de nuit, y compris les dimanches et jours fériés."
@@ -15332,7 +15959,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 72",
+              "reference": {
+                "name": "Modalités particulières.",
+                "nb": "Article 72"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -15361,7 +15991,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 72 1°",
+                  "reference": {
+                    "name": "Dans l'air : flux spécifique, en g/t de capacité de production de chlore dans l'installation",
+                    "nb": "Article 72 > 1°"
+                  },
                   "sections": [],
                   "title": {
                     "text": "1° Dans l'air : flux spécifique, en g/t de capacité de production de chlore dans l'installation :"
@@ -15384,7 +16017,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 72 2°",
+                  "reference": {
+                    "name": "Dans l'eau : se reporter au 4° de l'article 32. Ces valeurs limites sont respectées en valeur moyenne mensuelle, les limites des moyennes journalières sont égales au double de ces valeurs.",
+                    "nb": "Article 72 > 2°"
+                  },
                   "sections": [],
                   "title": {
                     "text": "2° Dans l'eau : se reporter au 4° de l'article 32. Ces valeurs limites sont respectées en valeur moyenne mensuelle, les limites des moyennes journalières sont égales au double de ces valeurs."
@@ -15416,7 +16052,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 73",
+              "reference": {
+                "name": "Modalités particulières.",
+                "nb": "Article 73"
+              },
               "sections": [],
               "title": {
                 "text": "Article 73"
@@ -15449,7 +16088,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 74",
+              "reference": {
+                "name": "Modalités particulières.",
+                "nb": "Article 74"
+              },
               "sections": [],
               "title": {
                 "text": "Article 74"
@@ -15620,7 +16262,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 75",
+              "reference": {
+                "name": "Modalités particulières.",
+                "nb": "Article 75"
+              },
               "sections": [],
               "title": {
                 "text": "Article 75"
@@ -15648,7 +16293,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Exécution.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -15671,7 +16319,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 76",
+              "reference": {
+                "name": "Exécution.",
+                "nb": "Article 76"
+              },
               "sections": [],
               "title": {
                 "text": "Article 76"
@@ -15704,7 +16355,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -15730,7 +16384,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe I",
+          "reference": {
+            "name": "",
+            "nb": "Annexe I"
+          },
           "sections": [],
           "title": {
             "text": "Annexe I"
@@ -15991,7 +16648,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe",
+          "reference": {
+            "name": "Substances visées à l'article 25",
+            "nb": "Annexe"
+          },
           "sections": [],
           "title": {
             "text": "Substances visées à l'article 25"
@@ -17295,7 +17955,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe",
+          "reference": {
+            "name": "Composés organiques visés au b du 7° de l'article 27, à l'article 52, au 7° de l'article 59 et à l'article 63",
+            "nb": "Annexe"
+          },
           "sections": [],
           "title": {
             "text": "Composés organiques visés au b du 7° de l'article 27, à l'article 52, au 7° de l'article 59 et à l'article 63"
@@ -17325,7 +17988,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV",
+          "reference": {
+            "name": "a",
+            "nb": "Annexe IV"
+          },
           "sections": [],
           "title": {
             "text": "Annexe IV a"
@@ -17355,7 +18021,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV",
+          "reference": {
+            "name": "b",
+            "nb": "Annexe IV"
+          },
           "sections": [],
           "title": {
             "text": "Annexe IV b"
@@ -17385,7 +18054,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV",
+          "reference": {
+            "name": "c",
+            "nb": "Annexe IV"
+          },
           "sections": [],
           "title": {
             "text": "Annexe IV c"
@@ -17415,7 +18087,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV",
+          "reference": {
+            "name": "d",
+            "nb": "Annexe IV"
+          },
           "sections": [],
           "title": {
             "text": "Annexe IV d"
@@ -18334,7 +19009,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe VII",
+          "reference": {
+            "name": "a",
+            "nb": "Annexe VII"
+          },
           "sections": [],
           "title": {
             "text": "Annexe VII a"
@@ -18786,7 +19464,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe VII",
+          "reference": {
+            "name": "b",
+            "nb": "Annexe VII"
+          },
           "sections": [],
           "title": {
             "text": "Annexe VII b"
@@ -18819,7 +19500,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe VII",
+          "reference": {
+            "name": "c",
+            "nb": "Annexe VII"
+          },
           "sections": [
             {
               "annotations": {
@@ -18857,7 +19541,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe VII 1.",
+              "reference": {
+                "name": "Analyses pour la caractérisation de la valeur agronomique des effluents ou déchets",
+                "nb": "Annexe VII > 1."
+              },
               "sections": [],
               "title": {
                 "text": "1. Analyses pour la caractérisation de la valeur agronomique des effluents ou déchets :"
@@ -18884,7 +19571,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe VII 2.",
+              "reference": {
+                "name": "Analyses pour la caractérisation de la valeur agronomique des sols",
+                "nb": "Annexe VII > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Analyses pour la caractérisation de la valeur agronomique des sols :"
@@ -18919,7 +19609,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe VII",
+          "reference": {
+            "name": "d",
+            "nb": "Annexe VII"
+          },
           "sections": [
             {
               "annotations": {
@@ -18954,7 +19647,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe VII 1.",
+              "reference": {
+                "name": "Echantillonnage des sols",
+                "nb": "Annexe VII > 1."
+              },
               "sections": [],
               "title": {
                 "text": "1. Echantillonnage des sols"
@@ -18981,7 +19677,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe VII 2.",
+              "reference": {
+                "name": "Méthodes de préparation et d'analyse des sols",
+                "nb": "Annexe VII > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Méthodes de préparation et d'analyse des sols"
@@ -19065,7 +19764,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe VII 3.",
+              "reference": {
+                "name": "Echantillonnage des effluents et des déchets",
+                "nb": "Annexe VII > 3."
+              },
               "sections": [],
               "title": {
                 "text": "3. Echantillonnage des effluents et des déchets"
@@ -19392,7 +20094,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe VII 4.",
+              "reference": {
+                "name": "Méthodes de préparation et d'analyse des effluents et des déchets",
+                "nb": "Annexe VII > 4."
+              },
               "sections": [],
               "title": {
                 "text": "4. Méthodes de préparation et d'analyse des effluents et des déchets"
@@ -19420,7 +20125,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe",
+          "reference": {
+            "name": "Stations d'épuration mixtes, 14° de l'article 33, rubrique 2752",
+            "nb": "Annexe"
+          },
           "sections": [
             {
               "annotations": {
@@ -19446,7 +20154,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe Annexe VIII",
+              "reference": {
+                "name": "Stations d'épuration mixtes, 14° de l'article 33, rubrique 2752",
+                "nb": "Annexe VIII"
+              },
               "sections": [],
               "title": {
                 "text": "Annexe VIII"

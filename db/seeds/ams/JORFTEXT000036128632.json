@@ -30,7 +30,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "CHAMP D'APPLICATION ET DÉFINITIONS",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -68,7 +71,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1",
+          "reference": {
+            "name": "CHAMP D'APPLICATION ET DÉFINITIONS",
+            "nb": "Article 1"
+          },
           "sections": [],
           "title": {
             "text": "Article 1"
@@ -185,7 +191,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2",
+          "reference": {
+            "name": "CHAMP D'APPLICATION ET DÉFINITIONS",
+            "nb": "Article 2"
+          },
           "sections": [],
           "title": {
             "text": "Article 2"
@@ -213,7 +222,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "CONDITIONS GÉNÉRALES D'INSTALLATION ET D'EXPLOITATION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -290,7 +302,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3",
+          "reference": {
+            "name": "CONDITIONS GÉNÉRALES D'INSTALLATION ET D'EXPLOITATION",
+            "nb": "Article 3"
+          },
           "sections": [],
           "title": {
             "text": "Article 3"
@@ -326,7 +341,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4",
+          "reference": {
+            "name": "CONDITIONS GÉNÉRALES D'INSTALLATION ET D'EXPLOITATION",
+            "nb": "Article 4"
+          },
           "sections": [],
           "title": {
             "text": "Article 4"
@@ -362,7 +380,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5",
+          "reference": {
+            "name": "CONDITIONS GÉNÉRALES D'INSTALLATION ET D'EXPLOITATION",
+            "nb": "Article 5"
+          },
           "sections": [],
           "title": {
             "text": "Article 5"
@@ -431,7 +452,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 6",
+          "reference": {
+            "name": "CONDITIONS GÉNÉRALES D'INSTALLATION ET D'EXPLOITATION",
+            "nb": "Article 6"
+          },
           "sections": [],
           "title": {
             "text": "Article 6"
@@ -459,7 +483,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DÉCLARATION ET CONTRÔLE DE MISE EN SERVICE",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -512,7 +539,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 7",
+          "reference": {
+            "name": "DÉCLARATION ET CONTRÔLE DE MISE EN SERVICE",
+            "nb": "Article 7"
+          },
           "sections": [],
           "title": {
             "text": "Article 7"
@@ -539,7 +569,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 8",
+          "reference": {
+            "name": "DÉCLARATION ET CONTRÔLE DE MISE EN SERVICE",
+            "nb": "Article 8"
+          },
           "sections": [],
           "title": {
             "text": "Article 8"
@@ -602,7 +635,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 9",
+          "reference": {
+            "name": "DÉCLARATION ET CONTRÔLE DE MISE EN SERVICE",
+            "nb": "Article 9"
+          },
           "sections": [],
           "title": {
             "text": "Article 9"
@@ -635,7 +671,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 10",
+          "reference": {
+            "name": "DÉCLARATION ET CONTRÔLE DE MISE EN SERVICE",
+            "nb": "Article 10"
+          },
           "sections": [],
           "title": {
             "text": "Article 10"
@@ -716,7 +755,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 11",
+          "reference": {
+            "name": "DÉCLARATION ET CONTRÔLE DE MISE EN SERVICE",
+            "nb": "Article 11"
+          },
           "sections": [],
           "title": {
             "text": "Article 11"
@@ -744,7 +786,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "SUIVI EN SERVICE",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -773,7 +818,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 12",
+          "reference": {
+            "name": "SUIVI EN SERVICE",
+            "nb": "Article 12"
+          },
           "sections": [],
           "title": {
             "text": "Article 12"
@@ -796,7 +844,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Suivi en service avec plan d'inspection",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -921,7 +972,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 13",
+              "reference": {
+                "name": "Suivi en service avec plan d'inspection",
+                "nb": "Article 13"
+              },
               "sections": [],
               "title": {
                 "text": "Article 13"
@@ -949,7 +1003,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Suivi en service sans plan d'inspection",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -975,7 +1032,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 14",
+              "reference": {
+                "name": "Suivi en service sans plan d'inspection",
+                "nb": "Article 14"
+              },
               "sections": [],
               "title": {
                 "text": "Article 14"
@@ -998,7 +1058,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Inspections périodiques",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1042,7 +1105,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 15",
+                  "reference": {
+                    "name": "Inspections périodiques",
+                    "nb": "Article 15"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 15"
@@ -1135,7 +1201,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 16",
+                  "reference": {
+                    "name": "Inspections périodiques",
+                    "nb": "Article 16"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 16"
@@ -1183,7 +1252,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 17",
+                  "reference": {
+                    "name": "Inspections périodiques",
+                    "nb": "Article 17"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 17"
@@ -1211,7 +1283,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Requalifications périodiques",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1258,7 +1333,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 18",
+                  "reference": {
+                    "name": "Requalifications périodiques",
+                    "nb": "Article 18"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 18"
@@ -1309,7 +1387,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 19",
+                  "reference": {
+                    "name": "Requalifications périodiques",
+                    "nb": "Article 19"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 19"
@@ -1336,7 +1417,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 20",
+                  "reference": {
+                    "name": "Requalifications périodiques",
+                    "nb": "Article 20"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 20"
@@ -1378,7 +1462,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 21",
+                  "reference": {
+                    "name": "Requalifications périodiques",
+                    "nb": "Article 21"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 21"
@@ -1426,7 +1513,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 22",
+                  "reference": {
+                    "name": "Requalifications périodiques",
+                    "nb": "Article 22"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 22"
@@ -1465,7 +1555,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 23",
+                  "reference": {
+                    "name": "Requalifications périodiques",
+                    "nb": "Article 23"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 23"
@@ -1498,7 +1591,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 24",
+                  "reference": {
+                    "name": "Requalifications périodiques",
+                    "nb": "Article 24"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 24"
@@ -1552,7 +1648,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 25",
+                  "reference": {
+                    "name": "Requalifications périodiques",
+                    "nb": "Article 25"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 25"
@@ -1590,7 +1689,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "INTERVENTIONS",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -1619,7 +1721,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 26",
+          "reference": {
+            "name": "INTERVENTIONS",
+            "nb": "Article 26"
+          },
           "sections": [],
           "title": {
             "text": "Article 26"
@@ -1649,7 +1754,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 27",
+          "reference": {
+            "name": "INTERVENTIONS",
+            "nb": "Article 27"
+          },
           "sections": [],
           "title": {
             "text": "Article 27"
@@ -1793,7 +1901,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 28",
+          "reference": {
+            "name": "INTERVENTIONS",
+            "nb": "Article 28"
+          },
           "sections": [],
           "title": {
             "text": "Article 28"
@@ -1865,7 +1976,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 29",
+          "reference": {
+            "name": "INTERVENTIONS",
+            "nb": "Article 29"
+          },
           "sections": [],
           "title": {
             "text": "Article 29"
@@ -1904,7 +2018,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 30",
+          "reference": {
+            "name": "INTERVENTIONS",
+            "nb": "Article 30"
+          },
           "sections": [],
           "title": {
             "text": "Article 30"
@@ -1932,7 +2049,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "APPLICATION, DISPOSITIONS TRANSITOIRES",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -1961,7 +2081,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 31",
+          "reference": {
+            "name": "APPLICATION, DISPOSITIONS TRANSITOIRES",
+            "nb": "Article 31"
+          },
           "sections": [],
           "title": {
             "text": "Article 31"
@@ -1991,7 +2114,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 32",
+          "reference": {
+            "name": "APPLICATION, DISPOSITIONS TRANSITOIRES",
+            "nb": "Article 32"
+          },
           "sections": [],
           "title": {
             "text": "Article 32"
@@ -2018,7 +2144,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 33",
+          "reference": {
+            "name": "APPLICATION, DISPOSITIONS TRANSITOIRES",
+            "nb": "Article 33"
+          },
           "sections": [],
           "title": {
             "text": "Article 33"
@@ -2222,7 +2351,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 34",
+          "reference": {
+            "name": "APPLICATION, DISPOSITIONS TRANSITOIRES",
+            "nb": "Article 34"
+          },
           "sections": [],
           "title": {
             "text": "Article 34"
@@ -2255,7 +2387,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 35",
+          "reference": {
+            "name": "APPLICATION, DISPOSITIONS TRANSITOIRES",
+            "nb": "Article 35"
+          },
           "sections": [],
           "title": {
             "text": "Article 35"
@@ -2282,7 +2417,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 36",
+          "reference": {
+            "name": "APPLICATION, DISPOSITIONS TRANSITOIRES",
+            "nb": "Article 36"
+          },
           "sections": [],
           "title": {
             "text": "Article 36"
@@ -2310,7 +2448,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -3065,7 +3206,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe 1",
+          "reference": {
+            "name": "LISTE DES DISPOSITIONS PARTICULIÈRES",
+            "nb": "Annexe 1"
+          },
           "sections": [],
           "title": {
             "text": "Annexe 1 - LISTE DES DISPOSITIONS PARTICULIÈRES"
@@ -3092,7 +3236,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe 2",
+          "reference": {
+            "name": "DOCUMENTS PERMETTANT L'ÉLABORATION D'UN PLAN D'INSPECTION SANS PRÉJUDICE DU II DE L'ARTICLE 16",
+            "nb": "Annexe 2"
+          },
           "sections": [
             {
               "annotations": {
@@ -3559,7 +3706,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe 2 1.",
+              "reference": {
+                "name": "Guides professionnels appliqués par les SIR",
+                "nb": "Annexe 2 > 1."
+              },
               "sections": [],
               "title": {
                 "text": "1. Guides professionnels appliqués par les SIR"
@@ -4430,7 +4580,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe 2 2.",
+              "reference": {
+                "name": "Cahiers techniques professionnels",
+                "nb": "Annexe 2 > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Cahiers techniques professionnels"
@@ -5558,7 +5711,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe 3",
+          "reference": {
+            "name": "LISTE DES DÉCISIONS APPLICABLES EN COMPLÉMENT DE CELLES MENTIONNÉES EN ANNEXES 1 ET 2",
+            "nb": "Annexe 3"
+          },
           "sections": [],
           "title": {
             "text": "Annexe 3 - LISTE DES DÉCISIONS APPLICABLES EN COMPLÉMENT DE CELLES MENTIONNÉES EN ANNEXES 1 ET 2"
@@ -5675,7 +5831,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe 4",
+          "reference": {
+            "name": "REQUALIFICATIONS PÉRIODIQUES RÉALISÉES PAR UN CENTRE DE REGROUPEMENT SOUS LA SURVEILLANCE D'UN ORGANISME HABILITÉ",
+            "nb": "Annexe 4"
+          },
           "sections": [],
           "title": {
             "text": "Annexe 4 - REQUALIFICATIONS PÉRIODIQUES RÉALISÉES PAR UN CENTRE DE REGROUPEMENT SOUS LA SURVEILLANCE D'UN ORGANISME HABILITÉ"

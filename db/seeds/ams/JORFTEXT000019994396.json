@@ -52,7 +52,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 1",
+      "reference": {
+        "name": "",
+        "nb": "Article 1"
+      },
       "sections": [],
       "title": {
         "text": "Article 1"
@@ -130,7 +133,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 2",
+      "reference": {
+        "name": "Définitions.",
+        "nb": "Article 2"
+      },
       "sections": [],
       "title": {
         "text": "Article 2 - Définitions."
@@ -153,7 +159,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 3",
+      "reference": {
+        "name": "Implantation ― aménagement.",
+        "nb": "Article 3"
+      },
       "sections": [
         {
           "annotations": {
@@ -172,7 +181,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3 3.1.",
+          "reference": {
+            "name": "Règles d'implantation.",
+            "nb": "Article 3 > 3.1."
+          },
           "sections": [
             {
               "annotations": {
@@ -210,7 +222,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3 3.1.",
+              "reference": {
+                "name": "Règles d'implantation.",
+                "nb": "Article 3 > 3.1. A."
+              },
               "sections": [],
               "title": {
                 "text": "A."
@@ -471,7 +486,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3 3.1.",
+              "reference": {
+                "name": "Règles d'implantation.",
+                "nb": "Article 3 > 3.1. B."
+              },
               "sections": [],
               "title": {
                 "text": "B."
@@ -504,7 +522,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3 3.1.",
+              "reference": {
+                "name": "Règles d'implantation.",
+                "nb": "Article 3 > 3.1. C."
+              },
               "sections": [],
               "title": {
                 "text": "C."
@@ -531,7 +552,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3 3.1.",
+              "reference": {
+                "name": "Règles d'implantation.",
+                "nb": "Article 3 > 3.1. D."
+              },
               "sections": [],
               "title": {
                 "text": "D."
@@ -563,7 +587,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3 3.2.",
+          "reference": {
+            "name": "Intégration dans le paysage.",
+            "nb": "Article 3 > 3.2."
+          },
           "sections": [],
           "title": {
             "text": "3.2. Intégration dans le paysage."
@@ -600,7 +627,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3 3.3.",
+          "reference": {
+            "name": "Comportement au feu des structures.",
+            "nb": "Article 3 > 3.3."
+          },
           "sections": [
             {
               "annotations": {
@@ -647,7 +677,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3 3.3.1.",
+              "reference": {
+                "name": "Cas des installations sous immeuble habité ou occupé par des tiers.",
+                "nb": "Article 3 > 3.3.1."
+              },
               "sections": [],
               "title": {
                 "text": "3.3.1. Cas des installations sous immeuble habité ou occupé par des tiers."
@@ -677,7 +710,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3 3.3.2.",
+              "reference": {
+                "name": "Cas des installations situées dans un local totalement ou partiellement clos.",
+                "nb": "Article 3 > 3.3.2."
+              },
               "sections": [],
               "title": {
                 "text": "3.3.2. Cas des installations situées dans un local totalement ou partiellement clos."
@@ -753,7 +789,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3 3.4.",
+          "reference": {
+            "name": "Accessibilité.",
+            "nb": "Article 3 > 3.4."
+          },
           "sections": [],
           "title": {
             "text": "3.4. Accessibilité."
@@ -783,7 +822,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3 3.5.",
+          "reference": {
+            "name": "Ventilation.",
+            "nb": "Article 3 > 3.5."
+          },
           "sections": [],
           "title": {
             "text": "3.5. Ventilation."
@@ -831,7 +873,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3 3.6.",
+          "reference": {
+            "name": "Installations électriques.",
+            "nb": "Article 3 > 3.6."
+          },
           "sections": [],
           "title": {
             "text": "3.6. Installations électriques."
@@ -861,7 +906,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3 3.7.",
+          "reference": {
+            "name": "Mise à la terre des équipements.",
+            "nb": "Article 3 > 3.7."
+          },
           "sections": [],
           "title": {
             "text": "3.7. Mise à la terre des équipements."
@@ -888,7 +936,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3 3.8.",
+          "reference": {
+            "name": "Rétention des aires et locaux de travail.",
+            "nb": "Article 3 > 3.8."
+          },
           "sections": [],
           "title": {
             "text": "3.8. Rétention des aires et locaux de travail."
@@ -918,7 +969,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3 3.9.",
+          "reference": {
+            "name": "Implantation des appareils de distribution et de remplissage.",
+            "nb": "Article 3 > 3.9."
+          },
           "sections": [],
           "title": {
             "text": "3.9. Implantation des appareils de distribution et de remplissage."
@@ -946,7 +1000,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 4",
+      "reference": {
+        "name": "Exploitation ― entretien.",
+        "nb": "Article 4"
+      },
       "sections": [
         {
           "annotations": {
@@ -969,7 +1026,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4 4.1.",
+          "reference": {
+            "name": "Surveillance de l'exploitation.",
+            "nb": "Article 4 > 4.1."
+          },
           "sections": [],
           "title": {
             "text": "4.1. Surveillance de l'exploitation."
@@ -999,7 +1059,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4 4.2.",
+          "reference": {
+            "name": "Contrôle de l'utilisation des appareils de distribution et de remplissage.",
+            "nb": "Article 4 > 4.2."
+          },
           "sections": [],
           "title": {
             "text": "4.2. Contrôle de l'utilisation des appareils de distribution et de remplissage."
@@ -1029,7 +1092,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4 4.3.",
+          "reference": {
+            "name": "Connaissance des produits. - Etiquetage.",
+            "nb": "Article 4 > 4.3."
+          },
           "sections": [],
           "title": {
             "text": "4.3. Connaissance des produits. - Etiquetage."
@@ -1056,7 +1122,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4 4.4.",
+          "reference": {
+            "name": "Propreté.",
+            "nb": "Article 4 > 4.4."
+          },
           "sections": [],
           "title": {
             "text": "4.4. Propreté."
@@ -1083,7 +1152,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4 4.5.",
+          "reference": {
+            "name": "Etat des stocks de liquides inflammables.",
+            "nb": "Article 4 > 4.5."
+          },
           "sections": [],
           "title": {
             "text": "4.5. Etat des stocks de liquides inflammables."
@@ -1110,7 +1182,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4 4.6.",
+          "reference": {
+            "name": "Vérification périodique des installations électriques.",
+            "nb": "Article 4 > 4.6."
+          },
           "sections": [],
           "title": {
             "text": "4.6. Vérification périodique des installations électriques."
@@ -1138,7 +1213,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 5",
+      "reference": {
+        "name": "Risques.",
+        "nb": "Article 5"
+      },
       "sections": [
         {
           "annotations": {
@@ -1215,7 +1293,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5 5.1.",
+          "reference": {
+            "name": "Moyens de secours contre l'incendie.",
+            "nb": "Article 5 > 5.1."
+          },
           "sections": [],
           "title": {
             "text": "5.1. Moyens de secours contre l'incendie."
@@ -1242,7 +1323,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5 5.2.",
+          "reference": {
+            "name": "Localisation des risques.",
+            "nb": "Article 5 > 5.2."
+          },
           "sections": [],
           "title": {
             "text": "5.2. Localisation des risques."
@@ -1269,7 +1353,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5 5.3.",
+          "reference": {
+            "name": "Compatibilité des matériaux.",
+            "nb": "Article 5 > 5.3."
+          },
           "sections": [],
           "title": {
             "text": "5.3. Compatibilité des matériaux."
@@ -1299,7 +1386,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5 5.4.",
+          "reference": {
+            "name": "Interdiction des feux.",
+            "nb": "Article 5 > 5.4."
+          },
           "sections": [],
           "title": {
             "text": "5.4. Interdiction des feux."
@@ -1326,7 +1416,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5 5.5.",
+          "reference": {
+            "name": "Plan de prévention.-Permis de feu.",
+            "nb": "Article 5 > 5.5."
+          },
           "sections": [],
           "title": {
             "text": "5.5. Plan de prévention.-Permis de feu."
@@ -1389,7 +1482,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5 5.6.",
+          "reference": {
+            "name": "Consignes de sécurité.",
+            "nb": "Article 5 > 5.6."
+          },
           "sections": [],
           "title": {
             "text": "5.6. Consignes de sécurité."
@@ -1428,7 +1524,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5 5.7.",
+          "reference": {
+            "name": "Consignes d'exploitation.",
+            "nb": "Article 5 > 5.7."
+          },
           "sections": [],
           "title": {
             "text": "5.7. Consignes d'exploitation."
@@ -1451,7 +1550,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5 5.8.",
+          "reference": {
+            "name": "Aménagement et construction des appareils de distribution et de remplissage.",
+            "nb": "Article 5 > 5.8."
+          },
           "sections": [
             {
               "annotations": {
@@ -1477,7 +1579,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 5 5.8.1.",
+              "reference": {
+                "name": "Accès.",
+                "nb": "Article 5 > 5.8.1."
+              },
               "sections": [],
               "title": {
                 "text": "5.8.1. Accès."
@@ -1525,7 +1630,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 5 5.8.2.",
+              "reference": {
+                "name": "Appareils de distribution.",
+                "nb": "Article 5 > 5.8.2."
+              },
               "sections": [],
               "title": {
                 "text": "5.8.2. Appareils de distribution."
@@ -1558,7 +1666,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 5 5.8.3.",
+              "reference": {
+                "name": "Les flexibles.",
+                "nb": "Article 5 > 5.8.3."
+              },
               "sections": [],
               "title": {
                 "text": "5.8.3. Les flexibles."
@@ -1615,7 +1726,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 5 5.8.4.",
+              "reference": {
+                "name": "Dispositifs de sécurité.",
+                "nb": "Article 5 > 5.8.4."
+              },
               "sections": [],
               "title": {
                 "text": "5.8.4. Dispositifs de sécurité."
@@ -1675,7 +1789,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 6",
+      "reference": {
+        "name": "Eau.",
+        "nb": "Article 6"
+      },
       "sections": [],
       "title": {
         "text": "Article 6 - Eau."
@@ -1698,7 +1815,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 7",
+      "reference": {
+        "name": "Air.",
+        "nb": "Article 7"
+      },
       "sections": [
         {
           "annotations": {
@@ -1724,7 +1844,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 7 7.1.",
+          "reference": {
+            "name": "Récupération des vapeurs. - Dispositions générales.",
+            "nb": "Article 7 > 7.1."
+          },
           "sections": [],
           "title": {
             "text": "7.1. Récupération des vapeurs. - Dispositions générales."
@@ -1760,7 +1883,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 7 7.2.",
+          "reference": {
+            "name": "Récupération des vapeurs au remplissage des installations de stockage.",
+            "nb": "Article 7 > 7.2."
+          },
           "sections": [],
           "title": {
             "text": "7.2. Récupération des vapeurs au remplissage des installations de stockage."
@@ -1787,7 +1913,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 7 7.3.",
+          "reference": {
+            "name": "Récupération des vapeurs liées au ravitaillement en essence des véhicules à moteur.",
+            "nb": "Article 7 > 7.3."
+          },
           "sections": [
             {
               "annotations": {
@@ -1852,7 +1981,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 7.3.1.",
+              "reference": {
+                "name": "Récupération des vapeurs.",
+                "nb": "Article 7 > 7.3.1."
+              },
               "sections": [],
               "title": {
                 "text": "7.3.1. Récupération des vapeurs."
@@ -1891,7 +2023,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 7.3.2.",
+              "reference": {
+                "name": "Dispositif de régulation.",
+                "nb": "Article 7 > 7.3.2."
+              },
               "sections": [],
               "title": {
                 "text": "7.3.2. Dispositif de régulation."
@@ -1918,7 +2053,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 7.3.3.",
+              "reference": {
+                "name": "Retour des vapeurs.",
+                "nb": "Article 7 > 7.3.3."
+              },
               "sections": [],
               "title": {
                 "text": "7.3.3. Retour des vapeurs."
@@ -1951,7 +2089,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 7.3.4.",
+              "reference": {
+                "name": "Dispositifs arrête-flamme.",
+                "nb": "Article 7 > 7.3.4."
+              },
               "sections": [],
               "title": {
                 "text": "7.3.4. Dispositifs arrête-flamme."
@@ -1981,7 +2122,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 7.3.5.",
+              "reference": {
+                "name": "Conception des systèmes de récupération.",
+                "nb": "Article 7 > 7.3.5."
+              },
               "sections": [],
               "title": {
                 "text": "7.3.5. Conception des systèmes de récupération."
@@ -2008,7 +2152,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 7.3.6.",
+              "reference": {
+                "name": "Maintenance du système de récupération.",
+                "nb": "Article 7 > 7.3.6."
+              },
               "sections": [],
               "title": {
                 "text": "7.3.6. Maintenance du système de récupération."
@@ -2263,7 +2410,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 8",
+      "reference": {
+        "name": "Applicabilité.",
+        "nb": "Article 8"
+      },
       "sections": [],
       "title": {
         "text": "Article 8 - Applicabilité."
@@ -2290,7 +2440,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 9",
+      "reference": {
+        "name": "",
+        "nb": "Article 9"
+      },
       "sections": [],
       "title": {
         "text": "Article 9"
@@ -2317,7 +2470,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 10",
+      "reference": {
+        "name": "",
+        "nb": "Article 10"
+      },
       "sections": [],
       "title": {
         "text": "Article 10"
@@ -2340,7 +2496,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -2359,7 +2518,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe I",
+          "reference": {
+            "name": "CONFORMITÉ DES SYSTÈMES DE RÉCUPÉRATION DES VAPEURS",
+            "nb": "Annexe I"
+          },
           "sections": [
             {
               "annotations": {
@@ -2397,7 +2559,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I",
+              "reference": {
+                "name": "CONFORMITÉ DES SYSTÈMES DE RÉCUPÉRATION DES VAPEURS",
+                "nb": "Annexe I > 1."
+              },
               "sections": [],
               "title": {
                 "text": "1."
@@ -2424,7 +2589,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I",
+              "reference": {
+                "name": "CONFORMITÉ DES SYSTÈMES DE RÉCUPÉRATION DES VAPEURS",
+                "nb": "Annexe I > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2."
@@ -2447,7 +2615,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 3.",
+              "reference": {
+                "name": "Méthode gravimétrique.",
+                "nb": "Annexe I > 3."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -2473,7 +2644,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.1.",
+                  "reference": {
+                    "name": "Description de la méthode.",
+                    "nb": "Annexe I > 3.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.1. Description de la méthode."
@@ -2496,7 +2670,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.2.",
+                  "reference": {
+                    "name": "Conditions des essais.",
+                    "nb": "Annexe I > 3.2."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -2522,7 +2699,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.2.1.",
+                      "reference": {
+                        "name": "Caractéristiques des pistolets de distribution.",
+                        "nb": "Annexe I > 3.2.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.2.1. Caractéristiques des pistolets de distribution."
@@ -2549,7 +2729,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.2.2.",
+                      "reference": {
+                        "name": "Caractéristiques de l'essence utilisée.",
+                        "nb": "Annexe I > 3.2.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.2.2. Caractéristiques de l'essence utilisée."
@@ -2576,7 +2759,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.2.3.",
+                      "reference": {
+                        "name": "Réservoir du véhicule utilisé.",
+                        "nb": "Annexe I > 3.2.3."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.2.3. Réservoir du véhicule utilisé."
@@ -2609,7 +2795,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.2.4.",
+                      "reference": {
+                        "name": "Conditions de température.",
+                        "nb": "Annexe I > 3.2.4."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.2.4. Conditions de température."
@@ -2639,7 +2828,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.2.5.",
+                      "reference": {
+                        "name": "Préparation du système de récupération des vapeurs.",
+                        "nb": "Annexe I > 3.2.5."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.2.5. Préparation du système de récupération des vapeurs."
@@ -2669,7 +2861,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.2.6.",
+                      "reference": {
+                        "name": "Préparation du réservoir étalon.",
+                        "nb": "Annexe I > 3.2.6."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.2.6. Préparation du réservoir étalon."
@@ -2697,7 +2892,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.3.",
+                  "reference": {
+                    "name": "Procédure des essais.",
+                    "nb": "Annexe I > 3.3."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -2720,7 +2918,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.3.1.",
+                      "reference": {
+                        "name": "Etanchéité du système.",
+                        "nb": "Annexe I > 3.3.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.3.1. Etanchéité du système."
@@ -2750,7 +2951,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.3.2.",
+                      "reference": {
+                        "name": "Déroulement d'une mesure.",
+                        "nb": "Annexe I > 3.3.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.3.2. Déroulement d'une mesure."
@@ -2789,7 +2993,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.3.3.",
+                      "reference": {
+                        "name": "Déroulement des essais.",
+                        "nb": "Annexe I > 3.3.3."
+                      },
                       "sections": [],
                       "title": {
                         "text": "3.3.3. Déroulement des essais."
@@ -2845,7 +3052,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.4.",
+                  "reference": {
+                    "name": "Détermination du taux de récupération.",
+                    "nb": "Annexe I > 3.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.4. Détermination du taux de récupération."
@@ -2873,7 +3083,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 4.",
+              "reference": {
+                "name": "Méthode volumétrique.",
+                "nb": "Annexe I > 4."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -2896,7 +3109,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.1.",
+                  "reference": {
+                    "name": "Description de la méthode.",
+                    "nb": "Annexe I > 4.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.1. Description de la méthode."
@@ -2926,7 +3142,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.2.",
+                  "reference": {
+                    "name": "Conditions préparatoires des essais.",
+                    "nb": "Annexe I > 4.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.2. Conditions préparatoires des essais."
@@ -2977,7 +3196,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.3.",
+                  "reference": {
+                    "name": "Calcul du taux volumétrique.",
+                    "nb": "Annexe I > 4.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.3. Calcul du taux volumétrique."
@@ -3010,7 +3232,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.4.",
+                  "reference": {
+                    "name": "Détermination du facteur d'équivalences air/vapeurs.",
+                    "nb": "Annexe I > 4.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.4. Détermination du facteur d'équivalences air/vapeurs."
@@ -3043,7 +3268,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II",
+          "reference": {
+            "name": "CONTRÔLE SUR SITE DES SYSTÈMES DE RÉCUPÉRATION DES VAPEURS",
+            "nb": "Annexe II"
+          },
           "sections": [
             {
               "annotations": {
@@ -3078,7 +3306,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II",
+              "reference": {
+                "name": "CONTRÔLE SUR SITE DES SYSTÈMES DE RÉCUPÉRATION DES VAPEURS",
+                "nb": "Annexe II > 1."
+              },
               "sections": [],
               "title": {
                 "text": "1."
@@ -3111,7 +3342,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II",
+              "reference": {
+                "name": "CONTRÔLE SUR SITE DES SYSTÈMES DE RÉCUPÉRATION DES VAPEURS",
+                "nb": "Annexe II > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2."

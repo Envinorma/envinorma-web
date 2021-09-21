@@ -43,7 +43,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DÉFINITIONS ET CHAMP D'APPLICATION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -81,7 +84,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1",
+          "reference": {
+            "name": "DÉFINITIONS ET CHAMP D'APPLICATION",
+            "nb": "Article 1"
+          },
           "sections": [],
           "title": {
             "text": "Article 1"
@@ -120,7 +126,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2",
+          "reference": {
+            "name": "DÉFINITIONS ET CHAMP D'APPLICATION",
+            "nb": "Article 2"
+          },
           "sections": [],
           "title": {
             "text": "Article 2"
@@ -148,7 +157,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "CONCEPTION ET AMÉNAGEMENT GÉNÉRAL DES INSTALLATIONS",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -171,7 +183,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3",
+          "reference": {
+            "name": "CONCEPTION ET AMÉNAGEMENT GÉNÉRAL DES INSTALLATIONS",
+            "nb": "Article 3"
+          },
           "sections": [],
           "title": {
             "text": "Article 3"
@@ -261,7 +276,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4",
+          "reference": {
+            "name": "CONCEPTION ET AMÉNAGEMENT GÉNÉRAL DES INSTALLATIONS",
+            "nb": "Article 4"
+          },
           "sections": [],
           "title": {
             "text": "Article 4"
@@ -303,7 +321,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5",
+          "reference": {
+            "name": "CONCEPTION ET AMÉNAGEMENT GÉNÉRAL DES INSTALLATIONS",
+            "nb": "Article 5"
+          },
           "sections": [],
           "title": {
             "text": "Article 5"
@@ -339,7 +360,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 6",
+          "reference": {
+            "name": "CONCEPTION ET AMÉNAGEMENT GÉNÉRAL DES INSTALLATIONS",
+            "nb": "Article 6"
+          },
           "sections": [],
           "title": {
             "text": "Article 6"
@@ -367,7 +391,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "CONDITIONS D'ADMISSION ET LIVRAISON DES COMBUSTIBLES",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -390,7 +417,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 7",
+          "reference": {
+            "name": "CONDITIONS D'ADMISSION ET LIVRAISON DES COMBUSTIBLES",
+            "nb": "Article 7"
+          },
           "sections": [],
           "title": {
             "text": "Article 7"
@@ -474,7 +504,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 8",
+          "reference": {
+            "name": "CONDITIONS D'ADMISSION ET LIVRAISON DES COMBUSTIBLES",
+            "nb": "Article 8"
+          },
           "sections": [],
           "title": {
             "text": "Article 8"
@@ -502,7 +535,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "CONDITIONS D'EXPLOITAITON",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -521,7 +557,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 9",
+          "reference": {
+            "name": "CONDITIONS D'EXPLOITAITON",
+            "nb": "Article 9"
+          },
           "sections": [
             {
               "annotations": {
@@ -540,7 +579,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 9",
+              "reference": {
+                "name": "CONDITIONS D'EXPLOITAITON",
+                "nb": "Article 9 > I."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -563,7 +605,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 9 a)",
+                  "reference": {
+                    "name": "Qualité des résidus",
+                    "nb": "Article 9 > I. a)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "a) Qualité des résidus"
@@ -590,7 +635,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 9 b)",
+                  "reference": {
+                    "name": "Conditions de combustion",
+                    "nb": "Article 9 > I. b)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "b) Conditions de combustion"
@@ -623,7 +671,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 9 c)",
+                  "reference": {
+                    "name": "Brûleurs",
+                    "nb": "Article 9 > I. c)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "c) Brûleurs"
@@ -659,7 +710,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 9 d)",
+                  "reference": {
+                    "name": "Conditions de l'alimentation en CSR",
+                    "nb": "Article 9 > I. d)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "d) Conditions de l'alimentation en CSR"
@@ -686,7 +740,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 9 e)",
+                  "reference": {
+                    "name": "Conditions alternatives",
+                    "nb": "Article 9 > I. e)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "e) Conditions alternatives"
@@ -718,7 +775,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 9",
+              "reference": {
+                "name": "CONDITIONS D'EXPLOITAITON",
+                "nb": "Article 9 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II."
@@ -745,7 +805,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 9",
+              "reference": {
+                "name": "CONDITIONS D'EXPLOITAITON",
+                "nb": "Article 9 > III."
+              },
               "sections": [],
               "title": {
                 "text": "III."
@@ -773,7 +836,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 10",
+          "reference": {
+            "name": "CONDITIONS D'EXPLOITAITON",
+            "nb": "Article 10"
+          },
           "sections": [
             {
               "annotations": {
@@ -799,7 +865,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 10 a)",
+              "reference": {
+                "name": "Dispositifs de mesure en semi-continu des dioxines et furanes",
+                "nb": "Article 10 > a)"
+              },
               "sections": [],
               "title": {
                 "text": "a) Dispositifs de mesure en semi-continu des dioxines et furanes"
@@ -829,7 +898,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 10 b)",
+              "reference": {
+                "name": "Dispositifs de mesure en continu.des polluants aqueux et atmosphériques",
+                "nb": "Article 10 > b)"
+              },
               "sections": [],
               "title": {
                 "text": "b) Dispositifs de mesure en continu.des polluants aqueux et atmosphériques"
@@ -861,7 +933,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 11",
+          "reference": {
+            "name": "CONDITIONS D'EXPLOITAITON",
+            "nb": "Article 11"
+          },
           "sections": [],
           "title": {
             "text": "Article 11"
@@ -891,7 +966,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 12",
+          "reference": {
+            "name": "CONDITIONS D'EXPLOITAITON",
+            "nb": "Article 12"
+          },
           "sections": [],
           "title": {
             "text": "Article 12"
@@ -921,7 +999,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 13",
+          "reference": {
+            "name": "CONDITIONS D'EXPLOITAITON",
+            "nb": "Article 13"
+          },
           "sections": [],
           "title": {
             "text": "Article 13"
@@ -948,7 +1029,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 14",
+          "reference": {
+            "name": "CONDITIONS D'EXPLOITAITON",
+            "nb": "Article 14"
+          },
           "sections": [],
           "title": {
             "text": "Article 14"
@@ -976,7 +1060,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "PRÉVENTION DES RISQUES",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -1035,7 +1122,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 15",
+          "reference": {
+            "name": "PRÉVENTION DES RISQUES",
+            "nb": "Article 15"
+          },
           "sections": [],
           "title": {
             "text": "Article 15"
@@ -1063,7 +1153,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "PRÉVENTION DE LA POLLUTION DE L'AIR",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -1086,7 +1179,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 16",
+          "reference": {
+            "name": "PRÉVENTION DE LA POLLUTION DE L'AIR",
+            "nb": "Article 16"
+          },
           "sections": [
             {
               "annotations": {
@@ -1109,7 +1205,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 16 a)",
+              "reference": {
+                "name": "Forme des conduits",
+                "nb": "Article 16 > a)"
+              },
               "sections": [],
               "title": {
                 "text": "a) Forme des conduits"
@@ -1145,7 +1244,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 16 b)",
+              "reference": {
+                "name": "Calcul de la hauteur de cheminée",
+                "nb": "Article 16 > b)"
+              },
               "sections": [],
               "title": {
                 "text": "b) Calcul de la hauteur de cheminée"
@@ -1175,7 +1277,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 16 c)",
+              "reference": {
+                "name": "Vitesse d'éjection des gaz",
+                "nb": "Article 16 > c)"
+              },
               "sections": [],
               "title": {
                 "text": "c) Vitesse d'éjection des gaz"
@@ -1211,7 +1316,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 16 d)",
+              "reference": {
+                "name": "Plate-forme de mesure",
+                "nb": "Article 16 > d)"
+              },
               "sections": [],
               "title": {
                 "text": "d) Plate-forme de mesure"
@@ -1243,7 +1351,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 17",
+          "reference": {
+            "name": "PRÉVENTION DE LA POLLUTION DE L'AIR",
+            "nb": "Article 17"
+          },
           "sections": [],
           "title": {
             "text": "Article 17"
@@ -1266,7 +1377,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 18",
+          "reference": {
+            "name": "PRÉVENTION DE LA POLLUTION DE L'AIR",
+            "nb": "Article 18"
+          },
           "sections": [
             {
               "annotations": {
@@ -1301,7 +1415,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 18",
+              "reference": {
+                "name": "PRÉVENTION DE LA POLLUTION DE L'AIR",
+                "nb": "Article 18 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I."
@@ -1355,7 +1472,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 18",
+              "reference": {
+                "name": "PRÉVENTION DE LA POLLUTION DE L'AIR",
+                "nb": "Article 18 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II."
@@ -1382,7 +1502,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 18",
+              "reference": {
+                "name": "PRÉVENTION DE LA POLLUTION DE L'AIR",
+                "nb": "Article 18 > III."
+              },
               "sections": [],
               "title": {
                 "text": "III."
@@ -1409,7 +1532,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 18",
+              "reference": {
+                "name": "PRÉVENTION DE LA POLLUTION DE L'AIR",
+                "nb": "Article 18 > IV."
+              },
               "sections": [],
               "title": {
                 "text": "IV."
@@ -1441,7 +1567,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 18-1",
+          "reference": {
+            "name": "PRÉVENTION DE LA POLLUTION DE L'AIR",
+            "nb": "Article 18-1"
+          },
           "sections": [],
           "title": {
             "text": "Article 18-1"
@@ -1489,7 +1618,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 18-2",
+          "reference": {
+            "name": "PRÉVENTION DE LA POLLUTION DE L'AIR",
+            "nb": "Article 18-2"
+          },
           "sections": [],
           "title": {
             "text": "Article 18-2"
@@ -1528,7 +1660,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 19",
+          "reference": {
+            "name": "PRÉVENTION DE LA POLLUTION DE L'AIR",
+            "nb": "Article 19"
+          },
           "sections": [],
           "title": {
             "text": "Article 19"
@@ -1556,7 +1691,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "PRÉVENTION DE LA POLLUTION DE L'EAU",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -1579,7 +1717,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 20",
+          "reference": {
+            "name": "PRÉVENTION DE LA POLLUTION DE L'EAU",
+            "nb": "Article 20"
+          },
           "sections": [],
           "title": {
             "text": "Article 20"
@@ -1651,7 +1792,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 21",
+          "reference": {
+            "name": "Valeurs limites de rejet dans l'eau",
+            "nb": "Article 21"
+          },
           "sections": [],
           "title": {
             "text": "Article 21 - Valeurs limites de rejet dans l'eau"
@@ -1684,7 +1828,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 22",
+          "reference": {
+            "name": "PRÉVENTION DE LA POLLUTION DE L'EAU",
+            "nb": "Article 22"
+          },
           "sections": [],
           "title": {
             "text": "Article 22"
@@ -1726,7 +1873,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 23",
+          "reference": {
+            "name": "PRÉVENTION DE LA POLLUTION DE L'EAU",
+            "nb": "Article 23"
+          },
           "sections": [],
           "title": {
             "text": "Article 23"
@@ -1774,7 +1924,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 24",
+          "reference": {
+            "name": "PRÉVENTION DE LA POLLUTION DE L'EAU",
+            "nb": "Article 24"
+          },
           "sections": [],
           "title": {
             "text": "Article 24"
@@ -1813,7 +1966,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 25",
+          "reference": {
+            "name": "PRÉVENTION DE LA POLLUTION DE L'EAU",
+            "nb": "Article 25"
+          },
           "sections": [],
           "title": {
             "text": "Article 25"
@@ -1841,7 +1997,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "GESTION ET TRAITEMENT DES RÉSIDUS ISSUS DES INSTALLATIONS",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -1936,7 +2095,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 26",
+          "reference": {
+            "name": "GESTION ET TRAITEMENT DES RÉSIDUS ISSUS DES INSTALLATIONS",
+            "nb": "Article 26"
+          },
           "sections": [],
           "title": {
             "text": "Article 26"
@@ -1964,7 +2126,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "SURVEILLANCE DES REJETS ET DE L'IMPACT SUR L'ENVIRONNEMENT",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -2002,7 +2167,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 27",
+          "reference": {
+            "name": "Conditions générales de la surveillance des rejets",
+            "nb": "Article 27"
+          },
           "sections": [],
           "title": {
             "text": "Article 27 - Conditions générales de la surveillance des rejets"
@@ -2056,7 +2224,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 28",
+          "reference": {
+            "name": "SURVEILLANCE DES REJETS ET DE L'IMPACT SUR L'ENVIRONNEMENT",
+            "nb": "Article 28"
+          },
           "sections": [
             {
               "annotations": {
@@ -2106,7 +2277,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 28 a)",
+              "reference": {
+                "name": "Dispositions générales.",
+                "nb": "Article 28 > a)"
+              },
               "sections": [],
               "title": {
                 "text": "a) Dispositions générales."
@@ -2145,7 +2319,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 28 b)",
+              "reference": {
+                "name": "Disposition relative à la mesure en semi-continu des dioxines et furanes",
+                "nb": "Article 28 > b)"
+              },
               "sections": [],
               "title": {
                 "text": "b) Disposition relative à la mesure en semi-continu des dioxines et furanes"
@@ -2280,7 +2457,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 29",
+          "reference": {
+            "name": "SURVEILLANCE DES REJETS ET DE L'IMPACT SUR L'ENVIRONNEMENT",
+            "nb": "Article 29"
+          },
           "sections": [],
           "title": {
             "text": "Article 29"
@@ -2328,7 +2508,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 30",
+          "reference": {
+            "name": "SURVEILLANCE DES REJETS ET DE L'IMPACT SUR L'ENVIRONNEMENT",
+            "nb": "Article 30"
+          },
           "sections": [],
           "title": {
             "text": "Article 30"
@@ -2356,7 +2539,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "INFORMATION SUR LE FONCTIONNEMENT OU L'ARRÊT DE L'INSTALLATION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -2379,7 +2565,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 31",
+          "reference": {
+            "name": "INFORMATION SUR LE FONCTIONNEMENT OU L'ARRÊT DE L'INSTALLATION",
+            "nb": "Article 31"
+          },
           "sections": [
             {
               "annotations": {
@@ -2402,7 +2591,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 31 a)",
+              "reference": {
+                "name": "Information en cas d'accident",
+                "nb": "Article 31 > a)"
+              },
               "sections": [],
               "title": {
                 "text": "a) Information en cas d'accident"
@@ -2459,7 +2651,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 31 b)",
+              "reference": {
+                "name": "Consignation des résultats de surveillance et information de l'inspection des installations classées",
+                "nb": "Article 31 > b)"
+              },
               "sections": [],
               "title": {
                 "text": "b) Consignation des résultats de surveillance et information de l'inspection des installations classées"
@@ -2486,7 +2681,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 31 c)",
+              "reference": {
+                "name": "Rapport annuel d'activité",
+                "nb": "Article 31 > c)"
+              },
               "sections": [],
               "title": {
                 "text": "c) Rapport annuel d'activité"
@@ -2521,7 +2719,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 32",
+          "reference": {
+            "name": "INFORMATION SUR LE FONCTIONNEMENT OU L'ARRÊT DE L'INSTALLATION",
+            "nb": "Article 32"
+          },
           "sections": [],
           "title": {
             "text": "Article 32"
@@ -2549,7 +2750,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "MODALITÉS ET DÉLAIS D'APPLICATION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -2572,7 +2776,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 33",
+          "reference": {
+            "name": "MODALITÉS ET DÉLAIS D'APPLICATION",
+            "nb": "Article 33"
+          },
           "sections": [],
           "title": {
             "text": "Article 33"
@@ -2599,7 +2806,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 34",
+          "reference": {
+            "name": "MODALITÉS ET DÉLAIS D'APPLICATION",
+            "nb": "Article 34"
+          },
           "sections": [],
           "title": {
             "text": "Article 34"
@@ -2627,7 +2837,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -2836,7 +3049,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe I",
+          "reference": {
+            "name": "VALEURS LIMITES DE REJETS ATMOSPHÉRIQUES",
+            "nb": "Annexe I"
+          },
           "sections": [
             {
               "annotations": {
@@ -3209,7 +3425,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I I.",
+              "reference": {
+                "name": "Dispositions applicables aux cimenteries co-incinérant des CSR",
+                "nb": "Annexe I > I."
+              },
               "sections": [],
               "title": {
                 "text": "I. - Dispositions applicables aux cimenteries co-incinérant des CSR"
@@ -3245,7 +3464,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I II.",
+              "reference": {
+                "name": "Dispositions applicables aux autres installations co-incinérant des CSR à l'exclusion des turbines et moteurs à gaz visés au point III",
+                "nb": "Annexe I > II."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3348,7 +3570,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I II. a)",
+                  "reference": {
+                    "name": "COT, HCl, HF (teneur en O2 de 11 %)",
+                    "nb": "Annexe I > II. a)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "a) COT, HCl, HF (teneur en O2 de 11 %)"
@@ -3491,7 +3716,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I II. b)",
+                  "reference": {
+                    "name": "Métaux (teneur en O2 de 11 %)",
+                    "nb": "Annexe I > II. b)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "b) Métaux (teneur en O2 de 11 %)"
@@ -3578,7 +3806,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I II. c)",
+                  "reference": {
+                    "name": "Dioxines et furanes (teneur en O2 de 11 %).",
+                    "nb": "Annexe I > II. c)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "c) Dioxines et furanes (teneur en O2 de 11 %)."
@@ -3647,7 +3878,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I II. d)",
+                  "reference": {
+                    "name": "Ammoniac (teneur en O2 de 11 %)",
+                    "nb": "Annexe I > II. d)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "d) Ammoniac (teneur en O2 de 11 %)"
@@ -4184,7 +4418,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I II. e)",
+                  "reference": {
+                    "name": "SO2, NOx, poussières",
+                    "nb": "Annexe I > II. e)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "e) SO2, NOx, poussières"
@@ -4228,7 +4465,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I III.",
+              "reference": {
+                "name": "C pour les turbines à gaz et les moteurs à gaz alimentés par le gaz produit par une installation de pyrolyse ou de gazéification de CSR, exprimée en moyennes journalières (mg/Nm3)",
+                "nb": "Annexe I > III."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -4331,7 +4571,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I III. a)",
+                  "reference": {
+                    "name": "COT, HCl, HF (teneur en O2 de 11 %)",
+                    "nb": "Annexe I > III. a)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "a) COT, HCl, HF (teneur en O2 de 11 %)"
@@ -4474,7 +4717,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I III. b)",
+                  "reference": {
+                    "name": "Métaux (teneur en O2 de 11 %)",
+                    "nb": "Annexe I > III. b)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "b) Métaux (teneur en O2 de 11 %)"
@@ -4561,7 +4807,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I III. c)",
+                  "reference": {
+                    "name": "Dioxines et furanes (teneur en O2 de 11 %).",
+                    "nb": "Annexe I > III. c)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "c) Dioxines et furanes (teneur en O2 de 11 %)."
@@ -4630,7 +4879,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I III. d)",
+                  "reference": {
+                    "name": "Ammoniac (teneur en O2 de 11 %)",
+                    "nb": "Annexe I > III. d)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "d) Ammoniac (teneur en O2 de 11 %)"
@@ -4861,7 +5113,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I III. e)",
+                  "reference": {
+                    "name": "SO2, NOx, poussières et CO.",
+                    "nb": "Annexe I > III. e)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "e) SO2, NOx, poussières et CO."
@@ -5373,7 +5628,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II",
+          "reference": {
+            "name": "FACTEURS D'ÉQUIVALENCE POUR LES DIBENZOPARADIOXINES ET LES DIBENZOFURANES",
+            "nb": "Annexe II"
+          },
           "sections": [],
           "title": {
             "text": "Annexe II - FACTEURS D'ÉQUIVALENCE POUR LES DIBENZOPARADIOXINES ET LES DIBENZOFURANES"
@@ -6521,7 +6779,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III",
+          "reference": {
+            "name": "",
+            "nb": "Annexe III"
+          },
           "sections": [],
           "title": {
             "text": "Annexe III"
@@ -6569,7 +6830,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV",
+          "reference": {
+            "name": "",
+            "nb": "Annexe IV"
+          },
           "sections": [],
           "title": {
             "text": "Annexe IV"
@@ -6804,7 +7068,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe V",
+          "reference": {
+            "name": "",
+            "nb": "Annexe V"
+          },
           "sections": [],
           "title": {
             "text": "Annexe V"

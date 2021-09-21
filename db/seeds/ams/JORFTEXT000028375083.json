@@ -53,7 +53,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 1",
+      "reference": {
+        "name": "",
+        "nb": "Article 1"
+      },
       "sections": [],
       "title": {
         "text": "Article 1"
@@ -86,7 +89,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 2",
+      "reference": {
+        "name": "",
+        "nb": "Article 2"
+      },
       "sections": [],
       "title": {
         "text": "Article 2"
@@ -113,7 +119,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 3",
+      "reference": {
+        "name": "",
+        "nb": "Article 3"
+      },
       "sections": [],
       "title": {
         "text": "Article 3"
@@ -146,7 +155,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 4",
+      "reference": {
+        "name": "",
+        "nb": "Article 4"
+      },
       "sections": [],
       "title": {
         "text": "Article 4"
@@ -173,7 +185,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 5",
+      "reference": {
+        "name": "",
+        "nb": "Article 5"
+      },
       "sections": [],
       "title": {
         "text": "Article 5"
@@ -200,7 +215,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 6",
+      "reference": {
+        "name": "",
+        "nb": "Article 6"
+      },
       "sections": [],
       "title": {
         "text": "Article 6"
@@ -223,7 +241,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -242,7 +263,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe I",
+          "reference": {
+            "name": "PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+            "nb": "Annexe I"
+          },
           "sections": [
             {
               "annotations": {
@@ -268,7 +292,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 1.",
+              "reference": {
+                "name": "Dispositions générales",
+                "nb": "Annexe I > 1."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -291,7 +318,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.1.",
+                  "reference": {
+                    "name": "Conformité de l'installation à la déclaration",
+                    "nb": "Annexe I > 1.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.1. Conformité de l'installation à la déclaration"
@@ -318,7 +348,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.2.",
+                  "reference": {
+                    "name": "Modifications",
+                    "nb": "Annexe I > 1.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.2. Modifications"
@@ -345,7 +378,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.3.",
+                  "reference": {
+                    "name": "Contenu de la déclaration",
+                    "nb": "Annexe I > 1.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.3. Contenu de la déclaration"
@@ -417,7 +453,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.4.",
+                  "reference": {
+                    "name": "Dossier installation classée",
+                    "nb": "Annexe I > 1.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.4. Dossier installation classée"
@@ -444,7 +483,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.5.",
+                  "reference": {
+                    "name": "Déclaration d'accident ou de pollution accidentelle",
+                    "nb": "Annexe I > 1.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.5. Déclaration d'accident ou de pollution accidentelle"
@@ -471,7 +513,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.6.",
+                  "reference": {
+                    "name": "Changement d'exploitant",
+                    "nb": "Annexe I > 1.6."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.6. Changement d'exploitant"
@@ -498,7 +543,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.7.",
+                  "reference": {
+                    "name": "Cessation d'activité",
+                    "nb": "Annexe I > 1.7."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.7. Cessation d'activité"
@@ -540,7 +588,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.8.",
+                  "reference": {
+                    "name": "Contrôle périodique",
+                    "nb": "Annexe I > 1.8."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.8. Contrôle périodique"
@@ -636,7 +687,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 1.9.",
+                  "reference": {
+                    "name": "Définitions",
+                    "nb": "Annexe I > 1.9."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.9. Définitions"
@@ -664,7 +718,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 2.",
+              "reference": {
+                "name": "Implantation, aménagement",
+                "nb": "Annexe I > 2."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -724,7 +781,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.1.",
+                  "reference": {
+                    "name": "Règles d'implantation",
+                    "nb": "Annexe I > 2.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.1. Règles d'implantation"
@@ -768,7 +828,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.2.",
+                  "reference": {
+                    "name": "Intégration dans le paysage",
+                    "nb": "Annexe I > 2.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.2. Intégration dans le paysage"
@@ -795,7 +858,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.3.",
+                  "reference": {
+                    "name": "Interdiction de locaux habités ou occupés par des tiers ou habités au-dessus et au-dessous de l'installation",
+                    "nb": "Annexe I > 2.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.3. Interdiction de locaux habités ou occupés par des tiers ou habités au-dessus et au-dessous de l'installation"
@@ -822,7 +888,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.4.",
+                  "reference": {
+                    "name": "Comportement au feu des locaux",
+                    "nb": "Annexe I > 2.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.4. Comportement au feu des locaux"
@@ -845,7 +914,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.5.",
+                  "reference": {
+                    "name": "Accessibilité et conception",
+                    "nb": "Annexe I > 2.5."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -882,7 +954,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.5.1.",
+                      "reference": {
+                        "name": "Accessibilité",
+                        "nb": "Annexe I > 2.5.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.5.1. Accessibilité"
@@ -905,7 +980,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 2.5.2.",
+                      "reference": {
+                        "name": "Conception",
+                        "nb": "Annexe I > 2.5.2."
+                      },
                       "sections": [
                         {
                           "annotations": {
@@ -951,7 +1029,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 2.5.2. a)",
+                          "reference": {
+                            "name": "Conception",
+                            "nb": "Annexe I > 2.5.2. a)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "a)"
@@ -978,7 +1059,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 2.5.2. b)",
+                          "reference": {
+                            "name": "Conception",
+                            "nb": "Annexe I > 2.5.2. b)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "b)"
@@ -1005,7 +1089,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 2.5.2. c)",
+                          "reference": {
+                            "name": "Conception",
+                            "nb": "Annexe I > 2.5.2. c)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "c)"
@@ -1046,7 +1133,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 2.5.2. d)",
+                          "reference": {
+                            "name": "Conception",
+                            "nb": "Annexe I > 2.5.2. d)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "d)"
@@ -1073,7 +1163,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 2.5.2. e)",
+                          "reference": {
+                            "name": "Conception",
+                            "nb": "Annexe I > 2.5.2. e)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "e)"
@@ -1100,7 +1193,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 2.5.2. f)",
+                          "reference": {
+                            "name": "Conception",
+                            "nb": "Annexe I > 2.5.2. f)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "f)"
@@ -1139,7 +1235,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 2.5.2.",
+                          "reference": {
+                            "name": "Objet du contrôle",
+                            "nb": "Annexe I > 2.5.2."
+                          },
                           "sections": [],
                           "title": {
                             "text": "Objet du contrôle :"
@@ -1176,7 +1275,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.6.",
+                  "reference": {
+                    "name": "Ventilation des locaux",
+                    "nb": "Annexe I > 2.6."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.6. Ventilation des locaux"
@@ -1203,7 +1305,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.7.",
+                  "reference": {
+                    "name": "Installations électriques",
+                    "nb": "Annexe I > 2.7."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.7. Installations électriques"
@@ -1230,7 +1335,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.8.",
+                  "reference": {
+                    "name": "Mise à la terre des équipements",
+                    "nb": "Annexe I > 2.8."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.8. Mise à la terre des équipements"
@@ -1266,7 +1374,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.9.",
+                  "reference": {
+                    "name": "Rétention des aires et locaux de stockage",
+                    "nb": "Annexe I > 2.9."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.9. Rétention des aires et locaux de stockage"
@@ -1370,7 +1481,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.10.",
+                  "reference": {
+                    "name": "Cuvettes de rétention",
+                    "nb": "Annexe I > 2.10."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.10. Cuvettes de rétention"
@@ -1426,7 +1540,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 2.11.",
+                  "reference": {
+                    "name": "Isolement du réseau de collecte",
+                    "nb": "Annexe I > 2.11."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.11. Isolement du réseau de collecte"
@@ -1454,7 +1571,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 3.",
+              "reference": {
+                "name": "Exploitation, entretien",
+                "nb": "Annexe I > 3."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1528,7 +1648,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.1.",
+                  "reference": {
+                    "name": "Surveillance de l'exploitation",
+                    "nb": "Annexe I > 3.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.1. Surveillance de l'exploitation"
@@ -1558,7 +1681,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.2.",
+                  "reference": {
+                    "name": "Contrôle de l'accès",
+                    "nb": "Annexe I > 3.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.2. Contrôle de l'accès"
@@ -1597,7 +1723,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.3.",
+                  "reference": {
+                    "name": "Connaissance des produits, étiquetage",
+                    "nb": "Annexe I > 3.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.3. Connaissance des produits, étiquetage"
@@ -1624,7 +1753,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.4.",
+                  "reference": {
+                    "name": "Propreté",
+                    "nb": "Annexe I > 3.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.4. Propreté"
@@ -1666,7 +1798,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.5.",
+                  "reference": {
+                    "name": "Etat des stocks de produits dangereux",
+                    "nb": "Annexe I > 3.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.5. Etat des stocks de produits dangereux"
@@ -1696,7 +1831,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.6.",
+                  "reference": {
+                    "name": "Vérification périodique des installations électriques",
+                    "nb": "Annexe I > 3.6."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.6. Vérification périodique des installations électriques"
@@ -1719,7 +1857,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 3.7.",
+                  "reference": {
+                    "name": "Consignes d'exploitation",
+                    "nb": "Annexe I > 3.7."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -1738,7 +1879,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.7. I.",
+                      "reference": {
+                        "name": "– Entretien préventif et surveillance de l'installation",
+                        "nb": "Annexe I > 3.7. I."
+                      },
                       "sections": [
                         {
                           "annotations": {
@@ -1757,7 +1901,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 3.7. I. 1.",
+                          "reference": {
+                            "name": "Dispositions générales relatives à l'entretien préventif et à la surveillance de l'installation",
+                            "nb": "Annexe I > 3.7. I. 1."
+                          },
                           "sections": [
                             {
                               "annotations": {
@@ -1840,7 +1987,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. I. 1. a)",
+                              "reference": {
+                                "name": "Dispositions générales relatives à l'entretien préventif et à la surveillance de l'installation",
+                                "nb": "Annexe I > 3.7. I. 1. a)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "a)"
@@ -1882,7 +2032,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. I. 1. b)",
+                              "reference": {
+                                "name": "Dispositions générales relatives à l'entretien préventif et à la surveillance de l'installation",
+                                "nb": "Annexe I > 3.7. I. 1. b)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "b)"
@@ -1972,7 +2125,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. I. 1. c)",
+                              "reference": {
+                                "name": "Dispositions générales relatives à l'entretien préventif et à la surveillance de l'installation",
+                                "nb": "Annexe I > 3.7. I. 1. c)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "c)"
@@ -2019,7 +2175,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 3.7. I. 2.",
+                          "reference": {
+                            "name": "Entretien préventif de l'installation",
+                            "nb": "Annexe I > 3.7. I. 2."
+                          },
                           "sections": [
                             {
                               "annotations": {
@@ -2042,7 +2201,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. I. 2. a)",
+                              "reference": {
+                                "name": "Gestion hydraulique",
+                                "nb": "Annexe I > 3.7. I. 2. a)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "a) Gestion hydraulique :"
@@ -2117,7 +2279,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. I. 2. b)",
+                              "reference": {
+                                "name": "Traitement préventif",
+                                "nb": "Annexe I > 3.7. I. 2. b)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "b) Traitement préventif :"
@@ -2168,7 +2333,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. I. 2. c)",
+                              "reference": {
+                                "name": "Nettoyage préventif de l'installation",
+                                "nb": "Annexe I > 3.7. I. 2. c)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "c) Nettoyage préventif de l'installation :"
@@ -2206,7 +2374,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 3.7. I. 3.",
+                          "reference": {
+                            "name": "Surveillance de l'installation",
+                            "nb": "Annexe I > 3.7. I. 3."
+                          },
                           "sections": [
                             {
                               "annotations": {
@@ -2238,7 +2409,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. I. 3. a)",
+                              "reference": {
+                                "name": "Fréquence des prélèvements en vue de l'analyse de la concentration en Legionella pneumophila",
+                                "nb": "Annexe I > 3.7. I. 3. a)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "a) Fréquence des prélèvements en vue de l'analyse de la concentration en Legionella pneumophila :"
@@ -2280,7 +2454,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. I. 3. b)",
+                              "reference": {
+                                "name": "Modalités de prélèvements en vue de l'analyse des légionelles",
+                                "nb": "Annexe I > 3.7. I. 3. b)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "b) Modalités de prélèvements en vue de l'analyse des légionelles :"
@@ -2313,7 +2490,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. I. 3. c)",
+                              "reference": {
+                                "name": "Laboratoire en charge de l'analyse des légionelles",
+                                "nb": "Annexe I > 3.7. I. 3. c)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "c) Laboratoire en charge de l'analyse des légionelles :"
@@ -2388,7 +2568,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. I. 3. d)",
+                              "reference": {
+                                "name": "Résultats de l'analyse des légionelles",
+                                "nb": "Annexe I > 3.7. I. 3. d)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "d) Résultats de l'analyse des légionelles :"
@@ -2415,7 +2598,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. I. 3. e)",
+                              "reference": {
+                                "name": "Transmission des résultats à l'inspection des installations classées",
+                                "nb": "Annexe I > 3.7. I. 3. e)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "e) Transmission des résultats à l'inspection des installations classées :"
@@ -2469,7 +2655,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. I. 3. f)",
+                              "reference": {
+                                "name": "Prélèvements et analyses supplémentaires",
+                                "nb": "Annexe I > 3.7. I. 3. f)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "f) Prélèvements et analyses supplémentaires :"
@@ -2502,7 +2691,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.7. II.",
+                      "reference": {
+                        "name": "– Actions à mener en cas de prolifération de légionelles",
+                        "nb": "Annexe I > 3.7. II."
+                      },
                       "sections": [
                         {
                           "annotations": {
@@ -2521,7 +2713,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 3.7. II. 1.",
+                          "reference": {
+                            "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                            "nb": "Annexe I > 3.7. II. 1."
+                          },
                           "sections": [
                             {
                               "annotations": {
@@ -2568,7 +2763,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. II. 1. a)",
+                              "reference": {
+                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                                "nb": "Annexe I > 3.7. II. 1. a)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "a)"
@@ -2595,7 +2793,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. II. 1. b)",
+                              "reference": {
+                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                                "nb": "Annexe I > 3.7. II. 1. b)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "b)"
@@ -2625,7 +2826,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. II. 1. c)",
+                              "reference": {
+                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                                "nb": "Annexe I > 3.7. II. 1. c)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "c)"
@@ -2652,7 +2856,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. II. 1. d)",
+                              "reference": {
+                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                                "nb": "Annexe I > 3.7. II. 1. d)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "d)"
@@ -2682,7 +2889,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. II. 1. e)",
+                              "reference": {
+                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                                "nb": "Annexe I > 3.7. II. 1. e)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "e)"
@@ -2709,7 +2919,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. II. 1. f)",
+                              "reference": {
+                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                                "nb": "Annexe I > 3.7. II. 1. f)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "f)"
@@ -2763,7 +2976,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. II. 1. g)",
+                              "reference": {
+                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                                "nb": "Annexe I > 3.7. II. 1. g)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "g)"
@@ -2791,7 +3007,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 3.7. II. 2.",
+                          "reference": {
+                            "name": "Actions à mener si les résultats d'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration mesurée en Legionella pneumophila supérieure ou égale à 1 000 UFC/L et inférieure à 100 000 UFC/L",
+                            "nb": "Annexe I > 3.7. II. 2."
+                          },
                           "sections": [
                             {
                               "annotations": {
@@ -2817,7 +3036,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. II. 2. a)",
+                              "reference": {
+                                "name": "Cas de dépassement ponctuel",
+                                "nb": "Annexe I > 3.7. II. 2. a)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "a) Cas de dépassement ponctuel :"
@@ -2856,7 +3078,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. II. 2. b)",
+                              "reference": {
+                                "name": "Cas de dépassements multiples consécutifs",
+                                "nb": "Annexe I > 3.7. II. 2. b)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "b) Cas de dépassements multiples consécutifs :"
@@ -2892,7 +3117,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. II. 2. c)",
+                              "reference": {
+                                "name": "Actions à mener si les résultats d'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration mesurée en Legionella pneumophila supérieure ou égale à 1 000 UFC/L et inférieure à 100 000 UFC/L",
+                                "nb": "Annexe I > 3.7. II. 2. c)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "c)"
@@ -2920,7 +3148,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 3.7. II. 3.",
+                          "reference": {
+                            "name": "Actions à mener si le dénombrement des Legionella pneumophila selon la norme NF T90-431 (avril 2006) est rendu impossible par la présence d'une flore interférente",
+                            "nb": "Annexe I > 3.7. II. 3."
+                          },
                           "sections": [
                             {
                               "annotations": {
@@ -2943,7 +3174,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. II. 3. a)",
+                              "reference": {
+                                "name": "Actions à mener si le dénombrement des Legionella pneumophila selon la norme NF T90-431 (avril 2006) est rendu impossible par la présence d'une flore interférente",
+                                "nb": "Annexe I > 3.7. II. 3. a)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "a)"
@@ -2970,7 +3204,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. II. 3. b)",
+                              "reference": {
+                                "name": "Actions à mener si le dénombrement des Legionella pneumophila selon la norme NF T90-431 (avril 2006) est rendu impossible par la présence d'une flore interférente",
+                                "nb": "Annexe I > 3.7. II. 3. b)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "b)"
@@ -3006,7 +3243,10 @@
                                 "potential_modifications": [],
                                 "warnings": []
                               },
-                              "reference_str": "Annexe I 3.7. II. 3. c)",
+                              "reference": {
+                                "name": "Actions à mener si le dénombrement des Legionella pneumophila selon la norme NF T90-431 (avril 2006) est rendu impossible par la présence d'une flore interférente",
+                                "nb": "Annexe I > 3.7. II. 3. c)"
+                              },
                               "sections": [],
                               "title": {
                                 "text": "c)"
@@ -3038,7 +3278,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 3.7. II.",
+                          "reference": {
+                            "name": "– Actions à mener en cas de prolifération de légionelles",
+                            "nb": "Annexe I > 3.7. II. 4."
+                          },
                           "sections": [],
                           "title": {
                             "text": "4."
@@ -3079,7 +3322,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.7. III.",
+                      "reference": {
+                        "name": "– Mesures supplémentaires en cas de découverte de cas de légionellose",
+                        "nb": "Annexe I > 3.7. III."
+                      },
                       "sections": [],
                       "title": {
                         "text": "III. – Mesures supplémentaires en cas de découverte de cas de légionellose"
@@ -3102,7 +3348,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.7. IV.",
+                      "reference": {
+                        "name": "– Suivi de l'installation",
+                        "nb": "Annexe I > 3.7. IV."
+                      },
                       "sections": [
                         {
                           "annotations": {
@@ -3206,7 +3455,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 3.7. IV. 1.",
+                          "reference": {
+                            "name": "Vérification de l'installation",
+                            "nb": "Annexe I > 3.7. IV. 1."
+                          },
                           "sections": [],
                           "title": {
                             "text": "1. Vérification de l'installation"
@@ -3302,7 +3554,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe I 3.7. IV. 2.",
+                          "reference": {
+                            "name": "Carnet de suivi",
+                            "nb": "Annexe I > 3.7. IV. 2."
+                          },
                           "sections": [],
                           "title": {
                             "text": "2. Carnet de suivi"
@@ -3352,7 +3607,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 3.7. V.",
+                      "reference": {
+                        "name": "– Bilan annuel",
+                        "nb": "Annexe I > 3.7. V."
+                      },
                       "sections": [],
                       "title": {
                         "text": "V. – Bilan annuel"
@@ -3385,7 +3643,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 4.",
+              "reference": {
+                "name": "Risques",
+                "nb": "Annexe I > 4."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3408,7 +3669,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.1.",
+                  "reference": {
+                    "name": "Localisation des risques",
+                    "nb": "Annexe I > 4.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.1. Localisation des risques"
@@ -3471,7 +3735,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.2.",
+                  "reference": {
+                    "name": "Protection des personnels",
+                    "nb": "Annexe I > 4.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.2. Protection des personnels"
@@ -3498,7 +3765,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.3.",
+                  "reference": {
+                    "name": "Moyens de lutte contre l'incendie",
+                    "nb": "Annexe I > 4.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.3. Moyens de lutte contre l'incendie"
@@ -3525,7 +3795,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.4.",
+                  "reference": {
+                    "name": "Matériels utilisables en atmosphères explosibles",
+                    "nb": "Annexe I > 4.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.4. Matériels utilisables en atmosphères explosibles"
@@ -3552,7 +3825,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.5.",
+                  "reference": {
+                    "name": "Interdiction des feux",
+                    "nb": "Annexe I > 4.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.5. Interdiction des feux"
@@ -3579,7 +3855,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.6.",
+                  "reference": {
+                    "name": "\"Permis d'intervention\", \"Permis de feu\" dans les parties de l'installation visées au 4.1",
+                    "nb": "Annexe I > 4.6."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.6. \"Permis d'intervention\", \"Permis de feu\" dans les parties de l'installation visées au 4.1"
@@ -3606,7 +3885,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 4.7.",
+                  "reference": {
+                    "name": "Consignes de sécurité",
+                    "nb": "Annexe I > 4.7."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.7. Consignes de sécurité"
@@ -3634,7 +3916,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 5.",
+              "reference": {
+                "name": "Eau",
+                "nb": "Annexe I > 5."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3690,7 +3975,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.1.",
+                  "reference": {
+                    "name": "Prélèvements",
+                    "nb": "Annexe I > 5.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.1. Prélèvements"
@@ -3717,7 +4005,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.2.",
+                  "reference": {
+                    "name": "Consommation",
+                    "nb": "Annexe I > 5.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.2. Consommation"
@@ -3790,7 +4081,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.3.",
+                  "reference": {
+                    "name": "Réseau de collecte",
+                    "nb": "Annexe I > 5.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.3. Réseau de collecte"
@@ -3820,7 +4114,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.4.",
+                  "reference": {
+                    "name": "Mesure des volumes rejetés",
+                    "nb": "Annexe I > 5.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.4. Mesure des volumes rejetés"
@@ -3922,7 +4219,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.5.",
+                  "reference": {
+                    "name": "Valeurs limites de rejet",
+                    "nb": "Annexe I > 5.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.5. Valeurs limites de rejet"
@@ -3949,7 +4249,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.6.",
+                  "reference": {
+                    "name": "Interdiction des rejets en nappe",
+                    "nb": "Annexe I > 5.6."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.6. Interdiction des rejets en nappe"
@@ -3976,7 +4279,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.7.",
+                  "reference": {
+                    "name": "Prévention des pollutions accidentelles",
+                    "nb": "Annexe I > 5.7."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.7. Prévention des pollutions accidentelles"
@@ -4003,7 +4309,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.8.",
+                  "reference": {
+                    "name": "Epandage",
+                    "nb": "Annexe I > 5.8."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.8. Epandage"
@@ -4060,7 +4369,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 5.9.",
+                  "reference": {
+                    "name": "Surveillance par l'exploitant de la pollution rejetée",
+                    "nb": "Annexe I > 5.9."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.9. Surveillance par l'exploitant de la pollution rejetée"
@@ -4088,7 +4400,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 6.",
+              "reference": {
+                "name": "Air, odeurs",
+                "nb": "Annexe I > 6."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -4111,7 +4426,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 6.1.",
+                  "reference": {
+                    "name": "Captage et épuration des rejets à l'atmosphère",
+                    "nb": "Annexe I > 6.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "6.1. Captage et épuration des rejets à l'atmosphère"
@@ -4138,7 +4456,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 6.2.",
+                  "reference": {
+                    "name": "Valeurs limites et conditions de rejet",
+                    "nb": "Annexe I > 6.2."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -4161,7 +4482,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 6.2.1.",
+                      "reference": {
+                        "name": "Poussières",
+                        "nb": "Annexe I > 6.2.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "6.2.1. Poussières"
@@ -4188,7 +4512,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 6.2.2.",
+                      "reference": {
+                        "name": "Composés organiques volatils (COV)",
+                        "nb": "Annexe I > 6.2.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "6.2.2. Composés organiques volatils (COV)"
@@ -4215,7 +4542,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 6.2.3.",
+                      "reference": {
+                        "name": "Polluants spécifiques : (base VME, CL1 %, LCL0... pour rejets diffus)",
+                        "nb": "Annexe I > 6.2.3."
+                      },
                       "sections": [],
                       "title": {
                         "text": "6.2.3. Polluants spécifiques : (base VME, CL1 %, LCL0... pour rejets diffus)"
@@ -4242,7 +4572,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 6.2.4.",
+                      "reference": {
+                        "name": "Point de rejet",
+                        "nb": "Annexe I > 6.2.4."
+                      },
                       "sections": [],
                       "title": {
                         "text": "6.2.4. Point de rejet"
@@ -4269,7 +4602,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 6.2.5.",
+                      "reference": {
+                        "name": "Odeurs",
+                        "nb": "Annexe I > 6.2.5."
+                      },
                       "sections": [],
                       "title": {
                         "text": "6.2.5. Odeurs"
@@ -4297,7 +4633,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 6.3.",
+                  "reference": {
+                    "name": "Surveillance par l'exploitant de la pollution rejetée (a)",
+                    "nb": "Annexe I > 6.3."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -4320,7 +4659,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 6.3.1.",
+                      "reference": {
+                        "name": "Cas général",
+                        "nb": "Annexe I > 6.3.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "6.3.1. Cas général"
@@ -4347,7 +4689,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I 6.3.2.",
+                      "reference": {
+                        "name": "Cas des COV",
+                        "nb": "Annexe I > 6.3.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "6.3.2. Cas des COV"
@@ -4380,7 +4725,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 7.",
+              "reference": {
+                "name": "Déchets",
+                "nb": "Annexe I > 7."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -4403,7 +4751,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.1.",
+                  "reference": {
+                    "name": "Récupération, recyclage, élimination",
+                    "nb": "Annexe I > 7.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.1. Récupération, recyclage, élimination"
@@ -4433,7 +4784,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.2.",
+                  "reference": {
+                    "name": "Contrôles des circuits",
+                    "nb": "Annexe I > 7.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.2. Contrôles des circuits"
@@ -4472,7 +4826,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.3.",
+                  "reference": {
+                    "name": "Stockage des déchets",
+                    "nb": "Annexe I > 7.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.3. Stockage des déchets"
@@ -4502,7 +4859,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.4.",
+                  "reference": {
+                    "name": "Déchets non dangereux",
+                    "nb": "Annexe I > 7.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.4. Déchets non dangereux"
@@ -4532,7 +4892,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.5.",
+                  "reference": {
+                    "name": "Déchets dangereux",
+                    "nb": "Annexe I > 7.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.5. Déchets dangereux"
@@ -4559,7 +4922,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.6.",
+                  "reference": {
+                    "name": "Brûlage",
+                    "nb": "Annexe I > 7.6."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.6. Brûlage"
@@ -4587,7 +4953,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 8.",
+              "reference": {
+                "name": "Bruit et vibrations",
+                "nb": "Annexe I > 8."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -4707,7 +5076,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 8.1.",
+                  "reference": {
+                    "name": "Valeurs limites de bruit",
+                    "nb": "Annexe I > 8.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "8.1. Valeurs limites de bruit"
@@ -4734,7 +5106,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 8.2.",
+                  "reference": {
+                    "name": "Véhicules, engins de chantier",
+                    "nb": "Annexe I > 8.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "8.2. Véhicules, engins de chantier"
@@ -4761,7 +5136,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 8.3.",
+                  "reference": {
+                    "name": "Vibrations",
+                    "nb": "Annexe I > 8.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "8.3. Vibrations"
@@ -4800,7 +5178,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 8.4.",
+                  "reference": {
+                    "name": "Surveillance par l'exploitant des émissions sonores",
+                    "nb": "Annexe I > 8.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "8.4. Surveillance par l'exploitant des émissions sonores"
@@ -4841,7 +5222,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 9.",
+              "reference": {
+                "name": "Remise en état en fin d'exploitation",
+                "nb": "Annexe I > 9."
+              },
               "sections": [],
               "title": {
                 "text": "9. Remise en état en fin d'exploitation"
@@ -4876,7 +5260,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II",
+          "reference": {
+            "name": "RÈGLES TECHNIQUES APPLICABLES EN MATIÈRE DE VIBRATIONS",
+            "nb": "Annexe II"
+          },
           "sections": [
             {
               "annotations": {
@@ -4895,7 +5282,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 1.",
+              "reference": {
+                "name": "Valeurs limites de la vitesse particulaire",
+                "nb": "Annexe II > 1."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -5066,7 +5456,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 1.1.",
+                  "reference": {
+                    "name": "Sources continues ou assimilées",
+                    "nb": "Annexe II > 1.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.1. Sources continues ou assimilées"
@@ -5238,7 +5631,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 1.2.",
+                  "reference": {
+                    "name": "Sources impulsionnelles à impulsions répétées",
+                    "nb": "Annexe II > 1.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.2. Sources impulsionnelles à impulsions répétées"
@@ -5309,7 +5705,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 2.",
+              "reference": {
+                "name": "Classification des constructions",
+                "nb": "Annexe II > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Classification des constructions"
@@ -5332,7 +5731,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 3.",
+              "reference": {
+                "name": "Méthode de mesure",
+                "nb": "Annexe II > 3."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -5358,7 +5760,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 3. 1.1.",
+                  "reference": {
+                    "name": "Eléments de base",
+                    "nb": "Annexe II > 3. 1.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.1. Eléments de base"
@@ -5385,7 +5790,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 3. 1.2.",
+                  "reference": {
+                    "name": "Appareillage de mesure",
+                    "nb": "Annexe II > 3. 1.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.2. Appareillage de mesure"
@@ -5412,7 +5820,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe II 3. 1.3.",
+                  "reference": {
+                    "name": "Précautions opératoires",
+                    "nb": "Annexe II > 3. 1.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1.3. Précautions opératoires"
@@ -5449,7 +5860,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III",
+          "reference": {
+            "name": "",
+            "nb": "Annexe III"
+          },
           "sections": [],
           "title": {
             "text": "Annexe III"
@@ -5476,7 +5890,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV",
+          "reference": {
+            "name": "ÉLÉMENTS DE CARACTÉRISATION DE LA VALEUR AGRONOMIQUE DES EFFLUENTS OU DÉCHETS ET DES SOLS",
+            "nb": "Annexe IV"
+          },
           "sections": [],
           "title": {
             "text": "Annexe IV - ÉLÉMENTS DE CARACTÉRISATION DE LA VALEUR AGRONOMIQUE DES EFFLUENTS OU DÉCHETS ET DES SOLS"
@@ -5548,7 +5965,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe V",
+          "reference": {
+            "name": "DISPOSITIONS APPLICABLES AUX INSTALLATIONS EXISTANTES",
+            "nb": "Annexe V"
+          },
           "sections": [],
           "title": {
             "text": "Annexe V - DISPOSITIONS APPLICABLES AUX INSTALLATIONS EXISTANTES"

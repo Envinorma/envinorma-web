@@ -30,7 +30,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 1",
+      "reference": {
+        "name": "",
+        "nb": "Article 1"
+      },
       "sections": [
         {
           "annotations": {
@@ -53,7 +56,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1",
+          "reference": {
+            "name": "",
+            "nb": "Article 1 > I."
+          },
           "sections": [],
           "title": {
             "text": "I."
@@ -83,7 +89,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1",
+          "reference": {
+            "name": "",
+            "nb": "Article 1 > II."
+          },
           "sections": [],
           "title": {
             "text": "II."
@@ -110,7 +119,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1",
+          "reference": {
+            "name": "",
+            "nb": "Article 1 > III."
+          },
           "sections": [
             {
               "annotations": {
@@ -136,7 +148,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 1",
+              "reference": {
+                "name": "",
+                "nb": "Article 1 > III. IV."
+              },
               "sections": [],
               "title": {
                 "text": "IV."
@@ -176,7 +191,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 2",
+      "reference": {
+        "name": "",
+        "nb": "Article 2"
+      },
       "sections": [],
       "title": {
         "text": "Article 2"
@@ -199,7 +217,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 3",
+      "reference": {
+        "name": "",
+        "nb": "Article 3"
+      },
       "sections": [
         {
           "annotations": {
@@ -225,7 +246,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3",
+          "reference": {
+            "name": "",
+            "nb": "Article 3 > I."
+          },
           "sections": [],
           "title": {
             "text": "I."
@@ -252,7 +276,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3",
+          "reference": {
+            "name": "",
+            "nb": "Article 3 > II."
+          },
           "sections": [],
           "title": {
             "text": "II."
@@ -284,7 +311,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 4",
+      "reference": {
+        "name": "",
+        "nb": "Article 4"
+      },
       "sections": [],
       "title": {
         "text": "Article 4"
@@ -311,7 +341,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 5",
+      "reference": {
+        "name": "",
+        "nb": "Article 5"
+      },
       "sections": [],
       "title": {
         "text": "Article 5"
@@ -347,7 +380,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 6",
+      "reference": {
+        "name": "",
+        "nb": "Article 6"
+      },
       "sections": [],
       "title": {
         "text": "Article 6"
@@ -374,7 +410,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 7",
+      "reference": {
+        "name": "",
+        "nb": "Article 7"
+      },
       "sections": [],
       "title": {
         "text": "Article 7"
@@ -401,7 +440,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 8",
+      "reference": {
+        "name": "",
+        "nb": "Article 8"
+      },
       "sections": [],
       "title": {
         "text": "Article 8"
@@ -424,7 +466,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -736,7 +781,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe I",
+          "reference": {
+            "name": "FORMULES DE CALCUL FORFAITAIRE DU MONTANT DE RÉFÉRENCE DES GARANTIES FINANCIÈRES DE MISE EN SÉCURITÉ DES INSTALLATIONS VISÉES À L'ARTICLE R. 516-1",
+            "nb": "Annexe I"
+          },
           "sections": [],
           "title": {
             "text": "Annexe I - FORMULES DE CALCUL FORFAITAIRE DU MONTANT DE RÉFÉRENCE DES GARANTIES FINANCIÈRES DE MISE EN SÉCURITÉ DES INSTALLATIONS VISÉES À L'ARTICLE R. 516-1"
@@ -790,7 +838,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II",
+          "reference": {
+            "name": "ACTUALISATION DU MONTANT INDIQUÉ DANS LE DOCUMENT D'ATTESTATION DE LA CONSTITUTION DE GARANTIES FINANCIÈRES",
+            "nb": "Annexe II"
+          },
           "sections": [],
           "title": {
             "text": "Annexe II - ACTUALISATION DU MONTANT INDIQUÉ DANS LE DOCUMENT D'ATTESTATION DE LA CONSTITUTION DE GARANTIES FINANCIÈRES"
@@ -1003,7 +1054,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III",
+          "reference": {
+            "name": "FORMULES DE CALCUL FORFAITAIRE DU MONTANT DE RÉFÉRENCE DES GARANTIES FINANCIÈRES DE MISE EN SÉCURITÉ DES INSTALLATIONS SOUMISES À AUTORISATION AU TITRE DES RUBRIQUES 1716, 1735 ET 2797",
+            "nb": "Annexe III"
+          },
           "sections": [],
           "title": {
             "text": "Annexe III - FORMULES DE CALCUL FORFAITAIRE DU MONTANT DE RÉFÉRENCE DES GARANTIES FINANCIÈRES DE MISE EN SÉCURITÉ DES INSTALLATIONS SOUMISES À AUTORISATION AU TITRE DES RUBRIQUES 1716, 1735 ET 2797"

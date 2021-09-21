@@ -47,7 +47,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 1",
+      "reference": {
+        "name": "",
+        "nb": "Article 1"
+      },
       "sections": [],
       "title": {
         "text": "Article 1"
@@ -80,7 +83,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 2",
+      "reference": {
+        "name": "",
+        "nb": "Article 2"
+      },
       "sections": [],
       "title": {
         "text": "Article 2"
@@ -107,7 +113,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 3",
+      "reference": {
+        "name": "",
+        "nb": "Article 3"
+      },
       "sections": [],
       "title": {
         "text": "Article 3"
@@ -134,7 +143,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 4",
+      "reference": {
+        "name": "",
+        "nb": "Article 4"
+      },
       "sections": [],
       "title": {
         "text": "Article 4"
@@ -157,7 +169,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe I",
+      "reference": {
+        "name": "",
+        "nb": "Annexe I"
+      },
       "sections": [
         {
           "annotations": {
@@ -201,7 +216,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe I Art. -",
+          "reference": {
+            "name": "PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES POUR LA PROTECTION DE L'ENVIRONNEMENT SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2794",
+            "nb": "Article"
+          },
           "sections": [
             {
               "annotations": {
@@ -245,7 +263,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I Art. - 1.",
+              "reference": {
+                "name": "Dossier installation classée",
+                "nb": "Article > 1."
+              },
               "sections": [],
               "title": {
                 "text": "1. Dossier installation classée"
@@ -268,7 +289,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I Art. - 2.",
+              "reference": {
+                "name": "Implantation - aménagement",
+                "nb": "Article > 2."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -313,7 +337,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 2.",
+                  "reference": {
+                    "name": "Règles d'implantation",
+                    "nb": "Article > 2.1"
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.1 Règles d'implantation"
@@ -355,7 +382,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 2.",
+                  "reference": {
+                    "name": "Comportement au feu",
+                    "nb": "Article > 2.2"
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -384,7 +414,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I Art. - 2.",
+                      "reference": {
+                        "name": "1 Comportement au feu du bâtiment",
+                        "nb": "Article > 2.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.1 Comportement au feu du bâtiment"
@@ -411,7 +444,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I Art. - 2.",
+                      "reference": {
+                        "name": "2 Toitures et couvertures de toiture",
+                        "nb": "Article > 2.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.2 Toitures et couvertures de toiture"
@@ -453,7 +489,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe I Art. - 2.",
+                      "reference": {
+                        "name": "3 Désenfumage",
+                        "nb": "Article > 2.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2.3 Désenfumage"
@@ -525,7 +564,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 2.",
+                  "reference": {
+                    "name": "Accessibilité",
+                    "nb": "Article > 2.3"
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.3 Accessibilité"
@@ -552,7 +594,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 2.",
+                  "reference": {
+                    "name": "Installations électriques",
+                    "nb": "Article > 2.4"
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.4 Installations électriques"
@@ -579,7 +624,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 2.",
+                  "reference": {
+                    "name": "Mise à la terre des équipements",
+                    "nb": "Article > 2.5"
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.5 Mise à la terre des équipements"
@@ -625,7 +673,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 2.",
+                  "reference": {
+                    "name": "Rétention des sols",
+                    "nb": "Article > 2.6"
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.6 Rétention des sols"
@@ -689,7 +740,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 2.",
+                  "reference": {
+                    "name": "Cuvettes de rétention",
+                    "nb": "Article > 2.7"
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.7 Cuvettes de rétention"
@@ -719,7 +773,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 2.",
+                  "reference": {
+                    "name": "Isolement du réseau de collecte",
+                    "nb": "Article > 2.8"
+                  },
                   "sections": [],
                   "title": {
                     "text": "2.8 Isolement du réseau de collecte"
@@ -747,7 +804,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I Art. - 3.",
+              "reference": {
+                "name": "Exploitation - entretien",
+                "nb": "Article > 3."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -770,7 +830,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 3.",
+                  "reference": {
+                    "name": "Contrôle de l'accès",
+                    "nb": "Article > 3.1"
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.1 Contrôle de l'accès"
@@ -809,7 +872,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 3.",
+                  "reference": {
+                    "name": "Admission et traitement des déchets végétaux",
+                    "nb": "Article > 3.2"
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.2 Admission et traitement des déchets végétaux"
@@ -836,7 +902,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 3.",
+                  "reference": {
+                    "name": "Conditions d'entreposage",
+                    "nb": "Article > 3.3"
+                  },
                   "sections": [],
                   "title": {
                     "text": "3.3 Conditions d'entreposage"
@@ -864,7 +933,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I Art. - 4.",
+              "reference": {
+                "name": "Risques",
+                "nb": "Article > 4."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -935,7 +1007,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 4.",
+                  "reference": {
+                    "name": "Moyens de lutte contre l'incendie",
+                    "nb": "Article > 4.1"
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.1 Moyens de lutte contre l'incendie"
@@ -980,7 +1055,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 4.",
+                  "reference": {
+                    "name": "Consignes d'exploitation",
+                    "nb": "Article > 4.2"
+                  },
                   "sections": [],
                   "title": {
                     "text": "4.2 Consignes d'exploitation"
@@ -1008,7 +1086,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I Art. - 5.",
+              "reference": {
+                "name": "Eau",
+                "nb": "Article > 5."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1040,7 +1121,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 5.",
+                  "reference": {
+                    "name": "Réseau de collecte et eaux pluviales",
+                    "nb": "Article > 5.1"
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.1 Réseau de collecte et eaux pluviales"
@@ -1067,7 +1151,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 5.",
+                  "reference": {
+                    "name": "Rejet des effluents",
+                    "nb": "Article > 5.2"
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.2 Rejet des effluents"
@@ -1103,7 +1190,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 5.",
+                  "reference": {
+                    "name": "Valeurs limites de rejet",
+                    "nb": "Article > 5.3"
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.3 Valeurs limites de rejet"
@@ -1151,7 +1241,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 5.",
+                  "reference": {
+                    "name": "Raccordement à une station d'épuration",
+                    "nb": "Article > 5.4"
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.4 Raccordement à une station d'épuration"
@@ -1181,7 +1274,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 5.",
+                  "reference": {
+                    "name": "Dispositions concernant la surveillance des effluents aqueux",
+                    "nb": "Article > 5.5"
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.5 Dispositions concernant la surveillance des effluents aqueux"
@@ -1208,7 +1304,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 5.",
+                  "reference": {
+                    "name": "Surveillance par l'exploitant de la pollution rejetée",
+                    "nb": "Article > 5.6"
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.6 Surveillance par l'exploitant de la pollution rejetée"
@@ -1235,7 +1334,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 5.",
+                  "reference": {
+                    "name": "Épandage",
+                    "nb": "Article > 5.7"
+                  },
                   "sections": [],
                   "title": {
                     "text": "5.7 Épandage"
@@ -1263,7 +1365,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I Art. - 6.",
+              "reference": {
+                "name": "Air",
+                "nb": "Article > 6."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1298,7 +1403,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 6.",
+                  "reference": {
+                    "name": "Prévention et captage des poussières",
+                    "nb": "Article > 6.1"
+                  },
                   "sections": [],
                   "title": {
                     "text": "6.1 Prévention et captage des poussières"
@@ -1325,7 +1433,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I Art. - 6.",
+                  "reference": {
+                    "name": "Risques d'envols",
+                    "nb": "Article > 6.2"
+                  },
                   "sections": [],
                   "title": {
                     "text": "6.2 Risques d'envols"
@@ -1375,7 +1486,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I Art. - 7.",
+              "reference": {
+                "name": "Déchets",
+                "nb": "Article > 7."
+              },
               "sections": [],
               "title": {
                 "text": "7. Déchets"
@@ -1490,7 +1604,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I Art. - 8.",
+              "reference": {
+                "name": "Bruit",
+                "nb": "Article > 8."
+              },
               "sections": [],
               "title": {
                 "text": "8. Bruit"
@@ -1523,7 +1640,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe II",
+      "reference": {
+        "name": "",
+        "nb": "Annexe II"
+      },
       "sections": [
         {
           "annotations": {
@@ -1591,7 +1711,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II Art. -",
+          "reference": {
+            "name": "DISPOSITIONS APPLICABLES AUX INSTALLATIONS EXISTANTES",
+            "nb": "Article"
+          },
           "sections": [],
           "title": {
             "text": "Article - DISPOSITIONS APPLICABLES AUX INSTALLATIONS EXISTANTES"

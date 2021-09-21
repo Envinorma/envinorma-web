@@ -36,7 +36,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 1",
+      "reference": {
+        "name": "",
+        "nb": "Article 1"
+      },
       "sections": [],
       "title": {
         "text": "Article 1"
@@ -59,7 +62,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Définitions",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -97,7 +103,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2",
+          "reference": {
+            "name": "Définitions",
+            "nb": "Article 2"
+          },
           "sections": [],
           "title": {
             "text": "Article 2"
@@ -125,7 +134,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Dispositions communes",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -144,7 +156,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3",
+          "reference": {
+            "name": "Dispositions communes",
+            "nb": "Article 3"
+          },
           "sections": [
             {
               "annotations": {
@@ -203,7 +218,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3",
+              "reference": {
+                "name": "Dispositions communes",
+                "nb": "Article 3 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I."
@@ -230,7 +248,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3",
+              "reference": {
+                "name": "Dispositions communes",
+                "nb": "Article 3 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II."
@@ -268,7 +289,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4",
+          "reference": {
+            "name": "Dispositions communes",
+            "nb": "Article 4"
+          },
           "sections": [],
           "title": {
             "text": "Article 4"
@@ -325,7 +349,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5",
+          "reference": {
+            "name": "Dispositions communes",
+            "nb": "Article 5"
+          },
           "sections": [],
           "title": {
             "text": "Article 5"
@@ -352,7 +379,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 6",
+          "reference": {
+            "name": "Dispositions communes",
+            "nb": "Article 6"
+          },
           "sections": [],
           "title": {
             "text": "Article 6"
@@ -379,7 +409,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 6-1",
+          "reference": {
+            "name": "Dispositions communes",
+            "nb": "Article 6-1"
+          },
           "sections": [],
           "title": {
             "text": "Article 6-1"
@@ -402,7 +435,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 7",
+          "reference": {
+            "name": "Dispositions communes",
+            "nb": "Article 7"
+          },
           "sections": [
             {
               "annotations": {
@@ -428,7 +464,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 1.",
+              "reference": {
+                "name": "Généralités.",
+                "nb": "Article 7 > 1."
+              },
               "sections": [],
               "title": {
                 "text": "1. Généralités."
@@ -461,7 +500,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 2.",
+              "reference": {
+                "name": "Analyse de risques.",
+                "nb": "Article 7 > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Analyse de risques."
@@ -488,7 +530,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 3.",
+              "reference": {
+                "name": "Elaboration de l'étude de dangers en fonction des conclusions de l'analyse de risques.",
+                "nb": "Article 7 > 3."
+              },
               "sections": [],
               "title": {
                 "text": "3. Elaboration de l'étude de dangers en fonction des conclusions de l'analyse de risques."
@@ -518,7 +563,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 4.",
+              "reference": {
+                "name": "Présentation des accidents dans l'étude de dangers en termes de couple probabilité-gravité des conséquences sur les personnes.",
+                "nb": "Article 7 > 4."
+              },
               "sections": [],
               "title": {
                 "text": "4. Présentation des accidents dans l'étude de dangers en termes de couple probabilité-gravité des conséquences sur les personnes."
@@ -551,7 +599,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Dispositions complémentaires  applicables aux établissements seuil haut",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -580,7 +631,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 8",
+          "reference": {
+            "name": "Dispositions complémentaires  applicables aux établissements seuil haut",
+            "nb": "Article 8"
+          },
           "sections": [],
           "title": {
             "text": "Article 8"
@@ -607,7 +661,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 8-1",
+          "reference": {
+            "name": "Dispositions complémentaires  applicables aux établissements seuil haut",
+            "nb": "Article 8-1"
+          },
           "sections": [],
           "title": {
             "text": "Article 8-1"
@@ -635,7 +692,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "Modalités d'application",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -658,7 +718,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 9",
+          "reference": {
+            "name": "Modalités d'application",
+            "nb": "Article 9"
+          },
           "sections": [],
           "title": {
             "text": "Article 9"
@@ -697,7 +760,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 10",
+          "reference": {
+            "name": "Modalités d'application",
+            "nb": "Article 10"
+          },
           "sections": [],
           "title": {
             "text": "Article 10"
@@ -724,7 +790,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 11",
+          "reference": {
+            "name": "Modalités d'application",
+            "nb": "Article 11"
+          },
           "sections": [],
           "title": {
             "text": "Article 11"
@@ -752,7 +821,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -778,7 +850,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe I",
+          "reference": {
+            "name": "SYSTÈME DE GESTION DE LA SÉCURITÉ",
+            "nb": "Annexe I"
+          },
           "sections": [
             {
               "annotations": {
@@ -807,7 +882,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 1.",
+              "reference": {
+                "name": "Organisation, formation",
+                "nb": "Annexe I > 1."
+              },
               "sections": [],
               "title": {
                 "text": "1. Organisation, formation"
@@ -840,7 +918,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 2.",
+              "reference": {
+                "name": "Identification et évaluation des risques",
+                "nb": "Annexe I > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Identification et évaluation des risques"
@@ -891,7 +972,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 3.",
+              "reference": {
+                "name": "Maîtrise des procédés, maîtrise d'exploitation",
+                "nb": "Annexe I > 3."
+              },
               "sections": [],
               "title": {
                 "text": "3. Maîtrise des procédés, maîtrise d'exploitation"
@@ -918,7 +1002,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 4.",
+              "reference": {
+                "name": "Conception et gestion des modifications",
+                "nb": "Annexe I > 4."
+              },
               "sections": [],
               "title": {
                 "text": "4. Conception et gestion des modifications"
@@ -957,7 +1044,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 5.",
+              "reference": {
+                "name": "Gestion des situations d'urgence",
+                "nb": "Annexe I > 5."
+              },
               "sections": [],
               "title": {
                 "text": "5. Gestion des situations d'urgence"
@@ -990,7 +1080,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 6.",
+              "reference": {
+                "name": "Surveillance des performances",
+                "nb": "Annexe I > 6."
+              },
               "sections": [],
               "title": {
                 "text": "6. Surveillance des performances"
@@ -1020,7 +1113,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 7.",
+              "reference": {
+                "name": "Audits et revues de direction",
+                "nb": "Annexe I > 7."
+              },
               "sections": [],
               "title": {
                 "text": "7. Audits et revues de direction"
@@ -1048,7 +1144,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II",
+          "reference": {
+            "name": "DÉMARCHE DE MAÎTRISE DES RISQUES",
+            "nb": "Annexe II"
+          },
           "sections": [
             {
               "annotations": {
@@ -1089,7 +1188,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 1.",
+              "reference": {
+                "name": "Principes généraux",
+                "nb": "Annexe II > 1."
+              },
               "sections": [],
               "title": {
                 "text": "1. Principes généraux"
@@ -1116,7 +1218,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 2.",
+              "reference": {
+                "name": "Prérequis et limites de la démarche de maîtrise des risques",
+                "nb": "Annexe II > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Prérequis et limites de la démarche de maîtrise des risques"
@@ -1167,7 +1272,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe II 3.",
+              "reference": {
+                "name": "Limites de prise en compte de certains événements externes",
+                "nb": "Annexe II > 3."
+              },
               "sections": [],
               "title": {
                 "text": "3. Limites de prise en compte de certains événements externes"
@@ -1195,7 +1303,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe III",
+          "reference": {
+            "name": "INFORMATIONS MINIMALES DEVANT ÊTRE CONTENUES DANS LES ÉTUDES DE DANGERS",
+            "nb": "Annexe III"
+          },
           "sections": [
             {
               "annotations": {
@@ -1214,7 +1325,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III I.",
+              "reference": {
+                "name": "Dispositions communes",
+                "nb": "Annexe III > I."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1246,7 +1360,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III I. 1.",
+                  "reference": {
+                    "name": "Présentation de l'environnement de l'établissement",
+                    "nb": "Annexe III > I. 1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "1. Présentation de l'environnement de l'établissement :"
@@ -1299,7 +1416,10 @@
                       " La liste des produits de décomposition susceptibles d'être émis en cas d'incendie, visée au c), est adressée au préfet lors de l'élaboration, de la révision ou de la mise à jour d'une étude de dangers, et lorsque cette étude est soumise au réexamen visé à l'article R. 515-98, au plus tard le 30 juin 2025. Le plan d'opération interne est mis à jour dans le même délai. [Article 9]"
                     ]
                   },
-                  "reference_str": "Annexe III I. 2.",
+                  "reference": {
+                    "name": "Description de l'installation",
+                    "nb": "Annexe III > I. 2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "2. Description de l'installation :"
@@ -1344,7 +1464,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III I. 3.",
+                  "reference": {
+                    "name": "Identification et analyse des risques d'accident et moyens de prévention",
+                    "nb": "Annexe III > I. 3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3. Identification et analyse des risques d'accident et moyens de prévention :"
@@ -1377,7 +1500,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III I. 4.",
+                  "reference": {
+                    "name": "Mesures de protection et d'intervention pour limiter les conséquences d'un accident majeur",
+                    "nb": "Annexe III > I. 4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4. Mesures de protection et d'intervention pour limiter les conséquences d'un accident majeur :"
@@ -1712,7 +1838,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe III I. 5.",
+                  "reference": {
+                    "name": "Grille de présentation des accidents potentiels en termes de couple probabilité-gravité des conséquences sur les personnes",
+                    "nb": "Annexe III > I. 5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "5. Grille de présentation des accidents potentiels en termes de couple probabilité-gravité des conséquences sur les personnes :"
@@ -1750,7 +1879,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe III II.",
+              "reference": {
+                "name": "Informations complémentaires",
+                "nb": "Annexe III > II."
+              },
               "sections": [],
               "title": {
                 "text": "II. - Informations complémentaires"
@@ -1778,7 +1910,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe IV",
+          "reference": {
+            "name": "ÉLÉMENTS D'INFORMATION À COMMUNIQUER AU PUBLIC PAR LE PRÉFET EN APPLICATION DE L'ARTICLE R. 515-89",
+            "nb": "Annexe IV"
+          },
           "sections": [
             {
               "annotations": {
@@ -1822,7 +1957,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV",
+              "reference": {
+                "name": "PARTIE 1",
+                "nb": "Annexe IV"
+              },
               "sections": [],
               "title": {
                 "text": "PARTIE 1 :"
@@ -1864,7 +2002,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe IV",
+              "reference": {
+                "name": "PARTIE 2",
+                "nb": "Annexe IV"
+              },
               "sections": [],
               "title": {
                 "text": "PARTIE 2 :"
@@ -1923,7 +2064,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe V",
+          "reference": {
+            "name": "DONNÉES ET INFORMATIONS DEVANT FIGURER DANS LE PLAN D'OPÉRATION INTERNE, OU DANS SA MISE À JOUR POSTÉRIEURE AU 31 DÉCEMBRE 2021",
+            "nb": "Annexe V"
+          },
           "sections": [],
           "title": {
             "text": "Annexe V - DONNÉES ET INFORMATIONS DEVANT FIGURER DANS LE PLAN D'OPÉRATION INTERNE, OU DANS SA MISE À JOUR POSTÉRIEURE AU 31 DÉCEMBRE 2021"

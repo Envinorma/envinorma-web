@@ -65,7 +65,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DISPOSITIONS GÉNÉRALES",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -84,7 +87,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1",
+          "reference": {
+            "name": "DISPOSITIONS GÉNÉRALES",
+            "nb": "Article 1"
+          },
           "sections": [
             {
               "annotations": {
@@ -107,7 +113,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 1",
+              "reference": {
+                "name": "DISPOSITIONS GÉNÉRALES",
+                "nb": "Article 1 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I."
@@ -152,7 +161,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 1",
+              "reference": {
+                "name": "DISPOSITIONS GÉNÉRALES",
+                "nb": "Article 1 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II."
@@ -180,7 +192,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2",
+          "reference": {
+            "name": "DISPOSITIONS GÉNÉRALES",
+            "nb": "Article 2"
+          },
           "sections": [
             {
               "annotations": {
@@ -203,7 +218,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2",
+              "reference": {
+                "name": "DISPOSITIONS GÉNÉRALES",
+                "nb": "Article 2 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I."
@@ -230,7 +248,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 2",
+              "reference": {
+                "name": "DISPOSITIONS GÉNÉRALES",
+                "nb": "Article 2 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II."
@@ -268,7 +289,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3",
+          "reference": {
+            "name": "DISPOSITIONS GÉNÉRALES",
+            "nb": "Article 3"
+          },
           "sections": [],
           "title": {
             "text": "Article 3"
@@ -296,7 +320,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "GESTION DES INSTALLATIONS",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -325,7 +352,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4",
+          "reference": {
+            "name": "GESTION DES INSTALLATIONS",
+            "nb": "Article 4"
+          },
           "sections": [],
           "title": {
             "text": "Article 4"
@@ -358,20 +388,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -382,7 +412,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5",
+          "reference": {
+            "name": "GESTION DES INSTALLATIONS",
+            "nb": "Article 5"
+          },
           "sections": [],
           "title": {
             "text": "Article 5"
@@ -412,20 +445,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -436,7 +469,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 6",
+          "reference": {
+            "name": "GESTION DES INSTALLATIONS",
+            "nb": "Article 6"
+          },
           "sections": [],
           "title": {
             "text": "Article 6"
@@ -466,7 +502,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 7",
+          "reference": {
+            "name": "GESTION DES INSTALLATIONS",
+            "nb": "Article 7"
+          },
           "sections": [],
           "title": {
             "text": "Article 7"
@@ -493,7 +532,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 8",
+          "reference": {
+            "name": "GESTION DES INSTALLATIONS",
+            "nb": "Article 8"
+          },
           "sections": [],
           "title": {
             "text": "Article 8"
@@ -532,20 +574,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -556,7 +598,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 9",
+          "reference": {
+            "name": "GESTION DES INSTALLATIONS",
+            "nb": "Article 9"
+          },
           "sections": [],
           "title": {
             "text": "Article 9"
@@ -589,7 +634,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 10",
+          "reference": {
+            "name": "GESTION DES INSTALLATIONS",
+            "nb": "Article 10"
+          },
           "sections": [],
           "title": {
             "text": "Article 10"
@@ -622,20 +670,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -646,7 +694,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 11",
+          "reference": {
+            "name": "GESTION DES INSTALLATIONS",
+            "nb": "Article 11"
+          },
           "sections": [],
           "title": {
             "text": "Article 11"
@@ -700,20 +751,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -724,7 +775,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 12",
+          "reference": {
+            "name": "GESTION DES INSTALLATIONS",
+            "nb": "Article 12"
+          },
           "sections": [],
           "title": {
             "text": "Article 12"
@@ -752,7 +806,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "GESTION DES SUBSTANCES OU DÉCHETS RADIOACTIFS",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -775,7 +832,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 13",
+          "reference": {
+            "name": "GESTION DES SUBSTANCES OU DÉCHETS RADIOACTIFS",
+            "nb": "Article 13"
+          },
           "sections": [],
           "title": {
             "text": "Article 13"
@@ -808,20 +868,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -832,7 +892,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 14",
+          "reference": {
+            "name": "GESTION DES SUBSTANCES OU DÉCHETS RADIOACTIFS",
+            "nb": "Article 14"
+          },
           "sections": [],
           "title": {
             "text": "Article 14"
@@ -862,20 +925,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -886,15 +949,6 @@
                 "alineas": null,
                 "condition": {
                   "conditions": [
-                    {
-                      "parameter": {
-                        "id": "date-d-autorisation",
-                        "type": "DATE"
-                      },
-                      "strict": true,
-                      "target": "2016-01-01",
-                      "type": "LITTLER"
-                    },
                     {
                       "parameter": {
                         "id": "rubrique",
@@ -902,6 +956,15 @@
                       },
                       "target": "1716",
                       "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
+                        "id": "date-d-autorisation",
+                        "type": "DATE"
+                      },
+                      "strict": true,
+                      "target": "2016-01-01",
+                      "type": "LITTLER"
                     }
                   ],
                   "type": "AND"
@@ -914,20 +977,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -938,7 +1001,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 15",
+          "reference": {
+            "name": "GESTION DES SUBSTANCES OU DÉCHETS RADIOACTIFS",
+            "nb": "Article 15"
+          },
           "sections": [],
           "title": {
             "text": "Article 15"
@@ -968,20 +1034,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -994,20 +1060,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1018,7 +1084,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 16",
+          "reference": {
+            "name": "GESTION DES SUBSTANCES OU DÉCHETS RADIOACTIFS",
+            "nb": "Article 16"
+          },
           "sections": [],
           "title": {
             "text": "Article 16"
@@ -1054,20 +1123,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1080,15 +1149,6 @@
                 ],
                 "condition": {
                   "conditions": [
-                    {
-                      "parameter": {
-                        "id": "date-d-autorisation",
-                        "type": "DATE"
-                      },
-                      "strict": true,
-                      "target": "2016-01-01",
-                      "type": "LITTLER"
-                    },
                     {
                       "parameter": {
                         "id": "rubrique",
@@ -1096,6 +1156,15 @@
                       },
                       "target": "1716",
                       "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
+                        "id": "date-d-autorisation",
+                        "type": "DATE"
+                      },
+                      "strict": true,
+                      "target": "2016-01-01",
+                      "type": "LITTLER"
                     }
                   ],
                   "type": "AND"
@@ -1110,20 +1179,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1134,7 +1203,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 17",
+          "reference": {
+            "name": "GESTION DES SUBSTANCES OU DÉCHETS RADIOACTIFS",
+            "nb": "Article 17"
+          },
           "sections": [],
           "title": {
             "text": "Article 17"
@@ -1164,20 +1236,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1188,15 +1260,6 @@
                 "alineas": null,
                 "condition": {
                   "conditions": [
-                    {
-                      "parameter": {
-                        "id": "date-d-autorisation",
-                        "type": "DATE"
-                      },
-                      "strict": true,
-                      "target": "2016-01-01",
-                      "type": "LITTLER"
-                    },
                     {
                       "parameter": {
                         "id": "rubrique",
@@ -1204,6 +1267,15 @@
                       },
                       "target": "1716",
                       "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
+                        "id": "date-d-autorisation",
+                        "type": "DATE"
+                      },
+                      "strict": true,
+                      "target": "2016-01-01",
+                      "type": "LITTLER"
                     }
                   ],
                   "type": "AND"
@@ -1216,20 +1288,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1240,7 +1312,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 18",
+          "reference": {
+            "name": "GESTION DES SUBSTANCES OU DÉCHETS RADIOACTIFS",
+            "nb": "Article 18"
+          },
           "sections": [],
           "title": {
             "text": "Article 18"
@@ -1270,20 +1345,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1294,15 +1369,6 @@
                 "alineas": null,
                 "condition": {
                   "conditions": [
-                    {
-                      "parameter": {
-                        "id": "date-d-autorisation",
-                        "type": "DATE"
-                      },
-                      "strict": true,
-                      "target": "2016-01-01",
-                      "type": "LITTLER"
-                    },
                     {
                       "parameter": {
                         "id": "rubrique",
@@ -1310,6 +1376,15 @@
                       },
                       "target": "1716",
                       "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
+                        "id": "date-d-autorisation",
+                        "type": "DATE"
+                      },
+                      "strict": true,
+                      "target": "2016-01-01",
+                      "type": "LITTLER"
                     }
                   ],
                   "type": "AND"
@@ -1322,20 +1397,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1346,7 +1421,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 19",
+          "reference": {
+            "name": "GESTION DES SUBSTANCES OU DÉCHETS RADIOACTIFS",
+            "nb": "Article 19"
+          },
           "sections": [],
           "title": {
             "text": "Article 19"
@@ -1382,20 +1460,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1406,7 +1484,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 20",
+          "reference": {
+            "name": "GESTION DES SUBSTANCES OU DÉCHETS RADIOACTIFS",
+            "nb": "Article 20"
+          },
           "sections": [],
           "title": {
             "text": "Article 20"
@@ -1436,20 +1517,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1460,7 +1541,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 21",
+          "reference": {
+            "name": "GESTION DES SUBSTANCES OU DÉCHETS RADIOACTIFS",
+            "nb": "Article 21"
+          },
           "sections": [],
           "title": {
             "text": "Article 21"
@@ -1490,7 +1574,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 22",
+          "reference": {
+            "name": "GESTION DES SUBSTANCES OU DÉCHETS RADIOACTIFS",
+            "nb": "Article 22"
+          },
           "sections": [],
           "title": {
             "text": "Article 22"
@@ -1521,20 +1608,20 @@
               "conditions": [
                 {
                   "parameter": {
-                    "id": "rubrique",
-                    "type": "RUBRIQUE"
-                  },
-                  "target": "1735",
-                  "type": "EQUAL"
-                },
-                {
-                  "parameter": {
                     "id": "date-d-autorisation",
                     "type": "DATE"
                   },
                   "strict": true,
                   "target": "2016-01-01",
                   "type": "LITTLER"
+                },
+                {
+                  "parameter": {
+                    "id": "rubrique",
+                    "type": "RUBRIQUE"
+                  },
+                  "target": "1735",
+                  "type": "EQUAL"
                 }
               ],
               "type": "AND"
@@ -1545,7 +1632,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "PRÉVENTION DE LA POLLUTION ATMOSPHÉRIQUE",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -1580,20 +1670,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1716",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1716",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1606,20 +1696,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1630,7 +1720,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 23",
+          "reference": {
+            "name": "PRÉVENTION DE LA POLLUTION ATMOSPHÉRIQUE",
+            "nb": "Article 23"
+          },
           "sections": [],
           "title": {
             "text": "Article 23"
@@ -1660,20 +1753,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1716",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1716",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1686,20 +1779,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1710,7 +1803,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 24",
+          "reference": {
+            "name": "PRÉVENTION DE LA POLLUTION ATMOSPHÉRIQUE",
+            "nb": "Article 24"
+          },
           "sections": [],
           "title": {
             "text": "Article 24"
@@ -1755,7 +1851,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 25",
+          "reference": {
+            "name": "PRÉVENTION DE LA POLLUTION ATMOSPHÉRIQUE",
+            "nb": "Article 25"
+          },
           "sections": [],
           "title": {
             "text": "Article 25"
@@ -1785,20 +1884,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1716",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1716",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1811,20 +1910,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1835,7 +1934,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 26",
+          "reference": {
+            "name": "PRÉVENTION DE LA POLLUTION ATMOSPHÉRIQUE",
+            "nb": "Article 26"
+          },
           "sections": [],
           "title": {
             "text": "Article 26"
@@ -1863,7 +1965,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "PROTECTION DE LA RESSOURCE EN EAU ET DES MILIEUX AQUATIQUES",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -1882,7 +1987,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 27",
+          "reference": {
+            "name": "PROTECTION DE LA RESSOURCE EN EAU ET DES MILIEUX AQUATIQUES",
+            "nb": "Article 27"
+          },
           "sections": [
             {
               "annotations": {
@@ -1929,7 +2037,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 27",
+              "reference": {
+                "name": "PROTECTION DE LA RESSOURCE EN EAU ET DES MILIEUX AQUATIQUES",
+                "nb": "Article 27 > I."
+              },
               "sections": [],
               "title": {
                 "text": "I."
@@ -1959,20 +2070,20 @@
                       "conditions": [
                         {
                           "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "1735",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
                             "id": "date-d-autorisation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2016-01-01",
                           "type": "LITTLER"
+                        },
+                        {
+                          "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "1735",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -1983,15 +2094,6 @@
                     "alineas": null,
                     "condition": {
                       "conditions": [
-                        {
-                          "parameter": {
-                            "id": "date-d-autorisation",
-                            "type": "DATE"
-                          },
-                          "strict": true,
-                          "target": "2016-01-01",
-                          "type": "LITTLER"
-                        },
                         {
                           "parameter": {
                             "id": "rubrique",
@@ -1999,6 +2101,15 @@
                           },
                           "target": "1716",
                           "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "date-d-autorisation",
+                            "type": "DATE"
+                          },
+                          "strict": true,
+                          "target": "2016-01-01",
+                          "type": "LITTLER"
                         }
                       ],
                       "type": "AND"
@@ -2011,20 +2122,20 @@
                       "conditions": [
                         {
                           "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2797",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
                             "id": "date-d-autorisation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2016-01-01",
                           "type": "LITTLER"
+                        },
+                        {
+                          "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2797",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -2035,7 +2146,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 27",
+              "reference": {
+                "name": "PROTECTION DE LA RESSOURCE EN EAU ET DES MILIEUX AQUATIQUES",
+                "nb": "Article 27 > II."
+              },
               "sections": [],
               "title": {
                 "text": "II."
@@ -2082,7 +2196,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 28",
+          "reference": {
+            "name": "PROTECTION DE LA RESSOURCE EN EAU ET DES MILIEUX AQUATIQUES",
+            "nb": "Article 28"
+          },
           "sections": [],
           "title": {
             "text": "Article 28"
@@ -2121,20 +2238,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -2147,20 +2264,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1716",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1716",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -2171,7 +2288,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 29",
+          "reference": {
+            "name": "PROTECTION DE LA RESSOURCE EN EAU ET DES MILIEUX AQUATIQUES",
+            "nb": "Article 29"
+          },
           "sections": [],
           "title": {
             "text": "Article 29"
@@ -2204,20 +2324,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -2228,7 +2348,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 30",
+          "reference": {
+            "name": "PROTECTION DE LA RESSOURCE EN EAU ET DES MILIEUX AQUATIQUES",
+            "nb": "Article 30"
+          },
           "sections": [],
           "title": {
             "text": "Article 30"
@@ -2261,20 +2384,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -2285,7 +2408,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 31",
+          "reference": {
+            "name": "PROTECTION DE LA RESSOURCE EN EAU ET DES MILIEUX AQUATIQUES",
+            "nb": "Article 31"
+          },
           "sections": [],
           "title": {
             "text": "Article 31"
@@ -2313,7 +2439,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DÉCHETS",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -2332,7 +2461,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Règles générales de gestion",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -2364,20 +2496,20 @@
                       "conditions": [
                         {
                           "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "1735",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
                             "id": "date-d-autorisation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2016-01-01",
                           "type": "LITTLER"
+                        },
+                        {
+                          "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "1735",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -2388,7 +2520,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 32",
+              "reference": {
+                "name": "Règles générales de gestion",
+                "nb": "Article 32"
+              },
               "sections": [],
               "title": {
                 "text": "Article 32"
@@ -2418,20 +2553,20 @@
                       "conditions": [
                         {
                           "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "1735",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
                             "id": "date-d-autorisation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2016-01-01",
                           "type": "LITTLER"
+                        },
+                        {
+                          "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "1735",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -2442,15 +2577,6 @@
                     "alineas": null,
                     "condition": {
                       "conditions": [
-                        {
-                          "parameter": {
-                            "id": "date-d-autorisation",
-                            "type": "DATE"
-                          },
-                          "strict": true,
-                          "target": "2016-01-01",
-                          "type": "LITTLER"
-                        },
                         {
                           "parameter": {
                             "id": "rubrique",
@@ -2458,6 +2584,15 @@
                           },
                           "target": "1716",
                           "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "date-d-autorisation",
+                            "type": "DATE"
+                          },
+                          "strict": true,
+                          "target": "2016-01-01",
+                          "type": "LITTLER"
                         }
                       ],
                       "type": "AND"
@@ -2470,20 +2605,20 @@
                       "conditions": [
                         {
                           "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2797",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
                             "id": "date-d-autorisation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2016-01-01",
                           "type": "LITTLER"
+                        },
+                        {
+                          "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2797",
+                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -2494,7 +2629,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 33",
+              "reference": {
+                "name": "Règles générales de gestion",
+                "nb": "Article 33"
+              },
               "sections": [],
               "title": {
                 "text": "Article 33"
@@ -2533,7 +2671,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 34",
+              "reference": {
+                "name": "Règles générales de gestion",
+                "nb": "Article 34"
+              },
               "sections": [],
               "title": {
                 "text": "Article 34"
@@ -2564,20 +2705,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -2588,7 +2729,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Règles particulières de gestion des déchets radioactifs",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -2626,7 +2770,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 35",
+              "reference": {
+                "name": "Règles particulières de gestion des déchets radioactifs",
+                "nb": "Article 35"
+              },
               "sections": [],
               "title": {
                 "text": "Article 35"
@@ -2656,7 +2803,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 36",
+              "reference": {
+                "name": "Règles particulières de gestion des déchets radioactifs",
+                "nb": "Article 36"
+              },
               "sections": [],
               "title": {
                 "text": "Article 36"
@@ -2683,7 +2833,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 37",
+              "reference": {
+                "name": "Règles particulières de gestion des déchets radioactifs",
+                "nb": "Article 37"
+              },
               "sections": [],
               "title": {
                 "text": "Article 37"
@@ -2710,7 +2863,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 38",
+              "reference": {
+                "name": "Règles particulières de gestion des déchets radioactifs",
+                "nb": "Article 38"
+              },
               "sections": [],
               "title": {
                 "text": "Article 38"
@@ -2746,20 +2902,20 @@
               "conditions": [
                 {
                   "parameter": {
-                    "id": "rubrique",
-                    "type": "RUBRIQUE"
-                  },
-                  "target": "1735",
-                  "type": "EQUAL"
-                },
-                {
-                  "parameter": {
                     "id": "date-d-autorisation",
                     "type": "DATE"
                   },
                   "strict": true,
                   "target": "2016-01-01",
                   "type": "LITTLER"
+                },
+                {
+                  "parameter": {
+                    "id": "rubrique",
+                    "type": "RUBRIQUE"
+                  },
+                  "target": "1735",
+                  "type": "EQUAL"
                 }
               ],
               "type": "AND"
@@ -2770,7 +2926,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "PRÉVENTION DES RISQUES TECHNOLOGIQUES",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -2796,20 +2955,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1716",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1716",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -2822,20 +2981,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -2846,7 +3005,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 39",
+          "reference": {
+            "name": "PRÉVENTION DES RISQUES TECHNOLOGIQUES",
+            "nb": "Article 39"
+          },
           "sections": [],
           "title": {
             "text": "Article 39"
@@ -2876,7 +3038,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 40",
+          "reference": {
+            "name": "PRÉVENTION DES RISQUES TECHNOLOGIQUES",
+            "nb": "Article 40"
+          },
           "sections": [],
           "title": {
             "text": "Article 40"
@@ -2936,7 +3101,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 41",
+          "reference": {
+            "name": "PRÉVENTION DES RISQUES TECHNOLOGIQUES",
+            "nb": "Article 41"
+          },
           "sections": [],
           "title": {
             "text": "Article 41"
@@ -2978,20 +3146,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1716",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1716",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3004,20 +3172,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3028,7 +3196,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 42",
+          "reference": {
+            "name": "PRÉVENTION DES RISQUES TECHNOLOGIQUES",
+            "nb": "Article 42"
+          },
           "sections": [],
           "title": {
             "text": "Article 42"
@@ -3061,20 +3232,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1716",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1716",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3087,20 +3258,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3111,7 +3282,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 43",
+          "reference": {
+            "name": "PRÉVENTION DES RISQUES TECHNOLOGIQUES",
+            "nb": "Article 43"
+          },
           "sections": [],
           "title": {
             "text": "Article 43"
@@ -3159,20 +3333,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1716",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1716",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3185,20 +3359,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3209,7 +3383,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 44",
+          "reference": {
+            "name": "PRÉVENTION DES RISQUES TECHNOLOGIQUES",
+            "nb": "Article 44"
+          },
           "sections": [],
           "title": {
             "text": "Article 44"
@@ -3239,20 +3416,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1716",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1716",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3265,20 +3442,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3289,7 +3466,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 45",
+          "reference": {
+            "name": "PRÉVENTION DES RISQUES TECHNOLOGIQUES",
+            "nb": "Article 45"
+          },
           "sections": [],
           "title": {
             "text": "Article 45"
@@ -3337,20 +3517,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1716",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1716",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3363,20 +3543,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3387,7 +3567,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 46",
+          "reference": {
+            "name": "PRÉVENTION DES RISQUES TECHNOLOGIQUES",
+            "nb": "Article 46"
+          },
           "sections": [],
           "title": {
             "text": "Article 46"
@@ -3441,20 +3624,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1716",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1716",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3467,20 +3650,20 @@
                   "conditions": [
                     {
                       "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
-                    },
-                    {
-                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
+                    },
+                    {
+                      "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3491,7 +3674,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 47",
+          "reference": {
+            "name": "PRÉVENTION DES RISQUES TECHNOLOGIQUES",
+            "nb": "Article 47"
+          },
           "sections": [],
           "title": {
             "text": "Article 47"
@@ -3519,7 +3705,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "SURVEILLANCE DES INSTALLATIONS ET DE LEURS EFFETS",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -3557,7 +3746,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 48",
+          "reference": {
+            "name": "SURVEILLANCE DES INSTALLATIONS ET DE LEURS EFFETS",
+            "nb": "Article 48"
+          },
           "sections": [],
           "title": {
             "text": "Article 48"
@@ -3587,7 +3779,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 49",
+          "reference": {
+            "name": "SURVEILLANCE DES INSTALLATIONS ET DE LEURS EFFETS",
+            "nb": "Article 49"
+          },
           "sections": [],
           "title": {
             "text": "Article 49"
@@ -3620,7 +3815,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 50",
+          "reference": {
+            "name": "SURVEILLANCE DES INSTALLATIONS ET DE LEURS EFFETS",
+            "nb": "Article 50"
+          },
           "sections": [],
           "title": {
             "text": "Article 50"
@@ -3653,7 +3851,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 51",
+          "reference": {
+            "name": "SURVEILLANCE DES INSTALLATIONS ET DE LEURS EFFETS",
+            "nb": "Article 51"
+          },
           "sections": [],
           "title": {
             "text": "Article 51"
@@ -3680,7 +3881,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 52",
+          "reference": {
+            "name": "SURVEILLANCE DES INSTALLATIONS ET DE LEURS EFFETS",
+            "nb": "Article 52"
+          },
           "sections": [],
           "title": {
             "text": "Article 52"
@@ -3707,7 +3911,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 53",
+          "reference": {
+            "name": "SURVEILLANCE DES INSTALLATIONS ET DE LEURS EFFETS",
+            "nb": "Article 53"
+          },
           "sections": [],
           "title": {
             "text": "Article 53"
@@ -3735,7 +3942,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -3758,7 +3968,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe I",
+          "reference": {
+            "name": "SYSTÈME DE GESTION DE LA QUALITÉ (SGQ)",
+            "nb": "Annexe I"
+          },
           "sections": [
             {
               "annotations": {
@@ -3784,7 +3997,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 1.",
+              "reference": {
+                "name": "Organisation et personnel",
+                "nb": "Annexe I > 1."
+              },
               "sections": [],
               "title": {
                 "text": "1. Organisation et personnel"
@@ -3811,7 +4027,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 2.",
+              "reference": {
+                "name": "Identification et évaluation des risques",
+                "nb": "Annexe I > 2."
+              },
               "sections": [],
               "title": {
                 "text": "2. Identification et évaluation des risques"
@@ -3838,7 +4057,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 3.",
+              "reference": {
+                "name": "Maîtrise des procédés, contrôle d'exploitation",
+                "nb": "Annexe I > 3."
+              },
               "sections": [],
               "title": {
                 "text": "3. Maîtrise des procédés, contrôle d'exploitation"
@@ -3865,7 +4087,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 4.",
+              "reference": {
+                "name": "Gestion des modifications",
+                "nb": "Annexe I > 4."
+              },
               "sections": [],
               "title": {
                 "text": "4. Gestion des modifications"
@@ -3904,7 +4129,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 5.",
+              "reference": {
+                "name": "Planification des situations d'urgence",
+                "nb": "Annexe I > 5."
+              },
               "sections": [],
               "title": {
                 "text": "5. Planification des situations d'urgence"
@@ -3931,7 +4159,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 6.",
+              "reference": {
+                "name": "Gestion du retour d'expérience",
+                "nb": "Annexe I > 6."
+              },
               "sections": [],
               "title": {
                 "text": "6. Gestion du retour d'expérience"
@@ -3954,7 +4185,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe I 7.",
+              "reference": {
+                "name": "Surveillance des performances (contrôle du système de gestion de la qualité, audits et revues de direction)",
+                "nb": "Annexe I > 7."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3986,7 +4220,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.1.",
+                  "reference": {
+                    "name": "Contrôle du système de gestion de la qualité",
+                    "nb": "Annexe I > 7.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.1. Contrôle du système de gestion de la qualité"
@@ -4019,7 +4256,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.2.",
+                  "reference": {
+                    "name": "Audits",
+                    "nb": "Annexe I > 7.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.2. Audits"
@@ -4046,7 +4286,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe I 7.3.",
+                  "reference": {
+                    "name": "Revues de direction",
+                    "nb": "Annexe I > 7.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.3. Revues de direction"
@@ -4084,7 +4327,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -4119,7 +4365,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe II",
+          "reference": {
+            "name": "SURVEILLANCE DES EAUX SOUTERRAINES",
+            "nb": "Annexe II"
+          },
           "sections": [],
           "title": {
             "text": "Annexe II - SURVEILLANCE DES EAUX SOUTERRAINES"

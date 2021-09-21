@@ -51,7 +51,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 1",
+      "reference": {
+        "name": "",
+        "nb": "Article 1"
+      },
       "sections": [],
       "title": {
         "text": "Article 1"
@@ -96,7 +99,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 2",
+      "reference": {
+        "name": "",
+        "nb": "Article 2"
+      },
       "sections": [],
       "title": {
         "text": "Article 2"
@@ -138,7 +144,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 3",
+      "reference": {
+        "name": "",
+        "nb": "Article 3"
+      },
       "sections": [],
       "title": {
         "text": "Article 3"
@@ -168,7 +177,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 4",
+      "reference": {
+        "name": "",
+        "nb": "Article 4"
+      },
       "sections": [],
       "title": {
         "text": "Article 4"
@@ -198,7 +210,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 5",
+      "reference": {
+        "name": "",
+        "nb": "Article 5"
+      },
       "sections": [],
       "title": {
         "text": "Article 5"
@@ -225,7 +240,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 6",
+      "reference": {
+        "name": "",
+        "nb": "Article 6"
+      },
       "sections": [],
       "title": {
         "text": "Article 6"
@@ -248,7 +266,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 7",
+      "reference": {
+        "name": "a modifié les dispositions suivantes",
+        "nb": "Article 7"
+      },
       "sections": [],
       "title": {
         "text": "Article 7 - a modifié les dispositions suivantes"
@@ -275,7 +296,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 8",
+      "reference": {
+        "name": "",
+        "nb": "Article 8"
+      },
       "sections": [],
       "title": {
         "text": "Article 8"
@@ -302,7 +326,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 9",
+      "reference": {
+        "name": "",
+        "nb": "Article 9"
+      },
       "sections": [],
       "title": {
         "text": "Article 9"
@@ -325,7 +352,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Annexe",
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
       "sections": [
         {
           "annotations": {
@@ -344,7 +374,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Annexe",
+          "reference": {
+            "name": "Méthode de mesure des émissions sonores",
+            "nb": "Annexe"
+          },
           "sections": [
             {
               "annotations": {
@@ -373,7 +406,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Annexe Annexe",
+              "reference": {
+                "name": "Méthode de mesure des émissions sonores",
+                "nb": "Annexe"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -396,7 +432,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe Annexe 1.",
+                  "reference": {
+                    "name": "Définitions",
+                    "nb": "Annexe > 1."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -422,7 +461,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe Annexe 1.1.",
+                      "reference": {
+                        "name": "Niveau de pression acoustique continu",
+                        "nb": "Annexe > 1.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.1. Niveau de pression acoustique continu"
@@ -449,7 +491,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe Annexe 1.2.",
+                      "reference": {
+                        "name": "Niveau acoustique fractile, LAN, t",
+                        "nb": "Annexe > 1.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.2. Niveau acoustique fractile, LAN, t"
@@ -476,7 +521,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe Annexe 1.3.",
+                      "reference": {
+                        "name": "Intervalle de mesurage",
+                        "nb": "Annexe > 1.3."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.3. Intervalle de mesurage"
@@ -503,7 +551,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe Annexe 1.4.",
+                      "reference": {
+                        "name": "Intervalle d'observation",
+                        "nb": "Annexe > 1.4."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.4. Intervalle d'observation"
@@ -530,7 +581,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe Annexe 1.5.",
+                      "reference": {
+                        "name": "Intervalle de référence",
+                        "nb": "Annexe > 1.5."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.5. Intervalle de référence"
@@ -557,7 +611,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe Annexe 1.6.",
+                      "reference": {
+                        "name": "Bruit ambiant",
+                        "nb": "Annexe > 1.6."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.6. Bruit ambiant"
@@ -587,7 +644,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe Annexe 1.7.",
+                      "reference": {
+                        "name": "Bruit particulier",
+                        "nb": "Annexe > 1.7."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.7. Bruit particulier"
@@ -614,7 +674,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe Annexe 1.8.",
+                      "reference": {
+                        "name": "Bruit résiduel",
+                        "nb": "Annexe > 1.8."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.8. Bruit résiduel"
@@ -647,7 +710,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe Annexe 1.9.",
+                      "reference": {
+                        "name": "Tonalité marquée",
+                        "nb": "Annexe > 1.9."
+                      },
                       "sections": [],
                       "title": {
                         "text": "1.9. Tonalité marquée"
@@ -675,7 +741,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe Annexe 2.",
+                  "reference": {
+                    "name": "Méthode d'expertise (point 6 de la norme)",
+                    "nb": "Annexe > 2."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -704,7 +773,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe Annexe 2.1.",
+                      "reference": {
+                        "name": "Appareillage de mesure (point 6.1 de la norme)",
+                        "nb": "Annexe > 2.1."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.1. Appareillage de mesure (point 6.1 de la norme)"
@@ -737,7 +809,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe Annexe 2.2.",
+                      "reference": {
+                        "name": "Conditions de mesurage (point 6.2 de la norme)",
+                        "nb": "Annexe > 2.2."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.2. Conditions de mesurage (point 6.2 de la norme)"
@@ -764,7 +839,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe Annexe 2.3.",
+                      "reference": {
+                        "name": "Gamme de fréquence (point 6.3 de la norme)",
+                        "nb": "Annexe > 2.3."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.3. Gamme de fréquence (point 6.3 de la norme)"
@@ -791,7 +869,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe Annexe 2.4.",
+                      "reference": {
+                        "name": "Conditions météorologiques (point 6.4 de la norme)",
+                        "nb": "Annexe > 2.4."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.4. Conditions météorologiques (point 6.4 de la norme)"
@@ -818,7 +899,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe Annexe 2.5.",
+                      "reference": {
+                        "name": "Indicateurs (point 6.5 de la norme)",
+                        "nb": "Annexe > 2.5."
+                      },
                       "sections": [
                         {
                           "annotations": {
@@ -859,7 +943,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe Annexe 2.5. a)",
+                          "reference": {
+                            "name": "Contrôle des niveaux de bruit admissibles en limites de propriété.",
+                            "nb": "Annexe > 2.5. a)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "a) Contrôle des niveaux de bruit admissibles en limites de propriété."
@@ -898,7 +985,10 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": "Annexe Annexe 2.5. b)",
+                          "reference": {
+                            "name": "Contrôle de l'émergence.",
+                            "nb": "Annexe > 2.5. b)"
+                          },
                           "sections": [],
                           "title": {
                             "text": "b) Contrôle de l'émergence."
@@ -984,7 +1074,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Annexe Annexe 2.6.",
+                      "reference": {
+                        "name": "Acquisitions des données, choix et durée des intervalles",
+                        "nb": "Annexe > 2.6."
+                      },
                       "sections": [],
                       "title": {
                         "text": "2.6. Acquisitions des données, choix et durée des intervalles"
@@ -1025,7 +1118,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe Annexe 3.",
+                  "reference": {
+                    "name": "Méthode de contrôle (point 5 de la norme)",
+                    "nb": "Annexe > 3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "3. Méthode de contrôle (point 5 de la norme)"
@@ -1052,7 +1148,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Annexe Annexe 4.",
+                  "reference": {
+                    "name": "Rapport de mesurage (point 7 de la norme)",
+                    "nb": "Annexe > 4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "4. Rapport de mesurage (point 7 de la norme)"

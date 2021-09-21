@@ -76,7 +76,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DOMAINE D'APPLICATION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -145,7 +148,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1",
+          "reference": {
+            "name": "DOMAINE D'APPLICATION",
+            "nb": "Article 1"
+          },
           "sections": [],
           "title": {
             "text": "Article 1"
@@ -250,7 +256,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2",
+          "reference": {
+            "name": "DOMAINE D'APPLICATION",
+            "nb": "Article 2"
+          },
           "sections": [],
           "title": {
             "text": "Article 2"
@@ -278,7 +287,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DISPOSITIONS GENERALES",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -301,7 +313,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3",
+          "reference": {
+            "name": "DISPOSITIONS GENERALES",
+            "nb": "Article 3"
+          },
           "sections": [],
           "title": {
             "text": "Article 3"
@@ -324,7 +339,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 4",
+          "reference": {
+            "name": "Exploitation des installations et formation du personnel.",
+            "nb": "Article 4"
+          },
           "sections": [
             {
               "annotations": {
@@ -347,7 +365,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 4 4.1.",
+              "reference": {
+                "name": "Exploitation des installations",
+                "nb": "Article 4 > 4.1."
+              },
               "sections": [],
               "title": {
                 "text": "4.1. Exploitation des installations :"
@@ -383,7 +404,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 4 4.2.",
+              "reference": {
+                "name": "Formation du personnel",
+                "nb": "Article 4 > 4.2."
+              },
               "sections": [],
               "title": {
                 "text": "4.2. Formation du personnel :"
@@ -411,7 +435,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 5",
+          "reference": {
+            "name": "DISPOSITIONS GENERALES",
+            "nb": "Article 5"
+          },
           "sections": [
             {
               "annotations": {
@@ -498,7 +525,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 5 5.1.",
+              "reference": {
+                "name": "Consignes de sécurité et procédures d'exploitation",
+                "nb": "Article 5 > 5.1."
+              },
               "sections": [],
               "title": {
                 "text": "5.1. Consignes de sécurité et procédures d'exploitation :"
@@ -528,7 +558,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 5 5.2.",
+              "reference": {
+                "name": "Nettoyage des installations",
+                "nb": "Article 5 > 5.2."
+              },
               "sections": [],
               "title": {
                 "text": "5.2. Nettoyage des installations :"
@@ -561,7 +594,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 5 5.3.",
+              "reference": {
+                "name": "Connaissance des produits dangereux, étiquetage",
+                "nb": "Article 5 > 5.3."
+              },
               "sections": [],
               "title": {
                 "text": "5.3. Connaissance des produits dangereux, étiquetage :"
@@ -606,7 +642,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 5 5.4.",
+              "reference": {
+                "name": "Enregistrement de suivi en continu des engrais",
+                "nb": "Article 5 > 5.4."
+              },
               "sections": [],
               "title": {
                 "text": "5.4. Enregistrement de suivi en continu des engrais :"
@@ -642,7 +681,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 5 5.5.",
+              "reference": {
+                "name": "Travaux",
+                "nb": "Article 5 > 5.5."
+              },
               "sections": [],
               "title": {
                 "text": "5.5. Travaux :"
@@ -669,7 +711,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 5 5.6.",
+              "reference": {
+                "name": "Stationnement des véhicules",
+                "nb": "Article 5 > 5.6."
+              },
               "sections": [],
               "title": {
                 "text": "5.6. Stationnement des véhicules :"
@@ -707,7 +752,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 6",
+          "reference": {
+            "name": "Contrôles et analyses.",
+            "nb": "Article 6"
+          },
           "sections": [],
           "title": {
             "text": "Article 6 - Contrôles et analyses."
@@ -735,7 +783,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "IMPLANTATION ET AMENAGEMENT GENERAL",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -754,7 +805,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 7",
+          "reference": {
+            "name": "IMPLANTATION ET AMENAGEMENT GENERAL",
+            "nb": "Article 7"
+          },
           "sections": [
             {
               "annotations": {
@@ -795,7 +849,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 7.1.",
+              "reference": {
+                "name": "Implantation",
+                "nb": "Article 7 > 7.1."
+              },
               "sections": [],
               "title": {
                 "text": "7.1. Implantation :"
@@ -818,7 +875,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 7.2.",
+              "reference": {
+                "name": "Aménagement",
+                "nb": "Article 7 > 7.2."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -837,7 +897,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 7 7.2.1.",
+                  "reference": {
+                    "name": "Les stockages comportent un seul niveau. Ils ne sont ni en sous-sol, ni en étage.",
+                    "nb": "Article 7 > 7.2.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.2.1. Les stockages comportent un seul niveau. Ils ne sont ni en sous-sol, ni en étage."
@@ -860,7 +923,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 7 7.2.2.",
+                  "reference": {
+                    "name": "Les stockages sont conçus de manière à éviter toute accumulation indésirable d'engrais.",
+                    "nb": "Article 7 > 7.2.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.2.2. Les stockages sont conçus de manière à éviter toute accumulation indésirable d'engrais."
@@ -888,7 +954,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 7.3.",
+              "reference": {
+                "name": "Accessibilité",
+                "nb": "Article 7 > 7.3."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -917,7 +986,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 7 7.3.1.",
+                  "reference": {
+                    "name": "Accessibilité au site",
+                    "nb": "Article 7 > 7.3.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.3.1. Accessibilité au site :"
@@ -944,7 +1016,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 7 7.3.2.",
+                  "reference": {
+                    "name": "Accessibilité des engins à proximité des stockages",
+                    "nb": "Article 7 > 7.3.2."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -985,7 +1060,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 7 7.3.2. a)",
+                      "reference": {
+                        "name": "Pour les installations nouvelles",
+                        "nb": "Article 7 > 7.3.2. a)"
+                      },
                       "sections": [],
                       "title": {
                         "text": "a) Pour les installations nouvelles :"
@@ -1068,7 +1146,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 7 7.3.2. b)",
+                      "reference": {
+                        "name": "Pour les installations existantes autorisées à compter du 3 avril 1994",
+                        "nb": "Article 7 > 7.3.2. b)"
+                      },
                       "sections": [],
                       "title": {
                         "text": "b) Pour les installations existantes autorisées à compter du 3 avril 1994 :"
@@ -1112,7 +1193,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 7 7.3.3.",
+                  "reference": {
+                    "name": "Déplacement des engins de secours à l'intérieur de l'établissement",
+                    "nb": "Article 7 > 7.3.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.3.3. Déplacement des engins de secours à l'intérieur de l'établissement :"
@@ -1160,7 +1244,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 7 7.3.4.",
+                  "reference": {
+                    "name": "Mise en place des échelles en vue d'appuyer un dispositif hydraulique pour les magasins de stockage",
+                    "nb": "Article 7 > 7.3.4."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.3.4. Mise en place des échelles en vue d'appuyer un dispositif hydraulique pour les magasins de stockage :"
@@ -1196,7 +1283,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 7 7.3.5.",
+                  "reference": {
+                    "name": "Etablissement du dispositif hydraulique depuis les engins",
+                    "nb": "Article 7 > 7.3.5."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.3.5. Etablissement du dispositif hydraulique depuis les engins :"
@@ -1224,7 +1314,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 7.4.",
+              "reference": {
+                "name": "Réaction au feu",
+                "nb": "Article 7 > 7.4."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1247,7 +1340,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 7 7.4. a)",
+                  "reference": {
+                    "name": "Pour les installations nouvelles",
+                    "nb": "Article 7 > 7.4. a)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "a) Pour les installations nouvelles :"
@@ -1291,7 +1387,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 7 7.4. b)",
+                  "reference": {
+                    "name": "Pour les installations existantes autorisées à compter du 3 avril 1994",
+                    "nb": "Article 7 > 7.4. b)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "b) Pour les installations existantes autorisées à compter du 3 avril 1994 :"
@@ -1318,7 +1417,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 7 7.4. c)",
+                  "reference": {
+                    "name": "Cases de stockage d'engrais 4702-I : pour les installations existantes autorisées avant le 3 avril 1994 et les installations existantes fonctionnant au bénéfice des droits acquis en vertu du décret du 28 décembre 1999",
+                    "nb": "Article 7 > 7.4. c)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "c) Cases de stockage d'engrais 4702-I : pour les installations existantes autorisées avant le 3 avril 1994 et les installations existantes fonctionnant au bénéfice des droits acquis en vertu du décret du 28 décembre 1999 :"
@@ -1345,7 +1447,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 7 7.4. d)",
+                  "reference": {
+                    "name": "Cases de stockage d'engrais 4702-II ou 4702-III : pour les installations existantes autorisées avant le 3 avril 1994 et les installations existantes fonctionnant au bénéfice des droits acquis en vertu du décret du 28 décembre 1999",
+                    "nb": "Article 7 > 7.4. d)"
+                  },
                   "sections": [],
                   "title": {
                     "text": "d) Cases de stockage d'engrais 4702-II ou 4702-III : pour les installations existantes autorisées avant le 3 avril 1994 et les installations existantes fonctionnant au bénéfice des droits acquis en vertu du décret du 28 décembre 1999 :"
@@ -1377,7 +1482,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 7.5.",
+              "reference": {
+                "name": "Résistance au feu",
+                "nb": "Article 7 > 7.5."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1400,7 +1508,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 7 7.5.1.",
+                  "reference": {
+                    "name": "a) Pour les installations nouvelles",
+                    "nb": "Article 7 > 7.5.1."
+                  },
                   "sections": [
                     {
                       "annotations": {
@@ -1437,7 +1548,10 @@
                         "potential_modifications": [],
                         "warnings": []
                       },
-                      "reference_str": "Art. 7 7.5.1. b)",
+                      "reference": {
+                        "name": "Pour les installations existantes autorisées à compter du 3 avril 1994",
+                        "nb": "Article 7 > 7.5.1. b)"
+                      },
                       "sections": [],
                       "title": {
                         "text": "b) Pour les installations existantes autorisées à compter du 3 avril 1994 :"
@@ -1465,7 +1579,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 7 7.5.2.",
+                  "reference": {
+                    "name": "Portes et fermetures dont le mur correspondant est en contact avec des produits 4703 en quantité supérieure ou égale à 1 tonne ou des engrais et portes et fermetures dont le mur est mitoyen à une autre zone du bâtiment stockant des matières combustibles : EI1 120 pour les nouvelles installations et EI1 30 pour les installations existantes autorisées à compter du 3 avril 1994.",
+                    "nb": "Article 7 > 7.5.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.5.2. Portes et fermetures dont le mur correspondant est en contact avec des produits 4703 en quantité supérieure ou égale à 1 tonne ou des engrais et portes et fermetures dont le mur est mitoyen à une autre zone du bâtiment stockant des matières combustibles : EI1 120 pour les nouvelles installations et EI1 30 pour les installations existantes autorisées à compter du 3 avril 1994."
@@ -1509,7 +1626,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 7.6.",
+              "reference": {
+                "name": "Charpentes et toitures",
+                "nb": "Article 7 > 7.6."
+              },
               "sections": [],
               "title": {
                 "text": "7.6. Charpentes et toitures :"
@@ -1532,7 +1652,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7 7.7.",
+              "reference": {
+                "name": "Sol des installations",
+                "nb": "Article 7 > 7.7."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1551,7 +1674,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 7 7.7.1.",
+                  "reference": {
+                    "name": "Le sol des stockages et magasins de stockage ne présente pas de cavités (puisards, fentes, rigoles par exemple).",
+                    "nb": "Article 7 > 7.7.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.7.1. Le sol des stockages et magasins de stockage ne présente pas de cavités (puisards, fentes, rigoles par exemple)."
@@ -1858,7 +1984,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 7 7.7.2.",
+                  "reference": {
+                    "name": "Les sols des stockages sont en béton ou équivalent et présentent un caractère incombustible (A1FL) sans potentiel de contamination. Tout revêtement notamment d'asphalte ou d'enrobé ou contenant du bitume est interdit au niveau des stockages et magasins de stockage.",
+                    "nb": "Article 7 > 7.7.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "7.7.2. Les sols des stockages sont en béton ou équivalent et présentent un caractère incombustible (A1FL) sans potentiel de contamination. Tout revêtement notamment d'asphalte ou d'enrobé ou contenant du bitume est interdit au niveau des stockages et magasins de stockage."
@@ -1901,7 +2030,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 8",
+          "reference": {
+            "name": "Contrôle des accès.",
+            "nb": "Article 8"
+          },
           "sections": [],
           "title": {
             "text": "Article 8 - Contrôle des accès."
@@ -1924,7 +2056,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 9",
+          "reference": {
+            "name": "Evacuation des fumées.",
+            "nb": "Article 9"
+          },
           "sections": [
             {
               "annotations": {
@@ -2093,7 +2228,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 9 9.1.",
+              "reference": {
+                "name": "Les bâtiments abritant les installations sont équipés en partie haute  (tiers supérieur et au-dessus des tas) de dispositifs d'évacuation  naturelle des fumées (DENFC). Ces dispositifs sont de type passif (à  ouverture permanente) ou de type actif.",
+                "nb": "Article 9 > 9.1."
+              },
               "sections": [],
               "title": {
                 "text": "9.1.  Les bâtiments abritant les installations sont équipés en partie haute  (tiers supérieur et au-dessus des tas) de dispositifs d'évacuation  naturelle des fumées (DENFC). Ces dispositifs sont de type passif (à  ouverture permanente) ou de type actif."
@@ -2120,7 +2258,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 9 9.2.",
+              "reference": {
+                "name": "Pour les stockages couverts, l'exploitant démontre que l'évacuation des fumées, des gaz de combustion et de la chaleur dégagés en cas d'incendie peut se faire naturellement à l'air libre en dehors du stockage.",
+                "nb": "Article 9 > 9.2."
+              },
               "sections": [],
               "title": {
                 "text": "9.2. Pour les stockages couverts, l'exploitant démontre que l'évacuation des fumées, des gaz de combustion et de la chaleur dégagés en cas d'incendie peut se faire naturellement à l'air libre en dehors du stockage."
@@ -2153,7 +2294,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "PREVENTION DES RISQUES  ET MESURES DE PROTECTION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -2179,7 +2323,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 10",
+          "reference": {
+            "name": "PREVENTION DES RISQUES  ET MESURES DE PROTECTION",
+            "nb": "Article 10"
+          },
           "sections": [
             {
               "annotations": {
@@ -2253,7 +2400,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 10 10.1.",
+              "reference": {
+                "name": "Matières interdites et incompatibles",
+                "nb": "Article 10 > 10.1."
+              },
               "sections": [],
               "title": {
                 "text": "10.1. Matières interdites et incompatibles :"
@@ -2343,7 +2493,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 10 10.2.",
+              "reference": {
+                "name": "Chauffage",
+                "nb": "Article 10 > 10.2."
+              },
               "sections": [],
               "title": {
                 "text": "10.2. Chauffage :"
@@ -2391,7 +2544,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 10 10.3.",
+              "reference": {
+                "name": "Installations électriques",
+                "nb": "Article 10 > 10.3."
+              },
               "sections": [],
               "title": {
                 "text": "10.3. Installations électriques :"
@@ -2421,7 +2577,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 10 10.4.",
+              "reference": {
+                "name": "Mise à la terre et protection contre les effets des décharges électriques",
+                "nb": "Article 10 > 10.4."
+              },
               "sections": [],
               "title": {
                 "text": "10.4. Mise à la terre et protection contre les effets des décharges électriques :"
@@ -2460,7 +2619,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 10 10.5.",
+              "reference": {
+                "name": "Appareils mécaniques et de manutention",
+                "nb": "Article 10 > 10.5."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -2483,7 +2645,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 10 10.5.1.",
+                  "reference": {
+                    "name": "Les bandes transporteuses des installations nouvelles sont en matériau difficilement propagateur de la flamme selon les référentiels en vigueur.",
+                    "nb": "Article 10 > 10.5.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "10.5.1. Les bandes transporteuses des installations nouvelles sont en matériau difficilement propagateur de la flamme selon les référentiels en vigueur."
@@ -2528,7 +2693,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 10 10.5.2.",
+                  "reference": {
+                    "name": "Bandes transporteuses",
+                    "nb": "Article 10 > 10.5.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "10.5.2. Bandes transporteuses :"
@@ -2551,7 +2719,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 10 10.5.3.",
+                  "reference": {
+                    "name": "Une distance minimale de 1 mètre est conservée entre le haut du tas d'engrais ou des îlots d'engrais conditionnés et la bande transporteuse et son moteur.",
+                    "nb": "Article 10 > 10.5.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "10.5.3. Une distance minimale de 1 mètre est conservée entre le haut du tas d'engrais ou des îlots d'engrais conditionnés et la bande transporteuse et son moteur."
@@ -2604,7 +2775,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 10 10.6.",
+              "reference": {
+                "name": "Détection automatique",
+                "nb": "Article 10 > 10.6."
+              },
               "sections": [],
               "title": {
                 "text": "10.6. Détection automatique :"
@@ -2652,7 +2826,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 10 10.7.",
+              "reference": {
+                "name": "Stockage",
+                "nb": "Article 10 > 10.7."
+              },
               "sections": [],
               "title": {
                 "text": "10.7. Stockage :"
@@ -2685,7 +2862,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 10 10.8.",
+              "reference": {
+                "name": "Mélange d'engrais hors usine",
+                "nb": "Article 10 > 10.8."
+              },
               "sections": [],
               "title": {
                 "text": "10.8. Mélange d'engrais hors usine :"
@@ -2712,7 +2892,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 10 10.9.",
+              "reference": {
+                "name": "Superposition d'engrais",
+                "nb": "Article 10 > 10.9."
+              },
               "sections": [],
               "title": {
                 "text": "10.9. Superposition d'engrais :"
@@ -2744,7 +2927,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 11",
+          "reference": {
+            "name": "PREVENTION DES RISQUES  ET MESURES DE PROTECTION",
+            "nb": "Article 11"
+          },
           "sections": [
             {
               "annotations": {
@@ -2770,7 +2956,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 11 11.1.",
+              "reference": {
+                "name": "Fractionnement",
+                "nb": "Article 11 > 11.1."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -2911,7 +3100,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 11 11.1.1.",
+                  "reference": {
+                    "name": "Engrais conditionnés",
+                    "nb": "Article 11 > 11.1.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "11.1.1. Engrais conditionnés :"
@@ -2980,7 +3172,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 11 11.1.2.",
+                  "reference": {
+                    "name": "Engrais stockés en vrac.",
+                    "nb": "Article 11 > 11.1.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "11.1.2. Engrais stockés en vrac."
@@ -3013,7 +3208,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 11 11.1.3.",
+                  "reference": {
+                    "name": "Engrais conditionnés ou stockés en vrac",
+                    "nb": "Article 11 > 11.1.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "11.1.3. Engrais conditionnés ou stockés en vrac :"
@@ -3075,7 +3273,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 11 11.2.",
+              "reference": {
+                "name": "Moyens de lutte contre un sinistre",
+                "nb": "Article 11 > 11.2."
+              },
               "sections": [
                 {
                   "annotations": {
@@ -3290,7 +3491,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 11 11.2.1.",
+                  "reference": {
+                    "name": "Appareils d'incendie et débit d'eau",
+                    "nb": "Article 11 > 11.2.1."
+                  },
                   "sections": [],
                   "title": {
                     "text": "11.2.1. Appareils d'incendie et débit d'eau :"
@@ -3329,7 +3533,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 11 11.2.2.",
+                  "reference": {
+                    "name": "Recensement et entretien des matériels",
+                    "nb": "Article 11 > 11.2.2."
+                  },
                   "sections": [],
                   "title": {
                     "text": "11.2.2. Recensement et entretien des matériels :"
@@ -3359,7 +3566,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 11 11.2.3.",
+                  "reference": {
+                    "name": "Dispositifs de protection contre les gaz toxiques",
+                    "nb": "Article 11 > 11.2.3."
+                  },
                   "sections": [],
                   "title": {
                     "text": "11.2.3. Dispositifs de protection contre les gaz toxiques :"
@@ -3411,7 +3621,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 12",
+          "reference": {
+            "name": "Capacités de rétention et isolement du réseau de collecte.",
+            "nb": "Article 12"
+          },
           "sections": [],
           "title": {
             "text": "Article 12 - Capacités de rétention et isolement du réseau de collecte."
@@ -3447,7 +3660,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 13",
+          "reference": {
+            "name": "Ensachage et palettisation.",
+            "nb": "Article 13"
+          },
           "sections": [],
           "title": {
             "text": "Article 13 - Ensachage et palettisation."
@@ -3474,7 +3690,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 14",
+          "reference": {
+            "name": "Déchets.",
+            "nb": "Article 14"
+          },
           "sections": [
             {
               "annotations": {
@@ -3500,7 +3719,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 14 14.1.",
+              "reference": {
+                "name": "Récupération, recyclage et élimination",
+                "nb": "Article 14 > 14.1."
+              },
               "sections": [],
               "title": {
                 "text": "14.1. Récupération, recyclage et élimination :"
@@ -3545,7 +3767,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 14 14.2.",
+              "reference": {
+                "name": "Déchets provenant des engrais 4702-I (à l'exception de ceux dans lesquels la teneur en azote due au nitrate d'ammonium est de 15,75 % en poids ou moins) et 4702-II ou 4702-III",
+                "nb": "Article 14 > 14.2."
+              },
               "sections": [],
               "title": {
                 "text": "14.2. Déchets provenant des engrais 4702-I (à l'exception de ceux dans lesquels la teneur en azote due au nitrate d'ammonium est de 15,75 % en poids ou moins) et 4702-II ou 4702-III :"
@@ -3595,7 +3820,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 15",
+          "reference": {
+            "name": "PREVENTION DES RISQUES  ET MESURES DE PROTECTION",
+            "nb": "Article 15"
+          },
           "sections": [],
           "title": {
             "text": "Article 15"
@@ -3623,7 +3851,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DISPOSITIONS COMPLEMENTAIRES  CONTRE LE RISQUE DE DETONATION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -3642,7 +3873,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 16",
+          "reference": {
+            "name": "Installations autorisées au titre de la rubrique 4702-II.",
+            "nb": "Article 16"
+          },
           "sections": [
             {
               "annotations": {
@@ -3674,7 +3908,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 16 16.1.",
+              "reference": {
+                "name": "Généralités",
+                "nb": "Article 16 > 16.1."
+              },
               "sections": [],
               "title": {
                 "text": "16.1. Généralités :"
@@ -3707,7 +3944,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 16 16.2.",
+              "reference": {
+                "name": "Nettoyage annuel",
+                "nb": "Article 16 > 16.2."
+              },
               "sections": [],
               "title": {
                 "text": "16.2. Nettoyage annuel :"
@@ -3735,7 +3975,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 17",
+          "reference": {
+            "name": "Installations autorisées au titre de la rubrique 4703.",
+            "nb": "Article 17"
+          },
           "sections": [
             {
               "annotations": {
@@ -3776,7 +4019,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 17 17.1.",
+              "reference": {
+                "name": "Implantation",
+                "nb": "Article 17 > 17.1."
+              },
               "sections": [],
               "title": {
                 "text": "17.1. Implantation :"
@@ -3812,7 +4058,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 17 17.2.",
+              "reference": {
+                "name": "Généralités",
+                "nb": "Article 17 > 17.2."
+              },
               "sections": [],
               "title": {
                 "text": "17.2. Généralités :"
@@ -3854,7 +4103,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 17 17.3.",
+              "reference": {
+                "name": "Exploitation",
+                "nb": "Article 17 > 17.3."
+              },
               "sections": [],
               "title": {
                 "text": "17.3. Exploitation :"
@@ -3884,7 +4136,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 17 17.4.",
+              "reference": {
+                "name": "Nettoyage annuel",
+                "nb": "Article 17 > 17.4."
+              },
               "sections": [],
               "title": {
                 "text": "17.4. Nettoyage annuel :"
@@ -3917,7 +4172,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DISPOSITIONS COMPLEMENTAIRES CONTRE LE RISQUE  DE DECOMPOSITION AUTO ENTRETENUE",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -3964,7 +4222,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 18",
+          "reference": {
+            "name": "Installations autorisées au titre de la rubrique 4702-I.",
+            "nb": "Article 18"
+          },
           "sections": [],
           "title": {
             "text": "Article 18 - Installations autorisées au titre de la rubrique 4702-I."
@@ -3992,7 +4253,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "MODALITES D'APPLICATION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -4253,7 +4517,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 19",
+          "reference": {
+            "name": "MODALITES D'APPLICATION",
+            "nb": "Article 19"
+          },
           "sections": [],
           "title": {
             "text": "Article 19"
@@ -4280,7 +4547,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 20",
+          "reference": {
+            "name": "MODALITES D'APPLICATION",
+            "nb": "Article 20"
+          },
           "sections": [],
           "title": {
             "text": "Article 20"

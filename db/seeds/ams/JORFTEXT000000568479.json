@@ -54,7 +54,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DOMAINE D'APPLICATION.",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -77,7 +80,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1",
+          "reference": {
+            "name": "DOMAINE D'APPLICATION.",
+            "nb": "Article 1"
+          },
           "sections": [],
           "title": {
             "text": "Article 1"
@@ -141,7 +147,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2",
+          "reference": {
+            "name": "DOMAINE D'APPLICATION.",
+            "nb": "Article 2"
+          },
           "sections": [],
           "title": {
             "text": "Article 2"
@@ -169,7 +178,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "PRÉVENTION DES RISQUES.",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -238,7 +250,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 3",
+          "reference": {
+            "name": "PRÉVENTION DES RISQUES.",
+            "nb": "Article 3"
+          },
           "sections": [],
           "title": {
             "text": "Article 3"
@@ -266,7 +281,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "RÉSERVOIRS DE STOCKAGE ET POSTES DE CHARGEMENT/DÉCHARGEMENT",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -285,7 +303,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Réservoirs et équipements associés.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -308,7 +329,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 4",
+              "reference": {
+                "name": "Réservoirs et équipements associés.",
+                "nb": "Article 4"
+              },
               "sections": [],
               "title": {
                 "text": "Article 4"
@@ -344,7 +368,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 5",
+              "reference": {
+                "name": "Réservoirs et équipements associés.",
+                "nb": "Article 5"
+              },
               "sections": [],
               "title": {
                 "text": "Article 5"
@@ -374,7 +401,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 6",
+              "reference": {
+                "name": "Réservoirs et équipements associés.",
+                "nb": "Article 6"
+              },
               "sections": [],
               "title": {
                 "text": "Article 6"
@@ -401,7 +431,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7",
+              "reference": {
+                "name": "Réservoirs et équipements associés.",
+                "nb": "Article 7"
+              },
               "sections": [],
               "title": {
                 "text": "Article 7"
@@ -428,7 +461,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 8",
+              "reference": {
+                "name": "Réservoirs et équipements associés.",
+                "nb": "Article 8"
+              },
               "sections": [],
               "title": {
                 "text": "Article 8"
@@ -455,7 +491,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 9",
+              "reference": {
+                "name": "Réservoirs et équipements associés.",
+                "nb": "Article 9"
+              },
               "sections": [],
               "title": {
                 "text": "Article 9"
@@ -509,7 +548,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 10",
+              "reference": {
+                "name": "Réservoirs et équipements associés.",
+                "nb": "Article 10"
+              },
               "sections": [],
               "title": {
                 "text": "Article 10"
@@ -536,7 +578,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 11",
+              "reference": {
+                "name": "Réservoirs et équipements associés.",
+                "nb": "Article 11"
+              },
               "sections": [],
               "title": {
                 "text": "Article 11"
@@ -563,7 +608,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 12",
+              "reference": {
+                "name": "Réservoirs et équipements associés.",
+                "nb": "Article 12"
+              },
               "sections": [],
               "title": {
                 "text": "Article 12"
@@ -591,7 +639,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Poste de chargement/déchargement.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -620,7 +671,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 13",
+              "reference": {
+                "name": "Poste de chargement/déchargement.",
+                "nb": "Article 13"
+              },
               "sections": [],
               "title": {
                 "text": "Article 13"
@@ -653,7 +707,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 14",
+              "reference": {
+                "name": "Poste de chargement/déchargement.",
+                "nb": "Article 14"
+              },
               "sections": [],
               "title": {
                 "text": "Article 14"
@@ -689,7 +746,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 15",
+              "reference": {
+                "name": "Poste de chargement/déchargement.",
+                "nb": "Article 15"
+              },
               "sections": [],
               "title": {
                 "text": "Article 15"
@@ -743,7 +803,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 16",
+              "reference": {
+                "name": "Poste de chargement/déchargement.",
+                "nb": "Article 16"
+              },
               "sections": [],
               "title": {
                 "text": "Article 16"
@@ -785,7 +848,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 17",
+              "reference": {
+                "name": "Poste de chargement/déchargement.",
+                "nb": "Article 17"
+              },
               "sections": [],
               "title": {
                 "text": "Article 17"
@@ -854,7 +920,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 18",
+              "reference": {
+                "name": "Poste de chargement/déchargement.",
+                "nb": "Article 18"
+              },
               "sections": [],
               "title": {
                 "text": "Article 18"
@@ -887,7 +956,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "LE CONFINEMENT DES INSTALLATIONS",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -906,7 +978,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "L'enceinte de confinement.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -929,7 +1004,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 19",
+              "reference": {
+                "name": "L'enceinte de confinement.",
+                "nb": "Article 19"
+              },
               "sections": [],
               "title": {
                 "text": "Article 19"
@@ -956,7 +1034,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 20",
+              "reference": {
+                "name": "L'enceinte de confinement.",
+                "nb": "Article 20"
+              },
               "sections": [],
               "title": {
                 "text": "Article 20"
@@ -983,7 +1064,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 21",
+              "reference": {
+                "name": "L'enceinte de confinement.",
+                "nb": "Article 21"
+              },
               "sections": [],
               "title": {
                 "text": "Article 21"
@@ -1010,7 +1094,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 22",
+              "reference": {
+                "name": "L'enceinte de confinement.",
+                "nb": "Article 22"
+              },
               "sections": [],
               "title": {
                 "text": "Article 22"
@@ -1037,7 +1124,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 23",
+              "reference": {
+                "name": "L'enceinte de confinement.",
+                "nb": "Article 23"
+              },
               "sections": [],
               "title": {
                 "text": "Article 23"
@@ -1070,7 +1160,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 24",
+              "reference": {
+                "name": "L'enceinte de confinement.",
+                "nb": "Article 24"
+              },
               "sections": [],
               "title": {
                 "text": "Article 24"
@@ -1103,7 +1196,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 25",
+              "reference": {
+                "name": "L'enceinte de confinement.",
+                "nb": "Article 25"
+              },
               "sections": [],
               "title": {
                 "text": "Article 25"
@@ -1130,7 +1226,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 26",
+              "reference": {
+                "name": "L'enceinte de confinement.",
+                "nb": "Article 26"
+              },
               "sections": [],
               "title": {
                 "text": "Article 26"
@@ -1157,7 +1256,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 27",
+              "reference": {
+                "name": "L'enceinte de confinement.",
+                "nb": "Article 27"
+              },
               "sections": [],
               "title": {
                 "text": "Article 27"
@@ -1184,7 +1286,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 28",
+              "reference": {
+                "name": "L'enceinte de confinement.",
+                "nb": "Article 28"
+              },
               "sections": [],
               "title": {
                 "text": "Article 28"
@@ -1211,7 +1316,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 29",
+              "reference": {
+                "name": "L'enceinte de confinement.",
+                "nb": "Article 29"
+              },
               "sections": [],
               "title": {
                 "text": "Article 29"
@@ -1238,7 +1346,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 30",
+              "reference": {
+                "name": "L'enceinte de confinement.",
+                "nb": "Article 30"
+              },
               "sections": [],
               "title": {
                 "text": "Article 30"
@@ -1266,7 +1377,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Installation d'extraction et de neutralisation des rejets de chlore.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -1289,7 +1403,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 31",
+              "reference": {
+                "name": "Installation d'extraction et de neutralisation des rejets de chlore.",
+                "nb": "Article 31"
+              },
               "sections": [],
               "title": {
                 "text": "Article 31"
@@ -1312,7 +1429,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Système d'extraction.",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1354,7 +1474,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 32",
+                  "reference": {
+                    "name": "Système d'extraction.",
+                    "nb": "Article 32"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 32"
@@ -1387,7 +1510,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 33",
+                  "reference": {
+                    "name": "Système d'extraction.",
+                    "nb": "Article 33"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 33"
@@ -1415,7 +1541,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Système de traitement.",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1438,7 +1567,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 34",
+                  "reference": {
+                    "name": "Système de traitement.",
+                    "nb": "Article 34"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 34"
@@ -1465,7 +1597,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 35",
+                  "reference": {
+                    "name": "Système de traitement.",
+                    "nb": "Article 35"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 35"
@@ -1492,7 +1627,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 36",
+                  "reference": {
+                    "name": "Système de traitement.",
+                    "nb": "Article 36"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 36"
@@ -1537,7 +1675,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 37",
+                  "reference": {
+                    "name": "Système de traitement.",
+                    "nb": "Article 37"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 37"
@@ -1564,7 +1705,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 38",
+                  "reference": {
+                    "name": "Système de traitement.",
+                    "nb": "Article 38"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 38"
@@ -1591,7 +1735,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 39",
+                  "reference": {
+                    "name": "Système de traitement.",
+                    "nb": "Article 39"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 39"
@@ -1618,7 +1765,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 40",
+                  "reference": {
+                    "name": "Système de traitement.",
+                    "nb": "Article 40"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 40"
@@ -1646,7 +1796,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "",
+              "reference": {
+                "name": "Consignes de sécurité lors de l'exploitation.",
+                "nb": ""
+              },
               "sections": [
                 {
                   "annotations": {
@@ -1669,7 +1822,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 41",
+                  "reference": {
+                    "name": "Consignes de sécurité lors de l'exploitation.",
+                    "nb": "Article 41"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 41"
@@ -1732,7 +1888,7 @@
                             "potential_modifications": [],
                             "warnings": []
                           },
-                          "reference_str": null,
+                          "reference": null,
                           "sections": [],
                           "title": {
                             "text": "Article 42"
@@ -1742,7 +1898,10 @@
                     ],
                     "warnings": []
                   },
-                  "reference_str": "Art. 42",
+                  "reference": {
+                    "name": "Consignes de sécurité lors de l'exploitation.",
+                    "nb": "Article 42"
+                  },
                   "sections": [],
                   "title": {
                     "text": "Article 42"
@@ -1780,7 +1939,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "ORGANISATION DE LA SÉCURITÉ",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -1799,7 +1961,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Dispositions en matière de sécurité.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -1822,7 +1987,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 43",
+              "reference": {
+                "name": "Dispositions en matière de sécurité.",
+                "nb": "Article 43"
+              },
               "sections": [],
               "title": {
                 "text": "Article 43"
@@ -1849,7 +2017,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 44",
+              "reference": {
+                "name": "Dispositions en matière de sécurité.",
+                "nb": "Article 44"
+              },
               "sections": [],
               "title": {
                 "text": "Article 44"
@@ -1876,7 +2047,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 45",
+              "reference": {
+                "name": "Dispositions en matière de sécurité.",
+                "nb": "Article 45"
+              },
               "sections": [],
               "title": {
                 "text": "Article 45"
@@ -1903,7 +2077,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 46",
+              "reference": {
+                "name": "Dispositions en matière de sécurité.",
+                "nb": "Article 46"
+              },
               "sections": [],
               "title": {
                 "text": "Article 46"
@@ -1963,7 +2140,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 47",
+              "reference": {
+                "name": "Dispositions en matière de sécurité.",
+                "nb": "Article 47"
+              },
               "sections": [],
               "title": {
                 "text": "Article 47"
@@ -2017,7 +2197,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 48",
+              "reference": {
+                "name": "Dispositions en matière de sécurité.",
+                "nb": "Article 48"
+              },
               "sections": [],
               "title": {
                 "text": "Article 48"
@@ -2044,7 +2227,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 49",
+              "reference": {
+                "name": "Dispositions en matière de sécurité.",
+                "nb": "Article 49"
+              },
               "sections": [],
               "title": {
                 "text": "Article 49"
@@ -2072,7 +2258,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Dispositions en cas de situations d'urgence.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -2095,7 +2284,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 50",
+              "reference": {
+                "name": "Dispositions en cas de situations d'urgence.",
+                "nb": "Article 50"
+              },
               "sections": [],
               "title": {
                 "text": "Article 50"
@@ -2122,7 +2314,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 51",
+              "reference": {
+                "name": "Dispositions en cas de situations d'urgence.",
+                "nb": "Article 51"
+              },
               "sections": [],
               "title": {
                 "text": "Article 51"
@@ -2155,7 +2350,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "MODALITÉS ET DÉLAIS D'APPLICATION.",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -2178,7 +2376,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 52",
+          "reference": {
+            "name": "MODALITÉS ET DÉLAIS D'APPLICATION.",
+            "nb": "Article 52"
+          },
           "sections": [],
           "title": {
             "text": "Article 52"
@@ -2201,7 +2402,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Conditions d'application aux installations nouvelles.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -2224,7 +2428,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 53",
+              "reference": {
+                "name": "Conditions d'application aux installations nouvelles.",
+                "nb": "Article 53"
+              },
               "sections": [],
               "title": {
                 "text": "Article 53"
@@ -2252,7 +2459,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Conditions d'application aux installations existantes.",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -2275,7 +2485,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 54",
+              "reference": {
+                "name": "Conditions d'application aux installations existantes.",
+                "nb": "Article 54"
+              },
               "sections": [],
               "title": {
                 "text": "Article 54"
@@ -2302,7 +2515,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 55",
+              "reference": {
+                "name": "Conditions d'application aux installations existantes.",
+                "nb": "Article 55"
+              },
               "sections": [],
               "title": {
                 "text": "Article 55"
@@ -2341,7 +2557,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 56",
+              "reference": {
+                "name": "Conditions d'application aux installations existantes.",
+                "nb": "Article 56"
+              },
               "sections": [],
               "title": {
                 "text": "Article 56"
@@ -2368,7 +2587,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 57",
+              "reference": {
+                "name": "Conditions d'application aux installations existantes.",
+                "nb": "Article 57"
+              },
               "sections": [],
               "title": {
                 "text": "Article 57"
@@ -2405,7 +2627,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "Art. 58",
+      "reference": {
+        "name": "",
+        "nb": "Article 58"
+      },
       "sections": [],
       "title": {
         "text": "Article 58"

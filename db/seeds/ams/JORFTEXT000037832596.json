@@ -45,7 +45,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "DÉFINITION ET CHAMP D'APPLICATION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -71,7 +74,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 1",
+          "reference": {
+            "name": "DÉFINITION ET CHAMP D'APPLICATION",
+            "nb": "Article 1"
+          },
           "sections": [],
           "title": {
             "text": "Article 1"
@@ -131,7 +137,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 2",
+          "reference": {
+            "name": "DÉFINITION ET CHAMP D'APPLICATION",
+            "nb": "Article 2"
+          },
           "sections": [],
           "title": {
             "text": "Article 2"
@@ -159,7 +168,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "CONCEPTION ET CONSTRUCTION DE L'INSTALLATION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -178,7 +190,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Dispositions générales",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -204,7 +219,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 3",
+              "reference": {
+                "name": "Dispositions générales",
+                "nb": "Article 3"
+              },
               "sections": [],
               "title": {
                 "text": "Article 3"
@@ -249,7 +267,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 4",
+              "reference": {
+                "name": "Dispositions générales",
+                "nb": "Article 4"
+              },
               "sections": [],
               "title": {
                 "text": "Article 4"
@@ -294,7 +315,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 5",
+              "reference": {
+                "name": "Dispositions générales",
+                "nb": "Article 5"
+              },
               "sections": [],
               "title": {
                 "text": "Article 5"
@@ -322,7 +346,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Localisation de l'installation",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -354,7 +381,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 6",
+              "reference": {
+                "name": "Localisation de l'installation",
+                "nb": "Article 6"
+              },
               "sections": [],
               "title": {
                 "text": "Article 6"
@@ -387,7 +417,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 7",
+              "reference": {
+                "name": "Localisation de l'installation",
+                "nb": "Article 7"
+              },
               "sections": [],
               "title": {
                 "text": "Article 7"
@@ -423,7 +456,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 8",
+              "reference": {
+                "name": "Localisation de l'installation",
+                "nb": "Article 8"
+              },
               "sections": [],
               "title": {
                 "text": "Article 8"
@@ -451,7 +487,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Exigences relatives à l'étanchéité, à la stabilité et aux moyens mis en œuvre pour limiter les infiltrations d'eaux",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -489,7 +528,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 9",
+              "reference": {
+                "name": "Exigences relatives à l'étanchéité, à la stabilité et aux moyens mis en œuvre pour limiter les infiltrations d'eaux",
+                "nb": "Article 9"
+              },
               "sections": [],
               "title": {
                 "text": "Article 9"
@@ -519,7 +561,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 10",
+              "reference": {
+                "name": "Exigences relatives à l'étanchéité, à la stabilité et aux moyens mis en œuvre pour limiter les infiltrations d'eaux",
+                "nb": "Article 10"
+              },
               "sections": [],
               "title": {
                 "text": "Article 10"
@@ -547,7 +592,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Dispositions diverses",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -566,7 +614,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 11",
+              "reference": {
+                "name": "Dispositions diverses",
+                "nb": "Article 11"
+              },
               "sections": [
                 {
                   "annotations": {
@@ -595,7 +646,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 11",
+                  "reference": {
+                    "name": "Dispositions diverses",
+                    "nb": "Article 11 > I."
+                  },
                   "sections": [],
                   "title": {
                     "text": "I."
@@ -625,7 +679,10 @@
                     "potential_modifications": [],
                     "warnings": []
                   },
-                  "reference_str": "Art. 11 II.",
+                  "reference": {
+                    "name": "Rétention et confinement.",
+                    "nb": "Article 11 > II."
+                  },
                   "sections": [],
                   "title": {
                     "text": "II. - Rétention et confinement."
@@ -657,7 +714,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 12",
+              "reference": {
+                "name": "Dispositions diverses",
+                "nb": "Article 12"
+              },
               "sections": [],
               "title": {
                 "text": "Article 12"
@@ -685,7 +745,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Contrôles préalables à la mise en service des équipements et contrôles périodiques en cours d'exploitation",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -708,7 +771,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 13",
+              "reference": {
+                "name": "Contrôles préalables à la mise en service des équipements et contrôles périodiques en cours d'exploitation",
+                "nb": "Article 13"
+              },
               "sections": [],
               "title": {
                 "text": "Article 13"
@@ -735,7 +801,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 14",
+              "reference": {
+                "name": "Contrôles préalables à la mise en service des équipements et contrôles périodiques en cours d'exploitation",
+                "nb": "Article 14"
+              },
               "sections": [],
               "title": {
                 "text": "Article 14"
@@ -763,7 +832,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Admission des déchets",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -786,7 +858,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 15",
+              "reference": {
+                "name": "Admission des déchets",
+                "nb": "Article 15"
+              },
               "sections": [],
               "title": {
                 "text": "Article 15"
@@ -814,7 +889,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Conduite d'exploitation",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -858,7 +936,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 16",
+              "reference": {
+                "name": "Conduite d'exploitation",
+                "nb": "Article 16"
+              },
               "sections": [],
               "title": {
                 "text": "Article 16"
@@ -886,7 +967,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "",
+          "reference": {
+            "name": "Fin d'exploitation",
+            "nb": ""
+          },
           "sections": [
             {
               "annotations": {
@@ -915,7 +999,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 17",
+              "reference": {
+                "name": "Fin d'exploitation",
+                "nb": "Article 17"
+              },
               "sections": [],
               "title": {
                 "text": "Article 17"
@@ -942,7 +1029,10 @@
                 "potential_modifications": [],
                 "warnings": []
               },
-              "reference_str": "Art. 18",
+              "reference": {
+                "name": "Fin d'exploitation",
+                "nb": "Article 18"
+              },
               "sections": [],
               "title": {
                 "text": "Article 18"
@@ -975,7 +1065,10 @@
         "potential_modifications": [],
         "warnings": []
       },
-      "reference_str": "",
+      "reference": {
+        "name": "EXÉCUTION",
+        "nb": ""
+      },
       "sections": [
         {
           "annotations": {
@@ -998,7 +1091,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 19",
+          "reference": {
+            "name": "EXÉCUTION",
+            "nb": "Article 19"
+          },
           "sections": [],
           "title": {
             "text": "Article 19"
@@ -1025,7 +1121,10 @@
             "potential_modifications": [],
             "warnings": []
           },
-          "reference_str": "Art. 20",
+          "reference": {
+            "name": "EXÉCUTION",
+            "nb": "Article 20"
+          },
           "sections": [],
           "title": {
             "text": "Article 20"
