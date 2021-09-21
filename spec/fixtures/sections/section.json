@@ -87,7 +87,10 @@
                 "potential_modifications": [],
                 "warnings": []
             },
-            "reference_str": "Art. 1",
+            "reference": {
+                "nb": "Article 1",
+                "name": ""
+            },
             "sections": [],
             "title": {
                 "active": true,
@@ -137,7 +140,10 @@
                 ],
                 "warnings": []
             },
-            "reference_str": "Art. 2",
+            "reference": {
+                "nb": "Article 2",
+                "name": ""
+            },
             "sections": [],
             "title": {
                 "active": true,

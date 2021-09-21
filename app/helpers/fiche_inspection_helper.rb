@@ -77,23 +77,27 @@ module FicheInspectionHelper
   end
 
   def prepare_gun_env_rows(prescriptions)
-    variables = sort_and_group_by_text(prescriptions).values.map(&:values).flatten(1).map do |group|
-      prescription = group.first
-      content = group.map(&:human_readable_content).join("\n")
-      text_date = prescription.text_date
-      {
-        '[NOM]' => prescription.text_reference,
-        '[SOURCE_TYPE]' => prescription.human_type,
-        '[DATE_AAAA-MM-JJ]' => text_date.nil? ? '' : text_date.strftime('%Y-%m-%d'),
-        '[DATE_JJ/MM/AAAA]' => text_date.nil? ? '' : text_date.strftime('%d/%m/%Y'),
-        '[ARTICLE]' => prescription.reference,
-        '[THEME]' => '',
-        '[SOUS_THEME]' => prescription.human_topic,
-        '[PRESCRIPTION]' => content,
-        '[NOTES]' => ''
-      }.map { |k, v| simple_variable(k, v) }
+    variables = sort_and_group(prescriptions).values.map(&:values).flatten(1).map do |group|
+      prepare_gun_env_variables_mapping(group).map { |k, v| simple_variable(k, v) }
     end
     Odf::TableFromRows::TableRows.new('PDC', variables)
+  end
+
+  def prepare_gun_env_variables_mapping(prescriptions)
+    prescription = prescriptions.first
+    content = prescriptions.map(&:human_readable_content).join("\n")
+    text_date = prescription.text_date
+    {
+      '[NOM]' => prescription.name.nil? ? '' : prescription.name.truncate(70),
+      '[SOURCE_TYPE]' => prescription.human_type,
+      '[DATE_AAAA-MM-JJ]' => text_date.nil? ? '' : text_date.strftime('%Y-%m-%d'),
+      '[DATE_JJ/MM/AAAA]' => text_date.nil? ? '' : text_date.strftime('%d/%m/%Y'),
+      '[ARTICLE]' => prescription.reference_number,
+      '[THEME]' => '',
+      '[SOUS_THEME]' => '',
+      '[PRESCRIPTION]' => content,
+      '[NOTES]' => ''
+    }
   end
 
   def simple_variable(placeholder, value)
@@ -101,7 +105,7 @@ module FicheInspectionHelper
   end
 
   def merge_prescriptions_having_same_ref(prescriptions)
-    sort_and_group_by_text(prescriptions).map do |text_reference, group|
+    sort_and_group(prescriptions).map do |text_reference, group|
       group.map do |section_reference, subgroup|
         contents = subgroup.map { |presc| presc.is_table? ? presc.table : presc.content }
         ["#{text_reference} - #{section_reference}", contents]

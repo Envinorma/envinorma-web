@@ -55,4 +55,18 @@ class Prescription < ApplicationRecord
   def human_topic
     topic == TopicHelper::AUCUN ? '' : TOPICS[topic]
   end
+
+  def full_reference
+    [reference, name].compact.join(' - ')
+  end
+
+  def reference_number
+    return nil unless reference
+
+    number = reference
+    %w[article annexe].each do |prefix|
+      number = number[prefix.size..].strip if number.downcase.starts_with?(prefix)
+    end
+    number
+  end
 end
