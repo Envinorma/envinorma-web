@@ -1,7 +1,7 @@
 namespace :after_party do
-  desc 'Deployment task: seed_ams'
-  task seed_ams_20210921121732: :environment do
-    puts "Running deploy task 'seed_ams'"
+  desc 'Deployment task: seed_ams_with_new_references'
+  task seed_ams_with_new_references: :environment do
+    puts "Running deploy task 'seed_ams_with_new_references'"
 
     # Put your task implementation HERE.
     DataManager.seed_ams
