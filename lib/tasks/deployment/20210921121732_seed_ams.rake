@@ -1,6 +1,6 @@
 namespace :after_party do
   desc 'Deployment task: seed_ams'
-  task seed_ams: :environment do
+  task seed_ams_20210921121732: :environment do
     puts "Running deploy task 'seed_ams'"
 
     # Put your task implementation HERE.
