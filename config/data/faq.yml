@@ -1,0 +1,9 @@
+questions:
+  - titre: Comment utiliser Envinorma ?
+    partial : _utilisation
+  - titre: Les établissements présents sur Envinorma
+    partial : _etablissements
+  - titre: Les arrêtés préfectoraux
+    partial: _aps
+  - titre: Pour aller plus loin
+    partial: _plus_loin

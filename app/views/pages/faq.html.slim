@@ -1,0 +1,24 @@
+.container-fluid
+  .row
+    .col-3.sidebar-sticky
+      ul.nav
+        - FAQ['questions'].each_with_index do |question, index|
+          li
+            a.btn.btn-sm.btn-light href="#anchor_titre_#{index}"
+              = question['titre']
+
+    .col-7.offset-1
+      .container-fluid
+        h1.display-4.mb-4.mt-5 Foire aux questions
+
+        - FAQ['questions'].each_with_index do |question, index|
+          section id="anchor_titre_#{index}" class='anchor'
+            h2 = question['titre']
+            .row
+              .col-12
+                - path_to_partial = Rails.root.join("app/views/pages/faq_blocs/#{question['partial']}.html.slim")
+                - # rubocop:disable Rails/OutputSafety
+                = Slim::Template.new(path_to_partial).render.html_safe
+                - # rubocop:enable Rails/OutputSafety
+
+          hr
