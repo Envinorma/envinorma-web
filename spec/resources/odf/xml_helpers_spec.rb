@@ -36,25 +36,53 @@ RSpec.describe Odf::XmlHelpers do
     end
   end
 
+  def simple_xml
+    xml_str = <<-XML
+      <root xmlns:text="c" xmlns:table="d" xmlns:office="office">
+        <text:section>
+          <table:table>
+            <text:p office:type="type" />
+          </table:table>
+        </text:section>
+      </root>
+    XML
+    Nokogiri::XML(xml_str)
+  end
+
   context 'when #deep_clone' do
     it 'clones tree node allowing edition on the copy' do
-      xml = Nokogiri::XML(
-        '<root xmlns:text="c" xmlns:table="d"><text:section><table:table></table:table></text:section></root>'
-      )
+      xml = simple_xml
       copy = deep_clone(xml.xpath('//text:section').first)
       copy.xpath('//table:table').first.add_child('<table:table-row/>')
-      expected = "<text:section>\n  <table:table><table:table-row/></table:table>\n</text:section>"
-      expect(copy.to_s).to eq expected
+      expected = '<text:section><table:table><text:p office:type="type" />'\
+                 '<table:table-row/></table:table></text:section>'
+      expect(copy.to_s.gsub(/\s/, '')).to eq expected.gsub(/\s/, '')
     end
 
     it 'clones tree node so that initial node is not affected by a modification of the copy' do
-      xml_str = '<root xmlns:text="c" xmlns:table="d"><text:section><table:table></table:table></text:section></root>'
-      xml = Nokogiri::XML(xml_str)
+      xml = simple_xml
       copy = deep_clone(xml.xpath('//text:section').first)
       copy.xpath('//table:table').first.add_child('<table:table-row/>')
-      expected = "<root xmlns:text=\"c\" xmlns:table=\"d\">\n  <text:section>"\
-                 "\n    <table:table/>\n  </text:section>\n</root>"
-      expect(xml.xpath('root').to_s).to eq expected
+      expect(xml.xpath('root').to_s.gsub(/\s/, '')).to eq simple_xml.xpath('root').to_s.gsub(/\s/, '')
+    end
+  end
+
+  context 'when #add_before' do
+    it 'allows duplicating a tag using deep_clone' do
+      xml = simple_xml
+      copy = deep_clone(xml.xpath('//text:p').first)
+      add_before(xml.xpath('//text:p').first, copy)
+      expected = '<text:section><table:table><text:p office:type="type" />'\
+                 '<text:p office:type="type" /></table:table></text:section>'
+      expect(xml.xpath('//text:section').to_s.gsub(/\s/, '')).to eq expected.gsub(/\s/, '')
+    end
+
+    it 'allows duplicating a tag without deep_clone' do
+      xml = simple_xml
+      add_before(xml.xpath('//text:p').first, xml.xpath('//text:p').first)
+      expected = '<text:section><table:table><text:p office:type="type" />'\
+                 '<text:p office:type="type" /></table:table></text:section>'
+      expect(xml.xpath('//text:section').to_s.gsub(/\s/, '')).to eq expected.gsub(/\s/, '')
     end
   end
 

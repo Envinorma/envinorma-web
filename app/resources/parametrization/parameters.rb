@@ -99,7 +99,7 @@ module Parametrization
       section.parametrization.potential_inapplicabilities.each do |inapplicability|
         condition = inapplicability.condition
         if satisfied?(condition, parameters)
-          deactivate_alineas(section, inapplicability.alineas)
+          deactivate_alineas(section, inapplicability.alineas, inapplicability.subsections_are_inapplicable)
           return [true, [inapplicability_warning(inapplicability)]]
         elsif potentially_satisfied?(condition, parameters)
           warnings << potentially_satisfied_warning(condition, false, inapplicability.alineas)
@@ -131,7 +131,7 @@ module Parametrization
       section.applicability.previous_version = previous_version
     end
 
-    def deactivate_alineas(section, target_alineas)
+    def deactivate_alineas(section, target_alineas, subsections_are_inapplicable)
       # Deactivates alineas in `section` whose index is in `target_alineas`.
       # `target_alineas` is an array of alineas ids. If nil, all alineas are deactivated (also in
       # children sections).
@@ -140,9 +140,9 @@ module Parametrization
         alinea.active = target_alineas.present? && target_alineas.exclude?(index)
       end
 
-      return if target_alineas.present?
+      return unless subsections_are_inapplicable
 
-      section.sections.each { |subsection| deactivate_alineas(subsection, nil) }
+      section.sections.each { |subsection| deactivate_alineas(subsection, nil, true) }
     end
   end
 end

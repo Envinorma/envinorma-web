@@ -9,6 +9,11 @@ module Odf
       wrap_with_ns(node).at("//#{tag_name}")
     end
 
+    def add_before(node, new_node)
+      placeholder = node.add_previous_sibling('<placeholder/>')
+      placeholder[0].replace(new_node.to_xml(indent_text: '', indent: 0))
+    end
+
     def find_table(xml, table_name)
       results = xml.xpath("//table:table[@table:name='#{table_name}']")
 
@@ -28,11 +33,11 @@ module Odf
     private
 
     def wrap_with_ns(node)
-      doc = Nokogiri::XML("<root>#{node.to_xml}</root>")
+      doc = Nokogiri::XML("<root>#{node.to_xml(indent_text: '', indent: 0)}</root>")
       node.namespaces.each do |key, value|
         doc.root.add_namespace(key.split('xmlns:')[1], value)
       end
-      Nokogiri::XML(doc.root.to_xml)
+      Nokogiri::XML(doc.root.to_xml(indent_text: '', indent: 0))
     end
   end
 end

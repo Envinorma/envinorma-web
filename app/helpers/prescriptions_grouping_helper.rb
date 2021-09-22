@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 module PrescriptionsGroupingHelper
-  def sort_and_group(prescriptions, by_topic)
+  def sort_and_group_by_topic(prescriptions, by_topic)
     topic_groups = by_topic ? group_by_topics(prescriptions) : { nil => prescriptions }
-    topic_groups.transform_values { |topic_prescriptions| sort_and_group_by_text(topic_prescriptions) }
+    topic_groups.transform_values { |topic_prescriptions| sort_and_group(topic_prescriptions) }
   end
 
   def group_by_topics(prescriptions)
@@ -16,10 +16,10 @@ module PrescriptionsGroupingHelper
     topic == TopicHelper::AUCUN ? [1, TopicHelper::AUCUN] : [0, topic]
   end
 
-  def sort_and_group_by_text(prescriptions)
+  def sort_and_group(prescriptions)
     result = {}
     prescriptions.sort_by { |p| [p.type, p.created_at] }.group_by(&:text_reference).each do |text_reference, group|
-      result[text_reference] = group.sort_by(&:rank_array).group_by(&:reference)
+      result[text_reference] = group.sort_by(&:rank_array).group_by(&:full_reference)
     end
     result
   end

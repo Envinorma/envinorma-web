@@ -7,7 +7,7 @@ class User < ApplicationRecord
   has_many :prescriptions, dependent: :destroy
 
   def prescription_alinea_ids(installation)
-    prescriptions.where(installation_id: installation.id).map(&:alinea_id)
+    prescriptions.where(installation_id: installation.id).pluck(:alinea_id)
   end
 
   def prescriptions_for(installation)
@@ -37,6 +37,6 @@ class User < ApplicationRecord
   private
 
   def group_prescriptions(prescriptions)
-    sort_and_group(prescriptions, consults_precriptions_by_topics?)
+    sort_and_group_by_topic(prescriptions, consults_precriptions_by_topics?)
   end
 end
