@@ -17,15 +17,12 @@ footer
   p
     | Des questions :
     =< link_to 'consulter la FAQ',
-       'https://www.notion.so/FAQ-Envinorma-34a3e5a5b8e94c72b63a67614dc7b122',
-       class: 'btn-link',
-       target: '_blank',
-       rel: 'noopener'
+       page_path('faq'),
+       class: 'btn-link'
 
     br
 
     | Envie d'en savoir plus :
     =< link_to 'consulter la page À propos',
        page_path('about'),
-       class: 'btn-link',
-       rel: 'noopener'
+       class: 'btn-link'
