@@ -67,12 +67,12 @@ git push heroku master
 Pour fonctionner l'application nécessite un certains nombres de données externes, liées aux installations et à la règlementation.
 Vous trouverez dans [ce dossier](https://github.com/Envinorma/data-tasks) les différentes tâches de préparation de la donnée. Elle est ensuite incorporée dans l'application à l'aide du `DataManager`.
 
-```
-DataManager.seed_installations_and_associations(true)
-#permet de seeder les installations ainsi que leurs classements et arrêtés préfectoraux associés
+```ruby
+DataManager.seed_installations_and_associations(validate: true)
+# permet de seeder les installations ainsi que leurs classements et arrêtés préfectoraux associés
 
-DataManager.seed_ams
-#permet de seeder les arrêtés ministériels
+DataManager.seed_ams(from_ovh: false)
+# permet de seeder les arrêtés ministériels
 ```
 
 > La donnée est simplement supprimée puis recréée.

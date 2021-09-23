@@ -1,10 +1,18 @@
 # frozen_string_literal: true
 
+require 'open-uri'
+
 ActiveRecord::Base.logger.level = 1
 
 class DataManager
-  def self.seed_ams
-    ams_files = Dir.glob(Rails.root.join('db/seeds/ams/*.json'))
+  SEED_FOLDER = Rails.root.join('db/seeds')
+  AM_SEED_FOLDER = SEED_FOLDER.join('ams')
+  AM_URL = 'http://storage.sbg.cloud.ovh.net/v1/AUTH_3287ea227a904f04ad4e8bceb0776108/am/ams/latest.zip'
+
+  def self.seed_ams(from_ovh:)
+    download_ams_zip_from_ovh if from_ovh
+
+    ams_files = Dir.glob(AM_SEED_FOLDER.join('*.json'))
     AMManager.validate_then_recreate(ams_files)
   end
 
@@ -49,5 +57,28 @@ class DataManager
     Rails.logger.info "Deleting existing #{model}s."
     model.delete_all
     ActiveRecord::Base.connection.reset_pk_sequence!(model.table_name)
+  end
+
+  def self.download_ams_zip_from_ovh
+    flush_folder(AM_SEED_FOLDER)
+    Tempfile.create do |file|
+      download_file(AM_URL, file.path)
+      Zip::File.open(file.path) do |zip_file|
+        zip_file.each do |entry|
+          entry.extract(AM_SEED_FOLDER.join(entry.name))
+        end
+      end
+    end
+  end
+
+  def self.flush_folder(folder)
+    folder.children.each(&:delete)
+  end
+
+  def self.download_file(url, filename)
+    Rails.logger.info("Downloading #{url} to #{filename}.")
+    download = URI.parse(url).open
+    IO.copy_stream(download, filename)
+    Rails.logger.info("Downloaded #{url} to #{filename}.")
   end
 end
