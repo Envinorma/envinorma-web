@@ -13,7 +13,6 @@ let computeNavHeight = () => {
   if (document.querySelector(".topics_nav") === null) {
     return headerHeight
   }
-  if (checkboxSelectAll === null) return;
   let topicsNavHeight = document.querySelector(".topics_nav").offsetHeight;
   return headerHeight + topicsNavHeight
 }

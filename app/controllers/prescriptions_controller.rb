@@ -11,21 +11,36 @@ class PrescriptionsController < ApplicationController
   end
 
   def create_or_delete_from_am
-    checkbox_key = "prescription_checkbox_#{params[:prescription][:alinea_id]}"
-    checkbox_checked = params[checkbox_key].present?
+    # Delete all prescriptions from alinea
+    alinea_id = params[:installation][:alinea_id]
+    @user.prescriptions_for(@installation).select do |prescription|
+      if prescription.alinea_id.start_with?(alinea_id)
+        prescription.destroy
+      end
+    end
 
-    if checkbox_checked
-      Prescription.create(prescription_params)
-    else
-      @user.prescriptions_for(@installation).find_by(alinea_id:
-      params[:prescription][:alinea_id]).destroy
+    # Create prescriptions from params
+    prescriptions_indexes = []
+    params.keys.map do |key|
+      if key.start_with?("prescription_checkbox_#{alinea_id}_")
+        prescription_index = key.gsub("prescription_checkbox_#{alinea_id}_" , '')
+
+        prescriptions_indexes << prescription_index
+      end
+    end
+
+    prescription_params[:prescriptions_attributes].each do |params|
+      if prescriptions_indexes.include?(params.first)
+        p = Prescription.new((params.last).merge!(installation_id: @installation.id, user_id: @user.id))
+        p.save!
+      end
     end
 
     render_prescriptions
   end
 
   def create_from_ap
-    prescription_hash = prescription_params
+    prescription_hash = prescription_params_ap
     prescription_hash[:topic] = TopicHelper::AUCUN
     if prescription_hash[:content].length.zero? || prescription_hash[:reference].length.zero?
       @message = 'Les champs contenu et référence ne doivent pas être vides.'
@@ -74,9 +89,15 @@ class PrescriptionsController < ApplicationController
     @installation = Installation.find(params[:installation_id])
   end
 
-  def prescription_params
+  def prescription_params_ap
     params.require(:prescription).permit(:reference, :content, :alinea_id, :from_am_id, :user_id, :text_reference,
                                          :rank, :topic, :is_table, :name)
+          .merge!(installation_id: @installation.id, user_id: @user.id)
+  end
+
+  def prescription_params
+    params.require(:installation).permit(:alinea_id, prescriptions_attributes: [:reference, :content, :alinea_id, :from_am_id, :user_id, :text_reference,
+                                         :rank, :topic, :is_table, :name])
           .merge!(installation_id: @installation.id, user_id: @user.id)
   end
 

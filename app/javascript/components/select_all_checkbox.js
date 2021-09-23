@@ -30,13 +30,15 @@ const updateStateSelectAllCheckbox = (event) => {
 const updateStateChildCheckboxes = (event) => {
   const checkboxSelectAll = event.target;
   const checkboxes = document.querySelectorAll('.' + checkboxSelectAll.id);
-
   checkboxes.forEach((checkbox) => {
     if (checkbox.checked !== checkboxSelectAll.checked) {
       checkbox.checked = checkboxSelectAll.checked;
       checkbox.dispatchEvent(new Event('change'));
     }
   });
+  //Dispatch click on select_all checkbox to add_prescriptions.js
+  var evt = new CustomEvent("StateSelectAllCheckbox", {detail: event});
+  window.dispatchEvent(evt);
 };
 
 window.addEventListener('DOMContentLoaded', () => {
