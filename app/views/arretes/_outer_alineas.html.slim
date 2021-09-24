@@ -22,7 +22,9 @@ ruby:
 
 - else
   = simple_form_for @installation,
-    url: installation_create_or_delete_from_am_path(@installation), html: { id: "alinea_checkbox_form_#{subsection_id}" }, remote: true do |f|
+    url: installation_create_or_delete_from_am_path(@installation),
+    html: { id: "alinea_checkbox_form_#{subsection_id}" },
+    remote: true do |f|
 
     = f.hidden_field :alinea_id, value: subsection_id
 
@@ -40,12 +42,30 @@ ruby:
               - class_name = alinea.active.nil? || alinea.active ? '' : 'inactive'
               = label_tag "prescription_checkbox_#{alinea_id}", class: class_name
                 - create_alinea_content(alinea)
-              = p.hidden_field :content, value: extract_prescription_content(alinea), namespace: alinea_id, name: "installation[prescriptions_attributes][#{alinea_index}][content]"
-              = p.hidden_field :reference, value: section_ref, namespace: alinea_id, name: "installation[prescriptions_attributes][#{alinea_index}][reference]"
-              = p.hidden_field :name, value: section_name, namespace: alinea_id, name: "installation[prescriptions_attributes][#{alinea_index}][name]"
-              = p.hidden_field :alinea_id, value: alinea_id, namespace: alinea_id, name: "installation[prescriptions_attributes][#{alinea_index}][alinea_id]"
-              = p.hidden_field :text_reference, value: am_ref, namespace: alinea_id, name: "installation[prescriptions_attributes][#{alinea_index}][text_reference]"
-              = p.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}", namespace: alinea_id, name: "installation[prescriptions_attributes][#{alinea_index}][rank]"
-              = p.hidden_field :from_am_id, value: am_id, namespace: alinea_id, name: "installation[prescriptions_attributes][#{alinea_index}][from_am_id]"
-              = p.hidden_field :topic, value: topic, namespace: alinea_id, name: "installation[prescriptions_attributes][#{alinea_index}][topic]"
-              = p.hidden_field :is_table, value: alinea.text.blank? && alinea.table.present?, namespace: alinea_id, name: "installation[prescriptions_attributes][#{alinea_index}][is_table]"
+              = p.hidden_field :content, value: extract_prescription_content(alinea),
+                               namespace: alinea_id,
+                               name: "installation[prescriptions_attributes][#{alinea_index}][content]"
+              = p.hidden_field :reference, value: section_ref,
+                               namespace: alinea_id,
+                               name: "installation[prescriptions_attributes][#{alinea_index}][reference]"
+              = p.hidden_field :name, value: section_name,
+                               namespace: alinea_id,
+                               name: "installation[prescriptions_attributes][#{alinea_index}][name]"
+              = p.hidden_field :alinea_id, value: alinea_id,
+                               namespace: alinea_id,
+                               name: "installation[prescriptions_attributes][#{alinea_index}][alinea_id]"
+              = p.hidden_field :text_reference, value: am_ref,
+                               namespace: alinea_id,
+                               name: "installation[prescriptions_attributes][#{alinea_index}][text_reference]"
+              = p.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}",
+                               namespace: alinea_id,
+                               name: "installation[prescriptions_attributes][#{alinea_index}][rank]"
+              = p.hidden_field :from_am_id, value: am_id,
+                               namespace: alinea_id,
+                               name: "installation[prescriptions_attributes][#{alinea_index}][from_am_id]"
+              = p.hidden_field :topic, value: topic,
+                               namespace: alinea_id,
+                               name: "installation[prescriptions_attributes][#{alinea_index}][topic]"
+              = p.hidden_field :is_table, value: alinea.text.blank? && alinea.table.present?,
+                               namespace: alinea_id,
+                               name: "installation[prescriptions_attributes][#{alinea_index}][is_table]"

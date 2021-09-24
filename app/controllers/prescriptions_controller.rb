@@ -14,19 +14,17 @@ class PrescriptionsController < ApplicationController
     # Delete all prescriptions from alinea
     alinea_id = params[:installation][:alinea_id]
     @user.prescriptions_for(@installation).select do |prescription|
-      if prescription.alinea_id.start_with?(alinea_id)
-        prescription.destroy
-      end
+      prescription.destroy if prescription.alinea_id.start_with?(alinea_id)
     end
 
     # Create prescriptions from params
     prescriptions_indexes = []
     params.keys.map do |key|
-      if key.start_with?("prescription_checkbox_#{alinea_id}_")
-        prescription_index = key.gsub("prescription_checkbox_#{alinea_id}_" , '')
+      next unless key.start_with?("prescription_checkbox_#{alinea_id}_")
 
-        prescriptions_indexes << prescription_index
-      end
+      prescription_index = key.gsub("prescription_checkbox_#{alinea_id}_", '')
+
+      prescriptions_indexes << prescription_index
     end
 
     prescription_params[:prescriptions_attributes].each do |params|
@@ -96,8 +94,8 @@ class PrescriptionsController < ApplicationController
   end
 
   def prescription_params
-    params.require(:installation).permit(:alinea_id, prescriptions_attributes: [:reference, :content, :alinea_id, :from_am_id, :user_id, :text_reference,
-                                         :rank, :topic, :is_table, :name])
+    params.require(:installation).permit(:alinea_id, prescriptions_attributes:
+      %i[reference content alinea_id from_am_id user_id text_reference rank topic is_table name])
           .merge!(installation_id: @installation.id, user_id: @user.id)
   end
 
