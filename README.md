@@ -75,10 +75,6 @@ DataManager.seed_ams(from_ovh: false)
 # permet de seeder les arrêtés ministériels
 ```
 
-> La donnée est simplement supprimée puis recréée.
-
-> On utilise la gem `after_party` pour lancer des tâches au moment du déploiement. ex: lorsque que l'on met en production un nouveau lot d'arrêtés ministériels
-
 ![le schéma de la donnée](/docs/schema.png)
 
 > La donnée des tables `installations`, `classements`, `APs` et `AMs` sont seedées à partir de scripts et ne sont pas modifiées directement par l'utilisateur. L'utilisateur peut toutefois créer de nouvelles installations (à partir de 0 ou en dupliquant des installations existantes) et y ajouter ou modifier leurs classements.
