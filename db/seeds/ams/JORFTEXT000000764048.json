@@ -1,537 +1,449 @@
 {
-    "aida_url": "https://aida.ineris.fr/consultation_document/5507",
-    "applicability": {
-        "condition_of_inapplicability": null,
-        "warnings": []
-    },
-    "classements": [
-        {
-            "alinea": null,
-            "regime": "D",
-            "rubrique": "1531",
-            "state": "ACTIVE"
-        }
-    ],
-    "classements_with_alineas": [
-        {
-            "alineas": [],
-            "regime": "D",
-            "rubrique": "1531"
-        }
-    ],
-    "date_of_signature": "2000-04-03",
-    "id": "JORFTEXT000000764048",
-    "is_transverse": false,
-    "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000764048",
-    "nickname": null,
-    "sections": [
-        {
-            "annotations": {
-                "topic": null
-            },
-            "applicability": {
-                "active": true,
-                "modified": false,
-                "previous_version": null,
-                "warnings": []
-            },
-            "id": "01BAD9abd4eB",
-            "outer_alineas": [
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Les installations classées pour la protection de l'environnement soumises à déclaration sous la rubrique n° 1531, \"Stockages par voie humide (immersion ou aspersion) de bois non traité chimiquement\" sont soumises aux dispositions de l'annexe. Les présentes dispositions s'appliquent sans préjudice des autres législations."
-                }
-            ],
-            "parametrization": {
-                "potential_inapplicabilities": [],
-                "potential_modifications": [],
-                "warnings": []
-            },
-            "reference_str": "Art. 1er",
-            "sections": [],
-            "title": {
-                "active": true,
-                "table": null,
-                "text": "Article 1er"
-            }
-        },
-        {
-            "annotations": {
-                "topic": null
-            },
-            "applicability": {
-                "active": true,
-                "modified": false,
-                "previous_version": null,
-                "warnings": []
-            },
-            "id": "Cf7B01206B75",
-            "outer_alineas": [
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Les dispositions de l'annexe sont applicables aux installations nouvelles dès la publication au Journal Officiel du présent arrêté."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Les dispositions de l'annexe ne sont pas applicables aux installations classées incluses dans un établissement qui comporte au moins une installation soumise au régime de l'autorisation dès lors que ces installations sont visées par l'arrêté d'autorisation."
-                }
-            ],
-            "parametrization": {
-                "potential_inapplicabilities": [],
-                "potential_modifications": [],
-                "warnings": []
-            },
-            "reference_str": "Art. 2",
-            "sections": [],
-            "title": {
-                "active": true,
-                "table": null,
-                "text": "Article 2"
-            }
-        },
-        {
-            "annotations": {
-                "topic": null
-            },
-            "applicability": {
-                "active": true,
-                "modified": false,
-                "previous_version": null,
-                "warnings": []
-            },
-            "id": "C57BF3C6df2f",
-            "outer_alineas": [
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Le préfet peut, pour une installation donnée, modifier par arrêté les dispositions de l'annexe dans les conditions prévues aux articles 11 de la loi n° 76-663 du 19 juillet 1976 et 30 du décret n° 77-1133 du 21 septembre 1977 susvisés."
-                }
-            ],
-            "parametrization": {
-                "potential_inapplicabilities": [],
-                "potential_modifications": [],
-                "warnings": []
-            },
-            "reference_str": "Art. 3",
-            "sections": [],
-            "title": {
-                "active": true,
-                "table": null,
-                "text": "Article 3"
-            }
-        },
-        {
-            "annotations": {
-                "topic": null
-            },
-            "applicability": {
-                "active": true,
-                "modified": false,
-                "previous_version": null,
-                "warnings": []
-            },
-            "id": "AD9490F5a57E",
-            "outer_alineas": [
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Le directeur de la prévention des pollutions et des risques est chargé de l'exécution du présent arrêté qui sera publié au Journal officiel de la République française."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Fait à Paris, le 3 avril 2000."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Pour le ministre et par délégation :"
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "\tLe directeur de la prévention des pollutions et des risques,"
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "\tdélégué aux risques majeurs,"
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "\tP. VESSERON"
-                }
-            ],
-            "parametrization": {
-                "potential_inapplicabilities": [],
-                "potential_modifications": [],
-                "warnings": []
-            },
-            "reference_str": "Art. 4",
-            "sections": [],
-            "title": {
-                "active": true,
-                "table": null,
-                "text": "Article 4"
-            }
-        },
-        {
-            "annotations": {
-                "topic": null
-            },
-            "applicability": {
-                "active": true,
-                "modified": false,
-                "previous_version": null,
-                "warnings": []
-            },
-            "id": "60AddA61E4bF",
-            "outer_alineas": [],
-            "parametrization": {
-                "potential_inapplicabilities": [],
-                "potential_modifications": [],
-                "warnings": []
-            },
-            "reference_str": "Annexe",
-            "sections": [
-                {
-                    "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
-                    },
-                    "applicability": {
-                        "active": true,
-                        "modified": false,
-                        "previous_version": null,
-                        "warnings": []
-                    },
-                    "id": "db88Cfb0d9E6",
-                    "outer_alineas": [
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "(Décret n°2015-1614 du 9 décembre 2015, article 16)"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "L'installation doit être implantée, réalisée et exploitée conformément aux plans et autres documents joints à la déclaration, sous réserve du respect des prescriptions ci-dessous. Les documents précisent notamment les mesures prises ou prévues par l'exploitant pour respecter les dispositions du présent arrêté. (référence : article 25 du décret du 21 septembre 1977)"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Toute modification apportée par le déclarant à l'installation, à son mode d'exploitation ou à son voisinage, entraînant un changement notable des éléments du dossier de déclaration initiale, doit être portée, avant sa réalisation, à la connaissance du préfet qui peut exiger une nouvelle déclaration. (référence : article 31 du décret du 21 septembre 1977)."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "L'exploitant d'une installation est tenu de déclarer dans les meilleurs délais à l'inspection des installations classées les accidents ou incidents survenus du fait du fonctionnement de cette installation qui sont de nature à porter atteinte aux intérêts mentionnés à l'article 1er de la loi du 19 juillet 1976. (référence : article 38 du décret du 21 septembre 1977)."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "L'exploitant doit établir et tenir à jour un dossier comportant les documents suivants :"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "- le dossier de déclaration,"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "- le relevé cadastral des parcelles,"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "- « la preuve de dépôt de la déclaration » et les prescriptions générales,"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "- les arrêtés préfectoraux relatifs à l'installation concernée, pris en application de la législation relative aux installations classées pour la protection de l'environnement, s'il y en a,"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "- les résultats des mesures sur les effluents."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Ce dossier doit être tenu à la disposition de l'inspection des installations classées."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Lorsque l'installation change d'exploitant, le nouvel exploitant ou son représentant doit en faire la déclaration au préfet dans le mois qui suit la prise en charge de l'exploitation. Cette déclaration doit mentionner, s'il s'agit d'une personne physique, les nom, prénoms et domicile du nouvel exploitant et, s'il s'agit d'une personne morale, sa dénomination ou sa raison sociale, sa forme juridique, l'adresse de son siège social ainsi que la qualité du signataire de la déclaration. (référence : article 34 du décret du 21 septembre 1977)"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Lorsqu'une installation cesse l'activité au titre de laquelle elle était déclarée, son exploitant doit en informer le préfet au moins un mois avant l'arrêt définitif. La notification de l'exploitant indique les mesures de remise en état prévues ou réalisées (référence : article 34-1 du décret du 21 septembre 1977)."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Les véhicules de transport, les matériels de manutention et les engins de chantier utilisés doivent être conformes aux dispositions en vigueur en matière de limitation de leurs émissions sonores."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "L'usage de tous appareils de communication par voie acoustique (sirènes, avertisseurs, haut-parleurs, etc.), gênant pour le voisinage, est interdit, sauf si leur emploi est exceptionnel et réservé à la prévention et au signalement d'incidents graves ou d'accidents."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Un état de la résorption du stockage sera transmis au 31 décembre de chaque année à l'inspection des installations classées."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Les bois ne doivent avoir subi aucun traitement de protection chimique."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Les stockages en zones inondables à forts aléas sont interdits."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Les stockages ne doivent pas se situer dans les périmètres de protection rapprochée des captages d'eau potable et d'une façon générale à proximité de ces captages, sauf accord du préfet après avis d'un hydrogéologue agréé. Les installations de prélèvement d'eau dans le milieu naturel doivent être munies de dispositifs de mesure totalisateurs de la quantité d'eau prélevée. Ces dispositifs doivent être relevés toutes les semaines. Le résultat de ces mesures doit être enregistré et tenu à la disposition de l'inspection des installations classées. Le pompage en nappe d'eau souterraine doit être muni d'un dispositif antiretour."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "La quantité d'eau rejetée doit être mesurée journellement ou à défaut évaluée à partir de la mesure des quantités d'eau prélevées."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Une distance minimale de 100 mètres est respectée entre ces dépôts de bois et des habitations ou des locaux occupés par des tiers, des zones de loisirs ou établissements recevant du public."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Les accès à la zone de stockage doivent pouvoir supporter les engins de manutention et les grumiers."
-                        }
-                    ],
-                    "parametrization": {
-                        "potential_inapplicabilities": [],
-                        "potential_modifications": [],
-                        "warnings": []
-                    },
-                    "reference_str": "Annexe A.",
-                    "sections": [],
-                    "title": {
-                        "active": true,
-                        "table": null,
-                        "text": "A. Prescriptions générales"
-                    }
-                },
-                {
-                    "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
-                    },
-                    "applicability": {
-                        "active": true,
-                        "modified": false,
-                        "previous_version": null,
-                        "warnings": []
-                    },
-                    "id": "50dA16BB5F9E",
-                    "outer_alineas": [
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Seuls les bois ronds peuvent être stockées."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Le stockage est réalisé en eaux closes déclarées ou autorisées. Les portions de cours d'eau ou les plans d'eau en communication avec les cours d'eau peuvent toutefois être utilisés à condition qu'ils soient isolés pendant la période de stockage (canaux ou plans d'eau en dérivation de cours d'eau). On évitera systématiquement les plans d'eau à vocation piscicole ou récréative ainsi que les zones protégées (parcs nationaux, réserves naturelles, et arrêtés de protection de biotopes...). Les retenues d'eau présentant des risques d'entraînement des bois par lâchures ou rupture sont exclues."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Les berges doivent être suffisamment stables, les engins doivent pouvoir manoeuvrer aux abords en toute sécurité."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Toutes les précautions doivent être prises, lors de l'éventuelle vidange du plan d'eau, afin de respecter le milieu naturel récepteur, selon les dispositions réglementaires en vigueur."
-                        }
-                    ],
-                    "parametrization": {
-                        "potential_inapplicabilities": [],
-                        "potential_modifications": [],
-                        "warnings": []
-                    },
-                    "reference_str": "Annexe B.",
-                    "sections": [],
-                    "title": {
-                        "active": true,
-                        "table": null,
-                        "text": "B. Prescriptions relatives aux stockages par immersion"
-                    }
-                },
-                {
-                    "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
-                    },
-                    "applicability": {
-                        "active": true,
-                        "modified": false,
-                        "previous_version": null,
-                        "warnings": []
-                    },
-                    "id": "FeE18aeAB795",
-                    "outer_alineas": [
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Les systèmes d'aspersion les plus économes en eau sont privilégiés. La quantité d'eau prélevée doit être compatible avec le potentiel du milieu dans lequel elle est prélevée notamment en zone de répartition des eaux. De plus, dans les cours d'eau, un débit minimal permettant de garantir la vie, la circulation et la reproduction des espèces piscicoles doit être maintenu en toute période."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "La hauteur des piles de bois ne peut pas excéder 5 mètres sauf justification technique argumentée. Des dispositifs de renforcement des bords des piles peuvent être utilisés ou encore une pente naturelle des bords de l'ordre de 35 à 40°. La direction des vents dominants doit être prise en compte pour l'installation des piles et du système d'arrosage."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Les stockages ne doivent pas être accessibles au public."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Des modalités de surveillance doivent être mises en place pour les stockages de plus de 10 000 m³ pour connaître notamment les matières en suspension, la DBO5, la DCO, et le pH. Ces mesures sont effectuées, pendant les quatre premiers mois tous les 15 jours (sauf pour le pH pour lequel la mesure est journalière), puis tous les 6 mois."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Les rejets dans les eaux superficielles doivent tenir compte des objectifs de qualité des cours d'eau quand ils existent. Dans tous les cas, le pH des effluents rejetés doit être supérieur à 5,5."
-                        }
-                    ],
-                    "parametrization": {
-                        "potential_inapplicabilities": [],
-                        "potential_modifications": [],
-                        "warnings": []
-                    },
-                    "reference_str": "Annexe C.",
-                    "sections": [
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "e9a1CEE8951d",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Un amendement calcaire préalable est réalisé sauf si un avis d'un organisme compétent ou une étude pédologique permet de s'assurer que les effluents issus du stockage ne peuvent pas conduire à une acidification des sols."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Les stockages d'une capacité inférieure à 10 000 m³ peuvent se dispenser d'une collecte des effluents si le sol d'implantation se prête à une épuration naturelle."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Les effluents des stockages d'une capacité supérieure à 10 000 m³ doivent être collectés. Un stock tampon doit être créé avant rejet pour ces effluents. Il doit être dimensionné pour contenir les effluents d'une journée et permettre ainsi d'apporter d'éventuelles mesures correctives, notamment du pH, aux effluents avant rejet. La limitation du nombre de points de rejets permet de faciliter le contrôle et le traitement éventuel des effluents."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe C.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "C.1. Stockages en circuits ouverts"
-                            }
-                        },
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "fB8Ea61e5cC2",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Le sol doit avoir une bonne étanchéité."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Le recyclage des effluents doit être correctement effectué pour éviter des rejets diffus."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Au terme du stockage, les effluents rejetés devront subir un traitement adapté pour être compatibles avec le milieu récepteur."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "De même doivent subir un traitement adapté pour être compatibles avec le milieu récepteur les effluents des stockages semi fermés rejetés périodiquement dans le milieu naturel."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe C.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "C.2. Stockage en circuits fermés"
-                            }
-                        }
-                    ],
-                    "title": {
-                        "active": true,
-                        "table": null,
-                        "text": "C. Prescriptions relatives aux stockages par aspersion"
-                    }
-                }
-            ],
-            "title": {
-                "active": true,
-                "table": null,
-                "text": "Annexe"
-            }
-        }
-    ],
-    "title": {
+  "aida_url": "https://aida.ineris.fr/consultation_document/5507",
+  "applicability": {
+    "condition_of_inapplicability": null,
+    "warnings": []
+  },
+  "classements": [
+    {
+      "alinea": null,
+      "regime": "D",
+      "rubrique": "1531",
+      "state": "ACTIVE"
+    }
+  ],
+  "classements_with_alineas": [
+    {
+      "alineas": [],
+      "regime": "D",
+      "rubrique": "1531"
+    }
+  ],
+  "date_of_signature": "2000-04-03",
+  "id": "JORFTEXT000000764048",
+  "is_transverse": false,
+  "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000764048",
+  "nickname": null,
+  "orphan_titles": null,
+  "sections": [
+    {
+      "annotations": {
+        "topic": null
+      },
+      "applicability": {
         "active": true,
-        "table": null,
-        "text": "Arrêté du 03/04/00 relatif aux prescriptions générales applicables aux installations classées pour la protection de l'environnement soumises à déclaration sous la rubrique n° 1531, \" Stockages, par voie humide (immersion ou aspersion) de bois non traité chimiquement \""
+        "modified": false,
+        "previous_version": null,
+        "warnings": []
+      },
+      "id": "01BAD9abd4eB",
+      "outer_alineas": [
+        {
+          "text": "Les installations classées pour la protection de l'environnement soumises à déclaration sous la rubrique n° 1531, \"Stockages par voie humide (immersion ou aspersion) de bois non traité chimiquement\" sont soumises aux dispositions de l'annexe. Les présentes dispositions s'appliquent sans préjudice des autres législations."
+        }
+      ],
+      "parametrization": {
+        "potential_inapplicabilities": [],
+        "potential_modifications": [],
+        "warnings": []
+      },
+      "reference": {
+        "name": "",
+        "nb": "Article 1er"
+      },
+      "sections": [],
+      "title": {
+        "text": "Article 1er"
+      }
     },
-    "version_descriptor": null,
-    "visa": []
+    {
+      "annotations": {
+        "topic": null
+      },
+      "applicability": {
+        "active": true,
+        "modified": false,
+        "previous_version": null,
+        "warnings": []
+      },
+      "id": "Cf7B01206B75",
+      "outer_alineas": [
+        {
+          "text": "Les dispositions de l'annexe sont applicables aux installations nouvelles dès la publication au Journal Officiel du présent arrêté."
+        },
+        {
+          "text": "Les dispositions de l'annexe ne sont pas applicables aux installations classées incluses dans un établissement qui comporte au moins une installation soumise au régime de l'autorisation dès lors que ces installations sont visées par l'arrêté d'autorisation."
+        }
+      ],
+      "parametrization": {
+        "potential_inapplicabilities": [],
+        "potential_modifications": [],
+        "warnings": []
+      },
+      "reference": {
+        "name": "",
+        "nb": "Article 2"
+      },
+      "sections": [],
+      "title": {
+        "text": "Article 2"
+      }
+    },
+    {
+      "annotations": {
+        "topic": null
+      },
+      "applicability": {
+        "active": true,
+        "modified": false,
+        "previous_version": null,
+        "warnings": []
+      },
+      "id": "C57BF3C6df2f",
+      "outer_alineas": [
+        {
+          "text": "Le préfet peut, pour une installation donnée, modifier par arrêté les dispositions de l'annexe dans les conditions prévues aux articles 11 de la loi n° 76-663 du 19 juillet 1976 et 30 du décret n° 77-1133 du 21 septembre 1977 susvisés."
+        }
+      ],
+      "parametrization": {
+        "potential_inapplicabilities": [],
+        "potential_modifications": [],
+        "warnings": []
+      },
+      "reference": {
+        "name": "",
+        "nb": "Article 3"
+      },
+      "sections": [],
+      "title": {
+        "text": "Article 3"
+      }
+    },
+    {
+      "annotations": {
+        "topic": null
+      },
+      "applicability": {
+        "active": true,
+        "modified": false,
+        "previous_version": null,
+        "warnings": []
+      },
+      "id": "AD9490F5a57E",
+      "outer_alineas": [
+        {
+          "text": "Le directeur de la prévention des pollutions et des risques est chargé de l'exécution du présent arrêté qui sera publié au Journal officiel de la République française."
+        },
+        {
+          "text": "Fait à Paris, le 3 avril 2000."
+        },
+        {
+          "text": "Pour le ministre et par délégation :"
+        },
+        {
+          "text": "\tLe directeur de la prévention des pollutions et des risques,"
+        },
+        {
+          "text": "\tdélégué aux risques majeurs,"
+        },
+        {
+          "text": "\tP. VESSERON"
+        }
+      ],
+      "parametrization": {
+        "potential_inapplicabilities": [],
+        "potential_modifications": [],
+        "warnings": []
+      },
+      "reference": {
+        "name": "",
+        "nb": "Article 4"
+      },
+      "sections": [],
+      "title": {
+        "text": "Article 4"
+      }
+    },
+    {
+      "annotations": {
+        "topic": null
+      },
+      "applicability": {
+        "active": true,
+        "modified": false,
+        "previous_version": null,
+        "warnings": []
+      },
+      "id": "60AddA61E4bF",
+      "outer_alineas": [],
+      "parametrization": {
+        "potential_inapplicabilities": [],
+        "potential_modifications": [],
+        "warnings": []
+      },
+      "reference": {
+        "name": "",
+        "nb": "Annexe"
+      },
+      "sections": [
+        {
+          "annotations": {
+            "topic": "DISPOSITIONS_GENERALES"
+          },
+          "applicability": {
+            "active": true,
+            "modified": false,
+            "previous_version": null,
+            "warnings": []
+          },
+          "id": "db88Cfb0d9E6",
+          "outer_alineas": [
+            {
+              "text": "(Décret n°2015-1614 du 9 décembre 2015, article 16)"
+            },
+            {
+              "text": "L'installation doit être implantée, réalisée et exploitée conformément aux plans et autres documents joints à la déclaration, sous réserve du respect des prescriptions ci-dessous. Les documents précisent notamment les mesures prises ou prévues par l'exploitant pour respecter les dispositions du présent arrêté. (référence : article 25 du décret du 21 septembre 1977)"
+            },
+            {
+              "text": "Toute modification apportée par le déclarant à l'installation, à son mode d'exploitation ou à son voisinage, entraînant un changement notable des éléments du dossier de déclaration initiale, doit être portée, avant sa réalisation, à la connaissance du préfet qui peut exiger une nouvelle déclaration. (référence : article 31 du décret du 21 septembre 1977)."
+            },
+            {
+              "text": "L'exploitant d'une installation est tenu de déclarer dans les meilleurs délais à l'inspection des installations classées les accidents ou incidents survenus du fait du fonctionnement de cette installation qui sont de nature à porter atteinte aux intérêts mentionnés à l'article 1er de la loi du 19 juillet 1976. (référence : article 38 du décret du 21 septembre 1977)."
+            },
+            {
+              "text": "L'exploitant doit établir et tenir à jour un dossier comportant les documents suivants :"
+            },
+            {
+              "text": "- le dossier de déclaration,"
+            },
+            {
+              "text": "- le relevé cadastral des parcelles,"
+            },
+            {
+              "text": "- « la preuve de dépôt de la déclaration » et les prescriptions générales,"
+            },
+            {
+              "text": "- les arrêtés préfectoraux relatifs à l'installation concernée, pris en application de la législation relative aux installations classées pour la protection de l'environnement, s'il y en a,"
+            },
+            {
+              "text": "- les résultats des mesures sur les effluents."
+            },
+            {
+              "text": "Ce dossier doit être tenu à la disposition de l'inspection des installations classées."
+            },
+            {
+              "text": "Lorsque l'installation change d'exploitant, le nouvel exploitant ou son représentant doit en faire la déclaration au préfet dans le mois qui suit la prise en charge de l'exploitation. Cette déclaration doit mentionner, s'il s'agit d'une personne physique, les nom, prénoms et domicile du nouvel exploitant et, s'il s'agit d'une personne morale, sa dénomination ou sa raison sociale, sa forme juridique, l'adresse de son siège social ainsi que la qualité du signataire de la déclaration. (référence : article 34 du décret du 21 septembre 1977)"
+            },
+            {
+              "text": "Lorsqu'une installation cesse l'activité au titre de laquelle elle était déclarée, son exploitant doit en informer le préfet au moins un mois avant l'arrêt définitif. La notification de l'exploitant indique les mesures de remise en état prévues ou réalisées (référence : article 34-1 du décret du 21 septembre 1977)."
+            },
+            {
+              "text": "Les véhicules de transport, les matériels de manutention et les engins de chantier utilisés doivent être conformes aux dispositions en vigueur en matière de limitation de leurs émissions sonores."
+            },
+            {
+              "text": "L'usage de tous appareils de communication par voie acoustique (sirènes, avertisseurs, haut-parleurs, etc.), gênant pour le voisinage, est interdit, sauf si leur emploi est exceptionnel et réservé à la prévention et au signalement d'incidents graves ou d'accidents."
+            },
+            {
+              "text": "Un état de la résorption du stockage sera transmis au 31 décembre de chaque année à l'inspection des installations classées."
+            },
+            {
+              "text": "Les bois ne doivent avoir subi aucun traitement de protection chimique."
+            },
+            {
+              "text": "Les stockages en zones inondables à forts aléas sont interdits."
+            },
+            {
+              "text": "Les stockages ne doivent pas se situer dans les périmètres de protection rapprochée des captages d'eau potable et d'une façon générale à proximité de ces captages, sauf accord du préfet après avis d'un hydrogéologue agréé. Les installations de prélèvement d'eau dans le milieu naturel doivent être munies de dispositifs de mesure totalisateurs de la quantité d'eau prélevée. Ces dispositifs doivent être relevés toutes les semaines. Le résultat de ces mesures doit être enregistré et tenu à la disposition de l'inspection des installations classées. Le pompage en nappe d'eau souterraine doit être muni d'un dispositif antiretour."
+            },
+            {
+              "text": "La quantité d'eau rejetée doit être mesurée journellement ou à défaut évaluée à partir de la mesure des quantités d'eau prélevées."
+            },
+            {
+              "text": "Une distance minimale de 100 mètres est respectée entre ces dépôts de bois et des habitations ou des locaux occupés par des tiers, des zones de loisirs ou établissements recevant du public."
+            },
+            {
+              "text": "Les accès à la zone de stockage doivent pouvoir supporter les engins de manutention et les grumiers."
+            }
+          ],
+          "parametrization": {
+            "potential_inapplicabilities": [],
+            "potential_modifications": [],
+            "warnings": []
+          },
+          "reference": {
+            "name": "Prescriptions générales",
+            "nb": "Annexe > A."
+          },
+          "sections": [],
+          "title": {
+            "text": "A. Prescriptions générales"
+          }
+        },
+        {
+          "annotations": {
+            "topic": "DISPOSITIONS_GENERALES"
+          },
+          "applicability": {
+            "active": true,
+            "modified": false,
+            "previous_version": null,
+            "warnings": []
+          },
+          "id": "50dA16BB5F9E",
+          "outer_alineas": [
+            {
+              "text": "Seuls les bois ronds peuvent être stockées."
+            },
+            {
+              "text": "Le stockage est réalisé en eaux closes déclarées ou autorisées. Les portions de cours d'eau ou les plans d'eau en communication avec les cours d'eau peuvent toutefois être utilisés à condition qu'ils soient isolés pendant la période de stockage (canaux ou plans d'eau en dérivation de cours d'eau). On évitera systématiquement les plans d'eau à vocation piscicole ou récréative ainsi que les zones protégées (parcs nationaux, réserves naturelles, et arrêtés de protection de biotopes...). Les retenues d'eau présentant des risques d'entraînement des bois par lâchures ou rupture sont exclues."
+            },
+            {
+              "text": "Les berges doivent être suffisamment stables, les engins doivent pouvoir manoeuvrer aux abords en toute sécurité."
+            },
+            {
+              "text": "Toutes les précautions doivent être prises, lors de l'éventuelle vidange du plan d'eau, afin de respecter le milieu naturel récepteur, selon les dispositions réglementaires en vigueur."
+            }
+          ],
+          "parametrization": {
+            "potential_inapplicabilities": [],
+            "potential_modifications": [],
+            "warnings": []
+          },
+          "reference": {
+            "name": "Prescriptions relatives aux stockages par immersion",
+            "nb": "Annexe > B."
+          },
+          "sections": [],
+          "title": {
+            "text": "B. Prescriptions relatives aux stockages par immersion"
+          }
+        },
+        {
+          "annotations": {
+            "topic": "DISPOSITIONS_GENERALES"
+          },
+          "applicability": {
+            "active": true,
+            "modified": false,
+            "previous_version": null,
+            "warnings": []
+          },
+          "id": "FeE18aeAB795",
+          "outer_alineas": [
+            {
+              "text": "Les systèmes d'aspersion les plus économes en eau sont privilégiés. La quantité d'eau prélevée doit être compatible avec le potentiel du milieu dans lequel elle est prélevée notamment en zone de répartition des eaux. De plus, dans les cours d'eau, un débit minimal permettant de garantir la vie, la circulation et la reproduction des espèces piscicoles doit être maintenu en toute période."
+            },
+            {
+              "text": "La hauteur des piles de bois ne peut pas excéder 5 mètres sauf justification technique argumentée. Des dispositifs de renforcement des bords des piles peuvent être utilisés ou encore une pente naturelle des bords de l'ordre de 35 à 40°. La direction des vents dominants doit être prise en compte pour l'installation des piles et du système d'arrosage."
+            },
+            {
+              "text": "Les stockages ne doivent pas être accessibles au public."
+            },
+            {
+              "text": "Des modalités de surveillance doivent être mises en place pour les stockages de plus de 10 000 m³ pour connaître notamment les matières en suspension, la DBO5, la DCO, et le pH. Ces mesures sont effectuées, pendant les quatre premiers mois tous les 15 jours (sauf pour le pH pour lequel la mesure est journalière), puis tous les 6 mois."
+            },
+            {
+              "text": "Les rejets dans les eaux superficielles doivent tenir compte des objectifs de qualité des cours d'eau quand ils existent. Dans tous les cas, le pH des effluents rejetés doit être supérieur à 5,5."
+            }
+          ],
+          "parametrization": {
+            "potential_inapplicabilities": [],
+            "potential_modifications": [],
+            "warnings": []
+          },
+          "reference": {
+            "name": "Prescriptions relatives aux stockages par aspersion",
+            "nb": "Annexe > C."
+          },
+          "sections": [
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "e9a1CEE8951d",
+              "outer_alineas": [
+                {
+                  "text": "Un amendement calcaire préalable est réalisé sauf si un avis d'un organisme compétent ou une étude pédologique permet de s'assurer que les effluents issus du stockage ne peuvent pas conduire à une acidification des sols."
+                },
+                {
+                  "text": "Les stockages d'une capacité inférieure à 10 000 m³ peuvent se dispenser d'une collecte des effluents si le sol d'implantation se prête à une épuration naturelle."
+                },
+                {
+                  "text": "Les effluents des stockages d'une capacité supérieure à 10 000 m³ doivent être collectés. Un stock tampon doit être créé avant rejet pour ces effluents. Il doit être dimensionné pour contenir les effluents d'une journée et permettre ainsi d'apporter d'éventuelles mesures correctives, notamment du pH, aux effluents avant rejet. La limitation du nombre de points de rejets permet de faciliter le contrôle et le traitement éventuel des effluents."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "1. Stockages en circuits ouverts",
+                "nb": "Annexe > C. C."
+              },
+              "sections": [],
+              "title": {
+                "text": "C.1. Stockages en circuits ouverts"
+              }
+            },
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "fB8Ea61e5cC2",
+              "outer_alineas": [
+                {
+                  "text": "Le sol doit avoir une bonne étanchéité."
+                },
+                {
+                  "text": "Le recyclage des effluents doit être correctement effectué pour éviter des rejets diffus."
+                },
+                {
+                  "text": "Au terme du stockage, les effluents rejetés devront subir un traitement adapté pour être compatibles avec le milieu récepteur."
+                },
+                {
+                  "text": "De même doivent subir un traitement adapté pour être compatibles avec le milieu récepteur les effluents des stockages semi fermés rejetés périodiquement dans le milieu naturel."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "2. Stockage en circuits fermés",
+                "nb": "Annexe > C. C."
+              },
+              "sections": [],
+              "title": {
+                "text": "C.2. Stockage en circuits fermés"
+              }
+            }
+          ],
+          "title": {
+            "text": "C. Prescriptions relatives aux stockages par aspersion"
+          }
+        }
+      ],
+      "title": {
+        "text": "Annexe"
+      }
+    }
+  ],
+  "title": {
+    "text": "Arrêté du 03/04/00 relatif aux prescriptions générales applicables aux installations classées pour la protection de l'environnement soumises à déclaration sous la rubrique n° 1531, \" Stockages, par voie humide (immersion ou aspersion) de bois non traité chimiquement \""
+  },
+  "visa": []
 }

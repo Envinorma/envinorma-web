@@ -34,7 +34,8 @@ ruby:
           = label_tag "prescription_checkbox_#{alinea_id}", class: class_name
             - create_alinea_content(alinea)
           = f.hidden_field :content, value: extract_prescription_content(alinea), namespace: alinea_id
-          = f.hidden_field :reference, value: ref, namespace: alinea_id
+          = f.hidden_field :reference, value: section_ref, namespace: alinea_id
+          = f.hidden_field :name, value: section_name, namespace: alinea_id
           = f.hidden_field :alinea_id, value: alinea_id, namespace: alinea_id
           = f.hidden_field :text_reference, value: am_ref, namespace: alinea_id
           = f.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}", namespace: alinea_id

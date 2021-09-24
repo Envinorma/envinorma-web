@@ -10,6 +10,10 @@ let positionElementsWithDynamicHeight = () => {
 
 let computeNavHeight = () => {
   let headerHeight = document.querySelector(".header").offsetHeight;
+  if (document.querySelector(".topics_nav") === null) {
+    return headerHeight
+  }
+  if (checkboxSelectAll === null) return;
   let topicsNavHeight = document.querySelector(".topics_nav").offsetHeight;
   return headerHeight + topicsNavHeight
 }

@@ -55,20 +55,21 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(Prescription.count).to eq 6
 
     # Create prescriptions from AP
-    fill_in 'Référence', with: 'Art. 3'
-    fill_in 'Contenu', with: "Prescriptions copier - coller de l'AP"
+    fill_in 'prescription_reference', with: 'Article 3'
+    fill_in 'Nom', with: 'Moyen de lutte'
+    fill_in 'prescription_content', with: "Prescriptions copier - coller de l'AP"
     click_button('Ajouter une prescription')
     expect(page).to have_selector '.counter', text: '7'
     expect(Prescription.count).to eq 7
 
-    fill_in 'Référence', with: 'A'
+    fill_in 'prescription_reference', with: 'A'
     click_button('Ajouter une prescription')
     page.accept_alert # Content is empty so alert is displayed and prescription is not created
     expect(page).to have_selector '.counter', text: '7'
     expect(Prescription.count).to eq 7
 
-    fill_in 'Référence', with: 'Art. 4'
-    fill_in 'Contenu', with: "Prescriptions 2 copier - coller de l'AP"
+    fill_in 'prescription_reference', with: 'Article 4'
+    fill_in 'prescription_content', with: "Prescriptions 2 copier - coller de l'AP"
     click_button('Ajouter une prescription')
     expect(page).to have_selector '.counter', text: '8'
     expect(Prescription.count).to eq 8
@@ -82,9 +83,10 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     # Generate Fiche d'inspection
     click_link('Télécharger la fiche')
-    expect(DownloadHelpers.download_content).to have_content "les dispositions du présent arrêté s'appliquent"
-    expect(DownloadHelpers.download_content).to have_content '500 mg/m3'
-    expect(DownloadHelpers.download_content).to have_content "Prescriptions copier - coller de l'AP"
+    fiche_content = DownloadHelpers.download_content('fiche_inspection.odt')
+    expect(fiche_content).to have_content "les dispositions du présent arrêté s'appliquent"
+    expect(fiche_content).to have_content '500 mg/m3'
+    expect(fiche_content).to have_content "Prescriptions copier - coller de l'AP"
 
     # After download prescriptions are still present
     page.find('#modalPrescriptions', visible: true)
@@ -140,8 +142,8 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     # Generate Fiche d'inspection
     click_link('Télécharger la fiche')
-    expect(DownloadHelpers.download_content).to have_content '500 mg/m3'
-    expect(DownloadHelpers.download_content).not_to have_content 'other user'
+    expect(DownloadHelpers.download_content('fiche_inspection.odt')).to have_content '500 mg/m3'
+    expect(DownloadHelpers.download_content('fiche_inspection.odt')).not_to have_content 'other user'
   end
 
   it 'saves prescriptions for an installation and a user' do
@@ -219,8 +221,8 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(Prescription.last.topic).to eq 'BRUIT_VIBRATIONS'
 
     # Create prescriptions from AP
-    fill_in 'Référence', with: 'Art. 3'
-    fill_in 'Contenu', with: "Prescriptions copier - coller de l'AP"
+    fill_in 'prescription_reference', with: 'Article 3'
+    fill_in 'prescription_content', with: "Prescriptions copier - coller de l'AP"
     click_button('Ajouter une prescription')
     expect(page).to have_selector '.counter', text: '3'
     expect(Prescription.count).to eq 3
@@ -247,8 +249,8 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     click_link('Grouper par thème')
 
     click_link('Télécharger la fiche')
-    expect(DownloadHelpers.download_content).to have_content 'Air - odeurs'
-    expect(DownloadHelpers.download_content).not_to have_content 'Dispositions générales'
+    expect(DownloadHelpers.download_content('fiche_inspection.odt')).to have_content 'Air - odeurs'
+    expect(DownloadHelpers.download_content('fiche_inspection.odt')).not_to have_content 'Dispositions générales'
 
     click_link('Grouper par arrêté')
     expect(page).not_to have_content('Thème : Air - odeurs')
@@ -290,7 +292,34 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     click_link('Télécharger la fiche')
     # Expect download to have a table in addition to the base table (so 2 table tags)
-    expect(DownloadHelpers.raw_download_content.split('<table:table ').length - 1).to eq 2
+    expect(DownloadHelpers.raw_download_content('fiche_inspection.odt').split('<table:table ').length - 1).to eq 2
+  end
+
+  it 'generates fiche based on GUNenv template' do
+    visit_eva_industries_prescriptions_page
+
+    expect(page).to have_content('Chapitre VII : Bruit, vibration et émissions lumineuses')
+    # Check the first 4 checkboxes with class alineas_checkbox
+    find('.alineas_checkbox', match: :first).click
+
+    fill_in 'prescription_reference', with: 'Article 3'
+    fill_in 'prescription_content', with: "Prescriptions copier - coller de l'AP"
+    click_button('Ajouter une prescription')
+
+    expect(page).to have_selector '.counter', text: '2'
+    expect(Prescription.count).to eq 2
+    find(class: 'circle-fixed-button').click(wait: 4)
+
+    click_link('Télécharger le modèle GUN')
+    # Expect download to have content
+
+    fiche_content = DownloadHelpers.download_content('fiche_GUN.ods')
+    expect(fiche_content).to have_content '27/04/2021'
+    expect(fiche_content).to have_content "Prescriptions copier - coller de l'AP"
+    expect(fiche_content).to have_content Prescription.first.content
+    expect(fiche_content).to have_content Prescription.first.name
+    expect(fiche_content).not_to have_content 'Article 3' # "Article" must have been removed
+    expect(DownloadHelpers.raw_download_content('fiche_GUN.ods')).to include('2021-04-27')
   end
 end
 

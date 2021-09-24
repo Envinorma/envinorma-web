@@ -32,35 +32,41 @@ RSpec.describe Parametrization::Parameters do
 
   describe 'deactivate_alineas' do
     it 'deactivates all alineas if target_alineas is nil' do
-      deactivate_alineas(section, nil)
+      deactivate_alineas(section, nil, true)
       expect(section.outer_alineas.map(&:active)).to all(be(false))
     end
 
     it 'sets applicability.active to false if target_alineas is nil' do
-      deactivate_alineas(section, nil)
+      deactivate_alineas(section, nil, true)
       expect(section.applicability.active).to be(false)
     end
 
     it 'deactivates children alineas if target_alineas is nil' do
-      deactivate_alineas(section, nil)
+      deactivate_alineas(section, nil, true)
       children_alineas = section.sections.map(&:outer_alineas).flatten.map(&:active)
       expect(children_alineas).to all(be(false))
     end
 
     it 'deactivates only targeted alineas if target_alineas is not nil' do
-      deactivate_alineas(section.sections[0], [1])
+      deactivate_alineas(section.sections[0], [1], true)
       expect(section.sections[0].outer_alineas.map(&:active)).to eq([true, false])
     end
 
     it 'sets applicability.active to true if target_alineas is not nil' do
-      deactivate_alineas(section.sections[0], [1])
+      deactivate_alineas(section.sections[0], [1], true)
       expect(section.sections[0].applicability.active).to be(true)
     end
 
-    it 'does not deactivate children alineas if target_alineas is not nil' do
-      deactivate_alineas(section, [0])
+    it 'does not deactivate children alineas if subsections_are_inapplicable is false' do
+      deactivate_alineas(section, [0], false)
       children_alineas = section.sections.map(&:outer_alineas).flatten.map(&:active)
       expect(children_alineas).to all(be(true))
+    end
+
+    it 'deactivates children alineas if subsections_are_inapplicable is true' do
+      deactivate_alineas(section, [0], true)
+      children_alineas = section.sections.map(&:outer_alineas).flatten.map(&:active)
+      expect(children_alineas).to all(be(false))
     end
   end
 

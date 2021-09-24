@@ -38,7 +38,7 @@ module Odf
         section_variables.each { |section| fill_section(xml, section, table_templates) }
         table_from_rows_variables.each { |table_rows| fill_table_rows(xml, table_rows, table_templates) }
         remove_template_tables(xml, table_templates.keys)
-        write_new_document(input_file, xml.to_s, output_file)
+        write_new_document(input_file, xml.to_xml(indent_text: '', indent: 0).to_s.gsub(/\n/, ''), output_file)
       end
     end
 
@@ -49,8 +49,8 @@ module Odf
     def write_new_document(input_filename, new_content_xml, new_filename)
       Dir.mktmpdir do |tmp_dir|
         names = unzip_file(input_filename, tmp_dir)
-        File.open(File.join(tmp_dir, CONTENT_NAME), 'wb') do |f|
-          f.write(new_content_xml.encode(Encoding::UTF_8))
+        File.open(File.join(tmp_dir, CONTENT_NAME), 'w') do |f|
+          f.write(new_content_xml)
         end
         zip_files(names, tmp_dir, new_filename)
       end
@@ -58,7 +58,7 @@ module Odf
 
     def load_content_xml(filename)
       Zip::File.open(filename) do |zipfile|
-        zipfile.read(CONTENT_NAME).force_encoding(Encoding::UTF_8)
+        zipfile.read(CONTENT_NAME).force_encoding('UTF-8')
       end
     end
 

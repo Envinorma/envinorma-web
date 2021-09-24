@@ -43,7 +43,7 @@ module Odf
       table = find_table(xml, table_rows.table_name)
       template_row = find_template_row(table, table_rows.variable_placeholders)
       rows_to_add = generate_rows_from_template(template_row, table_rows.row_variables, table_templates)
-      rows_to_add.each { |row| table.add_child(row) }
+      rows_to_add.each { |row| add_before(template_row, row) }
       template_row.remove
       xml
     end

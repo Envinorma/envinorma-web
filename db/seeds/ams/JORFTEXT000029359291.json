@@ -1,1961 +1,1753 @@
 {
-    "aida_url": "https://aida.ineris.fr/consultation_document/32401",
-    "applicability": {
-        "condition_of_inapplicability": null,
-        "warnings": []
+  "aida_url": "https://aida.ineris.fr/consultation_document/32401",
+  "applicability": {
+    "condition_of_inapplicability": null,
+    "warnings": []
+  },
+  "classements": [
+    {
+      "alinea": null,
+      "regime": "D",
+      "rubrique": "1185",
+      "state": "ACTIVE"
     },
-    "classements": [
-        {
-            "alinea": null,
-            "regime": "D",
-            "rubrique": "1185",
-            "state": "ACTIVE"
-        },
-        {
-            "alinea": null,
-            "regime": "D",
-            "rubrique": "4802",
-            "state": "ACTIVE"
-        }
-    ],
-    "classements_with_alineas": [
-        {
-            "alineas": [],
-            "regime": "D",
-            "rubrique": "1185"
-        },
-        {
-            "alineas": [],
-            "regime": "D",
-            "rubrique": "4802"
-        }
-    ],
-    "date_of_signature": "2014-08-04",
-    "id": "JORFTEXT000029359291",
-    "is_transverse": false,
-    "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029359291",
-    "nickname": null,
-    "sections": [
-        {
-            "annotations": {
-                "topic": null
-            },
-            "applicability": {
-                "active": true,
-                "modified": false,
-                "previous_version": null,
-                "warnings": []
-            },
-            "id": "E9eDCdC1702a",
-            "outer_alineas": [
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Les installations classées soumises à déclaration sous la rubrique n° 1185 sont soumises aux dispositions de l'annexe I (1)."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Les présentes dispositions s'appliquent sans préjudice des autres législations ainsi que des schémas, plans et autres documents d'orientation et de planification approuvés."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "(1) L'arrêté et les annexes seront publiés au Bulletin officiel du ministère de l'écologie, du développement durable et de l'énergie."
-                }
-            ],
-            "parametrization": {
-                "potential_inapplicabilities": [],
-                "potential_modifications": [],
-                "warnings": []
-            },
-            "reference_str": "Art. 1er",
-            "sections": [],
-            "title": {
-                "active": true,
-                "table": null,
-                "text": "Article 1er"
-            }
-        },
-        {
-            "annotations": {
-                "topic": null
-            },
-            "applicability": {
-                "active": true,
-                "modified": false,
-                "previous_version": null,
-                "warnings": []
-            },
-            "id": "ee02ce9CBCC3",
-            "outer_alineas": [
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Les dispositions de l'annexe I sont applicables aux installations déclarées à compter du 1er janvier 2015."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Les installations soumises à la rubrique 1185-1 sont soumises aux dispositions suivantes : 1.1, 1.2, 2.1, 2.2, 2.3, 3.1, 3.3, 3.4, 4.1, 4.2, 5.1, 6a, 6b, 7, 8."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Les installations soumises à la rubrique 1185-2a sont soumises aux dispositions suivantes : 1.1, 1.2, 2.1, 2.2, 2.3, 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 4.3, 5.1, 5.2, 6a, 6c, 7 et 8."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Les installations soumises à la rubrique n° 1185-2b sont soumises aux dispositions suivantes : 1.1, 1.2, 2.1, 2.2, 2.3, 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 4.3, 5.1, 6a, 6c, 7 et 8."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Les installations soumises à la rubrique 1185-3 sont soumises aux dispositions suivantes : 1.1, 1.2, 2.1, 2.3, 2.4, 3.1, 3.3, 3.4, 4.1, 4.2, 5.1, 6a, 7 et 8."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Les dispositions de l'annexe I sont applicables aux installations existantes, déclarées ou mises en service avant le 1er janvier 2015, dans les conditions précisées à l'article 3. Les prescriptions auxquelles les installations existantes sont déjà soumises demeurent applicables jusqu'à l'entrée en vigueur de ces dispositions."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Les dispositions de l'annexe I sont également applicables aux installations classées soumises à déclaration incluses dans un établissement qui comporte au moins une installation soumise au régime de l'autorisation dès lors que ces installations ne sont pas régies par l'arrêté préfectoral d'autorisation."
-                }
-            ],
-            "parametrization": {
-                "potential_inapplicabilities": [],
-                "potential_modifications": [],
-                "warnings": []
-            },
-            "reference_str": "Art. 2",
-            "sections": [],
-            "title": {
-                "active": true,
-                "table": null,
-                "text": "Article 2"
-            }
-        },
-        {
-            "annotations": {
-                "topic": null
-            },
-            "applicability": {
-                "active": true,
-                "modified": false,
-                "previous_version": null,
-                "warnings": []
-            },
-            "id": "8Fe7b7C77079",
-            "outer_alineas": [
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Les dispositions sont applicables aux installations existantes selon le calendrier précisé ci-dessous :"
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "- au 1er janvier 2015 : dispositions 1.1, 1.2, 3.1, 3.4, 5.1, 6a et 6c, 7 et 8 ;"
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "\t- au 1er janvier 2016 : dispositions 2.4, 3.2, 3.3, 4.1, 4.2 et 4.3 ;"
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "\t- au 1er janvier 2017 : dispositions 5.2 et 6b."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Toutefois, pour les installations déclarées entre le 1er janvier 2003 et le 31 décembre 2014, qui étaient soumises à la rubrique n° 1185-1, à la rubrique n° 1185-2b ou à la rubrique n° 1185-3-1a et lorsque le fluide concerné n'était pas du SF6, les dispositions suivantes restent par ailleurs applicables à partir du 1er janvier 2015 : 2.1, 2.2 et 2.3."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Les autres dispositions de l'annexe I ne sont pas applicables aux installations existantes."
-                }
-            ],
-            "parametrization": {
-                "potential_inapplicabilities": [],
-                "potential_modifications": [],
-                "warnings": []
-            },
-            "reference_str": "Art. 3",
-            "sections": [],
-            "title": {
-                "active": true,
-                "table": null,
-                "text": "Article 3"
-            }
-        },
-        {
-            "annotations": {
-                "topic": null
-            },
-            "applicability": {
-                "active": true,
-                "modified": false,
-                "previous_version": null,
-                "warnings": []
-            },
-            "id": "F735d0ee7F2B",
-            "outer_alineas": [
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Le préfet peut, en application de l'article L. 512-10 du code de l'environnement, adapter par arrêté préfectoral aux circonstances locales, installation par installation, les prescriptions du présent arrêté, notamment les points 2.1, 2.2 et 5.1 de l'annexe I, dans les conditions prévues à l'article R. 512-52 du code de l'environnement."
-                }
-            ],
-            "parametrization": {
-                "potential_inapplicabilities": [],
-                "potential_modifications": [],
-                "warnings": []
-            },
-            "reference_str": "Art. 4",
-            "sections": [],
-            "title": {
-                "active": true,
-                "table": null,
-                "text": "Article 4"
-            }
-        },
-        {
-            "annotations": {
-                "topic": null
-            },
-            "applicability": {
-                "active": true,
-                "modified": false,
-                "previous_version": null,
-                "warnings": []
-            },
-            "id": "56Ac0294cDf2",
-            "outer_alineas": [
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Supprimé"
-                }
-            ],
-            "parametrization": {
-                "potential_inapplicabilities": [],
-                "potential_modifications": [],
-                "warnings": []
-            },
-            "reference_str": "Art. 5",
-            "sections": [],
-            "title": {
-                "active": true,
-                "table": null,
-                "text": "Article 5"
-            }
-        },
-        {
-            "annotations": {
-                "topic": null
-            },
-            "applicability": {
-                "active": true,
-                "modified": false,
-                "previous_version": null,
-                "warnings": []
-            },
-            "id": "6d2A2FFDA90b",
-            "outer_alineas": [
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "L'arrêté du 2 avril 2002 relatif aux prescriptions générales applicables aux installations classées soumises à déclaration sous la rubrique n° 1185 est abrogé à compter du 1er janvier 2015."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Le présent arrêté entre en vigueur le 1er janvier 2015."
-                }
-            ],
-            "parametrization": {
-                "potential_inapplicabilities": [],
-                "potential_modifications": [],
-                "warnings": []
-            },
-            "reference_str": "Art. 6",
-            "sections": [],
-            "title": {
-                "active": true,
-                "table": null,
-                "text": "Article 6"
-            }
-        },
-        {
-            "annotations": {
-                "topic": null
-            },
-            "applicability": {
-                "active": true,
-                "modified": false,
-                "previous_version": null,
-                "warnings": []
-            },
-            "id": "5302cd58f9bc",
-            "outer_alineas": [
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "La directrice générale de la prévention des risques est chargée de l'exécution du présent arrêté, qui sera publié au Journal officiel de la République française."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Fait le 4 août 2014."
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "Pour la ministre et par délégation :"
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "L'adjoint à la directrice générale de la prévention des risques,"
-                },
-                {
-                    "active": true,
-                    "table": null,
-                    "text": "\tJ.-M. Durand"
-                }
-            ],
-            "parametrization": {
-                "potential_inapplicabilities": [],
-                "potential_modifications": [],
-                "warnings": []
-            },
-            "reference_str": "Art. 7",
-            "sections": [],
-            "title": {
-                "active": true,
-                "table": null,
-                "text": "Article 7"
-            }
-        },
-        {
-            "annotations": {
-                "topic": null
-            },
-            "applicability": {
-                "active": true,
-                "modified": false,
-                "previous_version": null,
-                "warnings": []
-            },
-            "id": "126E3228eCf7",
-            "outer_alineas": [],
-            "parametrization": {
-                "potential_inapplicabilities": [],
-                "potential_modifications": [],
-                "warnings": []
-            },
-            "reference_str": "Annexe I",
-            "sections": [
-                {
-                    "annotations": {
-                        "topic": null
-                    },
-                    "applicability": {
-                        "active": true,
-                        "modified": false,
-                        "previous_version": null,
-                        "warnings": []
-                    },
-                    "id": "6CC8ca4Df4ed",
-                    "outer_alineas": [
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Au sens du présent arrêté, on entend par :"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "\t- capacité unitaire d’un équipement frigorifique ou climatique (y compris pompes à chaleur) : elle correspond à la quantité de fluide lorsque celle-ci est indiquée sur l’équipement au titre de l’article R. 543-77 du code de l’environnement. Il s’agit de la charge nominale de l’ensemble des tuyauteries, réservoirs, compresseur et autres accessoires composant les circuits qui contiennent le fluide d’un équipement ;"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "\t- fluide : substance réglementée par le règlement (CE) n° 1005/2009 susvisé, qu’elle se présente isolément ou dans un mélange, ou gaz à effet de serre fluoré réglementé par le règlement (CE) n° 517/2014 susvisé, qu’il se présente isolément ou dans un mélange, et quel que soit son usage ;"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "\t- classes et catégories de dangers : les classes et catégories de dangers sont définies à l’annexe I, parties 2, 3 et 4, du règlement (CE) n° 1272/2008 relatif à la classification, l’étiquetage et l’emballage des substances et des mélanges."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Au titre du présent arrêté, un fluide est considéré comme :"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "\t- toxique lorsqu’il est classé « mortel » de catégorie 1 ou 2 pour la toxicité aiguë pour au moins l’une des trois voies d’exposition (orale, cutanée, inhalation) et lorsqu’il est classé « toxique » de catégorie 3 pour la toxicité aiguë pour au moins l’une des trois voies d’exposition ;"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "\t- inflammable lorsqu’il est classé inflammable de catégorie 1 ou 2, selon l’annexe I, parties 2, 3 et 4, du règlement (CE) n° 1272/2008 susvisé."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "\t- local de compression : il s’agit d’un terme employé exclusivement pour les installations soumises à la rubrique 1185-2a. Le local de compression abrite la ou les installations de compression. La notion de local de compression ne s’applique pas aux équipements extérieurs et aux équipements dont la mise en service consiste exclusivement en un raccordement à un réseau électrique."
-                        }
-                    ],
-                    "parametrization": {
-                        "potential_inapplicabilities": [],
-                        "potential_modifications": [],
-                        "warnings": []
-                    },
-                    "reference_str": "Annexe I",
-                    "sections": [],
-                    "title": {
-                        "active": true,
-                        "table": null,
-                        "text": "Définitions"
-                    }
-                },
-                {
-                    "annotations": {
-                        "topic": "DISPOSITIONS_GENERALES"
-                    },
-                    "applicability": {
-                        "active": true,
-                        "modified": false,
-                        "previous_version": null,
-                        "warnings": []
-                    },
-                    "id": "3B22f90Dca82",
-                    "outer_alineas": [],
-                    "parametrization": {
-                        "potential_inapplicabilities": [],
-                        "potential_modifications": [],
-                        "warnings": []
-                    },
-                    "reference_str": "Annexe I 1.",
-                    "sections": [
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "613755baC1Ab",
-                            "outer_alineas": [],
-                            "parametrization": {
-                                "potential_inapplicabilities": [],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 1.1.",
-                            "sections": [
-                                {
-                                    "annotations": {
-                                        "topic": null
-                                    },
-                                    "applicability": {
-                                        "active": true,
-                                        "modified": false,
-                                        "previous_version": null,
-                                        "warnings": []
-                                    },
-                                    "id": "9ffCFA2e9c69",
-                                    "outer_alineas": [
-                                        {
-                                            "active": true,
-                                            "table": null,
-                                            "text": "L’installation est implantée, réalisée et exploitée conformément aux plans et autres documents joints à la déclaration, sous réserve du respect des prescriptions ci-dessous."
-                                        }
-                                    ],
-                                    "parametrization": {
-                                        "potential_inapplicabilities": [],
-                                        "potential_modifications": [],
-                                        "warnings": []
-                                    },
-                                    "reference_str": "Annexe I 1.1.1.",
-                                    "sections": [],
-                                    "title": {
-                                        "active": true,
-                                        "table": null,
-                                        "text": "1.1.1. Conformité de l’installation à la déclaration"
-                                    }
-                                },
-                                {
-                                    "annotations": {
-                                        "topic": null
-                                    },
-                                    "applicability": {
-                                        "active": true,
-                                        "modified": false,
-                                        "previous_version": null,
-                                        "warnings": []
-                                    },
-                                    "id": "a6f86f6fFfa5",
-                                    "outer_alineas": [
-                                        {
-                                            "active": true,
-                                            "table": null,
-                                            "text": "L’installation est soumise à des contrôles périodiques par des organismes agréés dans les conditions définies par les articles R. 512-55 à R. 512-60 du code de l’environnement."
-                                        },
-                                        {
-                                            "active": true,
-                                            "table": null,
-                                            "text": "Ces contrôles ont pour objet de vérifier la conformité de l’installation aux prescriptions repérées dans la présente annexe par le terme « Objet du contrôle », éventuellement modifiées par arrêté préfectoral, lorsqu’elles lui sont applicables. Le contenu de ces contrôles est précisé à la fin de chaque point de la présente annexe après la mention « Objet du contrôle ». Les prescriptions dont le non-respect constitue une non-conformité majeure entraînant l’information du préfet dans les conditions prévues à l’article R. 512-59-1 sont repérées dans la présente annexe par la mention « le nonrespect de ce point relève d’une non-conformité majeure »."
-                                        }
-                                    ],
-                                    "parametrization": {
-                                        "potential_inapplicabilities": [],
-                                        "potential_modifications": [],
-                                        "warnings": []
-                                    },
-                                    "reference_str": "Annexe I 1.1.2.",
-                                    "sections": [],
-                                    "title": {
-                                        "active": true,
-                                        "table": null,
-                                        "text": "1.1.2. Contrôle périodique : prescriptions spécifiques aux installations soumises à la « rubrique 1185-2a »"
-                                    }
-                                }
-                            ],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "1.1. Conformité de l’installation"
-                            }
-                        },
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "3a9d01Ee5eEe",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "L’exploitant établit et tient à jour un dossier comportant notamment les documents suivants :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- les plans tenus à jour ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- la preuve de dépôt de la déclaration et les prescriptions générales ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- le schéma général de tuyauteries et d’instrumentation de l’installation ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- pour les installations soumises à « la rubrique 1185-2a » : le rapport d’inspection lorsque cette inspection est requise par l’article R. 224-59-2 du code de l’environnement."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\tCe dossier est tenu à la disposition de l’inspection des installations classées."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à  « la rubrique 1185-2a ») :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- présence de la preuve de dépôt de la déclaration ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- présence des arrêtés préfectoraux relatifs à l’installation, s’il y en a ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- présence des prescriptions générales ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- présence de plans tenus à jour ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- présence du schéma général de tuyauteries et d’instrumentation de l’installation (le non-respect de ce point relève d’une non-conformité majeure) ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- vérification de l’adéquation entre la quantité cumulée de fluide susceptible d’être présente dans l’installation (au regard de la capacité unitaire des équipements) et de la quantité cumulée de fluide déclarée (le non-respect de ce point relève d’une non-conformité majeure) ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- vérification que les fluides présents sont conformes aux informations transmises au préfet (le non-respect de ce point relève d’une non-conformité majeure) ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- présence du rapport d’inspection lorsque cette inspection est requise par l’article R. 224-59-2 du code de l’environnement."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 1.2.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "1.2. Dossier installation classée"
-                            }
-                        }
-                    ],
-                    "title": {
-                        "active": true,
-                        "table": null,
-                        "text": "1. Dispositions générales"
-                    }
-                },
-                {
-                    "annotations": {
-                        "topic": "IMPLANTATION_AMENAGEMENT"
-                    },
-                    "applicability": {
-                        "active": true,
-                        "modified": false,
-                        "previous_version": null,
-                        "warnings": []
-                    },
-                    "id": "e02d5F4c9a4e",
-                    "outer_alineas": [],
-                    "parametrization": {
-                        "potential_inapplicabilities": [],
-                        "potential_modifications": [],
-                        "warnings": []
-                    },
-                    "reference_str": "Annexe I 2.",
-                    "sections": [
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "EC7c65c2CE4D",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Lorsque l’installation fabrique, emploie (en dehors de l’emploi dans des équipements clos en exploitation soumis à « la rubrique 1185-2 ») ou stocke plus de 300 kg de fluide toxique ou inflammable, elle est implantée et maintenue à une distance d’au moins 5 mètres des limites de l’établissement."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Lorsque l’installation est soumise à  « la rubrique 1185-2 » et comprend un équipement qui contient à lui seul plus de 300 kg de fluide toxique ou inflammable, celui-ci est implanté et maintenu à une distance d’au moins 5 mètres des limites de l’établissement. Une dérogation peut être accordée par le préfet sous réserve de la présentation d’un dossier justifiant l’absence de risque pour les tiers."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Pour les installations soumises à « la rubrique 1185-2a », la distance d’isolement est mesurée à partir du local de compression ou de l’équipement extérieur."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Cette disposition n’est pas applicable aux équipements dont la mise en service consiste exclusivement en un raccordement à un réseau électrique."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- Lorsque l’installation est soumise à « la rubrique 1185-2a » et comprend un équipement qui contient à lui seul plus de 300 kg de fluide toxique ou inflammable : respect des distances d’isolement (le nonrespect de ce point relève d’une non-conformité majeure)."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [
-                                    {
-                                        "alineas": null,
-                                        "condition": {
-                                            "parameter": {
-                                                "id": "date-d-declaration",
-                                                "type": "DATE"
-                                            },
-                                            "strict": true,
-                                            "target": "2015-01-01",
-                                            "type": "LITTLER"
-                                        }
-                                    }
-                                ],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 2.1.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "2.1. Règles d’implantation"
-                            }
-                        },
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "B2636C7dE14D",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Lorsque l’installation fabrique ou emploie (en dehors de l’emploi dans des équipements clos en exploitation soumis à «  la rubrique 1185-2 » ) plus de 300 kg de fluide toxique ou inflammable, ou, lorsqu’elle est soumise à « la rubrique 1185-2 » et comprend un équipement qui contient à lui seul plus de 300 kg de fluide toxique ou inflammable, elle n’est pas surmontée par des locaux habités ou occupés par des tiers."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- Absence de locaux habités ou occupés par des tiers au-dessus de l’installation lorsque celle-ci comprend un équipement qui contient à lui seul plus de 300 kg de fluide toxique ou inflammable (le non-respect de ce point relève d’une non-conformité majeure)."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [
-                                    {
-                                        "alineas": null,
-                                        "condition": {
-                                            "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "date-d-declaration",
-                                                        "type": "DATE"
-                                                    },
-                                                    "strict": true,
-                                                    "target": "2015-01-01",
-                                                    "type": "LITTLER"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-2-a",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-1-a",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-2",
-                                                    "type": "EQUAL"
-                                                }
-                                            ],
-                                            "type": "OR"
-                                        }
-                                    }
-                                ],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 2.2.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "2.2. Interdiction de locaux habités ou occupés par des tiers au-dessus de l’installation"
-                            }
-                        },
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "B009aAd7eA0e",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Lorsque l’installation fabrique, emploie (en dehors de l’emploi dans des équipements clos en exploitation soumis à la rubrique 4802-2) ou stocke plus de 300 kg de fluide inflammable, ou, lorsque l’installation est soumise à «  la rubrique 1185-2 » et comprend un équipement qui contient à lui seul plus de 300 kg de fluide inflammable, le bâtiment, ou le local de compression lorsqu’il existe, abritant l’installation présente les caractéristiques de résistance au feu minimales suivantes :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- murs extérieurs et murs séparatifs REI 120 ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- portes et fermetures résistantes au feu (y compris celles comportant des vitrages et des quincailleries) et leurs dispositifs de fermeture EI 120."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à «  la rubrique 1185-2a ») :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- Lorsque l’installation est soumise à « la rubrique 1185-2a » et comprend un équipement qui contient à lui seul plus de 300 kg de fluide inflammable : présence de documents justifiant de la conformité des propriétés de résistance au feu (le non-respect de ce point relève d’une non-conformité majeure)."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [
-                                    {
-                                        "alineas": null,
-                                        "condition": {
-                                            "parameter": {
-                                                "id": "date-d-declaration",
-                                                "type": "DATE"
-                                            },
-                                            "strict": true,
-                                            "target": "2015-01-01",
-                                            "type": "LITTLER"
-                                        }
-                                    }
-                                ],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 2.3.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "2.3. Comportement au feu des locaux"
-                            }
-                        },
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "83e1409085d9",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Les locaux ou les aires de stockage sont aménagés et organisés en fonction des risques présentés par les substances ou préparations stockées. Des emplacements prédéterminés sont aménagés pour le positionnement au sol. Toutes dispositions sont prises pour éviter leur chute et les chocs. Les conditions de stockage permettent de maintenir les récipients à l’abri de toute source d’inflammation."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Les aires de stockage sont indépendantes des aires de chargement et de déchargement. Elles sont agencées de manière à permettre une circulation aisée, tant pour l’exploitation n°rmale que pour une intervention rapide. En l’absence de rayonnage en rack, les aires de stockage sont parfaitement identifiées au sol."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [
-                                    {
-                                        "alineas": null,
-                                        "condition": {
-                                            "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "2-a",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "2-b",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "1-b",
-                                                    "type": "EQUAL"
-                                                }
-                                            ],
-                                            "type": "OR"
-                                        }
-                                    }
-                                ],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 2.4.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "2.4. Aménagement et organisation du stockage"
-                            }
-                        }
-                    ],
-                    "title": {
-                        "active": true,
-                        "table": null,
-                        "text": "2. Implantation - aménagement"
-                    }
-                },
-                {
-                    "annotations": {
-                        "topic": "EXPLOITATION"
-                    },
-                    "applicability": {
-                        "active": true,
-                        "modified": false,
-                        "previous_version": null,
-                        "warnings": []
-                    },
-                    "id": "62C7aE008Ae4",
-                    "outer_alineas": [],
-                    "parametrization": {
-                        "potential_inapplicabilities": [],
-                        "potential_modifications": [],
-                        "warnings": []
-                    },
-                    "reference_str": "Annexe I 3.",
-                    "sections": [
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "10b42763984d",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "L’exploitant prend les dispositions nécessaires pour limiter l’accès à l’installation ou, le cas échéant, au local de compression aux seules personnes autorisées."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a » ) :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- Présence d’un dispositif limitant l’accès aux installations ou, le cas échéant, au local de compression aux seules personnes autorisées."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 3.1.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "3.1. Contrôle de l’accès"
-                            }
-                        },
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "ed9eEaa91aaF",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Les équipements clos en exploitation comportent un étiquetage visible sur la nature du fluide et la quantité de fluide qu’ils sont susceptibles de contenir."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- Présence d’un étiquetage visible précisant la nature du fluide et de la quantité de fluide susceptible d’être contenue dans l’équipement."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [
-                                    {
-                                        "alineas": null,
-                                        "condition": {
-                                            "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-1-a",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "1-b",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-2",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-1-b",
-                                                    "type": "EQUAL"
-                                                }
-                                            ],
-                                            "type": "OR"
-                                        }
-                                    }
-                                ],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 3.2.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "3.2. Étiquetage des équipements contenant les fluides"
-                            }
-                        },
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "e5bBBa283C8D",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "L’exploitant tient à jour un inventaire des équipements et des stockages fixes qui contiennent plus de 2 kg de fluide présents sur le site précisant leur capacité unitaire et le fluide contenu, ainsi que la quantité maximale susceptible d’être présente dans des équipements sous pression transportables ou dans des emballages de transport."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- présence d’un inventaire ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- vérification de l’adéquation entre cet inventaire et les équipements et stockages présents sur site."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 3.3.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "3.3. Etat des stocks de fluides"
-                            }
-                        },
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "be9d4b497f73",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Toute opération de dégazage dans l’atmosphère est interdite, sauf si elle est nécessaire pour assurer la sécurité des personnes. Lorsqu’il procède à un dégazage, l’exploitant prend toute disposition de nature à éviter le ren°uvellement de cette opération."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Toute opération de dégazage ayant entraîné ponctuellement une émission de plus de 20 kilogrammes de fluides ou ayant entraîné au cours de l’année civile des émissions cumulées supérieures à 100 kilogrammes est consignée dans un registre tenu à la disposition de l’inspection des installations classées."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "L’exploitant porte ces opérations de dégazage à la connaissance du représentant de l’Etat dans le département et, dans le cas d’un équipement situé dans le périmètre d’une installation nucléaire de base telle que définie à l’article L. 593-2 du code de l’environnement, à l’Autorité de sûreté nucléaire."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à la rubrique 1185-2a) :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- Vérification de la présence du registre (le non-respect de ce point relève d’une non-conformité majeure)."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 3.4.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "3.4. Dégazage"
-                            }
-                        }
-                    ],
-                    "title": {
-                        "active": true,
-                        "table": null,
-                        "text": "3. Exploitation - entretien"
-                    }
-                },
-                {
-                    "annotations": {
-                        "topic": "RISQUES"
-                    },
-                    "applicability": {
-                        "active": true,
-                        "modified": false,
-                        "previous_version": null,
-                        "warnings": []
-                    },
-                    "id": "d9DFFC5e5bbd",
-                    "outer_alineas": [],
-                    "parametrization": {
-                        "potential_inapplicabilities": [],
-                        "potential_modifications": [],
-                        "warnings": []
-                    },
-                    "reference_str": "Annexe I 4.",
-                    "sections": [
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "0b09B7542Fd6",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "L’installation est équipée de moyens de lutte contre l’incendie appropriés aux risques, notamment :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "a. d’extincteurs répartis à l’intérieur des locaux (hors locaux à température négative), sur les aires extérieures et les lieux présentant des risques spécifiques, à proximité des dégagements, bien visibles et facilement accessibles. Les agents d’extinction sont appropriés aux risques à combattre et compatibles avec les produits stockés. Pour les locaux à température négative, les extincteurs sont installés à l’extérieur de ceux-ci ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Lorsque l’installation fabrique, emploie (en dehors de l’emploi dans des équipements clos en exploitation soumis à « la rubrique 1185-2 ») ou stocke plus de 300 kg de fluide inflammable ou de fluide toxique, ou lorsque l’installation est soumise à la rubrique 4802-2 et comprend un équipement qui contient à lui seul plus de 300 kg de fluide toxique ou inflammable :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "b. d’un système de détection et d’alarme adaptés aux risques et judicieusement disposés de manière à informer rapidement le personnel de tout incident. Tous ces matériels sont maintenus en bon Etat et vérifiés au moins une fois par an."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- implantation des extincteurs ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- présence des extincteurs (au moins un) (le non-respect de ce point relève d’une non-conformité majeure) ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- présence d’un moyen d’alerte des services d’incendie et de secours ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- présence de plans de locaux, avec descriptions des dangers associés ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- lorsque l’installation comprend un équipement qui contient à lui seul plus de 300 kg de fluide toxique ou inflammable : présence d’un système de détection et d’alarme."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 4.1.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "4.1. Moyens de lutte contre l’incendie et d’intervention"
-                            }
-                        },
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "8b192EAb1aaA",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Sans préjudice des dispositions du code du travail, des consignes précisant les modalités d’application des dispositions du présent arrêté sont établies, tenues à jour et portées à la connaissance du personnel dans les lieux fréquentés par le personnel. Ces consignes indiquent notamment :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- les procédures d’arrêt d’urgence et de mise en sécurité de l’installation (électricité, réseaux de fluides notamment) ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- les mesures à prendre en cas de fuite sur un récipient ou une tuyauterie contenant des substances dangereuses."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "- Présence de chacune de ces consignes."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 4.2.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "4.2. Consignes de sécurité"
-                            }
-                        },
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "065A9Aac4C9C",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Les sorties de vannes en communication directe avec l’atmosphère sont obturées (notamment, au moyen de bouchons de fin de ligne). Le calorifugeage des tuyauteries, lorsqu’il existe, du circuit frigorifique des équipements frigorifiques ou climatiques, y compris pompes à chaleur, est en bon Etat."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "- présence d’obturation sur les sorties de vannes ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- bon Etat du calorifugeage lorsqu’il existe (l’absence de prise en glace du calorifugeage témoigne de son bon Etat)."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [
-                                    {
-                                        "alineas": null,
-                                        "condition": {
-                                            "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-1-b",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-1-a",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-2",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "1-b",
-                                                    "type": "EQUAL"
-                                                }
-                                            ],
-                                            "type": "OR"
-                                        }
-                                    }
-                                ],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 4.3.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "4.3. Tuyauteries des équipements clos en exploitation (prescriptions spécifiques à « la rubrique 1185-2 » )"
-                            }
-                        }
-                    ],
-                    "title": {
-                        "active": true,
-                        "table": null,
-                        "text": "4. Risques"
-                    }
-                },
-                {
-                    "annotations": {
-                        "topic": "EAU"
-                    },
-                    "applicability": {
-                        "active": true,
-                        "modified": false,
-                        "previous_version": null,
-                        "warnings": []
-                    },
-                    "id": "aA35ffD61FD1",
-                    "outer_alineas": [],
-                    "parametrization": {
-                        "potential_inapplicabilities": [],
-                        "potential_modifications": [],
-                        "warnings": []
-                    },
-                    "reference_str": "Annexe I 5.",
-                    "sections": [
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "534dE60fDb53",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Hormis le cas où ils s’inscrivent dans des opérations de géothermie couvertes par le code minier, les ouvrages et équipements nécessaires au fonctionnement de l’installation classée et visés par la nomenclature eau (IOTA) n’engendrent pas de prélèvements, rejets ou impacts supérieurs aux seuils d’autorisation de ladite nomenclature. En cas de dépassement de ce seuil d’autorisation, le préfet prend des dispositions particulières dans le cadre de l’article R. 512-52 du code de l’environnement."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "En cas de forage, si le volume prélevé est supérieur à 10 000 m3/an, les dispositions prises pour l’implantation, l’exploitation, le suivi, la surveillance et la mise à l’arrêt de l’ouvrage sont conformes aux dispositions indiquées dans l’arrêté du 11 septembre 2003 relatif aux prélèvements soumis à déclaration au titre de la rubrique 1.1.2.0."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 5.1.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "5.1. Connexité avec des ouvrages soumis à la nomenclature eau en application des articles L. 214-1 à L. 214-3 du code de l’environnement"
-                            }
-                        },
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "2E4BE5414641",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Sans préjudice des dispositions prévues par l’arrêté du 11 septembre 2003 susvisé, les pompes à chaleur soumises à la rubrique 4802-2a sont soumises aux dispositions du présent point."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Lors de la réalisation des forages, toutes dispositions sont prévues pour éviter le mélange d’eaux de qualités différentes, notamment provenant de nappes distinctes ou issues de niveaux aquifères situés à différentes profondeurs, et pour prévenir l’introduction de substances polluantes ou d’eaux de surface. Le raccordement à une nappe d’eau est muni d’un dispositif évitant en toute circonstance le retour d’eau pouvant être polluée."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Les eaux prélevées sont intégralement réinjectées ou rejetées dans la même ressource après échange de chaleur et avec la même qualité. Elles sont exemptes de tout traitement (notamment biocide et anticorrosion). La température des eaux rejetées est mesurée en continu et consignée."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "L’exploitant vérifie annuellement la non-contamination de l’eau qu’il rejette dans le milieu après échange de chaleur. Il peut le démontrer par des analyses de prélèvements effectués en sortie du puits de captage et au niveau du rejet ou par une démonstration technique."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (pompes à chaleur soumises à «  la rubrique 1185-2a ») :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- présence d’un dispositif anti-retour en cas de raccordement à une nappe (le non-respect de ce point relève d’une non-conformité majeure) ;"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- présence du document attestant la non-contamination (le non-respect de ce point relève d’une non-conformité majeure)."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [
-                                    {
-                                        "alineas": null,
-                                        "condition": {
-                                            "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "2-b",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-1-b",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "1-b",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-1-a",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-2",
-                                                    "type": "EQUAL"
-                                                }
-                                            ],
-                                            "type": "OR"
-                                        }
-                                    }
-                                ],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 5.2.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "5.2. Pompes à chaleur"
-                            }
-                        }
-                    ],
-                    "title": {
-                        "active": true,
-                        "table": null,
-                        "text": "5. Eau"
-                    }
-                },
-                {
-                    "annotations": {
-                        "topic": "AIR_ODEURS"
-                    },
-                    "applicability": {
-                        "active": true,
-                        "modified": false,
-                        "previous_version": null,
-                        "warnings": []
-                    },
-                    "id": "Ac7fbEcCCE60",
-                    "outer_alineas": [],
-                    "parametrization": {
-                        "potential_inapplicabilities": [],
-                        "potential_modifications": [],
-                        "warnings": []
-                    },
-                    "reference_str": "Annexe I 6.",
-                    "sections": [
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "3D2b3b13a8b9",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "L’exploitant prend toutes les mesures préventives réalisables afin d’éviter et de réduire au minimum les fuites et émissions de fluides."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 6.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "a."
-                            }
-                        },
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "ecfa8d30f216",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Pour les installations soumises à la rubrique 4802-1, les équipements utilisés pour la fabrication ou l’emploi de fluides (en dehors de l’emploi dans des équipements clos en exploitation soumis à « la rubrique 1185-2 ») font l’objet d’un premier contrôle d’étanchéité selon les modalités prévues aux articles 6 et 7 du règlement (CE) n° 1516/2007 susvisé. Le résultat de ce contrôle est tenu à la disposition de l’inspection des installations classées."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "L’exploitant élabore un plan de maîtrise des émissions de fluide, dans lequel figurent le niveau d’émission de référence de l’installation correspondant au niveau atteint si aucune mesure de réduction n’était mise en oeuvre dans l’installation, ainsi que l’identification des actions ou procédés à l’origine des émissions. L’exploitant définit dans ce plan la fréquence des contrôles d’étanchéité, à partir des résultats du premier contrôle et des actions ou procédés à l’origine des émissions."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Les fuites et émissions de fluide sont estimées annuellement. Cette estimation ainsi que les résultats des contrôles d’étanchéité à la fréquence déterminée par l’exploitant sont tenus à la disposition de l’inspection des installations classées, ainsi que le bilan des actions que l’exploitant a menées pour réduire les émissions et le programme d’actions à mettre en oeuvre pour les réduire davantage. Lorsqu’un défaut d’étanchéité est identifié, il fait l’objet d’une réparation dans les meilleurs délais."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [
-                                    {
-                                        "alineas": null,
-                                        "condition": {
-                                            "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "2-a",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "2-b",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-1-b",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-1-a",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-2",
-                                                    "type": "EQUAL"
-                                                }
-                                            ],
-                                            "type": "OR"
-                                        }
-                                    }
-                                ],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 6.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "b."
-                            }
-                        },
-                        {
-                            "annotations": {
-                                "topic": null
-                            },
-                            "applicability": {
-                                "active": true,
-                                "modified": false,
-                                "previous_version": null,
-                                "warnings": []
-                            },
-                            "id": "99Afb785F171",
-                            "outer_alineas": [
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Pour les installations soumises à « la rubrique 1185-2 », les équipements clos en exploitation sont régulièrement contrôlés selon les fréquences et dispositions prévues par les règlements (CE) n° 1005/2009 et n° 517/2014 susvisés et par les articles R. 543-79 et R. 543-81 du code de l’environnement."
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
-                                },
-                                {
-                                    "active": true,
-                                    "table": null,
-                                    "text": "\t- Présence de justificatifs attestant de la réalisation des contrôles d’étanchéité (le non-respect de ce point relève d’une non-conformité majeure)."
-                                }
-                            ],
-                            "parametrization": {
-                                "potential_inapplicabilities": [
-                                    {
-                                        "alineas": null,
-                                        "condition": {
-                                            "conditions": [
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-1-a",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "1-b",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-2",
-                                                    "type": "EQUAL"
-                                                },
-                                                {
-                                                    "parameter": {
-                                                        "id": "alinea",
-                                                        "type": "STRING"
-                                                    },
-                                                    "target": "3-1-b",
-                                                    "type": "EQUAL"
-                                                }
-                                            ],
-                                            "type": "OR"
-                                        }
-                                    }
-                                ],
-                                "potential_modifications": [],
-                                "warnings": []
-                            },
-                            "reference_str": "Annexe I 6.",
-                            "sections": [],
-                            "title": {
-                                "active": true,
-                                "table": null,
-                                "text": "c."
-                            }
-                        }
-                    ],
-                    "title": {
-                        "active": true,
-                        "table": null,
-                        "text": "6. Air"
-                    }
-                },
-                {
-                    "annotations": {
-                        "topic": "DECHETS"
-                    },
-                    "applicability": {
-                        "active": true,
-                        "modified": false,
-                        "previous_version": null,
-                        "warnings": []
-                    },
-                    "id": "BfCeC3Fd1dAB",
-                    "outer_alineas": [
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "L’exploitant est tenu aux obligations de registre, de déclaration de production et de traitement de déchets et de traçabilité (bordereau de suivi, document de transfert transfrontalier) dans les conditions fixées par la réglementation aux articles R. 541-42 à R. 541-46 du code de l’environnement."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Lorsque les substances visées par le règlement (CE) n° 1005/2009 susvisé, qu’elles se présentent isolément ou en mélange, ou les produits contenant ces substances sont détruits, ils le sont par les techniques listées en annexe VII de ce règlement."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Lors du démantèlement d’une installation ou d’un équipement faisant partie d’une installation, le retrait et la récupération de l’intégralité du fluide sont obligatoires, afin d’en assurer le recyclage, la régénération ou la destruction."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à «  la rubrique 1185-2a ») :"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "\t- présence du registre des déchets (entrants ou sortants le cas échéant) tenu à jour ;"
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "\t- présence des bordereaux de suivi de déchets et des documents justificatifs de traitement."
-                        }
-                    ],
-                    "parametrization": {
-                        "potential_inapplicabilities": [],
-                        "potential_modifications": [],
-                        "warnings": []
-                    },
-                    "reference_str": "Annexe I 7.",
-                    "sections": [],
-                    "title": {
-                        "active": true,
-                        "table": null,
-                        "text": "7. Déchets"
-                    }
-                },
-                {
-                    "annotations": {
-                        "topic": "BRUIT_VIBRATIONS"
-                    },
-                    "applicability": {
-                        "active": true,
-                        "modified": false,
-                        "previous_version": null,
-                        "warnings": []
-                    },
-                    "id": "bfD569eE0cF6",
-                    "outer_alineas": [
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "L’installation respecte les dispositions des articles 2 à 5 de l’arrêté du 23 janvier 1997 susvisé."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Toutefois, pour les dates mentionnées dans la définition de « zone à émergence réglementée » à l’article 2 de cet arrêté, la date de déclaration de l’installation est prise pour référence."
-                        },
-                        {
-                            "active": true,
-                            "table": null,
-                            "text": "Une mesure des émissions sonores et de l’émergence est effectuée aux frais de l’exploitant par un organisme qualifié, notamment à la demande de l’inspection des installations classées, si l’installation fait l’objet de plaintes ou en cas de modification de l’installation susceptible d’impacter le niveau de bruit généré dans les zones à émergence réglementée."
-                        }
-                    ],
-                    "parametrization": {
-                        "potential_inapplicabilities": [],
-                        "potential_modifications": [],
-                        "warnings": []
-                    },
-                    "reference_str": "Annexe I 8.",
-                    "sections": [],
-                    "title": {
-                        "active": true,
-                        "table": null,
-                        "text": "8. Bruit"
-                    }
-                }
-            ],
-            "title": {
-                "active": true,
-                "table": null,
-                "text": "Annexe I : Prescriptions générales applicables aux installations classées pour la protection de l’environnement soumises à déclaration sous la rubrique n° 1185"
-            }
-        }
-    ],
-    "title": {
+    {
+      "alinea": null,
+      "regime": "D",
+      "rubrique": "4802",
+      "state": "ACTIVE"
+    }
+  ],
+  "classements_with_alineas": [
+    {
+      "alineas": [],
+      "regime": "D",
+      "rubrique": "1185"
+    },
+    {
+      "alineas": [],
+      "regime": "D",
+      "rubrique": "4802"
+    }
+  ],
+  "date_of_signature": "2014-08-04",
+  "id": "JORFTEXT000029359291",
+  "is_transverse": false,
+  "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029359291",
+  "nickname": null,
+  "orphan_titles": null,
+  "sections": [
+    {
+      "annotations": {
+        "topic": null
+      },
+      "applicability": {
         "active": true,
-        "table": null,
-        "text": "Arrêté du 04/08/14 relatif aux prescriptions générales applicables aux installations classées pour la protection de l'environnement soumises à déclaration sous la rubrique n° 4802 (Rubrique devenue la rubrique 1185 à compter du 25 octobre 2018)"
+        "modified": false,
+        "previous_version": null,
+        "warnings": []
+      },
+      "id": "E9eDCdC1702a",
+      "outer_alineas": [
+        {
+          "text": "Les installations classées soumises à déclaration sous la rubrique n° 1185 sont soumises aux dispositions de l'annexe I (1)."
+        },
+        {
+          "text": "Les présentes dispositions s'appliquent sans préjudice des autres législations ainsi que des schémas, plans et autres documents d'orientation et de planification approuvés."
+        },
+        {
+          "text": "(1) L'arrêté et les annexes seront publiés au Bulletin officiel du ministère de l'écologie, du développement durable et de l'énergie."
+        }
+      ],
+      "parametrization": {
+        "potential_inapplicabilities": [],
+        "potential_modifications": [],
+        "warnings": []
+      },
+      "reference": {
+        "name": "",
+        "nb": "Article 1er"
+      },
+      "sections": [],
+      "title": {
+        "text": "Article 1er"
+      }
     },
-    "version_descriptor": null,
-    "visa": []
+    {
+      "annotations": {
+        "topic": null
+      },
+      "applicability": {
+        "active": true,
+        "modified": false,
+        "previous_version": null,
+        "warnings": []
+      },
+      "id": "ee02ce9CBCC3",
+      "outer_alineas": [
+        {
+          "text": "Les dispositions de l'annexe I sont applicables aux installations déclarées à compter du 1er janvier 2015."
+        },
+        {
+          "text": "Les installations soumises à la rubrique 1185-1 sont soumises aux dispositions suivantes : 1.1, 1.2, 2.1, 2.2, 2.3, 3.1, 3.3, 3.4, 4.1, 4.2, 5.1, 6a, 6b, 7, 8."
+        },
+        {
+          "text": "Les installations soumises à la rubrique 1185-2a sont soumises aux dispositions suivantes : 1.1, 1.2, 2.1, 2.2, 2.3, 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 4.3, 5.1, 5.2, 6a, 6c, 7 et 8."
+        },
+        {
+          "text": "Les installations soumises à la rubrique n° 1185-2b sont soumises aux dispositions suivantes : 1.1, 1.2, 2.1, 2.2, 2.3, 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 4.3, 5.1, 6a, 6c, 7 et 8."
+        },
+        {
+          "text": "Les installations soumises à la rubrique 1185-3 sont soumises aux dispositions suivantes : 1.1, 1.2, 2.1, 2.3, 2.4, 3.1, 3.3, 3.4, 4.1, 4.2, 5.1, 6a, 7 et 8."
+        },
+        {
+          "text": "Les dispositions de l'annexe I sont applicables aux installations existantes, déclarées ou mises en service avant le 1er janvier 2015, dans les conditions précisées à l'article 3. Les prescriptions auxquelles les installations existantes sont déjà soumises demeurent applicables jusqu'à l'entrée en vigueur de ces dispositions."
+        },
+        {
+          "text": "Les dispositions de l'annexe I sont également applicables aux installations classées soumises à déclaration incluses dans un établissement qui comporte au moins une installation soumise au régime de l'autorisation dès lors que ces installations ne sont pas régies par l'arrêté préfectoral d'autorisation."
+        }
+      ],
+      "parametrization": {
+        "potential_inapplicabilities": [],
+        "potential_modifications": [],
+        "warnings": []
+      },
+      "reference": {
+        "name": "",
+        "nb": "Article 2"
+      },
+      "sections": [],
+      "title": {
+        "text": "Article 2"
+      }
+    },
+    {
+      "annotations": {
+        "topic": null
+      },
+      "applicability": {
+        "active": true,
+        "modified": false,
+        "previous_version": null,
+        "warnings": []
+      },
+      "id": "8Fe7b7C77079",
+      "outer_alineas": [
+        {
+          "text": "Les dispositions sont applicables aux installations existantes selon le calendrier précisé ci-dessous :"
+        },
+        {
+          "text": "- au 1er janvier 2015 : dispositions 1.1, 1.2, 3.1, 3.4, 5.1, 6a et 6c, 7 et 8 ;"
+        },
+        {
+          "text": "\t- au 1er janvier 2016 : dispositions 2.4, 3.2, 3.3, 4.1, 4.2 et 4.3 ;"
+        },
+        {
+          "text": "\t- au 1er janvier 2017 : dispositions 5.2 et 6b."
+        },
+        {
+          "text": "Toutefois, pour les installations déclarées entre le 1er janvier 2003 et le 31 décembre 2014, qui étaient soumises à la rubrique n° 1185-1, à la rubrique n° 1185-2b ou à la rubrique n° 1185-3-1a et lorsque le fluide concerné n'était pas du SF6, les dispositions suivantes restent par ailleurs applicables à partir du 1er janvier 2015 : 2.1, 2.2 et 2.3."
+        },
+        {
+          "text": "Les autres dispositions de l'annexe I ne sont pas applicables aux installations existantes."
+        }
+      ],
+      "parametrization": {
+        "potential_inapplicabilities": [],
+        "potential_modifications": [],
+        "warnings": []
+      },
+      "reference": {
+        "name": "",
+        "nb": "Article 3"
+      },
+      "sections": [],
+      "title": {
+        "text": "Article 3"
+      }
+    },
+    {
+      "annotations": {
+        "topic": null
+      },
+      "applicability": {
+        "active": true,
+        "modified": false,
+        "previous_version": null,
+        "warnings": []
+      },
+      "id": "F735d0ee7F2B",
+      "outer_alineas": [
+        {
+          "text": "Le préfet peut, en application de l'article L. 512-10 du code de l'environnement, adapter par arrêté préfectoral aux circonstances locales, installation par installation, les prescriptions du présent arrêté, notamment les points 2.1, 2.2 et 5.1 de l'annexe I, dans les conditions prévues à l'article R. 512-52 du code de l'environnement."
+        }
+      ],
+      "parametrization": {
+        "potential_inapplicabilities": [],
+        "potential_modifications": [],
+        "warnings": []
+      },
+      "reference": {
+        "name": "",
+        "nb": "Article 4"
+      },
+      "sections": [],
+      "title": {
+        "text": "Article 4"
+      }
+    },
+    {
+      "annotations": {
+        "topic": null
+      },
+      "applicability": {
+        "active": true,
+        "modified": false,
+        "previous_version": null,
+        "warnings": []
+      },
+      "id": "56Ac0294cDf2",
+      "outer_alineas": [
+        {
+          "text": "Supprimé"
+        }
+      ],
+      "parametrization": {
+        "potential_inapplicabilities": [],
+        "potential_modifications": [],
+        "warnings": []
+      },
+      "reference": {
+        "name": "",
+        "nb": "Article 5"
+      },
+      "sections": [],
+      "title": {
+        "text": "Article 5"
+      }
+    },
+    {
+      "annotations": {
+        "topic": null
+      },
+      "applicability": {
+        "active": true,
+        "modified": false,
+        "previous_version": null,
+        "warnings": []
+      },
+      "id": "6d2A2FFDA90b",
+      "outer_alineas": [
+        {
+          "text": "L'arrêté du 2 avril 2002 relatif aux prescriptions générales applicables aux installations classées soumises à déclaration sous la rubrique n° 1185 est abrogé à compter du 1er janvier 2015."
+        },
+        {
+          "text": "Le présent arrêté entre en vigueur le 1er janvier 2015."
+        }
+      ],
+      "parametrization": {
+        "potential_inapplicabilities": [],
+        "potential_modifications": [],
+        "warnings": []
+      },
+      "reference": {
+        "name": "",
+        "nb": "Article 6"
+      },
+      "sections": [],
+      "title": {
+        "text": "Article 6"
+      }
+    },
+    {
+      "annotations": {
+        "topic": null
+      },
+      "applicability": {
+        "active": true,
+        "modified": false,
+        "previous_version": null,
+        "warnings": []
+      },
+      "id": "5302cd58f9bc",
+      "outer_alineas": [
+        {
+          "text": "La directrice générale de la prévention des risques est chargée de l'exécution du présent arrêté, qui sera publié au Journal officiel de la République française."
+        },
+        {
+          "text": "Fait le 4 août 2014."
+        },
+        {
+          "text": "Pour la ministre et par délégation :"
+        },
+        {
+          "text": "L'adjoint à la directrice générale de la prévention des risques,"
+        },
+        {
+          "text": "\tJ.-M. Durand"
+        }
+      ],
+      "parametrization": {
+        "potential_inapplicabilities": [],
+        "potential_modifications": [],
+        "warnings": []
+      },
+      "reference": {
+        "name": "",
+        "nb": "Article 7"
+      },
+      "sections": [],
+      "title": {
+        "text": "Article 7"
+      }
+    },
+    {
+      "annotations": {
+        "topic": null
+      },
+      "applicability": {
+        "active": true,
+        "modified": false,
+        "previous_version": null,
+        "warnings": []
+      },
+      "id": "126E3228eCf7",
+      "outer_alineas": [],
+      "parametrization": {
+        "potential_inapplicabilities": [],
+        "potential_modifications": [],
+        "warnings": []
+      },
+      "reference": {
+        "name": "Prescriptions générales applicables aux installations classées pour la protection de l’environnement soumises à déclaration sous la rubrique n° 1185",
+        "nb": "Annexe I"
+      },
+      "sections": [
+        {
+          "annotations": {
+            "topic": null
+          },
+          "applicability": {
+            "active": true,
+            "modified": false,
+            "previous_version": null,
+            "warnings": []
+          },
+          "id": "6CC8ca4Df4ed",
+          "outer_alineas": [
+            {
+              "text": "Au sens du présent arrêté, on entend par :"
+            },
+            {
+              "text": "\t- capacité unitaire d’un équipement frigorifique ou climatique (y compris pompes à chaleur) : elle correspond à la quantité de fluide lorsque celle-ci est indiquée sur l’équipement au titre de l’article R. 543-77 du code de l’environnement. Il s’agit de la charge nominale de l’ensemble des tuyauteries, réservoirs, compresseur et autres accessoires composant les circuits qui contiennent le fluide d’un équipement ;"
+            },
+            {
+              "text": "\t- fluide : substance réglementée par le règlement (CE) n° 1005/2009 susvisé, qu’elle se présente isolément ou dans un mélange, ou gaz à effet de serre fluoré réglementé par le règlement (CE) n° 517/2014 susvisé, qu’il se présente isolément ou dans un mélange, et quel que soit son usage ;"
+            },
+            {
+              "text": "\t- classes et catégories de dangers : les classes et catégories de dangers sont définies à l’annexe I, parties 2, 3 et 4, du règlement (CE) n° 1272/2008 relatif à la classification, l’étiquetage et l’emballage des substances et des mélanges."
+            },
+            {
+              "text": "Au titre du présent arrêté, un fluide est considéré comme :"
+            },
+            {
+              "text": "\t- toxique lorsqu’il est classé « mortel » de catégorie 1 ou 2 pour la toxicité aiguë pour au moins l’une des trois voies d’exposition (orale, cutanée, inhalation) et lorsqu’il est classé « toxique » de catégorie 3 pour la toxicité aiguë pour au moins l’une des trois voies d’exposition ;"
+            },
+            {
+              "text": "\t- inflammable lorsqu’il est classé inflammable de catégorie 1 ou 2, selon l’annexe I, parties 2, 3 et 4, du règlement (CE) n° 1272/2008 susvisé."
+            },
+            {
+              "text": "\t- local de compression : il s’agit d’un terme employé exclusivement pour les installations soumises à la rubrique 1185-2a. Le local de compression abrite la ou les installations de compression. La notion de local de compression ne s’applique pas aux équipements extérieurs et aux équipements dont la mise en service consiste exclusivement en un raccordement à un réseau électrique."
+            }
+          ],
+          "parametrization": {
+            "potential_inapplicabilities": [],
+            "potential_modifications": [],
+            "warnings": []
+          },
+          "reference": {
+            "name": "Définitions",
+            "nb": "Annexe I"
+          },
+          "sections": [],
+          "title": {
+            "text": "Définitions"
+          }
+        },
+        {
+          "annotations": {
+            "topic": "DISPOSITIONS_GENERALES"
+          },
+          "applicability": {
+            "active": true,
+            "modified": false,
+            "previous_version": null,
+            "warnings": []
+          },
+          "id": "3B22f90Dca82",
+          "outer_alineas": [],
+          "parametrization": {
+            "potential_inapplicabilities": [],
+            "potential_modifications": [],
+            "warnings": []
+          },
+          "reference": {
+            "name": "Dispositions générales",
+            "nb": "Annexe I > 1."
+          },
+          "sections": [
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "613755baC1Ab",
+              "outer_alineas": [],
+              "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "Conformité de l’installation",
+                "nb": "Annexe I > 1.1."
+              },
+              "sections": [
+                {
+                  "annotations": {
+                    "topic": null
+                  },
+                  "applicability": {
+                    "active": true,
+                    "modified": false,
+                    "previous_version": null,
+                    "warnings": []
+                  },
+                  "id": "9ffCFA2e9c69",
+                  "outer_alineas": [
+                    {
+                      "text": "L’installation est implantée, réalisée et exploitée conformément aux plans et autres documents joints à la déclaration, sous réserve du respect des prescriptions ci-dessous."
+                    }
+                  ],
+                  "parametrization": {
+                    "potential_inapplicabilities": [],
+                    "potential_modifications": [],
+                    "warnings": []
+                  },
+                  "reference": {
+                    "name": "Conformité de l’installation à la déclaration",
+                    "nb": "Annexe I > 1.1.1."
+                  },
+                  "sections": [],
+                  "title": {
+                    "text": "1.1.1. Conformité de l’installation à la déclaration"
+                  }
+                },
+                {
+                  "annotations": {
+                    "topic": null
+                  },
+                  "applicability": {
+                    "active": true,
+                    "modified": false,
+                    "previous_version": null,
+                    "warnings": []
+                  },
+                  "id": "a6f86f6fFfa5",
+                  "outer_alineas": [
+                    {
+                      "text": "L’installation est soumise à des contrôles périodiques par des organismes agréés dans les conditions définies par les articles R. 512-55 à R. 512-60 du code de l’environnement."
+                    },
+                    {
+                      "text": "Ces contrôles ont pour objet de vérifier la conformité de l’installation aux prescriptions repérées dans la présente annexe par le terme « Objet du contrôle », éventuellement modifiées par arrêté préfectoral, lorsqu’elles lui sont applicables. Le contenu de ces contrôles est précisé à la fin de chaque point de la présente annexe après la mention « Objet du contrôle ». Les prescriptions dont le non-respect constitue une non-conformité majeure entraînant l’information du préfet dans les conditions prévues à l’article R. 512-59-1 sont repérées dans la présente annexe par la mention « le nonrespect de ce point relève d’une non-conformité majeure »."
+                    }
+                  ],
+                  "parametrization": {
+                    "potential_inapplicabilities": [],
+                    "potential_modifications": [],
+                    "warnings": []
+                  },
+                  "reference": {
+                    "name": "Contrôle périodique : prescriptions spécifiques aux installations soumises à la « rubrique 1185-2a »",
+                    "nb": "Annexe I > 1.1.2."
+                  },
+                  "sections": [],
+                  "title": {
+                    "text": "1.1.2. Contrôle périodique : prescriptions spécifiques aux installations soumises à la « rubrique 1185-2a »"
+                  }
+                }
+              ],
+              "title": {
+                "text": "1.1. Conformité de l’installation"
+              }
+            },
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "3a9d01Ee5eEe",
+              "outer_alineas": [
+                {
+                  "text": "L’exploitant établit et tient à jour un dossier comportant notamment les documents suivants :"
+                },
+                {
+                  "text": "\t- les plans tenus à jour ;"
+                },
+                {
+                  "text": "\t- la preuve de dépôt de la déclaration et les prescriptions générales ;"
+                },
+                {
+                  "text": "\t- le schéma général de tuyauteries et d’instrumentation de l’installation ;"
+                },
+                {
+                  "text": "\t- pour les installations soumises à « la rubrique 1185-2a » : le rapport d’inspection lorsque cette inspection est requise par l’article R. 224-59-2 du code de l’environnement."
+                },
+                {
+                  "text": "\tCe dossier est tenu à la disposition de l’inspection des installations classées."
+                },
+                {
+                  "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à  « la rubrique 1185-2a ») :"
+                },
+                {
+                  "text": "\t- présence de la preuve de dépôt de la déclaration ;"
+                },
+                {
+                  "text": "\t- présence des arrêtés préfectoraux relatifs à l’installation, s’il y en a ;"
+                },
+                {
+                  "text": "\t- présence des prescriptions générales ;"
+                },
+                {
+                  "text": "\t- présence de plans tenus à jour ;"
+                },
+                {
+                  "text": "\t- présence du schéma général de tuyauteries et d’instrumentation de l’installation (le non-respect de ce point relève d’une non-conformité majeure) ;"
+                },
+                {
+                  "text": "\t- vérification de l’adéquation entre la quantité cumulée de fluide susceptible d’être présente dans l’installation (au regard de la capacité unitaire des équipements) et de la quantité cumulée de fluide déclarée (le non-respect de ce point relève d’une non-conformité majeure) ;"
+                },
+                {
+                  "text": "\t- vérification que les fluides présents sont conformes aux informations transmises au préfet (le non-respect de ce point relève d’une non-conformité majeure) ;"
+                },
+                {
+                  "text": "\t- présence du rapport d’inspection lorsque cette inspection est requise par l’article R. 224-59-2 du code de l’environnement."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "Dossier installation classée",
+                "nb": "Annexe I > 1.2."
+              },
+              "sections": [],
+              "title": {
+                "text": "1.2. Dossier installation classée"
+              }
+            }
+          ],
+          "title": {
+            "text": "1. Dispositions générales"
+          }
+        },
+        {
+          "annotations": {
+            "topic": "IMPLANTATION_AMENAGEMENT"
+          },
+          "applicability": {
+            "active": true,
+            "modified": false,
+            "previous_version": null,
+            "warnings": []
+          },
+          "id": "e02d5F4c9a4e",
+          "outer_alineas": [],
+          "parametrization": {
+            "potential_inapplicabilities": [],
+            "potential_modifications": [],
+            "warnings": []
+          },
+          "reference": {
+            "name": "Implantation - aménagement",
+            "nb": "Annexe I > 2."
+          },
+          "sections": [
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "EC7c65c2CE4D",
+              "outer_alineas": [
+                {
+                  "text": "Lorsque l’installation fabrique, emploie (en dehors de l’emploi dans des équipements clos en exploitation soumis à « la rubrique 1185-2 ») ou stocke plus de 300 kg de fluide toxique ou inflammable, elle est implantée et maintenue à une distance d’au moins 5 mètres des limites de l’établissement."
+                },
+                {
+                  "text": "Lorsque l’installation est soumise à  « la rubrique 1185-2 » et comprend un équipement qui contient à lui seul plus de 300 kg de fluide toxique ou inflammable, celui-ci est implanté et maintenu à une distance d’au moins 5 mètres des limites de l’établissement. Une dérogation peut être accordée par le préfet sous réserve de la présentation d’un dossier justifiant l’absence de risque pour les tiers."
+                },
+                {
+                  "text": "Pour les installations soumises à « la rubrique 1185-2a », la distance d’isolement est mesurée à partir du local de compression ou de l’équipement extérieur."
+                },
+                {
+                  "text": "Cette disposition n’est pas applicable aux équipements dont la mise en service consiste exclusivement en un raccordement à un réseau électrique."
+                },
+                {
+                  "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
+                },
+                {
+                  "text": "\t- Lorsque l’installation est soumise à « la rubrique 1185-2a » et comprend un équipement qui contient à lui seul plus de 300 kg de fluide toxique ou inflammable : respect des distances d’isolement (le nonrespect de ce point relève d’une non-conformité majeure)."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [
+                  {
+                    "alineas": null,
+                    "condition": {
+                      "parameter": {
+                        "id": "date-d-declaration",
+                        "type": "DATE"
+                      },
+                      "strict": true,
+                      "target": "2015-01-01",
+                      "type": "LITTLER"
+                    },
+                    "subsections_are_inapplicable": true
+                  }
+                ],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "Règles d’implantation",
+                "nb": "Annexe I > 2.1."
+              },
+              "sections": [],
+              "title": {
+                "text": "2.1. Règles d’implantation"
+              }
+            },
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "B2636C7dE14D",
+              "outer_alineas": [
+                {
+                  "text": "Lorsque l’installation fabrique ou emploie (en dehors de l’emploi dans des équipements clos en exploitation soumis à «  la rubrique 1185-2 » ) plus de 300 kg de fluide toxique ou inflammable, ou, lorsqu’elle est soumise à « la rubrique 1185-2 » et comprend un équipement qui contient à lui seul plus de 300 kg de fluide toxique ou inflammable, elle n’est pas surmontée par des locaux habités ou occupés par des tiers."
+                },
+                {
+                  "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
+                },
+                {
+                  "text": "\t- Absence de locaux habités ou occupés par des tiers au-dessus de l’installation lorsque celle-ci comprend un équipement qui contient à lui seul plus de 300 kg de fluide toxique ou inflammable (le non-respect de ce point relève d’une non-conformité majeure)."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [
+                  {
+                    "alineas": null,
+                    "condition": {
+                      "conditions": [
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-1-a",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-2-a",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "date-d-declaration",
+                            "type": "DATE"
+                          },
+                          "strict": true,
+                          "target": "2015-01-01",
+                          "type": "LITTLER"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-2",
+                          "type": "EQUAL"
+                        }
+                      ],
+                      "type": "OR"
+                    },
+                    "subsections_are_inapplicable": true
+                  }
+                ],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "Interdiction de locaux habités ou occupés par des tiers au-dessus de l’installation",
+                "nb": "Annexe I > 2.2."
+              },
+              "sections": [],
+              "title": {
+                "text": "2.2. Interdiction de locaux habités ou occupés par des tiers au-dessus de l’installation"
+              }
+            },
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "B009aAd7eA0e",
+              "outer_alineas": [
+                {
+                  "text": "Lorsque l’installation fabrique, emploie (en dehors de l’emploi dans des équipements clos en exploitation soumis à la rubrique 4802-2) ou stocke plus de 300 kg de fluide inflammable, ou, lorsque l’installation est soumise à «  la rubrique 1185-2 » et comprend un équipement qui contient à lui seul plus de 300 kg de fluide inflammable, le bâtiment, ou le local de compression lorsqu’il existe, abritant l’installation présente les caractéristiques de résistance au feu minimales suivantes :"
+                },
+                {
+                  "text": "\t- murs extérieurs et murs séparatifs REI 120 ;"
+                },
+                {
+                  "text": "\t- portes et fermetures résistantes au feu (y compris celles comportant des vitrages et des quincailleries) et leurs dispositifs de fermeture EI 120."
+                },
+                {
+                  "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à «  la rubrique 1185-2a ») :"
+                },
+                {
+                  "text": "\t- Lorsque l’installation est soumise à « la rubrique 1185-2a » et comprend un équipement qui contient à lui seul plus de 300 kg de fluide inflammable : présence de documents justifiant de la conformité des propriétés de résistance au feu (le non-respect de ce point relève d’une non-conformité majeure)."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [
+                  {
+                    "alineas": null,
+                    "condition": {
+                      "parameter": {
+                        "id": "date-d-declaration",
+                        "type": "DATE"
+                      },
+                      "strict": true,
+                      "target": "2015-01-01",
+                      "type": "LITTLER"
+                    },
+                    "subsections_are_inapplicable": true
+                  }
+                ],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "Comportement au feu des locaux",
+                "nb": "Annexe I > 2.3."
+              },
+              "sections": [],
+              "title": {
+                "text": "2.3. Comportement au feu des locaux"
+              }
+            },
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "83e1409085d9",
+              "outer_alineas": [
+                {
+                  "text": "Les locaux ou les aires de stockage sont aménagés et organisés en fonction des risques présentés par les substances ou préparations stockées. Des emplacements prédéterminés sont aménagés pour le positionnement au sol. Toutes dispositions sont prises pour éviter leur chute et les chocs. Les conditions de stockage permettent de maintenir les récipients à l’abri de toute source d’inflammation."
+                },
+                {
+                  "text": "Les aires de stockage sont indépendantes des aires de chargement et de déchargement. Elles sont agencées de manière à permettre une circulation aisée, tant pour l’exploitation n°rmale que pour une intervention rapide. En l’absence de rayonnage en rack, les aires de stockage sont parfaitement identifiées au sol."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [
+                  {
+                    "alineas": null,
+                    "condition": {
+                      "conditions": [
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "1-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "2-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "2-a",
+                          "type": "EQUAL"
+                        }
+                      ],
+                      "type": "OR"
+                    },
+                    "subsections_are_inapplicable": true
+                  }
+                ],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "Aménagement et organisation du stockage",
+                "nb": "Annexe I > 2.4."
+              },
+              "sections": [],
+              "title": {
+                "text": "2.4. Aménagement et organisation du stockage"
+              }
+            }
+          ],
+          "title": {
+            "text": "2. Implantation - aménagement"
+          }
+        },
+        {
+          "annotations": {
+            "topic": "EXPLOITATION"
+          },
+          "applicability": {
+            "active": true,
+            "modified": false,
+            "previous_version": null,
+            "warnings": []
+          },
+          "id": "62C7aE008Ae4",
+          "outer_alineas": [],
+          "parametrization": {
+            "potential_inapplicabilities": [],
+            "potential_modifications": [],
+            "warnings": []
+          },
+          "reference": {
+            "name": "Exploitation - entretien",
+            "nb": "Annexe I > 3."
+          },
+          "sections": [
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "10b42763984d",
+              "outer_alineas": [
+                {
+                  "text": "L’exploitant prend les dispositions nécessaires pour limiter l’accès à l’installation ou, le cas échéant, au local de compression aux seules personnes autorisées."
+                },
+                {
+                  "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a » ) :"
+                },
+                {
+                  "text": "\t- Présence d’un dispositif limitant l’accès aux installations ou, le cas échéant, au local de compression aux seules personnes autorisées."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "Contrôle de l’accès",
+                "nb": "Annexe I > 3.1."
+              },
+              "sections": [],
+              "title": {
+                "text": "3.1. Contrôle de l’accès"
+              }
+            },
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "ed9eEaa91aaF",
+              "outer_alineas": [
+                {
+                  "text": "Les équipements clos en exploitation comportent un étiquetage visible sur la nature du fluide et la quantité de fluide qu’ils sont susceptibles de contenir."
+                },
+                {
+                  "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
+                },
+                {
+                  "text": "\t- Présence d’un étiquetage visible précisant la nature du fluide et de la quantité de fluide susceptible d’être contenue dans l’équipement."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [
+                  {
+                    "alineas": null,
+                    "condition": {
+                      "conditions": [
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-1-a",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-1-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "1-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-2",
+                          "type": "EQUAL"
+                        }
+                      ],
+                      "type": "OR"
+                    },
+                    "subsections_are_inapplicable": true
+                  }
+                ],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "Étiquetage des équipements contenant les fluides",
+                "nb": "Annexe I > 3.2."
+              },
+              "sections": [],
+              "title": {
+                "text": "3.2. Étiquetage des équipements contenant les fluides"
+              }
+            },
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "e5bBBa283C8D",
+              "outer_alineas": [
+                {
+                  "text": "L’exploitant tient à jour un inventaire des équipements et des stockages fixes qui contiennent plus de 2 kg de fluide présents sur le site précisant leur capacité unitaire et le fluide contenu, ainsi que la quantité maximale susceptible d’être présente dans des équipements sous pression transportables ou dans des emballages de transport."
+                },
+                {
+                  "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
+                },
+                {
+                  "text": "\t- présence d’un inventaire ;"
+                },
+                {
+                  "text": "\t- vérification de l’adéquation entre cet inventaire et les équipements et stockages présents sur site."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "Etat des stocks de fluides",
+                "nb": "Annexe I > 3.3."
+              },
+              "sections": [],
+              "title": {
+                "text": "3.3. Etat des stocks de fluides"
+              }
+            },
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "be9d4b497f73",
+              "outer_alineas": [
+                {
+                  "text": "Toute opération de dégazage dans l’atmosphère est interdite, sauf si elle est nécessaire pour assurer la sécurité des personnes. Lorsqu’il procède à un dégazage, l’exploitant prend toute disposition de nature à éviter le ren°uvellement de cette opération."
+                },
+                {
+                  "text": "Toute opération de dégazage ayant entraîné ponctuellement une émission de plus de 20 kilogrammes de fluides ou ayant entraîné au cours de l’année civile des émissions cumulées supérieures à 100 kilogrammes est consignée dans un registre tenu à la disposition de l’inspection des installations classées."
+                },
+                {
+                  "text": "L’exploitant porte ces opérations de dégazage à la connaissance du représentant de l’Etat dans le département et, dans le cas d’un équipement situé dans le périmètre d’une installation nucléaire de base telle que définie à l’article L. 593-2 du code de l’environnement, à l’Autorité de sûreté nucléaire."
+                },
+                {
+                  "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à la rubrique 1185-2a) :"
+                },
+                {
+                  "text": "\t- Vérification de la présence du registre (le non-respect de ce point relève d’une non-conformité majeure)."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "Dégazage",
+                "nb": "Annexe I > 3.4."
+              },
+              "sections": [],
+              "title": {
+                "text": "3.4. Dégazage"
+              }
+            }
+          ],
+          "title": {
+            "text": "3. Exploitation - entretien"
+          }
+        },
+        {
+          "annotations": {
+            "topic": "RISQUES"
+          },
+          "applicability": {
+            "active": true,
+            "modified": false,
+            "previous_version": null,
+            "warnings": []
+          },
+          "id": "d9DFFC5e5bbd",
+          "outer_alineas": [],
+          "parametrization": {
+            "potential_inapplicabilities": [],
+            "potential_modifications": [],
+            "warnings": []
+          },
+          "reference": {
+            "name": "Risques",
+            "nb": "Annexe I > 4."
+          },
+          "sections": [
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "0b09B7542Fd6",
+              "outer_alineas": [
+                {
+                  "text": "L’installation est équipée de moyens de lutte contre l’incendie appropriés aux risques, notamment :"
+                },
+                {
+                  "text": "a. d’extincteurs répartis à l’intérieur des locaux (hors locaux à température négative), sur les aires extérieures et les lieux présentant des risques spécifiques, à proximité des dégagements, bien visibles et facilement accessibles. Les agents d’extinction sont appropriés aux risques à combattre et compatibles avec les produits stockés. Pour les locaux à température négative, les extincteurs sont installés à l’extérieur de ceux-ci ;"
+                },
+                {
+                  "text": "Lorsque l’installation fabrique, emploie (en dehors de l’emploi dans des équipements clos en exploitation soumis à « la rubrique 1185-2 ») ou stocke plus de 300 kg de fluide inflammable ou de fluide toxique, ou lorsque l’installation est soumise à la rubrique 4802-2 et comprend un équipement qui contient à lui seul plus de 300 kg de fluide toxique ou inflammable :"
+                },
+                {
+                  "text": "b. d’un système de détection et d’alarme adaptés aux risques et judicieusement disposés de manière à informer rapidement le personnel de tout incident. Tous ces matériels sont maintenus en bon Etat et vérifiés au moins une fois par an."
+                },
+                {
+                  "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
+                },
+                {
+                  "text": "\t- implantation des extincteurs ;"
+                },
+                {
+                  "text": "\t- présence des extincteurs (au moins un) (le non-respect de ce point relève d’une non-conformité majeure) ;"
+                },
+                {
+                  "text": "\t- présence d’un moyen d’alerte des services d’incendie et de secours ;"
+                },
+                {
+                  "text": "\t- présence de plans de locaux, avec descriptions des dangers associés ;"
+                },
+                {
+                  "text": "\t- lorsque l’installation comprend un équipement qui contient à lui seul plus de 300 kg de fluide toxique ou inflammable : présence d’un système de détection et d’alarme."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "Moyens de lutte contre l’incendie et d’intervention",
+                "nb": "Annexe I > 4.1."
+              },
+              "sections": [],
+              "title": {
+                "text": "4.1. Moyens de lutte contre l’incendie et d’intervention"
+              }
+            },
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "8b192EAb1aaA",
+              "outer_alineas": [
+                {
+                  "text": "Sans préjudice des dispositions du code du travail, des consignes précisant les modalités d’application des dispositions du présent arrêté sont établies, tenues à jour et portées à la connaissance du personnel dans les lieux fréquentés par le personnel. Ces consignes indiquent notamment :"
+                },
+                {
+                  "text": "\t- les procédures d’arrêt d’urgence et de mise en sécurité de l’installation (électricité, réseaux de fluides notamment) ;"
+                },
+                {
+                  "text": "\t- les mesures à prendre en cas de fuite sur un récipient ou une tuyauterie contenant des substances dangereuses."
+                },
+                {
+                  "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
+                },
+                {
+                  "text": "- Présence de chacune de ces consignes."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "Consignes de sécurité",
+                "nb": "Annexe I > 4.2."
+              },
+              "sections": [],
+              "title": {
+                "text": "4.2. Consignes de sécurité"
+              }
+            },
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "065A9Aac4C9C",
+              "outer_alineas": [
+                {
+                  "text": "Les sorties de vannes en communication directe avec l’atmosphère sont obturées (notamment, au moyen de bouchons de fin de ligne). Le calorifugeage des tuyauteries, lorsqu’il existe, du circuit frigorifique des équipements frigorifiques ou climatiques, y compris pompes à chaleur, est en bon Etat."
+                },
+                {
+                  "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
+                },
+                {
+                  "text": "- présence d’obturation sur les sorties de vannes ;"
+                },
+                {
+                  "text": "\t- bon Etat du calorifugeage lorsqu’il existe (l’absence de prise en glace du calorifugeage témoigne de son bon Etat)."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [
+                  {
+                    "alineas": null,
+                    "condition": {
+                      "conditions": [
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-1-a",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-1-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "1-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-2",
+                          "type": "EQUAL"
+                        }
+                      ],
+                      "type": "OR"
+                    },
+                    "subsections_are_inapplicable": true
+                  }
+                ],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "Tuyauteries des équipements clos en exploitation (prescriptions spécifiques à « la rubrique 1185-2 » )",
+                "nb": "Annexe I > 4.3."
+              },
+              "sections": [],
+              "title": {
+                "text": "4.3. Tuyauteries des équipements clos en exploitation (prescriptions spécifiques à « la rubrique 1185-2 » )"
+              }
+            }
+          ],
+          "title": {
+            "text": "4. Risques"
+          }
+        },
+        {
+          "annotations": {
+            "topic": "EAU"
+          },
+          "applicability": {
+            "active": true,
+            "modified": false,
+            "previous_version": null,
+            "warnings": []
+          },
+          "id": "aA35ffD61FD1",
+          "outer_alineas": [],
+          "parametrization": {
+            "potential_inapplicabilities": [],
+            "potential_modifications": [],
+            "warnings": []
+          },
+          "reference": {
+            "name": "Eau",
+            "nb": "Annexe I > 5."
+          },
+          "sections": [
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "534dE60fDb53",
+              "outer_alineas": [
+                {
+                  "text": "Hormis le cas où ils s’inscrivent dans des opérations de géothermie couvertes par le code minier, les ouvrages et équipements nécessaires au fonctionnement de l’installation classée et visés par la nomenclature eau (IOTA) n’engendrent pas de prélèvements, rejets ou impacts supérieurs aux seuils d’autorisation de ladite nomenclature. En cas de dépassement de ce seuil d’autorisation, le préfet prend des dispositions particulières dans le cadre de l’article R. 512-52 du code de l’environnement."
+                },
+                {
+                  "text": "En cas de forage, si le volume prélevé est supérieur à 10 000 m3/an, les dispositions prises pour l’implantation, l’exploitation, le suivi, la surveillance et la mise à l’arrêt de l’ouvrage sont conformes aux dispositions indiquées dans l’arrêté du 11 septembre 2003 relatif aux prélèvements soumis à déclaration au titre de la rubrique 1.1.2.0."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "Connexité avec des ouvrages soumis à la nomenclature eau en application des articles L. 214-1 à L. 214-3 du code de l’environnement",
+                "nb": "Annexe I > 5.1."
+              },
+              "sections": [],
+              "title": {
+                "text": "5.1. Connexité avec des ouvrages soumis à la nomenclature eau en application des articles L. 214-1 à L. 214-3 du code de l’environnement"
+              }
+            },
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "2E4BE5414641",
+              "outer_alineas": [
+                {
+                  "text": "Sans préjudice des dispositions prévues par l’arrêté du 11 septembre 2003 susvisé, les pompes à chaleur soumises à la rubrique 4802-2a sont soumises aux dispositions du présent point."
+                },
+                {
+                  "text": "Lors de la réalisation des forages, toutes dispositions sont prévues pour éviter le mélange d’eaux de qualités différentes, notamment provenant de nappes distinctes ou issues de niveaux aquifères situés à différentes profondeurs, et pour prévenir l’introduction de substances polluantes ou d’eaux de surface. Le raccordement à une nappe d’eau est muni d’un dispositif évitant en toute circonstance le retour d’eau pouvant être polluée."
+                },
+                {
+                  "text": "Les eaux prélevées sont intégralement réinjectées ou rejetées dans la même ressource après échange de chaleur et avec la même qualité. Elles sont exemptes de tout traitement (notamment biocide et anticorrosion). La température des eaux rejetées est mesurée en continu et consignée."
+                },
+                {
+                  "text": "L’exploitant vérifie annuellement la non-contamination de l’eau qu’il rejette dans le milieu après échange de chaleur. Il peut le démontrer par des analyses de prélèvements effectués en sortie du puits de captage et au niveau du rejet ou par une démonstration technique."
+                },
+                {
+                  "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (pompes à chaleur soumises à «  la rubrique 1185-2a ») :"
+                },
+                {
+                  "text": "\t- présence d’un dispositif anti-retour en cas de raccordement à une nappe (le non-respect de ce point relève d’une non-conformité majeure) ;"
+                },
+                {
+                  "text": "\t- présence du document attestant la non-contamination (le non-respect de ce point relève d’une non-conformité majeure)."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [
+                  {
+                    "alineas": null,
+                    "condition": {
+                      "conditions": [
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-1-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "1-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-1-a",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-2",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "2-b",
+                          "type": "EQUAL"
+                        }
+                      ],
+                      "type": "OR"
+                    },
+                    "subsections_are_inapplicable": true
+                  }
+                ],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "Pompes à chaleur",
+                "nb": "Annexe I > 5.2."
+              },
+              "sections": [],
+              "title": {
+                "text": "5.2. Pompes à chaleur"
+              }
+            }
+          ],
+          "title": {
+            "text": "5. Eau"
+          }
+        },
+        {
+          "annotations": {
+            "topic": "AIR_ODEURS"
+          },
+          "applicability": {
+            "active": true,
+            "modified": false,
+            "previous_version": null,
+            "warnings": []
+          },
+          "id": "Ac7fbEcCCE60",
+          "outer_alineas": [],
+          "parametrization": {
+            "potential_inapplicabilities": [],
+            "potential_modifications": [],
+            "warnings": []
+          },
+          "reference": {
+            "name": "Air",
+            "nb": "Annexe I > 6."
+          },
+          "sections": [
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "3D2b3b13a8b9",
+              "outer_alineas": [
+                {
+                  "text": "L’exploitant prend toutes les mesures préventives réalisables afin d’éviter et de réduire au minimum les fuites et émissions de fluides."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "a.",
+                "nb": "Annexe I > 6."
+              },
+              "sections": [],
+              "title": {
+                "text": "a."
+              }
+            },
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "ecfa8d30f216",
+              "outer_alineas": [
+                {
+                  "text": "Pour les installations soumises à la rubrique 4802-1, les équipements utilisés pour la fabrication ou l’emploi de fluides (en dehors de l’emploi dans des équipements clos en exploitation soumis à « la rubrique 1185-2 ») font l’objet d’un premier contrôle d’étanchéité selon les modalités prévues aux articles 6 et 7 du règlement (CE) n° 1516/2007 susvisé. Le résultat de ce contrôle est tenu à la disposition de l’inspection des installations classées."
+                },
+                {
+                  "text": "L’exploitant élabore un plan de maîtrise des émissions de fluide, dans lequel figurent le niveau d’émission de référence de l’installation correspondant au niveau atteint si aucune mesure de réduction n’était mise en oeuvre dans l’installation, ainsi que l’identification des actions ou procédés à l’origine des émissions. L’exploitant définit dans ce plan la fréquence des contrôles d’étanchéité, à partir des résultats du premier contrôle et des actions ou procédés à l’origine des émissions."
+                },
+                {
+                  "text": "Les fuites et émissions de fluide sont estimées annuellement. Cette estimation ainsi que les résultats des contrôles d’étanchéité à la fréquence déterminée par l’exploitant sont tenus à la disposition de l’inspection des installations classées, ainsi que le bilan des actions que l’exploitant a menées pour réduire les émissions et le programme d’actions à mettre en oeuvre pour les réduire davantage. Lorsqu’un défaut d’étanchéité est identifié, il fait l’objet d’une réparation dans les meilleurs délais."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [
+                  {
+                    "alineas": null,
+                    "condition": {
+                      "conditions": [
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-1-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-1-a",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-2",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "2-a",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "2-b",
+                          "type": "EQUAL"
+                        }
+                      ],
+                      "type": "OR"
+                    },
+                    "subsections_are_inapplicable": true
+                  }
+                ],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "b.",
+                "nb": "Annexe I > 6."
+              },
+              "sections": [],
+              "title": {
+                "text": "b."
+              }
+            },
+            {
+              "annotations": {
+                "topic": null
+              },
+              "applicability": {
+                "active": true,
+                "modified": false,
+                "previous_version": null,
+                "warnings": []
+              },
+              "id": "99Afb785F171",
+              "outer_alineas": [
+                {
+                  "text": "Pour les installations soumises à « la rubrique 1185-2 », les équipements clos en exploitation sont régulièrement contrôlés selon les fréquences et dispositions prévues par les règlements (CE) n° 1005/2009 et n° 517/2014 susvisés et par les articles R. 543-79 et R. 543-81 du code de l’environnement."
+                },
+                {
+                  "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à « la rubrique 1185-2a ») :"
+                },
+                {
+                  "text": "\t- Présence de justificatifs attestant de la réalisation des contrôles d’étanchéité (le non-respect de ce point relève d’une non-conformité majeure)."
+                }
+              ],
+              "parametrization": {
+                "potential_inapplicabilities": [
+                  {
+                    "alineas": null,
+                    "condition": {
+                      "conditions": [
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-1-a",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-1-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "1-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "3-2",
+                          "type": "EQUAL"
+                        }
+                      ],
+                      "type": "OR"
+                    },
+                    "subsections_are_inapplicable": true
+                  }
+                ],
+                "potential_modifications": [],
+                "warnings": []
+              },
+              "reference": {
+                "name": "c.",
+                "nb": "Annexe I > 6."
+              },
+              "sections": [],
+              "title": {
+                "text": "c."
+              }
+            }
+          ],
+          "title": {
+            "text": "6. Air"
+          }
+        },
+        {
+          "annotations": {
+            "topic": "DECHETS"
+          },
+          "applicability": {
+            "active": true,
+            "modified": false,
+            "previous_version": null,
+            "warnings": []
+          },
+          "id": "BfCeC3Fd1dAB",
+          "outer_alineas": [
+            {
+              "text": "L’exploitant est tenu aux obligations de registre, de déclaration de production et de traitement de déchets et de traçabilité (bordereau de suivi, document de transfert transfrontalier) dans les conditions fixées par la réglementation aux articles R. 541-42 à R. 541-46 du code de l’environnement."
+            },
+            {
+              "text": "Lorsque les substances visées par le règlement (CE) n° 1005/2009 susvisé, qu’elles se présentent isolément ou en mélange, ou les produits contenant ces substances sont détruits, ils le sont par les techniques listées en annexe VII de ce règlement."
+            },
+            {
+              "text": "Lors du démantèlement d’une installation ou d’un équipement faisant partie d’une installation, le retrait et la récupération de l’intégralité du fluide sont obligatoires, afin d’en assurer le recyclage, la régénération ou la destruction."
+            },
+            {
+              "text": "Objet du contrôle pour les installations soumises aux contrôles périodiques (installations soumises à «  la rubrique 1185-2a ») :"
+            },
+            {
+              "text": "\t- présence du registre des déchets (entrants ou sortants le cas échéant) tenu à jour ;"
+            },
+            {
+              "text": "\t- présence des bordereaux de suivi de déchets et des documents justificatifs de traitement."
+            }
+          ],
+          "parametrization": {
+            "potential_inapplicabilities": [],
+            "potential_modifications": [],
+            "warnings": []
+          },
+          "reference": {
+            "name": "Déchets",
+            "nb": "Annexe I > 7."
+          },
+          "sections": [],
+          "title": {
+            "text": "7. Déchets"
+          }
+        },
+        {
+          "annotations": {
+            "topic": "BRUIT_VIBRATIONS"
+          },
+          "applicability": {
+            "active": true,
+            "modified": false,
+            "previous_version": null,
+            "warnings": []
+          },
+          "id": "bfD569eE0cF6",
+          "outer_alineas": [
+            {
+              "text": "L’installation respecte les dispositions des articles 2 à 5 de l’arrêté du 23 janvier 1997 susvisé."
+            },
+            {
+              "text": "Toutefois, pour les dates mentionnées dans la définition de « zone à émergence réglementée » à l’article 2 de cet arrêté, la date de déclaration de l’installation est prise pour référence."
+            },
+            {
+              "text": "Une mesure des émissions sonores et de l’émergence est effectuée aux frais de l’exploitant par un organisme qualifié, notamment à la demande de l’inspection des installations classées, si l’installation fait l’objet de plaintes ou en cas de modification de l’installation susceptible d’impacter le niveau de bruit généré dans les zones à émergence réglementée."
+            }
+          ],
+          "parametrization": {
+            "potential_inapplicabilities": [],
+            "potential_modifications": [],
+            "warnings": []
+          },
+          "reference": {
+            "name": "Bruit",
+            "nb": "Annexe I > 8."
+          },
+          "sections": [],
+          "title": {
+            "text": "8. Bruit"
+          }
+        }
+      ],
+      "title": {
+        "text": "Annexe I : Prescriptions générales applicables aux installations classées pour la protection de l’environnement soumises à déclaration sous la rubrique n° 1185"
+      }
+    }
+  ],
+  "title": {
+    "text": "Arrêté du 04/08/14 relatif aux prescriptions générales applicables aux installations classées pour la protection de l'environnement soumises à déclaration sous la rubrique n° 4802 (Rubrique devenue la rubrique 1185 à compter du 25 octobre 2018)"
+  },
+  "visa": []
 }

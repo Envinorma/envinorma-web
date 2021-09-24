@@ -6,16 +6,16 @@ counter.innerHTML = "<%= @counter %>"
 
 // Clear inputs after submitting prescription form from AP
 <% if @from_ap %>
-  var reference_inputs = document.querySelectorAll(".prescription_reference input");
-  var content_inputs = document.querySelectorAll(".prescription_content textarea");
-
-  for (const reference_input of reference_inputs) {
-    reference_input.value = ""
-  }
-
-  for (const content_input of content_inputs) {
-    content_input.value = ""
-  }
+  var allInputs = [
+    document.querySelectorAll(".prescription_reference input"),
+    document.querySelectorAll(".prescription_name input"),
+    document.querySelectorAll(".prescription_content textarea")
+  ];
+  allInputs.forEach(function(inputs) {
+    inputs.forEach(function(input) {
+      input.value = '';
+    });
+  });
 <% end %>
 
 // display modal
