@@ -1,12 +1,4 @@
 ruby:
-  def extract_prescription_content(alinea)
-    return alinea.text if alinea.text.present?
-
-    return open_struct_to_hash(alinea.table).to_json if alinea.table.present?
-
-    ''
-  end
-
   def create_alinea_content(alinea)
     return alinea.text if alinea.text.present?
 

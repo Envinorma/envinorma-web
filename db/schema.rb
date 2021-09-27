@@ -10,10 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_21_103606) do
+ActiveRecord::Schema.define(version: 2021_09_27_131701) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "alinea_store", primary_key: ["section_id", "index_in_section"], force: :cascade do |t|
+    t.string "section_id", null: false
+    t.bigint "index_in_section", null: false
+    t.bigint "am_id"
+    t.string "section_name"
+    t.string "section_reference"
+    t.string "section_rank"
+    t.string "topic"
+    t.string "content"
+    t.boolean "is_table"
+  end
 
   create_table "ams", force: :cascade do |t|
     t.jsonb "data"
