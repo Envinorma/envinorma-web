@@ -15,9 +15,9 @@ ActiveRecord::Schema.define(version: 2021_09_27_131701) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "alinea_store", primary_key: ["section_id", "index_in_section"], force: :cascade do |t|
-    t.string "section_id", null: false
-    t.bigint "index_in_section", null: false
+  create_table "alinea_stores", force: :cascade do |t|
+    t.string "section_id"
+    t.bigint "index_in_section"
     t.bigint "am_id"
     t.string "section_name"
     t.string "section_reference"
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 2021_09_27_131701) do
     t.string "topic"
     t.string "content"
     t.boolean "is_table"
+    t.index ["section_id", "index_in_section"], name: "index_alinea_stores_on_section_id_and_index_in_section", unique: true
   end
 
   create_table "ams", force: :cascade do |t|

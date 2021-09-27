@@ -54,9 +54,6 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.00303,Nouveau document,2016-12-20,P/4/8acb34015949cb69015949e68ac60014,SUCCESS,320735.0
 0065.00303,Arrêté préfectoral concernant OURRY   daté du 07/02/2014,2014-02-07,P/9/8acb340148c5696d0148c5ed32ac0009,SUCCESS,419889.0
 0065.00303,Arrêté préfectoral d'agrément pour les établissements (autre que art. 43-2 du dé,2009-05-13,P/0/e1309b008008450eb3615d945de8ea30,SUCCESS,305646.0
-0065.00322,Arrêté préfectoral concernant CARREFOUR FRANCE daté du 14/08/2014,2014-08-14,P/e/8acb3401484066990148406f0b96000e,SUCCESS,320398.0
-0065.00322,Exploitation d'une station de stockage et de distribution de carburants,2006-02-24,P/9/2ee73783dd8c4ea3af9bb7e71c6eae79,SUCCESS,360386.0
-0065.00322,APC progr,2006-02-24,P/f/60fa6a428ca0422ab76d5a05dfc6df8f,SUCCESS,360386.0
 0065.00342,Poursuite et extension de l'exploitation,2006-06-14,P/9/68db212b9892416a9474ca05a397fd99,SUCCESS,2635208.0
 0065.00342,Prescriptions complémentaires modifiant les conditions d'exploitation,2004-07-02,P/e/76faaf47abee4f42b13e5a2546afbece,SUCCESS,306786.0
 0065.00345,APAUTO fabrication peintures en phase aqueuse et enduits en pates et en poudre,2009-10-09,P/4/b79a93d618d2498d87b602da1e143ef4,SUCCESS,1945235.0
@@ -281,6 +278,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.01839,APC entrepôt de 45 000 t dans 615 400 m3 + transit DEEE,2008-09-30,P/b/1e192cb13192468b811e186075f68beb,SUCCESS,2453051.0
 0065.01842,Nouveau document,2018-05-07,P/a/8acb3401638c235701638c5926af000a,SUCCESS,470671.0
 0065.01864,Nouveau document,2017-10-04,P/0/8acb34fd6b7421b4016b742b23130010,SUCCESS,2728510.0
+0065.01867,Nouveau document,2021-08-05,P/3/8acb34fd7b626248017b62e56c2b0023,NOT_ATTEMPTED,
 0065.01867,Nouveau document,2020-02-12,P/e/8acb34fd72a8a2180172a902a2be002e,SUCCESS,3746367.0
 0065.01867,AP stockage de liquides inflammables,2007-01-30,P/9/fa6fc424f46347599978adf2c3096679,SUCCESS,2708461.0
 0065.01872,AP Déconsignation,2015-08-07,P/5/8acb340150a334e60150a374451c0005,SUCCESS,248705.0
@@ -331,6 +329,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.01973,Nouveau document,2018-04-10,P/b/8acb340162b9af120162b9ba0628000b,SUCCESS,434473.0
 0065.01973,Arrêté préfectoral concernant REP (DÃ©charge de Monthyon) daté du 28/11/2014,2014-11-28,P/1/8acb34014a2e1274014a2e62f14b0081,SUCCESS,251475.0
 0065.01973,AP d'autorisation,2008-03-10,P/3/a5d10d3adc79443d82590e010863f9a3,SUCCESS,6937672.0
+0065.01978,Nouveau document,2021-06-24,P/e/8acb34fd7a5c41e4017a5d365226002e,NOT_ATTEMPTED,
 0065.01978,AP complémentaire RSDE,2009-12-23,P/c/16ddd234e0f14c338fa14f810c2a744c,SUCCESS,3012223.0
 0065.01999,Arrêté préfectoral concernant REVETECH daté du 05/02/2015,2015-02-05,P/d/8acb34014b6d8327014b6dd68c48000d,SUCCESS,365210.0
 0065.01999,AP complémentaire RSDE,2009-12-23,P/e/b9bebd243aba4464b34cef77c52963be,SUCCESS,3059220.0
@@ -355,6 +354,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.02062,AP complémentaire (art 18 déc. 77),2008-02-20,P/6/02fa819661c94cd189274b28653c8626,SUCCESS,275326.0
 0065.02130,APC,2010-01-06,P/4/e1493072b256468c885f3508924c3a44,SUCCESS,1189360.0
 0065.02130,AP complémentaire (art 18 déc. 77),2008-02-20,P/5/a6fdd5e6e3db47cda515489d03b407a5,SUCCESS,260203.0
+0065.02131,Arrêté préfectoral complémentaire,2021-08-02,P/5/8acb34fd7b2f53c1017b2f57566a0005,NOT_ATTEMPTED,
 0065.02131,AP d'autorisation,2010-07-02,P/5/953c3f3081c3491da74ac4ae02e573d5,SUCCESS,1799619.0
 0065.02131,APSURS,2010-04-15,P/c/e3d6ec21761345ce94a62ddb565cc65c,SUCCESS,81858.0
 0065.02131,AP complémentaire (art 18 déc. 77),2007-10-26,P/7/f71e48d407034c25a5dfe8e971f4b857,SUCCESS,279158.0
@@ -374,6 +374,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.02209,AP d'autorisation,2011-07-25,P/b/35580ff21c0c4440ac68b14a8c4f445b,SUCCESS,3817402.0
 0065.02209,Autorisation d'exploiter,2005-12-14,P/7/5fabc30babb74d3385a3b29be5d84857,SUCCESS,2796971.0
 0065.02210,Arrêté préfectoral concernant RENARD daté du 22/12/2015,2015-12-22,P/a/8acb340151d3146b0151d368760e001a,SUCCESS,321331.0
+0065.02212,Arrêté préfectoral complémentaire,2021-07-26,P/8/8acb34fd7b075ca0017b07741b8c0008,NOT_ATTEMPTED,
 0065.02212,Arrêté préfectoral de prescriptions,2019-01-28,P/4/8acb34fd6fc8c7cf016fc8e882250004,SUCCESS,1505862.0
 0065.02212,AP d'autorisation d'une carrière et d'installations de traitement de matériaux,2007-03-30,P/7/44af5f8bb92a4b709b4ee8fe2276c157,SUCCESS,2081810.0
 0065.02212,Poursuite de l'exploitation,1997-02-13,P/c/38f78c4ec256473ca8155770030e9d7c,SUCCESS,949657.0
@@ -474,6 +475,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.02713,Arrêté préfectoral concernant BIG BENNES  daté du 29/03/2013,2013-03-29,P/2/8acb34013df2bc96013df3e546bd0062,SUCCESS,5413417.0
 0065.02713,Nouveau numéro d'agrément pour dépollution et démontage de VHU,2006-10-11,P/7/c96b6b33f327459b98327fc6a887e837,SUCCESS,141642.0
 0065.02713,Exploitation installations de dépollution et démontage VHU,2005-11-22,P/e/d3830513a71f470ba71f19cc905dba8e,SUCCESS,664617.0
+0065.02721,Arrêté préfectoral complémentaire,2021-07-26,P/c/8acb34fd7b075ca0017b077a0506000c,NOT_ATTEMPTED,
 0065.02721,AP Complémentaire,2016-02-12,P/4/8acb340152d587bf0152d58b2ded0004,SUCCESS,687424.0
 0065.02721,AP d'autorisation,2007-12-21,P/9/76c0c1a5e9d84b8b935129cf0112ea89,SUCCESS,2627346.0
 0065.02721,Substitution à la société des Calcaires de Château Landon,2004-05-24,P/8/b45b7e8be23d470980261d8a34c9f128,SUCCESS,84002.0
@@ -497,6 +499,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.02830,APC - AP complémentaire (Art. R. 512-31),2010-10-04,P/b/6a2299a8e2a645d38ce7187fca99f35b,SUCCESS,529806.0
 0065.02830,APC - AP complémentaire ,2009-12-10,P/c/c1813124a28d4c8fbc404196d149440c,SUCCESS,2835161.0
 0065.02830,APAUTO -  augmentation production de vins,2007-07-03,P/4/bbf38523b576489f8b98a7ce60136ce4,SUCCESS,2719577.0
+0065.02841,Arrêté préfectoral complémentaire,2021-06-30,P/4/8acb34fd7b075ca0017b0765e4ee0004,NOT_ATTEMPTED,
 0065.02841,APC modif réaméagement,2010-07-08,P/4/8acb34015ad71707015ad71a89e50004,SUCCESS,2529813.0
 0065.02841,Renouvellement et extension de la carrière,2001-07-09,P/2/d818c1c45ea5488682046b9b6bb7a622,SUCCESS,1679505.0
 0065.02851,Exploitationde ses installations établissement sis 71 avenue de Verdun,2006-04-27,P/9/ed994a91105f466d8a66e32966c0b7a9,SUCCESS,478446.0
@@ -941,6 +944,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.03526,Recepisse succession,2004-07-02,P/5/8acb3401545bfc1901545c05d11c0005,SUCCESS,51140.0
 0065.03532,APA,1990-08-09,P/4/8acb34fd74910c94017491190cae0004,SUCCESS,1044094.0
 0065.03537,Autre concernant D2T (ex DIESEL PROPULSION) daté du 08/04/2014,2014-04-08,P/b/033280f24c784aa088912da38cb6b2db,SUCCESS,200413.0
+0065.03539,Nouveau document,2021-09-22,P/d/8acb34fd7c0c816a017c0ce2c853002d,NOT_ATTEMPTED,
 0065.03543,Arrêté préfectoral concernant ERAMET RESEARCH (ex CRT) daté du 03/03/2014,2014-03-03,P/5/8acb34014509410a0145094565910005,SUCCESS,4671713.0
 0065.03543,Arrêté préfectoral concernant ERAMET RESEARCH (ex CRT) daté du 05/12/2011,2011-12-05,P/5/7f822cc9253a4cd498a081534c3a7225,SUCCESS,6219977.0
 0065.03543,Prescriptions complémentaires - surveillance des eaux souterraines au niveau du site,2006-06-28,P/8/d388ea1375df4e1f8aa7c7294a3ce4b8,SUCCESS,453601.0
@@ -956,8 +960,10 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.03565,AP complémentaire (Art. R. 512-31),2011-03-07,P/e/88fb82b53bf046ac86ff05833da0811e,SUCCESS,2271274.0
 0065.03565,Autorisation à détenir et utiliser des radioéléments artificiels,2006-02-01,P/b/9074b62fe6d2467a8a1a27a3e1d8d64b,SUCCESS,923409.0
 0065.03570,Arrêté préfectoral concernant VSE (ex VAL SEINE ENROBES)  daté du 04/02/2013,2013-02-04,P/e/d91dfd2ef2214124b4af8f614345272e,SUCCESS,2006078.0
+0065.03571,Nouveau document,2021-09-02,P/1/8acb34fd7ba5c4d7017ba5e437ac0021,NOT_ATTEMPTED,
 0065.03571,Arrêté préfectoral concernant VELIDIS ex ELYO (Chaufferie VELIZY 3) daté du 27/01/2012,2012-01-27,P/c/90100fb3ee11433d9ca3ccbbfda25f6c,SUCCESS,2139825.0
 0065.03571,prescriptions complémentaires,2006-11-28,P/2/5231c0697bdb4e4bb16aaa7848d90c12,SUCCESS,156232.0
+0065.03580,Nouveau document,2021-09-08,P/4/8acb34fd7bc4c4f0017bc4cb71160004,NOT_ATTEMPTED,
 0065.03580,AP complémentaire (Art. R. 512-31),2009-04-21,P/8/c73827faae1f4d13a4cb7b52c63b8368,SUCCESS,1730122.0
 0065.03580,Prescriptions complémentaires ,2006-11-28,P/8/28b452a92ee84685b8484f144268dcc8,SUCCESS,154724.0
 0065.03634,Nouveau document,2018-03-12,P/5/8acb3401624e146301624e1d36cf0005,SUCCESS,643515.0
@@ -1009,6 +1015,8 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.04059,Arrêté préfectoral concernant SENIOR CALORSTAT SAS daté du 05/02/2013,2013-02-05,P/7/3506d944ce2e43d38cb1e8cb7972f087,SUCCESS,4891887.0
 0065.04059,AP complémentaire (Art. R. 512-31),2010-05-31,P/2/cc19d3d7aca1406492f9b40448204122,SUCCESS,191335.0
 0065.04143,Nouveau document,2019-04-19,P/7/8acb34fd6a7c8bd9016a7d15e1f90027,SUCCESS,3339720.0
+0065.04202,Nouveau document,2021-07-12,P/1/8acb34fd7acdffde017ace69f0fe0031,NOT_ATTEMPTED,
+0065.04202,Nouveau document,2021-06-01,P/4/8acb34fd7ae2af33017ae3181d690034,NOT_ATTEMPTED,
 0065.04202,Nouveau document,2021-01-18,P/b/8acb34fd773dcefc01773e0078d0001b,SUCCESS,1857964.0
 0065.04202,Arrêté préfectoral concernant SNECMA  daté du 05/08/2014,2014-08-05,P/3/8acb340147b443f00147b46dd0f10013,SUCCESS,397745.0
 0065.04202,Arrêté préfectoral concernant SNECMA  daté du 30/12/2013,2013-12-30,P/5/e3591a31a56a41db965ba15e51b898e5,SUCCESS,331697.0
@@ -1034,6 +1042,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.04280,AP complémentaire (art 18 déc. 77),2009-02-26,P/6/5f53b745f63943c48dc69fe499de6426,SUCCESS,183339.0
 0065.04280,AP d'autorisation,2008-04-23,P/a/262caba163e14f4aa6a9b634b22f889a,SUCCESS,2099888.0
 0065.04280,Prescriptions complémentaires (dépôt liquides inflammables) ,2004-03-30,P/2/a51cbc1f09e640b2a95fe132a14b3f42,SUCCESS,302998.0
+0065.04281,Nouveau document,2021-08-12,P/6/8acb34fd7b52f51e017b52f82e430006,NOT_ATTEMPTED,
 0065.04288,Nouveau document,2018-01-25,P/5/8acb3401616b311701616b4150710005,SUCCESS,584541.0
 0065.04288,Arrêté préfectoral concernant COFELY (ex ELYO) daté du 11/01/2013,2013-01-11,P/1/d16e7d2b63e7403bb59c0a7f42478da1,SUCCESS,149822.0
 0065.04288,AP complémentaire (Art. R. 512-31),2011-10-21,P/6/8178e0cb95ec4f3986b2f89b7e3a9e16,SUCCESS,243945.0
@@ -1050,6 +1059,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.04407,AP complémentaire (Art. R. 512-31),2010-12-31,P/e/819f3dd93478446f98140febbc078f1e,SUCCESS,2483490.0
 0065.04409,Nouveau document,2021-04-12,P/e/8acb34fd78d52ebc0178d534c7c5000e,SUCCESS,1203796.0
 0065.04409,AP complémentaire (Art. R. 512-31),2009-12-11,P/5/06608a523ca3496f9d57969771ba4a85,SUCCESS,1993738.0
+0065.04447,APC,2013-05-21,P/8/8acb34013f136af5013f14aa42ba00a8,NOT_ATTEMPTED,
 0065.04451,AP complémentaire (Art. R. 512-31),2011-01-13,P/0/f40836f1359b4f1dbd759f7768c145e0,SUCCESS,2521655.0
 0065.04451,AP complémentaire (Art. R. 512-31),2010-04-26,P/0/99fa3e4d33de4c24929b96375a602f20,SUCCESS,2165522.0
 0065.04451,Arrêté préfectoral imposant des prescriptions techniques complémentaires,2005-10-03,P/b/ed98ec538fbd4195a6701c0b1afcdd4b,SUCCESS,998497.0
@@ -1444,13 +1454,16 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.06167,Prescriptions techniques complémentaires pour l'exploitation sur une zone test de la seconde masse,2006-03-01,P/2/265fb0118f0c431d9d02863f4dcee052,SUCCESS,504506.0
 0065.06167,Prescriptions techniques complémentaires pour un atelier souterrain d'entretien des engins à moteur,2006-03-01,P/9/1143405b06dd420cafde848d39bb6889,SUCCESS,423292.0
 0065.06179,AP complémentaire (art 18 déc. 77),2007-07-06,P/0/c3ac23c5e0b74ed480f2d05ca8b17220,SUCCESS,260288.0
+0065.06233,APC Réexamen IED,2021-08-09,P/8/8acb34fd7bcb532e017bcb8430ea0008,NOT_ATTEMPTED,
 0065.06233,Arrêté préfectoral d'autorisation CPCU Bercy,2015-06-29,P/4/8acb340154dc98f40154dca70f890004,SUCCESS,4824324.0
 0065.06233,AP portant retrait de l'APC du 15/03/10,2010-10-28,P/2/8fdbe992ede4447c881050ad71872eb2,SUCCESS,100545.0
 0065.06233,AP complémentaire (IPPC),2010-05-20,P/d/5a11c659be5a468794343d1befa1c17d,SUCCESS,2641108.0
 0065.06233,AP complémentaire (IPPC acutalisation réglementation),2010-03-15,P/e/fa22390a99624b1e8df05118a0a4ae5e,SUCCESS,3317436.0
 0065.06233,AP complémentaire - Fermeture en 2015,2009-11-16,P/3/806ccfc1ca1346f7a2ee5ae70a6b5023,SUCCESS,177668.0
+0065.06236,APC Réexamen IED,2021-08-09,P/c/8acb34fd7bcb532e017bcb85bd44000c,NOT_ATTEMPTED,
 0065.06236,Arrêté préfectoral d'autorisation,2014-11-28,P/7/1674bb054d9f437489d1ec22e6af6647,SUCCESS,5262534.0
 0065.06236,AP complémentaire - Fermeture en 2015,2009-11-16,P/1/687a72406fa04f49b37a145729d48a41,SUCCESS,183390.0
+0065.06240,APC Réexamen IED,2021-08-09,P/4/8acb34fd7bcb532e017bcb83158a0004,NOT_ATTEMPTED,
 0065.06240,Arrêté d'autorisation,2014-07-24,P/5/8acb34014cb88696014cb8a3a4e40015,SUCCESS,33689333.0
 0065.06240,Arrêté préfectoral d'autorisation,2014-07-24,P/9/4732778e3d27437fb2f5daa551138d39,SUCCESS,3824078.0
 0065.06240,AP complémentaire (IPPC-VLE-autosurveillance),2010-03-15,P/a/8433b6a1c0444490b84f31b0e100123a,SUCCESS,429493.0
@@ -1468,6 +1481,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.06266,Arrêté préfectoral concernant SDCC daté du 08/04/2015,2015-04-08,P/5/dee9674c26ba4561ad01f5213dde6585,SUCCESS,2316361.0
 0065.06266,AP autorisation,2015-04-08,P/8/8acb34fd73ece2720173ed0cd25020c8,SUCCESS,2316361.0
 0065.06266,AP prescriptions complémentaires en matière de rejets atmosphériques,2007-01-15,P/9/6802c27c3e2b4b8faf09576e5c7e6849,SUCCESS,123384.0
+0065.06270,AP Correctif,2021-07-01,P/3/8acb34fd7a60b8ae017a60c7fc4e0043,NOT_ATTEMPTED,
 0065.06270,AP autorisation 22-03-2021,2021-03-22,P/8/8acb34fd78ab227f0178ab2720cc0008,SUCCESS,6079708.0
 0065.06270,AP 2018-26,2018-02-27,P/9/8acb34016362e7640163632c184d0009,SUCCESS,252114.0
 0065.06270,Arrêté préfectoral concernant ENERTHERM ALENCON (COURBEVOIE) daté du 06/11/2014,2014-11-06,P/f/62e4795d263949f8bbc5b8d31c0e051f,SUCCESS,362258.0
@@ -1495,6 +1509,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.06277,AP complémentaire (PPA -VLE chaudières)  n°2006-174,2006-12-11,P/b/70bbf7f529474c58ba67d38c61b7c1ab,SUCCESS,209393.0
 0065.06277,AP d'autorisation (TAC),1998-10-08,P/1/120ba31e8675411aa31f03261b323811,SUCCESS,1005833.0
 0065.06277,AP d'autorisation,1997-05-29,P/e/53f3b4a6e2df4b538056a8ba5ede168e,SUCCESS,2922732.0
+0065.06282,AP abrogeant sanctions,2021-08-12,P/0/8acb34fd7b39108f017b3919543d0010,NOT_ATTEMPTED,
 0065.06282,Arrêté préfectoral concernant EDF TAC daté du 04/10/2012,2012-10-04,P/8/00765c1488ac42ef9825bbef5c77e708,SUCCESS,2401308.0
 0065.06284,Arrêté préfectoral DCPPAT n° 2020-48 du 25 mai 2020,2021-02-17,P/c/8acb34fd77b002a80177b00cc997000c,SUCCESS,1014637.0
 0065.06284,AP 2018-02 du 18/01/2018,2018-01-18,P/4/8acb34016155c768016155cb0cdb0004,SUCCESS,1023582.0
@@ -1515,6 +1530,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.06284,Arrêté préfectoral concernant MERSEN (EX CARBONE LORRAINE) daté du 24/08/2012,2012-08-24,P/5/c5dea0475326438eae97d0a7119f7485,SUCCESS,237368.0
 0065.06284,Arrêté préfectoral concernant MERSEN (EX CARBONE LORRAINE) daté du 02/08/2012,2012-08-02,P/f/58541283ec584d2c807d5c084e83f86f,SUCCESS,233638.0
 0065.06284,AP complémentaire (Art. R. 512-31) - actualisation de la réglementation,1997-10-17,P/7/58f1eb98c0e84e178c73d9c2286707c7,SUCCESS,1850617.0
+0065.06287,APC DCPPAT n°2021-99 du 21/07/2021,2021-07-21,P/7/8acb34fd7b05a920017b05acec280007,NOT_ATTEMPTED,
 0065.06287,Arrêté préfectoral concernant SOGEPP daté du 12/03/2012,2012-03-12,P/4/5a0fedde96c84a4b8321440349b545f4,SUCCESS,592873.0
 0065.06287,"AP complémentaire   acte EdD, MMR",2009-11-13,P/2/34896aafcd2f466988f16e0cd5531652,SUCCESS,246709.0
 0065.06287,AP complémentaire (Demande de compléments à l'EdD et mesures réduction risque),2009-02-13,P/2/74390c83c2da422ca9ce8cdba15ba5c2,SUCCESS,309276.0
@@ -1529,13 +1545,16 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.06289,AP complémentaire (Demande de compléments Etude de Danger et réduction risque),2009-02-13,P/b/557e5a4e43634f7aacf4b6489512bb0b,SUCCESS,322722.0
 0065.06290,Arrêté préfectoral concernant PHOSALU 31178 daté du 24/02/2014,2014-02-24,P/3/7616fabada2f498fa33c87f74d87e5f3,SUCCESS,1764725.0
 0065.06290,AP complémentaire (RSDE),2010-02-22,P/8/efa8373d61c04a9eb1c75d1da48d96d8,SUCCESS,4149148.0
+0065.06294,AP modificatif MED,2021-08-19,P/b/8acb34fd7c08fa8d017c0905c418002b,NOT_ATTEMPTED,
 0065.06294,Arrêté préfectoral complémentaire DCPPAT n°2021-43 du 16 avril 2021,2021-04-29,P/5/8acb34fd791c485801791c505d6f0005,SUCCESS,396042.0
 0065.06294,Arrêté préfectoral complémentaire n°2020-11 modifiant l'arrêté n°2003-141 du 18/06/2003,2020-03-13,P/4/8acb34fd70d2ea550170d2fc6dee0004,SUCCESS,1410379.0
 0065.06294,AP 2018-55 du 05/04/2018,2018-05-04,P/a/8acb3401632a5feb01632a9221ae001a,SUCCESS,1065958.0
 0065.06294,arrêté instaurant des garanties financières,2014-06-10,P/3/8acb340146aeaa090146aec74db40043,SUCCESS,333274.0
 0065.06294,Arrêté préfectoral concernant ISOCHEM 31314 daté du 15/04/2013,2013-04-15,P/1/1e677063305b4d988e017d97f2ca5271,SUCCESS,756863.0
 0065.06294,Arrêté préfectoral concernant ISOCHEM 31314 daté du 24/08/2012,2012-08-24,P/8/5556eb8b4b354abfa386066e872e90f8,SUCCESS,326262.0
+0065.06294,AP RSDE du 31/03/2010,2010-03-31,P/9/8acb34fd7aec360b017aec70a74d0009,NOT_ATTEMPTED,
 0065.06294,AP complémentaire (art 18 déc. 77) - suite à BdF,2008-11-12,P/3/25002f2f45354a43ad695f4b2211f833,SUCCESS,1228828.0
+0065.06294,Arrêté préfectoral du 27/11/92,1992-11-21,P/5/8acb34fd7aec360b017aec6bcba60005,NOT_ATTEMPTED,
 0065.06295,AP Complémentaire,2021-03-09,P/7/8acb34fd781714fe017817182b870007,SUCCESS,3957700.0
 0065.06295,AP complémentaire PPA,2007-01-15,P/9/635150c6a81242a494c95a651addf6a9,SUCCESS,155283.0
 0065.06301,AP d'autorisation (station de transit et de traitement de déchets),2008-12-08,P/5/1122d13479354790bbe337f2a7aae525,SUCCESS,167888.0
@@ -1545,6 +1564,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.06313,Arrêté préfectoral concernant SOCIETE DES LUBRIFIANTS DE NANTERRE daté du 30/06/2014,2014-06-30,P/8/c5b3d5f29c3c475a9f4ba2f13656cfc8,SUCCESS,306694.0
 0065.06313,Arrêté préfectoral concernant SOCIETE DES LUBRIFIANTS DE NANTERRE daté du 30/06/2014,2014-06-30,P/d/c918507612d84d70a9c735ce339c5a1d,SUCCESS,355984.0
 0065.06313,AP complémentaire (n° 2009-182)-RSDE,2009-12-23,P/f/92074138b4824a8cb3f09fcb6a592cff,SUCCESS,3726473.0
+0065.06314,Nouveau document,2021-07-02,P/5/8acb34fd7a65d6d3017a660387970035,NOT_ATTEMPTED,
 0065.06314,Arrêté préfectoral concernant CCMP (EX DPN) daté du 14/03/2012,2012-03-14,P/0/7c2cb98be98b4142a0312445641b0040,SUCCESS,613044.0
 0065.06314,Arrêté interpréfectoral PPRT,2009-02-25,P/4/914c72cda8cb4df1bcad49c1ad3f25d4,SUCCESS,207882.0
 0065.06314,APC donnant acte de l'instruction de l'EDD MARS 2008 ,2008-10-22,P/8/86a47b65dd584b0f91ad973f11cb07e8,SUCCESS,312120.0
@@ -1751,6 +1771,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.06564,77_SIBELCO AMPONVILLE plans_20170322_APC,2017-03-22,P/8/8acb34015f5e3f44015f5e48f2c70008,SUCCESS,280843.0
 0065.06564,AP complémentaire (art 18 déc. 77),2008-03-10,P/6/0fde6f50363144f3b16cddb4954a4506,SUCCESS,239020.0
 0065.06564,Autorisation d'exploiter des installations de traitement + complète et modifie l'AP du 27/02/2001,2004-07-13,P/e/9c879d7d83c74b2da579a3cd81387bae,SUCCESS,550210.0
+0065.06565,Arrêté préfectoral complémentaire,2021-09-21,P/6/8acb34fd7c16f3a4017c16f7b2730006,NOT_ATTEMPTED,
 0065.06565,Prescriptions complémentaires relatives à la modification du phasage,1999-07-02,P/6/e5485c722f524c00876feb76ea7670f6,SUCCESS,295714.0
 0065.06569,Arrêté préfectoral de prescriptions ,2019-07-11,P/2/8acb34fd6be69072016be6a9462a0022,SUCCESS,403347.0
 0065.06569,AP complémentaire (art 18 déc. 77),2008-01-14,P/0/f6482dc27fbe41d896b52da63e675ee0,SUCCESS,306791.0
@@ -1758,6 +1779,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.06569,Conditions d'exploitation et de remise en état de la carrière,1997-10-27,P/f/dc9f772fb5ba4676ac6b5c6ae1f634bf,SUCCESS,1541366.0
 0065.06572,AP complémentaire (art 18 déc. 77),2007-10-19,P/1/9cf2dfa0137d419d940866fa12582af1,SUCCESS,276384.0
 0065.06572,Poursuite et extension de l'exploitation,2000-07-13,P/6/268f3370bc49418fa7e3b4abab46c0f6,SUCCESS,1913678.0
+0065.06576,Arrêté préfectoral complémentaire,2021-07-30,P/8/8acb34fd7b155150017b155a8b700008,NOT_ATTEMPTED,
 0065.06576,SINIAT Le Pin/Villevaudé (carrière) APC,2017-03-17,P/1/8acb34015f6d4be7015f6d64ffea0011,SUCCESS,792225.0
 0065.06576,AP complémentaire Phasage,2008-12-18,P/2/53cb5bbf88db4f918bcdbb108b86ec52,SUCCESS,260942.0
 0065.06576,AP d'autorisation,2008-04-23,P/b/7b101e8beb084aadaf5a849ea045a73b,SUCCESS,2167909.0
@@ -1766,6 +1788,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.06579,AP complémentaire (Art. R. 512-31),2011-06-10,P/3/80dbadcc572641019b06e4dac75b6113,SUCCESS,328387.0
 0065.06579,AP complémentaire (art 18 déc. 77),2007-11-06,P/1/3220b0ac80c04bcf8fe70df385598b21,SUCCESS,404592.0
 0065.06579,Poursuite et extension de la carrière,2003-05-15,P/0/de0218cb3055417f99c0d857cb26e520,SUCCESS,1820806.0
+0065.06580,Arrêté préfectoral complémentaire,2021-07-16,P/4/8acb34fd7b155150017b15575e980004,NOT_ATTEMPTED,
 0065.06580,APC n° 2017 DCSE M 012 - Placo,2017-08-30,P/7/8acb34015e4ca0f5015e4cac60a60007,SUCCESS,457368.0
 0065.06580,AP autorisation prolongation / extension,2017-03-17,P/1/8acb34015bd3c84f015bd3f739990011,SUCCESS,3380801.0
 0065.06580,AP d'autorisation,2008-03-18,P/5/91985f915bcb4164ae93cf74bab12f15,SUCCESS,2293790.0
@@ -1894,6 +1917,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.06780,Nouveau document,2019-01-28,P/2/8acb34fd6893b16f016893ce53830012,SUCCESS,583628.0
 0065.06780,Nouveau document,2019-01-28,P/e/8acb34fd6893b16f016893ce52e7000e,SUCCESS,240056.0
 0065.06780,APC actualisant le classement,2009-11-23,P/2/64fcd451162646388dbae4cbd4844732,SUCCESS,397441.0
+0065.06782,Nouveau document,2021-06-21,P/a/8acb34fd7a56c42d017a56e33289000a,NOT_ATTEMPTED,
 0065.06782,Nouveau document,2020-04-27,P/f/8acb34fd725a416701725a8bab04001f,SUCCESS,259284.0
 0065.06782,Nouveau document,2019-10-31,P/0/8acb34fd6e82f2de016e831d569f0010,SUCCESS,445493.0
 0065.06782,Nouveau document,2019-01-29,P/6/8acb34fd68cd5e6b0168cd6e0cd90006,SUCCESS,326777.0
@@ -2098,6 +2122,11 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.08166,Arrêté préfectoral concernant LAFARGE GRANULATS (ex CSS criblerie) daté du 11/07/2012,2012-07-11,P/1/895b4546b5bb4380bbb7836d35f112d1,SUCCESS,2191632.0
 0065.08166,"APAUTO broyage, concassage de 750 kW",2008-08-25,P/9/733877f2f1834736a86f47442172a6d9,SUCCESS,1268499.0
 0065.08228,APAUTO - après enquête publique,2001-12-28,P/5/4e0757a650ee43c79461686148047615,SUCCESS,1357937.0
+0065.08345,Nouveau document,2017-08-24,P/e/8acb34015e2e25d8015e2e62015b000e,NOT_ATTEMPTED,
+0065.08345,Arrêté préfectoral concernant CHR HANSEN daté du 31/07/2014,2014-07-31,P/6/c47ed17972d34e93b11ddf1beb7d1036,NOT_ATTEMPTED,
+0065.08345,Arrêté préfectoral concernant CHR HANSEN daté du 30/12/2013,2013-12-30,P/4/543bfcd773c045abae8a67ef2f3cf5e4,NOT_ATTEMPTED,
+0065.08345,AP complémentaire (Art. R. 512-31),2011-05-26,P/4/8529c384ecf941dcabcd263330b24a54,NOT_ATTEMPTED,
+0065.08345,APAUTO réfrigération ou compression de 770 kW,2009-08-10,P/5/9d68b95ae2834c938e8e88f0b825c575,NOT_ATTEMPTED,
 0065.08346,Arrêté préfectoral concernant COMPOST SUD ESSONNE daté du 13/11/2014,2014-11-13,P/7/6ab131962d854a6996e4486064a674d7,SUCCESS,730765.0
 0065.08346,Arrêté préfectoral concernant COMPOST SUD ESSONNE daté du 14/01/2013,2013-01-14,P/1/439eed0fdd3242d4ad534412f09de301,SUCCESS,2316280.0
 0065.08365,Arrêté préfectoral concernant ARIANE (ex BOREAL Blanchisserie maritime daté du 29/08/2014,2014-08-29,P/2/4caffd4338b14b588ecf8e3b908a4f92,SUCCESS,109254.0
@@ -2152,6 +2181,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.08707,Arrêté préfectoral d'autorisation,2001-09-12,P/8/0069c8975a0b4bb694e3e9747f5b8238,SUCCESS,1326351.0
 0065.08709,Arrêté,2013-10-15,P/8/8acb340141e42fa50141e456c62c0008,SUCCESS,3742024.0
 0065.08709,APC-AP complémentaire (art 18 déc. 77) Programmé,2007-10-15,P/0/b530775aa86e42d5a117471d633a7660,SUCCESS,358844.0
+0065.08754,Nouveau document,2021-06-21,P/6/8acb34fd7a84fea9017a851ec8df0006,NOT_ATTEMPTED,
 0065.08754,Arrêté préfectoral concernant SEGRO LOGISTICS  daté du 18/12/2015,2015-12-18,P/0/8acb3401521b8cd701521b9f4fd20010,SUCCESS,649045.0
 0065.08769,Arrêté préfectoral concernant GUINOT daté du 25/02/2014,2014-02-25,P/1/8acb340144bb4ecc0144bba493973bf1,SUCCESS,361931.0
 0065.08769,Arrêté préfectoral concernant GUINOT daté du 18/06/2012,2012-06-18,P/a/3b4514bcc7d24d9bb936bd5cc898e14a,SUCCESS,2655407.0
@@ -2165,6 +2195,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.08813,Arrêté préfectoral concernant LA PIECE daté du 12/10/2012,2012-10-12,P/7/6235a3d9f6ca4acdb441b6bb1b7ad227,SUCCESS,461791.0
 0065.08813,Agrément des exploitants des installations de dépollution et démontage de véhicules hors d'usage,2006-07-12,P/e/e4512c07ef2f4296a11649e0f40479fe,SUCCESS,208389.0
 0065.08813,APAUTO - A.P. d'autorisation,2003-11-12,P/4/5410c1bd0cc74b3c84777867b621bf14,SUCCESS,11810389.0
+0065.08825,Nouveau document,2021-08-18,P/7/8acb34fd7b5d6b52017b5d71fbce0007,NOT_ATTEMPTED,
 0065.08885,Nouveau document,2021-02-12,P/5/8acb34fd77d33ea70177d35731380005,SUCCESS,5501957.0
 0065.08885,Nouveau document,2017-01-17,P/5/8acb340159bbf8a60159bc0129830005,SUCCESS,606714.0
 0065.08885,Arrêté préfectoral concernant URBASYS (ex SIVOM) daté du 16/10/2014,2014-10-16,P/f/5fbf29fe64384049a8754808b6ecce2f,SUCCESS,364427.0
@@ -2203,6 +2234,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.09303,Autorisation préfectorale d'exploitation d'un centre de compostage de déchets végétaux,2006-01-30,P/b/e5e5276c830648d594bc46b3c5f5714b,SUCCESS,3125346.0
 0065.09312,AP complémentaire (Art. R. 512-31),2010-01-11,P/2/02aec63c8fdf4b64b8bddebb6e8c2f62,SUCCESS,195998.0
 0065.09327,APAUTO - arrêté d'autorisation,2003-03-21,P/5/3755957be973434ca20de82b845afc65,SUCCESS,1582953.0
+0065.09337,APC,2021-08-18,P/c/8acb34fd7b5e4d84017b5e67db9f000c,NOT_ATTEMPTED,
 0065.09337,Arrêté préfectoral concernant PRODENE KLINT - croissy beaubourg daté du 25/03/2015,2015-03-25,P/f/8acb34014c6aad7f014c6af4b839004f,SUCCESS,338583.0
 0065.09337,AP complémentaire (Art. R. 512-31),2010-10-05,P/5/5db2d75cc23d4c7aa72f2601a411c1f5,SUCCESS,14892848.0
 0065.09342,Arrêté préfectoral concernant NOVARCHIVE - 1 - Rosny sur seine daté du 02/03/2012,2012-03-02,P/7/b8ead5a82789450e98389a787bb90e67,SUCCESS,228751.0
@@ -2315,6 +2347,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.10010,Arrêté préfectoral de prescriptions complémentaires,2005-07-13,P/2/58cc743f2669481dae7ece13179d95c2,SUCCESS,1200408.0
 0065.10269,Nouveau document,2017-06-02,P/5/8acb34015cc59578015cc5d9e26b0015,SUCCESS,371825.0
 0065.10269,Arrêté préfectoral d'autorisation d'exploiter une installation classée,2005-08-23,P/1/eb11b86d740d49a7b5dab7d4597cd2f1,SUCCESS,1010177.0
+0065.10385,Nouveau document,2021-06-25,P/7/8acb34fd7a5c41e4017a5cc11b4c0007,NOT_ATTEMPTED,
 0065.10385,Nouveau document,2017-11-27,P/4/8acb3401600c0ccc01600c534d7d0014,SUCCESS,1029300.0
 0065.10399,Arrêté préfectoral concernant SYTRAVAL (ex SMETOM) Nangis daté du 27/06/2014,2014-06-27,P/5/8acb3401470143360147016bb9b60045,SUCCESS,408042.0
 0065.10417,Arrêté préfectoral concernant GEOPARTS daté du 30/07/2013,2013-07-30,P/2/a1a9defb3c8a4e15a1790a4fe7998012,SUCCESS,399029.0
@@ -2382,6 +2415,8 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.11004,AP complémentaire 2014161-0006,2014-06-10,P/a/729370a122354138b16916e402a893aa,SUCCESS,357221.0
 0065.11004,AP complémentaire (Art. R. 512-31),2011-11-16,P/3/eb92fb90aede4772a8ea1979f79f9a03,SUCCESS,6329322.0
 0065.11004,AP d'autorisation centre de trie de déchets issus du BTP - installation mobile de concassage,2007-04-16,P/7/f18a95912d144918b64f19031cbca9a7,SUCCESS,1833299.0
+0065.11023,Nouveau document,2021-07-30,P/6/8acb34fd7b16568a017b167a1cad0016,NOT_ATTEMPTED,
+0065.11023,Nouveau document,2021-01-15,P/d/8acb34fd773dcefc01773e2dbbcb005d,NOT_ATTEMPTED,
 0065.11039,Arrêté préfectoral d'autorisation d'exploiter une installation classée,2005-11-07,P/1/e7e515e98f9e458a80911c69a19abac1,SUCCESS,2416706.0
 0065.11040,APC + agrément,2014-11-17,P/7/8acb3401584e44c101584e91f26c0807,SUCCESS,1551404.0
 0065.11040,Arrêté préfectoral concernant AMF (Achat MatÃ©riaux et Ferrailles) daté du 17/11/2014,2014-11-17,P/8/1264fe1132094560b9f508406837fc78,SUCCESS,1551403.0
@@ -2448,6 +2483,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.11600,APAUTO station de transit de déchets banals,2007-07-30,P/f/c324ea27de7b44f9b4051c522735e38f,SUCCESS,1063357.0
 0065.11676,Autorisation d'exploiter une carrière d'argile,2007-04-06,P/2/7ae927627c6643faad57f0ee7c1c8672,SUCCESS,854204.0
 0065.11723,Arrêté préfectoral concernant INITIAL BTB (Dammarie) daté du 15/06/2012,2012-06-15,P/4/51312809132841ec9374b89d58de3264,SUCCESS,2403480.0
+0065.11727,Nouveau document,2021-08-10,P/e/8acb34fd7b52f51e017b52fc185e000e,NOT_ATTEMPTED,
 0065.11727,Nouveau document,2021-03-23,P/e/8acb34fd78d52ebc0178d549fbcd001e,SUCCESS,1725217.0
 0065.11727,Nouveau document,2017-05-15,P/4/8acb34015cbf74a3015cbf9b49c90064,SUCCESS,336270.0
 0065.11727,"APAUTO radionucléides, combustion et réfrigération",2009-09-25,P/d/db1130768ff0489ebfb4d7e86cc325bd,SUCCESS,6387311.0
@@ -2483,9 +2519,10 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.12018,Nouveau document,2020-04-28,P/8/8acb34fd71ee43d60171ee6637fe0048,SUCCESS,387422.0
 0065.12018,Nouveau document,2020-04-28,P/b/8acb34fd71ee84d80171ee8aad8d002b,SUCCESS,262079.0
 0065.12018,Arrêté préfectoral concernant JMC-VERT Misy sur Yonne daté du 21/10/2014,2014-10-21,P/3/8acb34014941f263014941fdc0bb0013,SUCCESS,420364.0
+0065.12042,Nouveau document,2021-09-16,P/5/8acb34fd7c0815d2017c083af4760005,NOT_ATTEMPTED,
 0065.12140,AP d'autorisation,2007-08-17,P/3/51d8790932d94dd5a9c3e9433083fbe3,SUCCESS,2292526.0
+0065.12161,Nouveau document,2021-07-21,P/5/8acb34fd7af13e1a017af15879bf0005,NOT_ATTEMPTED,
 0065.12161,Nouveau document,2018-10-12,P/5/8acb3583668737310166873a1b230005,SUCCESS,362655.0
-0065.12161,Nouveau document,2017-06-12,P/5/8acb34015c9ce40b015c9cec2f570005,SUCCESS,3296702.0
 0065.12161,AP d'autorisation,2007-10-30,P/3/908564fe5b484decbf284b7b227d4e43,SUCCESS,1433315.0
 0065.12175,Nouveau document,2019-09-25,P/0/8acb34fd6db4c20c016db4e432e50010,SUCCESS,430267.0
 0065.12175,Arrêté préfectoral concernant DEM' S AUTOS (ex 3M AUTO) daté du 23/10/2013,2013-10-23,P/b/c0bb152ba9d7467bacfdba427bf571bb,SUCCESS,493229.0
@@ -2529,7 +2566,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.12258,AP Complémentaire,2016-02-09,P/4/8acb340152d5baf00152d61772350004,SUCCESS,419471.0
 0065.12258,AP d'autorisation,2007-12-21,P/e/039c80aceaf84ae1885a172151e2ea8e,SUCCESS,1516493.0
 0065.12301,Arrêté préfectoral concernant SIARCE (station Ã©puration) daté du 05/03/2012,2012-03-05,P/a/2cd592e223fa417f81efb796c64468ea,SUCCESS,3451744.0
-0065.12315,APC - AP complémentaire (Art. R. 512-31),2010-10-20,P/7/abb388ab376d4b1da599e132d21e8837,SUCCESS,102675.0
+0065.12315,Nouveau document,2010-10-20,P/9/8acb34fd7bcf783a017bcfecd2720009,NOT_ATTEMPTED,
 0065.12315,APAUTO - entrepôt produits grande consommation ou industriels,2007-06-27,P/b/e5f549d5eb9044328e5b439bf7a4848b,SUCCESS,3253168.0
 0065.12332,APAUTO du 27.06.2007,2007-06-27,P/c/9d4c16d7546748bbbfcbff168d47df0c,SUCCESS,1909295.0
 0065.12345,Nouveau document,2020-08-10,P/f/8acb34fd73d8b7cf0173d8c6f650001f,SUCCESS,291848.0
@@ -2571,6 +2608,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.12429,APAUTO (hors régularisation adm) entrepôt de 41700 t dans 521172 m3,2007-11-20,P/a/7a258b18106a4ee78677e7b36bd7097a,SUCCESS,3465157.0
 0065.12448,Arrêté préfectoral concernant GENERIS (chaudiÃ¨re biogaz REP Claye) daté du 28/11/2014,2014-11-28,P/7/8acb34014a2e1274014a2e5e79b10077,SUCCESS,2228363.0
 0065.12448,APC,2009-02-17,P/c/209ebfa7b0a84bb6a70498ba6e77e67c,SUCCESS,192722.0
+0065.12458,Nouveau document,2021-06-30,P/4/8acb34fd7a5cb8fb017a5cbb603e0004,NOT_ATTEMPTED,
 0065.12458,AP d'autorisation,2007-12-20,P/2/a3f12379d4af44c98bc596318fb095b2,SUCCESS,3019680.0
 0065.12461,Nouveau document,2016-07-05,P/9/8acb340155bf64b60155bf82f64e0009,SUCCESS,726321.0
 0065.12480,Nouveau document,2016-12-07,P/4/8acb34015916372e0159178610530014,SUCCESS,2042234.0
@@ -2711,9 +2749,9 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.13937,AP d'autorisation,2011-02-22,P/d/542904a860fc41398d07e624671fdfbd,SUCCESS,2171634.0
 0065.13953,AP d'autorisation,2011-02-25,P/9/093391b1836b40479d94cf26d4bfeb99,SUCCESS,1587889.0
 0065.13953,AP de mise à l'enquête publique,2010-04-12,P/9/ed169f644c7d47359ad57aeec690ad79,SUCCESS,132645.0
-0065.13967,AP d'autorisation,2011-10-14,P/d/1cf5fdf8201b4d778513a02e1ab6d07d,SUCCESS,2856443.0
 0065.13987,Nouveau document,2016-07-04,P/6/8acb340155ba4dfd0155ba6025b00006,SUCCESS,512021.0
 0065.13987,AP autorisation d'exploitation,2013-02-08,P/6/2fb4d8f9723f427885d434d1784293b6,SUCCESS,2182344.0
+0065.14021,Arrêté préfectoral d'Enregistrement,2021-07-30,P/c/8acb34fd7b155150017b15994fa6000c,NOT_ATTEMPTED,
 0065.14021,AP de mise à disposition du public,2021-03-01,P/6/8acb34fd7826e58c017826ef52f90006,SUCCESS,814326.0
 0065.14021,AP d'autorisation temporaire (Art. R. 512-37),2010-06-28,P/3/724dee96200b4323b4c9ede266a48473,SUCCESS,631908.0
 0065.14030,AP d'autorisation,2011-01-10,P/7/5b3f69a710994841955f258168355f97,SUCCESS,1755762.0
@@ -2733,7 +2771,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.14239,Arrêté préfectoral concernant SAGE DRS daté du 31/10/2013,2013-10-31,P/c/156fffe4fd5a4a6baba8fbdda55436fc,SUCCESS,2131458.0
 0065.14262,APC,2017-05-19,P/d/8acb34015c868191015c86f8349d000d,SUCCESS,228431.0
 0065.14262,Arrêté préfectoral concernant RECYC MATELAS daté du 10/06/2015,2015-06-10,P/e/4382f56e489e49b782a866f05fbd48be,SUCCESS,2000224.0
-0065.14275,Arrêté préfectoral concernant BERGERAT MONNOYEUR daté du 21/03/2014,2014-03-21,P/9/8acb3401453c864901453c8a1e110009,SUCCESS,5641695.0
+0065.14275,Nouveau document,2014-03-21,P/4/8acb34fd7ba023ca017ba065ceb50004,NOT_ATTEMPTED,
 0065.14316,Nouveau document,2020-01-08,P/1/8acb34fd6fb30295016fb353c8140011,SUCCESS,1636929.0
 0065.14316,Nouveau document,2018-11-19,P/2/8acb34fd673fbabe01674035e4f30012,SUCCESS,465237.0
 0065.14316,Nouveau document,2017-12-22,P/c/8acb3401609d6d3b01609d78a778000c,SUCCESS,218133.0
@@ -2821,6 +2859,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.15486,AP enregistrement,2014-12-19,P/5/8acb34fd752c85e601752c8b08e60005,SUCCESS,2823238.0
 0065.15524,APenregistrement,2014-03-13,P/6/8acb3401478b3a2601478b7a00fd0036,SUCCESS,2834791.0
 0065.15524,APcomplémentaire,2013-05-22,P/5/8acb3401400ff66001401003a17c0005,SUCCESS,178683.0
+0065.15526,AP complémentaire,2021-08-09,P/f/8acb34fd7bf2716a017bf289b6e9000f,NOT_ATTEMPTED,
 0065.15526,Arrêté préfectoral concernant GRT Gaz daté du 27/08/2013,2013-08-27,P/f/46a6409486574603b1ff552529ecab9f,SUCCESS,2902659.0
 0065.15542,Nouveau document,2016-12-22,P/5/8acb34015a411336015a41163a8d0005,SUCCESS,4590631.0
 0065.15542,Arrêté préfectoral concernant PANHARD DEVELOPPEMENT daté du 13/05/2013,2013-05-13,P/5/8acb340141366f940141367acdd80005,SUCCESS,2870294.0
@@ -2837,6 +2876,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.15780,Arrêté complémentaire IC-21-029,2021-03-29,P/7/8acb34fd78ac2cd20178ac86690a00a7,SUCCESS,478825.0
 0065.15780,Arreté complémentaire IC-21-029,2021-03-29,P/f/8acb34fd78ac2cd20178ac8c60dc00af,SUCCESS,478825.0
 0065.15780,AP AUTORISATION,2013-11-25,P/1/8acb340142bd0e530142bd83af7b0041,SUCCESS,1981562.0
+0065.15785,Nouveau document,2021-09-01,P/3/8acb34fd7bbb42ec017bbb6321900013,NOT_ATTEMPTED,
 0065.15785,Arrêté préfectoral concernant RECYCLE AUTO PIECES (ex CAR'S AUTO) daté du 10/03/2016,2016-03-10,P/8/8acb3401535f9e1701535fc840680008,SUCCESS,400802.0
 0065.15785,Arrêté préfectoral concernant RECYCLE AUTO PIECES (ex CAR'S AUTO) daté du 09/11/2015,2015-11-09,P/3/8acb3401513dcf7301513dfe4aba0043,SUCCESS,511666.0
 0065.15785,Arrêté préfectoral concernant RECYCLE AUTO PIECES (ex CAR'S AUTO) daté du 20/12/2013,2013-12-20,P/5/8acb3401432f426601432f57e5170005,SUCCESS,832349.0
@@ -2867,6 +2907,10 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.16211,Arrêté préfectoral concernant E3D daté du 31/10/2014,2014-10-31,P/3/8acb34014941f26301494206ee960023,SUCCESS,430870.0
 0065.16348,Arrêté préfectoral concernant GSM / LAFARGE daté du 17/11/2015,2015-11-17,P/3/97b06b32c79444e48ae09f6b0b3e9823,SUCCESS,2976678.0
 0065.16391,AP Autorisation,2014-06-05,P/4/26a3b2a687ef48b6bab07636f76da4d4,SUCCESS,2538179.0
+0065.16452,Arrêté complémentaire et PT,2021-07-26,P/0/8acb34fd7b71cbb7017b71d5a6490010,NOT_ATTEMPTED,
+0065.16452,Arrêté complémentaire,2021-07-26,P/4/8acb34fd7b71cbb7017b71d178b20004,NOT_ATTEMPTED,
+0065.16452,Arrêté complémentaire IED,2021-07-26,P/a/8acb34fd7b5837b2017b586fed3d001a,NOT_ATTEMPTED,
+0065.16452,Arrpeté complémentaire et PT,2021-07-26,P/c/8acb34fd7b71cbb7017b71d5a60a000c,NOT_ATTEMPTED,
 0065.16452,Arrêté complémentaire IC-20-103,2020-12-03,P/3/8acb34fd76428772017642e272700053,SUCCESS,199939.0
 0065.16452,Arrêté préfectoral concernant BIOGENIE EUROPE SAS daté du 27/02/2014,2014-02-27,P/a/8acb34014e05b654014e05e3d68f000a,SUCCESS,2634791.0
 0065.16552,Arrêté préfectoral d'autorisation,2015-03-02,P/b/d045ef070e8b4a5393785bf11240c19b,SUCCESS,2531607.0
@@ -2901,6 +2945,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.17193,Arrêté préfectoral concernant SEMARDEL Mont MÃ¢le (reprise site MEL) daté du 23/01/2014,2014-01-23,P/c/b6446410315f4997b4830baed3fcd12c,SUCCESS,529616.0
 0065.17193,Nouveau document,2014-01-23,P/f/8acb34015871b9a2015871d5c6310eaf,SUCCESS,2955749.0
 0065.17193,Arrêté préfectoral concernant SEMARDEL Mont MÃ¢le (reprise site MEL) daté du 06/05/2013,2013-05-06,P/d/bad68fc7c7e54fd78336684d608555cd,SUCCESS,324102.0
+0065.17277,Nouveau document,2021-08-12,P/4/8acb34fd7b5e816d017b5e8378ca0004,NOT_ATTEMPTED,
 0065.17277,AP d'Autorisation,2015-02-04,P/b/0edd081ec23249d1b86c8161b048071b,SUCCESS,3831532.0
 0065.17332,Nouveau document,2017-03-29,P/3/8acb34015cb12575015cb135b6b20013,SUCCESS,4065643.0
 0065.17413,Arrêté préfectoral d'autorisation temporaire,2015-04-02,P/b/8acb34014db44b5c014db48f3ff9002b,SUCCESS,3775846.0
@@ -2916,6 +2961,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.17630,Arrêté préfectoral concernant MCEI daté du 21/10/2014,2014-10-21,P/4/6ddbf480cb534a03967ed42fca08b3d4,SUCCESS,1580138.0
 0065.17644,Arrêté préfectoral concernant Etablissements MAZEAU daté du 03/08/2015,2015-08-03,P/1/1da3623827184d5ba28885e817e3f361,SUCCESS,1980711.0
 0065.17691,Arrêté préfectoral concernant SIETREM daté du 18/12/2015,2015-12-18,P/0/8acb340151e7b5c40151e7e89d3600d0,SUCCESS,2754861.0
+0065.17958,Nouveau document,2021-08-25,P/d/8acb34fd7b7d7395017b7d79efab000d,NOT_ATTEMPTED,
 0065.17958,AP 2016-2014,2016-12-12,P/e/8acb340159eeaac80159eefd4904001e,SUCCESS,2806996.0
 0065.17958,Nouveau document,2016-04-15,P/a/8acb340154f21b370154f2491602000a,SUCCESS,1451668.0
 0065.17982,Ap garanties financières,2020-10-30,P/2/8acb34fd75786ede01757884951218d2,SUCCESS,323011.0
@@ -2934,6 +2980,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.18581,Arrêté préfectoral de mesures conservatoires,2015-05-14,P/b/8acb34015366180e01536656779e003b,SUCCESS,311580.0
 0065.18583,Nouveau document,2017-09-26,P/4/8acb340160503b740160503e09e50004,SUCCESS,608856.0
 0065.18597,Arrêté préfectoral concernant LA PIECE AUTOMOBILE (extension) daté du 17/07/2015,2015-07-17,P/7/cee8ca53fab44aebb67df67b9e893487,SUCCESS,742371.0
+0065.18698,Nouveau document,2021-08-19,P/6/8acb34fd7bbb0bcf017bbb323e860026,NOT_ATTEMPTED,
 0065.18698,Nouveau document,2020-01-09,P/e/8acb34fd6fb30295016fb365e5a0001e,SUCCESS,2100792.0
 0065.18698,Arrêté préfectoral concernant ABC NEGOCE daté du 22/12/2015,2015-12-22,P/7/be82968c66824098a6ec13338d5c5c27,SUCCESS,3552849.0
 0065.18730,APC,2020-12-23,P/5/8acb34fd7719915101771993350c0005,SUCCESS,2223603.0
@@ -2955,6 +3002,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.18924,Arrêté préfectoral concernant COSSON (ISDI) daté du 01/04/2014,2014-04-01,P/8/8acb3401503bf01c01503c41080b0098,SUCCESS,9703472.0
 0065.18926,APENRG modification ISDI,2019-04-01,P/4/8acb34fd73c370e70173c375d95d0004,SUCCESS,4688324.0
 0065.18926,Arrêté préfectoral concernant CEMEX (ISDI) daté du 21/05/2012,2012-05-21,P/5/8acb3401503bf01c01503c6d1fe600c5,SUCCESS,149221.0
+0065.18934,Nouveau document,2021-08-09,P/e/8acb34fd7b4ee132017b4ef4be46000e,NOT_ATTEMPTED,
 0065.18934,Nouveau document,2021-03-23,P/7/8acb34fd788c996701788ca283bb0007,SUCCESS,1202498.0
 0065.18934,Arrêté préfectoral concernant ECT (ISDI - 2) daté du 01/02/2008,2008-02-01,P/6/8acb3401503bf01c01503c14d69a0086,SUCCESS,41463.0
 0065.18937,Nouveau document,2020-09-25,P/1/8acb34fd75312f890175316ab6e60021,SUCCESS,3203877.0
@@ -2981,6 +3029,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.19411,Arrêté préfectoral pour mesures conservatoires,2015-09-30,P/0/8acb3401517bdac301517c2245a00050,SUCCESS,404470.0
 0065.19425,Nouveau document,2017-09-07,P/9/8acb34015e762106015e762db4b00009,SUCCESS,310606.0
 0065.19425,Arrêté préfectoral concernant TPE - Travaux Publics de l'Essonne daté du 19/02/2016,2016-02-19,P/d/5edd1d7f64f64571b08578b744b69a9d,SUCCESS,542609.0
+0065.19426,Nouveau document,2020-12-01,P/a/8acb34fd7641aef4017641dfddd5001a,NOT_ATTEMPTED,
 0065.19442,Nouveau document,2017-01-05,P/7/8acb3401596dbb6301596dc8d6ce0007,SUCCESS,360351.0
 0065.19460,AP 2017-69 du 20/03/2017,2017-03-20,P/4/8acb34015b23990c015b23c934030004,SUCCESS,210695.0
 0065.19489,Nouveau document,2019-08-07,P/6/8acb34fd6c6b19b4016c6b2469e10006,SUCCESS,406524.0
@@ -2991,6 +3040,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.19772,AP Liquidation partielle astreinte,2018-02-09,P/0/8acb340161e58ae00161e5a418ce0010,SUCCESS,168928.0
 0065.19783,Nouveau document,2016-07-12,P/0/8acb34015621f92701562247d8510080,SUCCESS,659139.0
 0065.19858,Nouveau document,2016-05-04,P/8/8acb3401551656f60155166a24830008,SUCCESS,258252.0
+0065.19888,Arrêté Interpréfectoral,2021-08-13,P/4/8acb34fd7c186b29017c187b47780004,NOT_ATTEMPTED,
 0065.19965,Nouveau document,2016-11-08,P/a/8acb34015843eeed01584444f93e000a,SUCCESS,302586.0
 0065.20014,Nouveau document,2017-11-21,P/4/8acb3401626780ef01626794b6e70014,SUCCESS,2026142.0
 0065.20077,77_BETON SOLUTIONS MOBILES_20170222_,2017-02-22,P/5/8acb34015f6d4be7015f6d5335b70005,SUCCESS,2031500.0
@@ -3019,7 +3069,9 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.20595,Nouveau document,2020-04-24,P/a/8acb34fd71ef3b2e0171ef5d59e0002a,SUCCESS,475633.0
 0065.20615,AP 2017-118,2017-05-19,P/4/8acb34015ce45f2f015ce47ffce40014,SUCCESS,378354.0
 0065.20615,AP 2016-200,2016-12-08,P/2/8acb340159eeaac80159ef715dce0032,SUCCESS,192761.0
+0065.20627,Nouveau document,2021-06-30,P/9/8acb34fd7a66636e017a66c460dc0019,NOT_ATTEMPTED,
 0065.20627,Nouveau document,2017-10-25,P/4/8acb34015fc46147015fc47843820004,SUCCESS,2660618.0
+0065.20632,Nouveau document,2021-06-03,P/9/8acb34fd7a671cb7017a67535a980059,NOT_ATTEMPTED,
 0065.20632,Nouveau document,2017-03-30,P/1/8acb34015b624225015b626f04000021,SUCCESS,580084.0
 0065.20644,Nouveau document,2018-01-08,P/8/8acb3401610da72001610e12778b0008,SUCCESS,2625078.0
 0065.20657,Arrêté complémentaire IC-19-072,2019-08-08,P/8/8acb34fd6d14f0c5016d1503dbfd0008,SUCCESS,2571512.0
@@ -3027,6 +3079,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.20669,Nouveau document,2020-10-28,P/d/8acb34fd757995f5017579c17789001d,SUCCESS,234131.0
 0065.20669,Nouveau document,2017-09-18,P/4/8acb34015ee7fbb1015ee8021b970004,SUCCESS,2654627.0
 0065.20737,Nouveau document,2017-08-04,P/1/8acb34015dad6363015dadb1f14f0061,SUCCESS,2808003.0
+0065.20744,APC terres inertes,2021-09-21,P/2/8acb34fd7c08fa8d017c090777520032,NOT_ATTEMPTED,
 0065.20744,AP complémentaire,2020-10-21,P/8/8acb34fd754a79e001754ad333ee0038,SUCCESS,1413935.0
 0065.20758,Nouveau document,2017-10-02,P/4/8acb34015edcc314015edd81dfbe0004,SUCCESS,294256.0
 0065.20758,Nouveau document,2017-05-04,P/1/8acb34015bfc563a015bfc84b4410021,SUCCESS,126475.0
@@ -3043,6 +3096,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.20954,Nouveau document,2017-12-18,P/8/8acb34016073694d01607382a4eb0008,SUCCESS,572276.0
 0065.20954,Nouveau document,2017-12-18,P/c/8acb34016073694d01607383ccff000c,SUCCESS,321501.0
 0065.20960,Nouveau document,2018-05-31,P/1/8acb340163d53bcc0163d599022a0031,SUCCESS,2607424.0
+0065.20975,Nouveau document,2021-11-06,P/e/8acb34fd7a671cb7017a67577518005e,NOT_ATTEMPTED,
 0065.20975,Nouveau document,2017-07-27,P/c/8acb34015da81cea015da8514afd001c,SUCCESS,3092329.0
 0065.20980,Nouveau document,2017-10-12,P/d/8acb34015f347709015f34afb1c3000d,SUCCESS,276647.0
 0065.20981,Nouveau document,2017-10-12,P/5/8acb34015f347709015f34addeab0005,SUCCESS,285626.0
@@ -3081,6 +3135,9 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0065.22031,AP autorisation environnementale,2019-11-13,P/6/8acb34fd6ea696ca016ea6ac48100006,SUCCESS,3051056.0
 0065.22046,Nouveau document,2019-08-09,P/4/8acb34fd6c7667ce016c766a10150004,SUCCESS,603586.0
 0065.22097,Nouveau document,2019-07-11,P/5/8acb34fd6c044338016c0448255f0005,SUCCESS,283816.0
+0065.22124,Nouveau document,2021-08-09,P/b/8acb34fd7b3a6d1e017b3a7dfe64000b,NOT_ATTEMPTED,
+0065.22124,Nouveau document,2019-05-09,P/7/8acb34fd6ae3adeb016ae3dd24190017,NOT_ATTEMPTED,
+0065.22124,Nouveau document,2019-05-09,P/f/8acb34fd6ae3adeb016ae3dbc26a000f,NOT_ATTEMPTED,
 0065.22243,AP d'Enregistrement,2021-04-14,P/6/8acb34fd78e9752d0178e980de040006,SUCCESS,508254.0
 0065.22360,Nouveau document,2021-03-23,P/1/8acb34fd788230e801788262a3cd0011,SUCCESS,8637981.0
 0065.22506,Nouveau document,2020-10-12,P/d/8acb34fd751be42501751c199ce5000d,SUCCESS,1077093.0
@@ -3341,6 +3398,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0074.04550,Arrêté préfectoral complémentaire VHU,2012-04-12,P/c/8acb34013a6edf16013a6f50935b005c,SUCCESS,24782.0
 0074.04550,AP complémentaire (Art. R. 512-31),2011-12-05,P/f/e65fe766060c4a22bfcc3583df36acef,SUCCESS,118577.0
 0074.04580,APC,2021-05-26,P/5/8acb34fd79c63d440179c64075920005,SUCCESS,1298779.0
+0074.04581,APC,2021-06-16,P/7/8acb34fd7a60ca09017a60d52ecd0007,NOT_ATTEMPTED,
 0074.04581,Nouveau document,2016-05-20,P/4/8acb3401555e6df401555e72245a0004,SUCCESS,5684228.0
 0074.04581,Arrêté préfectoral concernant HOWMET daté du 08/02/2012,2012-02-08,P/e/dc961e99bc6c41d993d305761c289e6e,SUCCESS,16729954.0
 0074.04581,Arrêté préfectoral concernant HOWMET daté du 09/12/2011,2011-12-09,P/4/10e6843caba84ce6a225538ba06df1e4,SUCCESS,2129912.0
@@ -3447,6 +3505,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0074.06293,APC,2018-05-04,P/a/8acb340163fea1500163febba6660b0a,SUCCESS,336003.0
 0074.06293,AP complémentaire (art 18 déc. 77),2007-06-08,P/b/bd855b437c604aab9e2f327b934a8e6b,SUCCESS,123663.0
 0074.06322,AP d'autorisation,2009-08-21,P/8/cd7ec36d0c454e39a5adeceff9d1f168,SUCCESS,1523635.0
+0074.06343,APA RAA n°2005-098 du 08/03/2005,2005-03-08,P/7/8acb34fd7a52e587017a52f1ff150007,NOT_ATTEMPTED,
 0074.06353,APC,2014-07-30,P/f/8acb340148e5baee0148e5ca301c000f,SUCCESS,254489.0
 0074.06420,AP Autorisation ,2014-06-02,P/e/8acb34014bfea37a014bfeaee3bd000e,SUCCESS,250049.0
 0074.06465,AP RENOUVELLEMENT VHU,2013-03-26,P/6/8acb34013de8daf1013de90cb98d0016,SUCCESS,280461.0
@@ -3470,6 +3529,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0074.07217,AP d'autorisation général  (extension - régularisation) + IPPC,2009-12-08,P/7/cff3abbda38b492f972a80b8cbf87ea7,SUCCESS,2138506.0
 0074.07258,Arrêté préfectoral complémentaire,2014-06-13,P/5/8acb3401476c827101476c8d6e3b0005,SUCCESS,330232.0
 0074.07258,AP d'autorisation,2009-05-15,P/7/a486d374a2c140d2a07e3dae64bad157,SUCCESS,1838264.0
+0074.07393,AP levée MED,2021-08-12,P/7/8acb34fd7c08fa8d017c09034b6c0027,NOT_ATTEMPTED,
 0074.07393,AP 2018-32 abrogeant l'AP 2013-101 du 02 07 2013,2018-03-16,P/e/8acb3401626751450162678194ec000e,SUCCESS,1091693.0
 0074.07393,Arrêté préfectoral concernant SociÃ©tÃ© WARTNER daté du 02/07/2013,2013-07-02,P/e/650b2286a0ba4c3790cbbdea9ff64b9e,SUCCESS,210650.0
 0074.07539,Nouveau document,2019-02-06,P/c/8acb34fd68c262900168c2658625000c,SUCCESS,291713.0
@@ -3504,6 +3564,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0074.08313,AP d'autorisation n°2009-371,2009-04-14,P/c/2637187825c842548d48fa0bad928a4c,SUCCESS,1470886.0
 0074.08357,Nouveau document,2016-07-19,P/c/8acb3401576ba37b01576bd5e9ba000c,SUCCESS,462431.0
 0074.08357,Arrêté préfectoral concernant AGS PARIS daté du 14/02/2014,2014-02-14,P/f/32bee7b55cff4e2eb95bc5e9d45077ff,SUCCESS,256275.0
+0074.08359,Nouveau document,2021-08-19,P/2/8acb34fd7b5d4b48017b5d636c240032,NOT_ATTEMPTED,
 0074.08360,Nouveau document,2016-07-19,P/c/8acb34015728e3eb015729151da4000c,SUCCESS,959965.0
 0074.08386,APC,2021-05-06,P/a/8acb34fd7941853e017942010e06007a,SUCCESS,1910354.0
 0074.08412,arrêté préfectoral modification installations,2014-10-16,P/5/8acb34014960e5ce0149613136e200e5,SUCCESS,517668.0
@@ -3542,6 +3603,7 @@ installation_s3ic_id,description,date,georisques_id,ocr_status,size
 0074.09068,Arrêté préfectoral concernant SITA ILE DE FRANCE daté du 08/04/2015,2015-04-08,P/d/ba72884b543349c5acd94c3708c8b49d,SUCCESS,318316.0
 0074.09068,APC - Nouvelles conditions d'exploitation et MAJ classement,2011-10-28,P/f/2cd9b0c5decd420fbe829e725d680e9f,SUCCESS,198774.0
 0074.09093,AP d'autorisation 2010/5660,2010-06-29,P/c/83476152104746f8bfe2f604c0b1f8ac,SUCCESS,4452318.0
+0074.09111,Nouveau document,2021-08-25,P/8/8acb34fd7b7d7395017b7d78763a0008,NOT_ATTEMPTED,
 0074.09111,Arrêté préfectoral concernant PAPREC ENVIRONNEMENT IDF  (GEN sous A15) daté du 02/06/2015,2015-06-02,P/7/34319daf521348c991eba914cc6120f7,SUCCESS,384025.0
 0074.09111,Arrêté préfectoral concernant PAPREC ENVIRONNEMENT IDF  (GEN sous A15) daté du 31/03/2015,2015-03-31,P/8/ce685a30684648bea609a9e675278448,SUCCESS,509933.0
 0074.09111,arrêté instaurant des garanties financières,2014-06-04,P/2/8acb340146aeaa090146aec1c7ad0032,SUCCESS,284680.0

@@ -13,11 +13,7 @@ class PrescriptionsController < ApplicationController
   def create_or_delete_from_am
     # Delete all prescriptions from alinea
     section_id = params[:installation][:section_id]
-    section_reference = params[:installation][:section_reference]
-    section_name = params[:installation][:section_name]
     am_ref = params[:installation][:am_ref]
-    am_id = params[:installation][:am_id]
-    topic = params[:installation][:topic]
     @user.prescriptions_for(@installation).where.not(from_am_id: nil).select do |prescription|
       prescription.destroy if prescription.alinea_id.start_with?(section_id)
     end
@@ -31,15 +27,21 @@ class PrescriptionsController < ApplicationController
 
       prescriptions_indexes << prescription_index
     end
-    prescription_params[:prescriptions_attributes].each do |index, params|
-      next unless prescriptions_indexes.include?(index)
 
-      full_params = params.merge!(
-        installation_id: @installation.id, user_id: @user.id, reference: section_reference,
-        name: section_name, text_reference: am_ref, from_am_id: am_id, topic: topic
+    AlineaStore.where(section_id: section_id).where(index_in_section: prescriptions_indexes).each do |alinea|
+      Prescription.create!(
+        reference: alinea.section_reference,
+        content: alinea.content,
+        alinea_id: "#{alinea.section_id}_#{alinea.index_in_section}",
+        from_am_id: alinea.am_id,
+        user_id: @user.id,
+        text_reference: am_ref,
+        rank: "#{alinea.section_rank}.#{alinea.index_in_section}",
+        installation_id: @installation.id,
+        topic: alinea.topic,
+        is_table: alinea.is_table,
+        name: alinea.section_name
       )
-      p = Prescription.new(full_params)
-      p.save!
     end
 
     render_prescriptions
@@ -102,8 +104,7 @@ class PrescriptionsController < ApplicationController
   end
 
   def prescription_params
-    params.require(:installation).permit(:section_id, :section_reference, :section_name, :am_ref, :am_id,
-                                         :topic, prescriptions_attributes: %i[content alinea_id rank is_table])
+    params.require(:installation).permit(:section_id, :am_ref, prescriptions: %i[alinea_index])
           .merge!(installation_id: @installation.id, user_id: @user.id)
   end
 
