@@ -87,4 +87,41 @@ RSpec.describe Classement do
       expect(classement.volume).to eq '10 m3 t'
     end
   end
+
+  # rubocop:disable RSpec/MultipleExpectations
+  context 'when update classement' do
+    it 'updates volume if it has the good format' do
+      installation_eva_industries = FactoryBot.create(:installation)
+      classement = FactoryBot.create(:classement, :classement_2521_E, installation: installation_eva_industries)
+
+      classement.update!(volume: '25 m3')
+      expect(classement.volume).to eq '25 m3'
+
+      classement.update!(volume: '70.0 MW')
+      expect(classement.volume).to eq '70.0 MW'
+
+      classement.update!(volume: '70')
+      expect(classement.volume).to eq '70'
+
+      classement.update!(volume: '70,0 MW')
+      expect(classement.volume).to eq '70.0 MW'
+    end
+
+    it 'does not pass validation if volume does not start with a number' do
+      installation_eva_industries = FactoryBot.create(:installation)
+      classement = FactoryBot.create(:classement, :classement_2521_E, installation: installation_eva_industries)
+
+      classement.update(volume: 'm3')
+      expect { classement.save! }.to raise_error(ActiveRecord::RecordInvalid)
+    end
+
+    it 'does not pass validation if volume does not have space between number and unity' do
+      installation_eva_industries = FactoryBot.create(:installation)
+      classement = FactoryBot.create(:classement, :classement_2521_E, installation: installation_eva_industries)
+
+      classement.update(volume: '20m3')
+      expect { classement.save! }.to raise_error(ActiveRecord::RecordInvalid)
+    end
+  end
+  # rubocop:enable RSpec/MultipleExpectations
 end

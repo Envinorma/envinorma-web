@@ -9,6 +9,16 @@ class Classement < ApplicationRecord
   validates :regime, inclusion: { in: %w[A E D NC unknown], message: 'is not valid' }
   validates :regime_acte, inclusion: { in: %w[A E D NC unknown], message: 'is not valid', allow_blank: true }
 
+  validate :volume_format
+
+  def volume_format
+    start_with_number = (volume =~ /\A[0-9]+([.,][0-9]+)?\z/) || (volume =~ /\A[0-9]+([.,][0-9]+)?\s([a-zA-Z]+)/)
+    return unless volume.present? && !start_with_number
+
+    errors.add(:volume,
+                "doit démarrer par un chiffre. Ce chiffre doit être suivi d'un espace s'il est accompagné d'une unité")
+  end
+
   def volume
     words = (super || '').split
     return super if words.length.zero?
