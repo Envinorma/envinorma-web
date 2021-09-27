@@ -12,26 +12,34 @@ class PrescriptionsController < ApplicationController
 
   def create_or_delete_from_am
     # Delete all prescriptions from alinea
-    alinea_id = params[:installation][:alinea_id]
-    @user.prescriptions_for(@installation).select do |prescription|
-      prescription.destroy if prescription.alinea_id.start_with?(alinea_id)
+    section_id = params[:installation][:section_id]
+    section_reference = params[:installation][:section_reference]
+    section_name = params[:installation][:section_name]
+    am_ref = params[:installation][:am_ref]
+    am_id = params[:installation][:am_id]
+    topic = params[:installation][:topic]
+    @user.prescriptions_for(@installation).where.not(from_am_id: nil).select do |prescription|
+      prescription.destroy if prescription.alinea_id.start_with?(section_id)
     end
 
     # Create prescriptions from params
     prescriptions_indexes = []
     params.keys.map do |key|
-      next unless key.start_with?("prescription_checkbox_#{alinea_id}_")
+      next unless key.start_with?("prescription_checkbox_#{section_id}_")
 
-      prescription_index = key.gsub("prescription_checkbox_#{alinea_id}_", '')
+      prescription_index = key.gsub("prescription_checkbox_#{section_id}_", '')
 
       prescriptions_indexes << prescription_index
     end
+    prescription_params[:prescriptions_attributes].each do |index, params|
+      next unless prescriptions_indexes.include?(index)
 
-    prescription_params[:prescriptions_attributes].each do |params|
-      if prescriptions_indexes.include?(params.first)
-        p = Prescription.new((params.last).merge!(installation_id: @installation.id, user_id: @user.id))
-        p.save!
-      end
+      full_params = params.merge!(
+        installation_id: @installation.id, user_id: @user.id, reference: section_reference,
+        name: section_name, text_reference: am_ref, from_am_id: am_id, topic: topic
+      )
+      p = Prescription.new(full_params)
+      p.save!
     end
 
     render_prescriptions
@@ -94,8 +102,8 @@ class PrescriptionsController < ApplicationController
   end
 
   def prescription_params
-    params.require(:installation).permit(:alinea_id, prescriptions_attributes:
-      %i[reference content alinea_id from_am_id user_id text_reference rank topic is_table name])
+    params.require(:installation).permit(:section_id, :section_reference, :section_name, :am_ref, :am_id,
+                                         :topic, prescriptions_attributes: %i[content alinea_id rank is_table])
           .merge!(installation_id: @installation.id, user_id: @user.id)
   end
 
