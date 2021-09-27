@@ -5,7 +5,7 @@ require 'rails_helper'
 RSpec.describe Classement do
   context 'when #simplify_volume' do
     it 'does nothing to empty string' do
-      expect(described_class.new.simplify_volume('')).to eq ''
+      expect(described_class.new.simplify_volume('')).to be_nil
     end
 
     it 'does nothing to nil' do
@@ -28,6 +28,10 @@ RSpec.describe Classement do
       expect(described_class.new.simplify_volume('0.000')).to eq 0
     end
 
+    it 'extracts int if no decimal digits' do
+      expect(described_class.new.simplify_volume('10')).to eq 10
+    end
+
     it 'extracts float without trailing 0 when there are no trailing zeros' do
       expect(described_class.new.simplify_volume('0.0001')).to eq 0.0001
     end
@@ -48,8 +52,18 @@ RSpec.describe Classement do
       expect(classement.human_readable_volume).to eq '10 m3'
     end
 
+    it 'leaves number unchanged if it is an int' do
+      classement = described_class.new(volume: '10 m3')
+      expect(classement.human_readable_volume).to eq '10 m3'
+    end
+
     it 'removes useless trailing zeros for decimal values' do
       classement = described_class.new(volume: '10.030 t')
+      expect(classement.human_readable_volume).to eq '10.03 t'
+    end
+
+    it 'works the same when comma is used instead of dot' do
+      classement = described_class.new(volume: '10,030 t')
       expect(classement.human_readable_volume).to eq '10.03 t'
     end
 

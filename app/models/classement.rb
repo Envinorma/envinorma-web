@@ -13,7 +13,7 @@ class Classement < ApplicationRecord
     words = (volume || '').split
     return volume if words.length.zero?
 
-    volume_number = simplify_volume(words.first || '')
+    volume_number = simplify_volume((words.first || '').gsub(',', '.'))
     volume_unit = words[1..].join(' ')
     "#{volume_number} #{volume_unit}".strip
   end
@@ -31,11 +31,13 @@ class Classement < ApplicationRecord
   end
 
   def int?(string)
-    !(string =~ /\A[0-9]*\.000\z/).nil?
+    # of the 'X.000' when from georisques
+    # of the 'X' when from user
+    !(string =~ /\A[0-9]+(\.000)?\z/).nil?
   end
 
   def simplify_volume(volume)
-    return if volume.nil?
+    return if volume.blank?
     return volume.to_i if int?(volume)
     return volume.to_f if float?(volume)
 
