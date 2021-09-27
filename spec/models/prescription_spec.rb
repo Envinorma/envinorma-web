@@ -49,6 +49,10 @@ RSpec.describe Prescription do
       expect(described_class.new(is_table: false, reference: 'Article I > 2 b)').reference_number).to eq 'I > 2 b)'
     end
 
+    it 'returns article numbers if reference is a list of articles' do
+      expect(described_class.new(is_table: false, reference: 'Articles 3 et 6').reference_number).to eq '3 et 6'
+    end
+
     it 'returns annexe stripped number if reference is an annexe' do
       expect(described_class.new(is_table: false, reference: 'ANNEXE  I').reference_number).to eq 'I'
     end
