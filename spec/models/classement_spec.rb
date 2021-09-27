@@ -41,50 +41,50 @@ RSpec.describe Classement do
     end
   end
 
-  context 'when :human_readable_volume' do
+  context 'when :volume' do
     it 'does not transform empty volume' do
       classement = described_class.new(volume: '')
-      expect(classement.human_readable_volume).to eq ''
+      expect(classement.volume).to eq ''
     end
 
     it 'removes useless trailing zeros for integer values' do
       classement = described_class.new(volume: '10.000 m3')
-      expect(classement.human_readable_volume).to eq '10 m3'
+      expect(classement.volume).to eq '10 m3'
     end
 
     it 'leaves number unchanged if it is an int' do
       classement = described_class.new(volume: '10 m3')
-      expect(classement.human_readable_volume).to eq '10 m3'
+      expect(classement.volume).to eq '10 m3'
     end
 
     it 'removes useless trailing zeros for decimal values' do
       classement = described_class.new(volume: '10.030 t')
-      expect(classement.human_readable_volume).to eq '10.03 t'
+      expect(classement.volume).to eq '10.03 t'
     end
 
     it 'works the same when comma is used instead of dot' do
       classement = described_class.new(volume: '10,030 t')
-      expect(classement.human_readable_volume).to eq '10.03 t'
+      expect(classement.volume).to eq '10.03 t'
     end
 
     it 'does nothing when no trailing zeros' do
       classement = described_class.new(volume: '10.035 h')
-      expect(classement.human_readable_volume).to eq '10.035 h'
+      expect(classement.volume).to eq '10.035 h'
     end
 
     it 'removes useless trailing zeros even when volume has no unit' do
       classement = described_class.new(volume: '10.000')
-      expect(classement.human_readable_volume).to eq '10'
+      expect(classement.volume).to eq '10'
     end
 
     it 'removes useless trailing zeros even when volume has no unit and trailing whitespace' do
       classement = described_class.new(volume: '10.000 ')
-      expect(classement.human_readable_volume).to eq '10'
+      expect(classement.volume).to eq '10'
     end
 
     it 'simplifies volume when volume has more than one space' do
       classement = described_class.new(volume: '10.000 m3 t')
-      expect(classement.human_readable_volume).to eq '10 m3 t'
+      expect(classement.volume).to eq '10 m3 t'
     end
   end
 end

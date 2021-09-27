@@ -17,4 +17,7 @@
     = form.input :date_mise_en_service, as: :date, html5: true
 
   .col
-    = form.input :volume
+    = form.label :volume
+    .tooltip-right.tooltip-secondary data-tooltip=t('volume_help')
+      i.fas.fa-question-circle
+    = form.input :volume, label: false, hint: 'ex: 250 m3'

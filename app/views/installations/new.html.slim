@@ -8,6 +8,6 @@
         = f.input :name
 
     = f.simple_fields_for @classement do |c|
-      = render partial: 'classements/classement_form', locals: { form: c}
+      = render partial: 'classements/classement_form', locals: { form: c }
     .mb-4
       = f.button :submit, 'Créer l\'installation', class: 'btn btn-primary', disabled: true, id: 'js_classement_submit'

@@ -2,7 +2,7 @@
   h1 = @installation.name
   h2.mb-4 Ajouter un classement
   = simple_form_for [@installation, @classement] do |f|
-    = render partial: 'classement_form', locals: { form: f}
+    = render partial: 'classement_form', locals: { form: f }
 
     .mt-4
       = f.button :submit, 'Ajouter le classement', class: 'btn btn-primary', disabled: true, id: 'js_classement_submit'

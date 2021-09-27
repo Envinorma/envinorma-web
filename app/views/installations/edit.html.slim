@@ -21,9 +21,11 @@
         .col-4
           = c.input :date_mise_en_service, as: :date, html5: true
         .col-3
-          = c.input :volume
+          = c.label :volume
+          .tooltip-right.tooltip-secondary data-tooltip=t('volume_help')
+            i.fas.fa-question-circle
+          = c.input :volume, label: false, hint: 'ex: 250 m3'
       hr
-
 
     .mb-4
       = f.button :submit, 'Sauvegarder les modifications', class: 'btn btn-primary'

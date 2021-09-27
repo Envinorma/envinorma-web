@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'rails_helper'
-# rubocop:disable RSpec/MultipleExpectations, RSpec/DescribeClass
+# rubocop:disable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength
 RSpec.describe 'new installations test features', js: true do
   before do
     ClassementReference.create(rubrique: 1510, alinea: '2b', regime: 'E', description: 'Entrepôt')
@@ -22,10 +22,10 @@ RSpec.describe 'new installations test features', js: true do
     expect(page).to have_content('Mes installations')
     expect(page).to have_content('Un entrepôt')
     expect(page).to have_content('1510')
-    expect(page).to have_content('2000.0 m3')
+    expect(page).to have_content('2000 m3')
     expect(Installation.count).to eq(1)
     expect(Installation.first.s3ic_id).to eq('0000.00000')
     expect(page).not_to have_content('0000.00000')
   end
 end
-# rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass
+# rubocop:enable RSpec/MultipleExpectations, RSpec/DescribeClass, RSpec/ExampleLength

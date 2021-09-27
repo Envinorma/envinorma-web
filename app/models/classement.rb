@@ -9,9 +9,9 @@ class Classement < ApplicationRecord
   validates :regime, inclusion: { in: %w[A E D NC unknown], message: 'is not valid' }
   validates :regime_acte, inclusion: { in: %w[A E D NC unknown], message: 'is not valid', allow_blank: true }
 
-  def human_readable_volume
-    words = (volume || '').split
-    return volume if words.length.zero?
+  def volume
+    words = (super || '').split
+    return super if words.length.zero?
 
     volume_number = simplify_volume((words.first || '').gsub(',', '.'))
     volume_unit = words[1..].join(' ')

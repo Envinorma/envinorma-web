@@ -33,7 +33,7 @@ RSpec.describe 'installations test features', js: true do
     click_button('Ajouter le classement')
     expect(page).to have_content('Le classement a été ajouté')
     expect(page).to have_content('1510')
-    expect(page).to have_content('2000.0 m3')
+    expect(page).to have_content('2000 m3')
     expect(Classement.count).to eq 7
     expect(Classement.last.date_autorisation).to eq '03/11/2020'.to_date
     expect(Classement.last.date_mise_en_service).to eq '03/12/2020'.to_date
