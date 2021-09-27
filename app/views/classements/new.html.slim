@@ -2,23 +2,7 @@
   h1 = @installation.name
   h2.mb-4 Ajouter un classement
   = simple_form_for [@installation, @classement] do |f|
-    .row
-      .col-6
-        = label_tag '' do
-          ' Rubrique
-          abbr title='obligatoire' *
-        = text_field_tag 'autocomplete-classements', nil,
-                          placeholder: 'Entrer le numéro ou le libellé de la rubrique',
-                          class: 'form-control',
-                          required: true,
-                          data: { behavior: 'autocomplete-classements' }
-
-        = f.hidden_field :reference_id, value: '', id: 'classement_reference_id'
-
-      .col
-        = f.input :date_autorisation, as: :date, html5: true
-      .col
-        = f.input :date_mise_en_service, as: :date, html5: true
+    = render partial: 'classement_form', locals: { form: f}
 
     .mt-4
       = f.button :submit, 'Ajouter le classement', class: 'btn btn-primary', disabled: true, id: 'js_classement_submit'

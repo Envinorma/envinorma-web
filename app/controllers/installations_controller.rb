@@ -93,6 +93,6 @@ class InstallationsController < ApplicationController
   def classement_params
     params.require(:installation).permit(:name,
                                          classements_attributes: %i[id regime rubrique alinea date_autorisation
-                                                                    date_mise_en_service _destroy])
+                                                                    date_mise_en_service volume _destroy])
   end
 end

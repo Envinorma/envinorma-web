@@ -1,0 +1,20 @@
+.row
+  .col-6
+    = label_tag '' do
+      ' Rubrique
+      abbr title='obligatoire' *
+    = text_field_tag 'autocomplete-classements', nil,
+                      placeholder: 'Entrer le numéro ou le libellé de la rubrique',
+                      class: 'form-control',
+                      required: true,
+                      data: { behavior: 'autocomplete-classements' }
+
+    = form.hidden_field :reference_id, value: '', id: 'classement_reference_id'
+
+  .col
+    = form.input :date_autorisation, as: :date, html5: true
+  .col
+    = form.input :date_mise_en_service, as: :date, html5: true
+
+  .col
+    = form.input :volume

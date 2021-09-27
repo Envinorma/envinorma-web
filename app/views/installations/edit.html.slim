@@ -6,19 +6,24 @@
   = simple_form_for @installation do |f|
     = f.simple_fields_for :classements do |c|
       .row
-        .col-2
+        .col-4
           = c.input :rubrique, disabled: true, hint: 'La rubrique ne peut pas être modifiée.'
-        .col-1
+        .col-4
           = c.input :regime, collection: %w[A E D NC]
-        .col-2
+        .col-3
           = c.input :alinea
-        .col-3
-          = c.input :date_autorisation, as: :date, html5: true
-        .col-3
-          = c.input :date_mise_en_service, as: :date, html5: true
         .col-1
           = c.label :_destroy, '&nbsp;'.html_safe
           = c.input :_destroy, as: :boolean, label: '<i class="fas fa-trash"></i>'.html_safe
+      .row
+        .col-4
+          = c.input :date_autorisation, as: :date, html5: true
+        .col-4
+          = c.input :date_mise_en_service, as: :date, html5: true
+        .col-3
+          = c.input :volume
+      hr
+
 
     .mb-4
       = f.button :submit, 'Sauvegarder les modifications', class: 'btn btn-primary'

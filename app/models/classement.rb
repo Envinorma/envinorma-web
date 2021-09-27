@@ -52,7 +52,8 @@ class Classement < ApplicationRecord
                         regime: reference.regime, alinea: reference.alinea,
                         activite: reference.description,
                         date_autorisation: params[:date_autorisation],
-                        date_mise_en_service: params[:date_mise_en_service])
+                        date_mise_en_service: params[:date_mise_en_service],
+                        volume: params[:volume])
     end
 
     def create_hash_from_csv_row(classement_raw)

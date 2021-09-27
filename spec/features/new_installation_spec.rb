@@ -15,12 +15,14 @@ RSpec.describe 'new installations test features', js: true do
     expect(page).to have_button 'Créer l\'installation', disabled: true
     fill_in 'Nom de l\'installation', with: 'Un entrepôt'
     fill_in('autocomplete-classements', with: '1510')
+    fill_in('Volume', with: '2000 m3')
     find('li', text: 'E 2b - Entrepôt').click
     click_button('Créer l\'installation')
 
     expect(page).to have_content('Mes installations')
     expect(page).to have_content('Un entrepôt')
     expect(page).to have_content('1510')
+    expect(page).to have_content('2000.0 m3')
     expect(Installation.count).to eq(1)
     expect(Installation.first.s3ic_id).to eq('0000.00000')
     expect(page).not_to have_content('0000.00000')
