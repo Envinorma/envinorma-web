@@ -43,7 +43,7 @@ RSpec.describe FicheInspectionHelper do
       all_variables = prepare_gun_env_rows(prescriptions).row_variables.flatten
       expect(
         all_variables.filter { |v| v.placeholder == '[PRESCRIPTION]' }.map(&:value_list)
-      ).to eq [["line 1\nline 2\nline 3"], ['content'], ['content ap']]
+      ).to eq [["line 1\nline 2\n\nline 3"], ['content'], ['content ap']]
     end
   end
 end
