@@ -4,7 +4,7 @@
 
   hr
   = simple_form_for @installation do |f|
-    = f.simple_fields_for :classements do |c|
+    = f.simple_fields_for :classements, @installation.sorted_classements do |c|
       .row
         .col-4
           = c.input :rubrique, disabled: true, hint: 'La rubrique ne peut pas être modifiée.'

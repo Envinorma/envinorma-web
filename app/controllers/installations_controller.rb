@@ -14,7 +14,7 @@ class InstallationsController < ApplicationController
   def show
     @aps = @installation.retrieve_aps
 
-    @classements = @installation.classements.sort_by(&:regime_score)
+    @classements = @installation.sorted_classements
 
     @ams = compute_applicable_ams_list(@classements)
     @transversal_ams = AM.where(is_transverse: true)

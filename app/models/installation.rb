@@ -37,6 +37,10 @@ class Installation < ApplicationRecord
     user_id && user_id == user_id_cookies.to_i
   end
 
+  def sorted_classements
+    classements.sort_by(&:regime_score)
+  end
+
   def duplicate!(user)
     installation_duplicated = Installation.create(
       name: name,
