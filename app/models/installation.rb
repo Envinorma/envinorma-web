@@ -22,11 +22,12 @@ class Installation < ApplicationRecord
   scope :not_attached_to_user, -> { where(user: nil) }
 
   def retrieve_aps
-    if duplicated_from_id?
-      Installation.find(duplicated_from_id).APs
-    else
-      self.APs
-    end
+    aps = if duplicated_from_id?
+            Installation.find(duplicated_from_id).APs
+          else
+            self.APs
+          end
+    aps.order(date: :desc)
   end
 
   def fictive?
@@ -35,6 +36,10 @@ class Installation < ApplicationRecord
 
   def duplicated_by_user?(user_id_cookies)
     user_id && user_id == user_id_cookies.to_i
+  end
+
+  def sorted_classements
+    classements.sort_by(&:regime_score)
   end
 
   def duplicate!(user)
