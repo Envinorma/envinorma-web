@@ -10,7 +10,7 @@ RSpec.describe 'select arretes to display feature', js: true do
     FactoryBot.create(:am, :classement_2521_E)
     FactoryBot.create(:am, :fake_am1)
     FactoryBot.create(:ap, installation: installation_eva_industries)
-    FactoryBot.create(:ap, installation: installation_eva_industries)
+    FactoryBot.create(:ap, installation: installation_eva_industries, date: '27/04/2020'.to_date)
   end
 
   it 'allows user to select arretes to display' do
