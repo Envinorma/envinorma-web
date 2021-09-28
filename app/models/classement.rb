@@ -9,11 +9,21 @@ class Classement < ApplicationRecord
   validates :regime, inclusion: { in: %w[A E D NC unknown], message: 'is not valid' }
   validates :regime_acte, inclusion: { in: %w[A E D NC unknown], message: 'is not valid', allow_blank: true }
 
-  def human_readable_volume
-    words = (volume || '').split
-    return volume if words.length.zero?
+  validate :volume_format
 
-    volume_number = simplify_volume(words.first || '')
+  def volume_format
+    start_with_number = (volume =~ /\A[0-9]+([.,][0-9]+)?\z/) || (volume =~ /\A[0-9]+([.,][0-9]+)?\s([a-zA-Z]+)/)
+    return unless volume.present? && !start_with_number
+
+    errors.add(:volume,
+               "doit démarrer par un chiffre. Ce chiffre doit être suivi d'un espace s'il est accompagné d'une unité")
+  end
+
+  def volume
+    words = (super || '').split
+    return super if words.length.zero?
+
+    volume_number = simplify_volume((words.first || '').gsub(',', '.'))
     volume_unit = words[1..].join(' ')
     "#{volume_number} #{volume_unit}".strip
   end
@@ -31,11 +41,13 @@ class Classement < ApplicationRecord
   end
 
   def int?(string)
-    !(string =~ /\A[0-9]*\.000\z/).nil?
+    # of the 'X.000' when from georisques
+    # of the 'X' when from user
+    !(string =~ /\A[0-9]+(\.000)?\z/).nil?
   end
 
   def simplify_volume(volume)
-    return if volume.nil?
+    return if volume.blank?
     return volume.to_i if int?(volume)
     return volume.to_f if float?(volume)
 
@@ -52,7 +64,8 @@ class Classement < ApplicationRecord
                         regime: reference.regime, alinea: reference.alinea,
                         activite: reference.description,
                         date_autorisation: params[:date_autorisation],
-                        date_mise_en_service: params[:date_mise_en_service])
+                        date_mise_en_service: params[:date_mise_en_service],
+                        volume: params[:volume])
     end
 
     def create_hash_from_csv_row(classement_raw)

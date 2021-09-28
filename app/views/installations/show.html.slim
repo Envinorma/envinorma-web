@@ -83,7 +83,7 @@
           td = classement.activite
           td = classement.date_autorisation&.strftime('%d/%m/%Y')
           td = classement.date_mise_en_service&.strftime('%d/%m/%Y')
-          td = classement.human_readable_volume
+          td = classement.volume
 
   - unless @installation.fictive?
     .small.text-secondary
