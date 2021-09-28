@@ -16,7 +16,7 @@ class Classement < ApplicationRecord
     return unless volume.present? && !start_with_number
 
     errors.add(:volume,
-                "doit démarrer par un chiffre. Ce chiffre doit être suivi d'un espace s'il est accompagné d'une unité")
+               "doit démarrer par un chiffre. Ce chiffre doit être suivi d'un espace s'il est accompagné d'une unité")
   end
 
   def volume
