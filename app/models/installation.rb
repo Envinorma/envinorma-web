@@ -22,11 +22,12 @@ class Installation < ApplicationRecord
   scope :not_attached_to_user, -> { where(user: nil) }
 
   def retrieve_aps
-    if duplicated_from_id?
-      Installation.find(duplicated_from_id).APs
-    else
-      self.APs
-    end
+    aps = if duplicated_from_id?
+            Installation.find(duplicated_from_id).APs
+          else
+            self.APs
+          end
+    aps.order(date: :desc)
   end
 
   def fictive?
