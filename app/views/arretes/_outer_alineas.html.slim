@@ -1,21 +1,22 @@
+- section_id = section.id
 = simple_form_for @installation,
   url: installation_create_or_delete_from_am_path(@installation),
-  html: { id: "alinea_checkbox_form_#{subsection_id}" },
+  html: { id: "alinea_checkbox_form_#{section_id}" },
   remote: true do |f|
 
-  = f.hidden_field :section_id, value: subsection_id
+  = f.hidden_field :section_id, value: section_id
   = f.hidden_field :am_ref, value: am_ref
 
-  - subsection.outer_alineas.each_with_index do |alinea, alinea_index|
-    - alinea_id = "#{subsection_id}_#{alinea_index}"
+  - section.outer_alineas.each_with_index do |alinea, alinea_index|
+    - alinea_id = "#{section_id}_#{alinea_index}"
     .form-group.row
       .col-sm-12
         = f.simple_fields_for :prescriptions
           .form-check.checkbox-custom
             = check_box_tag "prescription_checkbox_#{alinea_id}",
               '1', prescription_checked?(@alinea_ids, alinea_id),
-              class: "form-check-input select_all_#{subsection_id} alineas_checkbox",
-              data: { alinea_id: alinea_id, form_id: subsection_id }
+              class: "form-check-input select_all_#{section_id} alineas_checkbox",
+              data: { alinea_id: alinea_id, form_id: section_id }
             / alinea is active except if it is explicitly marked as active: false
             - class_name = alinea.active.nil? || alinea.active ? '' : 'inactive'
             = label_tag "prescription_checkbox_#{alinea_id}", class: class_name

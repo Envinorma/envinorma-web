@@ -19,32 +19,37 @@ class PrescriptionsController < ApplicationController
     end
 
     # Create prescriptions from params
-    prescriptions_indexes = []
-    params.keys.map do |key|
-      next unless key.start_with?("prescription_checkbox_#{section_id}_")
-
-      prescription_index = key.gsub("prescription_checkbox_#{section_id}_", '')
-
-      prescriptions_indexes << prescription_index
-    end
+    prescriptions_indexes = extract_checked_indices(params, section_id)
 
     AlineaStore.where(section_id: section_id).where(index_in_section: prescriptions_indexes).each do |alinea|
-      Prescription.create!(
-        reference: alinea.section_reference,
-        content: alinea.content,
-        alinea_id: "#{alinea.section_id}_#{alinea.index_in_section}",
-        from_am_id: alinea.am_id,
-        user_id: @user.id,
-        text_reference: am_ref,
-        rank: "#{alinea.section_rank}.#{alinea.index_in_section}",
-        installation_id: @installation.id,
-        topic: alinea.topic,
-        is_table: alinea.is_table,
-        name: alinea.section_name
-      )
+      prescription_from_alinea(alinea, am_ref)
     end
 
     render_prescriptions
+  end
+
+  def extract_checked_indices(params, section_id)
+    params.keys.map do |key|
+      next unless key.start_with?("prescription_checkbox_#{section_id}_")
+
+      key.gsub("prescription_checkbox_#{section_id}_", '')
+    end
+  end
+
+  def prescription_from_alinea(alinea, am_ref)
+    Prescription.create!(
+      reference: alinea.section_reference,
+      content: alinea.content,
+      alinea_id: "#{alinea.section_id}_#{alinea.index_in_section}",
+      from_am_id: alinea.am_id,
+      user_id: @user.id,
+      text_reference: am_ref,
+      rank: "#{alinea.section_rank}.#{alinea.index_in_section}",
+      installation_id: @installation.id,
+      topic: alinea.topic,
+      is_table: alinea.is_table,
+      name: alinea.section_name
+    )
   end
 
   def create_from_ap
@@ -100,11 +105,6 @@ class PrescriptionsController < ApplicationController
   def prescription_params_ap
     params.require(:prescription).permit(:reference, :content, :alinea_id, :from_am_id, :user_id, :text_reference,
                                          :rank, :topic, :is_table, :name)
-          .merge!(installation_id: @installation.id, user_id: @user.id)
-  end
-
-  def prescription_params
-    params.require(:installation).permit(:section_id, :am_ref, prescriptions: %i[alinea_index])
           .merge!(installation_id: @installation.id, user_id: @user.id)
   end
 
