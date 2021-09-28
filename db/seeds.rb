@@ -2,6 +2,7 @@
 
 DataManager.seed_installations_and_associations(false)
 DataManager.seed_ams(from_ovh: true)
+DataManager.seed_classement_references
 
 # Make after_party tasks to status "up" to skip them
 pending_files = AfterParty::TaskRecorder.pending_files
