@@ -18,8 +18,9 @@ counter.innerHTML = "<%= @counter %>"
   });
 <% end %>
 
-// display modal
 <% if @modal %>
+
+  // display modal
   var modal = document.getElementById('modalPrescriptions');
   modal.classList.add("open");
   var exits = modal.querySelectorAll(".modal-exit");
@@ -27,6 +28,23 @@ counter.innerHTML = "<%= @counter %>"
     exit.addEventListener("click", function (event) {
       event.preventDefault();
       modal.classList.remove("open");
+    });
+  });
+
+  // uncheck checkboxes when delete prescription from modal
+  var delete_buttons = document.querySelectorAll('.delete');
+  delete_buttons.forEach(function (delete_button) {
+    delete_button.addEventListener("click", function (event) {
+      var alineaId = event.target.dataset.alineaId;
+      var checkbox = document.getElementById(`prescription_checkbox_${alineaId}`)
+
+      if (checkbox === null) return;
+      checkbox.checked = false
+      var formId = checkbox.dataset.formId
+      var selectAllCheckbox = document.getElementById(`select_all_${formId}`)
+
+      if (selectAllCheckbox === null) return;
+      selectAllCheckbox.checked = false
     });
   });
 <% end %>

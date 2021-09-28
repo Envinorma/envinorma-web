@@ -26,8 +26,7 @@
             <div class='<%= "prescription_#{prescription.id} prescription" %>'>
               <%= html_content(prescription) %>
               <%= link_to "Supprimer", installation_prescription_path(installation_id: @installation.id, id: prescription.id), remote: true, method: :delete,
-                class: 'text-danger small',
-                onclick: prescription.from_am? ? "document.getElementById('prescription_checkbox_#{prescription.alinea_id}').checked = false;" : "" %>
+                class: "text-danger small delete", data: {alinea_id: prescription.alinea_id} %>
             </div>
           <% end %>
         <% end %>

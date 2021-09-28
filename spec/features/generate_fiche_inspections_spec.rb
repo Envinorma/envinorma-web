@@ -10,6 +10,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     FactoryBot.create(:classement, :classement_4801_D, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_2515_D, installation: installation_eva_industries)
     FactoryBot.create(:am, :classement_2521_E)
+    AlineaManager.recreate
     FactoryBot.create(:ap, installation: installation_eva_industries)
 
     installation_sepanor = FactoryBot.create(:installation, name: 'SEPANOR', s3ic_id: '0065.06067', zipcode: '95066',
@@ -25,13 +26,13 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     expect(page).to have_content('EVA INDUSTRIES')
     expect(page).to have_content('Houille, coke, lignite')
-    click_link("Voir les prescriptions pour générer une fiche d'inspection")
+    click_link('Voir les prescriptions')
 
     expect(page).to have_content('AM - 09/04/19')
     page.find('#modalPrescriptions', visible: :hidden)
 
     # Create prescriptions using checkbox select_all
-    find('.select_all', match: :first).click(wait: 4)
+    find('.select_all', match: :first).click
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
 
     expect(page).not_to have_selector '#prescriptions_recap h6', text: 'AM - 09/04/19 - 2521 E'
@@ -39,18 +40,18 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(Prescription.count).to eq 5
 
     # Delete prescriptions using checkbox select_all
-    find('.select_all', match: :first).click(wait: 4)
+    find('.select_all', match: :first).click
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: false)
     expect(page).to have_selector '.counter', text: '0'
     expect(Prescription.count).to eq 0
 
-    find('.select_all', match: :first).click(wait: 4)
+    find('.select_all', match: :first).click
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
     expect(page).to have_selector '.counter', text: '5'
     expect(Prescription.count).to eq 5
 
     # Create prescriptions from a row in a table
-    find('label', text: '500 mg/m3').click(wait: 4)
+    find('label', text: '500 mg/m3').click
     expect(page).to have_selector '.counter', text: '6'
     expect(Prescription.count).to eq 6
 
@@ -82,7 +83,8 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(page).to have_selector '.prescription', count: '8'
 
     # Generate Fiche d'inspection
-    click_link('Télécharger la fiche')
+    # javascript way for `find('#btn-fiche-inspection').click`
+    execute_script("document.querySelector('#btn-fiche-inspection').click();")
     fiche_content = DownloadHelpers.download_content('fiche_inspection.odt')
     expect(fiche_content).to have_content "les dispositions du présent arrêté s'appliquent"
     expect(fiche_content).to have_content '500 mg/m3'
@@ -101,18 +103,13 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(page).to have_selector '.prescription', count: '7'
     expect(Prescription.count).to eq 7
 
-    # Button is visible with small screens
-    page.driver.browser.manage.window.resize_to(600, 600)
-    click_link('Télécharger la fiche')
-    page.driver.browser.manage.window.resize_to(1200, 800)
-
     # Delete all prescriptions from modal
     click_link('Tout supprimer')
     expect(page).to have_selector '.prescription', count: '0'
     expect(Prescription.count).to eq 0
 
     # Close the modal
-    click_button('Fermer')
+    click_button('X')
     page.find('#modalPrescriptions', visible: false)
   end
 
@@ -130,7 +127,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
                          text_reference: 'text_ref other user')
 
     # Create a prescription from a row in a table
-    find('label', text: '500 mg/m3').click(wait: 4)
+    find('label', text: '500 mg/m3').click
     expect(page).to have_selector '.counter', text: '1'
     expect(Prescription.count).to eq 2
 
@@ -138,10 +135,11 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(Prescription.first.installation_id).to eq Prescription.last.installation_id
 
     # Open modal
-    click_on(class: 'circle-fixed-button', wait: 5)
+    click_on(class: 'circle-fixed-button')
 
     # Generate Fiche d'inspection
-    click_link('Télécharger la fiche')
+    # javascript way for `find('#btn-fiche-inspection').click`
+    execute_script("document.querySelector('#btn-fiche-inspection').click();")
     expect(DownloadHelpers.download_content('fiche_inspection.odt')).to have_content '500 mg/m3'
     expect(DownloadHelpers.download_content('fiche_inspection.odt')).not_to have_content 'other user'
   end
@@ -150,7 +148,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     visit_eva_industries_prescriptions_page
 
     # Create prescriptions using checkbox select_all
-    find('.select_all', match: :first).click(wait: 4)
+    find('.select_all', match: :first).click
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
     expect(page).to have_selector '.counter', text: '5'
     expect(Prescription.count).to eq 5
@@ -161,7 +159,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     click_link("0065.06067 | SEPANOR - 95066 ST OUEN L'AUMONE")
 
     expect(page).to have_content('SEPANOR')
-    click_link("Voir les prescriptions pour générer une fiche d'inspection")
+    click_link('Voir les prescriptions')
 
     expect(page).to have_selector '.counter', text: '0'
     click_on(class: 'circle-fixed-button')
@@ -209,7 +207,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     click_button('Air - odeurs')
     expect(page).to have_content("Chapitre VI : Emissions dans l'air")
     find('.alineas_checkbox', match: :first).click
-    expect(page).to have_selector '.counter', text: '1', wait: 10
+    expect(page).to have_selector '.counter', text: '1'
     expect(Prescription.count).to eq 1
     expect(Prescription.last.topic).to eq 'AIR_ODEURS'
 
@@ -227,9 +225,9 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(page).to have_selector '.counter', text: '3'
     expect(Prescription.count).to eq 3
 
-    find(class: 'circle-fixed-button').click(wait: 4)
+    find(class: 'circle-fixed-button').click
 
-    expect(page).to have_content("Fiche d'inspection")
+    expect(page).to have_content('Recueil de prescriptions')
     expect(page).to have_content('Les poussières, gaz polluants ou odeurs sont captés à la source')
     expect(page).not_to have_content('Thème : Air - odeurs')
     expect(page).to have_selector '.btn-secondary', text: 'Grouper par arrêté'
@@ -248,7 +246,8 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(page).to have_content('Certains arrêtés ministériels dont sont issues')
     click_link('Grouper par thème')
 
-    click_link('Télécharger la fiche')
+    # javascript way for `find('#btn-fiche-inspection').click`
+    execute_script("document.querySelector('#btn-fiche-inspection').click();")
     expect(DownloadHelpers.download_content('fiche_inspection.odt')).to have_content 'Air - odeurs'
     expect(DownloadHelpers.download_content('fiche_inspection.odt')).not_to have_content 'Dispositions générales'
 
@@ -267,7 +266,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
       break if index == 3
     end
 
-    expect(page).to have_selector '.counter', text: '4', wait: 10
+    expect(page).to have_selector '.counter', text: '4'
     expect(Prescription.count).to eq 4
     expect(Prescription.last.topic).to eq 'BRUIT_VIBRATIONS'
 
@@ -278,9 +277,9 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(table.alinea_id).to eq 'FB8Fff10c1Ab_1'
 
     # Open recap
-    find(class: 'circle-fixed-button').click(wait: 4)
+    find(class: 'circle-fixed-button').click
 
-    expect(page).to have_content("Fiche d'inspection")
+    expect(page).to have_content('Recueil de prescriptions')
     expect(page).to have_content('Niveau de bruit ambiant')
     expect(page).to have_content('Niveau de bruit ambiant')
 
@@ -290,7 +289,8 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(find('#modalPrescriptions')).to have_selector 'th', count: 3
     expect(find('#modalPrescriptions')).to have_selector 'td', count: 6
 
-    click_link('Télécharger la fiche')
+    # javascript way for `find('#btn-fiche-inspection').click`
+    execute_script("document.querySelector('#btn-fiche-inspection').click();")
     # Expect download to have a table in addition to the base table (so 2 table tags)
     expect(DownloadHelpers.raw_download_content('fiche_inspection.odt').split('<table:table ').length - 1).to eq 2
   end
@@ -308,7 +308,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     expect(page).to have_selector '.counter', text: '2'
     expect(Prescription.count).to eq 2
-    find(class: 'circle-fixed-button').click(wait: 4)
+    find(class: 'circle-fixed-button').click
 
     click_link('Télécharger le modèle GUN')
     # Expect download to have content

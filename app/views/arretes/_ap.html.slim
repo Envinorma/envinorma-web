@@ -1,7 +1,3 @@
-ruby:
-  placeholder = \
-    'ex: L\'exploitant doit s\'assurer, par avance, de la mise à '\
-    'disposition rapide des moyens de lutte contre l\'incendie.'
 section id="anchor_ap_#{ap.id}" class='anchor content_not_for_print'
   .row.pt-4
     .col-12.js-alert-topic-ap.d-none
@@ -28,7 +24,7 @@ section id="anchor_ap_#{ap.id}" class='anchor content_not_for_print'
               abbr title='obligatoire' *
             = f.input :content,
                       as: :text,
-                      placeholder: placeholder, label: false,
+                      placeholder: t('content_ap_placeholder'), label: false,
                       hint: 'Le copier-coller est possible depuis le PDF'
 
           = f.hidden_field :text_reference, value: ap.short_title

@@ -34,6 +34,12 @@ html
       | gtag('config', 'G-WEL02MMPT6');
 
   body
+    - if ENV['HEROKU_APP_NAME'] == 'envinorma-staging-1'
+      .alert.alert-danger.alert-dismissable.alert-staging
+        = "Sur staging, seuls les 20 premiers alinéas de chaque arrêté ministériel sont sélectionnables, "\
+          "pour ne pas surcharger la base de données et passer sur une version payante d'Heroku."
+        button type="button" class="close" data-dismiss="alert" aria-label="Close"
+          span aria-hidden="true" &times;
     .spinner.active
       .icon-loader
     = render 'shared/header'

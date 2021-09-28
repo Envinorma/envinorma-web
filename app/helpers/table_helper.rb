@@ -24,4 +24,12 @@ module TableHelper
       end
     end
   end
+
+  def create_alinea_content(alinea)
+    return alinea.text if alinea.text.present?
+
+    return create_table(alinea.table) if alinea.table.present?
+
+    ''
+  end
 end

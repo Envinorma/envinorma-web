@@ -3,8 +3,6 @@
 # rubocop:disable Metrics/ModuleLength
 module Parametrization
   module Warnings
-    include OpenStructHelper
-
     def inapplicability_warning(inapplicability)
       prefix = inapplicability.alineas.blank? ? 'Cette section est inapplicable' : 'Certains alinéas sont inapplicables'
       "#{prefix} car #{human_condition(inapplicability.condition)}."

@@ -5,7 +5,7 @@ module FeatureHelper
     visit root_path
     fill_in('autocomplete', with: 'EVA INDUST')
     click_link('0065.06351 | EVA INDUSTRIES - 93600 AULNAY SOUS BOIS')
-    click_link("Voir les prescriptions pour générer une fiche d'inspection")
+    click_link('Voir les prescriptions')
   end
 end
 

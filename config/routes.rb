@@ -10,6 +10,7 @@ Rails.application.routes.draw do
     delete '/prescriptions', to: 'prescriptions#destroy_all', as: 'destroy_all'
     post '/prescriptions/from_ap', to: 'prescriptions#create_from_ap', as: 'create_from_ap'
     post '/prescriptions/from_am', to: 'prescriptions#create_or_delete_from_am', as: 'create_or_delete_from_am'
+    patch '/prescriptions/from_am', to: 'prescriptions#create_or_delete_from_am'
     get '/prescriptions/toggle_grouping', to: 'prescriptions#toggle_grouping', as: 'toggle_grouping'
   end
   get '/installations/new', to: 'installations#new', as: 'new'
