@@ -6544,18 +6544,18 @@
                           "conditions": [
                             {
                               "parameter": {
-                                "id": "rubrique",
-                                "type": "RUBRIQUE"
-                              },
-                              "target": "3610",
-                              "type": "EQUAL"
-                            },
-                            {
-                              "parameter": {
                                 "id": "alinea",
                                 "type": "STRING"
                               },
                               "target": "a",
+                              "type": "EQUAL"
+                            },
+                            {
+                              "parameter": {
+                                "id": "rubrique",
+                                "type": "RUBRIQUE"
+                              },
+                              "target": "3610",
                               "type": "EQUAL"
                             }
                           ],
@@ -6569,18 +6569,18 @@
                           "conditions": [
                             {
                               "parameter": {
-                                "id": "rubrique",
-                                "type": "RUBRIQUE"
-                              },
-                              "target": "3610",
-                              "type": "EQUAL"
-                            },
-                            {
-                              "parameter": {
                                 "id": "alinea",
                                 "type": "STRING"
                               },
                               "target": "b",
+                              "type": "EQUAL"
+                            },
+                            {
+                              "parameter": {
+                                "id": "rubrique",
+                                "type": "RUBRIQUE"
+                              },
+                              "target": "3610",
                               "type": "EQUAL"
                             }
                           ],
