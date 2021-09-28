@@ -10,6 +10,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     FactoryBot.create(:classement, :classement_4801_D, installation: installation_eva_industries)
     FactoryBot.create(:classement, :classement_2515_D, installation: installation_eva_industries)
     FactoryBot.create(:am, :classement_2521_E)
+    AlineaManager.recreate
     FactoryBot.create(:ap, installation: installation_eva_industries)
 
     installation_sepanor = FactoryBot.create(:installation, name: 'SEPANOR', s3ic_id: '0065.06067', zipcode: '95066',
@@ -31,7 +32,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     page.find('#modalPrescriptions', visible: :hidden)
 
     # Create prescriptions using checkbox select_all
-    find('.select_all', match: :first).click(wait: 4)
+    find('.select_all', match: :first).click
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
 
     expect(page).not_to have_selector '#prescriptions_recap h6', text: 'AM - 09/04/19 - 2521 E'
