@@ -11,12 +11,10 @@ class PrescriptionsController < ApplicationController
   end
 
   def create_or_delete_from_am
-    # Delete all prescriptions from alinea
+    # Delete all prescriptions belonging to the section
     section_id = params[:installation][:section_id]
     am_ref = params[:installation][:am_ref]
-    @user.prescriptions_for(@installation).where.not(from_am_id: nil).select do |prescription|
-      prescription.destroy if prescription.alinea_id.start_with?(section_id)
-    end
+    @user.prescriptions_for(@installation).where('alinea_id LIKE :prefix', prefix: "#{section_id}%").delete_all
 
     # Create prescriptions from params
     prescriptions_indexes = extract_checked_indices(params, section_id)
@@ -29,6 +27,8 @@ class PrescriptionsController < ApplicationController
   end
 
   def extract_checked_indices(params, section_id)
+    # in params, keys starting with prescription_checkbox_#{section_id}_ are
+    # followed by the index of the prescription for all the boxes that are checked
     params.keys.map do |key|
       next unless key.start_with?("prescription_checkbox_#{section_id}_")
 
@@ -103,8 +103,7 @@ class PrescriptionsController < ApplicationController
   end
 
   def prescription_params_ap
-    params.require(:prescription).permit(:reference, :content, :alinea_id, :from_am_id, :user_id, :text_reference,
-                                         :rank, :topic, :is_table, :name)
+    params.require(:prescription).permit(:reference, :content, :text_reference, :name)
           .merge!(installation_id: @installation.id, user_id: @user.id)
   end
 

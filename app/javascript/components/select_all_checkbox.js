@@ -37,7 +37,7 @@ const updateStateChildCheckboxes = (event) => {
     }
   });
   //Dispatch click on select_all checkbox to add_prescriptions.js
-  var evt = new CustomEvent("StateSelectAllCheckbox", {detail: event});
+  var evt = new CustomEvent('selectAllCheckboxAndChildrenUpdated', { detail: event });
   window.dispatchEvent(evt);
 };
 

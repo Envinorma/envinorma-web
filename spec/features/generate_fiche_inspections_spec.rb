@@ -40,18 +40,18 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(Prescription.count).to eq 5
 
     # Delete prescriptions using checkbox select_all
-    find('.select_all', match: :first).click(wait: 4)
+    find('.select_all', match: :first).click
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: false)
     expect(page).to have_selector '.counter', text: '0'
     expect(Prescription.count).to eq 0
 
-    find('.select_all', match: :first).click(wait: 4)
+    find('.select_all', match: :first).click
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
     expect(page).to have_selector '.counter', text: '5'
     expect(Prescription.count).to eq 5
 
     # Create prescriptions from a row in a table
-    find('label', text: '500 mg/m3').click(wait: 4)
+    find('label', text: '500 mg/m3').click
     expect(page).to have_selector '.counter', text: '6'
     expect(Prescription.count).to eq 6
 
@@ -131,7 +131,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
                          text_reference: 'text_ref other user')
 
     # Create a prescription from a row in a table
-    find('label', text: '500 mg/m3').click(wait: 4)
+    find('label', text: '500 mg/m3').click
     expect(page).to have_selector '.counter', text: '1'
     expect(Prescription.count).to eq 2
 
@@ -139,7 +139,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(Prescription.first.installation_id).to eq Prescription.last.installation_id
 
     # Open modal
-    click_on(class: 'circle-fixed-button', wait: 5)
+    click_on(class: 'circle-fixed-button')
 
     # Generate Fiche d'inspection
     click_link('Télécharger la fiche')
@@ -151,7 +151,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     visit_eva_industries_prescriptions_page
 
     # Create prescriptions using checkbox select_all
-    find('.select_all', match: :first).click(wait: 4)
+    find('.select_all', match: :first).click
     expect(page).to have_field('prescription_checkbox_941cf0d1bA08_0', checked: true)
     expect(page).to have_selector '.counter', text: '5'
     expect(Prescription.count).to eq 5
@@ -210,7 +210,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     click_button('Air - odeurs')
     expect(page).to have_content("Chapitre VI : Emissions dans l'air")
     find('.alineas_checkbox', match: :first).click
-    expect(page).to have_selector '.counter', text: '1', wait: 10
+    expect(page).to have_selector '.counter', text: '1'
     expect(Prescription.count).to eq 1
     expect(Prescription.last.topic).to eq 'AIR_ODEURS'
 
@@ -228,7 +228,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(page).to have_selector '.counter', text: '3'
     expect(Prescription.count).to eq 3
 
-    find(class: 'circle-fixed-button').click(wait: 4)
+    find(class: 'circle-fixed-button').click
 
     expect(page).to have_content("Fiche d'inspection")
     expect(page).to have_content('Les poussières, gaz polluants ou odeurs sont captés à la source')
@@ -268,7 +268,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
       break if index == 3
     end
 
-    expect(page).to have_selector '.counter', text: '4', wait: 10
+    expect(page).to have_selector '.counter', text: '4'
     expect(Prescription.count).to eq 4
     expect(Prescription.last.topic).to eq 'BRUIT_VIBRATIONS'
 
@@ -279,7 +279,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(table.alinea_id).to eq 'FB8Fff10c1Ab_1'
 
     # Open recap
-    find(class: 'circle-fixed-button').click(wait: 4)
+    find(class: 'circle-fixed-button').click
 
     expect(page).to have_content("Fiche d'inspection")
     expect(page).to have_content('Niveau de bruit ambiant')
@@ -309,7 +309,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     expect(page).to have_selector '.counter', text: '2'
     expect(Prescription.count).to eq 2
-    find(class: 'circle-fixed-button').click(wait: 4)
+    find(class: 'circle-fixed-button').click
 
     click_link('Télécharger le modèle GUN')
     # Expect download to have content

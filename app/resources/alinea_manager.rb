@@ -45,7 +45,7 @@ class AlineaManager
     section_hash.merge(
       index_in_section: index_in_section,
       content: extract_prescription_content(alinea),
-      is_table: alinea.text.blank? && alinea.table.present?
+      is_table: (alinea.text.blank? && alinea.table.present?) || false
     )
   end
 
