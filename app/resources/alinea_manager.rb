@@ -21,6 +21,7 @@ class AlineaManager
       create_hashes_from_am_section(section, index.to_s, arrete_ministeriel.id, nil)
     end.flatten
     hashes.each { |hash| AlineaStore.new(hash).validate! }
+    hashes = hashes[0..20] if ENV['HEROKU_APP_NAME'] == 'envinorma-staging-1'
     AlineaStore.insert_all(hashes) # rubocop:disable Rails/SkipsModelValidations
   end
 
