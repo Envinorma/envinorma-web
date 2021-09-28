@@ -11,21 +11,49 @@ class PrescriptionsController < ApplicationController
   end
 
   def create_or_delete_from_am
-    checkbox_key = "prescription_checkbox_#{params[:prescription][:alinea_id]}"
-    checkbox_checked = params[checkbox_key].present?
+    # Delete all prescriptions belonging to the section
+    section_id = params[:installation][:section_id]
+    am_ref = params[:installation][:am_ref]
+    @user.prescriptions_for(@installation).where('alinea_id LIKE :prefix', prefix: "#{section_id}%").delete_all
 
-    if checkbox_checked
-      Prescription.create(prescription_params)
-    else
-      @user.prescriptions_for(@installation).find_by(alinea_id:
-      params[:prescription][:alinea_id]).destroy
+    # Create prescriptions from params
+    prescriptions_indexes = extract_checked_indices(params, section_id)
+
+    AlineaStore.where(section_id: section_id).where(index_in_section: prescriptions_indexes).each do |alinea|
+      prescription_from_alinea(alinea, am_ref)
     end
 
     render_prescriptions
   end
 
+  def extract_checked_indices(params, section_id)
+    # in params, keys starting with prescription_checkbox_#{section_id}_ are
+    # followed by the index of the prescription for all the boxes that are checked
+    params.keys.map do |key|
+      next unless key.start_with?("prescription_checkbox_#{section_id}_")
+
+      key.gsub("prescription_checkbox_#{section_id}_", '')
+    end
+  end
+
+  def prescription_from_alinea(alinea, am_ref)
+    Prescription.create!(
+      reference: alinea.section_reference,
+      content: alinea.content,
+      alinea_id: "#{alinea.section_id}_#{alinea.index_in_section}",
+      from_am_id: alinea.am_id,
+      user_id: @user.id,
+      text_reference: am_ref,
+      rank: "#{alinea.section_rank}.#{alinea.index_in_section}",
+      installation_id: @installation.id,
+      topic: alinea.topic,
+      is_table: alinea.is_table,
+      name: alinea.section_name
+    )
+  end
+
   def create_from_ap
-    prescription_hash = prescription_params
+    prescription_hash = prescription_params_ap
     prescription_hash[:topic] = TopicHelper::AUCUN
     if prescription_hash[:content].length.zero? || prescription_hash[:reference].length.zero?
       @message = 'Les champs contenu et référence ne doivent pas être vides.'
@@ -74,9 +102,8 @@ class PrescriptionsController < ApplicationController
     @installation = Installation.find(params[:installation_id])
   end
 
-  def prescription_params
-    params.require(:prescription).permit(:reference, :content, :alinea_id, :from_am_id, :user_id, :text_reference,
-                                         :rank, :topic, :is_table, :name)
+  def prescription_params_ap
+    params.require(:prescription).permit(:reference, :content, :text_reference, :name)
           .merge!(installation_id: @installation.id, user_id: @user.id)
   end
 

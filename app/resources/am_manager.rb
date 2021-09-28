@@ -7,6 +7,8 @@ class AMManager
     ams_ids_in_db = fetch_existing_am_ids
     recreate(ams_to_seed, ams_ids_in_db)
     Rails.logger.info("#{AM.count}/#{ams_files.length} ams are in db.")
+
+    AlineaManager.recreate
   end
 
   def self.initialize_ams(ams_files)

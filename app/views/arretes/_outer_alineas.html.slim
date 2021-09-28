@@ -1,44 +1,23 @@
-ruby:
-  def extract_prescription_content(alinea)
-    return alinea.text if alinea.text.present?
+- section_id = section.id
+= simple_form_for @installation,
+  url: installation_create_or_delete_from_am_path(@installation),
+  html: { id: "alinea_checkbox_form_#{section_id}" },
+  remote: true do |f|
 
-    return open_struct_to_hash(alinea.table).to_json if alinea.table.present?
+  = f.hidden_field :section_id, value: section_id
+  = f.hidden_field :am_ref, value: am_ref
 
-    ''
-  end
-
-  def create_alinea_content(alinea)
-    return alinea.text if alinea.text.present?
-
-    return create_table(alinea.table) if alinea.table.present?
-
-    ''
-  end
-
-- suffix = modification ? '_modif' : ''
-
-- subsection.outer_alineas.each_with_index do |alinea, alinea_index|
-  - alinea_id = "#{subsection_id}_#{alinea_index}#{suffix}"
-  .form-group.row
-    .col-sm-12
-      = simple_form_for @prescription,
-        url: installation_create_or_delete_from_am_path(@installation, @prescription),
-        html: { id: "alinea_checkbox_form_#{alinea_id}" }, remote: true do |f|
-        .form-check.checkbox-custom
-          = check_box_tag "prescription_checkbox_#{alinea_id}",
-            '1', prescription_checked?(@alinea_ids, alinea_id),
-            class: "form-check-input select_all_#{subsection_id}#{suffix} alineas_checkbox",
-            data: { alinea_id: alinea_id }
-          / alinea is active except if it is explicitly marked as active: false
-          - class_name = alinea.active.nil? || alinea.active ? '' : 'inactive'
-          = label_tag "prescription_checkbox_#{alinea_id}", class: class_name
-            - create_alinea_content(alinea)
-          = f.hidden_field :content, value: extract_prescription_content(alinea), namespace: alinea_id
-          = f.hidden_field :reference, value: section_ref, namespace: alinea_id
-          = f.hidden_field :name, value: section_name, namespace: alinea_id
-          = f.hidden_field :alinea_id, value: alinea_id, namespace: alinea_id
-          = f.hidden_field :text_reference, value: am_ref, namespace: alinea_id
-          = f.hidden_field :rank, value: "#{subsection_rank}.#{alinea_index}", namespace: alinea_id
-          = f.hidden_field :from_am_id, value: am_id, namespace: alinea_id
-          = f.hidden_field :topic, value: topic, namespace: alinea_id
-          = f.hidden_field :is_table, value: alinea.text.blank? && alinea.table.present?, namespace: alinea_id
+  - section.outer_alineas.each_with_index do |alinea, alinea_index|
+    - alinea_id = "#{section_id}_#{alinea_index}"
+    .form-group.row
+      .col-sm-12
+        = f.simple_fields_for :prescriptions
+          .form-check.checkbox-custom
+            = check_box_tag "prescription_checkbox_#{alinea_id}",
+              '1', prescription_checked?(@alinea_ids, alinea_id),
+              class: "form-check-input select_all_#{section_id} alineas_checkbox",
+              data: { alinea_id: alinea_id, form_id: section_id }
+            / alinea is active except if it is explicitly marked as active: false
+            - class_name = alinea.active.nil? || alinea.active ? '' : 'inactive'
+            = label_tag "prescription_checkbox_#{alinea_id}", class: class_name
+              - create_alinea_content(alinea)

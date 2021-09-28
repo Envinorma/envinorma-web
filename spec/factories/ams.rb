@@ -47,6 +47,21 @@ FactoryBot.define do
       applicability { am['applicability'] }
     end
 
+    trait :with_nested_sections do
+      path = Rails.root.join('spec/fixtures/ams/am_with_nested_sections.json')
+      am = JSON.parse(File.read(path))
+      data { { 'sections' => am['sections'] } }
+      cid { am['id'] }
+      is_transverse { am['is_transverse'] }
+      nickname { '' }
+      date_of_signature { am['date_of_signature'].to_date }
+      title { am.dig('title', 'text') }
+      aida_url { am['aida_url'] }
+      legifrance_url { am['legifrance_url'] }
+      classements_with_alineas { am['classements_with_alineas'] }
+      applicability { am['applicability'] }
+    end
+
     trait :with_volume_inapplicability do
       path = Rails.root.join('spec/fixtures/ams/am_with_volume_inapplicability.json')
       am = JSON.parse(File.read(path))
