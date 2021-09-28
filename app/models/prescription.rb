@@ -64,7 +64,7 @@ class Prescription < ApplicationRecord
     return nil unless reference
 
     number = reference
-    %w[article annexe].each do |prefix|
+    %w[articles annexes article annexe].each do |prefix|
       number = number[prefix.size..].strip if number.downcase.starts_with?(prefix)
     end
     number

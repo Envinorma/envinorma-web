@@ -388,20 +388,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -445,20 +445,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -574,20 +574,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -670,20 +670,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -751,20 +751,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -868,20 +868,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -925,20 +925,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -977,20 +977,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1034,20 +1034,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1060,20 +1060,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1123,20 +1123,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1179,20 +1179,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1236,20 +1236,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1288,20 +1288,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1345,20 +1345,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1397,20 +1397,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1460,20 +1460,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1517,20 +1517,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1608,20 +1608,20 @@
               "conditions": [
                 {
                   "parameter": {
+                    "id": "rubrique",
+                    "type": "RUBRIQUE"
+                  },
+                  "target": "1735",
+                  "type": "EQUAL"
+                },
+                {
+                  "parameter": {
                     "id": "date-d-autorisation",
                     "type": "DATE"
                   },
                   "strict": true,
                   "target": "2016-01-01",
                   "type": "LITTLER"
-                },
-                {
-                  "parameter": {
-                    "id": "rubrique",
-                    "type": "RUBRIQUE"
-                  },
-                  "target": "1735",
-                  "type": "EQUAL"
                 }
               ],
               "type": "AND"
@@ -1696,20 +1696,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1779,20 +1779,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -1910,20 +1910,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -2070,20 +2070,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "1735",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-autorisation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2016-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "1735",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -2122,20 +2122,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2797",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-autorisation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2016-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2797",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -2238,20 +2238,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -2324,20 +2324,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -2384,20 +2384,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -2496,20 +2496,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "1735",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-autorisation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2016-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "1735",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -2553,20 +2553,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "1735",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-autorisation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2016-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "1735",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -2605,20 +2605,20 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2797",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-autorisation",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2016-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2797",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -2705,20 +2705,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "1735",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "1735",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -2902,20 +2902,20 @@
               "conditions": [
                 {
                   "parameter": {
+                    "id": "rubrique",
+                    "type": "RUBRIQUE"
+                  },
+                  "target": "1735",
+                  "type": "EQUAL"
+                },
+                {
+                  "parameter": {
                     "id": "date-d-autorisation",
                     "type": "DATE"
                   },
                   "strict": true,
                   "target": "2016-01-01",
                   "type": "LITTLER"
-                },
-                {
-                  "parameter": {
-                    "id": "rubrique",
-                    "type": "RUBRIQUE"
-                  },
-                  "target": "1735",
-                  "type": "EQUAL"
                 }
               ],
               "type": "AND"
@@ -2981,20 +2981,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3172,20 +3172,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3258,20 +3258,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3359,20 +3359,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3442,20 +3442,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3543,20 +3543,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"
@@ -3650,20 +3650,20 @@
                   "conditions": [
                     {
                       "parameter": {
+                        "id": "rubrique",
+                        "type": "RUBRIQUE"
+                      },
+                      "target": "2797",
+                      "type": "EQUAL"
+                    },
+                    {
+                      "parameter": {
                         "id": "date-d-autorisation",
                         "type": "DATE"
                       },
                       "strict": true,
                       "target": "2016-01-01",
                       "type": "LITTLER"
-                    },
-                    {
-                      "parameter": {
-                        "id": "rubrique",
-                        "type": "RUBRIQUE"
-                      },
-                      "target": "2797",
-                      "type": "EQUAL"
                     }
                   ],
                   "type": "AND"

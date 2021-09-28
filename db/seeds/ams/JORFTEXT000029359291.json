@@ -685,6 +685,14 @@
                             "id": "alinea",
                             "type": "STRING"
                           },
+                          "target": "3-2",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
                           "target": "3-2-a",
                           "type": "EQUAL"
                         },
@@ -696,14 +704,6 @@
                           "strict": true,
                           "target": "2015-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "alinea",
-                            "type": "STRING"
-                          },
-                          "target": "3-2",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "OR"
@@ -817,7 +817,7 @@
                             "id": "alinea",
                             "type": "STRING"
                           },
-                          "target": "2-b",
+                          "target": "2-a",
                           "type": "EQUAL"
                         },
                         {
@@ -825,7 +825,7 @@
                             "id": "alinea",
                             "type": "STRING"
                           },
-                          "target": "2-a",
+                          "target": "2-b",
                           "type": "EQUAL"
                         }
                       ],
@@ -942,6 +942,14 @@
                             "id": "alinea",
                             "type": "STRING"
                           },
+                          "target": "1-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
                           "target": "3-1-a",
                           "type": "EQUAL"
                         },
@@ -951,14 +959,6 @@
                             "type": "STRING"
                           },
                           "target": "3-1-b",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
-                            "id": "alinea",
-                            "type": "STRING"
-                          },
-                          "target": "1-b",
                           "type": "EQUAL"
                         },
                         {
@@ -1230,6 +1230,14 @@
                             "id": "alinea",
                             "type": "STRING"
                           },
+                          "target": "1-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
                           "target": "3-1-a",
                           "type": "EQUAL"
                         },
@@ -1239,14 +1247,6 @@
                             "type": "STRING"
                           },
                           "target": "3-1-b",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
-                            "id": "alinea",
-                            "type": "STRING"
-                          },
-                          "target": "1-b",
                           "type": "EQUAL"
                         },
                         {
@@ -1380,7 +1380,7 @@
                             "id": "alinea",
                             "type": "STRING"
                           },
-                          "target": "3-1-b",
+                          "target": "1-b",
                           "type": "EQUAL"
                         },
                         {
@@ -1388,7 +1388,7 @@
                             "id": "alinea",
                             "type": "STRING"
                           },
-                          "target": "1-b",
+                          "target": "2-b",
                           "type": "EQUAL"
                         },
                         {
@@ -1404,7 +1404,7 @@
                             "id": "alinea",
                             "type": "STRING"
                           },
-                          "target": "3-2",
+                          "target": "3-1-b",
                           "type": "EQUAL"
                         },
                         {
@@ -1412,7 +1412,7 @@
                             "id": "alinea",
                             "type": "STRING"
                           },
-                          "target": "2-b",
+                          "target": "3-2",
                           "type": "EQUAL"
                         }
                       ],
@@ -1523,7 +1523,15 @@
                             "id": "alinea",
                             "type": "STRING"
                           },
-                          "target": "3-1-b",
+                          "target": "2-a",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "2-b",
                           "type": "EQUAL"
                         },
                         {
@@ -1539,23 +1547,15 @@
                             "id": "alinea",
                             "type": "STRING"
                           },
+                          "target": "3-1-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
                           "target": "3-2",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
-                            "id": "alinea",
-                            "type": "STRING"
-                          },
-                          "target": "2-a",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
-                            "id": "alinea",
-                            "type": "STRING"
-                          },
-                          "target": "2-b",
                           "type": "EQUAL"
                         }
                       ],
@@ -1609,6 +1609,14 @@
                             "id": "alinea",
                             "type": "STRING"
                           },
+                          "target": "1-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
                           "target": "3-1-a",
                           "type": "EQUAL"
                         },
@@ -1618,14 +1626,6 @@
                             "type": "STRING"
                           },
                           "target": "3-1-b",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
-                            "id": "alinea",
-                            "type": "STRING"
-                          },
-                          "target": "1-b",
                           "type": "EQUAL"
                         },
                         {

@@ -340,20 +340,20 @@
                         },
                         {
                           "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2101",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-enregistrement",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2014-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2101",
-                          "type": "EQUAL"
                         },
                         {
                           "parameter": {
@@ -401,6 +401,22 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "2-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2101",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "quantite-rubrique",
                             "type": "REAL_NUMBER"
                           },
@@ -416,22 +432,6 @@
                           "strict": true,
                           "target": "2016-12-07",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "alinea",
-                            "type": "STRING"
-                          },
-                          "target": "2-b",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2101",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -452,20 +452,20 @@
                         },
                         {
                           "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2101",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-enregistrement",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2016-12-07",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2101",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -517,20 +517,20 @@
                         },
                         {
                           "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2101",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-enregistrement",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2014-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2101",
-                          "type": "EQUAL"
                         },
                         {
                           "parameter": {
@@ -578,6 +578,22 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "2-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2101",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "quantite-rubrique",
                             "type": "REAL_NUMBER"
                           },
@@ -593,22 +609,6 @@
                           "strict": true,
                           "target": "2016-12-07",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "alinea",
-                            "type": "STRING"
-                          },
-                          "target": "2-b",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2101",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -629,20 +629,20 @@
                         },
                         {
                           "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2101",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-enregistrement",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2016-12-07",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2101",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -703,20 +703,20 @@
                         },
                         {
                           "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2101",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-enregistrement",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2014-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2101",
-                          "type": "EQUAL"
                         },
                         {
                           "parameter": {
@@ -764,6 +764,22 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "2-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2101",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "quantite-rubrique",
                             "type": "REAL_NUMBER"
                           },
@@ -779,22 +795,6 @@
                           "strict": true,
                           "target": "2016-12-07",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "alinea",
-                            "type": "STRING"
-                          },
-                          "target": "2-b",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2101",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -815,20 +815,20 @@
                         },
                         {
                           "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2101",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-enregistrement",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2016-12-07",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2101",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -878,12 +878,11 @@
                       "conditions": [
                         {
                           "parameter": {
-                            "id": "date-d-enregistrement",
-                            "type": "DATE"
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
                           },
-                          "strict": false,
-                          "target": "2015-10-02",
-                          "type": "GREATER"
+                          "target": "2101",
+                          "type": "EQUAL"
                         },
                         {
                           "parameter": {
@@ -895,11 +894,12 @@
                         },
                         {
                           "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
+                            "id": "date-d-enregistrement",
+                            "type": "DATE"
                           },
-                          "target": "2101",
-                          "type": "EQUAL"
+                          "strict": false,
+                          "target": "2015-10-02",
+                          "type": "GREATER"
                         }
                       ],
                       "type": "OR"
@@ -1409,20 +1409,20 @@
                         },
                         {
                           "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2101",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-enregistrement",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2014-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2101",
-                          "type": "EQUAL"
                         },
                         {
                           "parameter": {
@@ -1444,6 +1444,22 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "2-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2101",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "quantite-rubrique",
                             "type": "REAL_NUMBER"
                           },
@@ -1459,22 +1475,6 @@
                           "strict": true,
                           "target": "2016-12-07",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "alinea",
-                            "type": "STRING"
-                          },
-                          "target": "2-b",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2101",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -1773,20 +1773,20 @@
                         },
                         {
                           "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2101",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-enregistrement",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2014-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2101",
-                          "type": "EQUAL"
                         },
                         {
                           "parameter": {
@@ -1808,6 +1808,22 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "2-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2101",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "quantite-rubrique",
                             "type": "REAL_NUMBER"
                           },
@@ -1823,22 +1839,6 @@
                           "strict": true,
                           "target": "2016-12-07",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "alinea",
-                            "type": "STRING"
-                          },
-                          "target": "2-b",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2101",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
@@ -3396,20 +3396,20 @@
                         },
                         {
                           "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2101",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "date-d-enregistrement",
                             "type": "DATE"
                           },
                           "strict": true,
                           "target": "2014-01-01",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2101",
-                          "type": "EQUAL"
                         },
                         {
                           "parameter": {
@@ -3434,6 +3434,22 @@
                       "conditions": [
                         {
                           "parameter": {
+                            "id": "alinea",
+                            "type": "STRING"
+                          },
+                          "target": "2-b",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
+                            "id": "rubrique",
+                            "type": "RUBRIQUE"
+                          },
+                          "target": "2101",
+                          "type": "EQUAL"
+                        },
+                        {
+                          "parameter": {
                             "id": "quantite-rubrique",
                             "type": "REAL_NUMBER"
                           },
@@ -3449,22 +3465,6 @@
                           "strict": true,
                           "target": "2016-12-07",
                           "type": "LITTLER"
-                        },
-                        {
-                          "parameter": {
-                            "id": "alinea",
-                            "type": "STRING"
-                          },
-                          "target": "2-b",
-                          "type": "EQUAL"
-                        },
-                        {
-                          "parameter": {
-                            "id": "rubrique",
-                            "type": "RUBRIQUE"
-                          },
-                          "target": "2101",
-                          "type": "EQUAL"
                         }
                       ],
                       "type": "AND"
