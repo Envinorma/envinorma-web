@@ -85,7 +85,7 @@ module FicheInspectionHelper
 
   def prepare_gun_env_variables_mapping(prescriptions)
     prescription = prescriptions.first
-    content = prescriptions.map(&:human_readable_content).join("\n")
+    content = prescriptions.map(&:human_readable_content).join("\n\n")
     text_date = prescription.text_date
     {
       '[NOM]' => prescription.name.nil? ? '' : prescription.name.truncate(70),
