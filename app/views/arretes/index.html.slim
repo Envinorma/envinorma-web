@@ -91,5 +91,11 @@
 
         = render partial: './prescriptions/prescriptions_recap'
     .border-top.pt-3
-      = link_to 'Télécharger le modèle GUN', generate_fiche_gun_path, method: :post, class: 'btn btn-primary ml-2'
-      = link_to 'Télécharger les prescriptions (format .odt)', generate_fiche_inspection_path, method: :post, class: 'btn btn-link'
+      = link_to 'Télécharger le modèle GUN',
+                generate_fiche_gun_path,
+                method: :post,
+                class: 'btn btn-primary ml-2'
+      = link_to 'Télécharger les prescriptions (format .odt)',
+                generate_fiche_inspection_path,
+                method: :post,
+                class: 'btn btn-link'

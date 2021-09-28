@@ -25,7 +25,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     expect(page).to have_content('EVA INDUSTRIES')
     expect(page).to have_content('Houille, coke, lignite')
-    click_link("Voir les prescriptions pour générer une fiche d'inspection")
+    click_link('Voir les prescriptions')
 
     expect(page).to have_content('AM - 09/04/19')
     page.find('#modalPrescriptions', visible: :hidden)
@@ -161,7 +161,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     click_link("0065.06067 | SEPANOR - 95066 ST OUEN L'AUMONE")
 
     expect(page).to have_content('SEPANOR')
-    click_link("Voir les prescriptions pour générer une fiche d'inspection")
+    click_link('Voir les prescriptions')
 
     expect(page).to have_selector '.counter', text: '0'
     click_on(class: 'circle-fixed-button')
