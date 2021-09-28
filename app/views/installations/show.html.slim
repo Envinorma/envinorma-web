@@ -173,8 +173,8 @@
                     = " - #{ap.description}"
 
   - display_class_name = @ams.any? || @aps.any? ? '' : 'd-none'
-  = link_to "Voir les prescriptions pour générer une fiche d'inspection",
+  = link_to 'Voir les prescriptions',
     arretes_path(@installation),
-    data: { disable_with: "Voir les prescriptions pour générer une fiche d'inspection" },
+    data: { disable_with: 'Voir les prescriptions' },
     class: "btn btn-primary mb-4 btn-fixed-bottom #{display_class_name}",
     id: 'arretes_link_button'
