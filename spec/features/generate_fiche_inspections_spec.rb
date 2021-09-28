@@ -82,7 +82,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(page).to have_selector '.prescription', count: '8'
 
     # Generate Fiche d'inspection
-    click_link('Télécharger les prescriptions (format .odt)')
+    click_link('Télécharger les prescriptions')
     fiche_content = DownloadHelpers.download_content('fiche_inspection.odt')
     expect(fiche_content).to have_content "les dispositions du présent arrêté s'appliquent"
     expect(fiche_content).to have_content '500 mg/m3'
@@ -103,7 +103,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
 
     # Button is visible with small screens
     page.driver.browser.manage.window.resize_to(600, 600)
-    click_link('Télécharger les prescriptions (format .odt)')
+    click_link('Télécharger les prescriptions')
     page.driver.browser.manage.window.resize_to(1200, 800)
 
     # Delete all prescriptions from modal
@@ -141,7 +141,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     click_on(class: 'circle-fixed-button', wait: 5)
 
     # Generate Fiche d'inspection
-    click_link('Télécharger les prescriptions (format .odt)')
+    click_link('Télécharger les prescriptions')
     expect(DownloadHelpers.download_content('fiche_inspection.odt')).to have_content '500 mg/m3'
     expect(DownloadHelpers.download_content('fiche_inspection.odt')).not_to have_content 'other user'
   end
@@ -248,7 +248,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(page).to have_content('Certains arrêtés ministériels dont sont issues')
     click_link('Grouper par thème')
 
-    click_link('Télécharger les prescriptions (format .odt)')
+    click_link('Télécharger les prescriptions')
     expect(DownloadHelpers.download_content('fiche_inspection.odt')).to have_content 'Air - odeurs'
     expect(DownloadHelpers.download_content('fiche_inspection.odt')).not_to have_content 'Dispositions générales'
 
@@ -290,7 +290,7 @@ RSpec.describe 'Feature tests end to end', js: true, type: :feature do
     expect(find('#modalPrescriptions')).to have_selector 'th', count: 3
     expect(find('#modalPrescriptions')).to have_selector 'td', count: 6
 
-    click_link('Télécharger les prescriptions (format .odt)')
+    click_link('Télécharger les prescriptions')
     # Expect download to have a table in addition to the base table (so 2 table tags)
     expect(DownloadHelpers.raw_download_content('fiche_inspection.odt').split('<table:table ').length - 1).to eq 2
   end
