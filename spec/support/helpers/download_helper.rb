@@ -3,7 +3,7 @@
 require 'zip'
 
 module DownloadHelpers
-  TIMEOUT    = 3
+  TIMEOUT    = 5
   PATH       = Rails.root.join('tmp/downloads')
   OUTPUT_DIR = PATH.join('output')
 
