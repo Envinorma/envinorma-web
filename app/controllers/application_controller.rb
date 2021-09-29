@@ -9,6 +9,7 @@ class ApplicationController < ActionController::Base
   def set_user_if_needed
     if cookies[:user_id] && User.exists?(cookies[:user_id])
       @user = User.find(cookies[:user_id])
+      @user.update(updated_at: Time.zone.now) # update user's last visit
     else
       cookies.delete(:user_id)
     end
