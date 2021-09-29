@@ -2,10 +2,10 @@
 
 Envinorma facilite la préparation des inspections en simplifiant l'accès à la réglementation applicables aux industries non nucléaires en France ([les ICPE](https://fr.wikipedia.org/wiki/Installation_class%C3%A9e_pour_la_protection_de_l'environnement)).
 
-Ce projet a été lancé dans le cadre du programme [EIG](https://entrepreneur-interet-general.etalab.gouv.fr/).
+Ce projet a été lancé dans le cadre du programme [EIG](https://eig.etalab.gouv.fr/).
 
 #### Liens utiles :
-- [la page du projet](https://entrepreneur-interet-general.etalab.gouv.fr/defis/2020/envinorma.html)
+- [la page du projet](https://eig.etalab.gouv.fr/defis/envinorma/)
 - [la documentation technique](https://envinorma.github.io/)
 - [l'url de l'application](http://envinorma.herokuapp.com/)
 

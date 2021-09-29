@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-DataManager.seed_installations_and_associations(false)
+DataManager.seed_installations_and_associations(validate: false)
 DataManager.seed_ams(from_ovh: true)
 DataManager.seed_classement_references
 
