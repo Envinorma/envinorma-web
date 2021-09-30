@@ -3366,21 +3366,6 @@
                 "potential_inapplicabilities": [
                   {
                     "alineas": [
-                      10
-                    ],
-                    "condition": {
-                      "parameter": {
-                        "id": "date-d-enregistrement",
-                        "type": "DATE"
-                      },
-                      "strict": true,
-                      "target": "2018-01-01",
-                      "type": "LITTLER"
-                    },
-                    "subsections_are_inapplicable": true
-                  },
-                  {
-                    "alineas": [
                       8,
                       9
                     ],

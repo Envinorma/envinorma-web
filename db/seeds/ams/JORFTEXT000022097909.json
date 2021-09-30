@@ -3148,14 +3148,8 @@
                     "potential_inapplicabilities": [
                       {
                         "alineas": [
-                          2,
-                          3,
-                          4,
-                          5,
-                          6,
-                          7,
-                          8,
-                          9,
+                          0,
+                          1,
                           10,
                           11
                         ],
@@ -3172,48 +3166,10 @@
                       },
                       {
                         "alineas": [
-                          2,
-                          3,
-                          4,
-                          5,
-                          6,
-                          7,
-                          8,
-                          9,
+                          11,
                           10,
-                          11
-                        ],
-                        "condition": {
-                          "conditions": [
-                            {
-                              "parameter": {
-                                "id": "quantite-rubrique",
-                                "type": "REAL_NUMBER"
-                              },
-                              "strict": false,
-                              "target": 50000.0,
-                              "type": "GREATER"
-                            },
-                            {
-                              "left": "2010-04-17",
-                              "left_strict": false,
-                              "parameter": {
-                                "id": "date-d-enregistrement",
-                                "type": "DATE"
-                              },
-                              "right": "2021-01-01",
-                              "right_strict": true,
-                              "type": "RANGE"
-                            }
-                          ],
-                          "type": "AND"
-                        },
-                        "subsections_are_inapplicable": true
-                      },
-                      {
-                        "alineas": [
-                          0,
-                          1
+                          1,
+                          0
                         ],
                         "condition": {
                           "conditions": [
