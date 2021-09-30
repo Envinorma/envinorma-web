@@ -3,6 +3,8 @@ questions:
     partial : _utilisation
   - titre: Les établissements présents sur Envinorma
     partial : _etablissements
+  - titre: Les arrêtés ministériels
+    partial : _ams
   - titre: Les arrêtés préfectoraux
     partial: _aps
   - titre: Pour aller plus loin
