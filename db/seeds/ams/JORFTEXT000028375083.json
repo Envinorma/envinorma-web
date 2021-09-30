@@ -1,12 +1,26 @@
 {
   "aida_url": "https://aida.ineris.fr/consultation_document/28559",
   "applicability": {
-    "condition_of_inapplicability": null,
+    "condition_of_inapplicability": {
+      "parameter": {
+        "id": "date-d-declaration",
+        "type": "DATE"
+      },
+      "strict": true,
+      "target": "2005-07-01",
+      "type": "LITTLER"
+    },
     "warnings": []
   },
   "classements": [
     {
-      "alinea": null,
+      "alinea": "1-b",
+      "regime": "D",
+      "rubrique": "2921",
+      "state": "ACTIVE"
+    },
+    {
+      "alinea": "2",
       "regime": "D",
       "rubrique": "2921",
       "state": "ACTIVE"
@@ -14,7 +28,10 @@
   ],
   "classements_with_alineas": [
     {
-      "alineas": [],
+      "alineas": [
+        "1-b",
+        "2"
+      ],
       "regime": "D",
       "rubrique": "2921"
     }
@@ -24,7 +41,239 @@
   "is_transverse": false,
   "legifrance_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000028375083",
   "nickname": null,
-  "orphan_titles": null,
+  "orphan_titles": {
+    "02C86cf1f3Ef": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "5. Eau",
+      "5.3. Réseau de collecte",
+      "a) Il est interdit de rejeter les eaux résiduaires de l'installation dans le réseau d'eaux pluviales ;"
+    ],
+    "0bf220BAb584": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "3. Exploitation, entretien",
+      "3.7. Consignes d'exploitation",
+      "I. – Entretien préventif et surveillance de l'installation",
+      "1. Dispositions générales relatives à l'entretien préventif et à la surveillance de l'installation",
+      "c) Les procédures spécifiques suivantes sont également définies par l'exploitant :"
+    ],
+    "17017f1F96bC": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "3. Exploitation, entretien",
+      "3.7. Consignes d'exploitation",
+      "II. – Actions à mener en cas de prolifération de légionelles",
+      "3. Actions à mener si le dénombrement des Legionella pneumophila selon la norme",
+      "b) Si le dénombrement des Legionella pneumophila selon la norme NF T90-431 (version 2020) est à nouveau rendu impossible par la présence d'une flore interférente, l'exploitant procède sous une semaine à la recherche des causes de présence de flore interférente et à la mise en place d'actions curatives et correctives."
+    ],
+    "1DfbAf9f54fa": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "3. Exploitation, entretien",
+      "3.7. Consignes d'exploitation",
+      "II. – Actions à mener en cas de prolifération de légionelles",
+      "1. Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+      "f) Dans les six mois suivant l'incident, l'exploitant fait réaliser une vérification de l'installation par un organisme indépendant et compétent, telle que définie au point IV.1 du présent article ;"
+    ],
+    "3eaCdE2e736F": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "2. Implantation, aménagement",
+      "2.5. Accessibilité et conception",
+      "2.5.2. Conception",
+      "c) La tour est équipée d'un dispositif de limitation des entraînements vésiculaires en bon état de fonctionnement constituant un passage obligatoire du flux d'air potentiellement chargé de vésicules d'eau, immédiatement avant rejet."
+    ],
+    "49B4367Cdba5": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "3. Exploitation, entretien",
+      "3.7. Consignes d'exploitation",
+      "II. – Actions à mener en cas de prolifération de légionelles",
+      "1. Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+      "e) Un rapport global sur l'incident est transmis à l'inspection des installations classées dans les meilleurs délais et en tout état de cause ne dépassant pas deux mois à compter de la date de l'incident, c'est-à-dire la date du prélèvement dont le résultat d'analyse présente un dépassement du seuil de 100 000 UFC/L. Si le dépassement est intervenu dans une situation de cas groupés de légionelloses telle que décrite au point III du présent article, le délai de transmission du rapport est ramené à dix jours. Les plans d'entretien, de surveillance et l'analyse méthodique des risques actualisés sont joints au rapport d'incident ainsi que la fiche de la stratégie de traitement définie au point I. Le rapport précise et justifie l'ensemble des actions curatives et correctives mises en œuvre et programmées suite à cet incident ainsi que leur calendrier d'application."
+    ],
+    "4d91e81fc427": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "5. Eau",
+      "5.5. Valeurs limites de rejet",
+      "d) Polluants spécifiques : avant rejet dans le milieu naturel ou dans un réseau d'assainissement collectif muni ou non de station d'épuration :"
+    ],
+    "71f7C1b6dE4e": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "3. Exploitation, entretien",
+      "3.7. Consignes d'exploitation",
+      "I. – Entretien préventif et surveillance de l'installation",
+      "1. Dispositions générales relatives à l'entretien préventif et à la surveillance de l'installation",
+      "b) Les plans d'entretien et de surveillance visent à limiter le risque de prolifération et de dispersion des légionelles via la ou les tours. Ils ont notamment pour objectif de maintenir en permanence la concentration des Legionella pneumophila dans l'eau du circuit à un niveau inférieur à 1 000 unités formant colonies par litre d'eau. Ces plans concernent l'ensemble de l'installation, en particulier toutes les surfaces de l'installation en contact avec l'eau du circuit où pourrait se développer le biofilm. Ces plans sont mis en œuvre sous la responsabilité de l'exploitant."
+    ],
+    "74dDbD9D86f0": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "2. Implantation, aménagement",
+      "2.5. Accessibilité et conception",
+      "2.5.2. Conception",
+      "d) Pour tout dévésiculeur installé à partir du 1er juillet 2005, le fournisseur du dispositif de limitation des entraînements vésiculaires atteste un taux d'entraînement vésiculaire inférieur à 0,01 % du débit d'eau en circulation dans les conditions de fonctionnement nominales de l'installation."
+    ],
+    "74ed1b5bdDfE": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "5. Eau",
+      "5.3. Réseau de collecte",
+      "c) Les points de rejet des eaux résiduaires sont en nombre aussi réduit que possible."
+    ],
+    "8A65FF6D04BE": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "3. Exploitation, entretien",
+      "3.7. Consignes d'exploitation",
+      "II. – Actions à mener en cas de prolifération de légionelles",
+      "2. Actions à mener si les résultats d'analyse selon la norme",
+      "c) Dans tous les cas, l'exploitant tient les résultats des mesures et des analyses de risques effectuées à la disposition de l'inspection des installations classées. Les dépassements sont consignés dans un tableau de suivi des dérives joint au carnet de suivi."
+    ],
+    "8DEa78Bfe12b": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "3. Exploitation, entretien",
+      "3.7. Consignes d'exploitation",
+      "I. – Entretien préventif et surveillance de l'installation",
+      "1. Dispositions générales relatives à l'entretien préventif et à la surveillance de l'installation",
+      "a) Une analyse méthodique des risques de prolifération et de dispersion des légionelles (AMR) est menée sur l'installation. Cette analyse consiste à identifier tous les facteurs de risques présents sur l'installation et les moyens de limiter ces risques. Certains facteurs de risques peuvent être supprimés par la mise en œuvre d'actions correctives. D'autres sont inévitables et doivent faire l'objet d'une gestion particulière, formalisée sous forme de procédures, rassemblées dans les plans d'entretien et de surveillance décrits au point b ci-dessous."
+    ],
+    "8afD1315d39E": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "3. Exploitation, entretien",
+      "3.7. Consignes d'exploitation",
+      "II. – Actions à mener en cas de prolifération de légionelles",
+      "1. Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+      "c) Dès réception des résultats de ce nouveau prélèvement, ceux-ci sont communiqués à l'inspection des installations classées."
+    ],
+    "AdC83Ba4D3df": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "2. Implantation, aménagement",
+      "2.5. Accessibilité et conception",
+      "2.5.2. Conception",
+      "f) Les équipements de refroidissement répondant à la norme NF E 38-424 sont considérés conformes aux dispositions de conception décrites au point 2.5.2. L'exploitant doit cependant examiner la conformité des parties de l'installation non couvertes par cette norme."
+    ],
+    "C10bFEB8a1Ae": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "3. Exploitation, entretien",
+      "3.7. Consignes d'exploitation",
+      "II. – Actions à mener en cas de prolifération de légionelles",
+      "3. Actions à mener si le dénombrement des Legionella pneumophila selon la norme",
+      "a) L'exploitant réalise immédiatement un nouveau prélèvement en vue de l'analyse en Legionella pneumophila selon la norme NF T90 431. Il procède ensuite à la mise en place d'actions curatives, afin d'assurer une concentration en Legionella pneumophila inférieure à 1 000 UFC/L dans l'eau du circuit."
+    ],
+    "D2596ff1D890": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "2. Implantation, aménagement",
+      "2.5. Accessibilité et conception",
+      "2.5.2. Conception",
+      "e) L'exploitant s'assure que le dispositif de limitation des entraînements vésiculaires équipant l'installation est bien adapté aux caractéristiques de l'installation (type de distributeurs d'eau, débit d'eau, débit d'air), afin de respecter cette condition en situation d'exploitation."
+    ],
+    "D6b69282D24A": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "2. Implantation, aménagement",
+      "2.1. Règles d'implantation",
+      "b) L'installation est implantée à une distance minimale de 8 mètres de toute ouverture sur un local occupé."
+    ],
+    "E54880BfEab6": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "2. Implantation, aménagement",
+      "2.5. Accessibilité et conception",
+      "2.5.2. Conception",
+      "b) L'exploitant dispose des plans de l'installation tenus à jour, afin de justifier des dispositions prévues ci-dessus."
+    ],
+    "adA37bDdAFAF": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "3. Exploitation, entretien",
+      "3.7. Consignes d'exploitation",
+      "II. – Actions à mener en cas de prolifération de légionelles",
+      "1. Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+      "b) A l'issue de la mise en place de ces actions curatives et correctives, l'exploitant en vérifie l'efficacité, en réalisant un nouveau prélèvement pour analyse de la concentration en Legionella pneumophila selon la norme"
+    ],
+    "b6dF8eC181cE": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "3. Exploitation, entretien",
+      "3.7. Consignes d'exploitation",
+      "II. – Actions à mener en cas de prolifération de légionelles",
+      "1. Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+      "g) Cas d'une installation pour laquelle l'arrêt immédiat de la dispersion d'eau par la ou les tours dans des conditions compatibles avec la sécurité du site et de l'outil de production est impossible."
+    ],
+    "c1C14d1b944D": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "2. Implantation, aménagement",
+      "2.5. Accessibilité et conception",
+      "2.5.2. Conception",
+      "a) L'installation est conçue pour faciliter la mise en œuvre des actions préventives, correctives ou curatives, et les prélèvements pour analyse microbiologiques et physico-chimiques. Elle est conçue de façon qu'il n'y ait pas de tronçons de canalisations constituant des bras morts. Elle est équipée d'un dispositif permettant la purge complète de l'eau du circuit."
+    ],
+    "d02A9bD5A496": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "5. Eau",
+      "5.3. Réseau de collecte",
+      "b) Les eaux résiduaires de l'installation sont évacuées dans les conditions prévues au point 5.5 ci-dessous ou éliminées dans un centre de traitement des déchets dans les conditions prévues au titre 7 ci-après ;"
+    ],
+    "d37fAD8A7BCe": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "3. Exploitation, entretien",
+      "3.7. Consignes d'exploitation",
+      "II. – Actions à mener en cas de prolifération de légionelles",
+      "4. En cas de dérives répétées, consécutives ou non, de la concentration en Legionella pneumophila au-delà de 1 000 UFC/L et a fortiori de 100 000 UFC/L, et sur proposition des installations classées, le préfet peut prescrire la réalisation d'un réexamen des différentes composantes permettant la prévention du risque légionellose, notamment conception de l'installation, état du circuit, stratégie de traitement de l'eau, analyse méthodique des risques, plan d'entretien et de surveillance, ou toute autre étude jugée nécessaire pour supprimer ces dérives répétées."
+    ],
+    "da8EaF0C97B0": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "2. Implantation, aménagement",
+      "2.1. Règles d'implantation",
+      "a) Les rejets d'air potentiellement chargé d'aérosols ne sont effectués ni au droit d'une prise d'air ni au droit d'ouvrants. Les points de rejets sont aménagés de façon à éviter l'aspiration de l'air chargé de gouttelettes dans les conduits de ventilation d'immeubles avoisinants ou les cours intérieures ;"
+    ],
+    "e1a2faabfeD4": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "3. Exploitation, entretien",
+      "3.7. Consignes d'exploitation",
+      "II. – Actions à mener en cas de prolifération de légionelles",
+      "3. Actions à mener si le dénombrement des Legionella pneumophila selon la norme",
+      "c) Suite à la mise en place de ces actions et pour s'assurer de leur efficacité, l'exploitant réalise une nouvelle analyse des légionelles selon la norme NF T90-431 (version 2020). Un délai d'au moins quarante-huit heures et d'au plus une semaine par rapport à ces actions est respecté."
+    ],
+    "eEEcEc9E9ceC": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "3. Exploitation, entretien",
+      "3.7. Consignes d'exploitation",
+      "II. – Actions à mener en cas de prolifération de légionelles",
+      "1. Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+      "a) Dès réception de ces résultats, l'exploitant en informe immédiatement l'inspection des installations classées par télécopie et par courriel avec la mention : \"Urgent & important, tour aérorefrigérante, dépassement du seuil de 100 000 unités formant colonies par litre d'eau\"."
+    ],
+    "edd9de03e2CC": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "5. Eau",
+      "5.5. Valeurs limites de rejet",
+      "c) dans le cas de rejet dans le milieu naturel (ou dans un réseau d'assainissement collectif dépourvu de station d'épuration) :"
+    ],
+    "fEf199Fea42d": [
+      "Annexes",
+      "Annexe I - PRESCRIPTIONS GÉNÉRALES APPLICABLES AUX INSTALLATIONS CLASSÉES SOUMISES À DÉCLARATION SOUS LA RUBRIQUE N° 2921",
+      "3. Exploitation, entretien",
+      "3.7. Consignes d'exploitation",
+      "II. – Actions à mener en cas de prolifération de légionelles",
+      "1. Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+      "d) L'AMR, les plans d'entretien et de surveillance sont remis à jour, en prenant en compte le facteur de risque à l'origine de la dérive et en mettant en œuvre les mesures nécessaires à sa gestion ;"
+    ]
+  },
   "sections": [
     {
       "annotations": {
@@ -39,13 +288,10 @@
       "id": "da1115ECB4ED",
       "outer_alineas": [
         {
-          "text": "Les installations classées soumises à déclaration sous la rubrique n° 2921 sont soumises aux dispositions de l'annexe I (1).  Les présentes dispositions s'appliquent sans préjudice des autres législations."
+          "text": "Les installations classées soumises à déclaration sous la rubrique n° 2921 sont soumises aux dispositions de l'annexe I (1). Les présentes dispositions s'appliquent sans préjudice des autres législations."
         },
         {
           "text": "Le préfet peut, pour une installation donnée, adapter par arrêtés les présentes dispositions dans les conditions prévues par les articles L. 512-12 et L. 512-52 du code de l'environnement."
-        },
-        {
-          "text": "La rubrique n° 2921 comprend toute installation assurant une fonction de refroidissement par refroidissement évaporatif et mettant en œuvre de manière continue ou intermittente le procédé de dispersion d'eau dans un flux d'air. C'est notamment le cas des installations de secours, des installations utilisées dans des procédés saisonniers et des aéroréfrigérants dits mixtes ou hybrides combinant le fonctionnement évaporatif avec d'autres modes de fonctionnement (sec et/ou adiabatique)."
         }
       ],
       "parametrization": {
@@ -281,10 +527,13 @@
               "id": "4C0B65ABeDaD",
               "outer_alineas": [
                 {
-                  "text": "Sont considérés comme faisant partie de l'installation de refroidissement au sens du présent arrêté l'ensemble des éléments suivants : tour(s) de refroidissement et ses parties internes, échangeur(s), dévésiculeur, ensemble composant le circuit d'eau en contact avec l'air (bac[s], canalisation[s], pompe[s]...), circuit de purge et circuit d'eau d'appoint."
+                  "text": "Sont considérés comme faisant partie de l'installation de refroidissement évaporatif par dispersion d'eau dans un flux d'air généré par ventilation mécanique ou naturelle  au sens du présent arrêté l'ensemble des éléments suivants : tour(s) de refroidissement et ses parties internes, échangeur(s), dévésiculeur, ensemble composant le circuit d'eau en contact avec l'air (bac[s], canalisation[s], pompe[s]...), circuit de purge et circuit d'eau d'appoint."
                 },
                 {
-                  "text": "L'installation de refroidissement est dénommée \"installation\" dans la suite de la présente annexe."
+                  "text": "Sont considérés comme faisant partie de l'installation de récupération de la chaleur par dispersion d'eau dans des fumées émises à l'atmosphère au sens du présent arrêté, l'ensemble des éléments suivants : parties du circuit en contact avec les fumées ou avec l'eau de condensation réinjectée dans les fumées, condenseur, électrofiltre humide, buse d'aspersion, et toutes ses parties internes, échangeur (s), ensemble des canalisations qui acheminent l'eau d'un équipement à l'autre, bassin (s) de stockage (s), canalisation (s) de distribution de l'eau, canalisation (s) d'acheminement de l'effluent de l'électrofiltre, unité (s) de traitement des eaux chargées, purge (s) de rejet et circuit (s) d'eau des appoint (s)."
+                },
+                {
+                  "text": "L'installation de refroidissement (système aéroréfrigérant) ou l'installation de récupération de la chaleur (condenseur par voie humide)  est dénommée \"installation\" dans la suite de la présente annexe."
                 }
               ],
               "parametrization": {
@@ -433,7 +682,10 @@
                       "text": "– vérification de la puissance maximale au regard de la puissance déclarée ;"
                     },
                     {
-                      "text": "– vérification que la puissance maximale est inférieure au seuil maximal du régime déclaratif tel que défini à l'annexe de l'article R. 511-9 du code de l'environnement ou que le type d'installation correspond au seuil déclaratif (le non-respect de ce point relève d'une non-conformité majeure) ;"
+                      "text": "– vérification que la puissance maximale est inférieure au seuil maximal du régime déclaratif tel que défini à l'"
+                    },
+                    {
+                      "text": "annexe de l'article R. 511-9 du code de l'environnement ou que le type d'installation correspond au seuil déclaratif (le non-respect de ce point relève d'une non-conformité majeure) ;"
                     },
                     {
                       "text": "– présence de la preuve de dépôt de la déclaration ;"
@@ -613,7 +865,10 @@
                       "text": "\"Système de refroidissement évaporatif\" : système de refroidissement où l'eau du circuit primaire est refroidie soit en évaporation en contact direct avec le flux d'air, soit au travers d'un échangeur de chaleur dont l'eau du circuit secondaire est refroidie par évaporation d'eau en contact direct avec l'air ;"
                     },
                     {
-                      "text": "\"Dispersion d'eau dans un flux d'air\" : production d'aérosols par projection de gouttes d'eau dans un flux d'air ;"
+                      "text": "\"Condenseur par voie humide\" : installations de récupération de la chaleur latente des fumées par dispersion d'eau dans des fumées émises à l'atmosphère ;"
+                    },
+                    {
+                      "text": "\"Dispersion d'eau dans un flux d'air ou dans des fumées\" : production d'aérosols par projection de gouttes d'eau dans un flux d'air ou dans des fumées  ;"
                     },
                     {
                       "text": "\"Bras mort\" : tronçons de canalisation dans lesquels l'eau ne circule pas et pour lesquels cette eau stagnante est susceptible de repasser en circulation ;"
@@ -734,17 +989,7 @@
                     "warnings": []
                   },
                   "id": "D3C35aa50FDB",
-                  "outer_alineas": [
-                    {
-                      "text": "a) Les rejets d'air potentiellement chargé d'aérosols ne sont effectués ni au droit d'une prise d'air ni au droit d'ouvrants. Les points de rejets sont aménagés de façon à éviter l'aspiration de l'air chargé de gouttelettes dans les conduits de ventilation d'immeubles avoisinants ou les cours intérieures ;"
-                    },
-                    {
-                      "text": "b) L'installation est implantée à une distance minimale de 8 mètres de toute ouverture sur un local occupé."
-                    },
-                    {
-                      "text": "Objet du contrôle : implantation des rejets d'air."
-                    }
-                  ],
+                  "outer_alineas": [],
                   "parametrization": {
                     "potential_inapplicabilities": [
                       {
@@ -785,7 +1030,71 @@
                     "name": "Règles d'implantation",
                     "nb": "Annexe I > 2.1."
                   },
-                  "sections": [],
+                  "sections": [
+                    {
+                      "annotations": {
+                        "topic": null
+                      },
+                      "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                      },
+                      "id": "425c7Ab94fE9",
+                      "outer_alineas": [
+                        {
+                          "text": "Les rejets d'air potentiellement chargé d'aérosols ne sont effectués ni au droit d'une prise d'air ni au droit d'ouvrants. Les points de rejets sont aménagés de façon à éviter l'aspiration de l'air chargé de gouttelettes dans les conduits de ventilation d'immeubles avoisinants ou les cours intérieures ;"
+                        }
+                      ],
+                      "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                      },
+                      "reference": {
+                        "name": "Règles d'implantation",
+                        "nb": "Annexe I > 2.1. a)"
+                      },
+                      "sections": [],
+                      "title": {
+                        "text": "a)"
+                      }
+                    },
+                    {
+                      "annotations": {
+                        "topic": null
+                      },
+                      "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                      },
+                      "id": "AD635a34F578",
+                      "outer_alineas": [
+                        {
+                          "text": "L'installation est implantée à une distance minimale de 8 mètres de toute ouverture sur un local occupé."
+                        },
+                        {
+                          "text": "Objet du contrôle : implantation des rejets d'air."
+                        }
+                      ],
+                      "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                      },
+                      "reference": {
+                        "name": "Règles d'implantation",
+                        "nb": "Annexe I > 2.1. b)"
+                      },
+                      "sections": [],
+                      "title": {
+                        "text": "b)"
+                      }
+                    }
+                  ],
                   "title": {
                     "text": "2.1. Règles d'implantation"
                   }
@@ -995,7 +1304,7 @@
                             "previous_version": null,
                             "warnings": []
                           },
-                          "id": "FcaE9061c0C0",
+                          "id": "18b6caEf57bA",
                           "outer_alineas": [
                             {
                               "text": "L'installation est conçue pour faciliter la mise en œuvre des actions préventives, correctives ou curatives, et les prélèvements pour analyse microbiologiques et physico-chimiques. Elle est conçue de façon qu'il n'y ait pas de tronçons de canalisations constituant des bras morts. Elle est équipée d'un dispositif permettant la purge complète de l'eau du circuit."
@@ -1048,7 +1357,7 @@
                             "previous_version": null,
                             "warnings": []
                           },
-                          "id": "0583B1aCb9a3",
+                          "id": "4d03bf4bb7aD",
                           "outer_alineas": [
                             {
                               "text": "L'exploitant dispose des plans de l'installation tenus à jour, afin de justifier des dispositions prévues ci-dessus."
@@ -1078,14 +1387,41 @@
                             "previous_version": null,
                             "warnings": []
                           },
-                          "id": "AF2dD81a71DC",
+                          "id": "8EA831ebfBD6",
                           "outer_alineas": [
                             {
                               "text": "La tour est équipée d'un dispositif de limitation des entraînements vésiculaires en bon état de fonctionnement constituant un passage obligatoire du flux d'air potentiellement chargé de vésicules d'eau, immédiatement avant rejet."
                             }
                           ],
                           "parametrization": {
-                            "potential_inapplicabilities": [],
+                            "potential_inapplicabilities": [
+                              {
+                                "alineas": null,
+                                "condition": {
+                                  "conditions": [
+                                    {
+                                      "parameter": {
+                                        "id": "alinea",
+                                        "type": "STRING"
+                                      },
+                                      "target": "2",
+                                      "type": "EQUAL"
+                                    },
+                                    {
+                                      "parameter": {
+                                        "id": "date-d-installation",
+                                        "type": "DATE"
+                                      },
+                                      "strict": true,
+                                      "target": "2021-09-01",
+                                      "type": "LITTLER"
+                                    }
+                                  ],
+                                  "type": "AND"
+                                },
+                                "subsections_are_inapplicable": true
+                              }
+                            ],
                             "potential_modifications": [],
                             "warnings": []
                           },
@@ -1108,7 +1444,7 @@
                             "previous_version": null,
                             "warnings": []
                           },
-                          "id": "2FBd778CcA5B",
+                          "id": "f3287B2F1b8a",
                           "outer_alineas": [
                             {
                               "text": "Pour tout dévésiculeur installé à partir du 1er juillet 2005, le fournisseur du dispositif de limitation des entraînements vésiculaires atteste un taux d'entraînement vésiculaire inférieur à 0,01 % du débit d'eau en circulation dans les conditions de fonctionnement nominales de l'installation."
@@ -1152,14 +1488,41 @@
                             "previous_version": null,
                             "warnings": []
                           },
-                          "id": "72abd8dbeE1e",
+                          "id": "2B9CbBA98829",
                           "outer_alineas": [
                             {
                               "text": "L'exploitant s'assure que le dispositif de limitation des entraînements vésiculaires équipant l'installation est bien adapté aux caractéristiques de l'installation (type de distributeurs d'eau, débit d'eau, débit d'air), afin de respecter cette condition en situation d'exploitation."
                             }
                           ],
                           "parametrization": {
-                            "potential_inapplicabilities": [],
+                            "potential_inapplicabilities": [
+                              {
+                                "alineas": null,
+                                "condition": {
+                                  "conditions": [
+                                    {
+                                      "parameter": {
+                                        "id": "alinea",
+                                        "type": "STRING"
+                                      },
+                                      "target": "2",
+                                      "type": "EQUAL"
+                                    },
+                                    {
+                                      "parameter": {
+                                        "id": "date-d-installation",
+                                        "type": "DATE"
+                                      },
+                                      "strict": true,
+                                      "target": "2021-09-01",
+                                      "type": "LITTLER"
+                                    }
+                                  ],
+                                  "type": "AND"
+                                },
+                                "subsections_are_inapplicable": true
+                              }
+                            ],
                             "potential_modifications": [],
                             "warnings": []
                           },
@@ -1182,10 +1545,31 @@
                             "previous_version": null,
                             "warnings": []
                           },
-                          "id": "fEC772900eF2",
+                          "id": "d63Cedf9cd9e",
                           "outer_alineas": [
                             {
                               "text": "Les équipements de refroidissement répondant à la norme NF E 38-424 sont considérés conformes aux dispositions de conception décrites au point 2.5.2. L'exploitant doit cependant examiner la conformité des parties de l'installation non couvertes par cette norme."
+                            },
+                            {
+                              "text": "Objet du contrôle :"
+                            },
+                            {
+                              "text": "– implantation de l'installation permettant les accès aux parties internes, aux bassins, et aux parties hautes à la hauteur des rampes de pulvérisation de la tour"
+                            },
+                            {
+                              "text": "aéroréfrigérante ou du condenseur par voie humide  dans les conditions de sécurité ;"
+                            },
+                            {
+                              "text": "– absence de bras mort non géré ;"
+                            },
+                            {
+                              "text": "– présence sur l'installation d'un dispositif ou de dispositions permettant la purge complète de l'eau du circuit (le non-respect de ce point relève d'une non-conformité majeure) ;"
+                            },
+                            {
+                              "text": "– présence d'un dispositif de limitation des entraînements vésiculaires (le non-respect de ce point relève d'une non-conformité majeure) ;"
+                            },
+                            {
+                              "text": "– présentation pour chaque tour du document attestant du respect, par le dispositif de limitation, du taux d'entraînement vésiculaire, pour les dévésiculeurs installés après le 1er juillet 2005."
                             }
                           ],
                           "parametrization": {
@@ -1200,48 +1584,6 @@
                           "sections": [],
                           "title": {
                             "text": "f)"
-                          }
-                        },
-                        {
-                          "annotations": {
-                            "topic": null
-                          },
-                          "applicability": {
-                            "active": true,
-                            "modified": false,
-                            "previous_version": null,
-                            "warnings": []
-                          },
-                          "id": "CdeaCd4Dd54D",
-                          "outer_alineas": [
-                            {
-                              "text": "– implantation de l'installation permettant les accès aux parties internes, aux bassins, et aux parties hautes à la hauteur des rampes de pulvérisation de la tour dans les conditions de sécurité ;"
-                            },
-                            {
-                              "text": "– absence de bras mort non géré ;"
-                            },
-                            {
-                              "text": "– présence sur l'installation d'un dispositif ou de dispositions permettant la purge complète de l'eau du circuit (le non-respect de ce point relève d'une non-conformité majeure) ;"
-                            },
-                            {
-                              "text": "– présence sur la tour d'un dispositif de limitation des entraînements vésiculaires (le non-respect de ce point relève d'une non-conformité majeure) ;"
-                            },
-                            {
-                              "text": "– présentation pour chaque tour du document attestant du respect, par le dispositif de limitation, du taux d'entraînement vésiculaire, pour les dévésiculeurs installés après le 1er juillet 2005."
-                            }
-                          ],
-                          "parametrization": {
-                            "potential_inapplicabilities": [],
-                            "potential_modifications": [],
-                            "warnings": []
-                          },
-                          "reference": {
-                            "name": "Objet du contrôle",
-                            "nb": "Annexe I > 2.5.2."
-                          },
-                          "sections": [],
-                          "title": {
-                            "text": "Objet du contrôle :"
                           }
                         }
                       ],
@@ -1370,7 +1712,34 @@
                     }
                   ],
                   "parametrization": {
-                    "potential_inapplicabilities": [],
+                    "potential_inapplicabilities": [
+                      {
+                        "alineas": null,
+                        "condition": {
+                          "conditions": [
+                            {
+                              "parameter": {
+                                "id": "alinea",
+                                "type": "STRING"
+                              },
+                              "target": "2",
+                              "type": "EQUAL"
+                            },
+                            {
+                              "parameter": {
+                                "id": "date-d-installation",
+                                "type": "DATE"
+                              },
+                              "strict": true,
+                              "target": "2021-09-01",
+                              "type": "LITTLER"
+                            }
+                          ],
+                          "type": "AND"
+                        },
+                        "subsections_are_inapplicable": true
+                      }
+                    ],
                     "potential_modifications": [],
                     "warnings": []
                   },
@@ -1628,7 +1997,7 @@
                       "text": "– présence d'un document désignant nommément le responsable de la surveillance de l'exploitation de l'installation (le non-respect de ce point relève d'une non-conformité majeure) ;"
                     },
                     {
-                      "text": "– vérification de la présence et de la pertinence du contenu de formation couvrant :"
+                      "text": "– vérification de la présence et de la complétude du contenu de formation couvrant :"
                     },
                     {
                       "text": "– les conditions de prolifération et de dispersion des légionelles ;"
@@ -1644,7 +2013,34 @@
                     }
                   ],
                   "parametrization": {
-                    "potential_inapplicabilities": [],
+                    "potential_inapplicabilities": [
+                      {
+                        "alineas": null,
+                        "condition": {
+                          "conditions": [
+                            {
+                              "parameter": {
+                                "id": "alinea",
+                                "type": "STRING"
+                              },
+                              "target": "2",
+                              "type": "EQUAL"
+                            },
+                            {
+                              "parameter": {
+                                "id": "date-d-installation",
+                                "type": "DATE"
+                              },
+                              "strict": true,
+                              "target": "2021-09-01",
+                              "type": "LITTLER"
+                            }
+                          ],
+                          "type": "AND"
+                        },
+                        "subsections_are_inapplicable": true
+                      }
+                    ],
                     "potential_modifications": [],
                     "warnings": []
                   },
@@ -1853,7 +2249,34 @@
                   "id": "48aFFcc0a9e9",
                   "outer_alineas": [],
                   "parametrization": {
-                    "potential_inapplicabilities": [],
+                    "potential_inapplicabilities": [
+                      {
+                        "alineas": null,
+                        "condition": {
+                          "conditions": [
+                            {
+                              "parameter": {
+                                "id": "alinea",
+                                "type": "STRING"
+                              },
+                              "target": "2",
+                              "type": "EQUAL"
+                            },
+                            {
+                              "parameter": {
+                                "id": "date-d-installation",
+                                "type": "DATE"
+                              },
+                              "strict": true,
+                              "target": "2021-09-01",
+                              "type": "LITTLER"
+                            }
+                          ],
+                          "type": "AND"
+                        },
+                        "subsections_are_inapplicable": true
+                      }
+                    ],
                     "potential_modifications": [],
                     "warnings": []
                   },
@@ -1916,7 +2339,7 @@
                                 "previous_version": null,
                                 "warnings": []
                               },
-                              "id": "Fd0Aa220Ca9b",
+                              "id": "0A5CfCf65a3d",
                               "outer_alineas": [
                                 {
                                   "text": "Une analyse méthodique des risques de prolifération et de dispersion des légionelles (AMR) est menée sur l'installation. Cette analyse consiste à identifier tous les facteurs de risques présents sur l'installation et les moyens de limiter ces risques. Certains facteurs de risques peuvent être supprimés par la mise en œuvre d'actions correctives. D'autres sont inévitables et doivent faire l'objet d'une gestion particulière, formalisée sous forme de procédures, rassemblées dans les plans d'entretien et de surveillance décrits au point b ci-dessous."
@@ -1970,7 +2393,7 @@
                                   "text": "– prise en compte dans cette analyse méthodique des différentes situations de fonctionnement et configurations hydrauliques de l'installation ;"
                                 },
                                 {
-                                  "text": "– vérification de la présence et de la pertinence du contenu de l'analyse méthodique de risques :"
+                                  "text": "– vérification de la présence et de la complétude du contenu de l'analyse méthodique de risques :"
                                 },
                                 {
                                   "text": "– description de l'installation, schéma de principe, modalités de gestion ;"
@@ -2006,7 +2429,7 @@
                                 "previous_version": null,
                                 "warnings": []
                               },
-                              "id": "077BB16Ba69F",
+                              "id": "53da0cA9B302",
                               "outer_alineas": [
                                 {
                                   "text": "Les plans d'entretien et de surveillance visent à limiter le risque de prolifération et de dispersion des légionelles via la ou les tours. Ils ont notamment pour objectif de maintenir en permanence la concentration des Legionella pneumophila dans l'eau du circuit à un niveau inférieur à 1 000 unités formant colonies par litre d'eau. Ces plans concernent l'ensemble de l'installation, en particulier toutes les surfaces de l'installation en contact avec l'eau du circuit où pourrait se développer le biofilm. Ces plans sont mis en œuvre sous la responsabilité de l'exploitant."
@@ -2051,7 +2474,7 @@
                                 "previous_version": null,
                                 "warnings": []
                               },
-                              "id": "FBCf114B72ae",
+                              "id": "956362E7Fe0d",
                               "outer_alineas": [
                                 {
                                   "text": "Les procédures spécifiques suivantes sont également définies par l'exploitant :"
@@ -2093,7 +2516,7 @@
                                   "text": "– présence d'un plan d'entretien (le non-respect de ce point relève d'une non-conformité majeure) ;"
                                 },
                                 {
-                                  "text": "– vérification de la présence et de la pertinence du contenu du plan d'entretien :"
+                                  "text": "– vérification de la présence et de la complétude du contenu du plan d'entretien :"
                                 },
                                 {
                                   "text": "– fiche de stratégie de traitement préventif (le non-respect de ce point relève d'une non-conformité majeure) ;"
@@ -2108,16 +2531,16 @@
                                   "text": "– présence d'un plan de surveillance (le non-respect de ce point relève d'une non-conformité majeure) ;"
                                 },
                                 {
-                                  "text": "– vérification de la présence et de la pertinence du contenu du plan de surveillance :"
+                                  "text": "– vérification de la présence et de la complétude du contenu du plan de surveillance :"
                                 },
                                 {
                                   "text": "– liste et définition des indicateurs de suivi avec leurs valeurs cibles et d'alerte (le non-respect de ce point relève d'une non-conformité majeure) ;"
                                 },
                                 {
-                                  "text": "– procédures d'entretien, de suivi et d'actions en cas de dérive, dont description des actions en cas de dérive de la concentration en Legionella pneumophila et des actions de désinfections précisant produits utilisés et quantités injectées(le non-respect de ce point relève d'une non-conformité majeure) ;"
+                                  "text": "– procédures d'entretien, de suivi et d'actions en cas de dérive, dont description des actions en cas de dérive de la concentration en Legionella pneumophila le cas échéant et des actions de désinfections précisant produits utilisés et quantités injectées(le non-respect de ce point relève d'une non-conformité majeure) ;"
                                 },
                                 {
-                                  "text": "– vérification de la présence et de la pertinence du contenu des procédures spécifiques d'arrêt immédiat de la dispersion, et procédures de gestion de l'installation à l'arrêt et de redémarrage (le non-respect de ce point relève d'une non-conformité majeure) ;"
+                                  "text": "– vérification de la présence et de la complétude du contenu des procédures spécifiques d'arrêt immédiat de la dispersion, et procédures de gestion de l'installation à l'arrêt et de redémarrage (le non-respect de ce point relève d'une non-conformité majeure) ;"
                                 }
                               ],
                               "parametrization": {
@@ -2313,7 +2736,10 @@
                                   "text": "L'inspection des installations classées peut soumettre ces mesures compensatoires à l'avis d'un tiers expert."
                                 },
                                 {
-                                  "text": "Ces mesures compensatoires sont, après avis de l'inspection des installations classées, imposées par arrêté préfectoral pris en application de l'article R. 512-31 du code de l'environnement."
+                                  "text": "Ces mesures compensatoires sont, après avis de l'inspection des installations classées, imposées par arrêté préfectoral pris en application de l'"
+                                },
+                                {
+                                  "text": "article R. 512-31 du code de l'environnement."
                                 },
                                 {
                                   "text": "Objet du contrôle :"
@@ -2395,10 +2821,10 @@
                                   "text": "La fréquence des prélèvements et analyses des Legionella pneumophila est au minimum bimestrielle pendant la période de fonctionnement de l'installation."
                                 },
                                 {
-                                  "text": "Ces prélèvements sont effectués selon la norme NF T90-431 (avril 2006). L'ensemble des seuils de gestion mentionnés dans le présent arrêté sont spécifiques pour cette méthode d'analyse et sont exprimés en unité formant colonies par litre d'eau (UFC/L)."
+                                  "text": "Ces prélèvements sont effectués selon la norme NF T90-431 (version 2020). L'ensemble des seuils de gestion mentionnés dans le présent arrêté sont spécifiques pour cette méthode d'analyse et sont exprimés en unité formant colonies par litre d'eau (UFC/L)."
                                 },
                                 {
-                                  "text": "L'exploitant peut avoir recours, en lieu et place de la norme NF T90-431 (avril 2006), à une autre méthode d'analyse si celle-ci a été préalablement reconnue par le ministère en charge des installations classées. Pour chaque méthode reconnue, le ministère indique les seuils de gestion à utiliser ou la méthodologie de fixation de ces seuils par l'exploitant."
+                                  "text": "L'exploitant peut avoir recours, en lieu et place de la norme NF T90-431 (version 2020), à une autre méthode d'analyse si celle-ci a été préalablement reconnue par le ministère en charge des installations classées. Pour chaque méthode reconnue, le ministère indique les seuils de gestion à utiliser ou la méthodologie de fixation de ces seuils par l'exploitant."
                                 },
                                 {
                                   "text": "Cette fréquence d'analyse s'applique dès lors que l'installation de refroidissement est en fonctionnement, que le fonctionnement soit continu ou intermittent."
@@ -2446,7 +2872,10 @@
                                   "text": "En cas de traitement continu à base de biocide oxydant, l'action du biocide dans l'échantillon est inhibée par un neutralisant présent dans le flacon d'échantillonnage en quantité suffisante."
                                 },
                                 {
-                                  "text": "Les dispositions relatives aux échantillons répondent aux dispositions prévues par la norme NF T90-431 (avril 2006) ou par toute autre méthode reconnue par le ministère en charge des installations classées."
+                                  "text": "Les dispositions relatives aux échantillons répondent aux dispositions prévues par la norme"
+                                },
+                                {
+                                  "text": "NF T90-431 (version 2020) ou par toute autre méthode reconnue par le ministère en charge des installations classées."
                                 }
                               ],
                               "parametrization": {
@@ -2476,7 +2905,10 @@
                               "id": "A94B2Bf5D611",
                               "outer_alineas": [
                                 {
-                                  "text": "Le laboratoire, chargé par l'exploitant des analyses en vue de la recherche des Legionella pneumophila selon la norme NF T90-431 (avril 2006) répond aux conditions suivantes :"
+                                  "text": "Le laboratoire, chargé par l'exploitant des analyses en vue de la recherche des Legionella pneumophila selon la norme"
+                                },
+                                {
+                                  "text": "NF T90-431 (version 2020)  répond aux conditions suivantes :"
                                 },
                                 {
                                   "text": "– le laboratoire est accrédité selon la norme NF EN ISO/CEI 17025 (septembre 2005) par le Comité français d'accréditation (COFRAC) ou tout autre organisme d'accréditation équivalent européen, signataire de l'accord multilatéral pris dans le cadre de la coordination européenne des organismes d'accréditation ;"
@@ -2512,7 +2944,10 @@
                               "id": "3254BFe19FdC",
                               "outer_alineas": [
                                 {
-                                  "text": "Les résultats sont présentés selon la norme NF T90-431 (avril 2006) ou toute autre méthode reconnue par le ministère en charge des installations classées. Les résultats sont exprimés en unité formant colonies par litre d'eau (UFC/L)."
+                                  "text": "Les résultats sont présentés selon la norme"
+                                },
+                                {
+                                  "text": "NF T90-431 (version 2020)  ou toute autre méthode reconnue par le ministère en charge des installations classées. Les résultats sont exprimés en unité formant colonies par litre d'eau (UFC/L)."
                                 },
                                 {
                                   "text": "L'exploitant demande au laboratoire chargé de l'analyse que les souches correspondant aux résultats faisant apparaître une concentration en Legionella pneumophila ou en Legionella species supérieures ou égales à 100 000 UFC/L soient conservés pendant trois mois par le laboratoire."
@@ -2542,7 +2977,10 @@
                                   "text": "– aspect de l'eau prélevée : couleur, dépôt ;"
                                 },
                                 {
-                                  "text": "– pH, conductivité et turbidité de l'eau au lieu du prélèvement ;"
+                                  "text": "– pH, conductivité et turbidité de l'eau mésurés"
+                                },
+                                {
+                                  "text": "au lieu du prélèvement ;"
                                 },
                                 {
                                   "text": "– nature (dénomination commerciale et molécules) et concentration cible pour les produits de traitements utilisés dans l'installation (biocides oxydants, non oxydants biodispersants, anticorrosion...) ;"
@@ -2635,7 +3073,10 @@
                                   "text": "Objet du contrôle :"
                                 },
                                 {
-                                  "text": "– présence dans le carnet de suivi d'analyses des Legionella pneumophila selon la norme NF T90-431 (avril 2006) ou toute autre méthode reconnue par le ministère en charge des installations classées (le non-respect de ce point relève d'une non-conformité majeure) ;"
+                                  "text": "– présence dans le carnet de suivi d'analyses des Legionella pneumophila selon la norme"
+                                },
+                                {
+                                  "text": "NF T90-431 (version 2020)  ou toute autre méthode reconnue par le ministère en charge des installations classées (le non-respect de ce point relève d'une non-conformité majeure) ;"
                                 },
                                 {
                                   "text": "– fréquence d'analyses au minimum bimestrielle pendant la période de fonctionnement de l'installation (le non-respect de ce point relève d'une non-conformité majeure) ;"
@@ -2706,7 +3147,7 @@
                             "previous_version": null,
                             "warnings": []
                           },
-                          "id": "F5aC762FeadC",
+                          "id": "8bf2CadC5A45",
                           "outer_alineas": [],
                           "parametrization": {
                             "potential_inapplicabilities": [],
@@ -2714,7 +3155,7 @@
                             "warnings": []
                           },
                           "reference": {
-                            "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                            "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
                             "nb": "Annexe I > 3.7. II. 1."
                           },
                           "sections": [
@@ -2728,7 +3169,7 @@
                                 "previous_version": null,
                                 "warnings": []
                               },
-                              "id": "c0efc5f1ecA5",
+                              "id": "3276AFEbD2Eb",
                               "outer_alineas": [
                                 {
                                   "text": "Dès réception de ces résultats, l'exploitant en informe immédiatement l'inspection des installations classées par télécopie et par courriel avec la mention : \"Urgent & important, tour aérorefrigérante, dépassement du seuil de 100 000 unités formant colonies par litre d'eau\"."
@@ -2764,7 +3205,7 @@
                                 "warnings": []
                               },
                               "reference": {
-                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
                                 "nb": "Annexe I > 3.7. II. 1. a)"
                               },
                               "sections": [],
@@ -2782,10 +3223,13 @@
                                 "previous_version": null,
                                 "warnings": []
                               },
-                              "id": "f9F9131EECB9",
+                              "id": "4ceBC5EBd10c",
                               "outer_alineas": [
                                 {
-                                  "text": "A l'issue de la mise en place de ces actions curatives et correctives, l'exploitant en vérifie l'efficacité, en réalisant un nouveau prélèvement pour analyse de la concentration en Legionella pneumophila selon la norme NF T90-431 (avril 2006). Un délai d'au moins quarante-huit heures et d'au plus une semaine par rapport à la mise en œuvre de ces actions est respecté ;"
+                                  "text": "A l'issue de la mise en place de ces actions curatives et correctives, l'exploitant en vérifie l'efficacité, en réalisant un nouveau prélèvement pour analyse de la concentration en Legionella pneumophila selon la norme"
+                                },
+                                {
+                                  "text": "NF T90-431 (version 2020). Un délai d'au moins quarante-huit heures et d'au plus une semaine par rapport à la mise en œuvre de ces actions est respecté ;"
                                 }
                               ],
                               "parametrization": {
@@ -2794,7 +3238,7 @@
                                 "warnings": []
                               },
                               "reference": {
-                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
                                 "nb": "Annexe I > 3.7. II. 1. b)"
                               },
                               "sections": [],
@@ -2812,13 +3256,16 @@
                                 "previous_version": null,
                                 "warnings": []
                               },
-                              "id": "67CAE5C4caa5",
+                              "id": "B8F37A1DAD55",
                               "outer_alineas": [
                                 {
                                   "text": "Dès réception des résultats de ce nouveau prélèvement, ceux-ci sont communiqués à l'inspection des installations classées."
                                 },
                                 {
-                                  "text": "Des prélèvements et analyses en Legionella pneumophila selon la norme NF T90-431 (avril 2006) sont ensuite effectués tous les quinze jours pendant trois mois ;"
+                                  "text": "Des prélèvements et analyses en Legionella pneumophila selon la norme"
+                                },
+                                {
+                                  "text": "NF T90-431 (version 2020)  sont ensuite effectués tous les quinze jours pendant trois mois ;"
                                 }
                               ],
                               "parametrization": {
@@ -2827,7 +3274,7 @@
                                 "warnings": []
                               },
                               "reference": {
-                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
                                 "nb": "Annexe I > 3.7. II. 1. c)"
                               },
                               "sections": [],
@@ -2845,7 +3292,7 @@
                                 "previous_version": null,
                                 "warnings": []
                               },
-                              "id": "F3Acb7CB8F6b",
+                              "id": "B1dC3bd70be8",
                               "outer_alineas": [
                                 {
                                   "text": "L'AMR, les plans d'entretien et de surveillance sont remis à jour, en prenant en compte le facteur de risque à l'origine de la dérive et en mettant en œuvre les mesures nécessaires à sa gestion ;"
@@ -2857,7 +3304,7 @@
                                 "warnings": []
                               },
                               "reference": {
-                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
                                 "nb": "Annexe I > 3.7. II. 1. d)"
                               },
                               "sections": [],
@@ -2875,7 +3322,7 @@
                                 "previous_version": null,
                                 "warnings": []
                               },
-                              "id": "CA6d7B1e2FD5",
+                              "id": "cb082adea9ad",
                               "outer_alineas": [
                                 {
                                   "text": "Un rapport global sur l'incident est transmis à l'inspection des installations classées dans les meilleurs délais et en tout état de cause ne dépassant pas deux mois à compter de la date de l'incident, c'est-à-dire la date du prélèvement dont le résultat d'analyse présente un dépassement du seuil de 100 000 UFC/L. Si le dépassement est intervenu dans une situation de cas groupés de légionelloses telle que décrite au point III du présent article, le délai de transmission du rapport est ramené à dix jours. Les plans d'entretien, de surveillance et l'analyse méthodique des risques actualisés sont joints au rapport d'incident ainsi que la fiche de la stratégie de traitement définie au point I. Le rapport précise et justifie l'ensemble des actions curatives et correctives mises en œuvre et programmées suite à cet incident ainsi que leur calendrier d'application."
@@ -2890,7 +3337,7 @@
                                 "warnings": []
                               },
                               "reference": {
-                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
                                 "nb": "Annexe I > 3.7. II. 1. e)"
                               },
                               "sections": [],
@@ -2908,7 +3355,7 @@
                                 "previous_version": null,
                                 "warnings": []
                               },
-                              "id": "f214dAE5F4dC",
+                              "id": "D27d59C3DAAF",
                               "outer_alineas": [
                                 {
                                   "text": "Dans les six mois suivant l'incident, l'exploitant fait réaliser une vérification de l'installation par un organisme indépendant et compétent, telle que définie au point IV.1 du présent article ;"
@@ -2920,7 +3367,7 @@
                                 "warnings": []
                               },
                               "reference": {
-                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
                                 "nb": "Annexe I > 3.7. II. 1. f)"
                               },
                               "sections": [],
@@ -2938,7 +3385,7 @@
                                 "previous_version": null,
                                 "warnings": []
                               },
-                              "id": "f65D11acA7A6",
+                              "id": "A6BD9d7Bf91F",
                               "outer_alineas": [
                                 {
                                   "text": "Cas d'une installation pour laquelle l'arrêt immédiat de la dispersion d'eau par la ou les tours dans des conditions compatibles avec la sécurité du site et de l'outil de production est impossible."
@@ -2959,13 +3406,19 @@
                                   "text": "Objets du contrôle :"
                                 },
                                 {
-                                  "text": "– présence d'une procédure d'arrêt immédiat de la dispersion via la ou les tours ;"
+                                  "text": "– présence d'une procédure d'arrêt immédiat de la dispersion via l'installation ;"
                                 },
                                 {
-                                  "text": "– présence d'une procédure \"Actions à mener si la concentration mesurée en Legionella pneumophila est supérieure ou égale à 100 000 UFC/l d'eau selon la norme NF T90-431 (avril 2006)\" (le non-respect de ce point relève d'une non-conformité majeure) ;"
+                                  "text": "– présence d'une procédure \"Actions à mener si la concentration mesurée en Legionella pneumophila est supérieure ou égale à 100 000 UFC/l d'eau selon la norme"
                                 },
                                 {
-                                  "text": "– en cas de dépassement de la concentration en Legionella pneumophila du seuil de 100 000 UFC/l, mise à jour du tableau des dérives joint au carnet de suivi sur les actions engagées en application de la procédure \"Actions à mener si la concentration mesurée en Legionella pneumophila est supérieure ou égale à 100 000 UFC/l d'eau selon la norme NF T90-431 (avril 2006)\" ;"
+                                  "text": "NF T90-431 (version 2020)\" (le non-respect de ce point relève d'une non-conformité majeure) ;"
+                                },
+                                {
+                                  "text": "– en cas de dépassement de la concentration en Legionella pneumophila du seuil de 100 000 UFC/l, mise à jour du tableau des dérives joint au carnet de suivi sur les actions engagées en application de la procédure \"Actions à mener si la concentration mesurée en Legionella pneumophila est supérieure ou égale à 100 000 UFC/l d'eau selon la norme"
+                                },
+                                {
+                                  "text": "NF T90-431 (version 2020)\" ;"
                                 },
                                 {
                                   "text": "– présence d'un rapport de vérification réalisé dans les six mois suivant tout épisode de dépassement de 100 000 UFC/L en Legionella pneumophila."
@@ -2977,7 +3430,7 @@
                                 "warnings": []
                               },
                               "reference": {
-                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
+                                "name": "Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L",
                                 "nb": "Annexe I > 3.7. II. 1. g)"
                               },
                               "sections": [],
@@ -2987,7 +3440,7 @@
                             }
                           ],
                           "title": {
-                            "text": "1. Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L"
+                            "text": "1. Actions à mener si les résultats provisoires confirmés ou définitifs de l'analyse selon la norme NF T90-431 (version 2020)  mettent en évidence une concentration en Legionella pneumophila supérieure ou égale à 100 000 UFC/L"
                           }
                         },
                         {
@@ -3000,15 +3453,19 @@
                             "previous_version": null,
                             "warnings": []
                           },
-                          "id": "5FD92F0fCE69",
-                          "outer_alineas": [],
+                          "id": "f4eEFB4BefB7",
+                          "outer_alineas": [
+                            {
+                              "text": "NF T90-431 (version 2020) mettent en évidence une concentration mesurée en Legionella pneumophila supérieure ou égale à 1 000 UFC/L et inférieure à 100 000 UFC/L"
+                            }
+                          ],
                           "parametrization": {
                             "potential_inapplicabilities": [],
                             "potential_modifications": [],
                             "warnings": []
                           },
                           "reference": {
-                            "name": "Actions à mener si les résultats d'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration mesurée en Legionella pneumophila supérieure ou égale à 1 000 UFC/L et inférieure à 100 000 UFC/L",
+                            "name": "Actions à mener si les résultats d'analyse selon la norme",
                             "nb": "Annexe I > 3.7. II. 2."
                           },
                           "sections": [
@@ -3028,7 +3485,10 @@
                                   "text": "En application de la procédure correspondante, l'exploitant met en œuvre des actions curatives permettant un abattement rapide de la concentration en Legionella pneumophila dans l'eau, et les actions correctives prévues, en vue de rétablir une concentration en Legionella pneumophila inférieure à 1 000 UFC/L."
                                 },
                                 {
-                                  "text": "Suite à la mise en place de ces actions curatives et correctives et pour s'assurer de leur efficacité, l'exploitant réalise une nouvelle analyse de la concentration en Legionella pneumophila selon la norme NF T90-431 (avril 2006). Un délai d'au moins quarante-huit heures et d'au plus une semaine par rapport à ces actions est respecté."
+                                  "text": "Suite à la mise en place de ces actions curatives et correctives et pour s'assurer de leur efficacité, l'exploitant réalise une nouvelle analyse de la concentration en Legionella pneumophila selon la norme"
+                                },
+                                {
+                                  "text": "NF T90-431 (version 2020). Un délai d'au moins quarante-huit heures et d'au plus une semaine par rapport à ces actions est respecté."
                                 }
                               ],
                               "parametrization": {
@@ -3061,7 +3521,10 @@
                                   "text": "Au bout de deux analyses consécutives mettant en évidence une concentration en Legionella pneumophila supérieure ou égale à 1 000 UFC/L et inférieure à 100 000 UFC/L, l'exploitant procède à des actions curatives, à la recherche de la ou des causes de dérive et à la mise en place d'actions correctives complémentaires pour gérer le facteur de risque identifié."
                                 },
                                 {
-                                  "text": "Suite à la mise en place de ces actions curatives et correctives et pour s'assurer de leur efficacité, l'exploitant réalise une nouvelle analyse des légionelles selon la norme NF T90-431 (avril 2006). Un délai d'au moins quarante-huit heures et d'au plus une semaine par rapport à ces actions est respecté."
+                                  "text": "Suite à la mise en place de ces actions curatives et correctives et pour s'assurer de leur efficacité, l'exploitant réalise une nouvelle analyse des légionelles selon la norme"
+                                },
+                                {
+                                  "text": "NF T90-431 (version 2020). Un délai d'au moins quarante-huit heures et d'au plus une semaine par rapport à ces actions est respecté."
                                 },
                                 {
                                   "text": "Au bout de trois analyses consécutives mettant en évidence une concentration en Legionella pneumophila supérieure ou égale à 1 000 UFC/L et inférieure à 100 000 UFC/L, l'exploitant en informe l'inspection des installations classées, par télécopie et par courriel, précisant la date des dérives et les concentrations en Legionella pneumophila correspondantes, les causes de dérives identifiées et les actions curatives et correctives précédemment mises en œuvre. Il procède à nouveau à des actions curatives, à la recherche de la ou des causes de dérive, met en place des actions correctives et procède à la révision de l'AMR existante en prenant en compte le facteur de risque à l'origine de cette dérive."
@@ -3070,7 +3533,10 @@
                                   "text": "La mise en place d'actions curatives et correctives et la vérification de leur efficacité sont renouvelées tant que la concentration mesurée en Legionella pneumophila est supérieure ou égale à 1 000 UFC/L."
                                 },
                                 {
-                                  "text": "Des prélèvements et analyses en Legionella pneumophila selon la norme NF T90-431 (avril 2006) sont effectués tous les quinze jours jusqu'à obtenir trois mesures consécutives présentant une concentration en Legionella pneumophila inférieure à 1 000 UFC/L."
+                                  "text": "Des prélèvements et analyses en Legionella pneumophila selon la norme"
+                                },
+                                {
+                                  "text": "NF T90-431 (version 2020)  sont effectués tous les quinze jours jusqu'à obtenir trois mesures consécutives présentant une concentration en Legionella pneumophila inférieure à 1 000 UFC/L."
                                 }
                               ],
                               "parametrization": {
@@ -3097,7 +3563,7 @@
                                 "previous_version": null,
                                 "warnings": []
                               },
-                              "id": "7cB1c5aC3c4F",
+                              "id": "4F6652D1Bfe5",
                               "outer_alineas": [
                                 {
                                   "text": "Dans tous les cas, l'exploitant tient les résultats des mesures et des analyses de risques effectuées à la disposition de l'inspection des installations classées. Les dépassements sont consignés dans un tableau de suivi des dérives joint au carnet de suivi."
@@ -3106,10 +3572,16 @@
                                   "text": "Objets du contrôle :"
                                 },
                                 {
-                                  "text": "– présence d'une procédure \"Actions à mener si la concentration mesurée en Legionella pneumophila est supérieure ou égale à 1 000 UFC/L et inférieure à 100 000 UFC/L selon la norme NF T90-431 (avril 2006)\" (le non-respect de ce point relève d'une non-conformité majeure), distinguant les dépassements ponctuels des dépassements multiples consécutifs ;"
+                                  "text": "– présence d'une procédure \"Actions à mener si la concentration mesurée en Legionella pneumophila est supérieure ou égale à 1 000 UFC/L et inférieure à 100 000 UFC/L selon la norme"
                                 },
                                 {
-                                  "text": "– en cas de dépassement de la concentration en Legionella pneumophila du seuil de 1 000 UFC/L, mise à jour du tableau de suivi des dérives joint au carnet de suivi sur les actions engagées en application de la procédure \"Actions à mener si la concentration mesurée en Legionella pneumophila est supérieure ou égale à 1 000 UFC/L et inférieure à 100 000 UFC/L selon la norme NF T90-431 (avril 2006)\"."
+                                  "text": "NF T90-431 (version 2020)\" (le non-respect de ce point relève d'une non-conformité majeure), distinguant les dépassements ponctuels des dépassements multiples consécutifs ;"
+                                },
+                                {
+                                  "text": "– en cas de dépassement de la concentration en Legionella pneumophila du seuil de 1 000 UFC/L, mise à jour du tableau de suivi des dérives joint au carnet de suivi sur les actions engagées en application de la procédure \"Actions à mener si la concentration mesurée en Legionella pneumophila est supérieure ou égale à 1 000 UFC/L et inférieure à 100 000 UFC/L selon la norme"
+                                },
+                                {
+                                  "text": "NF T90-431 (version 2020)\"."
                                 }
                               ],
                               "parametrization": {
@@ -3118,7 +3590,7 @@
                                 "warnings": []
                               },
                               "reference": {
-                                "name": "Actions à mener si les résultats d'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration mesurée en Legionella pneumophila supérieure ou égale à 1 000 UFC/L et inférieure à 100 000 UFC/L",
+                                "name": "Actions à mener si les résultats d'analyse selon la norme",
                                 "nb": "Annexe I > 3.7. II. 2. c)"
                               },
                               "sections": [],
@@ -3128,7 +3600,7 @@
                             }
                           ],
                           "title": {
-                            "text": "2. Actions à mener si les résultats d'analyse selon la norme NF T90-431 (avril 2006) mettent en évidence une concentration mesurée en Legionella pneumophila supérieure ou égale à 1 000 UFC/L et inférieure à 100 000 UFC/L"
+                            "text": "2. Actions à mener si les résultats d'analyse selon la norme"
                           }
                         },
                         {
@@ -3141,15 +3613,19 @@
                             "previous_version": null,
                             "warnings": []
                           },
-                          "id": "e55fDebEaB35",
-                          "outer_alineas": [],
+                          "id": "b0C0Ce724B7D",
+                          "outer_alineas": [
+                            {
+                              "text": "NF T90-431 (version 2020)  est rendu impossible par la présence d'une flore interférente"
+                            }
+                          ],
                           "parametrization": {
                             "potential_inapplicabilities": [],
                             "potential_modifications": [],
                             "warnings": []
                           },
                           "reference": {
-                            "name": "Actions à mener si le dénombrement des Legionella pneumophila selon la norme NF T90-431 (avril 2006) est rendu impossible par la présence d'une flore interférente",
+                            "name": "Actions à mener si le dénombrement des Legionella pneumophila selon la norme",
                             "nb": "Annexe I > 3.7. II. 3."
                           },
                           "sections": [
@@ -3163,7 +3639,7 @@
                                 "previous_version": null,
                                 "warnings": []
                               },
-                              "id": "03B35aCB0ADd",
+                              "id": "0346dFEE5bf2",
                               "outer_alineas": [
                                 {
                                   "text": "L'exploitant réalise immédiatement un nouveau prélèvement en vue de l'analyse en Legionella pneumophila selon la norme NF T90 431. Il procède ensuite à la mise en place d'actions curatives, afin d'assurer une concentration en Legionella pneumophila inférieure à 1 000 UFC/L dans l'eau du circuit."
@@ -3175,7 +3651,7 @@
                                 "warnings": []
                               },
                               "reference": {
-                                "name": "Actions à mener si le dénombrement des Legionella pneumophila selon la norme NF T90-431 (avril 2006) est rendu impossible par la présence d'une flore interférente",
+                                "name": "Actions à mener si le dénombrement des Legionella pneumophila selon la norme",
                                 "nb": "Annexe I > 3.7. II. 3. a)"
                               },
                               "sections": [],
@@ -3193,10 +3669,10 @@
                                 "previous_version": null,
                                 "warnings": []
                               },
-                              "id": "d07d96234EF0",
+                              "id": "e9cedAaDcbCf",
                               "outer_alineas": [
                                 {
-                                  "text": "Si le dénombrement des Legionella pneumophila selon la norme NF T90-431 (avril 2006) est à nouveau rendu impossible par la présence d'une flore interférente, l'exploitant procède sous une semaine à la recherche des causes de présence de flore interférente et à la mise en place d'actions curatives et correctives."
+                                  "text": "Si le dénombrement des Legionella pneumophila selon la norme NF T90-431 (version 2020) est à nouveau rendu impossible par la présence d'une flore interférente, l'exploitant procède sous une semaine à la recherche des causes de présence de flore interférente et à la mise en place d'actions curatives et correctives."
                                 }
                               ],
                               "parametrization": {
@@ -3205,7 +3681,7 @@
                                 "warnings": []
                               },
                               "reference": {
-                                "name": "Actions à mener si le dénombrement des Legionella pneumophila selon la norme NF T90-431 (avril 2006) est rendu impossible par la présence d'une flore interférente",
+                                "name": "Actions à mener si le dénombrement des Legionella pneumophila selon la norme",
                                 "nb": "Annexe I > 3.7. II. 3. b)"
                               },
                               "sections": [],
@@ -3223,19 +3699,19 @@
                                 "previous_version": null,
                                 "warnings": []
                               },
-                              "id": "b8915278d52A",
+                              "id": "fC9fbc59a264",
                               "outer_alineas": [
                                 {
-                                  "text": "Suite à la mise en place de ces actions et pour s'assurer de leur efficacité, l'exploitant réalise une nouvelle analyse des légionelles selon la norme NF T90-431 (avril 2006). Un délai d'au moins quarante-huit heures et d'au plus une semaine par rapport à ces actions est respecté."
+                                  "text": "Suite à la mise en place de ces actions et pour s'assurer de leur efficacité, l'exploitant réalise une nouvelle analyse des légionelles selon la norme NF T90-431 (version 2020). Un délai d'au moins quarante-huit heures et d'au plus une semaine par rapport à ces actions est respecté."
                                 },
                                 {
                                   "text": "Objet du contrôle :"
                                 },
                                 {
-                                  "text": "– présence d'une procédure\"Actions à mener si le résultat de l'analyse selon la norme NF T90-431 (avril 2006) rend impossible la quantification de Legionella pneumophila en raison de la présence d'une flore interférente\" (le non-respect de ce point relève d'une non-conformité majeure) ;"
+                                  "text": "– présence d'une procédure\"Actions à mener si le résultat de l'analyse selon la norme NF T90-431 (version 2020) rend impossible la quantification de Legionella pneumophila en raison de la présence d'une flore interférente\" (le non-respect de ce point relève d'une non-conformité majeure) ;"
                                 },
                                 {
-                                  "text": "– en cas de présence d'une flore interférente, mise à jour du carnet de suivi sur les actions engagées en application de la procédure \"Actions à mener si le résultat de l'analyse selon la norme NF T90-431 (avril 2006) rend impossible la quantification de Legionella pneumophila en raison de la présence de flore interférente\"."
+                                  "text": "– en cas de présence d'une flore interférente, mise à jour du carnet de suivi sur les actions engagées en application de la procédure \"Actions à mener si le résultat de l'analyse selon la norme NF T90-431 (version 2020) rend impossible la quantification de Legionella pneumophila en raison de la présence de flore interférente\"."
                                 }
                               ],
                               "parametrization": {
@@ -3244,7 +3720,7 @@
                                 "warnings": []
                               },
                               "reference": {
-                                "name": "Actions à mener si le dénombrement des Legionella pneumophila selon la norme NF T90-431 (avril 2006) est rendu impossible par la présence d'une flore interférente",
+                                "name": "Actions à mener si le dénombrement des Legionella pneumophila selon la norme",
                                 "nb": "Annexe I > 3.7. II. 3. c)"
                               },
                               "sections": [],
@@ -3254,7 +3730,7 @@
                             }
                           ],
                           "title": {
-                            "text": "3. Actions à mener si le dénombrement des Legionella pneumophila selon la norme NF T90-431 (avril 2006) est rendu impossible par la présence d'une flore interférente"
+                            "text": "3. Actions à mener si le dénombrement des Legionella pneumophila selon la norme"
                           }
                         },
                         {
@@ -3267,7 +3743,7 @@
                             "previous_version": null,
                             "warnings": []
                           },
-                          "id": "A03fAa3FeAf6",
+                          "id": "649F696bbFAA",
                           "outer_alineas": [
                             {
                               "text": "En cas de dérives répétées, consécutives ou non, de la concentration en Legionella pneumophila au-delà de 1 000 UFC/L et a fortiori de 100 000 UFC/L, et sur proposition des installations classées, le préfet peut prescrire la réalisation d'un réexamen des différentes composantes permettant la prévention du risque légionellose, notamment conception de l'installation, état du circuit, stratégie de traitement de l'eau, analyse méthodique des risques, plan d'entretien et de surveillance, ou toute autre étude jugée nécessaire pour supprimer ces dérives répétées."
@@ -3308,7 +3784,7 @@
                           "text": "Si des cas groupés de légionellose sont découverts par les autorités sanitaires et sur demande de l'inspection des installations classées, l'exploitant :"
                         },
                         {
-                          "text": "– fait immédiatement réaliser un prélèvement par un laboratoire répondant aux conditions prévues au point I-3 c du présent article, suivant les modalités définies au point I-3 b, auquel il confie l'analyse des Legionella pneumophila selon la norme NF T90-431 (avril 2006) ;"
+                          "text": "– fait immédiatement réaliser un prélèvement par un laboratoire répondant aux conditions prévues au point I-3 c du présent article, suivant les modalités définies au point I-3 b, auquel il confie l'analyse des Legionella pneumophila selon la norme NF T90-431 (version 2020) ;"
                         },
                         {
                           "text": "– procède ensuite à une désinfection curative de l'installation ;"
@@ -3372,7 +3848,10 @@
                               "text": "Sont considérés comme indépendants et compétents les organismes agrées dans les conditions définies par les articles R. 512-61 à R. 512-66 du code de l'environnement, pour la rubrique n° 2921 des installations classées pour la protection de l'environnement."
                             },
                             {
-                              "text": "Ce contrôle est à la charge de l'exploitant, en vertu de l'article L. 514-8 du code de l'environnement."
+                              "text": "Ce contrôle est à la charge de l'exploitant, en vertu de l'"
+                            },
+                            {
+                              "text": "article L. 514-8 du code de l'environnement."
                             },
                             {
                               "text": "Ce contrôle comprend :"
@@ -3447,7 +3926,10 @@
                               "text": "Dans le cas où la vérification fait suite à un dépassement du seuil de concentration en Legionella pneumophila de 100 000 UFC/L dans l'eau du circuit, l'exploitant transmet le rapport et le planning de mise en œuvre éventuel à l'inspection des installations classées."
                             },
                             {
-                              "text": "Un contrôle périodique effectué sur l'installation en application de l'article L. 512-11 du code de l'environnement dans un délai de six mois suivant la mise en service de l'installation ou un dépassement du seuil de concentration en Legionella pneumophila de 100 000 UFC/L tient lieu de vérification."
+                              "text": "Un contrôle périodique effectué sur l'installation en application de l'"
+                            },
+                            {
+                              "text": "article L. 512-11 du code de l'environnement dans un délai de six mois suivant la mise en service de l'installation ou un dépassement du seuil de concentration en Legionella pneumophila de 100 000 UFC/L tient lieu de vérification."
                             }
                           ],
                           "parametrization": {
@@ -3971,7 +4453,34 @@
                     }
                   ],
                   "parametrization": {
-                    "potential_inapplicabilities": [],
+                    "potential_inapplicabilities": [
+                      {
+                        "alineas": null,
+                        "condition": {
+                          "conditions": [
+                            {
+                              "parameter": {
+                                "id": "alinea",
+                                "type": "STRING"
+                              },
+                              "target": "2",
+                              "type": "EQUAL"
+                            },
+                            {
+                              "parameter": {
+                                "id": "date-d-installation",
+                                "type": "DATE"
+                              },
+                              "strict": true,
+                              "target": "2021-09-01",
+                              "type": "LITTLER"
+                            }
+                          ],
+                          "type": "AND"
+                        },
+                        "subsections_are_inapplicable": true
+                      }
+                    ],
                     "potential_modifications": [],
                     "warnings": []
                   },
@@ -4025,40 +4534,9 @@
                     "warnings": []
                   },
                   "id": "Ce428CBec2BF",
-                  "outer_alineas": [
-                    {
-                      "text": "a) Il est interdit de rejeter les eaux résiduaires de l'installation dans le réseau d'eaux pluviales ;"
-                    },
-                    {
-                      "text": "b) Les eaux résiduaires de l'installation sont évacuées dans les conditions prévues au point 5.5 ci-dessous ou éliminées dans un centre de traitement des déchets dans les conditions prévues au titre 7 ci-après ;"
-                    },
-                    {
-                      "text": "c) Les points de rejet des eaux résiduaires sont en nombre aussi réduit que possible."
-                    },
-                    {
-                      "text": "Ils sont aménagés pour permettre un prélèvement aisé d'échantillons et l'installation d'un dispositif de mesure du débit."
-                    },
-                    {
-                      "text": "Objet du contrôle : le réseau de collecte permet d'isoler les eaux résiduaires polluées des eaux pluviales (vérification sur plan)."
-                    }
-                  ],
+                  "outer_alineas": [],
                   "parametrization": {
                     "potential_inapplicabilities": [
-                      {
-                        "alineas": [
-                          0
-                        ],
-                        "condition": {
-                          "parameter": {
-                            "id": "date-d-declaration",
-                            "type": "DATE"
-                          },
-                          "strict": true,
-                          "target": "2005-07-01",
-                          "type": "LITTLER"
-                        },
-                        "subsections_are_inapplicable": true
-                      },
                       {
                         "alineas": [
                           0,
@@ -4085,7 +4563,118 @@
                     "name": "Réseau de collecte",
                     "nb": "Annexe I > 5.3."
                   },
-                  "sections": [],
+                  "sections": [
+                    {
+                      "annotations": {
+                        "topic": null
+                      },
+                      "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                      },
+                      "id": "cE63B9C92D0B",
+                      "outer_alineas": [
+                        {
+                          "text": "Il est interdit de rejeter les eaux résiduaires de l'installation dans le réseau d'eaux pluviales ;"
+                        }
+                      ],
+                      "parametrization": {
+                        "potential_inapplicabilities": [
+                          {
+                            "alineas": null,
+                            "condition": {
+                              "parameter": {
+                                "id": "date-d-declaration",
+                                "type": "DATE"
+                              },
+                              "strict": true,
+                              "target": "2005-07-01",
+                              "type": "LITTLER"
+                            },
+                            "subsections_are_inapplicable": true
+                          }
+                        ],
+                        "potential_modifications": [],
+                        "warnings": []
+                      },
+                      "reference": {
+                        "name": "Réseau de collecte",
+                        "nb": "Annexe I > 5.3. a)"
+                      },
+                      "sections": [],
+                      "title": {
+                        "text": "a)"
+                      }
+                    },
+                    {
+                      "annotations": {
+                        "topic": null
+                      },
+                      "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                      },
+                      "id": "dDfABd6cc0BF",
+                      "outer_alineas": [
+                        {
+                          "text": "Les eaux résiduaires de l'installation sont évacuées dans les conditions prévues au point 5.5 ci-dessous ou éliminées dans un centre de traitement des déchets dans les conditions prévues au titre 7 ci-après ;"
+                        }
+                      ],
+                      "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                      },
+                      "reference": {
+                        "name": "Réseau de collecte",
+                        "nb": "Annexe I > 5.3. b)"
+                      },
+                      "sections": [],
+                      "title": {
+                        "text": "b)"
+                      }
+                    },
+                    {
+                      "annotations": {
+                        "topic": null
+                      },
+                      "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                      },
+                      "id": "E9cF425CD6BB",
+                      "outer_alineas": [
+                        {
+                          "text": "Les points de rejet des eaux résiduaires sont en nombre aussi réduit que possible."
+                        },
+                        {
+                          "text": "Ils sont aménagés pour permettre un prélèvement aisé d'échantillons et l'installation d'un dispositif de mesure du débit."
+                        },
+                        {
+                          "text": "Objet du contrôle : le réseau de collecte permet d'isoler les eaux résiduaires polluées des eaux pluviales (vérification sur plan)."
+                        }
+                      ],
+                      "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                      },
+                      "reference": {
+                        "name": "Réseau de collecte",
+                        "nb": "Annexe I > 5.3. c)"
+                      },
+                      "sections": [],
+                      "title": {
+                        "text": "c)"
+                      }
+                    }
+                  ],
                   "title": {
                     "text": "5.3. Réseau de collecte"
                   }
@@ -4139,10 +4728,16 @@
                       "text": "Dans tous les cas, les rejets doivent être compatibles avec la qualité ou les objectifs de qualité des cours d'eau."
                     },
                     {
-                      "text": "Sans préjudice de l'autorisation de déversement dans le réseau public (art. L. 1331-10 du code de la santé publique), les rejets d'eaux résiduaires doivent faire l'objet en tant que de besoin d'un traitement permettant de respecter les valeurs limites suivantes, contrôlées, sauf stipulation contraire de la norme, sur effluent brut non décanté et non filtré, sans dilution préalable ou mélange avec d'autres effluents :"
+                      "text": "Sans préjudice de l'autorisation de déversement dans le réseau public ("
                     },
                     {
-                      "text": "a) Dans tous les cas, avant rejet au milieu naturel ou dans un réseau d'assainissement collectif :"
+                      "text": "art. L. 1331-10 du code de la santé publique), les rejets d'eaux résiduaires doivent faire l'objet en tant que de besoin d'un traitement permettant de respecter les valeurs limites suivantes, contrôlées, sauf stipulation contraire de la norme, sur effluent brut non décanté et non filtré, sans dilution préalable ou mélange avec d'autres effluents :"
+                    },
+                    {
+                      "text": "a) "
+                    },
+                    {
+                      "text": "Dans tous les cas, avant rejet au milieu naturel ou dans un réseau d'assainissement collectif :"
                     },
                     {
                       "text": "– pH 5,5 – 9,5 ;"
@@ -4151,7 +4746,10 @@
                       "text": "– température < 30 °C ;"
                     },
                     {
-                      "text": "b) Dans le cas de rejet dans un réseau d'assainissement collectif muni d'une station d'épuration, lorsque le flux maximal apporté par l'effluent est susceptible de dépasser 15 kg/j de MEST ou 15 kg/j de DBO5 ou 45 kg/j de DCO :"
+                      "text": "b) "
+                    },
+                    {
+                      "text": "Dans le cas de rejet dans un réseau d'assainissement collectif muni d'une station d'épuration, lorsque le flux maximal apporté par l'effluent est susceptible de dépasser 15 kg/j de MEST ou 15 kg/j de DBO5 ou 45 kg/j de DCO :"
                     },
                     {
                       "text": "– matières en suspension : 600 mg/l ;"
@@ -4161,57 +4759,6 @@
                     },
                     {
                       "text": "Ces valeurs limites ne sont pas applicables lorsque l'autorisation de déversement dans le réseau public prévoit une valeur supérieure ;"
-                    },
-                    {
-                      "text": "c) dans le cas de rejet dans le milieu naturel (ou dans un réseau d'assainissement collectif dépourvu de station d'épuration) :"
-                    },
-                    {
-                      "text": "– matières en suspension : la concentration ne doit pas dépasser 100 mg/l si le flux journalier n'excède pas 15 kg/j, 35 mg/l au-delà ;"
-                    },
-                    {
-                      "text": "– DCO : la concentration ne doit pas dépasser 300 mg/l si le flux journalier n'excède pas 50 kg/j, 125 mg/l au-delà ;"
-                    },
-                    {
-                      "text": "d) Polluants spécifiques : avant rejet dans le milieu naturel ou dans un réseau d'assainissement collectif muni ou non de station d'épuration :"
-                    },
-                    {
-                      "text": "– phosphore :"
-                    },
-                    {
-                      "text": "– flux journalier maximal supérieur ou égal à 15 kg/jour : 10 mg/l en concentration moyenne mensuelle ;"
-                    },
-                    {
-                      "text": "– flux journalier maximal supérieur ou égal à 40 kg/jour : 2 mg/l en concentration moyenne mensuelle ;"
-                    },
-                    {
-                      "text": "– flux journalier maximal supérieur à 80 kg/jour : 1 mg/l en concentration moyenne mensuelle ;"
-                    },
-                    {
-                      "text": "– fer et composés : 5 mg/l ;"
-                    },
-                    {
-                      "text": "– plomb et composés : 0,5 mg/l ;"
-                    },
-                    {
-                      "text": "– nickel et composés : 0,5 mg/l ;"
-                    },
-                    {
-                      "text": "– arsenic et composés : 50 µg/l ;"
-                    },
-                    {
-                      "text": "– cuivre et composés : 0,5 mg/l ;"
-                    },
-                    {
-                      "text": "– zinc et composés : 2 mg/l ;"
-                    },
-                    {
-                      "text": "– THM (TriHaloMéthane) : 1 mg/l ;"
-                    },
-                    {
-                      "text": "– composés organiques halogénés (en AOX) : 1 mg/l si le flux est supérieur à 30 g/j."
-                    },
-                    {
-                      "text": "Ces valeurs limites sont respectées en moyenne quotidienne. Aucune valeur instantanée ne dépasse le double des valeurs limites de concentration."
                     }
                   ],
                   "parametrization": {
@@ -4223,7 +4770,113 @@
                     "name": "Valeurs limites de rejet",
                     "nb": "Annexe I > 5.5."
                   },
-                  "sections": [],
+                  "sections": [
+                    {
+                      "annotations": {
+                        "topic": null
+                      },
+                      "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                      },
+                      "id": "3Ab9ed43B0e3",
+                      "outer_alineas": [
+                        {
+                          "text": "dans le cas de rejet dans le milieu naturel (ou dans un réseau d'assainissement collectif dépourvu de station d'épuration) :"
+                        },
+                        {
+                          "text": "– matières en suspension : la concentration ne doit pas dépasser 100 mg/l si le flux journalier n'excède pas 15 kg/j, 35 mg/l au-delà ;"
+                        },
+                        {
+                          "text": "– DCO : la concentration ne doit pas dépasser 300 mg/l si le flux journalier n'excède pas 50 kg/j, 125 mg/l au-delà ;"
+                        }
+                      ],
+                      "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                      },
+                      "reference": {
+                        "name": "Valeurs limites de rejet",
+                        "nb": "Annexe I > 5.5. c)"
+                      },
+                      "sections": [],
+                      "title": {
+                        "text": "c)"
+                      }
+                    },
+                    {
+                      "annotations": {
+                        "topic": null
+                      },
+                      "applicability": {
+                        "active": true,
+                        "modified": false,
+                        "previous_version": null,
+                        "warnings": []
+                      },
+                      "id": "dAb3E1fdb3cC",
+                      "outer_alineas": [
+                        {
+                          "text": "Polluants spécifiques : avant rejet dans le milieu naturel ou dans un réseau d'assainissement collectif muni ou non de station d'épuration :"
+                        },
+                        {
+                          "text": "– phosphore :"
+                        },
+                        {
+                          "text": "– flux journalier maximal supérieur ou égal à 15 kg/jour : 10 mg/l en concentration moyenne mensuelle ;"
+                        },
+                        {
+                          "text": "– flux journalier maximal supérieur ou égal à 40 kg/jour : 2 mg/l en concentration moyenne mensuelle ;"
+                        },
+                        {
+                          "text": "– flux journalier maximal supérieur à 80 kg/jour : 1 mg/l en concentration moyenne mensuelle ;"
+                        },
+                        {
+                          "text": "– fer et composés : 5 mg/l ;"
+                        },
+                        {
+                          "text": "– plomb et composés : 0,5 mg/l ;"
+                        },
+                        {
+                          "text": "– nickel et composés : 0,5 mg/l ;"
+                        },
+                        {
+                          "text": "– arsenic et composés : 50 µg/l ;"
+                        },
+                        {
+                          "text": "– cuivre et composés : 0,5 mg/l ;"
+                        },
+                        {
+                          "text": "– zinc et composés : 2 mg/l ;"
+                        },
+                        {
+                          "text": "– THM (TriHaloMéthane) : 1 mg/l ;"
+                        },
+                        {
+                          "text": "– composés organiques halogénés (en AOX) : 1 mg/l si le flux est supérieur à 30 g/j."
+                        },
+                        {
+                          "text": "Ces valeurs limites sont respectées en moyenne quotidienne. Aucune valeur instantanée ne dépasse le double des valeurs limites de concentration."
+                        }
+                      ],
+                      "parametrization": {
+                        "potential_inapplicabilities": [],
+                        "potential_modifications": [],
+                        "warnings": []
+                      },
+                      "reference": {
+                        "name": "Valeurs limites de rejet",
+                        "nb": "Annexe I > 5.5. d)"
+                      },
+                      "sections": [],
+                      "title": {
+                        "text": "d)"
+                      }
+                    }
+                  ],
                   "title": {
                     "text": "5.5. Valeurs limites de rejet"
                   }
@@ -4365,7 +5018,34 @@
                     }
                   ],
                   "parametrization": {
-                    "potential_inapplicabilities": [],
+                    "potential_inapplicabilities": [
+                      {
+                        "alineas": null,
+                        "condition": {
+                          "conditions": [
+                            {
+                              "parameter": {
+                                "id": "alinea",
+                                "type": "STRING"
+                              },
+                              "target": "2",
+                              "type": "EQUAL"
+                            },
+                            {
+                              "parameter": {
+                                "id": "date-d-installation",
+                                "type": "DATE"
+                              },
+                              "strict": true,
+                              "target": "2021-09-01",
+                              "type": "LITTLER"
+                            }
+                          ],
+                          "type": "AND"
+                        },
+                        "subsections_are_inapplicable": true
+                      }
+                    ],
                     "potential_modifications": [],
                     "warnings": []
                   },
@@ -4851,7 +5531,10 @@
                       "text": "Les déchets non dangereux (bois, papier, verre, textile, plastique, caoutchouc, etc.) et non souillés par des produits toxiques ou polluants peuvent être récupérés, valorisés ou éliminés dans des installations autorisées."
                     },
                     {
-                      "text": "Les seuls modes d'élimination autorisés pour les déchets d'emballage sont la valorisation par réemploi, recyclage ou toute autre action visant à obtenir des matériaux utilisables ou de l'énergie. Cette disposition n'est pas applicable aux détenteurs de déchets d'emballage qui en produisent un volume hebdomadaire inférieur à 1 100 litres et qui les remettent au service de collecte et de traitement des communes (art. R. 543-66 à R. 543-72 du code de l'environnement)."
+                      "text": "Les seuls modes d'élimination autorisés pour les déchets d'emballage sont la valorisation par réemploi, recyclage ou toute autre action visant à obtenir des matériaux utilisables ou de l'énergie. Cette disposition n'est pas applicable aux détenteurs de déchets d'emballage qui en produisent un volume hebdomadaire inférieur à 1 100 litres et qui les remettent au service de collecte et de traitement des communes ("
+                    },
+                    {
+                      "text": "art. R. 543-66 à R. 543-72 du code de l'environnement)."
                     }
                   ],
                   "parametrization": {
@@ -4984,21 +5667,21 @@
                               {
                                 "colspan": 1,
                                 "content": {
-                                  "text": "\nNIVEAU DE BRUIT AMBIANT\nexistant dans les zones à émergence réglementée\n(incluant le bruit de l'installation)"
+                                  "text": "NIVEAU DE BRUIT AMBIANT\nexistant dans les zones à émergence réglementée\n(incluant le bruit de l'installation)"
                                 },
                                 "rowspan": 1
                               },
                               {
                                 "colspan": 1,
                                 "content": {
-                                  "text": "\nÉMERGENCE ADMISSIBLE\npour la période allant de 7 heures à 22 heures\n(sauf dimanches et jours fériés)"
+                                  "text": "ÉMERGENCE ADMISSIBLE\npour la période allant de 7 heures à 22 heures\n(sauf dimanches et jours fériés)"
                                 },
                                 "rowspan": 1
                               },
                               {
                                 "colspan": 2,
                                 "content": {
-                                  "text": "\nÉMERGENCE ADMISSIBLE\npour la période allant de 22 heures à 7 heures\n(ainsi que les dimanches et jours fériés)"
+                                  "text": "ÉMERGENCE ADMISSIBLE\npour la période allant de 22 heures à 7 heures\n(ainsi que les dimanches et jours fériés)"
                                 },
                                 "rowspan": 1
                               }
@@ -5912,7 +6595,7 @@
           "id": "Aa468E8439ED",
           "outer_alineas": [
             {
-              "text": "I. - Les dispositions suivantes du présent arrêté ne sont pas applicables aux installations existantes aux conditions suivantes :"
+              "text": "I. - Les dispositions suivantes du présent arrêté ne sont pas applicables aux systèmes aéroréfrigérants existants aux conditions suivantes :"
             },
             {
               "table": {
@@ -5922,14 +6605,14 @@
                       {
                         "colspan": 1,
                         "content": {
-                          "text": "Installations classées déclarées avant le 1er juillet 2005\n"
+                          "text": "Installations classées déclarées avant le 1er juillet 2005"
                         },
                         "rowspan": 1
                       },
                       {
                         "colspan": 1,
                         "content": {
-                          "text": "Annexe I-2.1, 2.2, 2.5.1, 2.5.2 a, 2.5.2.d\n"
+                          "text": "Annexe I-2.1, 2.2, 2.5.1, 2.5.2 a, 2.5.2.d"
                         },
                         "rowspan": 1
                       }
@@ -5941,14 +6624,14 @@
                       {
                         "colspan": 1,
                         "content": {
-                          "text": "Installations classées déclarées avant le 1er juillet 2014\n"
+                          "text": "Installations classées déclarées avant le 1er juillet 2014"
                         },
                         "rowspan": 1
                       },
                       {
                         "colspan": 1,
                         "content": {
-                          "text": "Annexe I-2.1 b, 2.10, 2.11, 5.3 a\n"
+                          "text": "Annexe I-2.1 b, 2.10, 2.11, 5.3 a"
                         },
                         "rowspan": 1
                       }
@@ -5958,6 +6641,98 @@
                 ]
               },
               "text": ""
+            },
+            {
+              "text": "II. - Sans préjudice des dispositions applicables au titre d'autres réglementations, les dispositions suivantes sont applicables aux condenseurs par voie humide, mis en service ou ayant fait l'objet d'une demande de permis de construire avant le 1er septembre 2021, selon les délais ci-dessous :"
+            },
+            {
+              "table": {
+                "rows": [
+                  {
+                    "cells": [
+                      {
+                        "colspan": 1,
+                        "content": {
+                          "text": "Immédiat"
+                        },
+                        "rowspan": 1
+                      },
+                      {
+                        "colspan": 1,
+                        "content": {
+                          "text": "Annexe I-Points 1.1 à 1.3,1.4 (sauf alinéas 11 et 12),\n1.5 à 1.9,2.7,2.8,3.2 à 3.6,4.2,5.2,5.4 à 5.8,7,8 et 9\nAnnexe II"
+                        },
+                        "rowspan": 1
+                      }
+                    ],
+                    "is_header": false
+                  },
+                  {
+                    "cells": [
+                      {
+                        "colspan": 1,
+                        "content": {
+                          "text": "Au 1er mars 2022"
+                        },
+                        "rowspan": 1
+                      },
+                      {
+                        "colspan": 1,
+                        "content": {
+                          "text": "Annexe I-Points 3.1,3.7,5.1,5.9"
+                        },
+                        "rowspan": 1
+                      }
+                    ],
+                    "is_header": false
+                  },
+                  {
+                    "cells": [
+                      {
+                        "colspan": 1,
+                        "content": {
+                          "text": "Au 1er janvier 2023"
+                        },
+                        "rowspan": 1
+                      },
+                      {
+                        "colspan": 1,
+                        "content": {
+                          "text": "Annexe I-Points 2.5.2. c (*), 2.5.2. e"
+                        },
+                        "rowspan": 1
+                      }
+                    ],
+                    "is_header": false
+                  },
+                  {
+                    "cells": [
+                      {
+                        "colspan": 1,
+                        "content": {
+                          "text": "Au 1er janvier 2025"
+                        },
+                        "rowspan": 1
+                      },
+                      {
+                        "colspan": 1,
+                        "content": {
+                          "text": "Annexe I-Point 2.9"
+                        },
+                        "rowspan": 1
+                      }
+                    ],
+                    "is_header": false
+                  }
+                ]
+              },
+              "text": ""
+            },
+            {
+              "text": "(*) Sauf en cas d'impossibilité technique ou de coût disproportionné."
+            },
+            {
+              "text": "III. - Les dispositions des points 1.4 (alinéas 11 et 12), 2.1,2.2,2.5.1,2.5.2 a, 2.5.2 d, 2.10,2.11,5.3 de l'annexe I du présent arrêté ne s'appliquent pas aux condenseurs par voie humide, mis en service ou ayant fait l'objet d'une demande de permis de construire avant le 1er septembre 2021."
             }
           ],
           "parametrization": {
