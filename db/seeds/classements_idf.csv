@@ -6863,6 +6863,16 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.08328,4510,2,D,Dangereux pour l'environnement aquatique de catégorie aiguë 1 ou chronique 1,2013-11-20,2001-03-19,2013-11-20,En fonctionnement,1220,3,D,4.869,t
 0065.08328,1150,6-b,A,Substances et mélanges particuliers (fabrication industrielle de ou à base de),2013-11-20,2009-09-21,2013-11-20,En fonctionnement,1150,6-c,D,51.800,kg
 0065.08328,47xx,,NC,,,2009-09-21,2013-11-20,En fonctionnement,47xx,,NC,,
+0065.08335,1434,1-b,D,Liquides inflammables (remplissage ou distribution) autres que 1435,1814-11-23,1814-11-23,,En fonctionnement,261,A-2,D,0.000,m3/h
+0065.08335,2930,1-b,D,Ateliers de réparation et entretien de véhicules à moteur,1814-11-23,1814-11-23,,En fonctionnement,68,2,D,0.000,m2
+0065.08335,2940,2-b,D,"Vernis, peinture, colle, ... (application, cuisson, séchage)",1814-11-23,1814-11-23,,En fonctionnement,405,A-1,unknown,0.000,
+0065.08335,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2018-09-06,2018-09-06,,En fonctionnement,2925,#,D,49.900,kW
+0065.08335,1510,2-b,E,Entrepot enregistré,2018-09-06,2018-09-06,,En fonctionnement,1510,2,E,97288.000,m3
+0065.08335,1530,1,E,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",2018-09-06,2018-09-06,,En fonctionnement,1530,2,E,24770.000,m3
+0065.08335,1532,2-a,E,Stockage de bois enregistré,2018-09-06,2018-09-06,,En fonctionnement,1532,2,E,24770.000,m3
+0065.08335,2663,1-a,E,Stockage de pneumatiques alvéolaires ou expansés,2018-09-06,2018-09-06,,En fonctionnement,2663,1-b,E,24770.000,m3
+0065.08335,2663,2-a,E,Stockage de pneumatiques,2018-09-06,2018-09-06,,En fonctionnement,2663,2-b,E,24770.000,m3
+0065.08335,2910,,NC,Installation de combustion,2018-09-06,2018-09-06,,En fonctionnement,2910,,NC,1.990,MW
 0065.08339,2255,3,D,"Alcools de bouche,eaux-de-vie,liqueurs(stockage)",1814-11-23,2010-03-18,2010-03-18,En fonctionnement,2255,3,D,123.000,m3
 0065.08339,2250,2,E,"Alcools,eaux de vie et liqueurs (production par distillation)",1814-11-23,2010-03-18,,En fonctionnement,2250,2,D,0.000,L/j
 0065.08345,1510,,NC,Entrepôts couverts,2009-08-10,2009-08-10,,En fonctionnement,1510,#,NC,0.000,
@@ -8476,6 +8486,8 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.12161,1185,2-a,D,Quantité susceptible d'être présente,2021-07-21,,2021-07-21,En fonctionnement,1185,2-a,D,2679.000,kg
 0065.12161,47xx,,NC,,,2011-01-25,2021-07-21,En fonctionnement,47xx,,NC,,
 0065.12161,47xx,,NC,,,,2021-07-21,En fonctionnement,47xx,,NC,,
+0065.12166,1434,1-a,A,Liquides inflammables (remplissage ou distribution) autres que 1435,1814-11-23,1814-11-23,,En fonctionnement,1434,1-a,A,0.000,m3/h
+0065.12166,1432,2-b,D,Liquides inflammables (stockage),1814-11-23,1814-11-23,,En fonctionnement,1432,2-b,D,0.000,m3
 0065.12175,2712,1,E,"Stockage, dépollution, démontage,… de VHU",2013-11-20,2011-05-17,2013-11-20,En fonctionnement,2712,1-b,E,2100.000,m2
 0065.12187,2711,2,D,"Transit, regroupement, tri, ...équipements électriques mis au rebut",2010-09-23,2010-09-23,,En fonctionnement,2711,2,D,100.000,m3
 0065.12187,2791,1,A,Déchets non dangereux (traitement),2021-05-12,2010-09-23,2020-05-15,En fonctionnement,2791,1,A,116.000,t/j
@@ -8814,6 +8826,14 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.12585,1530,1,E,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",1814-11-23,1814-11-23,,En fonctionnement,1530,1,A,78670.000,m3
 0065.12585,2663,1-a,E,Stockage de pneumatiques alvéolaires ou expansés,1814-11-23,1814-11-23,,En fonctionnement,2663,1-a,A,78670.000,m3
 0065.12585,2663,2-a,E,Stockage de pneumatiques,1814-11-23,1814-11-23,,En fonctionnement,2663,2-a,A,78670.000,m3
+0065.12594,1510,2-a,A,Entrepot autorisé,2011-11-25,2008-05-20,2011-11-25,En fonctionnement,1510,1,A,324340.000,m3
+0065.12594,2910,A-2,D,Combustion,2011-11-25,2008-05-20,2011-11-25,En fonctionnement,2910,A-2,D,2.100,MW
+0065.12594,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2011-11-25,2008-05-20,2011-11-25,En fonctionnement,2925,#,D,280.000,kW
+0065.12594,1530,1,E,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",2011-11-25,2008-05-20,2011-11-25,En fonctionnement,1530,1,A,74923.000,m3
+0065.12594,2662,1,E,Stockage de polymères enregistré,2011-11-25,2008-05-20,2011-11-25,En fonctionnement,2662,a,A,74923.000,m3
+0065.12594,2663,1-a,E,Stockage de pneumatiques alvéolaires ou expansés,2011-11-25,2008-05-20,2011-11-25,En fonctionnement,2663,1-a,A,74923.000,m3
+0065.12594,2663,2-a,E,Stockage de pneumatiques,2011-11-25,2008-05-20,2011-11-25,En fonctionnement,2663,2-a,A,74923.000,m3
+0065.12594,1532,1,A,Bois ou analogues (dépôt de) dégageant poussières inflammables,2011-11-25,2011-11-25,2011-11-25,En fonctionnement,1532,1,A,74923.000,m3
 0065.12610,1220,#,NC,Oxygène (emploi et stockage),1814-11-23,2008-12-30,2008-12-30,En fonctionnement,1220,#,NC,30.000,m3
 0065.12610,1411,#,NC,Gazomètres et réservoirs de gaz comprimés inflammables,1814-11-23,2008-12-30,2008-12-30,En fonctionnement,1411,#,NC,26.000,kg
 0065.12610,1418,#,NC,Acétylène (stockage ou emploi),1814-11-23,2008-12-30,2008-12-30,En fonctionnement,1418,#,NC,94.500,kg
@@ -8983,6 +9003,8 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.12795,47xx,,NC,,,2010-05-11,2016-07-11,En fonctionnement,47xx,,NC,,
 0065.12803,2713,1,E,Métaux et déchets de métaux (transit),2016-10-19,2009-07-31,2016-10-19,En fonctionnement,2713,1,A,1450.000,m2
 0065.12803,47xx,,NC,,,2009-07-31,2016-10-19,En fonctionnement,47xx,,NC,,
+0065.12817,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2021-02-15,2021-02-15,,En fonctionnement,2925,1,D,50.000,kW
+0065.12817,1510,2-b,E,Entrepot enregistré,2021-02-15,2021-02-15,,En fonctionnement,1510,2-b,E,204618.000,m3
 0065.12848,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2013-04-08,2013-04-08,,En fonctionnement,2925,#,D,31.200,kW
 0065.12848,1510,2-b,E,Entrepot enregistré,2013-04-08,2013-04-08,,En fonctionnement,1510,2,E,11372.000,m3
 0065.12848,1185,2,NC,,2013-04-08,2013-04-08,,En fonctionnement,1185,2,NC,1.170,
@@ -9456,10 +9478,30 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.14435,2712,1,E,"Stockage, dépollution, démontage,… de VHU",2012-06-25,2012-06-25,2012-06-25,En fonctionnement,2712,1-b,E,1300.000,m2
 0065.14459,2710,2-a,E,collecte de déchets non dangereux-E,2013-08-06,,2013-08-07,En fonctionnement,2710,2-b,E,406.000,m3
 0065.14459,2710,1-b,D,collecte de déchets dangereux-DC,2013-08-07,2013-08-07,2013-08-07,En fonctionnement,2710,1-b,D,0.700,t
+0065.14461,2781,2-a,A,Installations de méthanisation de déchets non dangereux,2016-03-14,,2016-03-14,En fonctionnement,2781,2,A,197.000,
+0065.14461,3532,,A,Valorisation de déchets non dangereux,2016-03-14,,2016-03-14,En fonctionnement,3532,,A,197.000,t/j
+0065.14461,4441,1,A,"Liquides comburants catégorie 1,2 ou 3",2016-03-14,,2016-03-14,En fonctionnement,4441,1,A,130.000,t
+0065.14461,1413,1-b,D,Installation de remplissage de gaz naturel - débit compris entre 80 et  2000 m3/h,2016-03-14,,2016-03-14,En fonctionnement,1413,2,D,500.000,m3/h
+0065.14461,2171,#,D,"Dépôts de fumiers, engrais et supports de culture",2016-03-14,,2016-03-14,En fonctionnement,2171,#,D,10800.000,m3
+0065.14461,2175,,D,Dépôts d'engrais liquides,2016-03-14,,2016-03-14,En fonctionnement,2175,1,A,510.000,m3
+0065.14461,2716,2,D,déchets non dangereux non inertes (transit),2016-03-14,,2016-03-14,En fonctionnement,2716,2,D,990.000,m3
+0065.14461,2795,2,D,"Lavage de fûts, conteneurs,... de substances ou mélanges ou de déchets dangereux",2016-03-14,,2016-03-14,En fonctionnement,2795,2,D,1.200,M3/J
+0065.14461,4310,2,D,Gaz inflammables catégorie 1 et 2,2016-03-14,,2016-03-14,En fonctionnement,4310,2,D,9.700,t
+0065.14461,2260,1-a,E,Supérieure à 500 kW,2016-03-14,,2016-03-14,En fonctionnement,2260,2-a,A,840.000,kW
+0065.14461,1630,,NC,Emploi ou stockage de lessives de soude ou de potasse caustique,2016-03-14,,2016-03-14,En fonctionnement,1630,,NC,30.000,t
+0065.14461,47xx,,NC,,,,2016-03-14,En fonctionnement,47xx,,NC,,
 0065.14495,1185,2-a,D,Quantité susceptible d'être présente,2019-04-09,2013-09-10,2019-04-09,En fonctionnement,1185,2-a,D,159.300,kg
 0065.14495,2910,A-1,E,Combustion,2019-04-09,2013-09-10,2019-04-09,En fonctionnement,2910,A-1,E,44.600,MW
 0065.14495,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2020-08-25,2013-09-10,2020-08-25,En fonctionnement,2925,#,D,4011.200,kW
 0065.14495,47xx,,NC,,,2013-09-10,2019-04-09,En fonctionnement,47xx,,NC,,
+0065.14649,1510,2-a,A,Entrepot autorisé,2020-11-03,2017-12-21,2017-12-21,En fonctionnement,1510,1,A,366500.000,m3
+0065.14649,1532,1,A,Bois ou analogues (dépôt de) dégageant poussières inflammables,2020-11-03,2017-12-21,2017-12-21,En fonctionnement,1532,1,A,90000.000,m3
+0065.14649,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2020-11-03,2017-12-21,2017-12-21,En fonctionnement,2925,#,D,200.000,kW
+0065.14649,1530,1,E,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",2020-11-03,2017-12-21,2017-12-21,En fonctionnement,1530,1,A,90000.000,m3
+0065.14649,2662,1,E,Stockage de polymères enregistré,2020-11-03,2017-12-21,2017-12-21,En fonctionnement,2662,1,A,90000.000,m3
+0065.14649,2663,1-a,E,Stockage de pneumatiques alvéolaires ou expansés,2020-11-03,2017-12-21,2017-12-21,En fonctionnement,2663,1-a,A,90000.000,m3
+0065.14649,2663,2-a,E,Stockage de pneumatiques,2020-11-03,2017-12-21,2017-12-21,En fonctionnement,2663,2-a,A,90000.000,m3
+0065.14649,2910,A,NC,Combustion,2020-11-03,2017-12-21,2017-12-21,En fonctionnement,2910,A,NC,20.000,MW
 0065.14660,2710,1-a,A,collecte de déchets dangereux-A,2017-06-23,,2012-06-06,En fonctionnement,2710,1-a,A,45.000,t
 0065.14660,2791,1,A,Déchets non dangereux (traitement),2017-06-23,,2012-06-06,En fonctionnement,2791,1,A,1270.000,t/j
 0065.14660,3532,,A,Valorisation de déchets non dangereux,2017-06-23,,2014-03-14,En fonctionnement,3532,,A,1000.000,t/j
@@ -9789,6 +9831,7 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.15705,2663,2-a,E,Stockage de pneumatiques,2019-02-28,2016-10-17,2019-02-28,En fonctionnement,2663,2-b,E,50000.000,m3
 0065.15705,47xx,,NC,,,2016-10-17,2019-02-28,En fonctionnement,47xx,,NC,,
 0065.15716,1510,2-b,E,Entrepot enregistré,2012-02-20,2010-04-13,,En fonctionnement,1510,2,E,65000.000,m3
+0065.15728,2221,1,E,Supérieure à 4t/j,2012-01-01,,2012-01-01,En fonctionnement,2221,1,E,10.000,t/j
 0065.15749,1434,,NC,Installations de remplissage ou de distribution de liquides inflammables,2013-07-10,,2013-07-10,En fonctionnement,1434,,NC,0.120,
 0065.15749,2930,1,NC,Ateliers de réparation et entretien de véhicules à moteur,2013-07-10,,2013-07-10,En fonctionnement,2930,1,NC,450.000,
 0065.15749,1435,,NC,Stations service,2016-06-03,2016-06-03,2016-06-03,En fonctionnement,1435,,NC,23.500,m3
@@ -10006,6 +10049,8 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.16580,2710,2-a,E,collecte de déchets non dangereux-E,2013-05-14,2013-05-14,2015-01-28,En fonctionnement,2710,2-b,E,360.000,m3
 0065.16580,2710,1-b,D,collecte de déchets dangereux-DC,2013-05-17,2013-05-17,2015-01-28,En fonctionnement,2710,1-b,D,0.000,t
 0065.16580,2710,1-b,D,collecte de déchets dangereux-DC,2015-01-28,2015-01-28,2015-01-28,En fonctionnement,2710,1-b,D,2.500,t
+0065.16607,2510,1,A,Carrières (exploitation de),2015-12-07,2015-12-07,2015-12-07,En fonctionnement,2510,1,A,350000.000,
+0065.16607,2517,1,E,Produits minéraux ou déchets non dangereux inertes (transit),2015-12-07,2015-12-07,2015-12-07,En fonctionnement,2517,1,A,31000.000,m2
 0065.16611,1510,2-b,E,Entrepot enregistré,1990-02-27,,1990-02-27,En fonctionnement,1510,2,E,100000.000,m3
 0065.16611,1530,2,D,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",2012-04-03,,2012-04-03,En fonctionnement,1530,3,D,5000.000,m3
 0065.16611,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2012-04-03,,2012-04-03,En fonctionnement,2925,#,D,100.000,kW
@@ -10027,6 +10072,24 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.16692,2710,2-a,E,collecte de déchets non dangereux-E,2013-04-05,2013-04-05,2013-04-05,En fonctionnement,2710,2-b,E,400.000,m3
 0065.16693,2710,1-b,D,collecte de déchets dangereux-DC,2013-04-05,2013-04-05,2013-04-05,En fonctionnement,2710,1-b,D,6.000,t
 0065.16693,2710,2-a,E,collecte de déchets non dangereux-E,2013-04-05,2013-04-05,2013-04-05,En fonctionnement,2710,2-b,E,320.000,m3
+0065.16709,2713,2,D,Métaux et déchets de métaux (transit),2013-12-03,2013-12-03,2013-12-03,En fonctionnement,2713,2,D,995.000,m2
+0065.16709,2710,1-a,A,collecte de déchets dangereux-A,2017-06-20,,2017-06-20,En fonctionnement,2710,1-a,A,25.000,t
+0065.16709,2718,1,A,Déchets dangereux ou contenant des substances ou préparations dangereuses (transit ou tri),2017-06-20,,2017-06-20,En fonctionnement,2718,1,A,25.000,t
+0065.16709,2791,1,A,Déchets non dangereux (traitement),2017-06-20,,2017-06-20,En fonctionnement,2791,1,A,200.000,t/j
+0065.16709,2517,2,D,Produits minéraux ou déchets non dangereux inertes (transit),2017-06-20,,2017-06-20,En fonctionnement,2517,3,D,10000.000,m2
+0065.16709,2716,2,D,déchets non dangereux non inertes (transit),2017-06-20,,2017-06-20,En fonctionnement,2716,2,D,600.000,m3
+0065.16709,2515,1-a,E,"Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes",2017-06-20,,2017-06-20,En fonctionnement,2515,1-a,A,800.000,kW
+0065.16709,2710,2-a,E,collecte de déchets non dangereux-E,2017-06-20,,2017-06-20,En fonctionnement,2710,2-b,E,480.000,m3
+0065.16709,2712,1,E,"Stockage, dépollution, démontage,… de VHU",2017-06-20,,2017-06-20,En fonctionnement,2712,1-b,E,1750.000,m2
+0065.16709,2713,1,E,Métaux et déchets de métaux (transit),2017-06-20,,2017-06-20,En fonctionnement,2713,1,A,1000.000,m2
+0065.16709,2714,1,E,"déchets non dangereux de papiers, plastiques, bois,… (transit) hors 2710,2711 et 2719",2017-06-20,,2017-06-20,En fonctionnement,2714,1,A,3270.000,m3
+0065.16709,1435,,NC,Stations service,2017-06-20,,2017-06-20,En fonctionnement,1435,,NC,30.000,m3
+0065.16709,1530,,NC,"Dépôts de papiers, cartons ou analogues",2017-06-20,,2017-06-20,En fonctionnement,1530,#,NC,30.000,m3
+0065.16709,2662,,NC,Stockage de polymères,2017-06-20,,2017-06-20,En fonctionnement,2662,#,NC,30.000,m3
+0065.16709,2663,,NC,Stockage de pneumatiques,2017-06-20,,2017-06-20,En fonctionnement,2663,#,NC,30.000,m3
+0065.16709,2910,,NC,Installation de combustion,2017-06-20,,2017-06-20,En fonctionnement,2910,,NC,374.000,MW
+0065.16709,2930,,NC,Ateliers de réparation et d'entretien de véhicules à moteurs,2017-06-20,,2017-06-20,En fonctionnement,2930,#,NC,1600.000,m2
+0065.16709,47xx,,NC,,,,2017-06-20,En fonctionnement,47xx,,NC,,
 0065.16765,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2017-01-20,2017-01-20,,En fonctionnement,2925,#,D,50.000,kW
 0065.16765,1510,2-b,E,Entrepot enregistré,2017-01-20,2017-01-20,,En fonctionnement,1510,2,E,113662.000,m3
 0065.16765,1530,1,E,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",2017-01-20,2017-01-20,,En fonctionnement,1530,2,E,30423.000,m3
@@ -10138,6 +10201,21 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.17025,4130,2-b,D,Toxicité aiguë catégorie 3 pour les voies d'exposition par inhalation,2016-11-25,,2016-11-25,En fonctionnement,4130,2-b,D,4.000,t
 0065.17025,4441,2,D,"Liquides comburants catégorie 1,2 ou 3",2016-11-25,,2016-11-25,En fonctionnement,4441,2,D,5.600,t
 0065.17025,2340,1,E,"Blanchisseries, laveries de linge",2016-11-25,,2016-11-25,En fonctionnement,2340,1,E,100.000,t/j
+0065.17028,2510,3,A,Carrières (exploitation de),2019-02-11,,2019-02-11,En fonctionnement,2510,3,A,220000.000,t
+0065.17028,2718,1,A,Déchets dangereux ou contenant des substances ou préparations dangereuses (transit ou tri),2019-02-11,,2019-02-11,En fonctionnement,2718,1,A,10000.000,t
+0065.17028,2760,1,A,Installation de stockage de déchets dangereux autre que celle mentionnée au 4,2019-02-11,,2019-02-11,En fonctionnement,2760,1,A,644260.000,
+0065.17028,2790,,A,Traitement de déchets dangereux,2019-02-11,,2019-02-11,En fonctionnement,2790,,A,20000.000,
+0065.17028,3510,,A,Traitement de déchets dangereux,2019-02-11,,2019-02-11,En fonctionnement,3510,,A,8500.000,t/j
+0065.17028,3540,1,A,Installation de stockage de déchets de plus de 25 000 t de capacité,2019-02-11,,2019-02-11,En fonctionnement,3540,,A,90.000,t/j
+0065.17028,3550,,A,stockage temporaire de déchets,2019-02-11,,2019-02-11,En fonctionnement,3550,,A,10000.000,t
+0065.17028,4440,2,D,"Solides comburants catégorie 1,2 ou 3",2019-02-11,,2019-02-11,En fonctionnement,4440,2,D,20.000,t
+0065.17028,4510,2,D,Dangereux pour l'environnement aquatique de catégorie aiguë 1 ou chronique 1,2019-02-11,,2019-02-11,En fonctionnement,4510,2,D,24.000,t
+0065.17028,2515,1-a,E,"Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes",2019-02-11,,2019-02-11,En fonctionnement,2515,1-a,E,3000.000,kW
+0065.17028,2517,1,E,Produits minéraux ou déchets non dangereux inertes (transit),2019-02-11,,2019-02-11,En fonctionnement,2517,1,E,42250.000,m2
+0065.17028,2516,,NC,Station de transit de produits minéraux pulvérulents,2019-02-11,,2019-02-11,En fonctionnement,2516,,NC,125.000,m3
+0065.17028,2930,1,NC,Ateliers de réparation et entretien de véhicules à moteur,2019-02-11,,2019-02-11,En fonctionnement,2930,1,NC,50.000,m2
+0065.17028,4511,,NC,Dangereux pour l’environnement aquatique 2,2019-02-11,,2019-02-11,En fonctionnement,4511,,NC,50.000,t
+0065.17028,47xx,,NC,,,,2019-02-11,En fonctionnement,47xx,,NC,,
 0065.17047,1432,2-b,D,Liquides inflammables (stockage),2014-01-29,2014-01-29,,En fonctionnement,1432,2-b,D,48.000,m3
 0065.17047,1435,1,E,Stations-service,2014-01-29,2014-01-29,,En fonctionnement,1435,2,E,5460.000,m3
 0065.17076,1510,2-b,E,Entrepot enregistré,2013-09-03,,,En fonctionnement,1510,2,E,120000.000,m3
@@ -10281,6 +10359,10 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.17691,2713,,NC,"Transit, regroupement ou tri de métaux ou de déchets de métaux non dangereux",2015-12-18,,2015-12-18,En fonctionnement,2713,#,NC,70.000,m2
 0065.17691,2716,,NC,"Transit, regroupement ou tri de déchets non dangereux non inertes",2015-12-18,,2015-12-18,En fonctionnement,2716,#,NC,90.000,m3
 0065.17691,47xx,,NC,,,,2015-12-18,En fonctionnement,47xx,,NC,,
+0065.17753,1185,2-a,D,Quantité susceptible d'être présente,2016-04-22,,2016-04-22,En fonctionnement,4802,2-a,D,5655.000,kg
+0065.17753,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2016-04-22,,2016-04-22,En fonctionnement,2925,#,D,18000.000,kW
+0065.17753,2910,A-1,E,Combustion,2016-04-22,,2016-04-22,En fonctionnement,2910,A-1,A,46.120,MW
+0065.17753,47xx,,NC,,,,2016-04-22,En fonctionnement,47xx,,NC,,
 0065.17855,47xx,,NC,,,1974-07-08,1974-07-08,En fonctionnement,47xx,,NC,,
 0065.17896,2220,1-a,E,Supérieure à 20 t/j ,2015-01-20,,,En fonctionnement,2220,1-a,E,25.000,t/j
 0065.17958,1435,2,D,Stations-service,2016-12-12,2016-12-12,2016-12-12,En fonctionnement,1435,3,D,690.000,m3
@@ -10500,6 +10582,10 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.19450,2517,2,D,Produits minéraux ou déchets non dangereux inertes (transit),2016-04-18,2016-04-18,2016-04-18,En fonctionnement,2517,3,D,10000.000,m2
 0065.19450,2515,1-a,E,"Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes",2016-04-18,2016-04-18,2016-04-18,En fonctionnement,2515,1-a,A,800.000,kW
 0065.19460,2712,1,E,"Stockage, dépollution, démontage,… de VHU",2015-06-26,,,En fonctionnement,2712,1-b,E,300.000,m2
+0065.19463,1185,2-a,D,Quantité susceptible d'être présente,2021-06-25,,2021-06-25,En fonctionnement,1185,2-a,D,1680.000,kg
+0065.19463,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2021-06-25,,2021-06-25,En fonctionnement,2925,1,D,10800.000,kW
+0065.19463,2910,A-1,E,Combustion,2021-06-25,,2021-06-25,En fonctionnement,2910,A-1,E,38.400,MW
+0065.19463,47xx,,NC,,,,2021-06-25,En fonctionnement,47xx,,NC,,
 0065.19489,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2019-08-01,,,En fonctionnement,2925,#,D,6.240,kW
 0065.19489,1510,2-b,E,Entrepot enregistré,2019-08-01,,,En fonctionnement,1510,2,E,62000.000,m3
 0065.19525,2718,1,A,Déchets dangereux ou contenant des substances ou préparations dangereuses (transit ou tri),2018-10-01,,,En fonctionnement,2718,1,A,1.000,t
@@ -10537,9 +10623,27 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.19706,2710,2-a,E,collecte de déchets non dangereux-E,2007-08-01,,2007-08-01,En fonctionnement,2710,2-b,E,370.000,m3
 0065.19708,2710,1-b,D,collecte de déchets dangereux-DC,2011-11-17,,2011-11-17,En fonctionnement,2710,1-b,D,6.000,t
 0065.19708,2710,2-a,E,collecte de déchets non dangereux-E,2011-11-17,,2011-11-17,En fonctionnement,2710,2-b,E,365.000,m3
+0065.19727,1510,2-a,A,Entrepot autorisé,2020-09-07,2018-11-09,2018-11-09,En fonctionnement,1510,1,A,389025.000,m3
+0065.19727,1511,2,D,Entrepôts frigorifiques,2020-09-07,2018-11-09,2018-11-09,En fonctionnement,1511,3,D,9677.000,m3
+0065.19727,2910,A-2,D,Combustion,2020-09-07,2018-11-09,2018-11-09,En fonctionnement,2910,A-2,D,1.400,MW
+0065.19727,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2020-09-07,2018-11-09,2018-11-09,En fonctionnement,2925,#,D,600.000,kW
+0065.19727,4320,2,D,Aérosols extrêmement inflammables ou inflammables de catégorie 1 ou 2,2020-09-07,2018-11-09,2018-11-09,En fonctionnement,4320,2,D,135.000,t
+0065.19727,1530,1,E,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",2020-09-07,2018-11-09,2018-11-09,En fonctionnement,1530,2,E,48384.000,m3
+0065.19727,1532,2-a,E,Stockage de bois enregistré,2020-09-07,2018-11-09,2018-11-09,En fonctionnement,1532,2,E,48384.000,m3
+0065.19727,2662,1,E,Stockage de polymères enregistré,2020-09-07,2018-11-09,2018-11-09,En fonctionnement,2662,2,E,38707.000,m3
+0065.19727,2663,1-a,E,Stockage de pneumatiques alvéolaires ou expansés,2020-09-07,2018-11-09,2018-11-09,En fonctionnement,2663,1-b,E,38707.000,m3
+0065.19727,2663,2-a,E,Stockage de pneumatiques,2020-09-07,2018-11-09,2018-11-09,En fonctionnement,2663,2-b,E,38707.000,m3
+0065.19727,4331,2,E,Liquides inflammables de catégorie 2 ou catégorie 3,2020-09-07,2018-11-09,2018-11-09,En fonctionnement,4331,2,E,450.000,t
+0065.19727,1185,2,NC,,2020-09-07,2018-11-09,2018-11-09,En fonctionnement,1185,2,NC,299.000,kg
+0065.19727,47xx,,NC,,,2018-11-09,2018-11-09,En fonctionnement,47xx,,NC,,
+0065.19727,47xx,,NC,,,2020-09-07,,En fonctionnement,47xx,,NC,,
 0065.19771,2760,3,E,Installation de stockage de déchets inertes,2015-10-01,2015-04-01,,En fonctionnement,2760,3,E,18000.000,
 0065.19772,2760,3,E,Installation de stockage de déchets inertes,2015-10-30,2015-09-30,,En fonctionnement,2760,3,E,10000.000,
 0065.19783,2760,3,E,Installation de stockage de déchets inertes,2016-07-12,2016-07-12,,En fonctionnement,2760,3,E,2517558.000,
+0065.19799,1414,3,D,Gaz inflammables liquéfiés (remplissage ou distribution),2014-08-21,2006-06-23,2014-08-21,En fonctionnement,1414,3,D,1.000,
+0065.19799,1432,2-b,D,Liquides inflammables (stockage),2014-08-21,2006-06-23,2014-08-21,En fonctionnement,1432,2-b,D,48.800,m3
+0065.19799,1435,1,E,Stations-service,2014-08-21,2006-06-23,2014-08-21,En fonctionnement,1435,2,E,6800.000,m3
+0065.19799,47xx,,NC,,,2006-06-23,2014-08-21,En fonctionnement,47xx,,NC,,
 0065.19800,2120,1,A,"Chiens (élevage, vente, transit, garde, fourrières)",1976-01-28,,1976-01-28,En fonctionnement,2120,1,A,150.000,Animaux
 0065.19802,1185,2-a,D,Quantité susceptible d'être présente,2015-11-10,2015-11-10,2015-11-10,En fonctionnement,4802,2-a,D,630.000,kg
 0065.19802,2221,2,D,"Supérieure à 500 kg/j, mais inférieure ou égale à 4 t/j",2015-11-10,2015-11-10,2015-11-10,En fonctionnement,2221,B-2,D,2000.000,kg/j
@@ -10566,6 +10670,16 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.19805,2563,,NC,Nettoyage lessiviel,2015-09-29,1994-03-10,,En fonctionnement,2563,,NC,120.000,
 0065.19805,2661,2,NC,"MATIERES PLASTIQUES, CAOUTCHOUC...(EMPLOI OU REEMPLOI)",2015-09-29,1994-03-10,,En fonctionnement,2661,2,NC,2.000,t/j
 0065.19805,2910,A,NC,Combustion,2015-09-29,1994-03-10,,En fonctionnement,2910,A,NC,1.570,MW
+0065.19853,2718,1,A,Déchets dangereux ou contenant des substances ou préparations dangereuses (transit ou tri),2017-10-27,2017-10-27,2017-10-27,En fonctionnement,2718,1,A,100.000,t
+0065.19853,2790,,A,Traitement de déchets dangereux,2017-10-27,2017-10-27,2017-10-27,En fonctionnement,2790,2,A,100.000,
+0065.19853,2791,1,A,Déchets non dangereux (traitement),2017-10-27,2017-10-27,2017-10-27,En fonctionnement,2791,1,A,1000.000,t/j
+0065.19853,3510,,A,Traitement de déchets dangereux,2017-10-27,2017-10-27,2017-10-27,En fonctionnement,3510,,A,100.000,t/j
+0065.19853,3532,,A,Valorisation de déchets non dangereux,2017-10-27,2017-10-27,2017-10-27,En fonctionnement,3532,,A,15400.000,t/j
+0065.19853,3550,,A,stockage temporaire de déchets,2017-10-27,2017-10-27,2017-10-27,En fonctionnement,3550,,A,100.000,t
+0065.19853,2171,#,D,"Dépôts de fumiers, engrais et supports de culture",2017-10-27,2017-10-27,2017-10-27,En fonctionnement,2171,#,D,375.000,m3
+0065.19853,2515,1-a,E,"Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes",2017-10-27,2017-10-27,2017-10-27,En fonctionnement,2515,1-b,E,300.000,kW
+0065.19853,2517,1,E,Produits minéraux ou déchets non dangereux inertes (transit),2017-10-27,2017-10-27,2017-10-27,En fonctionnement,2517,2,E,22865.000,m2
+0065.19853,2716,1,E,déchets non dangereux non inertes (transit),2017-10-27,2017-10-27,2017-10-27,En fonctionnement,2716,1,A,10000.000,m3
 0065.19858,1510,2-b,E,Entrepot enregistré,2016-05-04,2016-02-01,2016-02-01,En fonctionnement,1510,2,E,57150.000,m3
 0065.19858,1511,2,D,Entrepôts frigorifiques,2016-05-17,2016-05-17,2016-05-17,En fonctionnement,1511,3,D,15000.000,m3
 0065.19858,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2016-05-17,2016-05-17,2016-05-17,En fonctionnement,2925,#,D,200.000,kW
@@ -10573,6 +10687,25 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.19866,2930,1-b,D,Ateliers de réparation et entretien de véhicules à moteur,2013-06-20,,,En fonctionnement,2930,1-b,D,5000.000,m2
 0065.19866,2712,1,E,"Stockage, dépollution, démontage,… de VHU",2013-06-20,,2015-11-05,En fonctionnement,2712,1-b,E,5100.000,m2
 0065.19888,2510,1,A,Carrières (exploitation de),2021-08-13,,2002-03-20,En fonctionnement,2510,1,A,1.000,
+0065.19892,1450,1,A,Solides inflammables,2019-06-07,2019-06-07,2019-06-07,En fonctionnement,1450,1,A,6.000,t
+0065.19892,1510,2-a,A,Entrepot autorisé,2019-06-07,2019-06-07,2019-06-07,En fonctionnement,1510,1,A,822956.000,m3
+0065.19892,1185,2-a,D,Quantité susceptible d'être présente,2019-06-07,2019-06-07,2019-06-07,En fonctionnement,1185,2-a,D,450.000,kg
+0065.19892,1511,2,D,Entrepôts frigorifiques,2019-06-07,2019-06-07,2019-06-07,En fonctionnement,1511,3,D,25220.000,m3
+0065.19892,2662,2,D,Stockage de polymères D,2019-06-07,2019-06-07,2019-06-07,En fonctionnement,2662,3,D,452.000,m3
+0065.19892,2663,1-b,D,Stockage de pneumatiques alvéolaires ou expansés,2019-06-07,2019-06-07,2019-06-07,En fonctionnement,2663,1-c,D,1000.000,m3
+0065.19892,2663,2-b,D,Stockage de pneumatiques,2019-06-07,2019-06-07,2019-06-07,En fonctionnement,2663,2-c,D,1500.000,m3
+0065.19892,2910,A-2,D,Combustion,2019-06-07,2019-06-07,2019-06-07,En fonctionnement,2910,A-2,D,12.000,MW
+0065.19892,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2019-06-07,2019-06-07,2019-06-07,En fonctionnement,2925,#,D,240.000,kW
+0065.19892,4320,2,D,Aérosols extrêmement inflammables ou inflammables de catégorie 1 ou 2,2019-06-07,2019-06-07,2019-06-07,En fonctionnement,4320,2,D,56.000,t
+0065.19892,4510,2,D,Dangereux pour l'environnement aquatique de catégorie aiguë 1 ou chronique 1,2019-06-07,2019-06-07,2019-06-07,En fonctionnement,4510,2,D,45.000,t
+0065.19892,4331,2,E,Liquides inflammables de catégorie 2 ou catégorie 3,2019-06-07,2019-06-07,2019-06-07,En fonctionnement,4331,2,E,169.000,t
+0065.19892,1530,,NC,"Dépôts de papiers, cartons ou analogues",2019-06-07,2019-06-07,2019-06-07,En fonctionnement,1530,#,NC,242.000,m3
+0065.19892,1532,,NC,Stockage de bois ou de matériaux analogues,2019-06-07,2019-06-07,2019-06-07,En fonctionnement,1532,,NC,965.000,m3
+0065.19892,1630,,NC,Emploi ou stockage de lessives de soude ou de potasse caustique,2019-06-07,2019-06-07,2019-06-07,En fonctionnement,1630,,NC,52.000,t
+0065.19892,4511,,NC,Dangereux pour l’environnement aquatique 2,2019-06-07,2019-06-07,2019-06-07,En fonctionnement,4511,,NC,1.000,t
+0065.19892,47xx,,NC,,,2019-06-07,2019-06-07,En fonctionnement,47xx,,NC,,
+0065.19892,47xx,,NC,,,2019-06-07,2019-06-07,En fonctionnement,47xx,,NC,,
+0065.19892,47xx,,NC,,,,2019-06-07,En fonctionnement,47xx,,NC,,
 0065.19904,2714,2,D,"déchets non dangereux de papiers, plastiques, bois,… (transit) hors 2710,2711 et 2719",2015-11-16,2015-11-16,,En fonctionnement,2714,2,D,200.000,m3
 0065.19904,2713,1,E,Métaux et déchets de métaux (transit),2015-11-16,2015-11-16,,En fonctionnement,2713,1,A,1300.000,m2
 0065.19904,2716,1,E,déchets non dangereux non inertes (transit),2015-11-16,2015-11-16,,En fonctionnement,2716,1,A,1000.000,m3
@@ -10692,6 +10825,11 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.20448,2716,2,D,déchets non dangereux non inertes (transit),2017-03-15,2019-05-14,2017-03-15,En fonctionnement,2716,2,D,180.000,m3
 0065.20448,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2017-03-15,2019-05-14,2017-03-15,En fonctionnement,2925,1,D,200.000,kW
 0065.20448,2714,1,E,"déchets non dangereux de papiers, plastiques, bois,… (transit) hors 2710,2711 et 2719",2017-03-15,2019-05-14,2017-03-15,En fonctionnement,2714,1,E,11200.000,m3
+0065.20500,1136,B-b,A,AMMONIAC (EMPLOI OU STOCKAGE),2011-09-01,2011-09-01,2011-09-01,En fonctionnement,1136,B-c,D,1.500,kg
+0065.20500,1511,2,D,Entrepôts frigorifiques,2011-09-01,2011-09-01,2011-09-01,En fonctionnement,1511,3,D,8701.000,m3
+0065.20500,1511,2,D,Entrepôts frigorifiques,2018-03-06,2018-03-06,2018-03-06,En fonctionnement,1511,3,D,18484.000,m3
+0065.20500,47xx,,NC,,,2016-05-26,2016-05-26,En fonctionnement,47xx,,NC,,
+0065.20500,47xx,,NC,,,2018-03-06,2018-03-06,En fonctionnement,47xx,,NC,,
 0065.20506,1510,2-b,E,Entrepot enregistré,2016-12-02,2016-12-02,,En fonctionnement,1510,2,E,149098.000,m3
 0065.20506,2663,2-a,E,Stockage de pneumatiques,2016-12-02,2016-12-02,,En fonctionnement,2663,2-b,E,35702.000,m3
 0065.20509,2710,1-b,D,collecte de déchets dangereux-DC,2016-08-02,2016-08-02,2016-08-02,En fonctionnement,2710,1-b,D,1.000,t
@@ -10807,6 +10945,7 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.20744,2517,1,E,Produits minéraux ou déchets non dangereux inertes (transit),2018-11-20,2019-11-20,2018-11-20,En fonctionnement,2517,1,E,19000.000,m2
 0065.20744,2718,1,A,Déchets dangereux ou contenant des substances ou préparations dangereuses (transit ou tri),2018-11-20,,2018-11-20,En fonctionnement,2718,1,A,40150.000,t
 0065.20758,1435,1,E,Stations-service,2017-04-26,2017-04-26,2017-04-26,En fonctionnement,1435,1.,E,1.000,m3
+0065.20765,1510,2-b,E,Entrepot enregistré,2017-09-29,,,En fonctionnement,1510,2,E,240000.000,m3
 0065.20779,1510,2-a,A,Entrepot autorisé,2018-04-20,2018-04-20,2018-04-20,En fonctionnement,1510,1,A,351250.000,m3
 0065.20779,1532,1,A,Bois ou analogues (dépôt de) dégageant poussières inflammables,2018-04-20,2018-04-20,2018-04-20,En fonctionnement,1532,1,A,113000.000,m3
 0065.20779,1185,2-b,D,Quantité susceptible d'être présente,2018-04-20,2018-04-20,2018-04-20,En fonctionnement,4802,2-b,D,300.000,kg
@@ -10818,9 +10957,45 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.20779,2910,,NC,Installation de combustion,2018-04-20,2018-04-20,2018-04-20,En fonctionnement,2910,,NC,1.990,MW
 0065.20783,2710,1-b,D,collecte de déchets dangereux-DC,2017-08-01,,2017-08-01,En fonctionnement,2710,1-b,D,6.211,t
 0065.20783,2710,2-a,E,collecte de déchets non dangereux-E,2017-08-07,,2017-08-07,En fonctionnement,2710,2-b,E,497.000,m3
+0065.20801,1532,1,A,Bois ou analogues (dépôt de) dégageant poussières inflammables,2020-12-11,2020-12-11,2020-12-11,En fonctionnement,1532,1,A,116000.000,m3
+0065.20801,4331,1,A,Liquides inflammables de catégorie 2 ou catégorie 3,2020-12-11,2020-12-11,2020-12-11,En fonctionnement,4331,1,A,1000.000,t
+0065.20801,2910,A-2,D,Combustion,2020-12-11,2020-12-11,2020-12-11,En fonctionnement,2910,A-2,D,2.700,MW
+0065.20801,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2020-12-11,2020-12-11,2020-12-11,En fonctionnement,2925,1,D,240.000,kW
+0065.20801,4320,2,D,Aérosols extrêmement inflammables ou inflammables de catégorie 1 ou 2,2020-12-11,2020-12-11,2020-12-11,En fonctionnement,4320,2,D,18.000,t
+0065.20801,4330,2,D,Liquides inflammables de catégorie 1,2020-12-11,2020-12-11,2020-12-11,En fonctionnement,4330,2,D,3.000,t
+0065.20801,4511,2,D,Dangereux pour l'environnement aquatique de catégorie chronique 2,2020-12-11,2020-12-11,2020-12-11,En fonctionnement,4511,2,D,100.000,t
+0065.20801,2662,1,E,Stockage de polymères enregistré,2020-12-11,2020-12-11,2020-12-11,En fonctionnement,2662,1,A,116000.000,m3
+0065.20801,2663,1-a,E,Stockage de pneumatiques alvéolaires ou expansés,2020-12-11,2020-12-11,2020-12-11,En fonctionnement,2663,1-a,A,116000.000,m3
+0065.20801,2663,2-a,E,Stockage de pneumatiques,2020-12-11,2020-12-11,2020-12-11,En fonctionnement,2663,2-a,A,116000.000,m3
+0065.20801,1185,2,NC,,2020-12-11,2020-12-11,2020-12-11,En fonctionnement,1185,2,NC,299.000,kg
+0065.20801,1436,,NC,Liquides combustibles,2020-12-11,2020-12-11,2020-12-11,En fonctionnement,1436,,NC,42.900,t
+0065.20801,1630,,NC,Emploi ou stockage de lessives de soude ou de potasse caustique,2020-12-11,2020-12-11,2020-12-11,En fonctionnement,1630,,NC,20.900,t
+0065.20801,4321,,NC,Aérosols extrêmement inflammables ou inflammables,2020-12-11,2020-12-11,2020-12-11,En fonctionnement,4321,,NC,8.900,t
+0065.20801,4510,,NC,Dangereux pour l’environnement aquatique 1,2020-12-11,2020-12-11,2020-12-11,En fonctionnement,4510,,NC,2.900,t
+0065.20801,47xx,,NC,,,2020-12-11,2020-12-11,En fonctionnement,47xx,,NC,,
+0065.20801,47xx,,NC,,,2020-12-11,2020-12-11,En fonctionnement,47xx,,NC,,
 0065.20815,4220,3,D,Produits explosifs (stockage de),2012-09-07,,2012-09-07,En fonctionnement,1311,4-a,D,199.000,kg
 0065.20815,4220,3,D,Produits explosifs (stockage de),2016-04-06,,2016-04-06,En fonctionnement,4220,3,D,99.000,kg
 0065.20815,4220,2,E,Produits explosifs (stockage de),2016-05-18,,2016-05-18,En fonctionnement,4220,2,E,199.000,kg
+0065.20826,1510,2-a,A,Entrepot autorisé,2018-05-11,,2018-05-11,En fonctionnement,1510,1,A,369500.000,m3
+0065.20826,1532,1,A,Bois ou analogues (dépôt de) dégageant poussières inflammables,2018-05-11,,2018-05-11,En fonctionnement,1532,1,A,89100.000,m3
+0065.20826,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2018-05-11,,2018-05-11,En fonctionnement,2925,#,D,200.000,kW
+0065.20826,1530,1,E,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",2018-05-11,,2018-05-11,En fonctionnement,1530,1,A,89100.000,m3
+0065.20826,2662,1,E,Stockage de polymères enregistré,2018-05-11,,2018-05-11,En fonctionnement,2662,1,A,81000.000,m3
+0065.20826,2663,1-a,E,Stockage de pneumatiques alvéolaires ou expansés,2018-05-11,,2018-05-11,En fonctionnement,2663,1-a,A,81000.000,m3
+0065.20826,2663,2-a,E,Stockage de pneumatiques,2018-05-11,,2018-05-11,En fonctionnement,2663,2-a,A,81000.000,m3
+0065.20826,2910,,NC,Installation de combustion,2018-05-11,,2018-05-11,En fonctionnement,2910,,NC,1.500,MW
+0065.20826,47xx,,NC,,,,2018-05-11,En fonctionnement,47xx,,NC,,
+0065.20827,1185,2,NC,,2019-03-22,2019-03-22,2019-03-22,En fonctionnement,4802,2,NC,80.000,kg
+0065.20827,1510,2-a,A,Entrepot autorisé,2020-11-12,2019-03-22,2019-03-22,En fonctionnement,1510,1,A,439200.000,m3
+0065.20827,1532,1,A,Bois ou analogues (dépôt de) dégageant poussières inflammables,2020-11-12,2019-03-22,2019-03-22,En fonctionnement,1532,1,A,144000.000,m3
+0065.20827,2910,A-2,D,Combustion,2020-11-12,2019-03-22,2019-03-22,En fonctionnement,2910,A-2,D,1.620,MW
+0065.20827,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2020-11-12,2019-03-22,2019-03-22,En fonctionnement,2925,#,D,200.000,kW
+0065.20827,1530,1,E,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",2020-11-12,2019-03-22,2019-03-22,En fonctionnement,1530,1,A,144000.000,m3
+0065.20827,2662,1,E,Stockage de polymères enregistré,2020-11-12,2019-03-22,2019-03-22,En fonctionnement,2662,1,A,144000.000,m3
+0065.20827,2663,1-a,E,Stockage de pneumatiques alvéolaires ou expansés,2020-11-12,2019-03-22,2019-03-22,En fonctionnement,2663,1-a,A,144000.000,m3
+0065.20827,2663,2-a,E,Stockage de pneumatiques,2020-11-12,2019-03-22,2019-03-22,En fonctionnement,2663,2-a,A,144000.000,m3
+0065.20827,1185,,NC,Gaz à effet de serre fluorés ou substances qui appauvrissent la couche d'ozone,2020-11-12,2020-11-12,,En fonctionnement,1185,,NC,0.299,kg
 0065.20828,1185,2-a,D,Quantité susceptible d'être présente,2017-08-21,,,En fonctionnement,4802,2-a,D,400.000,kg
 0065.20828,1436,2,D,Liquides combustibles de point éclair compris entre 60° C et 93° C (stockage ou emploi de),2017-08-21,,,En fonctionnement,1436,2,D,999.000,t
 0065.20828,1450,2,D,Solides inflammables,2017-08-21,,,En fonctionnement,1450,2,D,999.000,kg
@@ -10856,6 +11031,16 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.20897,2930,1,NC,Ateliers de réparation et entretien de véhicules à moteur,2017-03-03,2017-03-03,,En fonctionnement,2930,1,NC,150.000,m2
 0065.20897,2930,2-b,D,Ateliers de réparation et entretien de véhicules à moteur,2019-10-21,,2019-10-21,En fonctionnement,2930,2-b,D,100.000,kg/j
 0065.20899,2760,3,E,Installation de stockage de déchets inertes,2017-11-24,,,En fonctionnement,2760,3,E,1.000,
+0065.20931,1435,2,D,Stations-service,2019-06-27,2019-06-27,,En fonctionnement,1435,2,D,19000.000,m3
+0065.20931,1511,2,D,Entrepôts frigorifiques,2020-02-06,2019-06-27,,En fonctionnement,1511,3,D,24000.000,m3
+0065.20931,2795,2,D,"Lavage de fûts, conteneurs,... de substances ou mélanges ou de déchets dangereux",2020-02-06,2019-06-27,,En fonctionnement,2795,2,D,5.000,M3/J
+0065.20931,1510,2-b,E,Entrepot enregistré,2020-02-06,2019-06-27,,En fonctionnement,1510,2,E,246600.000,m3
+0065.20931,4331,,NC,Liquides inflammables de catégorie 2 ou catégorie 3,2020-02-06,2019-06-27,,En fonctionnement,4331,,NC,1.000,t
+0065.20931,1413,1-b,D,Installation de remplissage de gaz naturel - débit compris entre 80 et  2000 m3/h,2020-02-06,2020-02-06,,En fonctionnement,1413,1-b,D,600.000,m3/h
+0065.20931,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2020-02-06,2020-02-06,,En fonctionnement,2925,1,D,696.000,kW
+0065.20931,2910,A,NC,Combustion,2020-02-06,2020-02-06,,En fonctionnement,2910,A,NC,0.895,MW
+0065.20931,47xx,,NC,,,2019-06-27,,En fonctionnement,47xx,,NC,,
+0065.20931,47xx,,NC,,,2019-06-27,,En fonctionnement,47xx,,NC,,
 0065.20949,2663,2-b,D,Stockage de pneumatiques,2020-06-24,,,En fonctionnement,2663,2-c,D,1000.000,m3
 0065.20949,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2020-06-24,,,En fonctionnement,2925,#,D,35.000,kW
 0065.20949,2220,2-a,E,Supérieure à 10 t/j ,2020-06-24,,,En fonctionnement,2220,B-2-a,E,130.000,t/j
@@ -10936,6 +11121,33 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.21147,4331,,NC,Liquides inflammables de catégorie 2 ou catégorie 3,2018-07-13,,2018-07-13,En fonctionnement,4331,,NC,0.200,t
 0065.21147,4511,,NC,Dangereux pour l’environnement aquatique 2,2018-07-13,,2018-07-13,En fonctionnement,4511,,NC,0.100,t
 0065.21147,47xx,,NC,,,,2018-07-13,En fonctionnement,47xx,,NC,,
+0065.21148,2791,1,A,Déchets non dangereux (traitement),2019-05-15,,2019-05-15,En fonctionnement,2791,1,A,80.000,t/j
+0065.21148,2910,A-2,D,Combustion,2019-05-15,,2019-05-15,En fonctionnement,2910,A-2,D,1.800,MW
+0065.21148,4310,2,D,Gaz inflammables catégorie 1 et 2,2019-05-15,,2019-05-15,En fonctionnement,4310,2,D,3.000,t
+0065.21148,2781,1-b,E,Installations de méthanisation de déchets non dangereux,2019-05-15,,2019-05-15,En fonctionnement,2781,1-b,E,96.000,t/j
+0065.21148,2781,2-b,E,Installations de méthanisation de déchets non dangereux,2019-05-15,,2019-05-15,En fonctionnement,2781,2-b,E,96.000,t/j
+0065.21148,1435,,NC,Stations service,2019-05-15,,2019-05-15,En fonctionnement,1435,,NC,100.000,m3
+0065.21153,1532,1,A,Bois ou analogues (dépôt de) dégageant poussières inflammables,2020-10-19,2018-09-28,2018-09-28,En fonctionnement,1532,1,A,109440.000,m3
+0065.21153,2910,A-2,D,Combustion,2020-10-19,2018-09-28,2018-09-28,En fonctionnement,2910,A-2,D,2.100,MW
+0065.21153,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2020-10-19,2018-09-28,2018-09-28,En fonctionnement,2925,1,D,300.000,kW
+0065.21153,1530,1,E,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",2020-10-19,2018-09-28,2018-09-28,En fonctionnement,1530,1,A,109440.000,m3
+0065.21153,2662,1,E,Stockage de polymères enregistré,2020-10-19,2018-09-28,2018-09-28,En fonctionnement,2662,1,A,109440.000,m3
+0065.21153,2663,1-a,E,Stockage de pneumatiques alvéolaires ou expansés,2020-10-19,2018-09-28,2018-09-28,En fonctionnement,2663,1-a,A,109440.000,m3
+0065.21153,2663,2-a,E,Stockage de pneumatiques,2020-10-19,2018-09-28,2018-09-28,En fonctionnement,2663,2-a,A,109440.000,m3
+0065.21153,4330,,NC,Liquides inflammables de catégorie 1,2020-10-19,2018-09-28,2018-09-28,En fonctionnement,4330,,NC,0.500,t
+0065.21153,4331,,NC,Liquides inflammables de catégorie 2 ou catégorie 3,2020-10-19,2018-09-28,2018-09-28,En fonctionnement,4331,,NC,25.000,t
+0065.21153,4510,,NC,Dangereux pour l’environnement aquatique 1,2020-10-19,2018-09-28,2018-09-28,En fonctionnement,4510,,NC,10.000,t
+0065.21153,4511,,NC,Dangereux pour l’environnement aquatique 2,2020-10-19,2018-09-28,2018-09-28,En fonctionnement,4511,,NC,72.000,t
+0065.21153,1510,2-a,A,Entrepot autorisé,2020-10-19,,2018-09-28,En fonctionnement,1510,1,A,607650.000,m3
+0065.21153,1511,2,D,Entrepôts frigorifiques,2020-10-19,,,En fonctionnement,1511,3,D,18240.000,m3
+0065.21153,1185,2,NC,,2020-10-19,,,En fonctionnement,1185,2,NC,299.000,kg
+0065.21153,1436,,NC,Liquides combustibles,2020-10-19,,,En fonctionnement,1436,,NC,50.000,t
+0065.21153,2714,,NC,"Transit, regroupement ou tri de déchets non dangereux de papiers/cartons, plastiques, caoutchouc, textiles, bois",2020-10-19,,,En fonctionnement,2714,,NC,90.000,m3
+0065.21153,4120,1,NC,Toxicité aiguë catégorie 2,2020-10-19,,,En fonctionnement,4120,1,NC,3.000,t
+0065.21153,4320,,NC,Aérosols extrêmement inflammables ou inflammables,2020-10-19,,,En fonctionnement,4320,,NC,14.000,t
+0065.21153,47xx,,NC,,,2018-09-28,2018-09-28,En fonctionnement,47xx,,NC,,
+0065.21153,47xx,,NC,,,,,En fonctionnement,47xx,,NC,,
+0065.21153,47xx,,NC,,,,,En fonctionnement,47xx,,NC,,
 0065.21174,2930,1-a,E,Ateliers de réparation et entretien de véhicules à moteur,2017-07-12,,,En fonctionnement,2930,1-a,A,6000.000,m2
 0065.21214,1530,1,E,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",1998-06-23,1994-11-07,1998-06-23,En fonctionnement,1530,2,D,3000.000,m3
 0065.21250,2140,#,A,Présentation au public d’animaux d’espèces non domestiques,2018-10-01,,2018-10-01,En fonctionnement,2140,#,A,4.000,t/an
@@ -10944,9 +11156,27 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.21336,2714,1,E,"déchets non dangereux de papiers, plastiques, bois,… (transit) hors 2710,2711 et 2719",2019-12-13,,2016-10-05,En fonctionnement,2714,1,E,1220.000,m3
 0065.21336,2716,1,E,déchets non dangereux non inertes (transit),2019-12-13,,2016-10-05,En fonctionnement,2716,1,E,1320.000,m3
 0065.21336,2711,,NC,"Transit, regroupement ou tri de déchets d’équipements électriques et électroniques",2019-12-13,,2016-10-05,En fonctionnement,2711,,NC,20.000,m3
+0065.21570,2710,2-a,E,collecte de déchets non dangereux-E,2018-03-08,,,En fonctionnement,2710,2-a,E,410.000,m3
+0065.21577,1450,1,A,Solides inflammables,2018-08-03,,2018-08-03,En fonctionnement,1450,1,A,2.700,t
+0065.21577,2640,a,A,Supérieure ou égale à 2 t/j,2018-08-03,,2018-08-03,En fonctionnement,2640,a,A,8.000,t/j
+0065.21577,4001,,A,Installations présentant un grand nombre de substances,2018-08-03,,2018-08-03,En fonctionnement,4001,,A,0.000,
+0065.21577,2260,1-b,D,Supérieure à 100 kW mais inférieure ou égale à 500 kW,2018-08-03,,2018-08-03,En fonctionnement,2260,b,D,493.000,kW
+0065.21577,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2018-08-03,,2018-08-03,En fonctionnement,2925,#,D,36.000,kW
+0065.21577,2940,2-b,D,"Vernis, peinture, colle, ... (application, cuisson, séchage)",2018-08-03,,2018-08-03,En fonctionnement,2940,2-b,D,32.000,kg/j
+0065.21577,4130,2-b,D,Toxicité aiguë catégorie 3 pour les voies d'exposition par inhalation,2018-08-03,,2018-08-03,En fonctionnement,4130,2-b,D,1.300,t
+0065.21577,4511,2,D,Dangereux pour l'environnement aquatique de catégorie chronique 2,2018-08-03,,2018-08-03,En fonctionnement,4511,2,D,121.400,t
+0065.21577,4331,2,E,Liquides inflammables de catégorie 2 ou catégorie 3,2018-08-03,,2018-08-03,En fonctionnement,4331,2,E,171.400,t
+0065.21577,1185,2,NC,,2018-08-03,,2018-08-03,En fonctionnement,4802,2,NC,120.000,kg
+0065.21577,1436,,NC,Liquides combustibles,2018-08-03,,2018-08-03,En fonctionnement,1436,,NC,26.900,t
+0065.21577,1532,,NC,Stockage de bois ou de matériaux analogues,2018-08-03,,2018-08-03,En fonctionnement,1532,,NC,200.000,m3
+0065.21577,2663,2,NC,Stockage de pneumatiques,2018-08-03,,2018-08-03,En fonctionnement,2663,2,NC,20.000,m3
+0065.21577,2910,A,NC,Combustion,2018-08-03,,2018-08-03,En fonctionnement,2910,A,NC,1.050,MW
+0065.21577,4510,,NC,Dangereux pour l’environnement aquatique 1,2018-08-03,,2018-08-03,En fonctionnement,4510,,NC,0.950,t
+0065.21577,47xx,,NC,,,,2018-08-03,En fonctionnement,47xx,,NC,,
 0065.21603,2716,1,E,déchets non dangereux non inertes (transit),2018-03-02,2017-08-01,,En fonctionnement,2716,2,D,2600.000,m3
 0065.21615,2515,1-a,E,"Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes",2019-01-23,2019-01-23,,En fonctionnement,2515,1-a,E,1867.000,kW
 0065.21615,2518,b,D,Installation de production de béton prêt à l'emploi,2020-06-10,2020-06-10,2020-06-10,En fonctionnement,2518,b,D,3.000,m3
+0065.21618,2221,1,E,Supérieure à 4t/j,2018-04-26,2018-04-26,,En fonctionnement,2221,B-1,E,31.800,t/j
 0065.21619,2221,1,E,Supérieure à 4t/j,2018-10-09,2018-10-09,,En fonctionnement,2221,B-1,E,6.000,t/j
 0065.21630,2713,2,D,Métaux et déchets de métaux (transit),2020-03-31,,2017-10-27,En fonctionnement,2713,2,D,150.000,m2
 0065.21630,2716,2,D,déchets non dangereux non inertes (transit),2020-03-31,,2017-10-27,En fonctionnement,2716,2,D,600.000,m3
@@ -10954,6 +11184,32 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.21630,2718,2,D,Déchets dangereux ou contenant des substances ou préparations dangereuses (transit ou tri),2021-03-08,,2021-03-08,En fonctionnement,2718,2,D,0.999,t
 0065.21637,2220,2-b,D,"Supérieure à 2 t/j, mais inférieure ou égale à 10 t/j",2017-08-25,2017-08-25,2017-08-25,En fonctionnement,2220,B-2-b,D,8.000,t/j
 0065.21637,2220,2-a,E,Supérieure à 10 t/j ,2017-11-10,,,En fonctionnement,2220,B-2-a,E,15.000,t/j
+0065.21645,1510,2-a,A,Entrepot autorisé,2019-11-27,2018-07-19,2018-07-19,En fonctionnement,1510,1,A,430362.000,m3
+0065.21645,1532,1,A,Bois ou analogues (dépôt de) dégageant poussières inflammables,2019-11-27,2018-07-19,2018-07-19,En fonctionnement,1532,1,A,120000.000,m3
+0065.21645,2910,A-2,D,Combustion,2019-11-27,2018-07-19,2018-07-19,En fonctionnement,2910,A-2,D,2.640,MW
+0065.21645,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2019-11-27,2018-07-19,2018-07-19,En fonctionnement,2925,#,D,160.000,kW
+0065.21645,1530,1,E,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",2019-11-27,2018-07-19,2018-07-19,En fonctionnement,1530,1,A,120000.000,m3
+0065.21645,2662,1,E,Stockage de polymères enregistré,2019-11-27,2018-07-19,2018-07-19,En fonctionnement,2662,1,A,120000.000,m3
+0065.21645,2663,1-a,E,Stockage de pneumatiques alvéolaires ou expansés,2019-11-27,2018-07-19,2018-07-19,En fonctionnement,2663,1-a,A,120000.000,m3
+0065.21645,2663,2-a,E,Stockage de pneumatiques,2019-11-27,2018-07-19,2018-07-19,En fonctionnement,2663,2-a,A,120000.000,m3
+0065.21653,1450,1,A,Solides inflammables,2019-11-27,2018-11-16,2019-11-27,En fonctionnement,1450,1,A,30.000,t
+0065.21653,1510,2-a,A,Entrepot autorisé,2019-11-27,2018-11-16,2019-11-27,En fonctionnement,1510,1,A,591646.000,m3
+0065.21653,1532,1,A,Bois ou analogues (dépôt de) dégageant poussières inflammables,2019-11-27,2018-11-16,2019-11-27,En fonctionnement,1532,1,A,146200.000,m3
+0065.21653,2716,2,D,déchets non dangereux non inertes (transit),2019-11-27,2018-11-16,2019-11-27,En fonctionnement,2716,2,D,990.000,m3
+0065.21653,2718,2,D,Déchets dangereux ou contenant des substances ou préparations dangereuses (transit ou tri),2019-11-27,2018-11-16,2019-11-27,En fonctionnement,2718,2,D,0.999,t
+0065.21653,2795,2,D,"Lavage de fûts, conteneurs,... de substances ou mélanges ou de déchets dangereux",2019-11-27,2018-11-16,2019-11-27,En fonctionnement,2795,2,D,15.000,M3/J
+0065.21653,2921,b,D,La puissance thermique évacuée maximale étant inférieure à 3 000 kW,2019-11-27,2018-11-16,2019-11-27,En fonctionnement,2921,b,D,2900.000,kW
+0065.21653,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2019-11-27,2018-11-16,2019-11-27,En fonctionnement,2925,#,D,500.000,kW
+0065.21653,4320,2,D,Aérosols extrêmement inflammables ou inflammables de catégorie 1 ou 2,2019-11-27,2018-11-16,2019-11-27,En fonctionnement,4320,2,D,75.000,t
+0065.21653,4510,2,D,Dangereux pour l'environnement aquatique de catégorie aiguë 1 ou chronique 1,2019-11-27,2018-11-16,2019-11-27,En fonctionnement,4510,2,D,70.000,t
+0065.21653,1511,1,E,Entrepôts frigorifiques,2019-11-27,2018-11-16,2019-11-27,En fonctionnement,1511,2,E,54400.000,m3
+0065.21653,1530,1,E,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",2019-11-27,2018-11-16,2019-11-27,En fonctionnement,1530,1,A,146200.000,m3
+0065.21653,2662,1,E,Stockage de polymères enregistré,2019-11-27,2018-11-16,2019-11-27,En fonctionnement,2662,1,A,146200.000,m3
+0065.21653,2663,1-a,E,Stockage de pneumatiques alvéolaires ou expansés,2019-11-27,2018-11-16,2019-11-27,En fonctionnement,2663,1-a,A,146200.000,m3
+0065.21653,2663,2-a,E,Stockage de pneumatiques,2019-11-27,2018-11-16,2019-11-27,En fonctionnement,2663,2-a,A,146200.000,m3
+0065.21653,2910,A-2,D,Combustion,2019-11-27,2019-11-27,2019-11-27,En fonctionnement,2910,A-2,D,1.800,MW
+0065.21653,47xx,,NC,,,2018-11-16,2019-11-27,En fonctionnement,47xx,,NC,,
+0065.21653,47xx,,NC,,,2018-11-16,2019-11-27,En fonctionnement,47xx,,NC,,
 0065.21664,2910,A,NC,Combustion,2018-05-25,2018-04-25,,En fonctionnement,2910,A,NC,2.000,MW
 0065.21664,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2018-05-25,2018-05-25,,En fonctionnement,2925,#,D,25.000,kW
 0065.21664,1185,2,NC,,2018-05-25,2018-05-25,,En fonctionnement,4802,2,NC,80.000,kg
@@ -10975,6 +11231,14 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.21700,2930,1,NC,Ateliers de réparation et entretien de véhicules à moteur,2019-02-19,2019-02-19,,En fonctionnement,2930,1,NC,700.000,m2
 0065.21700,1435,,NC,Stations service,2019-02-19,,,En fonctionnement,1435,,NC,60.000,m3
 0065.21700,47xx,,NC,,,2019-02-19,,En fonctionnement,47xx,,NC,,
+0065.21701,4331,1,A,Liquides inflammables de catégorie 2 ou catégorie 3,2018-03-20,2019-06-11,2021-10-21,En fonctionnement,4331,1,A,3000.000,t
+0065.21701,1510,2-c,D,Entrepot déclaré,2018-03-20,2019-06-11,2021-10-21,En fonctionnement,1510,3,D,13980.000,m3
+0065.21701,1511,1,E,Entrepôts frigorifiques,2018-03-20,2019-06-11,2021-10-21,En fonctionnement,1511,2,E,149832.000,m3
+0065.21701,1532,,NC,Stockage de bois ou de matériaux analogues,2018-03-20,2019-06-11,2021-10-21,En fonctionnement,1532,,NC,999.000,m3
+0065.21701,4321,,NC,Aérosols extrêmement inflammables ou inflammables,2018-03-20,2019-06-11,2021-10-21,En fonctionnement,4321,,NC,400.000,t
+0065.21701,4330,,NC,Liquides inflammables de catégorie 1,2018-03-20,2019-06-11,2021-10-21,En fonctionnement,4330,,NC,0.500,t
+0065.21701,4511,,NC,Dangereux pour l’environnement aquatique 2,2018-03-20,2019-06-11,2021-10-21,En fonctionnement,4511,,NC,50.000,t
+0065.21701,47xx,,NC,,,2019-06-11,2021-10-21,En fonctionnement,47xx,,NC,,
 0065.21734,2515,1-a,E,"Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes",2019-03-12,2020-12-09,2019-03-12,En fonctionnement,2515,1-a,E,500.000,kW
 0065.21734,2517,1,E,Produits minéraux ou déchets non dangereux inertes (transit),2019-03-12,2020-12-09,2019-03-12,En fonctionnement,2517,1,E,35000.000,m2
 0065.21734,2716,1,E,déchets non dangereux non inertes (transit),2019-03-12,2020-12-09,2019-03-12,En fonctionnement,2716,1,E,1550.000,m3
@@ -10983,10 +11247,42 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.21741,2710,1-b,D,collecte de déchets dangereux-DC,2018-09-03,2018-09-03,2018-09-03,En fonctionnement,2710,1-b,D,5.240,t
 0065.21741,2710,2-a,E,collecte de déchets non dangereux-E,2018-09-03,2018-09-03,2018-09-03,En fonctionnement,2710,2-b,E,306.480,m3
 0065.21746,2220,2-a,E,Supérieure à 10 t/j ,2018-02-10,,,En fonctionnement,2220,2-a,E,137.000,t/j
+0065.21761,2712,1,E,"Stockage, dépollution, démontage,… de VHU",2020-06-22,2020-06-22,,En fonctionnement,2712,1,E,4071.000,m2
 0065.21766,2760,3,E,Installation de stockage de déchets inertes,2018-11-28,2018-11-28,,En fonctionnement,2760,3,E,1.300,
+0065.21793,1510,2-b,E,Entrepot enregistré,2018-11-07,2018-11-07,,En fonctionnement,1510,2-b,E,68418.000,m3
+0065.21793,2662,1,E,Stockage de polymères enregistré,2018-11-07,2018-11-07,,En fonctionnement,2662,1,E,7344.000,m3
+0065.21793,2910,,NC,Installation de combustion,2018-11-07,2018-11-07,,En fonctionnement,2910,,NC,0.990,MW
+0065.21793,2925,,NC,Charge d'accumulateurs,2018-11-07,2018-11-07,,En fonctionnement,2925,,NC,49.900,kW
+0065.21794,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2018-10-22,2018-10-22,,En fonctionnement,2925,#,D,49.990,kW
+0065.21794,1510,2-b,E,Entrepot enregistré,2018-10-22,2018-10-22,,En fonctionnement,1510,2,E,110000.000,m3
+0065.21794,2663,2-a,E,Stockage de pneumatiques,2018-10-22,2018-10-22,,En fonctionnement,2663,2-b,E,79999.000,m3
 0065.21808,2515,1-a,E,"Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes",2018-04-10,,,En fonctionnement,2515,1-b,E,335.000,kW
 0065.21808,2517,1,E,Produits minéraux ou déchets non dangereux inertes (transit),2018-04-10,,,En fonctionnement,2517,2,E,11200.000,m2
+0065.21815,2710,2-a,E,collecte de déchets non dangereux-E,2018-04-12,,2018-04-12,En fonctionnement,2710,2-b,E,500.000,m3
+0065.21828,2712,1,E,"Stockage, dépollution, démontage,… de VHU",2019-01-30,2019-01-30,,En fonctionnement,2712,1,E,1281.000,m2
+0065.21831,1510,2-a,A,Entrepot autorisé,2019-05-17,,2019-05-17,En fonctionnement,1510,1,A,640273.000,m3
+0065.21831,1532,1,A,Bois ou analogues (dépôt de) dégageant poussières inflammables,2019-05-17,,2019-05-17,En fonctionnement,1532,1,A,144000.000,m3
+0065.21831,2910,A-2,D,Combustion,2019-05-17,,2019-05-17,En fonctionnement,2910,A-2,D,2.500,MW
+0065.21831,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2019-05-17,,2019-05-17,En fonctionnement,2925,#,D,500.000,kW
+0065.21831,1511,1,E,Entrepôts frigorifiques,2019-05-17,,2019-05-17,En fonctionnement,1511,2,E,144000.000,m3
+0065.21831,1530,1,E,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",2019-05-17,,2019-05-17,En fonctionnement,1530,1,A,144000.000,m3
+0065.21831,2662,1,E,Stockage de polymères enregistré,2019-05-17,,2019-05-17,En fonctionnement,2662,1,A,144000.000,m3
+0065.21831,2663,1-a,E,Stockage de pneumatiques alvéolaires ou expansés,2019-05-17,,2019-05-17,En fonctionnement,2663,1-a,A,144000.000,m3
+0065.21831,2663,2-a,E,Stockage de pneumatiques,2019-05-17,,2019-05-17,En fonctionnement,2663,2-a,A,144000.000,m3
 0065.21833,2221,1,E,Supérieure à 4t/j,2019-05-09,2019-05-09,,En fonctionnement,2221,1,E,74.000,t/j
+0065.21849,1450,1,A,Solides inflammables,2019-02-28,,2019-02-28,En fonctionnement,1450,1,A,1.300,t
+0065.21849,4110,2-a,A,Toxicité aiguë catégorie 1,2019-02-28,,2019-02-28,En fonctionnement,4110,2-a,A,410.000,kg
+0065.21849,1185,2-a,D,Quantité susceptible d'être présente,2019-02-28,,2019-02-28,En fonctionnement,1185,2-a,D,300.000,kg
+0065.21849,2910,A-2,D,Combustion,2019-02-28,,2019-02-28,En fonctionnement,2910,A-2,D,5.760,MW
+0065.21849,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2019-02-28,,2019-02-28,En fonctionnement,2925,#,D,29.000,kW
+0065.21849,4110,1-b,D,Toxicité aiguë catégorie 1,2019-02-28,,2019-02-28,En fonctionnement,4110,1-b,D,350.000,kg
+0065.21849,4330,2,D,Liquides inflammables de catégorie 1,2019-02-28,,2019-02-28,En fonctionnement,4330,2,D,1.300,t
+0065.21849,2220,2,NC,Autres installations  :,2019-02-28,,2019-02-28,En fonctionnement,2220,2,NC,1.000,t/j
+0065.21849,2221,,NC,Préparation de produits alimentaires d'origine animale,2019-02-28,,2019-02-28,En fonctionnement,2221,,NC,400.000,t/j
+0065.21849,2910,A,NC,Combustion,2019-02-28,,2019-02-28,En fonctionnement,2910,A,NC,1.250,MW
+0065.21849,47xx,,NC,,,,2019-02-28,En fonctionnement,47xx,,NC,,
+0065.21849,47xx,,NC,,,,2019-02-28,En fonctionnement,47xx,,NC,,
+0065.21849,47xx,,NC,,,,2019-02-28,En fonctionnement,47xx,,NC,,
 0065.21850,2220,2-a,E,Supérieure à 10 t/j ,2019-01-04,2019-01-04,,En fonctionnement,2220,2-a,E,35600.000,t/j
 0065.21861,2712,1,E,"Stockage, dépollution, démontage,… de VHU",2019-06-03,2020-06-03,,En fonctionnement,2712,1-b,E,1010.000,m2
 0065.21911,2663,2-b,D,Stockage de pneumatiques,2018-08-14,,2018-08-14,En fonctionnement,2663,2-c,D,3000.000,m3
@@ -11008,7 +11304,28 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.21933,2517,1,E,Produits minéraux ou déchets non dangereux inertes (transit),2020-08-05,2020-08-05,2020-08-05,En fonctionnement,2517,1,E,34000.000,m2
 0065.21933,2716,1,E,déchets non dangereux non inertes (transit),2020-08-05,2020-08-05,2020-08-05,En fonctionnement,2716,1,E,15000.000,m3
 0065.21933,47xx,,NC,,,2020-08-05,2020-08-05,En fonctionnement,47xx,,NC,,
+0065.21945,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2019-05-24,2019-05-24,,En fonctionnement,2925,#,D,49.990,kW
+0065.21945,1510,2-b,E,Entrepot enregistré,2019-05-24,2019-05-24,,En fonctionnement,1510,2,E,92631.000,m3
 0065.21948,2518,a,E,Installation de production de béton prêt à l'emploi,2020-05-25,2018-08-03,2020-05-25,En fonctionnement,2518,a,E,5.500,m3
+0065.21965,1510,2-b,E,Entrepot enregistré,2021-06-21,2021-06-21,,En fonctionnement,1510,2-b,E,288654.000,m3
+0065.21981,4220,2,E,Produits explosifs (stockage de),2018-10-30,2018-10-30,,En fonctionnement,4220,2,E,449.000,kg
+0065.22000,4331,1,A,Liquides inflammables de catégorie 2 ou catégorie 3,2019-12-23,2019-12-23,2019-12-23,En fonctionnement,4331,1,A,1500.000,t
+0065.22000,1185,2-a,D,Quantité susceptible d'être présente,2019-12-23,2019-12-23,2019-12-23,En fonctionnement,1185,2-a,D,300.000,kg
+0065.22000,4320,2,D,Aérosols extrêmement inflammables ou inflammables de catégorie 1 ou 2,2019-12-23,2019-12-23,2019-12-23,En fonctionnement,4320,2,D,85.000,t
+0065.22000,4321,2,D,Aérosols extrêmement inflammables ou inflammables de catégorie 1 ou 2,2019-12-23,2019-12-23,2019-12-23,En fonctionnement,4321,2,D,600.000,t
+0065.22000,2663,1-a,E,Stockage de pneumatiques alvéolaires ou expansés,2019-12-23,2019-12-23,2019-12-23,En fonctionnement,2663,1-a,A,190080.000,m3
+0065.22000,2663,2-a,E,Stockage de pneumatiques,2019-12-23,2019-12-23,2019-12-23,En fonctionnement,2663,2-a,A,190080.000,m3
+0065.22000,1511,,NC,Entrepôts frigorifiques,2019-12-23,2019-12-23,2019-12-23,En fonctionnement,1511,1,A,190080.000,m3
+0065.22000,1530,,NC,"Dépôts de papiers, cartons ou analogues",2019-12-23,2019-12-23,2019-12-23,En fonctionnement,1530,,NC,190080.000,m3
+0065.22000,1532,,NC,Stockage de bois ou de matériaux analogues,2019-12-23,2019-12-23,2019-12-23,En fonctionnement,1532,,NC,190080.000,m3
+0065.22000,2662,,NC,Stockage de polymères,2019-12-23,2019-12-23,2019-12-23,En fonctionnement,2662,,NC,190080.000,m3
+0065.22000,2910,A-2,D,Combustion,2021-06-03,2019-12-23,2019-12-23,En fonctionnement,2910,A-2,D,4.000,MW
+0065.22000,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2021-06-03,2019-12-23,2019-12-23,En fonctionnement,2925,1,D,3000.000,kW
+0065.22000,1510,2-b,E,Entrepot enregistré,2021-06-03,2019-12-23,2019-12-23,En fonctionnement,1510,2-b,E,870075.000,m3
+0065.22006,4220,4,D,Produits explosifs (stockage de),2019-02-04,2018-10-03,2018-10-03,En fonctionnement,4220,4,D,5.000,kg
+0065.22006,2120,1,A,"Chiens (élevage, vente, transit, garde, fourrières)",2019-02-04,2019-02-04,,En fonctionnement,2120,1,A,26.000,u
+0065.22008,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2019-05-24,2019-05-24,,En fonctionnement,2925,#,D,49.990,kW
+0065.22008,1510,2-b,E,Entrepot enregistré,2019-05-24,2019-05-24,,En fonctionnement,1510,2,E,60112.000,m3
 0065.22013,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,1996-09-30,,1995-04-12,En fonctionnement,3,1,unknown,2.600,KW
 0065.22013,1630,2,D,Soude ou potasse caustique,1997-06-25,,1997-06-25,En fonctionnement,1630,2,D,200.000,t
 0065.22013,47xx,,NC,,,,1995-04-12,En fonctionnement,47xx,,NC,,
@@ -11034,9 +11351,11 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.22112,1435,1,E,Stations-service,2019-01-04,,,En fonctionnement,1435,1,E,25000.000,m3
 0065.22112,47xx,,NC,,,,,En fonctionnement,47xx,,NC,,
 0065.22124,2712,1,E,"Stockage, dépollution, démontage,… de VHU",2021-08-09,2021-08-09,,En fonctionnement,2712,1,E,500.000,m2
+0065.22139,1510,2-b,E,Entrepot enregistré,2019-07-02,2019-07-02,,En fonctionnement,1510,2,E,179300.000,m3
 0065.22159,2710,1-b,D,collecte de déchets dangereux-DC,2015-10-02,2015-10-02,2015-10-02,En fonctionnement,2710,1-b,D,6.990,t
 0065.22159,2710,2-b,E,collecte de déchets non dangereux-E,2015-10-02,2015-10-02,2015-10-02,En fonctionnement,2710,2-b,E,299.000,m3
 0065.22161,2220,2-a,E,Supérieure à 10 t/j ,2020-03-16,,,En fonctionnement,2220,2-a,E,17.000,t/j
+0065.22173,2712,1,E,"Stockage, dépollution, démontage,… de VHU",2020-10-12,,2020-10-12,En fonctionnement,2712,1,E,7100.000,m2
 0065.22181,2515,2,D,"Broyage, concassage, criblage... de pierres... et autres minéraux",1993-10-11,1993-10-11,2012-07-05,En fonctionnement,89,2,D,150000.000,t
 0065.22181,2515,2,D,"Broyage, concassage, criblage... de pierres... et autres minéraux",1993-10-11,1993-10-11,2012-07-05,En fonctionnement,89,2,D,200.000,kW
 0065.22181,2518,a,E,Installation de production de béton prêt à l'emploi,2020-03-25,2020-03-25,,En fonctionnement,2518,a,E,4.500,m3
@@ -11054,15 +11373,25 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.22423,2515,1-a,E,"Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes",2019-12-05,,,En fonctionnement,2515,1-a,E,675.000,kW
 0065.22423,2517,1,E,Produits minéraux ou déchets non dangereux inertes (transit),2019-12-05,,,En fonctionnement,2517,1,E,10000.000,m2
 0065.22423,2716,1,E,déchets non dangereux non inertes (transit),2019-12-05,,,En fonctionnement,2716,1,E,2600.000,m3
+0065.22464,2220,2-a,E,Supérieure à 10 t/j ,2021-02-15,2020-02-15,,En fonctionnement,2220,2-a,E,68.000,t/j
+0065.22464,47xx,,NC,,,2021-02-15,,En fonctionnement,47xx,,NC,,
 0065.22506,2517,2,D,Produits minéraux ou déchets non dangereux inertes (transit),2019-06-06,2019-07-01,2019-06-06,En fonctionnement,2517,2,D,9500.000,m2
 0065.22506,2517,2,D,Produits minéraux ou déchets non dangereux inertes (transit),2020-02-12,,,En fonctionnement,2517,2,D,6650.000,m2
 0065.22506,2518,b,D,Installation de production de béton prêt à l'emploi,2020-02-12,,,En fonctionnement,2518,b,D,1.500,m3
 0065.22506,2515,1-a,E,"Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes",2020-02-12,,,En fonctionnement,2515,1-a,E,350.000,kW
 0065.22506,2716,1,E,déchets non dangereux non inertes (transit),2020-02-12,,,En fonctionnement,2716,1,E,5000.000,m3
 0065.22582,2760,3,E,Installation de stockage de déchets inertes,2021-01-26,,,En fonctionnement,2760,3,E,98000.000,
+0065.22592,1185,2-a,D,Quantité susceptible d'être présente,2020-04-27,,,En fonctionnement,1185,2-a,D,2928.000,kg
+0065.22592,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2020-04-27,,,En fonctionnement,2925,1,D,51.000,kW
+0065.22592,2910,A-1,E,Combustion,2020-04-27,,,En fonctionnement,2910,A-1,E,49.500,MW
+0065.22592,47xx,,NC,,,,,En fonctionnement,47xx,,NC,,
+0065.22794,2781,1-b,E,Installations de méthanisation de déchets non dangereux,2020-12-16,,,En fonctionnement,2781,1-b,E,99.200,t/j
 0065.22824,2712,2,A,"Stockage, dépollution, démontage,… de VHU",2021-03-01,,2021-03-01,En fonctionnement,2712,2,A,5500.000,m2
 0065.22824,2713,2,D,Métaux et déchets de métaux (transit),2021-03-01,,2021-03-01,En fonctionnement,2713,2,D,100.000,m2
 0065.22824,2517,,NC,Station de transit de produits minéraux autres,2021-03-01,,2021-03-01,En fonctionnement,2517,,NC,20.000,m2
+0065.22836,1510,2-b,E,Entrepot enregistré,2021-06-09,2021-06-09,,En fonctionnement,1510,2-b,E,107770.000,m3
+0065.22836,2910,A,NC,Combustion,2021-06-09,2021-06-09,,En fonctionnement,2910,A,NC,0.990,MW
+0065.22836,2925,,NC,Charge d'accumulateurs,2021-06-09,2021-06-09,,En fonctionnement,2925,,NC,49.990,kW
 0065.22871,1200,1-b,A,"Comburants (fabrication, emploi, stockage)",1979-12-24,,1979-12-24,En fonctionnement,123,#,unknown,1.000,
 0065.22871,2522,b,D,Installation de fabrication de produits en béton par procédé mécanique,1979-12-24,,1979-12-24,En fonctionnement,269,2,unknown,1.000,m
 0065.22871,2560,2,D,"Supérieure à 150 kW, mais inférieure ou égale à 1 000 kW",1979-12-24,,1979-12-24,En fonctionnement,375,1,unknown,1.000,u
@@ -11075,23 +11404,57 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0065.22986,1530,1,E,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",2020-08-03,2020-08-03,,En fonctionnement,1530,2,E,35700.000,m3
 0065.22986,1532,2-a,E,Stockage de bois enregistré,2020-08-03,2020-08-03,,En fonctionnement,1532,2,E,35700.000,m3
 0065.23021,2221,1,E,Supérieure à 4t/j,2020-10-13,,,En fonctionnement,2221,1,E,57.000,t/j
+0065.23057,2710,2-a,E,collecte de déchets non dangereux-E,2020-11-23,,,En fonctionnement,2710,2-a,E,595.000,m3
 0065.23228,2714,,NC,"Transit, regroupement ou tri de déchets non dangereux de papiers/cartons, plastiques, caoutchouc, textiles, bois",2021-01-05,2021-01-05,,En fonctionnement,2714,,NC,100.000,m3
 0065.23228,2712,1,E,"Stockage, dépollution, démontage,… de VHU",2021-01-05,,,En fonctionnement,2712,1,E,7713.000,m2
+0065.23234,2515,1-b,D,"Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes",2021-01-07,2021-01-07,,En fonctionnement,2515,1-b,D,190.000,kW
+0065.23234,2910,A-2,D,Combustion,2021-01-07,2021-01-07,,En fonctionnement,2910,A-2,D,19.000,MW
+0065.23234,2517,1,E,Produits minéraux ou déchets non dangereux inertes (transit),2021-01-07,2021-01-07,,En fonctionnement,2517,1,E,20000.000,m2
+0065.23234,2521,1,E,Centrale d'enrobage à chaud,2021-01-07,2021-01-07,,En fonctionnement,2521,1,E,240.000,
+0065.23234,1435,,NC,Stations service,2021-01-07,2021-01-07,,En fonctionnement,1435,,NC,500.000,m3
+0065.23234,47xx,,NC,,,2021-01-07,,En fonctionnement,47xx,,NC,,
+0065.23234,47xx,,NC,,,2021-01-07,,En fonctionnement,47xx,,NC,,
 0065.23332,2120,1,A,"Chiens (élevage, vente, transit, garde, fourrières)",2020-02-09,,2020-02-09,En fonctionnement,2120,1,A,15.000,u
 0065.23370,2515,1-a,E,"Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes",2010-01-05,2010-01-05,2010-01-05,En fonctionnement,2515,1-a,E,370.000,kW
 0065.23370,2517,,NC,Station de transit de produits minéraux autres,2010-01-05,2010-01-05,2010-01-05,En fonctionnement,2517,,NC,2000.000,m2
 0065.23370,2716,1,E,déchets non dangereux non inertes (transit),2019-12-24,2019-12-24,,En fonctionnement,2716,1,E,2000.000,m3
 0065.23376,2120,1,A,"Chiens (élevage, vente, transit, garde, fourrières)",2020-01-31,,2020-01-31,En fonctionnement,2120,1,A,100.000,u
 0065.23377,2120,1,A,"Chiens (élevage, vente, transit, garde, fourrières)",2020-02-04,,2020-02-04,En fonctionnement,2120,1,A,30.000,u
+0065.23380,2760,3,E,Installation de stockage de déchets inertes,2021-04-08,,,En fonctionnement,2760,3,E,800000.000,
 0065.23423,2515,1-a,E,"Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes",2020-03-09,,,En fonctionnement,2515,1-a,E,241.500,kW
 0065.23535,2565,2-a,E,Traitement de surface,1960-02-13,,1960-02-13,En fonctionnement,288,2,unknown,2580.000,L
 0065.23540,2565,2-a,E,Traitement de surface,1960-02-13,,1960-02-13,En fonctionnement,288,2,unknown,2580.000,
 0065.23638,2921,b,D,La puissance thermique évacuée maximale étant inférieure à 3 000 kW,2020-03-30,,,En fonctionnement,2921,b,D,1750.000,kW
 0065.23638,47xx,,NC,,,,,En fonctionnement,47xx,,NC,,
 0065.23684,2515,1-a,E,"Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes",2021-03-02,,,En fonctionnement,2515,1-a,E,261.000,kW
+0065.23752,2716,1,E,déchets non dangereux non inertes (transit),2021-01-08,2021-01-08,,En fonctionnement,2716,1,E,5000.000,m3
+0065.23752,2517,,NC,Station de transit de produits minéraux autres,2021-01-08,2021-01-08,,En fonctionnement,2517,,NC,2700.000,m2
+0065.23755,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2021-04-21,2020-05-11,2020-05-11,En fonctionnement,2925,1,D,150.000,kW
+0065.23755,1510,2-b,E,Entrepot enregistré,2021-04-21,2021-04-21,,En fonctionnement,1510,2-b,E,158400.000,m3
+0065.23765,2515,1-b,D,"Broyage, concassage,...et autres produits minéraux ou déchets non dangereux inertes",2020-05-22,2020-05-22,,En fonctionnement,2515,1-b,D,145.000,kW
+0065.23765,2517,1,E,Produits minéraux ou déchets non dangereux inertes (transit),2020-05-22,2020-05-22,,En fonctionnement,2517,1,E,15000.000,m2
+0065.23765,47xx,,NC,,,2020-05-22,,En fonctionnement,47xx,,NC,,
 0065.23889,2221,1,E,Supérieure à 4t/j,2021-01-08,2021-01-08,,En fonctionnement,2221,1,E,40.000,t/j
+0065.24103,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2021-07-30,2021-06-23,,En fonctionnement,2925,1,D,150.000,kW
+0065.24103,1510,2-b,E,Entrepot enregistré,2021-07-30,2021-07-30,,En fonctionnement,1510,2-b,E,153650.000,m3
 0065.24148,2713,2,D,Métaux et déchets de métaux (transit),2020-10-12,2020-10-12,,En fonctionnement,2713,2,D,720.000,m2
 0065.24148,2714,1,E,"déchets non dangereux de papiers, plastiques, bois,… (transit) hors 2710,2711 et 2719",2020-10-12,2020-10-12,,En fonctionnement,2714,1,E,1560.000,m3
+0065.24414,1185,2-a,D,Quantité susceptible d'être présente,2021-06-25,2021-06-25,,En fonctionnement,1185,2-a,D,300.000,kg
+0065.24414,1436,2,D,Liquides combustibles de point éclair compris entre 60° C et 93° C (stockage ou emploi de),2021-06-25,2021-06-25,,En fonctionnement,1436,2,D,560.000,t
+0065.24414,1450,2,D,Solides inflammables,2021-06-25,2021-06-25,,En fonctionnement,1450,2,D,990.000,kg
+0065.24414,1511,2,D,Entrepôts frigorifiques,2021-06-25,2021-06-25,,En fonctionnement,1511,2,D,15624.000,m3
+0065.24414,1530,2,D,"Papiers, cartons ou analogues (dépôt de) hors ERP et 1510",2021-06-25,2021-06-25,,En fonctionnement,1530,2,D,15624.000,m3
+0065.24414,1532,2-b,D,Stockage bois déclaré,2021-06-25,2021-06-25,,En fonctionnement,1532,2-b,D,15624.000,m3
+0065.24414,2910,A-2,D,Combustion,2021-06-25,2021-06-25,,En fonctionnement,2910,A-2,D,1.500,MW
+0065.24414,2925,1,D,Charge d'accumulateurs dégageant de l'hydrogène,2021-06-25,2021-06-25,,En fonctionnement,2925,1,D,240.000,kW
+0065.24414,4320,2,D,Aérosols extrêmement inflammables ou inflammables de catégorie 1 ou 2,2021-06-25,2021-06-25,,En fonctionnement,4320,2,D,85.000,t
+0065.24414,4330,2,D,Liquides inflammables de catégorie 1,2021-06-25,2021-06-25,,En fonctionnement,4330,2,D,3.000,t
+0065.24414,4331,3,D,Liquides inflammables de catégorie 2 ou catégorie 3,2021-06-25,2021-06-25,,En fonctionnement,4331,3,D,95.000,t
+0065.24414,4510,2,D,Dangereux pour l'environnement aquatique de catégorie aiguë 1 ou chronique 1,2021-06-25,2021-06-25,,En fonctionnement,4510,2,D,50.000,t
+0065.24414,1510,2-b,E,Entrepot enregistré,2021-06-25,2021-06-25,,En fonctionnement,1510,2-b,E,15624.000,m3
+0065.24414,2662,1,E,Stockage de polymères enregistré,2021-06-25,2021-06-25,,En fonctionnement,2662,1,E,39990.000,m3
+0065.24414,2663,1-a,E,Stockage de pneumatiques alvéolaires ou expansés,2021-06-25,2021-06-25,,En fonctionnement,2663,1-a,E,44990.000,m3
+0065.24509,2760,3,E,Installation de stockage de déchets inertes,2021-07-05,,,En fonctionnement,2760,3,E,0.000,
 0065.24727,2140,#,A,Présentation au public d’animaux d’espèces non domestiques,1993-08-03,,1993-08-03,En fonctionnement,2140,#,A,1.000,
 0065.24755,1431,#,A,"Liquides inflammables, traitement pétrole et dérivés (fabrication )",1948-07-22,1948-07-22,1948-07-22,En fonctionnement,167,2,unknown,0.000,
 0065.24755,2521,,NC,Centrale d’enrobage,1948-07-22,1948-07-22,1948-07-22,En fonctionnement,216,B-2-b,unknown,200.000,L
@@ -12760,6 +13123,7 @@ s3ic_id,rubrique,alinea,regime,activite,date_autorisation,date_mise_en_service,l
 0400.00312,2221,1,E,Supérieure à 4t/j,2018-07-31,,,En fonctionnement,2221,1,E,40.000,t/j
 0400.00314,4220,1,A,Produits explosifs (stockage de),2016-02-09,,2016-02-09,En fonctionnement,4220,1,A,3600.000,kg
 0400.00323,2120,1,A,"Chiens (élevage, vente, transit, garde, fourrières)",2002-09-16,,2002-09-16,En fonctionnement,2120,1,A,50.000,
+0400.00325,1434,2,A,Liquides inflammables (remplissage ou distribution) autres que 1435,2000-03-02,,2000-03-02,En fonctionnement,1434,2,A,1.000,
 0577.00004,2120,1,A,"Chiens (élevage, vente, transit, garde, fourrières)",2005-12-06,,2005-12-06,En fonctionnement,2120,1,A,150.000,Animaux
 0577.00015,2120,1,A,"Chiens (élevage, vente, transit, garde, fourrières)",2011-05-20,,2011-05-20,En fonctionnement,2120,1,A,200.000,Animaux
 0577.00021,2101,2-b,E,"Bovins (élevage, vente, transit,  etc)",1992-06-16,2016-12-05,1992-06-16,En fonctionnement,2101,2-b,E,280.000,u
