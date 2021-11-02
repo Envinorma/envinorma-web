@@ -12,7 +12,7 @@ class Classement < ApplicationRecord
   validate :volume_format
 
   def volume_format
-    start_with_number = (volume =~ /\A[0-9]+([.,][0-9]+)?\z/) || (volume =~ /\A[0-9]+([.,][0-9]+)?\s([a-zA-Z]+)/)
+    start_with_number = (volume =~ /\A[0-9]+([.,][0-9]+)?\z/) || (volume =~ /\A[0-9]+([.,][0-9]+)?\s.+/)
     return unless volume.present? && !start_with_number
 
     errors.add(:volume,
