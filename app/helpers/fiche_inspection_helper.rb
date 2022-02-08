@@ -17,7 +17,7 @@ module FicheInspectionHelper
         output_filename = 'fiche_inspection.odt'
         generate_envinorma_odt(file.path, prescriptions, group_by_topics)
       end
-      send_fiche(File.open(file.path, 'rb', &:read), output_filename)
+      send_fiche(File.binread(file.path), output_filename)
     end
   end
 
