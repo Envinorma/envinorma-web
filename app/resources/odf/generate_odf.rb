@@ -49,9 +49,7 @@ module Odf
     def write_new_document(input_filename, new_content_xml, new_filename)
       Dir.mktmpdir do |tmp_dir|
         names = unzip_file(input_filename, tmp_dir)
-        File.write(File.join(tmp_dir, CONTENT_NAME)) do |f|
-          f.write(new_content_xml)
-        end
+        File.write(File.join(tmp_dir, CONTENT_NAME), new_content_xml)
         zip_files(names, tmp_dir, new_filename)
       end
     end
