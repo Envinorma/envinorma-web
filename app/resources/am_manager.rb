@@ -22,7 +22,7 @@ class AMManager
   end
 
   def self.fetch_existing_am_ids
-    AM.all.map { |am| [am.cid, am.id] }.to_h
+    AM.all.to_h { |am| [am.cid, am.id] }
   end
 
   def self.recreate(ams_to_seed, ams_ids_in_db)

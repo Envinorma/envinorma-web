@@ -29,7 +29,7 @@ module DownloadHelpers
   def raw_download_content(filename)
     wait_for_download
     unzip_file(PATH.join(filename))
-    File.open(OUTPUT_DIR.join('content.xml')).read.force_encoding(Encoding::UTF_8)
+    File.read(OUTPUT_DIR.join('content.xml')).force_encoding(Encoding::UTF_8)
   end
 
   def wait_for_download

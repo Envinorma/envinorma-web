@@ -73,9 +73,9 @@ module FilterAMs
   def alineas_match?(am, installation_classements) # rubocop:disable Naming/MethodParameterName
     # Computes whether at least one classement alinea of the installation matches the alinea defined in
     # the AM classements
-    alineas_by_rubrique_regime = am.classements_with_alineas.map do |classement|
+    alineas_by_rubrique_regime = am.classements_with_alineas.to_h do |classement|
       [[classement['rubrique'], classement['regime']], classement['alineas']]
-    end.to_h
+    end
     matches = installation_classements.map do |classement|
       am_alineas = alineas_by_rubrique_regime[[classement.rubrique, classement.regime]]
       am_alineas.empty? ? true : am_alineas.include?(classement.alinea)

@@ -3,7 +3,7 @@
 class AP < ApplicationRecord
   belongs_to :installation
 
-  validates :georisques_id, :installation_id, :installation_s3ic_id, presence: true
+  validates :georisques_id, :installation_s3ic_id, presence: true
   validates :georisques_id, length: { is: 36 }
   validates :georisques_id, format: { with: %r{\A([A-Z]{1}/[a-f0-9]{1}/[a-f0-9]{32})\z},
                                       message: 'check georisques_id format' }
