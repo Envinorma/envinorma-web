@@ -37,7 +37,7 @@ module FicheInspectionHelper
   end
 
   def generate_gun_env_ods(output_file, prescriptions)
-    input_template = TEMPLATES_FOLDER.join('gun_env_template_v2.ods')
+    input_template = TEMPLATES_FOLDER.join('gun_env_template.ods')
     tables = prescriptions.empty? ? [] : [prepare_gun_env_rows(prescriptions)]
     generate_open_document_file([], tables, input_template, output_file)
   end
