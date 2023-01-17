@@ -7,6 +7,9 @@
 # Ignore auto-generated lock files
 *.lock
 
+# Ignore env variables
+config/application.yml
+
 # Ignore bundler config.
 /.bundle
 vendor/bundle
