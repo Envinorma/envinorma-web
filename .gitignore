@@ -4,6 +4,9 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+# Ignore auto-generated lock files
+*.lock
+
 # Ignore bundler config.
 /.bundle
 vendor/bundle
@@ -25,7 +28,6 @@ vendor/bundle
 
 /public/assets
 .byebug_history
-
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
